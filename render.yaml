@@ -1,0 +1,24 @@
+# Prepared alternative static hosting; no live Render service or domain is provisioned.
+# Booking API/database/worker require a separate reviewed deployment after vendor contracts.
+services:
+  - type: web
+    name: hornigold-review
+    runtime: static
+    repo: https://github.com/kamilkita-ux/hornigold-preview
+    branch: main
+    autoDeployTrigger: off
+    buildCommand: pip install -r requirements.txt && python scripts/build.py --base / && python scripts/audit_static.py --base /
+    staticPublishPath: ./_site
+    headers:
+      - path: /*
+        name: X-Robots-Tag
+        value: noindex, nofollow, noarchive
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
