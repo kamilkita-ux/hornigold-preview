@@ -4,7 +4,7 @@ __pycache__/
 .env*
 *.pem
 *.key
-node_modules/
+node_modules
 .venv/
 *.sqlite*
 *.db
@@ -13,3 +13,5 @@ node_modules/
 _pages/
 dist/
 .wrangler/
+
+_production_ready/

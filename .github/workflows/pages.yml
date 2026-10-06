@@ -25,8 +25,9 @@ jobs:
           PAGES_BASE: ${{ steps.pages.outputs.base_path }}
         run: |
           PAGES_BASE="${PAGES_BASE%/}/"
-          python scripts/build.py --base "${PAGES_BASE:-/}"
+          python scripts/build.py --mode preview --base "${PAGES_BASE:-/}"
           python scripts/audit_static.py --base "${PAGES_BASE:-/}"
+          python scripts/audit_seo.py --mode preview
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           path: _site

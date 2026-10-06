@@ -93,3 +93,20 @@ Przywrócenie starego projektu Sites jest możliwe przez jego historię wersji. 
 ## Domena i pełne funkcje
 
 Techniczna obsługa katalogu głównego nie oznacza gotowości do uruchomienia sprzedaży. GitHub Pages nie wykonuje kodu `server/`, nie zapisuje licznika D1 ani nie łączy się z PMS/Fiserv. Te funkcje wymagają hostingu serwerowego. Zasady GitHub Pages wykluczają używanie go jako darmowego hostingu do prowadzenia biznesu online i witryn nastawionych na transakcje handlowe: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits (sprawdzone 2026-10-06). Dla docelowej strony sprzedażowej kod zostaje na GitHubie, a wdrożenie i domena muszą trafić na odpowiedni hosting. Instrukcja: `docs/DOMENA-I-ODBIOR.md`.
+
+
+## Lokalna gotowość SEO — bez publikacji
+
+Prace SEO na gałęzi `codex/seo-readiness-verified-20261006` są wyłącznie lokalne. Nie uruchamiaj push, publikacji, zmian domeny ani indeksowania na podstawie tych testów.
+
+- `python3 scripts/build.py --mode preview --base /hornigold-preview/` tworzy `_site/`: pełne noindex/nofollow/noarchive, Disallow: /, bez sitemapy. Tryb domyślny nadal jest preview.
+- `python3 scripts/build.py --mode production-ready --base /` tworzy osobny `_production_ready/`: 693 kanoniczne trasy, robots i sitemapę dla hornigold.pl. Jest to artefakt lokalny, a nie publikacja lub gotowość całej działalności do sprzedaży. Nie zmienia `_site/`, DNS ani rezerwacji.
+- `python3 scripts/audit_seo.py --mode preview` oraz `--mode production-ready` zapisują pełne raporty w `docs/seo/`.
+- `python3 -m unittest discover -s tests -p 'test_seo.py'` sprawdza m.in. ochronę podglądu i izolację trybów.
+- `python3 scripts/build_redirect_draft.py` odtwarza `REDIRECT_MAP_DRAFT.csv` z lokalnych aliasów; wymagana późniejsza weryfikacja starej domeny i zatwierdzenie mapy.
+- `seo/metadata-overrides.json` zawiera jawne poprawki tytułów i opisów. `seo/structured-data-policy.json` dokumentuje zachowawczy zakres JSON-LD. Widocznych cen, oferty i danych kontaktowych nie zmieniano.
+- CI Pages nadal publikuje wyłącznie `_site/` w trybie preview. `_production_ready/` jest ignorowany przez Git i nie jest czytany przez workflow. Pakowanie Sites wymaga trybu preview.
+
+Kolejność późniejszego wdrożenia i ograniczenia: `SEO_PRODUCTION_HANDOFF.md`. Bieżąca macierz odbioru: `SEO_RELEASE_READINESS.md`. Nie mylić daty/wersji starszego raportu publikacji z obecnymi zmianami lokalnymi.
+
+Worktree `hornigold-seo-readiness-review` jest zweryfikowaną kopią niezapisanych prac SEO z repozytorium głównego. Stan wejściowy zabezpieczono na Mac mini; źródłowego drzewa nie nadpisano. Późniejsze przeniesienie zmian wymaga porównania z aktualnym drzewem, a nie kopiowania w ciemno.

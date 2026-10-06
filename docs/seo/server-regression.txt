@@ -1,0 +1,15 @@
+site_counter_unavailable
+✔ existing counter survives concurrent increments and database reopen (191.075333ms)
+✔ foreign origins and missing headers cannot increment (1.113917ms)
+✔ failed database never returns a fake count (0.764625ms)
+✔ every legacy alias redirects with the selected dates and guests (38.380458ms)
+✔ root uses saved-language document and standard pages have protective headers (0.924834ms)
+✔ all language errors preserve HTTP404, correct language and no stale conditional request (3.159042ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 409.316583

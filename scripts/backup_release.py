@@ -7,7 +7,7 @@ if not host.lower().startswith('mac-mini-kamil'):raise SystemExit('Mac mini not 
 D=Path.home()/'Documents/Hornigold-backups'/datetime.datetime.now().astimezone().strftime('%Y-%m-%d_%H%M%S-release23')
 D.mkdir(parents=True,exist_ok=False)
 subprocess.run(['git','bundle','create',str(D/'history.bundle'),'--all'],cwd=R,check=True,capture_output=True)
-excluded={'.git','node_modules','_site','_pages','dist','.wrangler','__pycache__','.venv'}
+excluded={'.git','node_modules','_site','_pages','_production_ready','dist','.wrangler','__pycache__','.venv'}
 files=[p for p in R.rglob('*') if p.is_file() and not any(x in excluded for x in p.relative_to(R).parts)]
 manifest=[]
 with tarfile.open(D/'working-source.tar.gz','w:gz') as tar:

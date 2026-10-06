@@ -4,6 +4,7 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const release=JSON.parse(await readFile(path.join(root,'_site/release.json'),'utf8'));
+if(release.buildMode!=='preview')throw Error('Production-ready artifact is local-only; Sites packaging refused');
 if(release.base!=='/'||!release.counterEnabled)throw Error('Run build.py --base / --counter first');
 const manifest=JSON.parse(await readFile(path.join(root,'.openai/hosting.json'),'utf8'));
 if(manifest.project_id!=='appgprj_6ac24ff4d7d08191aef99366bb3d966f')throw Error('Unexpected Site project');

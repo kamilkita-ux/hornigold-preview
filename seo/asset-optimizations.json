@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-06",
+  "source": "site/assets/katowice-editorial-ai.png",
+  "optimized": "site/assets/katowice-editorial-lossless.webp",
+  "operation": "lossless format transcoding; decoded RGBA pixels and dimensions identical",
+  "sourcePreserved": true,
+  "sourceBytes": 2914508,
+  "optimizedBytes": 2226938,
+  "sourceSha256": "bb36b344d1e31adc3d99d89b64a09a60a9313f28e8b580fa28afcbfe9ecf9122",
+  "optimizedSha256": "fca57d1487332789056e0969e3c58cd32890ea62a598a55d84b1ced3a4b51999",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "htmlFiles": [
+    "site/zh-hans/\u57ce\u5e02\u4e0e\u5468\u8fb9/index.html",
+    "site/pl/miasto-i-okolice/index.html",
+    "site/it/citta-e-dintorni/index.html",
+    "site/uk/\u043c\u0456\u0441\u0442\u043e-\u0442\u0430-\u043e\u043a\u043e\u043b\u0438\u0446\u0456/index.html",
+    "site/de/stadt-und-umgebung/index.html",
+    "site/es/ciudad-y-alrededores/index.html",
+    "site/en/city-and-surroundings/index.html"
+  ],
+  "savedBytesPerImage": 687570,
+  "savedPercent": 23.6
+}

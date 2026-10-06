@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-06",
+  "source": "isolated dated source snapshot",
+  "legacySchemaTypes": {
+    "WebPage": 693,
+    "LodgingBusiness": 693,
+    "Organization": 693,
+    "BreadcrumbList": 686,
+    "FAQPage": 7,
+    "Article": 196,
+    "MeetingRoom": 21,
+    "Accommodation": 63
+  },
+  "unverifiedFieldOccurrencesRemovedFromArtifacts": {
+    "telephone": 693,
+    "address": 1386,
+    "checkinTime": 693,
+    "checkoutTime": 693,
+    "numberOfRooms": 693,
+    "amenityFeature": 756,
+    "author": 196
+  },
+  "productionAllowedTypes": [
+    "WebPage"
+  ],
+  "businessFactsNotApprovedByThisAudit": true
+}

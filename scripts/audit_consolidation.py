@@ -22,8 +22,8 @@ for route in routes:
   if not s.select_one(selector):errors.append(route+' missing '+selector)
  if s.select_one('[data-site-version]').text!='23':errors.append(route+' wrong version')
  if s.select_one('main') and __import__('re').search(r'\bhotel\b',s.main.get_text(' ',strip=True),__import__('re').I):errors.append(route+' hotel terminology')
- locs=ET.parse(R/'site/sitemap.xml').getroot().findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc') if pages==1 else locs
-if {urlsplit(e.text).path for e in locs}!=set(routes):errors.append('Sitemap differs from route catalog')
+ # Sitemap belongs to the isolated production-ready artifact, never the preview source.
+if (R/'site/sitemap.xml').exists():errors.append('Indexable sitemap must not remain in preview source')
 for lang in ['pl','en','de','zh-hans','uk','es','it']:
  d=json.loads((R/'legal'/f'{lang}.json').read_text());sections={s['id']:s for s in d['sections']}
  if len(sections)!=6 or len(sections['cookies']['paragraphs'])!=5:errors.append(lang+' legal sections')

@@ -2,6 +2,7 @@
 const fs=require('node:fs');const path=require('node:path');
 const {chromium,firefox,webkit}=require('playwright');
 const base=process.env.AUDIT_URL||'http://127.0.0.1:4329/';
+if(!['localhost','127.0.0.1'].includes(new URL(base).hostname))throw Error('Local QA only');
 const root=path.resolve(__dirname,'..');const report={started:new Date().toISOString(),base,cases:[],failures:[],limits:['Emulated viewports; not physical devices','WebKit is not the released Safari app','Automated checks are not a full WCAG or linguistic certification']};
 const plRoutes=['/pl/','/pl/pokoje/','/pl/pokoje/classic/','/pl/lokalizacja/','/pl/kontakt/','/pl/dokumenty/','/pl/miasto-i-okolice/','/pl/miasto-i-okolice/ilustracje/','/pl/miasto-i-okolice/gastronomia/','/pl/pobyt/','/pl/rezerwacja/','/pl/faq/'];
 function localized(route){const html=fs.readFileSync(path.join(root,'site',decodeURI(route),'index.html'),'utf8');return [...html.matchAll(/<link href="https:\/\/hornigold.pl([^"]+)" hreflang="([^"]+)" rel="alternate"/g)].filter(m=>m[2]!=='x-default').map(m=>({route:m[1],lang:m[2]}));}
@@ -11,7 +12,7 @@ const urlFor=r=>base.replace(/\/$/,'')+r;
 for(const [engine,browserType] of Object.entries({chromium,firefox,webkit})){
  const browser=await browserType.launch({headless:true});
  for(const viewport of views){
- const context=await browser.newContext({viewport});const page=await context.newPage();let errors=[];
+ const context=await browser.newContext({viewport,serviceWorkers:'block'});await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();let errors=[];
  page.on('pageerror',e=>errors.push('JS '+e.message));page.on('response',r=>{if(r.status()>=400)errors.push('HTTP '+r.status()+' '+r.url())});page.on('console',m=>{if(m.type()==='error')errors.push('console '+m.text())});
  for(const {route,lang} of routes){errors=[];try{
  await page.goto(urlFor(route),{waitUntil:'load',timeout:30000});

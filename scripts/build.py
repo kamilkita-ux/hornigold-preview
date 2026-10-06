@@ -1,15 +1,19 @@
-"""Build the standalone static preview for a domain root or a GitHub project path."""
+"""Build isolated preview or local-only production-ready static artifacts."""
 from pathlib import Path
 from urllib.parse import urlsplit,unquote
 import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
+from seo import load_routes, route_for_file, apply_seo, write_indexing_files
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 VERSION=str(RELEASE['version'])
-args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');opts=args.parse_args()
+args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
 if not re.fullmatch(r'/[A-Za-z0-9_/-]*',BASE):raise SystemExit('Invalid base path')
-OUT=ROOT/'_site'
+if opts.mode=='production-ready' and (BASE!='/' or opts.counter):raise SystemExit('production-ready requires --base / and does not enable server integrations')
+OUT=ROOT/('_site' if opts.mode=='preview' else '_production_ready')
+ROUTES=load_routes(ROOT)
+OVERRIDES=json.loads((ROOT/'seo/metadata-overrides.json').read_text())
 if OUT.exists():shutil.rmtree(OUT)
 shutil.copytree(ROOT/'site',OUT)
 def prefixed(url):return BASE+url.lstrip('/') if url.startswith('/') and not url.startswith('//') else url
@@ -18,6 +22,7 @@ p=OUT/'assets/root-language.js';s=p.read_text().replace("location.replace('/'+la
 p=OUT/'assets/error-language.js';s=p.read_text().replace('location.pathname.replace(', 'location.pathname.slice('+str(len(BASE)-1)+').replace(').replace("a.href='/'+a.dataset.language",'a.href='+json.dumps(BASE)+'+a.dataset.language');p.write_text(s)
 for p in OUT.rglob('*.html'):
  s=BeautifulSoup(p.read_text(),'html.parser')
+ apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
  if opts.counter and s.select_one('[data-site-version]'):
   meta=s.new_tag('meta');meta['name']='hornigold-counter-endpoint';meta['content']=BASE+'api/site-stats';s.head.append(meta)
  for el in s.select('[href],[src],[action],[poster]'):
@@ -36,6 +41,7 @@ for p in OUT.rglob('*.html'):
  if not s.select_one('meta[name=robots]'):
   meta=s.new_tag('meta');meta['name']='robots';meta['content']='noindex,nofollow,noarchive';s.head.append(meta)
  p.write_text(str(s))
+write_indexing_files(OUT,opts.mode,ROUTES)
 p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE;p.write_text(json.dumps(d,ensure_ascii=False))
 # Validate every local document/asset link, and require the preview markers on real pages.
 errors=[];pages=0
@@ -44,7 +50,8 @@ for p in OUT.rglob('*.html'):
  if s.select_one('[data-site-version]'):
   pages+=1
   if s.select_one('[data-site-version]').get_text()!=VERSION:errors.append(str(p)+' wrong version')
-  if 'noindex' not in s.select_one('meta[name=robots]')['content']:errors.append(str(p)+' indexing')
+  expected='noindex' if opts.mode=='preview' else 'index'
+  if expected not in s.select_one('meta[name=robots]')['content'].split(','):errors.append(str(p)+' indexing')
   if s.select_one('.preview-bar'):errors.append(str(p)+' unexpected preview banner')
  for el in s.select('a[href],img[src],script[src],link[rel=stylesheet],form[action]'):
   raw=el.get('href') or el.get('src') or el.get('action');u=urlsplit(raw)
@@ -55,5 +62,5 @@ for p in OUT.rglob('*.html'):
 if pages!=693:errors.append('Expected 693 pages, found '+str(pages))
 if errors:raise SystemExit('\n'.join(errors[:30]))
 import os
-(OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'counterEnabled':opts.counter,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')
-print(json.dumps({'pages':pages,'base':BASE,'errors':0,'mode':'preview','output':str(OUT)}))
+(OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'buildMode':opts.mode,'indexing':opts.mode=='production-ready','published':False,'counterEnabled':opts.counter,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')
+print(json.dumps({'pages':pages,'base':BASE,'errors':0,'mode':opts.mode,'output':str(OUT)}))

@@ -9,3 +9,6 @@ As of 2026-10-06 the user approved consolidated publication to the existing Site
 The hornigold.pl domain, online reservations and payments remain unchanged/disabled. Keep noindex. Never replace actual payment/PMS verification with a mock test.
 
 Publication reports must always include both live website links: Sites and GitHub Pages, with accurate version/deployment status for each. This is an explicit owner preference from 2026-10-06.
+
+## Current SEO preparation boundary (2026-10-06)
+This SEO worktree is local-only. Do not push, publish, modify DNS/Pages/Search Console/analytics/CMS/profiles, or activate booking/payments based on the SEO reports. Preview remains blocked. `_production_ready/` is an isolated unpublished artifact. Original uncommitted work in `hornigold-github-preview` is not to be overwritten. A future external launch requires a separate instruction.

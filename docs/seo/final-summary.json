@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-06",
+  "scope": "local only, isolated worktree",
+  "published": false,
+  "pushed": false,
+  "previewIndexingBlocked": true,
+  "productionReadyPublished": false,
+  "routesPerMode": 693,
+  "htmlPerMode": 1241,
+  "linksPerMode": 68963,
+  "imageOccurrencesPerMode": 2604,
+  "reachableCanonicalRoutes": 693,
+  "hreflangLanguages": 7,
+  "xDefault": "Polish equivalent",
+  "previewSeoErrors": 0,
+  "productionSeoErrors": 0,
+  "browserCases": 819,
+  "browserFailures": 0,
+  "axeCases": 1386,
+  "axeFailures": 0,
+  "afterImageOptimizationCases": 42,
+  "afterImageOptimizationAxeCases": 14,
+  "labCases": 38,
+  "labFailures": 0,
+  "labSummary": {
+    "medianLcpMs": 68,
+    "maxLcpMs": 112,
+    "maxCls": 0,
+    "maxTransferBytes": 2338814
+  },
+  "redirectDraftRows": 1078,
+  "secretScan": {
+    "files": 3377,
+    "gitObjects": 8313,
+    "findings": []
+  },
+  "firstBrowserRunIncidentPreserved": true,
+  "reports": [
+    {
+      "path": "docs/seo/accessibility-production-ready.json",
+      "sha256": "c7b54103e6fdc56ebf4defbf79bd6b8c1973338658c9027a9bb3835803a79e08"
+    },
+    {
+      "path": "docs/seo/audit-preview.json",
+      "sha256": "19303363e7c36e4aa5dca028a7951c835705a9d8097f476bc2603920d01e8fe4"
+    },
+    {
+      "path": "docs/seo/audit-production-ready.json",
+      "sha256": "0ff01253d07321b6194cf39ab832b4f0f4cfd28e540e51c7b674856d22bf9334"
+    },
+    {
+      "path": "docs/seo/browser-preview-first-run.json",
+      "sha256": "7a39b3384bce3b748778243727c6a18dc1a9f329d9d521e11a0ee9d0548520c1"
+    },
+    {
+      "path": "docs/seo/browser-preview.json",
+      "sha256": "56fb6e93499dbcb82277101992a0ef512deb6748cdf3774589225dfd51cf8a67"
+    },
+    {
+      "path": "docs/seo/description-repairs.json",
+      "sha256": "dac34b88b240a3dca68a353934a183a1373dc877173893989a45da1faeba952a"
+    },
+    {
+      "path": "docs/seo/image-integrity.json",
+      "sha256": "5e8fe6138b5437623d1e10d71b019ca9ca6f8bdf17bc2a43476c2bac4c878bb8"
+    },
+    {
+      "path": "docs/seo/optimized-image-regression.json",
+      "sha256": "cf7bf0e1327bb2fbd23d8eb1ee9a155c78effc08be4954914f8915a263bef22d"
+    },
+    {
+      "path": "docs/seo/performance-before-image-optimization.json",
+      "sha256": "ad3c240d7b80cd2ad23c40fad66dad5d3cc19149fbc908220e9b9227b241cad5"
+    },
+    {
+      "path": "docs/seo/performance-local.json",
+      "sha256": "733233aeb6e3077473f27bcab105e228147ba6c916b460d9460c2a8456c17c92"
+    },
+    {
+      "path": "docs/seo/redirect-map.json",
+      "sha256": "bbf6e9aa2b11bbb2047e4335d9521a89f7d787c0f1e0946f85a326148b4e2603"
+    },
+    {
+      "path": "docs/seo/safety-tests.txt",
+      "sha256": "81a79a9ea59fee8e8e677db715d256d138b2a06ca66dca21143e22b216fe9360"
+    },
+    {
+      "path": "docs/seo/secrets-scan.json",
+      "sha256": "6316d3b1eb081548e1bb6d9e6d2a6dc0e04a7fddbeac356b2b8c2a65afba14da"
+    },
+    {
+      "path": "docs/seo/server-regression.txt",
+      "sha256": "8a3c723b421bfc6c5e8d450cc6c5f436edd55643a4897d03202ffd1215c42033"
+    },
+    {
+      "path": "docs/seo/snapshot-provenance.json",
+      "sha256": "f833c254964abbc734940a8175fafd5f5cd1a7473218d835406d058fb915d67b"
+    },
+    {
+      "path": "docs/seo/source-schema-review.json",
+      "sha256": "e7b7f34754fb4e9c86079d8bd7b567f5dba12f9e7787b1e39e6d46e3acba66bc"
+    },
+    {
+      "path": "docs/seo/static-preview.json",
+      "sha256": "184e7ccd08247454a0813d0ea501ab4d61b19be4f71a8ca0431e3b7aa7f07847"
+    }
+  ],
+  "notProven": [
+    "external link health",
+    "external indexing or rankings",
+    "field Core Web Vitals",
+    "full WCAG or legal compliance",
+    "business facts or translation approval"
+  ]
+}

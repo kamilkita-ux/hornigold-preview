@@ -1,0 +1,3258 @@
+{
+  "date": "2026-10-06",
+  "decoder": "Pillow full decode",
+  "images": 360,
+  "errors": [],
+  "results": [
+    {
+      "path": "site/assets/detail-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 106686,
+      "sha256": "a39f34c95c33120b81f8b2bd442ab18b9feea1cead49ee6647fbe88a9424a82a"
+    },
+    {
+      "path": "site/assets/katowice-editorial-ai.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 2914508,
+      "sha256": "bb36b344d1e31adc3d99d89b64a09a60a9313f28e8b580fa28afcbfe9ecf9122"
+    },
+    {
+      "path": "site/assets/hero-800.webp",
+      "dimensions": [
+        800,
+        361
+      ],
+      "bytes": 48398,
+      "sha256": "1cffd4b3953e7b0510bb4e2989d3fd0d87e8b6b48ae28b515f4234f27615ea30"
+    },
+    {
+      "path": "site/assets/classic-480.webp",
+      "dimensions": [
+        480,
+        360
+      ],
+      "bytes": 15158,
+      "sha256": "16a436292430542686c584289b097c428c7bd5cfabfb4668e981279542a0f042"
+    },
+    {
+      "path": "site/assets/hero-1600.webp",
+      "dimensions": [
+        1600,
+        722
+      ],
+      "bytes": 121308,
+      "sha256": "b219d0df16f55547934069eaf50c4a6e4f81b56fb178115c9233978b52a93e29"
+    },
+    {
+      "path": "site/assets/classic-1600.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 34264,
+      "sha256": "d3fe6916f561d1548d8f0697d70d62bba499ed03a942699da362d237f9d205a5"
+    },
+    {
+      "path": "site/assets/deluxe-480.webp",
+      "dimensions": [
+        480,
+        360
+      ],
+      "bytes": 19472,
+      "sha256": "e64b3f813b70a0e79dbf88ad42f95010a1ecec2f9f7d62225832f84be9d308ec"
+    },
+    {
+      "path": "site/assets/premiumdeluxe-480.webp",
+      "dimensions": [
+        480,
+        360
+      ],
+      "bytes": 22938,
+      "sha256": "87d996babcf5af2fc7ce9cb2fa67db9118534a18c110d15dba773879618b7990"
+    },
+    {
+      "path": "site/assets/deluxe-800.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 44246,
+      "sha256": "c03deff50d8b2102ab09dde1afe47232980c122192a162b333a680cb1cd2398d"
+    },
+    {
+      "path": "site/assets/premiumdeluxe-800.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 49484,
+      "sha256": "15da354ec9d467314498ff1c8b93340b3632abec98e1b85bca5524110e190559"
+    },
+    {
+      "path": "site/assets/katowice-editorial-thumb.webp",
+      "dimensions": [
+        240,
+        300
+      ],
+      "bytes": 14346,
+      "sha256": "e2afb1a481d7e99940e21209e83f2a8ec65457cee6e38720aad21002ce7e94a6"
+    },
+    {
+      "path": "site/assets/favicon.png",
+      "dimensions": [
+        64,
+        64
+      ],
+      "bytes": 5493,
+      "sha256": "7e91523d7f7fee48df67d12f6a74dafa456f881aee9fc0dee74c7b71ed1d8811"
+    },
+    {
+      "path": "site/assets/logo.png",
+      "dimensions": [
+        234,
+        160
+      ],
+      "bytes": 14109,
+      "sha256": "ab317fb18678cc72f745597801b47c9e97f5e7524df7b246309551d2fb81a9a0"
+    },
+    {
+      "path": "site/assets/entrance-flags-1800.webp",
+      "dimensions": [
+        1800,
+        1200
+      ],
+      "bytes": 578204,
+      "sha256": "49cf8ad46be424e66aad8cccef6b06f4baec707143ed7aa9169f067e8c4c2bd9"
+    },
+    {
+      "path": "site/assets/entrance-flags-600.webp",
+      "dimensions": [
+        600,
+        400
+      ],
+      "bytes": 68274,
+      "sha256": "d1fc0c66dd0490552f4e33e69b2df545b8c26e605c2fcf6df121a847ae36bbdf"
+    },
+    {
+      "path": "site/assets/detail-480.webp",
+      "dimensions": [
+        480,
+        720
+      ],
+      "bytes": 55112,
+      "sha256": "20b967414a4056f73f36b3f9084eb2f204e71762734f7aef6c9e0eba3c46e848"
+    },
+    {
+      "path": "site/assets/deluxe-1600.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 44246,
+      "sha256": "c03deff50d8b2102ab09dde1afe47232980c122192a162b333a680cb1cd2398d"
+    },
+    {
+      "path": "site/assets/premiumdeluxe-1600.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 49484,
+      "sha256": "15da354ec9d467314498ff1c8b93340b3632abec98e1b85bca5524110e190559"
+    },
+    {
+      "path": "site/assets/hero-480.webp",
+      "dimensions": [
+        480,
+        216
+      ],
+      "bytes": 21730,
+      "sha256": "2b7923b30a1290f5587419acfb7fdb310e3b8594be4d90095ec094cdf990b7e6"
+    },
+    {
+      "path": "site/assets/classic-800.webp",
+      "dimensions": [
+        800,
+        600
+      ],
+      "bytes": 34264,
+      "sha256": "d3fe6916f561d1548d8f0697d70d62bba499ed03a942699da362d237f9d205a5"
+    },
+    {
+      "path": "site/assets/entrance-flags-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 267020,
+      "sha256": "0bb195ed794873e9c98a5c6ebbff6f719e6f396c6a3304f911b42a21935e2644"
+    },
+    {
+      "path": "site/assets/detail-1600.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 175654,
+      "sha256": "3d009b6b9dfeef1d5ca7a312f3289c1889c783f851da48d46b86cfaf3a569941"
+    },
+    {
+      "path": "site/assets/memorial/birkenau.jpg",
+      "dimensions": [
+        1280,
+        852
+      ],
+      "bytes": 244003,
+      "sha256": "6265ec5bdb0a08ce22dbc7b54d48c8091b14057bf46398e8df0efe83136eea9d"
+    },
+    {
+      "path": "site/assets/city-gallery/at-02-nospr-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 204278,
+      "sha256": "83d0aff1e39008b8dc4bca5848a94510e44c6d7f218833b13d6ea692599ec272"
+    },
+    {
+      "path": "site/assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 139848,
+      "sha256": "5dfb520d2cbe0a8652455ff05aec07703efec1257e93cb583f6c365ecb402229"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-11-hala-dworcowa-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37104,
+      "sha256": "76ec67fa5044e4ed1bf9a3419c94146994b1f1965c582c2877e370c95977f9e2"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-17-muzyka-filharmonia-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 25658,
+      "sha256": "b73b57ad249a23cb8c565d8fc93f36124a32e3d000b587649bfd5912ece67389"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-20-panorama-slaska-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 220532,
+      "sha256": "aa82478ad184bbc1e325300b30a54e6158a4381e7788c1c71be76fa6e1073bfa"
+    },
+    {
+      "path": "site/assets/city-gallery/at-07-archikatedra-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 29974,
+      "sha256": "cd61efac016bf5444da16728a7d2ee706a990b4b2867be57cb4ca48fcabde7e1"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-12-wieza-wodna-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37106,
+      "sha256": "83fadfa2757504c2e6e615e3da7ca6916c1d2affbb0b90b8572964092fb7bbee"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-14-teatr-klasyczny-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 86244,
+      "sha256": "c606cafc55f1a0ccab3971a98145251b60644212366e1abb75c29934a332aa3e"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-01-katedra-inspirowana-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 258698,
+      "sha256": "0faee802df525d6352fd28011486c96e6a745b1fc271faf1d24a7bc2cfec8090"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-03-opera-inspirowana-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 106446,
+      "sha256": "bdc89dd88e1414efa8f627d2adb9c2af4044dec141346337c277971998640b0c"
+    },
+    {
+      "path": "site/assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 247674,
+      "sha256": "7da2f0b33b371ea559fc84c012bd20856fe8d330de3c6868371f2ea5b1624667"
+    },
+    {
+      "path": "site/assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 35002,
+      "sha256": "efda2ac0557e38e86f6eafb59b5c11d7cd1682845c0c5af929d9f200be744a96"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-05-tramwaj-poranek-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 153014,
+      "sha256": "3c8cdfe5b71d5c81186773230901e0752b5f43aa3c45e687781ac5b8a342e0b6"
+    },
+    {
+      "path": "site/assets/city-gallery/at-10-giszowiec-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 36602,
+      "sha256": "5275a5204aee2050ae2e5c60d9ca002aa5e4d96568ddf6c2bc29862d5dd06e7c"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-02-filharmonia-inspirowana-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 113982,
+      "sha256": "236f580a571a0f86ac1bed1264811bba03265d92ac48fd21f979becae1ac503e"
+    },
+    {
+      "path": "site/assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 116962,
+      "sha256": "a9db28760801bbc14e95cf2ff8e511cd138b6e1491dda018ab3e72383016dc08"
+    },
+    {
+      "path": "site/assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 36444,
+      "sha256": "fb141dede5056846fefc8aeb1aaa8faabc5119be42672d0f70d75f23fb03c600"
+    },
+    {
+      "path": "site/assets/city-gallery/at-05-mck-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 127540,
+      "sha256": "162555f70e10d5de95c0949c2b9d822d8d77d0ce62739047d547ff79e667248b"
+    },
+    {
+      "path": "site/assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 35062,
+      "sha256": "1d105b4bb3d71658a603c856e238cdd1a5af26d34fc2d160c254ffdea8f25752"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-16-ceglana-dzielnica-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 39698,
+      "sha256": "68c2336440325237d1879d192759bb27ea7f8ed4a81344ec4f92d1ab9c88d6fe"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-04-kino-art-deco-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37714,
+      "sha256": "b33cf9494f6245b4a3734cb727ddf96326d2d913451032cd54e7daca9a160f37"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-18-dziedziniec-muzealny-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 26468,
+      "sha256": "f5b75c071ab94e2e3d7d0c2e7aaf303cd08cee1dea121d56c7a60ed930866dee"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-08-galeria-kino-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 229988,
+      "sha256": "34ca7a117d97d7f84ef76eb4720403bd834ea6e7b8ee1c109a13a11eab35ffb1"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-07-park-metropolitalny-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 281906,
+      "sha256": "8cf430ccee0d2e3d090be3432643d32262ca21a7614cf47eb4995abc364e6325"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-09-arkady-targowe-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 282072,
+      "sha256": "4d2f71ae74ee13669f38db35e2a0df801fc58e0b8054c8f87dad595349d6a84a"
+    },
+    {
+      "path": "site/assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37354,
+      "sha256": "09261b40a77b7c14243d043748698688ac612bbc7ae8fd793f66af0b78d8ddea"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-06-dziedzictwo-przemyslowe-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 32700,
+      "sha256": "e9221a8ce1e9f8186e3a502717a49a5e452ae4d465bdecd8ac8bfb002bd3a378"
+    },
+    {
+      "path": "site/assets/city-gallery/at-10-giszowiec-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 262548,
+      "sha256": "b47df8e5abf560be1735a58e4a54890d40f4d1fad33bb6158f5d563e1ae16f13"
+    },
+    {
+      "path": "site/assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 283282,
+      "sha256": "d49ccc4dc1f06766892ebd98e8b05e8b7e239034462ead8928c2d632ffa7ca1f"
+    },
+    {
+      "path": "site/assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 31026,
+      "sha256": "cf02e635688ec5f579953a3cf8e8d6c94297cbe7c7cb4c218f0b465079619fa0"
+    },
+    {
+      "path": "site/assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 289326,
+      "sha256": "9b2f7dd2899d3768ff279ea67ffe4a106c3df1615b9ec5b0d3bf805138dfa267"
+    },
+    {
+      "path": "site/assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 267928,
+      "sha256": "241e889355ec073a20606c7d098bda552b359597d5f35bdc49fa7e13f06da385"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-19-dzielnica-kultury-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 134944,
+      "sha256": "a3910cef89a9fc868d7377fa293281323dc89dfeb0ceaecd029bce30122d517e"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-18-dziedziniec-muzealny-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 227732,
+      "sha256": "980e3e3b56ccf263540214efe0add77cefb6ca6b421ff358848bc34233a69df6"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-04-kino-art-deco-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 299914,
+      "sha256": "c22788d71bd15c3b8f29823926daaacec27102eb965b10f98979f3fa12222e58"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-16-ceglana-dzielnica-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 296118,
+      "sha256": "7ae0ab873f8cbf30ed2203717008d157af35c0484341b0fe5cc551648648b685"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-13-tramwaj-wieczorem-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 126416,
+      "sha256": "beab1413bae11411b0bb83b0f26de5c77a23e8b249214c6d3fe0b46a3268222f"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-06-dziedzictwo-przemyslowe-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 241610,
+      "sha256": "ccbbe80b9c8256ae9c688c6c515cf5c8496754f5d2d56b22dc74813a416dedf2"
+    },
+    {
+      "path": "site/assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 276458,
+      "sha256": "d4dee03ce55fe16b63c06c64bbad6a8544a678b0829e56cd2ac8f2e1bc73b923"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-08-galeria-kino-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 33190,
+      "sha256": "4553e1d110a6cc20eefc65109c6f3894acf34f09f47821d4f83cd0e7ba9a2748"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-10-ulica-modernistyczna-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 133492,
+      "sha256": "10d4c7939884a591c53c73808cb8468b707f2fee98c1f3c7bf60388649b9f973"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-07-park-metropolitalny-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37522,
+      "sha256": "ff78fc5896001ab2ceeae2c2f671a02ddd8b48115830b61421579f1cff560416"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-09-arkady-targowe-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 36664,
+      "sha256": "d00e87ce68aa8d0bda6ffe58b74e2fedf785f7126357436330772e5f3aff4f36"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-15-zielony-korytarz-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 137750,
+      "sha256": "04022f2e15da401b294e697241698f3144d21947c7b206b9e02b89d9df0928fb"
+    },
+    {
+      "path": "site/assets/city-gallery/at-02-nospr-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 26656,
+      "sha256": "3194f90a68ebfe4fbe32cc71ef6112bcf4ccbd70381c586dc396bf5a93966c81"
+    },
+    {
+      "path": "site/assets/city-gallery/at-01-spodek-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 113376,
+      "sha256": "5896ff982157723ebd521e042e6123dda6c3139756fb0db53d010e0a88a82750"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-17-muzyka-filharmonia-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 178906,
+      "sha256": "979aacbae79369869574cdee14c9b9864feacee1a17ad3e85a4abcaa0cc1f744"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-11-hala-dworcowa-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 257472,
+      "sha256": "2726ef942011a67fb0f3a5ad41c560101f03a7ee5a5f082c438e6a01f1565e34"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-20-panorama-slaska-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 27840,
+      "sha256": "83217a0622a54ad98c7523729a94074b272e970885935c242143889a8d4a6089"
+    },
+    {
+      "path": "site/assets/city-gallery/at-07-archikatedra-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 221074,
+      "sha256": "0d6b0e0f9d95007f9c2501cb14b2442f1d2552eecc812276228efb746727b012"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-01-katedra-inspirowana-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 32970,
+      "sha256": "5f4a82b0f3ad7ff0481b49641b869b4d1ddd1be4665652c3dee9888e0211dc9b"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-12-wieza-wodna-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 324148,
+      "sha256": "ea73d0568088fc6c5d627f83e395379482ffa762440ae39bee9e9196e804b774"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-19-dzielnica-kultury-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 32992,
+      "sha256": "2f7fddc0a32053daa320f7e5ab0f0cc741954368afcaacda7cc4200264c18c94"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-13-tramwaj-wieczorem-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 36136,
+      "sha256": "8a5a4ff78fe93cb247bf69278403bb02fc568ca21f84f5b6271ae55340b8aa92"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-08-galeria-kino-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 116868,
+      "sha256": "97b6f1a3f474b33dba6329df3d5aefe52c791c8595cf6f5de0d15d678b136d86"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-09-arkady-targowe-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 141764,
+      "sha256": "2915f87eb491c76c292ebcc9e12b93ca798e19fcce40b0e36da41cbf20329bb5"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-07-park-metropolitalny-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 143134,
+      "sha256": "dc76756f9c4390b6125829c7880cce17d59d56918b628da7c6c49602eb69ef5b"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-10-ulica-modernistyczna-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 35178,
+      "sha256": "670fcad6505cb081dca0e416b2246127c19665690a14811536dccd2a466783a9"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-05-tramwaj-poranek-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 314134,
+      "sha256": "a6ae803da65726e0d794c46af09bd880ac10f4fd02d9307c56d8cb37f5d265c1"
+    },
+    {
+      "path": "site/assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 121106,
+      "sha256": "077a9e8958b6431aa7caab29609a4c7f56be9f198f8db42841b99cc9ef3c2983"
+    },
+    {
+      "path": "site/assets/city-gallery/at-05-mck-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 269654,
+      "sha256": "c86430c8007ef6d6bc9b58298f472a18099c5042b263c6c8ca5e1b330f157f4e"
+    },
+    {
+      "path": "site/assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 238406,
+      "sha256": "7b378c2deacb19e4eb22d513839348c5dd237da1072a1f0f83f76036d287a82d"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-02-filharmonia-inspirowana-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 238822,
+      "sha256": "fe7b2c7154d5cab4482d985c0207388b38dab10efb9cd0889d1f791f827b1c3a"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-20-panorama-slaska-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 110476,
+      "sha256": "198bdfec2e8640ce31155ed0d7043c05d21b8b8d7defdd2e2e09fe6bd6d78d0b"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-01-katedra-inspirowana-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 126734,
+      "sha256": "bfa0fce244c71b2e966d3ad2e96c7a9d0e074e8abde0b1233f5d2b4c19174a2d"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-03-opera-inspirowana-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 205434,
+      "sha256": "f275aaccf2e7c04f8609a588f061762529a4ae2c707626288ebf47ec072b6e12"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-14-teatr-klasyczny-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 184698,
+      "sha256": "bb56e9ff0c0c9956ba6c278577b90c49dce993139d245a0099e99f7dfe8bbbf5"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-15-zielony-korytarz-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 34744,
+      "sha256": "31cc46c46458cd50d225eeb562027e8aaab9e2bc4de402c579432974a98980f1"
+    },
+    {
+      "path": "site/assets/city-gallery/at-01-spodek-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 28974,
+      "sha256": "afcd10aefe821071a2b196a318c9863f7bcde63b3ddb78591165f897cb345d30"
+    },
+    {
+      "path": "site/assets/city-gallery/at-02-nospr-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 99136,
+      "sha256": "18e237058f82d7e20012fc3842d25c3eb801757d7479c38c9c952c4fd95b7710"
+    },
+    {
+      "path": "site/assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 275150,
+      "sha256": "a7f4c0777dafad28679a4db48d6a95038a4253e3eea8f5c80c8b046c623c344b"
+    },
+    {
+      "path": "site/assets/city-gallery/at-07-archikatedra-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 113080,
+      "sha256": "01cb960d6e77592e7c82e689d52e2229f0a64fd8872c5d28fbb988935a1c6e0f"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-12-wieza-wodna-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 153994,
+      "sha256": "0ddde9646c27ce3224ea9284d94a0a8e461c2407a0f8e358ed8405e222ee6fe0"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-14-teatr-klasyczny-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 20526,
+      "sha256": "3ceaa27b82522e7d48a27c8692fb35bbddf963c692458a24186b5338917aff8e"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-03-opera-inspirowana-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 28916,
+      "sha256": "f93739b1e84afd730832bf83e4297f7dd4eec8b4bd595dac582854fa4026e8c8"
+    },
+    {
+      "path": "site/assets/city-gallery/at-01-spodek-inspiracja-ai-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 226276,
+      "sha256": "ce9f3562b5e7272cde5704a7d92b4f07c5dc90e55eab041466f88cfc0b6e8e24"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-15-zielony-korytarz-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 276966,
+      "sha256": "a81ecd5b58955121b8d6044ed33cd3ed4e4a86f704d844f108b5766eb481fdce"
+    },
+    {
+      "path": "site/assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 37944,
+      "sha256": "5ebb91227cfc08f4fef012fd47bccbb0b677804136e609af2d75e267995e6c94"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-11-hala-dworcowa-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 134130,
+      "sha256": "441f2d557aeeff81012a83944bfc1559a65feadf4ff33fa2079116c0b7c7bdad"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-17-muzyka-filharmonia-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 93090,
+      "sha256": "fd587e9b17320242900ca300b0c4109597dbcae059d8008cda8f241502436b2b"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-16-ceglana-dzielnica-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 151066,
+      "sha256": "54c63cfb9e053edc6cd1dfebde7f1302820a1570e417ea6309f4dcfc00e65e4d"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-04-kino-art-deco-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 147218,
+      "sha256": "a97ccb9b408e981ceda44330490298cdb216a3c8360a331c13fa3952a8ec4a1e"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-19-dzielnica-kultury-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 273042,
+      "sha256": "9c294b6ed1a197dc5eb42b607e5478041817786cbfd287d754bad7a5b6025823"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-18-dziedziniec-muzealny-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 110704,
+      "sha256": "8d40eb43e5875244b331a97a5978e23b9ef470614e3adc3fb99ffaee282006f4"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-10-ulica-modernistyczna-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 275850,
+      "sha256": "ab2f27d0a29bf05f5bd5f12a69774631f60904097203e03200d89af5530deb5c"
+    },
+    {
+      "path": "site/assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 141912,
+      "sha256": "e0c2eaf8d16ba56e773ba714f9c3c565622f050b48c7dd844e1572a5d7609308"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-06-dziedzictwo-przemyslowe-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 122016,
+      "sha256": "03631b61cb839f9e4854702e277b33062ea1a639110adf1232d7ba3ecd6f9a8e"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-13-tramwaj-wieczorem-960.webp",
+      "dimensions": [
+        960,
+        1200
+      ],
+      "bytes": 247534,
+      "sha256": "fab03a547942429ac727ce9273bfa6ca366bdd41e11c44dfc12bf6da8ba2dd89"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-05-tramwaj-poranek-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 40982,
+      "sha256": "c4a36f6da98725d611f9980a7226afae553e9838a11d6aed3888f65c50007c9c"
+    },
+    {
+      "path": "site/assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 137442,
+      "sha256": "2f773ba63b0ad3ac613a3c694cd63778d20e931f6daeeb6ef4ae67848b694583"
+    },
+    {
+      "path": "site/assets/city-gallery/at-10-giszowiec-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 135434,
+      "sha256": "1ac48788bbc20ac4cf969447c606ba317dee3dda768e4aba5812c82b1041d7a3"
+    },
+    {
+      "path": "site/assets/city-gallery/sr-02-filharmonia-inspirowana-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 27872,
+      "sha256": "f72c835f744aabeb1d57d889677c5bea084ea392dcd09988fcba6198a1a9a545"
+    },
+    {
+      "path": "site/assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 29260,
+      "sha256": "ff92409325e2c4dbab8cfa0f093f688e1de25a393e15e1767fcf37dcc3794557"
+    },
+    {
+      "path": "site/assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 133520,
+      "sha256": "7ebcb9cc137d5182efcd039e6ec4d0836747dfc90e001abcc4809481bb949f56"
+    },
+    {
+      "path": "site/assets/city-gallery/at-05-mck-inspiracja-ai-320.webp",
+      "dimensions": [
+        320,
+        400
+      ],
+      "bytes": 32384,
+      "sha256": "0b01ad52ede1f2ef8bb55d0ef7cb9e066f9da54458197224e2db1b107d3a971c"
+    },
+    {
+      "path": "site/assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-640.webp",
+      "dimensions": [
+        640,
+        800
+      ],
+      "bytes": 138334,
+      "sha256": "0af2b90f8c4e1c239455f098565d25dce4aa5e89d320b5896cf8b1aac219be42"
+    },
+    {
+      "path": "site/assets/rooms/premium-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 52858,
+      "sha256": "6fdc6b7a8ede1f45112cd8d19de83b09ba27479ee96537cebe31ca01123d2c71"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8136,
+      "sha256": "b4a1cd91338ee5e481f56d77e9a3fee1d8c3f8601afb0a2a3faff285b8e60b29"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 33172,
+      "sha256": "ef0dae5efe57d069c0b07f52a012d48f4ec999ca7d9004db312ea87af6c1bd6c"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 35544,
+      "sha256": "75295558132798418011c9c4ba45803875d5b0926a05fdcf4980ccb966ee9fd0"
+    },
+    {
+      "path": "site/assets/rooms/classic-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7160,
+      "sha256": "a437bfcfa6e4a686974cf57cabd1ec6da9a03803a71f0ccb509d30e362f84eda"
+    },
+    {
+      "path": "site/assets/rooms/prestige-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 94564,
+      "sha256": "40246a276846be2ad512b6c8044cb5b669d1b06d3129554e30b6c52093af4a8f"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 47850,
+      "sha256": "efb39c55624e647423e10b274089610f687e36bba9b00d91088d99de15793d10"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 21088,
+      "sha256": "e8293ec5dee13bd5a9e5fa1901d728df8798e857533a1553eb9ba65bc4f6dfcc"
+    },
+    {
+      "path": "site/assets/rooms/classic-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 46202,
+      "sha256": "4e6ef81580cb3357e82d98ce9a0dad12be138a733becb327b8c4c2ab441a2cad"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 25496,
+      "sha256": "9cd07f485421c657c9ffe8776dde44b96ee169678b58695ae3910b73310c33a8"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-05-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 17058,
+      "sha256": "c8e097b97b5d37c8bc432942776a9d7718a4be9183a020d4c8b35108078f70c2"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-07-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7594,
+      "sha256": "f8959c5a548dc7a98e9144ff286e539cf317c99d4e6d8da19326f0ca37bf1baf"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 91894,
+      "sha256": "8940408f4da72309c87b9596b7254b8f64d073bc20c73cf7785305d5ac5a95fd"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9332,
+      "sha256": "64ebec31c8760f0bedab6fab8dda5db9b34bcd75e30327996240edb137157605"
+    },
+    {
+      "path": "site/assets/rooms/suite-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 67354,
+      "sha256": "e693444cfac68cdc967a5124b8297c1ff455895e88b975fcd103f6a38d8d0765"
+    },
+    {
+      "path": "site/assets/rooms/classic-05-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 36536,
+      "sha256": "80804a1e624983c1b45cc0f7b795c7f46f587a0a4a8bdc272367bf4e4fa74c4a"
+    },
+    {
+      "path": "site/assets/rooms/classic-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 23580,
+      "sha256": "342473f50d5a6b800ad7cc75072c236a108921e9dccc21fdd9dd00bd9d708e82"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-07-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 144840,
+      "sha256": "cd15c11653529f72da63d347f587e65abd07c40ea27e7b3ed99469349942c417"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-09-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 71548,
+      "sha256": "2fbb11e924a7b6bf5994a4987bae0e4077ceed298e14f8ffd1ebb660d107c810"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 46520,
+      "sha256": "fbe01589a4812821fb314dece4e95c0a5fdde92bb5f3c1ac7f917987f54ed0c0"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-07-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 14128,
+      "sha256": "80b20c3a08cc8182e9961aa96116574bafb9fea1f298b2da337e76c4573ddb06"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 13998,
+      "sha256": "ddecad3428c590fe0846ea00001948a881233d289d5f6c865d7d0fd2aee48d5c"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-07-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 14280,
+      "sha256": "3bc0fb473ad59ee4972c00fd22619fa346cbd00ceb174c07e937abe61c7f3ee9"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7432,
+      "sha256": "c180a2135fa6be07d179c51771fa628b02655d8243d0d040364e7d37aef07e6e"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 86244,
+      "sha256": "9bf8532a6ce20daa7d71e9104b88608b4ff306da1ccaddf5d2fdbc7a38cb9383"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 62306,
+      "sha256": "0a8e09d8119f6df89c4172152efe01879d0c5c2593639ddb9ec6199942302886"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 42904,
+      "sha256": "cfc3654fb7b7bc476021695a2908b8f37185c8a24a18eb1fc57a0f787166aee7"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-03-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 47522,
+      "sha256": "04940878bffef2d85210e6472d3629537e8606771ded0e7ebc6c09535dfef2e6"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 46706,
+      "sha256": "dd42560ef28f167118a92212294562f84f675c0793cc3ac6c0e2fcff852e3498"
+    },
+    {
+      "path": "site/assets/rooms/prestige-07-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8468,
+      "sha256": "4328dbcc6686f198a14a3cd984771b4b95a5da7c43b14e7c834bd5b4678c1c85"
+    },
+    {
+      "path": "site/assets/rooms/prestige-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9232,
+      "sha256": "8ef05d4e4fb51fdc377cbefb8ac691bbc133fb3e959326a02a132256afc95bc8"
+    },
+    {
+      "path": "site/assets/rooms/prestige-05-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 76734,
+      "sha256": "acac87e297cdfd1e61c3b7d837e8095afce3662fe92a3b029799515169bf5511"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-07-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 57014,
+      "sha256": "17914f86543fc7c8601a039722ecd3215c2ccdffaa6b487b7b378c1a6e844976"
+    },
+    {
+      "path": "site/assets/rooms/suite-04-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 98206,
+      "sha256": "07e0b1d78d0ac7b662474a14ef5ca0dd0911135212b143eb82f87fe9048f7802"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 45388,
+      "sha256": "330ede48b26d8fd5b683e2c5e50484bd72dabda75300a1e26d4c01410177c300"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 73436,
+      "sha256": "6038ac1bb37c84914a44218ac7c055cdd729d9169c4a3936f78f509cddabdf8f"
+    },
+    {
+      "path": "site/assets/rooms/suite-07-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 46594,
+      "sha256": "18a76db3e44dd8eea0c3a9fc4724fe446db1eb42df01bbb4b7c6608b79bca745"
+    },
+    {
+      "path": "site/assets/rooms/suite-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 33944,
+      "sha256": "158fa5847db5b2835484c98699bf6d48cd1bcaa832e448062eae3a39a68aa92d"
+    },
+    {
+      "path": "site/assets/rooms/classic-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 33934,
+      "sha256": "aad390c341f2129d05bf982cb039ad838523fffa1fc0716ac052080493aa987f"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 62500,
+      "sha256": "f83c1bb3a9356f61d212a5312639b9181f73d7500a601d2a6fe16880bfe9268e"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-10-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8838,
+      "sha256": "2efbe978c75c9fdd99fc6d13fcb8a68bf51401f87a83fde75c39b5c08944b259"
+    },
+    {
+      "path": "site/assets/rooms/prestige-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 51956,
+      "sha256": "08ce91107d8b530862030489f7d3e6a9139bfef89dd30513f3353ea96e744ddf"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7118,
+      "sha256": "9d1241f6daaa48bd90feafda4e025240a981447fe2200646e2e3cad32c4920c4"
+    },
+    {
+      "path": "site/assets/rooms/prestige-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 45590,
+      "sha256": "8bbfd2173991ae3107db85f0c88a1e349c8d478692ad0b8c38a40224d8c83ea2"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-11-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 13484,
+      "sha256": "4f01aa5a581bb02abde5967350bd4d8f77864dc6fa5dcf9951eeb8720e28f292"
+    },
+    {
+      "path": "site/assets/rooms/suite-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10582,
+      "sha256": "87c36e30fab1f26960cd2cb0dacc0b5dbd6bcadf95d24067c7df98cba93a32de"
+    },
+    {
+      "path": "site/assets/rooms/suite-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8308,
+      "sha256": "f9e846e8b98211a641cfa68152e50a17f8b96d8b7bfad9f5985520490dc486cc"
+    },
+    {
+      "path": "site/assets/rooms/premium-04-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 77332,
+      "sha256": "56ca2495220969c5b59854b23adc03513eca900118eacc2becc3cb36c51b4447"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-07-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 73334,
+      "sha256": "57b829b33779dcdf64c7c6ac05dc9324ba55e14ca2c2fed352e41c8171100ec3"
+    },
+    {
+      "path": "site/assets/rooms/prestige-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 63904,
+      "sha256": "1a057dcdf1b8c03953d793c5e54464f4a1eef39a283aa32977567fb22bdfa785"
+    },
+    {
+      "path": "site/assets/rooms/premium-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 11832,
+      "sha256": "3fdbe9fa4168cc4296e74cb2426d0a724dd2dc591e31e57656c095b7f5bef3ce"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-07-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 39842,
+      "sha256": "ef3828057aefaaf7588469e28b77cdd477d45b0c459054e2b3775e19d8bd45fe"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-06-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 48390,
+      "sha256": "4178a7af065443eeb770f075a8cb2a6af768f77312a9537a48fa756afe9de45e"
+    },
+    {
+      "path": "site/assets/rooms/suite-08-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 15712,
+      "sha256": "248e86cff6387c819aced1a6ec966bda1cf3e536626ebd6eb9491769a942d588"
+    },
+    {
+      "path": "site/assets/rooms/premium-04-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 44974,
+      "sha256": "11df38f6fde7007af98c0c95b7c9a0a31fc9dc22c1985efe39e51f2c739d7627"
+    },
+    {
+      "path": "site/assets/rooms/premium-05-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 55636,
+      "sha256": "3333f280a7694c585e310eac1fae9c9d72b770773ee9245126b67667417ad723"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9744,
+      "sha256": "1ad2785539efb9da4a197ef99af6d53a9e867becfb0b47ce328cf8c538ebaed5"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9220,
+      "sha256": "92a3c780f68822adebdaa643a9bb924fce0bca52054669af535e063f0b877cbd"
+    },
+    {
+      "path": "site/assets/rooms/prestige-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 31770,
+      "sha256": "462c17d5d126c8a18f6f473294077c48c1f45989d2f2cdeb34ed75c2c693393c"
+    },
+    {
+      "path": "site/assets/rooms/premium-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 69264,
+      "sha256": "2a28bc39a2389a31c0f438b8bd2fbbc6de94b552e11d24afd6e774634dc47892"
+    },
+    {
+      "path": "site/assets/rooms/prestige-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10522,
+      "sha256": "ad39bc1141d6ce2be3fd6a0ca43a049a411015bce62be97ac2b20888455c6c59"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-12-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 42326,
+      "sha256": "6913732b06778883ef462e99f35ab21f1cfbe353a8749883673fbce73e6e63f3"
+    },
+    {
+      "path": "site/assets/rooms/suite-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 26562,
+      "sha256": "f97615a0bdd367c066b05b4b5673f4ae43813d28f0da9737c5a17c5e2a8e02f6"
+    },
+    {
+      "path": "site/assets/rooms/classic-05-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 65588,
+      "sha256": "4070a72a1018737b26f9e93de40c5ac7e798e1abdec278a8291f4b90a53027c4"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 73234,
+      "sha256": "bde136e15589e5b6d591f7cc01917a80082cccee8031c0f6b5bfef32f46dd213"
+    },
+    {
+      "path": "site/assets/rooms/prestige-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 31522,
+      "sha256": "d1836db7818d19ae037112f7a50ba79c4c3a8b278f3da912a44322b3b0d6811b"
+    },
+    {
+      "path": "site/assets/rooms/prestige-05-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 41530,
+      "sha256": "cdb6cbf3b331babdc05447d5101a9bc080a4c381388740dd3a36bfe9ad6d6103"
+    },
+    {
+      "path": "site/assets/rooms/suite-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 81406,
+      "sha256": "9a242cd1e3ef5a828597afc970cb4d4cfe5656f8a5eab2e3789004a9c0fdda8f"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 56462,
+      "sha256": "cf55a53ba52ff4ce900d29d1b0c5e999530c1b4fca2a840af2a58c8460aba99d"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 124622,
+      "sha256": "479212c89080790abc405fe52b07767f31eae275bdd8a6d35dad157eb799ba59"
+    },
+    {
+      "path": "site/assets/rooms/premium-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 23522,
+      "sha256": "c5e9d81b3ca8dd55b776fc957511cee2e43c7115b9a6f462e4a8e77469263db7"
+    },
+    {
+      "path": "site/assets/rooms/prestige-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 88820,
+      "sha256": "dc08cbe1d79b212036b6f2f2121fab1caeab53f5084b4b542d1b8226d7b75ce4"
+    },
+    {
+      "path": "site/assets/rooms/suite-04-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 12248,
+      "sha256": "59e3a80d272c53dbbd753db35151a150ef457d4cba979261533a2acb2d5090d6"
+    },
+    {
+      "path": "site/assets/rooms/suite-05-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8476,
+      "sha256": "c0a88f3f90cc61789589d58a6d6b22db812c91cc0844f6bde0a2207b3086338a"
+    },
+    {
+      "path": "site/assets/rooms/premium-07-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8534,
+      "sha256": "fbd48a06801f12fd405fe2bbc01a04b2685fa5ae8109241147510625f6696aff"
+    },
+    {
+      "path": "site/assets/rooms/premium-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8364,
+      "sha256": "8e72e5b7ff51176816cda71ba9045f27ed69ec8f7425fa7b21ba8eee5b5dd373"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 46898,
+      "sha256": "088e0ca3da042cccf7ece1fb89633c09a063b2e857ad08206c4cfa8a21fa55e0"
+    },
+    {
+      "path": "site/assets/rooms/classic-08-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 80426,
+      "sha256": "a1c3342e7fc15491e368ec0186616a281dc000766555a24c2b0948f8e9612db2"
+    },
+    {
+      "path": "site/assets/rooms/premium-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 38536,
+      "sha256": "270e357a34272e2d444886360032daf9219fdd23e8a3e7504351dc96cbb629d2"
+    },
+    {
+      "path": "site/assets/rooms/premium-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 30496,
+      "sha256": "9ff75f5ba185f8eef648c9a662fb2668a26659a69135032236ca243597623736"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6768,
+      "sha256": "ff4a1426c6708803bebd1bee86929698421d3f326e5a3e945bab084f9c249c78"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-05-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 12866,
+      "sha256": "bf70161e4ba8e920af3ca3849b6adf741bcece0d8fbaa05af43f183b64e59e8d"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 67044,
+      "sha256": "176de47230ee46ff02bcfde2e39575ed1adf5162054223799101e4fc4f65c73b"
+    },
+    {
+      "path": "site/assets/rooms/suite-05-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 65172,
+      "sha256": "9768384311c272bac87b8736fb4d3364cf0cf512b97771e92f9af7cad3764651"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-07-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 58978,
+      "sha256": "87d960f447dedef7abbf9cc13746edd7d082ac44c34717b8c175abf50725395a"
+    },
+    {
+      "path": "site/assets/rooms/classic-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 62546,
+      "sha256": "62027183fb8bf765bbfec82d42d0084c2ee7e40b54e079171ee79b9a7ef231f0"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-07-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 100088,
+      "sha256": "a0863517ff12503a4b0a90b519a8a3c9eaf8a04f7bb42102e9393ad1e13fe9e4"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 24086,
+      "sha256": "873dd223468561ca83b3cac33976c71f78b288a94e4f5715b131cb8354a9126b"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-05-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 66382,
+      "sha256": "5351645039b56cdd2695fa21cc9f8295646474b7fb66fc5137dba5237c297fba"
+    },
+    {
+      "path": "site/assets/rooms/classic-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 5906,
+      "sha256": "0ea0d84ea6769e97eefb53eb86d2b482c01e28b7c6d0ff0bf89e969646368099"
+    },
+    {
+      "path": "site/assets/rooms/classic-07-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 10722,
+      "sha256": "f4675961204c2bf10200bbeb318f9290c948e0d7f7b2cb1137030ba4e77ab01d"
+    },
+    {
+      "path": "site/assets/rooms/prestige-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 56568,
+      "sha256": "1fb5e6816e34013ac715b6e905c66d56d9e8a755650707f7bffd3735bd858d6b"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-07-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8268,
+      "sha256": "5d319875a7094b0ffb78b13138aba3a9bc5d0dda41c63bb2a5b1c46fcc7f6b82"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-12-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 73436,
+      "sha256": "6038ac1bb37c84914a44218ac7c055cdd729d9169c4a3936f78f509cddabdf8f"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7110,
+      "sha256": "70dd38a1a82ed7fe1eca103ad1794f50482e7ed1c45b1e40115cb69f0bcae29f"
+    },
+    {
+      "path": "site/assets/rooms/premium-05-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 107442,
+      "sha256": "2d0d980f836d0d7d3c604caa8560395ffda5de70c1b8c0f47b6eeecb7b4b2eb6"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10182,
+      "sha256": "ba3b8d8d0f9903cba2118d08f1fd447265e8297f3bd517355478110ab724adcc"
+    },
+    {
+      "path": "site/assets/rooms/classic-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 19790,
+      "sha256": "e4c91555c97af52159c3ce251a13f17bf522f15c9f788e5249b95de07cec4d08"
+    },
+    {
+      "path": "site/assets/rooms/classic-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 34512,
+      "sha256": "7032d7ee8f5958c9094522834cb78101542f99f1e0d3a02e62e60ed7439bdd8d"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 30792,
+      "sha256": "49b83c7d45fadd0a19c9171c32403f110d822aa17d2963b7bbe97ae4ad107e5d"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 42284,
+      "sha256": "1928f5c7e5bd69a27fe3519bc4a9369084c36e0da679a1d1e053be995ad28a58"
+    },
+    {
+      "path": "site/assets/rooms/suite-08-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 118194,
+      "sha256": "0fab7dbd9c3b637a2fca8299867c683d6c4e9d566eddd14f4fe5114e951a4275"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10974,
+      "sha256": "5ec3da36b39fb7d90bf207133cc4cfbf12a78976ab727bceb4035ee8cb6e1d2b"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-06-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 85124,
+      "sha256": "ec17ead992777a794936a390c745ba9c18fcb69c4dea1236c58cac7268fd6748"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9828,
+      "sha256": "0d21b7fff1c6661a003d546bd6e86397b62f9247e12bb44e7dcfaf984c8ca2ef"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 44860,
+      "sha256": "8f75d142485897ba99fadc9948894f0c2bb05350a6025a51f0a4725c9dda5d01"
+    },
+    {
+      "path": "site/assets/rooms/classic-08-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 46454,
+      "sha256": "3ca1e6ce32c6d18dff45f4a15ca32c4d57813a568664a9ba8c386172b5744f4c"
+    },
+    {
+      "path": "site/assets/rooms/premium-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 45058,
+      "sha256": "5f0a976fb96a5595f3466717fb75bf7350e6cb888cf2f5a73d920d996c54caa0"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 27572,
+      "sha256": "d1f5beceb96ff460b0ac3f7876f105b5deddc179c53a249c89d4260f02d3844d"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-05-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 40074,
+      "sha256": "5e1e2e065c810006d4eca712b7f647cb1134604cf969de1fc3b2cb1c6d69a7a6"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 30052,
+      "sha256": "6048a1dfb6bb33a4ff63652c6c39847030701c3a208ed0364e9bf9a7c9ad1467"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-05-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 41032,
+      "sha256": "609c6ea7e281f403e86bde2efd33d0fc3cdfdf232026e90081216a6ad8c64538"
+    },
+    {
+      "path": "site/assets/rooms/prestige-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 104194,
+      "sha256": "438cbe948a22c35a3d679ba2a7b493d02eca76e7a36c5d63d587fa0bc80e7670"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 90938,
+      "sha256": "ce37e83def1fb8d1e71f420fb425c51599d1f3959581285376c4e67c2ca7b04a"
+    },
+    {
+      "path": "site/assets/rooms/classic-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 36736,
+      "sha256": "dceaace75989699befdcd0d722ae81e824905c971cf8b09cdefc961f10dbf44e"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-04-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 27540,
+      "sha256": "56b7c90acce9413b6335781b05bfd74ee0369da2bf990a404fadf559a00e0bb3"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 74728,
+      "sha256": "4f8ca2214bd4bf8de1330cbc0324464c06b174a69b4644da9920d2fe5dc1bc90"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-05-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 72172,
+      "sha256": "74b151b560e71409da3eb0ed1a49c13e5e74d5e55c90693e66a054914265499d"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-05-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 57834,
+      "sha256": "be978b8bbad6c232b3b4e4eb453a092e613a84d42665be789e3cf3b16c519b13"
+    },
+    {
+      "path": "site/assets/rooms/premium-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9718,
+      "sha256": "2669b6bd02f7a644b9766565ed4b98e5ea6f544d6a1bd74d2c3c7dfb436a37c8"
+    },
+    {
+      "path": "site/assets/rooms/premium-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8494,
+      "sha256": "d5f96146cc4950d0a51e48bdb174b6991d1ece9201a09eeb30372fb9faf3d305"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 56708,
+      "sha256": "4e90ab682ea813cb0eafd40835435756141ad8aa33a5d5422395e945538511ec"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 11162,
+      "sha256": "3aef03e8afc312dd3ddfa1d8779e255ff04e23efa4af5eddefbcfc8dc884b282"
+    },
+    {
+      "path": "site/assets/rooms/premium-07-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 34482,
+      "sha256": "e191bae7d21684aaba65edeeb6c06aed6564a067405f31dada1cf234fcf4c1fc"
+    },
+    {
+      "path": "site/assets/rooms/premium-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 37962,
+      "sha256": "e69476283c5d5cf2acc736fb91db62b708aa360626fc02ab8cdca31b23609bed"
+    },
+    {
+      "path": "site/assets/rooms/premium-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 5678,
+      "sha256": "3c9147c08cff7688cc2a3e8ee5b2cfabb9181615bd3509e4e368575a0c6209c6"
+    },
+    {
+      "path": "site/assets/rooms/prestige-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7730,
+      "sha256": "22161ebe5e4f8a6af2c3da071a515f997cf0b39045d09928e12795f5bc51c675"
+    },
+    {
+      "path": "site/assets/rooms/prestige-05-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 9992,
+      "sha256": "dbb49a085ee072652acb8f333b7b56f01e59e033d7dcb5d7a1d891d24b4439d3"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 68736,
+      "sha256": "9bce131248545aeff1e5a3b90a90d3eb2e4ee57a60e7768012271ee6852cff64"
+    },
+    {
+      "path": "site/assets/rooms/suite-04-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 53512,
+      "sha256": "7f0c10b300c1852545ab94a674e7091827a45c077500d82897f32fb287e5727b"
+    },
+    {
+      "path": "site/assets/rooms/suite-05-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 35068,
+      "sha256": "6a8d80d548f281e9e1363e64ed7b814631f7f593e6ce84fef756c534fa35faa5"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 35204,
+      "sha256": "618bc4f0f9a679aaca4b1185a8b6bf81de78f78f39f619cc092a92cadf7f5432"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-12-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10974,
+      "sha256": "5ec3da36b39fb7d90bf207133cc4cfbf12a78976ab727bceb4035ee8cb6e1d2b"
+    },
+    {
+      "path": "site/assets/rooms/prestige-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 53314,
+      "sha256": "7eed17a0c13e70fecd495789d0c4c8f90e6693b87ba2e39eee48b2311b9cea39"
+    },
+    {
+      "path": "site/assets/rooms/suite-01-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6576,
+      "sha256": "f958d906794916580d4dfc869692f04614ee135618637251aeed055f63349207"
+    },
+    {
+      "path": "site/assets/rooms/classic-08-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 13324,
+      "sha256": "4a7e44e62c3ed94af91f8b1360ca604aeb60618d49ca9d587f235a8c7891c876"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10838,
+      "sha256": "b439337fed4a59fec3d8448c42c0c05564b015a8d5a0d2cabdf4f63b54ae4f38"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7674,
+      "sha256": "266e8b19755aa325d8746a44c719a71a2f3d8b1196d71a2ec1bd394b6a1c8571"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-05-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 10504,
+      "sha256": "eb8aa1bb8a751006513b42202a027c74aab8835fc005b2c307b278dcdd555777"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6448,
+      "sha256": "0423e3fbd582df02d668c1f54a1f4f11306bb5a7db2ac286f8df05e040daf5b3"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-05-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8838,
+      "sha256": "2efbe978c75c9fdd99fc6d13fcb8a68bf51401f87a83fde75c39b5c08944b259"
+    },
+    {
+      "path": "site/assets/rooms/premium-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 77754,
+      "sha256": "89691cf8ed5ca15acd3f6574216fc793ad5d93fbd520b3b559fe27546a1efc5a"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 53216,
+      "sha256": "5b7c028c48d2b1eaacfb4de0fa7c74ab53eb0e19d6e53ed80ac93f75011a9c93"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-11-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 118524,
+      "sha256": "d74b0b08a2a6b4ccbafa749baeb177d58baaace0077f9e4d4f7ecf108059fc02"
+    },
+    {
+      "path": "site/assets/rooms/prestige-07-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 82896,
+      "sha256": "adfb589c6ad12d62d38e62c0cc7b7d71fe5a89d209047eeda219bb82eb4aa394"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 46182,
+      "sha256": "fa91740ee5181f5339c16ad656cf6373cee60fad49e36fa038c0ac812ca72a04"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 118524,
+      "sha256": "d74b0b08a2a6b4ccbafa749baeb177d58baaace0077f9e4d4f7ecf108059fc02"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-05-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 125884,
+      "sha256": "5152227341112724d838674a58ac0fff7002e33d0fb968f29007d6bb75a1b652"
+    },
+    {
+      "path": "site/assets/rooms/suite-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 57682,
+      "sha256": "12dd218cad44bbefc1dc9cc6c14c9f8de373f719d7c9fedc3d481a47c769eb4e"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 53906,
+      "sha256": "123165cef03ad65656085c5f0e561baff848d4bb13b51a64ab10e335376e7300"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 39906,
+      "sha256": "56eb968682fca1da5e4be6d432c70b7962378c1756578f4c38b3fd0e6a4c8ac3"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 42326,
+      "sha256": "6913732b06778883ef462e99f35ab21f1cfbe353a8749883673fbce73e6e63f3"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 7300,
+      "sha256": "a165d9fdf2248998113b183a0a9ae48feb6f28e3354a4c97e3830f62e722fd5a"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10544,
+      "sha256": "a62d4f065b0c76f021d9f7c1bd3719a7982e2ed7cb812a1bb2a6cec50501da34"
+    },
+    {
+      "path": "site/assets/rooms/classic-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 5458,
+      "sha256": "b783dd4464fd7ee6e6f6cf2909465c5061c0c0b367834ac4e8c2ea8eeeebc70c"
+    },
+    {
+      "path": "site/assets/rooms/classic-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 8554,
+      "sha256": "42173641f3df1c52f5a0fe55488e049e01e6b1b08820a57a0418af97f85827e4"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 46804,
+      "sha256": "624d9673518efa8aef8c9af47a0003420ac3384c6cd3a6b06d377e812415382e"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-05-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 105394,
+      "sha256": "1d11edfc394959282dad2625a454f52f1fc0afe4fe806493c6b5e977b49558c6"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-07-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 33240,
+      "sha256": "92e093bb39307fc557528b8fa8252fa837ac5e56d25453cac01a5cb586786acb"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 78822,
+      "sha256": "e222ab9529313b2e8234cccaeea6cf47ceb4e779bb478a7d792e4174b33d8dee"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 25624,
+      "sha256": "2809ed9f5718c151a70b0fd01a822b0e4f6035b4f5356c2e1095794ce0a871f4"
+    },
+    {
+      "path": "site/assets/rooms/classic-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 21456,
+      "sha256": "1b9499a2403bfdc9a3af16ab86dfb8cf299fd4398fafae48563291a9e0245663"
+    },
+    {
+      "path": "site/assets/rooms/classic-07-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 36310,
+      "sha256": "3106c1d93c929453cc77507351f3c23bb01dbc034126ef7e145bf93eb3f6117d"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6766,
+      "sha256": "3e53cc44b163966e86be7fd7a30e7d22b8ce73a4b3cf50d0ef2b6157d4204778"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-05-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 14042,
+      "sha256": "ed3902bdebc999b6fec8281fbccc6cac8556814a7c108e3fb1a24f94ff998470"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-03-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 90090,
+      "sha256": "f5227559aa276b39b17dd477053677ec533c0bb6f00031b06ee5a69840bd2718"
+    },
+    {
+      "path": "site/assets/rooms/classic-07-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 63624,
+      "sha256": "0f78a33bd27e5d21ff9642c3261a3eaa1619442afb610fc86647119206aa80f8"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-03-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 55994,
+      "sha256": "fddef7dd671d0761924f9b14a1f0aa661be29fbf5bf534b12a39eaf8db02cc3b"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 52170,
+      "sha256": "1a9cb52812c64f72247c204f34c02879698c3453101218d5a7a2181d6cbcc5d2"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 58312,
+      "sha256": "3600df4265e2b27a20fa8ab3bdbe573c21e13a8fccca91a888a85cc9448f1f86"
+    },
+    {
+      "path": "site/assets/rooms/suite-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 55882,
+      "sha256": "0a42e64d6a88aa27cc0ffd710f7529ad6a3270df702e8e89ad4b8daadf6c5dbe"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-03-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 10684,
+      "sha256": "95b7d58381146b425b05c2a0bdf8c7dc2bc7fe97747d9812a77b7649cd5540c2"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9004,
+      "sha256": "8289cb52384e358ce98f7675ced7e8dd416545dafa33a7989a41fd3c9d4fdb7c"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 13484,
+      "sha256": "4f01aa5a581bb02abde5967350bd4d8f77864dc6fa5dcf9951eeb8720e28f292"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10800,
+      "sha256": "c754b1a91f9873c13578fbf6cbe682cf91d826bc6547ce26ffe67a6b65b1c0cb"
+    },
+    {
+      "path": "site/assets/rooms/premium-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 112050,
+      "sha256": "a116982be9008920a69a708cf4d4dc2f2822a27f13c4b176706769520bef1139"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-09-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 14128,
+      "sha256": "80b20c3a08cc8182e9961aa96116574bafb9fea1f298b2da337e76c4573ddb06"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 12000,
+      "sha256": "ddc666788a12c8c10ee6430deb04ed078d10d8b2f813840cad85d081acb2c1a1"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-07-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 57112,
+      "sha256": "c5c312981ac5b18541426d9009c254e85e72368376a534d401b316c41ff02d58"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 34418,
+      "sha256": "006d77b6553f4787e62df308a7ee5929457c795bb93663df96f263d989c35ad7"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-07-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 71548,
+      "sha256": "2fbb11e924a7b6bf5994a4987bae0e4077ceed298e14f8ffd1ebb660d107c810"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 65276,
+      "sha256": "b35f8986056b14a6cfe90bd127c430c39dff9fa4f65d8b00e4c1e7e18236a16a"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 5214,
+      "sha256": "508a977cde77a2efa7d6fa93af0f669c2b555aa3378dddb002a174f53b18d597"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10984,
+      "sha256": "0f242f99229031ee4ee6cbce33e0d2e31b2331d7fd424953bbe5ed2a7e32f44e"
+    },
+    {
+      "path": "site/assets/rooms/classic-05-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 9104,
+      "sha256": "e6993f6ebbb2f1110ee01bb140b6f3675e6c1afb77d98b37fb93a4c0afb4a9be"
+    },
+    {
+      "path": "site/assets/rooms/classic-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 5452,
+      "sha256": "f6a9aeb5b350b95acdde989f43835cbf8e405ccb6bdfd61195af2191ee93b2a5"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-07-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 32172,
+      "sha256": "ac9104b3eaa45a5e6233947ddbfe424ff029fc6b80908dc7935f2c88d5953692"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 37784,
+      "sha256": "9528035f742939eb7931d8c1897c3c7d814cb749e65d3962e293a0e55e46e732"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-04-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6672,
+      "sha256": "8c0ff38fef66eebaa2b017eadc7e89dfcaee7a384cf4fce40017c422a2fdfc4e"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-05-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 4762,
+      "sha256": "0653820e414a4a832b35abb0a2494107cc047e9d9cad0c0f169ecf466b26a27c"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 68242,
+      "sha256": "5715931fe590801d9d8bc7bf38b6d296f48e1e77a29af3802e18f03415e1d0cc"
+    },
+    {
+      "path": "site/assets/rooms/classic-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 29672,
+      "sha256": "53a8c095050f2b4aee728f77ec8d1d53ba71afdfe9921da9bfa5c546c29b1156"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9120,
+      "sha256": "f9f35d1dd3f63f4681c0ccf4cb68975b0594bfd1384b6bd8045088011e838c25"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 10028,
+      "sha256": "ca76983ddf70a26632acd3b5c37a7580bf05cbc4217fe2574efd3fa972201d8b"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 30788,
+      "sha256": "6afdf0b72e47b6fb3969a715340fd316c818f33142aec9775c17ca1c6944beb5"
+    },
+    {
+      "path": "site/assets/rooms/suite-08-800.webp",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "bytes": 65244,
+      "sha256": "0c3abc71066228971e6fb7b715a6a08b94cb1e0f5d96aeac691d0304c701de28"
+    },
+    {
+      "path": "site/assets/rooms/premium-07-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 62950,
+      "sha256": "de60ebb34de5d663b89783fbac3241ce537c36a0fed504655081b5a01e9c6379"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 39814,
+      "sha256": "dfbaab1dfa534085c775a4b0a506fb8e7b24be49a5e236a51b2d125478466856"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 37528,
+      "sha256": "e20ebe092f21c7a2a5bef93cfc6dd5dd5ed77fd85ebfe29a29058f8950565a3c"
+    },
+    {
+      "path": "site/assets/rooms/prestige-08-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 6480,
+      "sha256": "1192d8a32c43c78029fd27938ba84cb5661e698761b95784d26754a69bb78f55"
+    },
+    {
+      "path": "site/assets/rooms/premium-04-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 13726,
+      "sha256": "84cc4ef3e2df4b2327450eb653bd3f30216dba4cabb5d609c7b8d6ab82823aff"
+    },
+    {
+      "path": "site/assets/rooms/premium-05-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 11384,
+      "sha256": "69344849d94d4eb8a3139de81079cf00fd15fdfbaad8accd91b94753e085cf70"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-05-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 29268,
+      "sha256": "de152b936fe8938efb28f233888d8b6606924354ebce61af971411cf475fda9a"
+    },
+    {
+      "path": "site/assets/rooms/hornigold-02-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 73748,
+      "sha256": "8383be652625c2aa2adef3a7567d4a903338cb941574fdae7453a85f78af910b"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 40298,
+      "sha256": "5566feee1389567cf2cc5eca0d0855c947e8374627d7649c9f611649ac689293"
+    },
+    {
+      "path": "site/assets/rooms/suite-07-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 87588,
+      "sha256": "9a4992f0830bdb74a625409a3055301d4051ea98384495d9a232efb3d8f866f9"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-05-1200.webp",
+      "dimensions": [
+        1200,
+        1800
+      ],
+      "bytes": 71916,
+      "sha256": "6d1565ec79ff6c87640cc08b491a32d4fd6f0cc059afbd4c086e15a09cbc670a"
+    },
+    {
+      "path": "site/assets/rooms/classic-01-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 53578,
+      "sha256": "1044b0c9f16513da8984b576582d31d3bcc1ca4c335b14f8eca0bd4da0ab343d"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-07-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 10472,
+      "sha256": "75142fbc5b221dc9b8c02898eec4d5857dd3f7022f249fc0d5f9a29e590fa70f"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-06-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 12346,
+      "sha256": "5a9174c2af55d47f8a5ecbb8697962d296eede1a7b10220a5004ee1378cb7a74"
+    },
+    {
+      "path": "site/assets/rooms/premium-01-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 58286,
+      "sha256": "ef9ce9b98d0b234db4565b31697a37df0e6801050bc1eac15674f8e451743ebb"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-10-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 72172,
+      "sha256": "74b151b560e71409da3eb0ed1a49c13e5e74d5e55c90693e66a054914265499d"
+    },
+    {
+      "path": "site/assets/rooms/prestige-06-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 84666,
+      "sha256": "2a9ddd41c912d9dc0a95d5d3ada183cb7e6da7ce8e923756cab9a10cfbb5725c"
+    },
+    {
+      "path": "site/assets/rooms/prestige-03-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 12326,
+      "sha256": "2635a49bf6266fce4e72df8bc06e6b0111cf55b77cca84a4c6abd8b967e34e40"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-10-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 40074,
+      "sha256": "5e1e2e065c810006d4eca712b7f647cb1134604cf969de1fc3b2cb1c6d69a7a6"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-08-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 29218,
+      "sha256": "874ed77d68e140845cf3f041d8864bf879416e6882d5764e3618490961a8af0f"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-11-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 62306,
+      "sha256": "0a8e09d8119f6df89c4172152efe01879d0c5c2593639ddb9ec6199942302886"
+    },
+    {
+      "path": "site/assets/rooms/prestige-02-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9542,
+      "sha256": "b8a80a798d115be64a837d0fb2a62567647d7d8a48e3dff7ccdf814d4072c89d"
+    },
+    {
+      "path": "site/assets/rooms/suite-03-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 43430,
+      "sha256": "b584e7295262d42bb2ce207a75d49f35851eaf64acf07a0e01d86a7fc8d9b3cc"
+    },
+    {
+      "path": "site/assets/rooms/suite-02-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 34962,
+      "sha256": "cf7f504a00c38134d29bfa660d077792b3655acd6c430a0b224c6eefb4f4747e"
+    },
+    {
+      "path": "site/assets/rooms/apartament-deluxe-09-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 144840,
+      "sha256": "cd15c11653529f72da63d347f587e65abd07c40ea27e7b3ed99469349942c417"
+    },
+    {
+      "path": "site/assets/rooms/prestige-deluxe-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 79992,
+      "sha256": "7185f530c3b066a3ca2d378db7f4636d1291b0dd8814b85a87053d8fbf993e8b"
+    },
+    {
+      "path": "site/assets/rooms/prestige-07-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 38746,
+      "sha256": "7e6ac79fb4150757270f8cd6c08b33c56653e8ce0c72f5349a7e2e339d82d616"
+    },
+    {
+      "path": "site/assets/rooms/prestige-06-800.webp",
+      "dimensions": [
+        800,
+        533
+      ],
+      "bytes": 42440,
+      "sha256": "fbaeefbff3fd743bad5f6ea00f3d39916c38eb59825dca2672f9e99e332b9908"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-08-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 91326,
+      "sha256": "a799471439dbf46be5ef75a588c23078a78026f07d1f6347cf7aa4b9c7a4f1bb"
+    },
+    {
+      "path": "site/assets/rooms/deluxe-premium-04-1200.webp",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "bytes": 50224,
+      "sha256": "782f6a7c0a10dadf63c13b7ceb8c6e4542d460349229c24731d400c89f8616f9"
+    },
+    {
+      "path": "site/assets/rooms/suite-07-320.webp",
+      "dimensions": [
+        320,
+        480
+      ],
+      "bytes": 11814,
+      "sha256": "588bbf220c1d17016ab46b9f5bb427377a717dd95e50120cf334cd7c5378cacf"
+    },
+    {
+      "path": "site/assets/rooms/suite-06-320.webp",
+      "dimensions": [
+        320,
+        213
+      ],
+      "bytes": 9352,
+      "sha256": "e4a7b248a1e20e33b868be4d7794d7e917eef03126e8407d046908f01ef8a5c5"
+    },
+    {
+      "path": "site/assets/og/hotel.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 245605,
+      "sha256": "433e27093c18b5d06a40e193ffd89470b9d0dcf1cbd271ff2cc09aa2c0a848bb"
+    },
+    {
+      "path": "site/assets/og/deluxe.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 110549,
+      "sha256": "a2a35ce4a88a4a8378d9a57137f9589848ad17dfd826a3dca343e2db1a4c9a10"
+    },
+    {
+      "path": "site/assets/og/apartament-deluxe.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 130193,
+      "sha256": "c0f26a0d2db27de97905ec00227ee2e8d7143ea7a8baa0369f5989d6d957b327"
+    },
+    {
+      "path": "site/assets/og/classic.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 86164,
+      "sha256": "684aedce3fc9549eedeb4e9d5db145ee17db7d4b05bde2054d361f1f89482c6b"
+    },
+    {
+      "path": "site/assets/og/hornigold.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 245605,
+      "sha256": "433e27093c18b5d06a40e193ffd89470b9d0dcf1cbd271ff2cc09aa2c0a848bb"
+    },
+    {
+      "path": "site/assets/og/prestige.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 137863,
+      "sha256": "c961f675d37658de0ad338bbe686b3a9c979783529c9273358e4482937f89355"
+    },
+    {
+      "path": "site/assets/og/prestige-deluxe.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 99095,
+      "sha256": "afd070b8c0170ae89c1c9dab08f4538c06389ed4435d1b3c81a94fb577e663a7"
+    },
+    {
+      "path": "site/assets/og/suite.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 80030,
+      "sha256": "478912a9704ee3501b0aaf3368d1999c03d99586a7cbb5e23d65cf9b0d6ccba8"
+    },
+    {
+      "path": "site/assets/og/premium.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 144521,
+      "sha256": "47295caa07f68f5bc650ee658927b0f4f95e4018febac9b6ac37b68f509ce8ae"
+    },
+    {
+      "path": "site/assets/og/deluxe-premium.jpg",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "bytes": 125694,
+      "sha256": "6200183c0487e8c064a29f92feabb081bffb4e6186cde54296a64b89cf4a574b"
+    },
+    {
+      "path": "site/assets/airports/ktw.jpg",
+      "dimensions": [
+        1280,
+        960
+      ],
+      "bytes": 402313,
+      "sha256": "7e366915af17fdfd9cdbcb527d6bc2ca3090531f01d5870ed2ffd16f09b6fd14"
+    },
+    {
+      "path": "site/assets/airports/krk.jpg",
+      "dimensions": [
+        1280,
+        710
+      ],
+      "bytes": 281903,
+      "sha256": "220971d1beb11f6b133f4fbad358e0910d7e520cf528661de943a668b9aa0da3"
+    },
+    {
+      "path": "site/assets/airports/ktw-exterior.jpg",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "bytes": 172848,
+      "sha256": "fa06e67bae229d17bc88a8d67d0d1450939ac1523cbd3f55c0a8f1c614b2be7a"
+    }
+  ],
+  "additionalLosslessVariant": {
+    "path": "site/assets/katowice-editorial-lossless.webp",
+    "decodedPixelsMatchOriginal": true,
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "fca57d1487332789056e0969e3c58cd32890ea62a598a55d84b1ced3a4b51999"
+  },
+  "totalVerifiedRasterFiles": 361
+}

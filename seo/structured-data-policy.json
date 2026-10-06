@@ -1,0 +1,29 @@
+{
+  "reviewedLocally": "2026-10-06",
+  "allowedTypes": [
+    "WebPage"
+  ],
+  "approvedScope": "Identity, title, description, language and canonical URL of existing local pages only. No commercial or operational assertions.",
+  "datedEvidenceAvailable": [
+    "legal/operator-verification.json (registry record retrieved 2026-10-06; not an operational hotel fact sheet)"
+  ],
+  "omittedFromAllBuilds": [
+    "LodgingBusiness",
+    "Organization",
+    "Accommodation",
+    "MeetingRoom",
+    "FAQPage",
+    "Article",
+    "BreadcrumbList"
+  ],
+  "reason": "No per-field dated evidence/approval chain for operational facts, authorship, ratings and room claims; do not infer approval from old generated JSON-LD. Reintroduce individually only after owner review.",
+  "requiredBeforeBusinessSchema": [
+    "Dated approved name/address/contact dossier",
+    "Dated approved room count, check-in/out and amenities",
+    "Dated, attributable sources for any price or rating, with validity period"
+  ],
+  "externalVerificationPerformed": false,
+  "snapshotEvidence": "docs/seo/snapshot-provenance.json",
+  "sourceClaimsInventory": "docs/seo/source-schema-review.json",
+  "nonCanonicalPages": "All JSON-LD removed from aliases and errors in both modes"
+}
