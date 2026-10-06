@@ -1,0 +1,19 @@
+{
+  "version": 21,
+  "languages": [
+    "pl",
+    "en",
+    "de",
+    "zh-Hans",
+    "uk",
+    "es",
+    "it"
+  ],
+  "pages": 693,
+  "staticErrors": 0,
+  "terminologyErrors": 0,
+  "previewOnly": true,
+  "onlineBooking": false,
+  "payments": false,
+  "serverCounter": false
+}
