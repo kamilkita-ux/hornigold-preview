@@ -27,6 +27,6 @@ for src in sorted(mapping):
     for old in sorted({src,src.rstrip('/') or '/'}):
         rows.append([ORIGIN+quote(old,safe='/%'),ORIGIN+routes[dst],'301','Alias obecny w '+evidence[src]+'; cel spłaszczony do adresu kanonicznego','SZKIC — potwierdzić użycie na starej stronie i zatwierdzić przed wdrożeniem'])
 with (R/'REDIRECT_MAP_DRAFT.csv').open('w',newline='',encoding='utf-8') as f:
-    w=csv.writer(f);w.writerow(['stary URL','nowy URL','typ przekierowania','uzasadnienie','status']);w.writerows(rows)
+    w=csv.writer(f,lineterminator="\n");w.writerow(['stary URL','nowy URL','typ przekierowania','uzasadnienie','status']);w.writerows(rows)
 report={'aliases':len(mapping),'rows':len(rows),'loops':0,'missingTargets':0,'selfRedirects':0,'externalOldSiteVerified':False,'sourceFiles':['server/routes.mjs','site/**/index.html'],'deployed':False}
 (R/'docs/seo/redirect-map.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report))
