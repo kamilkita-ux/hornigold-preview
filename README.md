@@ -4,7 +4,7 @@ Samodzielny podgląd WWW: 693 podstrony w siedmiu językach (polski, angielski, 
 
 Główny adres po scaleniu: https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/
 
-GitHub jest repozytorium źródeł. Push i przekierowanie Pages do Sites są odłożone decyzją właściciela. Nie opisuj lokalnych zmian jako opublikowanych na GitHubie.
+GitHub zawiera komplet źródeł scalonej wersji 23.1. Właściciel zatwierdził aktualizację repozytorium 6 października 2026. GitHub Pages przekazuje odwiedzających do odpowiadających podstron Sites; dzięki temu utrzymujemy jedną działającą stronę z serwerem i licznikiem. Historię poprzednich wersji zachowujemy.
 
 ## Zakres
 
@@ -35,7 +35,7 @@ python -m http.server 8080 --bind 127.0.0.1 --directory _site
 
 Następnie otwórz http://127.0.0.1:8080/pl/.
 
-Dla GitHub Pages: `python scripts/build.py --base /hornigold-preview/`. Publikowany jest wyłącznie `_site/`, a nie cały katalog repozytorium. Stronę można przenieść na inny hosting statyczny, budując ją z `--base /`.
+Dla GitHub Pages: `python scripts/build.py --base /hornigold-preview/`. Wynik `_site/` zawiera pełną, przenośną stronę. Obecny workflow GitHub Pages publikuje `_pages/` z przekierowaniami do Sites, a nie tę statyczną kopię. Stronę można przenieść na inny hosting statyczny, budując ją z `--base /`.
 
 ## Ograniczenia uruchomienia docelowego
 
@@ -47,7 +47,7 @@ Materiały wizualne zachowują dotychczasowe oznaczenia i prawa ich właściciel
 
 Edytowalnym źródłem tej niezależnej strony jest `site/`: pełny HTML, CSS, JavaScript i zasoby. Nie potrzeba prywatnego generatora ani oryginalnego komputera. Edycję wspólnego elementu trzeba zastosować do wszystkich odpowiednich podstron; CMS dla obsługi nie jest wdrożony.
 
-Aktualizacja: sklonuj repozytorium, utwórz gałąź, zmień źródła i `release.json`, zbuduj oba warianty, uruchom `scripts/audit_static.py` i `scripts/check_repository.py`, wykonaj testy przeglądarkowe. Przegląd zmian poprzedza push do `main`, który publikuje Pages. Sprawdź udany GitHub Actions run, a następnie publiczne `release.json` i stronę; sam push nie potwierdza publikacji.
+Aktualizacja: sklonuj repozytorium, utwórz gałąź, zmień źródła i `release.json`, zbuduj oba warianty, uruchom `scripts/audit_static.py` i `scripts/check_repository.py`, wykonaj testy przeglądarkowe. Przegląd zmian poprzedza push do `main`, który publikuje Pages. Sprawdź udany GitHub Actions run, następnie przekierowanie z Pages do właściwej podstrony Sites z zachowaniem parametrów pobytu; sam push nie potwierdza publikacji.
 
 Testy przeglądarkowe: `pnpm install --frozen-lockfile`, `pnpm exec playwright install`, lokalny serwer `_site/`, następnie `AUDIT_URL=http://127.0.0.1:4329/ node scripts/browser_audit.cjs`. Skrypt używa odizolowanych przeglądarek Chromium, Firefox i WebKit. WebKit nie zastępuje ręcznego testu wydanej aplikacji Safari.
 
@@ -83,6 +83,6 @@ W celu publikacji istniejącego Sites: najpierw odczytaj projekt `appgprj_6ac24f
 
 Testy: `node --test tests/server.test.mjs` (Node z node:sqlite), następnie `node scripts/serve_worker.mjs` uruchamia lokalny adapter tego samego Workera i nietrwałą bazę testową. Ustaw AUDIT_URL=http://127.0.0.1:4334 dla audytów przeglądarek. Testy lokalne nie zwiększają licznika produkcyjnego.
 
-`scripts/build_pages_redirect.py` przygotowuje `_pages/` z przekierowaniami wszystkich adresów GitHub Pages do Sites, zachowując daty, gości, kategorię i kotwicę. Nowy workflow opublikuje je dopiero po przyszłym zatwierdzonym pushu na GitHuba. Pełne źródła strony nadal zostają w repozytorium. Nie usuwać repozytorium ani historii, aby je „wyczyścić”.
+`scripts/build_pages_redirect.py` przygotowuje `_pages/` z przekierowaniami wszystkich adresów GitHub Pages do Sites, zachowując daty, gości, kategorię i kotwicę. Workflow publikuje je po zatwierdzonym pushu na GitHuba. Pełne źródła strony nadal zostają w repozytorium. Nie usuwać repozytorium ani historii, aby je „wyczyścić”.
 
 Przywrócenie starego projektu Sites jest możliwe przez jego historię wersji. Nie kasuj całego projektu: usunęłoby to właściwy adres i zagroziło danym licznika.
