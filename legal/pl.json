@@ -1,0 +1,88 @@
+{
+  "title": "Regulaminy, prywatność i dostępność",
+  "intro": "Zasady korzystania z serwisu Hornigold i kontaktu w sprawie pobytu. Wersja z 6 października 2026 r. Dokumenty opisują obecne funkcje tej strony. Rezerwacje i płatności online nie są dostępne; pobyt uzgadniasz bezpośrednio z recepcją.",
+  "download": "Pobierz wszystkie dokumenty w PDF",
+  "sections": [
+    {
+      "id": "terms",
+      "title": "Regulamin serwisu i informacje prawne",
+      "paragraphs": [
+        "Usługodawcą jest Hornigold w Zielonej Kamienicy spółka z ograniczoną odpowiedzialnością, ul. Mikołaja Kopernika 6, 40-064 Katowice, Polska. NIP 6343076075, KRS 0001265196. Sąd Rejonowy Katowice-Wschód w Katowicach, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. Kapitał zakładowy: 500 000 PLN. Kontakt: office@hornigold.pl, +48 608 662 707.",
+        "Serwis bezpłatnie udostępnia informacje, porównywanie kategorii, planowanie pobytu i przygotowanie zapytania. Korzystanie rozpoczyna się przez otwarcie strony lub wybranie funkcji i kończy przez jej zamknięcie. Potrzebna jest aktualna przeglądarka i Internet; funkcje interaktywne wymagają JavaScript, a wysyłka przygotowanego zapytania - własnej poczty. Podstawowe treści i dokumenty są dostępne bez JavaScript.",
+        "Nie wolno dostarczać treści bezprawnych, naruszać praw innych osób ani zakłócać pracy serwisu. Linki do zewnętrznych usług otwierasz dobrowolnie; ich dostawcy stosują własne zasady. Ilustracje opisane jako redakcyjne nie są dokumentacją rzeczywistego wyglądu miejsc.",
+        "Problemy techniczne i reklamacje zgłoś na office@hornigold.pl lub pisemnie na adres spółki: opisz problem, datę i oczekiwane rozwiązanie oraz podaj kontakt do odpowiedzi. Na reklamację konsumenta odpowiadamy na trwałym nośniku w terminie 14 dni od otrzymania, chyba że przepis szczególny przewiduje inny termin. Przerwy lub błędy serwisu nie wyłączają ustawowej odpowiedzialności spółki ani praw konsumenta.",
+        "Nowa wersja zasad dotyczy korzystania z serwisu od daty jej publikacji; nie zmienia warunków już zawartych umów. Stosuje się prawo polskie z zachowaniem bezwzględnie obowiązujących praw konsumenta, także wynikających z prawa państwa jego zwykłego pobytu. Dokumenty można zapisać i wydrukować. Tłumaczenia służą dostępowi do informacji i nie ograniczają ustawowych praw."
+      ]
+    },
+    {
+      "id": "booking",
+      "title": "Rezerwacja, pobyt i reklamacje",
+      "paragraphs": [
+        "Wybór dat, pokoju lub przygotowanie wiadomości nie blokuje dostępności i nie zawiera umowy. Zapytanie wyślij z własnej poczty lub zadzwoń. Przed zaakceptowaniem oferty otrzymasz termin, kategorię i liczbę gości, pełną cenę z podatkami, uzgodnione dodatki i ich koszty, warunki płatności, zmiany, anulowania i niepojawienia się. Uzgodnione warunki oraz potwierdzenie przyjęcia rezerwacji otrzymasz e-mailem. Nie wpłacaj środków bez uzgodnionej oferty i instrukcji recepcji.",
+        "Godziny przyjazdu i wyjazdu, wymagania dotyczące zwierząt, dzieci, parkingu oraz potrzeb dostępności uzgodnij przed zawarciem umowy. Korzystaj z pokoju zgodnie z przeznaczeniem, przestrzegaj zasad bezpieczeństwa i szanuj spokój innych gości. Usterki lub brak uzgodnionej usługi zgłoś recepcji, aby umożliwić ich usunięcie. Odpowiedzialność za szkody ustala się według prawa; nie stosuje się automatycznych kar niewskazanych w umowie.",
+        "Przy zakwaterowaniu na konkretny dzień lub okres, innym niż do celów mieszkalnych, ustawowe 14-dniowe prawo odstąpienia od umowy zawartej na odległość co do zasady nie przysługuje (art. 38 ust. 1 pkt 12 ustawy o prawach konsumenta). Nie oznacza to automatycznie, że każda oferta jest bezzwrotna. Zasady anulowania i ewentualna przedpłata wynikają z oferty przyjętej przed rezerwacją. Zmianę lub anulowanie zgłoś na office@hornigold.pl; zachowaj potwierdzenie.",
+        "Reklamację pobytu lub płatności złóż na dane kontaktowe spółki; podaj numer rezerwacji, jeśli go masz, opis i żądanie. Nie przesyłaj danych karty. Brak natychmiastowego zgłoszenia usterki nie odbiera ustawowych praw. Pomoc oferują rzecznik konsumentów i Inspekcja Handlowa; informacje o pozasądowym rozwiązywaniu sporów są dostępne na polubowne.uokik.gov.pl oraz consumer-redress.ec.europa.eu. Udział w konkretnym postępowaniu podlega właściwym przepisom i wymaganym zgodom; ta informacja nie jest ogólną zgodą spółki na każde postępowanie."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Zasady płatności i zwrotów",
+      "paragraphs": [
+        "Ta strona nie pobiera pieniędzy ani danych kart i nie uruchamia obecnie Fiserv Hosted Checkout. Aktywne metody i termin płatności ustalasz z recepcją w ofercie. Rozliczenie jest w PLN; pełna należność, podatki i uzgodnione opłaty dodatkowe muszą być znane przed przyjęciem oferty. Ewentualne koszty przewalutowania określa Twój bank.",
+        "Wysokość przedpłaty, jej charakter oraz warunki zwrotu lub zatrzymania określa konkretna oferta z uwzględnieniem praw konsumenta. Nie obowiązuje automatyczna zasada 100% bezzwrotnej opłaty dla wszystkich zapytań. Dokument księgowy wystawiany jest zgodnie z przepisami; dane do faktury przekaż recepcji przed rozliczeniem.",
+        "Jeżeli zwrot jest należny, jego podstawę, kwotę i termin potwierdzamy na trwałym nośniku zgodnie z umową i prawem. Co do zasady zwrot kierowany jest pierwotną metodą płatności; inną metodę uzgadniamy bez dodatkowego kosztu dla gościa. Nie wpisuj numeru karty, kodu CVV ani hasła bankowego w formularzu lub e-mailu. Wątpliwe żądanie zapłaty zweryfikuj telefonicznie.",
+        "Przed udostępnieniem płatności online opublikujemy dane rzeczywistego operatora, metody, etapy złożenia płatnego zamówienia i zasady potwierdzenia. Sam powrót z bramki płatniczej nie będzie dowodem przyjęcia rezerwacji. Do czasu uruchomienia i sprawdzenia integracji ta funkcja pozostaje niedostępna."
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Polityka prywatności i informacja RODO",
+      "paragraphs": [
+        "Administratorem danych związanych z obsługą Twojego zapytania jest spółka wskazana w informacji prawnej. W sprawach danych napisz na office@hornigold.pl lub adres spółki. Polityka dotyczy tej strony i zapytań do recepcji; nie opisuje nieuruchomionego systemu płatności ani innych, odrębnych kanałów przetwarzania.",
+        "Przygotowanie wiadomości odbywa się lokalnie w przeglądarce. Dopiero wysyłając ją ze swojej poczty przekazujesz odbiorcy adres e-mail, treść i dane, które dobrowolnie podałeś. Dane niezbędne do oferty i umowy przetwarzamy na podstawie art. 6 ust. 1 lit. b RODO; zwykłą korespondencję, ochronę przed nadużyciami i dochodzenie lub obronę roszczeń na podstawie uzasadnionego interesu (lit. f); dokumentację wymaganą prawem na podstawie lit. c. Nie trzeba wyrażać zgody marketingowej, by zadać pytanie lub zarezerwować pobyt.",
+        "Podanie danych do zapytania jest dobrowolne, lecz bez kontaktu i informacji o pobycie nie możemy odpowiedzieć lub przygotować oferty. Nie przesyłaj danych wrażliwych ani dokumentów tożsamości w formularzu. Strona nie prowadzi profilowania ani zautomatyzowanych decyzji wywołujących skutki prawne. Nie ma formularza newslettera ani aktywnych narzędzi reklamowych.",
+        "Odbiorcami mogą być osoby upoważnione do obsługi zapytania, dostawcy poczty i IT, obsługa księgowa lub prawna oraz organy uprawnione przepisami - w zakresie koniecznym do danego celu. Stronę udostępnia GitHub Pages: dostawca może przetwarzać IP, żądany adres i informacje techniczne, także dla bezpieczeństwa, według swojej polityki. GitHub opisuje przetwarzanie poza EOG oraz stosowane mechanizmy transferu, w tym odpowiednie decyzje o adekwatności lub standardowe klauzule umowne: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Szczegółów i kopii właściwych zabezpieczeń możesz zażądać od administratora. Kliknięcie map Google uruchamia odrębną usługę Google; informacje: policies.google.com/privacy.",
+        "Zapytanie przechowujemy przez czas obsługi i uzgodnienia oferty; jeśli prowadzi do umowy - także przez jej wykonanie i wymagany okres dokumentacji. Dokumenty podatkowe zasadniczo przez 5 lat od końca roku, w którym upłynął termin płatności podatku. Dane potrzebne do roszczeń - do upływu właściwego terminu przedawnienia (co do zasady 6 lat, a dla roszczeń związanych z działalnością 3 lata, z zastrzeżeniem terminów szczególnych i zdarzeń wpływających na bieg terminu). Pozostałą korespondencję usuwamy po zakończeniu sprawy, gdy nie ma dalszej podstawy przechowywania. Pamięć przeglądarki opisujemy osobno; retencję własnych logów dostawcy określają w swoich zasadach.",
+        "Masz prawo żądać dostępu, sprostowania, usunięcia i ograniczenia danych, a przy spełnieniu warunków RODO także przenoszenia. Możesz wnieść sprzeciw wobec przetwarzania opartego na uzasadnionym interesie. Zgodę można wycofać w każdej chwili bez wpływu na wcześniejsze zgodne z prawem przetwarzanie. Możesz złożyć skargę do Prezesa UODO (uodo.gov.pl) lub właściwego organu nadzorczego. Na żądania odpowiadamy co do zasady w ciągu miesiąca; o dopuszczalnym przedłużeniu i jego przyczynie poinformujemy w tym terminie. Możemy poprosić o proporcjonalne potwierdzenie tożsamości."
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies, pamięć urządzenia i zgody",
+      "paragraphs": [
+        "Bez Twojej zgody nie uruchamiamy reklam, analityki ani osadzonych panoram Google. Samo przewijanie, zamknięcie komunikatu czy korzystanie ze strony nie oznacza zgody na opcjonalne narzędzia. Obecnie jedyną opcjonalną integracją są mapy i panoramy Google; analityka i marketing są nieaktywne.",
+        "Własna pamięć serwisu: hornigold-language (localStorage) zachowuje wybrany język do usunięcia danych; hornigold-stay, hornigold-comparison i hornigold-enquiry-plan (sessionStorage) zachowują plan i porównanie do zakończenia sesji karty. Nie zapisujemy tam swobodnego tekstu zapytania ani danych karty. hornigold-privacy (localStorage) przechowuje wybór prywatności, wersję zasad i datę, maksymalnie 180 dni; po wygaśnięciu opcjonalne mapy są ponownie wyłączone. Są to funkcje związane z Twoim żądaniem i zapamiętaniem wyboru, a nie narzędzia śledzenia reklamowego.",
+        "Daty i liczba gości mogą występować w adresie strony: udostępniony link ujawnia te wartości, a żądany adres może trafić do logów hostingu. Nie umieszczaj w adresie imienia, e-maila ani innych danych osobowych. Zewnętrzne odnośniki otwierają odrębne serwisy dopiero po kliknięciu.",
+        "W stopce otwórz „Ustawienia prywatności”. Możesz wybrać tylko niezbędne funkcje, osobno zezwolić na mapy Google, a później wycofać zgodę równie łatwo. Po wycofaniu usuwamy osadzone mapy. Nie możemy usunąć danych już zapisanych przez zewnętrznego dostawcę; zarządzasz nimi również w przeglądarce i u tego dostawcy. Przycisk usunięcia zapamiętanych wyborów usuwa własną pamięć Hornigold na tym urządzeniu. Odmowa nie ogranicza tekstowych wskazówek dojazdu ani danych kontaktowych."
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Informacja o dostępności",
+      "paragraphs": [
+        "Dążymy do dostępności serwisu zgodnej z WCAG 2.2 na poziomie AA. Zapewniamy nawigację klawiaturą, widoczny fokus, etykiety formularzy, przełącznik siedmiu języków oraz tekstowe odpowiedniki informacji o dojeździe. Strona nie wymaga zgody na zewnętrzne mapy do przeczytania wskazówek.",
+        "Nie deklarujemy pełnej zgodności ani certyfikacji. Testy automatyczne nie zastępują oceny z czytnikiem ekranu i użytkownikami. Ograniczenia: dostępność zewnętrznych panoram zależy od Google; pliki PDF nie mają jeszcze potwierdzonej zgodności PDF/UA. Ta sama treść dokumentów jest dostępna jako HTML. System rezerwacji i płatności online nie jest uruchomiony i nie został odebrany pod kątem dostępności.",
+        "Jeśli napotkasz barierę, napisz na office@hornigold.pl lub zadzwoń +48 608 662 707. Wskaż adres strony, problem i preferowaną formę kontaktu lub informacji. Pomagamy uzyskać treść i ofertę inną drogą. Skargi dotyczące dostępności usług możesz składać również pisemnie na adres spółki. W sprawach handlu elektronicznego informacje o nadzorze publikuje Minister Cyfryzacji na gov.pl/web/dostepnosc-cyfrowa. Zakres ustawowych obowiązków podlega ocenie dla danej usługi; nie zakładamy automatycznie zwolnienia dla mikroprzedsiębiorców."
+      ]
+    }
+  ],
+  "ui": {
+    "settings": "Ustawienia prywatności",
+    "notice": "Używamy pamięci niezbędnej do działania wybranych funkcji. Mapy Google wymagają Twojej zgody. Reklamy i analityka są wyłączone.",
+    "necessary": "Tylko niezbędne",
+    "save": "Zapisz wybór",
+    "close": "Zamknij",
+    "maps": "Zezwól na mapy i panoramy Google",
+    "mapDetail": "Google otrzyma m.in. adres IP i może używać własnych cookies oraz przetwarzać dane poza EOG. Zgodę możesz wycofać tutaj. Tekstowy dojazd działa bez zgody.",
+    "inactive": "Analityka i reklamy: nieaktywne, nie zbieramy na nie zgody.",
+    "clear": "Usuń zapamiętane wybory i plan pobytu",
+    "cleared": "Dane tej strony zostały usunięte. Odśwież stronę, aby wyczyścić również formularze.",
+    "privacyLink": "Jak przetwarzamy dane",
+    "form": "Zapytanie przygotowujesz lokalnie i wysyłasz ze swojej poczty. Nie wymagamy zgody marketingowej. Zobacz zasady przetwarzania danych.",
+    "legal": "Dokumenty i prawa gościa",
+    "toc": "Spis dokumentów",
+    "quick": "Szybki dostęp",
+    "reviews": "Ocena pochodzi z Google. Nie weryfikujemy samodzielnie, czy każdą opinię dodała osoba, która skorzystała z pobytu. Aktualne opinie i zasady ich publikacji sprawdzisz w Google.",
+    "club": "Program Club Hornigold nie jest obecnie dostępny. W sprawie oferty pobytu skontaktuj się z recepcją."
+  }
+}

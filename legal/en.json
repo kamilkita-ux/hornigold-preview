@@ -1,0 +1,88 @@
+{
+  "title": "Terms, privacy and accessibility",
+  "intro": "Rules for using the Hornigold website and enquiring about a stay. Version dated 6 October 2026. These documents describe this website's current functions. Online reservations and payments are unavailable; arrange your stay directly with reception.",
+  "download": "Download all documents as PDF",
+  "sections": [
+    {
+      "id": "terms",
+      "title": "Website terms and legal information",
+      "paragraphs": [
+        "The service provider is Hornigold w Zielonej Kamienicy spółka z ograniczoną odpowiedzialnością, ul. Mikołaja Kopernika 6, 40-064 Katowice, Poland. Tax ID (NIP): 6343076075; company register (KRS): 0001265196. Register court: Sąd Rejonowy Katowice-Wschód w Katowicach, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego. Share capital: PLN 500,000. Contact: office@hornigold.pl, +48 608 662 707.",
+        "The website provides information, category comparisons, stay planning and enquiry preparation free of charge. Use begins when you open a page or select a function and ends when you close it. An up-to-date browser and Internet connection are needed; interactive functions require JavaScript and sending a prepared enquiry requires your own email application. Core content and documents are available without JavaScript.",
+        "Do not submit unlawful content, infringe others' rights or disrupt the website. External services are opened voluntarily and apply their providers' terms. Images labelled as editorial illustrations do not document the actual appearance of a place.",
+        "Report technical problems and complaints by email to office@hornigold.pl or by post to the company address. Describe the issue, date and requested remedy and provide reply details. Consumer complaints receive a response on a durable medium within 14 days of receipt, unless a specific law sets another deadline. Interruptions and errors do not exclude the company's statutory liability or consumer rights.",
+        "Updated terms govern website use from publication and do not change existing contracts. Polish law applies without removing mandatory consumer protections, including those of the consumer's country of habitual residence. Documents can be saved and printed. Translations provide access to information and do not restrict statutory rights."
+      ]
+    },
+    {
+      "id": "booking",
+      "title": "Reservations, stays and complaints",
+      "paragraphs": [
+        "Selecting dates or a room, or preparing a message, does not hold availability or conclude a contract. Send your enquiry from your own email or call reception. Before accepting an offer, you receive the dates, category and guest count, total price including taxes, agreed extras and their costs, payment terms, changes, cancellation and no-show conditions. Agreed terms and acceptance of the reservation are confirmed by email. Do not pay without an agreed offer and reception's instructions.",
+        "Agree arrival and departure times, arrangements for pets, children, parking and accessibility needs before concluding the contract. Use the room as intended, follow safety rules and respect other guests' peace. Report defects or missing agreed services to reception so they can be addressed. Liability for damage follows the law; no automatic penalties absent from the contract apply.",
+        "For non-residential accommodation booked for a specified date or period, the statutory 14-day right to withdraw from a distance contract generally does not apply (Article 38(1)(12) of the Polish Consumer Rights Act). This does not make every offer non-refundable. Cancellation terms and any advance payment are those accepted before booking. Request changes or cancellation at office@hornigold.pl and keep the confirmation.",
+        "Submit stay or payment complaints to the company, including a reservation reference if available, a description and the remedy sought. Do not send card details. Failing to report a defect immediately does not remove statutory rights. Consumer ombudsmen and the Trade Inspection offer assistance. Information on alternative dispute resolution is available at polubowne.uokik.gov.pl and consumer-redress.ec.europa.eu. Participation in a particular procedure is subject to applicable rules and required consents; this information is not blanket company consent to every procedure."
+      ]
+    },
+    {
+      "id": "payments",
+      "title": "Payment and refund rules",
+      "paragraphs": [
+        "This website does not collect money or card details and does not currently operate Fiserv Hosted Checkout. Agree available methods and payment deadlines with reception in the offer. Settlement is in PLN; the total, taxes and agreed additional charges must be known before acceptance. Any currency-conversion costs are determined by your bank.",
+        "The amount and nature of any advance payment and the conditions for refunding or retaining it are stated in the individual offer, subject to consumer rights. There is no automatic 100% non-refundable charge for all enquiries. Accounting documents are issued in accordance with the law; give reception invoice details before settlement.",
+        "Where a refund is due, its basis, amount and deadline are confirmed on a durable medium in accordance with the contract and law. Refunds normally use the original payment method; another method is agreed without additional cost to the guest. Never enter a card number, CVV or banking password in a form or email. Verify suspicious payment requests by telephone.",
+        "Before enabling online payments, we will publish the actual provider's details, available methods, paid-order steps and confirmation rules. Returning from a payment gateway alone will not prove reservation acceptance. This function remains unavailable until the integration is enabled and verified."
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy policy and GDPR information",
+      "paragraphs": [
+        "The company identified in the legal information is the controller for data used to handle your enquiry. Contact office@hornigold.pl or the company postal address about personal data. This policy covers this website and enquiries to reception, not an inactive payment system or other separate processing channels.",
+        "Messages are prepared locally in your browser. Only when you send one from your email do you disclose your email address, message and voluntarily supplied details to the recipient. Data necessary for an offer or contract are processed under GDPR Article 6(1)(b); general correspondence, prevention of abuse and establishment or defence of claims under legitimate interests (Article 6(1)(f)); legally required records under Article 6(1)(c). Marketing consent is not required to ask a question or book a stay.",
+        "Providing enquiry details is voluntary, but without contact and stay information we cannot reply or prepare an offer. Do not send sensitive information or identity documents through the form. The website does not profile users or make automated decisions with legal effects. It has no newsletter subscription form or active advertising tools.",
+        "Recipients may include authorised enquiry handlers, email and IT providers, accounting or legal advisers and legally entitled authorities, only as needed for the purpose. GitHub Pages hosts the website: the provider may process IP addresses, requested URLs and technical information, including for security, under its own policy. GitHub describes processing outside the EEA and transfer mechanisms, including relevant adequacy decisions or standard contractual clauses: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Ask the controller for details and copies of applicable safeguards. Activating Google maps opens a separate Google service; see policies.google.com/privacy.",
+        "Enquiries are retained while handled and an offer is agreed; if they lead to a contract, through performance and the required record-keeping period. Tax records are generally kept for five years after the end of the year in which the tax payment deadline fell. Data needed for claims are kept until the applicable limitation period ends (generally six years, or three for business-related claims, subject to special periods and events affecting their calculation). Other correspondence is deleted after the matter ends if no further retention basis exists. Browser storage is described separately; providers set retention for their own logs in their policies.",
+        "You may request access, rectification, erasure and restriction, and portability where GDPR conditions are met. You may object to processing based on legitimate interests. Consent can be withdrawn at any time without affecting prior lawful processing. You may complain to the President of Poland's UODO (uodo.gov.pl) or the competent supervisory authority. Requests are normally answered within one month; any permitted extension and its reasons are communicated within that period. Proportionate identity verification may be requested."
+      ]
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies, device storage and choices",
+      "paragraphs": [
+        "We do not activate advertising, analytics or embedded Google panoramas without your consent. Scrolling, closing a notice or using the website does not mean consent to optional tools. Google maps and panoramas are currently the only optional integration; analytics and marketing are inactive.",
+        "Website storage: hornigold-language (localStorage) retains your chosen language until deleted; hornigold-stay, hornigold-comparison and hornigold-enquiry-plan (sessionStorage) retain planning and comparison choices until the tab session ends. Free-text enquiries and card details are not stored there. hornigold-privacy (localStorage) records your privacy choice, policy version and date for up to 180 days; optional maps are disabled again after expiry. These functions support your requests and record choices rather than track advertising activity.",
+        "Dates and guest count may appear in page URLs: sharing a link discloses those values, and the requested URL may enter hosting logs. Do not place names, email addresses or other personal data in URLs. External links open separate services only when clicked.",
+        "Open Privacy settings in the footer to choose necessary functions only or allow Google maps separately, and withdraw just as easily later. Withdrawal removes embedded maps. We cannot erase information already stored by an external provider; also manage it in your browser and with that provider. The clear-choices button removes Hornigold's own storage on this device. Refusal leaves written directions and contact details available."
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility information",
+      "paragraphs": [
+        "We aim for WCAG 2.2 Level AA accessibility. The website provides keyboard navigation, visible focus, labelled forms, a seven-language switcher and written directions. Reading directions does not require consent to external maps.",
+        "We do not claim full compliance or certification. Automated checks cannot replace screen-reader and user testing. Limitations: external panoramas depend on Google's accessibility; PDF/UA compliance of PDFs has not been verified. The same document text is available in HTML. Online booking and payments are inactive and have not passed an accessibility acceptance review.",
+        "If you encounter a barrier, email office@hornigold.pl or call +48 608 662 707. Provide the page URL, issue and preferred contact or information format. We help provide content and offers by another route. Accessibility complaints can also be posted to the company. For e-commerce supervision, consult Poland's Minister of Digital Affairs at gov.pl/web/dostepnosc-cyfrowa. Statutory obligations must be assessed for the service concerned; we do not automatically assume a microenterprise exemption."
+      ]
+    }
+  ],
+  "ui": {
+    "settings": "Privacy settings",
+    "notice": "We use storage needed for the functions you choose. Google maps require your consent. Advertising and analytics are disabled.",
+    "necessary": "Necessary only",
+    "save": "Save choice",
+    "close": "Close",
+    "maps": "Allow Google maps and panoramas",
+    "mapDetail": "Google will receive information including your IP address and may use its own cookies and process data outside the EEA. Withdraw consent here at any time. Written directions work without consent.",
+    "inactive": "Analytics and advertising: inactive; we do not collect consent for them.",
+    "clear": "Clear saved choices and stay plan",
+    "cleared": "This website's stored data have been cleared. Reload to clear the forms as well.",
+    "privacyLink": "How we process data",
+    "form": "Prepare your enquiry locally and send it from your own email. Marketing consent is not required. Read how your data are processed.",
+    "legal": "Documents and guest rights",
+    "toc": "Document contents",
+    "quick": "Quick access",
+    "reviews": "The rating comes from Google. We do not independently verify whether every reviewer has stayed with us. See Google for current reviews and its publication rules.",
+    "club": "Club Hornigold is currently unavailable. Contact reception for a stay offer."
+  }
+}

@@ -1,3 +1,5 @@
+Aktualizacja 2026-10-06: wersja 23 dodaje dokumenty i sterowanie prywatnością. Szczegółowy aktualny zakres, testy oraz otwarte wymagania: [AUDYT-UE-23.json](AUDYT-UE-23.json). Poniżej zachowano audyt wersji 22 jako punkt odniesienia, nie jako aktualny wykaz brakujących dokumentów.
+
 # Hornigold — audyt gotowości
 
 Stan 2026-10-06, wersja 22. Nie jest to certyfikat zgodności prawnej, WCAG ani kompletnego przekładu profesjonalnego. Usunięcie banera zostało osobno zlecone przez właściciela. Noindex, nieaktywne rezerwacje i płatności pozostają.

@@ -59,3 +59,14 @@ Wersja 22 usuwa widoczne oznaczenia testowe na polecenie właściciela; nie usuw
 - [Pytania do dostawców](docs/PYTANIA-DO-DOSTAWCOW.md) — przygotowane, niewysłane.
 - [Domena i odbiór dla Marka](docs/DOMENA-I-ODBIOR.md) — DNS wymaga danych konkretnego hostingu.
 - `render.yaml` — przygotowana alternatywa dla frontendu, jeszcze niewdrożona. GitHub Pages nie jest docelowym hostingiem sprzedaży online.
+
+
+## Dokumenty i testy wersji 23
+
+Źródłem dokumentów jest `legal/{język}.json`. Pliki HTML generuje `python scripts/build_legal.py`. Nie edytuj wyłącznie jednego przetłumaczonego HTML: wszystkie siedem wersji musi zachować ten sam zakres. Dane rejestrowe i źródło weryfikacji są w `legal/operator-verification.json`.
+
+Aby odtworzyć PDF-y: zainstaluj `requirements-documents.txt`, uruchom `python scripts/build_legal_pdf.py`. Czcionki i licencje znajdują się w `legal/fonts/`; generator nie potrzebuje plików z oryginalnego komputera. Pliki trafiają do `site/documents/` i `../output/pdf/`. Po zmianie treści zawsze wyrenderuj i obejrzyj PDF-y; nie deklaruj zgodności PDF/UA bez walidacji. Ta sama treść jest dostępna w HTML.
+
+`scripts/audit_accessibility.cjs` skanuje wszystkie trasy w szerokościach 375 i 1366 pikseli narzędziem axe. `scripts/audit_privacy.cjs` testuje dialog, klawiaturę, odmowę, zgodę, wycofanie i wygaśnięcie w siedmiu językach oraz trzech silnikach przeglądarek. Żądania map w tym teście są przechwytywane i obsługiwane lokalną odpowiedzią: to test bramki zgody, nie audyt działania Google. Ustaw `AUDIT_URL` na lokalny serwer z odpowiednim prefiksem. Serwer testowy powinien obsłużyć równoległe pobieranie zasobów.
+
+Wersja 23 dodaje dokumenty do obecnych funkcji informacyjnych i zapytań do recepcji. Nie uruchamia rezerwacji, płatności, analityki ani marketingu. Zewnętrzne mapy wymagają świadomej zgody. Testy automatyczne i przygotowanie treści nie są niezależną opinią prawną ani certyfikatem pełnej zgodności UE/WCAG. Otwarte sprawy operacyjne i prawne są zapisane w `docs/AUDYT-UE-23.json`.

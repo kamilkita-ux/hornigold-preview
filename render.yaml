@@ -6,7 +6,7 @@ services:
     runtime: static
     repo: https://github.com/kamilkita-ux/hornigold-preview
     branch: main
-    autoDeployTrigger: off
+    autoDeployTrigger: "off"
     buildCommand: pip install -r requirements.txt && python scripts/build.py --base / && python scripts/audit_static.py --base /
     staticPublishPath: ./_site
     headers:
@@ -18,7 +18,7 @@ services:
         value: nosniff
       - path: /*
         name: Referrer-Policy
-        value: strict-origin-when-cross-origin
+        value: no-referrer
       - path: /*
         name: X-Frame-Options
         value: DENY

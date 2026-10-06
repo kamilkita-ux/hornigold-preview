@@ -1,0 +1,21 @@
+{
+  "source": "https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/0001265196?rejestr=P&format=json",
+  "retrieved": "06.10.2026 17:02:44",
+  "company": "HORNIGOLD W ZIELONEJ KAMIENICY SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+  "nip": "6343076075",
+  "krs": "0001265196",
+  "court": "SĄD REJONOWY KATOWICE -  WSCHÓD W KATOWICACH, VIII WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO",
+  "address": {
+    "ulica": "UL. MIKOŁAJA KOPERNIKA",
+    "nrDomu": "6",
+    "miejscowosc": "KATOWICE",
+    "kodPocztowy": "40-064",
+    "poczta": "KATOWICE",
+    "kraj": "POLSKA"
+  },
+  "email": "OFFICE@HORNIGOLD.PL",
+  "capital": {
+    "wartosc": "500000,00",
+    "waluta": "PLN"
+  }
+}

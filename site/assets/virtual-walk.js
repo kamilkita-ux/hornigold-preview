@@ -9,7 +9,7 @@
     const previous = tour.querySelector('[data-walk-prev]');
     const next = tour.querySelector('[data-walk-next]');
     let index = 0;
-    let enabled = false;
+    let enabled = window.HornigoldPrivacy?.allowsMaps()===true;
     let frame;
     function render() {
       panels.forEach((panel, i) => { panel.hidden = i !== index; });
@@ -36,8 +36,9 @@
     steps.forEach((button, i) => button.addEventListener('click', () => { index = i; render(); }));
     previous.addEventListener('click', () => { index = Math.max(0, index - 1); render(); });
     next.addEventListener('click', () => { index = Math.min(panels.length - 1, index + 1); render(); });
-    load.addEventListener('click', () => { enabled = true; render(); });
-    close.addEventListener('click', () => { enabled = false; render(); load.focus(); });
+    load.addEventListener('click', () => { window.HornigoldPrivacy?.open(); });
+    window.addEventListener('hornigold:privacy', event => { enabled = event.detail.maps===true; render(); });
+    close.addEventListener('click', () => { window.HornigoldPrivacy?.deny(); enabled = false; render(); load.focus(); });
     tour.querySelector('[data-walk-controls]').hidden = false;
     tour.querySelector('[data-walk-selectors]').hidden = false;
     load.hidden = false;

@@ -16,7 +16,7 @@ for(const [engine,browserType] of Object.entries({chromium,firefox,webkit})){
  for(const {route,lang} of routes){errors=[];try{
  await page.goto(urlFor(route),{waitUntil:'load',timeout:30000});
  const info=await page.evaluate(()=>({lang:document.documentElement.lang,version:document.querySelector('[data-site-version]')?.textContent,banner:!!document.querySelector('.preview-bar'),overflow:document.documentElement.scrollWidth>innerWidth+1,missing:[...document.images].filter(i=>i.loading!=='lazy'&&(!i.complete||i.naturalWidth===0)).map(i=>i.src),languages:document.querySelectorAll('a[data-language]').length,noindex:document.querySelector('meta[name=robots]')?.content.includes('noindex')}));
- if(info.version!=='22'||info.lang!==lang||info.banner||info.languages!==7||!info.noindex||info.overflow||info.missing.length)errors.push(JSON.stringify(info));
+ if(info.version!==String(JSON.parse(fs.readFileSync(path.join(root,'release.json'))).version)||info.lang!==lang||info.banner||info.languages!==7||!info.noindex||info.overflow||info.missing.length)errors.push(JSON.stringify(info));
  if(route==='/pl/'&&viewport.width===375){await page.screenshot({path:process.env.AUDIT_SHOTS?path.join(process.env.AUDIT_SHOTS,engine+'-mobile.png'):'/tmp/hornigold-'+engine+'-mobile.png',fullPage:false});}
  report.cases.push({engine,viewport,route,errors:[...errors]});
  }catch(e){report.cases.push({engine,viewport,route,errors:[e.message]})}}

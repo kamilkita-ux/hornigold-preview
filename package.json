@@ -1,1 +1,1 @@
-{"name":"hornigold-review-qa","private":true,"devDependencies":{"playwright":"1.62.1"}}
+{"name":"hornigold-review-qa","private":true,"devDependencies":{"@axe-core/playwright":"^4.13.0","playwright":"1.62.1"}}

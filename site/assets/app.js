@@ -2,8 +2,8 @@
   'use strict';
   const {t,locale,validate,setError} = window.HornigoldI18n, path = location.pathname;
   const params = new URLSearchParams(location.search);
-  // Carry only campaign identifiers, in the URL; never store them in browser storage.
-  const campaignKeys=['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','gbraid','wbraid','fbclid'];
+  // No campaign tracking identifiers are propagated while measurement is disabled.
+  const campaignKeys=[];
   function carryCampaign(url){for(const key of campaignKeys){const value=params.get(key);if(value&&value.length<=512)url.searchParams.set(key,value);}}
   const roomNames = {classic:'Classic',deluxe:'Deluxe','deluxe-premium':'Deluxe Premium',premium:'Premium',suite:'Suite','apartament-deluxe':'Deluxe Apartment',prestige:'Prestige Apartment','prestige-deluxe':'Prestige Deluxe Apartment',hornigold:'Hornigold Apartment'};
   const plNames={'apartament-deluxe':'Apartament Deluxe',prestige:'Apartament Prestige','prestige-deluxe':'Apartament Prestige Deluxe',hornigold:'Apartament Hornigold'};

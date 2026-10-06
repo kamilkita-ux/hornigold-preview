@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-06",
+  "version": 23,
+  "scope": "Publiczny serwis Hornigold oceniany jako działający serwis dla gości; brak funkcji nie jest usprawiedliwiany etykietą podglądu. Zakres wdrożenia: GitHub Pages, bez zmiany hornigold.pl.",
+  "fullEUComplianceCertified": false,
+  "implemented": [
+    "6 części dokumentów w 7 językach: serwis i dane prawne; rezerwacja/pobyt/reklamacje; płatności/zwroty; RODO; cookies; dostępność",
+    "7 pakietów PDF i równoważna treść HTML; odnośniki na każdej z 693 podstron",
+    "Dane spółki, sądu i kapitału zweryfikowane przez oficjalne API KRS",
+    "Zgody na Google Maps domyślnie wyłączone, odmowa, odwołanie, wygasanie po 180 dniach i czyszczenie pamięci",
+    "Brak pozornych zgód na nieaktywne Analytics/Ads; bez wymuszonej zgody marketingowej przy zapytaniu",
+    "Wspólny dialog dostępny klawiaturą, obsługa Escape i powrotu fokusu",
+    "CSP w HTML, Referrer-Policy no-referrer, ograniczenie propagowania identyfikatorów reklamowych",
+    "Poprawa hierarchii nagłówków i obszarów nawigacyjnych",
+    "Informacja o nieweryfikowaniu samodzielnie autorów ocen Google; usunięcie roboczych korzyści nieaktywnego klubu"
+  ],
+  "legalSourceChanges": [
+    "Oryginalny DOCX [64] i jego wierne przekłady zachowano poza publicznym repo; nie opublikowano zapisów sprzecznych z funkcjami strony.",
+    "Nowe zasady dotyczą bieżącej strony; nie zmieniają zawartych umów.",
+    "Nie powtórzono uchylonych ustaw z 1997 i 2004 roku, szerokich wyłączeń odpowiedzialności ani automatycznej bezzwrotności wszystkich zapytań.",
+    "Fiserv nie został przedstawiony jako aktywny operator tej strony. Warunki konkretnej taryfy i przedpłaty muszą być uzgodnione przed umową."
+  ],
+  "sources": [
+    {
+      "area": "RODO / informacja i prawa",
+      "url": "https://uodo.gov.pl/pl/493/2254"
+    },
+    {
+      "area": "RODO / retencja",
+      "url": "https://uodo.gov.pl/pl/676/4260"
+    },
+    {
+      "area": "Zgoda i cookie banner",
+      "url": "https://www.edpb.europa.eu/system/files/2023-01/edpb_20230118_report_cookie_banner_taskforce_en.pdf"
+    },
+    {
+      "area": "Aktualne Prawo komunikacji elektronicznej",
+      "url": "https://eli.gov.pl/eli/DU/2024/1221/ogl"
+    },
+    {
+      "area": "PAD i handel elektroniczny",
+      "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego"
+    },
+    {
+      "area": "WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/"
+    },
+    {
+      "area": "Granice automatycznego audytu dostępności",
+      "url": "https://playwright.dev/docs/accessibility-testing"
+    },
+    {
+      "area": "Odstąpienie przy noclegach na określony termin",
+      "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+    },
+    {
+      "area": "Bieżący unijny portal ADR",
+      "url": "https://consumer-redress.ec.europa.eu/index_en"
+    },
+    {
+      "area": "Hosting i jego zasady prywatności",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+    },
+    {
+      "area": "Dane przedsiębiorcy",
+      "url": "https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/0001265196?rejestr=P&format=json"
+    }
+  ],
+  "openItems": [
+    {
+      "priority": "P0",
+      "area": "PMS i płatności",
+      "status": "NIEURUCHOMIONE",
+      "needed": "Kontrakt API, sandbox, ceny/dostępność, blokada pokoju, podpisany webhook, idempotencja, SCA/3DS, zwroty, potwierdzenia, testy 7 języków. Brak podstaw do deklaracji zgodności PCI/PSD2."
+    },
+    {
+      "priority": "P1",
+      "area": "Odbiór prawny",
+      "status": "BRAK NIEZALEŻNEGO ODBIORU",
+      "needed": "Prawnik powinien sprawdzić dokumenty z rzeczywistymi procedurami i umowami. Przygotowane teksty nie są certyfikatem zgodności z całością prawa UE ani pełnym regulaminem wszystkich przyszłych usług."
+    },
+    {
+      "priority": "P1",
+      "area": "RODO organizacyjne",
+      "status": "DO POTWIERDZENIA",
+      "needed": "Potwierdzenie wyznaczenia lub braku IOD, umów z pocztą/IT, ról dostawców, podstaw transferów, harmonogramów usuwania, rejestru czynności i obsługi żądań. Treść polityki musi być realizowana przez spółkę. Użyto danych spółki i kontaktu z KRS oraz przekazanego dokumentu."
+    },
+    {
+      "priority": "P1",
+      "area": "Dostępność",
+      "status": "CZĘŚCIOWO SPRAWDZONA",
+      "needed": "Ocena czytnikiem ekranu, rzeczywistymi urządzeniami i użytkownikami; weryfikacja wszystkich kryteriów wymaganych dla usługi. Brak założenia zwolnienia mikroprzedsiębiorcy. PDF-y nie są certyfikowane PDF/UA; równoważny HTML jest dostępny."
+    },
+    {
+      "priority": "P1",
+      "area": "Tłumaczenia",
+      "status": "KONTROLA STRUKTURY I REDAKCYJNA",
+      "needed": "Nie ma niezależnego odbioru tłumacza prawnego każdego języka. Nie deklarować tłumaczenia przysięgłego ani certyfikowanego."
+    },
+    {
+      "priority": "P1",
+      "area": "Operator map",
+      "status": "BRAMKA ZGODY SPRAWDZANA OSOBNO",
+      "needed": "Zewnętrzne zachowanie Google i jego retencja/cookies zależą od operatora. Testy automatyczne zgody używają lokalnej odpowiedzi zastępczej, bez testowania jakości samych panoram."
+    },
+    {
+      "priority": "P1",
+      "area": "Hosting i bezpieczeństwo",
+      "status": "CZĘŚCIOWE",
+      "needed": "Brak backendu oraz konfiguracji wszystkich nagłówków HTTP na GitHub Pages. Nie przeprowadzono testu penetracyjnego ani audytu infrastruktury dostawców. Nie przełączono domeny."
+    },
+    {
+      "priority": "P1",
+      "area": "SEO i pomiar",
+      "status": "NIEAKTYWNE",
+      "needed": "Noindex pozostaje; analityka, Ads i licznik nie zostały uruchomione. Zgody muszą zostać rozszerzone o rzeczywiste narzędzia przed ich dodaniem."
+    },
+    {
+      "priority": "P1",
+      "area": "Pełna sprzedaż i obsługa",
+      "status": "DO ODBIORU",
+      "needed": "Recepcja musi potwierdzić szczegółowe zasady pobytu, dostarczanie warunków przed umową, obsługę reklamacji, retencję i realny odbiór wiadomości. Formularz przygotowuje lokalne mailto, nie serwerową wysyłkę."
+    }
+  ],
+  "tests": {
+    "structuralRoot": {
+      "date": "2026-10-06T15:05:54.089187+00:00",
+      "version": 23,
+      "base": "/",
+      "pages": 693,
+      "html": 1241,
+      "links": 67402,
+      "errors": [],
+      "warnings": []
+    },
+    "structuralGitHub": {
+      "date": "2026-10-06T15:06:18.365878+00:00",
+      "version": 23,
+      "base": "/hornigold-preview/",
+      "pages": 693,
+      "html": 1241,
+      "links": 67402,
+      "errors": [],
+      "warnings": []
+    },
+    "accessibility": {
+      "cases": 1386,
+      "failures": 0,
+      "engine": "axe-core 4.13.0 / Chromium",
+      "widths": [
+        375,
+        1366
+      ],
+      "scope": "693 strony; reguły automatyczne WCAG 2 A/AA, 2.1 AA, 2.2 AA i best practice; nie pełny odbiór wszystkich kryteriów"
+    },
+    "navigation": {
+      "cases": 819,
+      "failures": 0,
+      "engines": [
+        "Chromium",
+        "Firefox",
+        "WebKit"
+      ],
+      "scope": "12 typów stron × 7 języków × 3 rozmiary × 3 silniki oraz 63 testy dat/gości/języka/menu"
+    },
+    "pdf": {
+      "files": 7,
+      "pages": 42,
+      "visualReview": true,
+      "extractableText": true,
+      "languageMetadata": true,
+      "independentTranslationReview": false,
+      "PDFUA": false
+    },
+    "content": [
+      {
+        "language": "pl",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "en",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "de",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "zh-hans",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "uk",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "es",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      },
+      {
+        "language": "it",
+        "sections": 6,
+        "paragraphs": 26,
+        "htmlMatchesPolicySource": true,
+        "pdfExists": true
+      }
+    ],
+    "privacy": {
+      "cases": 42,
+      "failures": 0,
+      "evidence": "PRYWATNOSC-23.json"
+    },
+    "edgeCases": {
+      "cases": 63,
+      "failures": 0,
+      "evidence": "FUNKCJE-23.json"
+    },
+    "secretScan": {
+      "files": 1662,
+      "gitObjects": 5361,
+      "findings": 0,
+      "scope": "Skan przed końcowym dodaniem raportów i czcionek; CI sprawdza publikowany commit. Nie jest dowodem braku wszystkich możliwych sekretów."
+    },
+    "testEnvironmentNote": "Pierwsze równoległe próby lokalnego serwera odrzucono z powodu limitu kolejki połączeń; powtórzono je na serwerze obsługującym obciążenie. Wyniki końcowe nie zawierają tych prób. Po pełnym skanie poprawiono zachowanie Tab w dialogu i ponownie wykonano wszystkie 42 scenariusze zgód."
+  }
+}
