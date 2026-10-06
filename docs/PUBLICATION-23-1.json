@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-06",
+  "release": 23,
+  "revision": "23.1",
+  "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+  "savedVersion": {
+    "id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_a8a58edecee8819190f6ee617308b52d",
+    "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+    "version_number": 19,
+    "source": {
+      "commit_sha": "f05141ea24ffd702cfa9f3d29b0baa22cde144ae"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000002a0c81f49a8d35c9bcac19de",
+      "content_hash": "sha256:b5ca83de8818929f5579b5bd2c35918ff95281c6a8900a20390a9f1409dcaad8",
+      "size_bytes": 49336320,
+      "file_count": 1643
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ac537aad22c8191857bc895e15568ed",
+    "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+    "title": "Hornigold — podgląd do przeglądu",
+    "version_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_a8a58edecee8819190f6ee617308b52d",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ac24ff4d7d08191aef99366bb3d966f",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-06T18:02:48.391617+00:00"
+  },
+  "counterBefore": [
+    {
+      "key": "pageviews",
+      "total": 122,
+      "started_at": "2026-10-05"
+    }
+  ],
+  "counterAfterFirstPublishedPage": [
+    {
+      "key": "pageviews",
+      "total": 124,
+      "started_at": "2026-10-05"
+    }
+  ],
+  "liveBrowserChecks": {
+    "version": "23",
+    "revision": "23.1",
+    "previewBanner": false,
+    "counterVisible": true,
+    "counterValueObserved": 124,
+    "clubLanguages": [
+      "pl",
+      "en",
+      "de",
+      "zh-Hans",
+      "uk",
+      "es",
+      "it"
+    ],
+    "benefitsPerLanguage": 4,
+    "allLanguageChecksPassed": true,
+    "pdfDownloaded": "hornigold-policies-pl.pdf"
+  },
+  "limits": [
+    "Public browser smoke tests, not a second full scan of all hosted pages",
+    "Direct command-line HTTP returned 403; visible IAB browser access succeeded",
+    "GitHub push deferred; its current Pages copy is unchanged",
+    "Online booking and payments remain disabled"
+  ],
+  "githubLocalCommit": "fb23718",
+  "sitesCommit": "f05141ea24ffd702cfa9f3d29b0baa22cde144ae"
+}

@@ -22,7 +22,7 @@ Data: 6 października 2026. Numer wydania strony: 23, rewizja 23.1. Jedno źród
 
 ## Publikacja i ograniczenia
 
-Przeznaczenie: aktualizacja istniejącego publicznego Sites, z zachowaniem jego projektu i bazy. Przed aktualizacją odczyt bazy wykazał 122 odsłony od 5 października 2026. Odczyty kontrolne strony mogą zwiększać tę sumę; nie są to unikalne osoby. Rzeczywisty wynik wdrożenia i późniejszego odczytu należy sprawdzić w protokole publikacji, a nie w samym lokalnym buildzie.
+Opublikowano na istniejącym publicznym Sites; status wdrożenia succeeded. Publiczna przeglądarka potwierdziła wydanie 23.1, brak banera, licznik 124 po pierwszym otwarciu, Club w siedmiu językach oraz pobranie polskiego PDF zgodnego z plikiem źródłowym. Dowód: PUBLICATION-23-1.json. Zachowano projekt i bazę. Przed aktualizacją odczyt bazy wykazał 122 odsłony od 5 października 2026. Odczyty kontrolne strony mogą zwiększać tę sumę; nie są to unikalne osoby. Rzeczywisty wynik wdrożenia i późniejszego odczytu należy sprawdzić w protokole publikacji, a nie w samym lokalnym buildzie.
 
 Push GitHub i przekierowanie GitHub Pages są odłożone przez właściciela. Kod przekierowania jest przygotowany lokalnie; nie usunięto repozytorium ani historii. Nie podmieniono hornigold.pl. Rezerwacje, płatności, Google Analytics i reklamy nie zostały uruchomione.
 
