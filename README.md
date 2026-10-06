@@ -2,9 +2,11 @@
 
 Samodzielny podgląd WWW: 693 podstrony w siedmiu językach (polski, angielski, niemiecki, chiński uproszczony, ukraiński, hiszpański, włoski).
 
-Główny adres po scaleniu: https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/
+Pełna strona z tego repozytorium: https://kamilkita-ux.github.io/hornigold-preview/pl/
 
-GitHub zawiera komplet źródeł scalonej wersji 23.1. Właściciel zatwierdził aktualizację repozytorium 6 października 2026. GitHub Pages przekazuje odwiedzających do odpowiadających podstron Sites; dzięki temu utrzymujemy jedną działającą stronę z serwerem i licznikiem. Historię poprzednich wersji zachowujemy.
+Osobna opublikowana kopia Sites: https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/
+
+GitHub zawiera komplet źródeł scalonej wersji 23.1. Zgodnie z doprecyzowaniem właściciela z 6 października 2026 GitHub Pages publikuje wszystkie podstrony, grafiki i dokumenty bez przekierowania do Sites. Historia poprzednich wersji pozostaje zachowana. Domena `hornigold.pl` nie została podłączona ani zmieniona.
 
 ## Zakres
 
@@ -35,7 +37,7 @@ python -m http.server 8080 --bind 127.0.0.1 --directory _site
 
 Następnie otwórz http://127.0.0.1:8080/pl/.
 
-Dla GitHub Pages: `python scripts/build.py --base /hornigold-preview/`. Wynik `_site/` zawiera pełną, przenośną stronę. Obecny workflow GitHub Pages publikuje `_pages/` z przekierowaniami do Sites, a nie tę statyczną kopię. Stronę można przenieść na inny hosting statyczny, budując ją z `--base /`.
+Dla GitHub Pages: `python scripts/build.py --base /hornigold-preview/`. Wynik `_site/` zawiera pełną, przenośną stronę. Workflow publikuje cały `_site/`. Bazową ścieżkę pobiera z konfiguracji Pages, więc obsługuje katalog projektu i wariant głównego katalogu domeny. Stronę można przenieść na inny hosting statyczny, budując ją z `--base /`.
 
 ## Ograniczenia uruchomienia docelowego
 
@@ -47,7 +49,7 @@ Materiały wizualne zachowują dotychczasowe oznaczenia i prawa ich właściciel
 
 Edytowalnym źródłem tej niezależnej strony jest `site/`: pełny HTML, CSS, JavaScript i zasoby. Nie potrzeba prywatnego generatora ani oryginalnego komputera. Edycję wspólnego elementu trzeba zastosować do wszystkich odpowiednich podstron; CMS dla obsługi nie jest wdrożony.
 
-Aktualizacja: sklonuj repozytorium, utwórz gałąź, zmień źródła i `release.json`, zbuduj oba warianty, uruchom `scripts/audit_static.py` i `scripts/check_repository.py`, wykonaj testy przeglądarkowe. Przegląd zmian poprzedza push do `main`, który publikuje Pages. Sprawdź udany GitHub Actions run, następnie przekierowanie z Pages do właściwej podstrony Sites z zachowaniem parametrów pobytu; sam push nie potwierdza publikacji.
+Aktualizacja: sklonuj repozytorium, utwórz gałąź, zmień źródła i `release.json`, zbuduj oba warianty, uruchom `scripts/audit_static.py` i `scripts/check_repository.py`, wykonaj testy przeglądarkowe. Przegląd zmian poprzedza push do `main`, który publikuje Pages. Sprawdź udany GitHub Actions run, publiczne `release.json`, właściwe podstrony oraz parametry pobytu; sam push nie potwierdza publikacji.
 
 Testy przeglądarkowe: `pnpm install --frozen-lockfile`, `pnpm exec playwright install`, lokalny serwer `_site/`, następnie `AUDIT_URL=http://127.0.0.1:4329/ node scripts/browser_audit.cjs`. Skrypt używa odizolowanych przeglądarek Chromium, Firefox i WebKit. WebKit nie zastępuje ręcznego testu wydanej aplikacji Safari.
 
@@ -83,6 +85,11 @@ W celu publikacji istniejącego Sites: najpierw odczytaj projekt `appgprj_6ac24f
 
 Testy: `node --test tests/server.test.mjs` (Node z node:sqlite), następnie `node scripts/serve_worker.mjs` uruchamia lokalny adapter tego samego Workera i nietrwałą bazę testową. Ustaw AUDIT_URL=http://127.0.0.1:4334 dla audytów przeglądarek. Testy lokalne nie zwiększają licznika produkcyjnego.
 
-`scripts/build_pages_redirect.py` przygotowuje `_pages/` z przekierowaniami wszystkich adresów GitHub Pages do Sites, zachowując daty, gości, kategorię i kotwicę. Workflow publikuje je po zatwierdzonym pushu na GitHuba. Pełne źródła strony nadal zostają w repozytorium. Nie usuwać repozytorium ani historii, aby je „wyczyścić”.
+Wcześniejszy plan przekierowywania Pages do Sites został wycofany na wyraźne polecenie właściciela. Workflow publikuje pełną stronę. Historyczne raporty `PAGES-HANDOVER-23-1.json` oraz `PUBLICATION-23-1.json` dokumentują poprzedni etap; nie opisują obecnego sposobu publikacji Pages.
 
 Przywrócenie starego projektu Sites jest możliwe przez jego historię wersji. Nie kasuj całego projektu: usunęłoby to właściwy adres i zagroziło danym licznika.
+
+
+## Domena i pełne funkcje
+
+Techniczna obsługa katalogu głównego nie oznacza gotowości do uruchomienia sprzedaży. GitHub Pages nie wykonuje kodu `server/`, nie zapisuje licznika D1 ani nie łączy się z PMS/Fiserv. Te funkcje wymagają hostingu serwerowego. Zasady GitHub Pages wykluczają używanie go jako darmowego hostingu do prowadzenia biznesu online i witryn nastawionych na transakcje handlowe: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits (sprawdzone 2026-10-06). Dla docelowej strony sprzedażowej kod zostaje na GitHubie, a wdrożenie i domena muszą trafić na odpowiedni hosting. Instrukcja: `docs/DOMENA-I-ODBIOR.md`.

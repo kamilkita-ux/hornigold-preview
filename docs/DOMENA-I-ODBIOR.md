@@ -1,6 +1,6 @@
 # Hornigold — podłączenie domeny i odbiór wdrożenia
 
-Dla Marka Iwińskiego. Stan 2026-10-06. **Nie zmieniać teraz DNS ani hornigold.pl.**
+Dla Marka Iwińskiego. Aktualizacja 2026-10-06: właściciel wymaga pełnej strony w repozytorium i na Pages, bez przekierowania do Sites. Workflow publikuje cały `_site/` i odczytuje `base_path` z `actions/configure-pages`; treści działają także po zbudowaniu z `--base /`. **Nie zmieniać teraz DNS ani hornigold.pl.**
 
 - Strona do przeglądu: https://kamilkita-ux.github.io/hornigold-preview/pl/
 - Repozytorium publiczne: https://github.com/kamilkita-ux/hornigold-preview

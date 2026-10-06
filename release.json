@@ -20,5 +20,9 @@
   "independentLegalReview": false,
   "revision": "23.1",
   "consolidatedFrom": 18,
-  "primaryOrigin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site"
+  "primaryOrigin": "https://kamilkita-ux.github.io",
+  "primaryBasePath": "/hornigold-preview/",
+  "intendedDomain": "https://hornigold.pl",
+  "domainConnected": false,
+  "githubPagesMode": "complete-static-site"
 }
