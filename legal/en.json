@@ -41,7 +41,7 @@
         "The company identified in the legal information is the controller for data used to handle your enquiry. Contact office@hornigold.pl or the company postal address about personal data. This policy covers this website and enquiries to reception, not an inactive payment system or other separate processing channels.",
         "Messages are prepared locally in your browser. Only when you send one from your email do you disclose your email address, message and voluntarily supplied details to the recipient. Data necessary for an offer or contract are processed under GDPR Article 6(1)(b); general correspondence, prevention of abuse and establishment or defence of claims under legitimate interests (Article 6(1)(f)); legally required records under Article 6(1)(c). Marketing consent is not required to ask a question or book a stay.",
         "Providing enquiry details is voluntary, but without contact and stay information we cannot reply or prepare an offer. Do not send sensitive information or identity documents through the form. The website does not profile users or make automated decisions with legal effects. It has no newsletter subscription form or active advertising tools.",
-        "Recipients may include authorised enquiry handlers, email and IT providers, accounting or legal advisers and legally entitled authorities, only as needed for the purpose. GitHub Pages hosts the website: the provider may process IP addresses, requested URLs and technical information, including for security, under its own policy. GitHub describes processing outside the EEA and transfer mechanisms, including relevant adequacy decisions or standard contractual clauses: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Ask the controller for details and copies of applicable safeguards. Activating Google maps opens a separate Google service; see policies.google.com/privacy.",
+        "Data may be accessed by authorised staff handling your request and necessary email, IT, accounting and legal providers, as well as legally authorised authorities. The chatgpt.site address uses OpenAI Sites and Cloudflare infrastructure; the github.io address uses GitHub Pages. Hosting providers may process IP addresses, requested URLs and technical data to deliver and secure the site. Provider and international transfer information: openai.com/policies/eu-privacy-policy/, cloudflare.com/privacypolicy/, docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Ask the controller for details of applicable safeguards. Google Maps is a separate service: policies.google.com/privacy.",
         "Enquiries are retained while handled and an offer is agreed; if they lead to a contract, through performance and the required record-keeping period. Tax records are generally kept for five years after the end of the year in which the tax payment deadline fell. Data needed for claims are kept until the applicable limitation period ends (generally six years, or three for business-related claims, subject to special periods and events affecting their calculation). Other correspondence is deleted after the matter ends if no further retention basis exists. Browser storage is described separately; providers set retention for their own logs in their policies.",
         "You may request access, rectification, erasure and restriction, and portability where GDPR conditions are met. You may object to processing based on legitimate interests. Consent can be withdrawn at any time without affecting prior lawful processing. You may complain to the President of Poland's UODO (uodo.gov.pl) or the competent supervisory authority. Requests are normally answered within one month; any permitted extension and its reasons are communicated within that period. Proportionate identity verification may be requested."
       ]
@@ -50,10 +50,11 @@
       "id": "cookies",
       "title": "Cookies, device storage and choices",
       "paragraphs": [
-        "We do not activate advertising, analytics or embedded Google panoramas without your consent. Scrolling, closing a notice or using the website does not mean consent to optional tools. Google maps and panoramas are currently the only optional integration; analytics and marketing are inactive.",
+        "We do not load embedded Google panoramas without your consent. Scrolling or closing the notice does not give consent. Maps are the only optional integration; Google Analytics and advertising tools are inactive.",
         "Website storage: hornigold-language (localStorage) retains your chosen language until deleted; hornigold-stay, hornigold-comparison and hornigold-enquiry-plan (sessionStorage) retain planning and comparison choices until the tab session ends. Free-text enquiries and card details are not stored there. hornigold-privacy (localStorage) records your privacy choice, policy version and date for up to 180 days; optional maps are disabled again after expiry. These functions support your requests and record choices rather than track advertising activity.",
         "Dates and guest count may appear in page URLs: sharing a link discloses those values, and the requested URL may enter hosting logs. Do not place names, email addresses or other personal data in URLs. External links open separate services only when clicked.",
-        "Open Privacy settings in the footer to choose necessary functions only or allow Google maps separately, and withdraw just as easily later. Withdrawal removes embedded maps. We cannot erase information already stored by an external provider; also manage it in your browser and with that provider. The clear-choices button removes Hornigold's own storage on this device. Refusal leaves written directions and contact details available."
+        "Open Privacy settings in the footer to choose necessary functions only or allow Google maps separately, and withdraw just as easily later. Withdrawal removes embedded maps. We cannot erase information already stored by an external provider; also manage it in your browser and with that provider. The clear-choices button removes Hornigold's own storage on this device. Refusal leaves written directions and contact details available.",
+        "The Sites version has an aggregate page-view counter. Its database stores only the total and the measurement start date. It stores no IP addresses, visited page URLs or personal identifiers, and uses no cookies or device storage to recognise visitors. Reloads and repeat visits may increase the count: these are page views, not unique visitors. It does not measure sales or advertising performance. Hosting technical logs are separate from this database. On a copy without a server, the counter is marked unavailable."
       ]
     },
     {
@@ -68,13 +69,13 @@
   ],
   "ui": {
     "settings": "Privacy settings",
-    "notice": "We use storage needed for the functions you choose. Google maps require your consent. Advertising and analytics are disabled.",
+    "notice": "We remember your selected site features. Google Maps requires consent. Google Analytics and advertising are disabled.",
     "necessary": "Necessary only",
     "save": "Save choice",
     "close": "Close",
     "maps": "Allow Google maps and panoramas",
     "mapDetail": "Google will receive information including your IP address and may use its own cookies and process data outside the EEA. Withdraw consent here at any time. Written directions work without consent.",
-    "inactive": "Analytics and advertising: inactive; we do not collect consent for them.",
+    "inactive": "Google Analytics and advertising are inactive. A separate counter shows only the aggregate number of page views.",
     "clear": "Clear saved choices and stay plan",
     "cleared": "This website's stored data have been cleared. Reload to clear the forms as well.",
     "privacyLink": "How we process data",
@@ -83,6 +84,6 @@
     "toc": "Document contents",
     "quick": "Quick access",
     "reviews": "The rating comes from Google. We do not independently verify whether every reviewer has stayed with us. See Google for current reviews and its publication rules.",
-    "club": "Club Hornigold is currently unavailable. Contact reception for a stay offer."
+    "club": "Benefits require reception confirmation and are not granted automatically. You can arrange a regular stay without membership or marketing consent. An enquiry alone does not enrol you in the programme."
   }
 }

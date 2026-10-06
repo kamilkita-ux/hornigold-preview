@@ -1,0 +1,24 @@
+{
+  "version": 23,
+  "revision": "23.1",
+  "sourceCommit": "1c746327da602f78f72c4c00414d82b79cb2da91",
+  "oldHTMLPreserved": 702,
+  "oldImagePathsPreserved": 360,
+  "intentionallyReplacedImages": [
+    "assets/favicon.png",
+    "assets/og/hornigold.jpg"
+  ],
+  "currentRoutes": 693,
+  "languages": 7,
+  "errors": [],
+  "decisions": {
+    "club": "Full four-part section restored at owner request, reception confirms benefits; original internal wording archived",
+    "root": "Saved explicit language wins; no forced Polish server redirect",
+    "terminology": "Current Hornigold wording retained",
+    "comparison": "Current table keeps previous room values",
+    "legal": "v23 policies retained and updated for Sites/counting",
+    "bookingAndPayments": "Remain disabled",
+    "counter": "Existing Sites D1 table retained, aggregate page views only",
+    "githubPush": "Deferred by user"
+  }
+}

@@ -41,7 +41,7 @@
         "Titolare del trattamento delle richieste è la società identificata nelle informazioni legali. Per i dati contatta office@hornigold.pl o l'indirizzo postale della società. L'informativa riguarda questo sito e le richieste alla reception, non il sistema di pagamento inattivo o altri canali distinti.",
         "Il messaggio viene preparato localmente nel browser. Solo inviandolo dalla tua posta trasmetti al destinatario indirizzo email, testo e dati forniti volontariamente. Trattiamo i dati necessari a offerta e contratto ai sensi dell'art. 6.1.b GDPR; corrispondenza generale, prevenzione abusi e tutela o esercizio di pretese per legittimo interesse (6.1.f); documentazione richiesta dalla legge secondo il 6.1.c. Non serve consenso marketing per chiedere informazioni o prenotare.",
         "Fornire dati è facoltativo, ma senza recapito e informazioni sul soggiorno non possiamo rispondere o formulare un'offerta. Non inviare dati sensibili o documenti d'identità nel modulo. Il sito non effettua profilazione o decisioni automatizzate con effetti giuridici. Non ha iscrizione a newsletter né strumenti pubblicitari attivi.",
-        "Destinatari possono essere addetti autorizzati, fornitori email e IT, consulenti contabili o legali e autorità legittimate, nei limiti necessari. Il sito è ospitato da GitHub Pages, che può trattare IP, URL richiesta e dati tecnici, anche per sicurezza, secondo la propria informativa. GitHub descrive trattamenti fuori dal SEE e meccanismi di trasferimento, incluse pertinenti decisioni di adeguatezza o clausole contrattuali tipo: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Puoi chiedere al titolare dettagli e copia delle garanzie applicabili. Attivare le mappe apre un servizio separato di Google: policies.google.com/privacy.",
+        "Possono accedere ai dati il personale autorizzato e i fornitori necessari di posta, IT, contabilità e assistenza legale, oltre alle autorità autorizzate dalla legge. L’indirizzo chatgpt.site utilizza OpenAI Sites e l’infrastruttura Cloudflare; github.io utilizza GitHub Pages. L’hosting può trattare IP, URL richiesti e dati tecnici per fornire e proteggere il sito. Informazioni su fornitori e trasferimenti fuori dallo SEE: openai.com/policies/eu-privacy-policy/, cloudflare.com/privacypolicy/, docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Chiedi al titolare i dettagli sulle garanzie applicabili. Google Maps è un servizio separato: policies.google.com/privacy.",
         "Conserviamo richieste durante gestione e accordo sull'offerta; se nasce un contratto, anche per esecuzione e conservazione documentale richiesta. Documenti fiscali: generalmente cinque anni dalla fine dell'anno in cui scadeva il pagamento dell'imposta. Dati necessari per pretese: fino alla prescrizione applicabile (di norma sei anni, tre per pretese relative all'attività economica, salvi termini speciali ed eventi che incidono sul computo). L'altra corrispondenza è eliminata alla chiusura della pratica se manca ulteriore base di conservazione. La memoria del browser è descritta separatamente; i fornitori stabiliscono la conservazione dei propri log nelle loro regole.",
         "Puoi chiedere accesso, rettifica, cancellazione, limitazione e, se ricorrono i presupposti GDPR, portabilità. Puoi opporti al trattamento per legittimo interesse e revocare il consenso in qualsiasi momento senza pregiudicare il precedente trattamento lecito. Puoi reclamare al Presidente dell'UODO polacco (uodo.gov.pl) o all'autorità competente. Rispondiamo normalmente entro un mese; eventuali proroghe consentite e motivi sono comunicati entro tale termine. Possiamo richiedere una verifica proporzionata dell'identità."
       ]
@@ -50,10 +50,11 @@
       "id": "cookies",
       "title": "Cookie, memoria del dispositivo e consensi",
       "paragraphs": [
-        "Senza consenso non attiviamo pubblicità, analisi o panorami Google incorporati. Scorrere, chiudere l'avviso o usare il sito non equivale a consenso. Attualmente l'unica integrazione facoltativa è costituita da mappe e panorami Google; analisi e marketing sono inattivi.",
+        "Non carichiamo panorami Google incorporati senza il tuo consenso. Scorrere la pagina o chiudere l’avviso non equivale a consentire. Le mappe sono l’unica integrazione facoltativa; Google Analytics e gli strumenti pubblicitari sono inattivi.",
         "Memoria propria: hornigold-language (localStorage) conserva la lingua scelta fino alla cancellazione; hornigold-stay, hornigold-comparison e hornigold-enquiry-plan (sessionStorage) conservano pianificazione e confronto fino alla fine della sessione della scheda. Non memorizzano testo libero o carte. hornigold-privacy (localStorage) registra scelta privacy, versione e data per massimo 180 giorni; alla scadenza le mappe sono di nuovo disattivate. Sono funzioni richieste e memoria delle scelte, non tracciamento pubblicitario.",
         "Date e numero di ospiti possono figurare nell'URL: condividere il link li rende visibili e l'indirizzo richiesto può entrare nei log di hosting. Non inserire nomi, email o altri dati personali negli URL. I link esterni aprono altri servizi solo con un clic.",
-        "Apri Impostazioni privacy nel piè di pagina: scegli solo funzioni necessarie o consenti separatamente mappe Google; puoi revocare con la stessa facilità. La revoca rimuove le mappe incorporate. Non possiamo cancellare dati già conservati da terzi: gestiscili anche nel browser e presso il fornitore. Il pulsante di cancellazione rimuove la memoria propria di Hornigold sul dispositivo. Il rifiuto non limita indicazioni scritte e contatti."
+        "Apri Impostazioni privacy nel piè di pagina: scegli solo funzioni necessarie o consenti separatamente mappe Google; puoi revocare con la stessa facilità. La revoca rimuove le mappe incorporate. Non possiamo cancellare dati già conservati da terzi: gestiscili anche nel browser e presso il fornitore. Il pulsante di cancellazione rimuove la memoria propria di Hornigold sul dispositivo. Il rifiuto non limita indicazioni scritte e contatti.",
+        "La versione Sites dispone di un contatore complessivo delle visualizzazioni. Il suo database conserva solo il totale e la data di inizio del conteggio. Non memorizza IP, indirizzi delle pagine visitate o identificativi personali e non usa cookie o memoria del dispositivo per riconoscere i visitatori. Ricaricamenti e visite ripetute possono aumentare il numero: sono visualizzazioni, non visitatori unici. Non misura vendite o risultati pubblicitari. I registri tecnici dell’hosting sono separati da questo database. Nelle copie senza server il contatore è indicato come non disponibile."
       ]
     },
     {
@@ -68,13 +69,13 @@
   ],
   "ui": {
     "settings": "Impostazioni privacy",
-    "notice": "Usiamo memoria necessaria alle funzioni scelte. Le mappe Google richiedono il tuo consenso. Pubblicità e analisi sono disattivate.",
+    "notice": "Memorizziamo le funzioni del sito che hai scelto. Google Maps richiede il consenso. Google Analytics e pubblicità sono disattivati.",
     "necessary": "Solo necessari",
     "save": "Salva scelta",
     "close": "Chiudi",
     "maps": "Consenti mappe e panorami Google",
     "mapDetail": "Google riceve anche il tuo IP, può usare cookie propri e trattare dati fuori dal SEE. Puoi revocare qui il consenso. Le indicazioni scritte funzionano senza consenso.",
-    "inactive": "Analisi e pubblicità: inattive; non raccogliamo consensi per esse.",
+    "inactive": "Google Analytics e pubblicità sono inattivi. Un contatore separato mostra solo il totale delle visualizzazioni.",
     "clear": "Cancella scelte salvate e piano di soggiorno",
     "cleared": "I dati salvati del sito sono stati cancellati. Ricarica per svuotare anche i moduli.",
     "privacyLink": "Come trattiamo i dati",
@@ -83,6 +84,6 @@
     "toc": "Indice dei documenti",
     "quick": "Accesso rapido",
     "reviews": "Il punteggio proviene da Google. Non verifichiamo autonomamente che ogni autore abbia soggiornato da noi. Consulta recensioni aggiornate e regole di pubblicazione su Google.",
-    "club": "Club Hornigold non è attualmente disponibile. Contatta la reception per un’offerta di soggiorno."
+    "club": "I vantaggi richiedono conferma della reception e non vengono concessi automaticamente. Puoi concordare un soggiorno normale senza iscrizione o consenso al marketing. Una richiesta non equivale all’adesione al programma."
   }
 }

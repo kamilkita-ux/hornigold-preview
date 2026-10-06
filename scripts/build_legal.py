@@ -61,7 +61,7 @@ for p in (ROOT/'site').rglob('*.html'):
    nav=s.new_tag('nav',attrs={'aria-label':u['quick']+' '+el.get_text(' ',strip=True),'data-mobile-landmark':''});el.wrap(nav)
  for nav in s.select('[data-mobile-landmark]'):nav['aria-label']=u['quick']+' '+nav.get_text(' ',strip=True)
  if key=='opinie':s.main.append(fragment(f'<p class="wrap privacy-inline" data-legal-generated>{escape(u["reviews"])}</p>'))
- if key=='club-hornigold':
+ if key=='club-hornigold' and not (ROOT/'content/club.json').exists():
   s.main.clear();s.main.append(fragment(f'<div class="wrap legal-content"><h1>Club Hornigold</h1><p>{escape(u["club"])}</p><p><a href="mailto:office@hornigold.pl">office@hornigold.pl</a> · <a href="tel:+48608662707">+48 608 662 707</a></p></div>'))
  if key in ('pokoje','katowice'):
   for h in s.select('.card-body h3,.editorial-card h3'):h.name='h2';h['class']=h.get('class',[])+['a11y-card-heading']

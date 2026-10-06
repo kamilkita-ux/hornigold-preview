@@ -1,1 +1,17 @@
-{"name":"hornigold-review-qa","private":true,"devDependencies":{"@axe-core/playwright":"^4.13.0","playwright":"1.62.1"}}
+{
+  "name": "hornigold-review-qa",
+  "private": true,
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "playwright": "1.62.1",
+    "drizzle-kit": "0.31.10",
+    "wrangler": "4.92.0"
+  },
+  "scripts": {
+    "build:sites": "python3 scripts/build.py --base / --counter && node scripts/build_sites.mjs",
+    "test:server": "node --test tests/server.test.mjs"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2"
+  }
+}

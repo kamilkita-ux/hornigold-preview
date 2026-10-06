@@ -1,0 +1,4337 @@
+{
+  "sourceCommit": "1c746327da602f78f72c4c00414d82b79cb2da91",
+  "files": [
+    {
+      "path": "llms.txt",
+      "sha256": "7cc72b1c65bd39270b317d44617be3d250b1011ba97efcc3e8ebe990919a2cbe"
+    },
+    {
+      "path": "index.html",
+      "sha256": "33baf154879881574c2aaf124ad8529ef15245351ff720812c3e3fafb660eec3"
+    },
+    {
+      "path": "404.html",
+      "sha256": "7b76f01c1000bdea01f4db70d274751c12a30afdc9ca08a15954cc38447c1363"
+    },
+    {
+      "path": "_headers",
+      "sha256": "902c93e6e7d3e9829103d786c3cbbe860b8659d67ecb3ee13303fdbc21c9a29c"
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "f545f6d784e84b2dea02cb175f0fa440ea87b8f0e37a2a4d34e0e48e147e0080"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "8e2f14cb91355500ec590502e2099a027986f35754e05b9da4c5740539a0f882"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "zh-hans/index.html",
+      "sha256": "ee1b2a49a994a74707b0cecc427520380a2d614759fdd34ad4d3080c2d9f7595"
+    },
+    {
+      "path": "zh-hans/404.html",
+      "sha256": "eaf368002683bd51f9147f5b6f1a7c004bc00e9296e026664d3c01e0bfc80f27"
+    },
+    {
+      "path": "zh-hans/餐饮服务与宴会/index.html",
+      "sha256": "88b2261cf0702cb339adcb738f67c8a318d5a5b5c3c8beaaf92333d3b3076911"
+    },
+    {
+      "path": "zh-hans/实用须知/index.html",
+      "sha256": "aefe5840ee9bd2cbb22e0ea5c2d1f3cc21b8935eba1c76ccaba5435c507e3c8b"
+    },
+    {
+      "path": "zh-hans/关于-hornigold/index.html",
+      "sha256": "f42ef9e878f8bb5835d9ca9b82fadc2d74f8928d5c1cc8435039b49929c1de7b"
+    },
+    {
+      "path": "zh-hans/pobyt/index.html",
+      "sha256": "85346688c225d8a905aafea3ba335efeb3255dfd9f94e695dec1658f2b1ee9d6"
+    },
+    {
+      "path": "zh-hans/pobyt/sluzbowo/index.html",
+      "sha256": "8eb5bc61841aa7c886ff3376369da76cabf228113fe01e90fbfa54c6f60724fc"
+    },
+    {
+      "path": "zh-hans/pobyt/weekend/index.html",
+      "sha256": "398b33ff1d09c17720cf72124e6e3e12630f09004e66e284c881cd33b4bd037c"
+    },
+    {
+      "path": "zh-hans/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "97527d6149d9e1dfa39b4bc82dfa9f895724af0315c07cf0b66ff8644b5186e3"
+    },
+    {
+      "path": "zh-hans/pobyt/wydarzenie/index.html",
+      "sha256": "88621292844d6039ff7a64979433c302b6acc81bf282ca12c7e439d933712019"
+    },
+    {
+      "path": "zh-hans/pobyt/rodzina/index.html",
+      "sha256": "d1d76fb5b40d9dd10f4a4a789c77fa83eb3d1c1a1707b434d1bff75f1b965d37"
+    },
+    {
+      "path": "zh-hans/宾客体验/index.html",
+      "sha256": "b9743baeb1965c3d8352350c0216afbe369a6bf5ffece04ce951cf0c85852c50"
+    },
+    {
+      "path": "zh-hans/跟随-hornigold-探索卡托维兹/index.html",
+      "sha256": "55d6d381db92df6dfc7fa31b2a3cb0cbc4f81a50487bef071e949de689ffad9e"
+    },
+    {
+      "path": "zh-hans/适合您的住宿/index.html",
+      "sha256": "2470e00bf828fb0da7eba7b4b72351faaa2ebc44d67c17d3544d29816d559ee5"
+    },
+    {
+      "path": "zh-hans/位置/index.html",
+      "sha256": "e17ecfdd6756867064493c0efba5de3cfd30b5fa2fb2f4cd5b47a55bee49a3d9"
+    },
+    {
+      "path": "zh-hans/城市与周边/index.html",
+      "sha256": "73fbe476af43e7bd29aa2a135b3a23f75681ef8fe8def8752f32a0d3bdd88ba6"
+    },
+    {
+      "path": "zh-hans/城市与周边/本津与侏罗高地城堡边界与风景/index.html",
+      "sha256": "0018397b746aa89adba48fba0c23108cda13b97b50a13b811a59a94e516ae976"
+    },
+    {
+      "path": "zh-hans/城市与周边/giszowiec/index.html",
+      "sha256": "92f5e80453e8cf0118c2aa65f85cd24e039da2c1c47c4978c3efc32e1fa729e5"
+    },
+    {
+      "path": "zh-hans/城市与周边/格利维采广播电台与宣传的历史/index.html",
+      "sha256": "d86fd59c74d1252747cc527adb59a796e4006b5444dc5f2d00fb3436642e4991"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画中的卡托维兹与西里西亚/index.html",
+      "sha256": "cdbe1c20e34a78e9a37d03d5a6c82269acebb4b7ba2fb523dd983146997fd832"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/塔楼与静谧/index.html",
+      "sha256": "49acbf4ee65ef0fe8c18ba896a5b5589e1e5721669de3a3d222a62d6ce77c1ab"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/开演前的一刻/index.html",
+      "sha256": "d47d720bdd681bb4828fe4322355e4333f73768949e47bc341700a20135ad874"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/日落时的文化街区/index.html",
+      "sha256": "e7babaa2420a1f5d8bfab3a1cfd0468e26fc467b68a5a9b0ccd9c2f275347931"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/西里西亚博物馆矿区的新生/index.html",
+      "sha256": "cfb4df3f27043a484a686c90ac985ef3edf01e7936a9f893eee8227f22c657f2"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/瓷器工厂工业与手艺/index.html",
+      "sha256": "4d507bf12df9a78f2519ce348873c78733460522d7d61113262547740986d205"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/轨道上的清晨/index.html",
+      "sha256": "f0922ef1bb8ce77b921e5805831af76e05dea609f2e5226ce777aeb5297446be"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/mck为相聚而建/index.html",
+      "sha256": "6a2f474865358cfbc0b70f78cd588eaaf1320bc6f69ed13e7d6e681c8e57f84f"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/科希丘什科公园城市的呼吸/index.html",
+      "sha256": "f07bf7eb10fcb5e4c4f6c6ca22088941f5dc866f2df0934403378030ee2c9a25"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/西里西亚想象中的全景/index.html",
+      "sha256": "d9d96c1bbb8147b10048da849fdce4add6d40f671b71bbc274ad2bf210418830"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/艺术庭院/index.html",
+      "sha256": "31bdeca14cacce2a4ebdc8aeb02720f3354bc1042f61a7dc060abffdb9afc451"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/水畔的音乐/index.html",
+      "sha256": "1b1932281be02a82dcad0e366734b76d1037381d8007badf31ebf73b02697a80"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/歌剧之夜/index.html",
+      "sha256": "0da4cd9d662cf742304cd3d0e316554d926bcaa1d2ece6b7514b57ea06c9479e"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/nospr音乐之城/index.html",
+      "sha256": "908c308f013db80c47f46abc9ceb8223d50ba6fd48f77f21d134c93f627973b8"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/城市灯光中的影院/index.html",
+      "sha256": "7e82000d748ce6041fb7e978121e63872df7a7f040b997b0d2166f44934d6567"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/工业与重返的绿意/index.html",
+      "sha256": "9fdceeb8134eb621bba40cb5c14700a7208614fdbe37ecf3fd760a3e7f73caf3"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/圣母教堂哥特式的节奏/index.html",
+      "sha256": "f5f1d17ec024fb72cb38742448c4c487f09c58c7ad9f97d8eedd0d1461810137"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/spodek体育馆艺术想象/index.html",
+      "sha256": "e933dcad2c28cb1e72c69349710d0f11715904886d6581755b663b8a76533392"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/夜色中的文化/index.html",
+      "sha256": "899442cea0d2700b89ae7edd8e0baa3ff6d9561cea226b20cf1cc98326dc021f"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/城市的绿色廊道/index.html",
+      "sha256": "f2117db7db7546218a89705ee51d1f7d505a9353ac90203c503e8c5ed2e08026"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/城市拱廊之下/index.html",
+      "sha256": "0af75e3856790650b6451b0edb37b8e32150c4b79f6e1e4831c458b84ebd9d69"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/现代主义路线城市的新形式/index.html",
+      "sha256": "4f4155b73959d37b09947506d3e5bca273bf1bf20811548e0b0ab3af8762ac4f"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/总主教座堂光与石/index.html",
+      "sha256": "61ca635db8293c0038a680c2a4efa0b844a4381b2c8570be0ad4784213f69e84"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/旅程始于大厅/index.html",
+      "sha256": "920565aacd725f7e4bdacd24641f483493ddf53f85d1f343e5ec38fa47365f0a"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/吉绍维茨花园城市的理想/index.html",
+      "sha256": "8e7b7b9f765e5b6cf2656c051c8e682aa6daf4309fb8bc43704997c36bb940cf"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/池畔公园/index.html",
+      "sha256": "2470669a3a422aa3f9b844f3ce912c46f18b37930e0e329c40fb21b89579be8e"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/现代主义街道/index.html",
+      "sha256": "71feb2535ed4302a095a6af38ea3c7c84322e8aac35a505a7c83cc3cd0629039"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/红砖庭院/index.html",
+      "sha256": "4b0fba4d4cee5c774583ad23f465cf22f3c54da39f64a09ccf5159ce630594e7"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/蓝调时刻的电车/index.html",
+      "sha256": "acb732f5dc6cf7534ed420b5a5f120964f2a4fa8ac06549ced5ebc1bba6e49dc"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/走向剧院的台阶/index.html",
+      "sha256": "44a18db0f55228a20cc0087c152834b3605897978dd710bc48b2c9e83d60d784"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/水塔基础设施的印记/index.html",
+      "sha256": "d177f61c41ef578069fdb7a9aba1cd89530d92a9efe8f5f85bc0771b2fa44b7d"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/西里西亚剧院广场旁的夜晚/index.html",
+      "sha256": "2bfa4bee6dc0c08760c1fab046fc4e6955c660a37d7b3a7db64bc38522a55446"
+    },
+    {
+      "path": "zh-hans/城市与周边/插画/尼基绍维茨红砖的故事/index.html",
+      "sha256": "5d65d0115554da35799728c4358dc69af2764a9db6f26d170a16deb9c4706699"
+    },
+    {
+      "path": "zh-hans/城市与周边/文化区工业空间的新篇章/index.html",
+      "sha256": "014471ccf41f5873305c8a6d56ed8cb71f325b30feb7d4b66d9d917b4367a361"
+    },
+    {
+      "path": "zh-hans/城市与周边/现代主义老住宅与木教堂/index.html",
+      "sha256": "3fb2974a8956d116b59c63d111721fa436fe3b921c7462214efb0ee602ca0123"
+    },
+    {
+      "path": "zh-hans/城市与周边/pszczyna/index.html",
+      "sha256": "a8f7488ecbf2d7a1ef754202b847e5ee7d7312f913b6037d3356c0725c397f06"
+    },
+    {
+      "path": "zh-hans/城市与周边/tarnowskie-gory/index.html",
+      "sha256": "c8a79f794c1f15bceb195b2555fdf1488a7c226f83839953a0022fbae6e6ccd6"
+    },
+    {
+      "path": "zh-hans/城市与周边/auschwitz-birkenau/index.html",
+      "sha256": "478b09df8aaae4dee12df28bc7019f7e9b75ff3f4b0424f433d11d88abc1f8f2"
+    },
+    {
+      "path": "zh-hans/城市与周边/卡托维兹历史不断生长的城市/index.html",
+      "sha256": "17295f08e6ab94f02967cad22ae787c98159db8cfcaccc102f3bb9a4a9b33a6e"
+    },
+    {
+      "path": "zh-hans/城市与周边/犹太文化遗产人物地点与缺席/index.html",
+      "sha256": "0afa704dad5fad07a7aef801633d4611d2b569919b4291f98159f81d47850df0"
+    },
+    {
+      "path": "zh-hans/城市与周边/西里西亚一片土地多种声音/index.html",
+      "sha256": "babf30793e08477f8e61ac9de6219955e11936ff9c3317f949c04b8b6bdf324f"
+    },
+    {
+      "path": "zh-hans/城市与周边/卡托维兹美食指南/index.html",
+      "sha256": "4d289e0681c945f978b933aaeb1bef69249e6370c836c46f747f3c41f6f924bb"
+    },
+    {
+      "path": "zh-hans/城市与周边/nikiszowiec/index.html",
+      "sha256": "c8c34ada9f4c8c8c50823fab89542eb36cdb19963d8ea558ada231ec4e2fb078"
+    },
+    {
+      "path": "zh-hans/城市与周边/工业遗产之路劳动塑造的地区/index.html",
+      "sha256": "b3a9b95ec9d1766b470e3ba11dc35e6ecdb253c08ddd898657972fc6eb91a757"
+    },
+    {
+      "path": "zh-hans/城市与周边/古迹与路线继续探索/index.html",
+      "sha256": "e1aeb35b9325f5c9de7519bc285899f25cc46c5605b1fb932c427df4d2c9a288"
+    },
+    {
+      "path": "zh-hans/城市与周边/cieszyn/index.html",
+      "sha256": "ec70d2534ced1e6886f61edcdae385d631a17eb5aae2d3a823c99cb341d5270a"
+    },
+    {
+      "path": "zh-hans/城市与周边/西里西亚纪念地不同历史审慎表达/index.html",
+      "sha256": "eaabe8723b5d35bfcf23211b8eb55416be74aabc9638cf5d81807bfd24000a70"
+    },
+    {
+      "path": "zh-hans/城市与周边/中央广场一眼读懂卡托维兹/index.html",
+      "sha256": "a187e99c0a8049df119b4099519464f651eab919d91d336f4c51f734b0330ea9"
+    },
+    {
+      "path": "zh-hans/城市与周边/扎布热guido矿山与路易丝王后平硐/index.html",
+      "sha256": "138d054fcb3570f80c9b5e46faa5085d52f7d60538a2362769bbea25a31c051a"
+    },
+    {
+      "path": "zh-hans/会议与商务活动/index.html",
+      "sha256": "01bd4d8b317e3c7816bdf94ee419a3f9163257673f15aa7af15bd5d8068568e1"
+    },
+    {
+      "path": "zh-hans/club-hornigold/index.html",
+      "sha256": "d20a0f9de263f7b2c4d8918ac8afcc16561f8ec851c6e1e78fa1d02428ccfc81"
+    },
+    {
+      "path": "zh-hans/客房/index.html",
+      "sha256": "3f5e90fc3b6027cd368dc0c91bd73b5ec8c9ca4eee19e988b7b2734eb823a697"
+    },
+    {
+      "path": "zh-hans/客房/deluxe/index.html",
+      "sha256": "3e7f25915f8f2b3dab89a53a6b4e7d2d3efaf257e5a1f2b9baa8bbf9d5cdb912"
+    },
+    {
+      "path": "zh-hans/客房/prestige/index.html",
+      "sha256": "bebae3e33857e66d4ae5e6b172a1e00013e838cd14dc769d53016318faf79d09"
+    },
+    {
+      "path": "zh-hans/客房/classic/index.html",
+      "sha256": "ec9a53f31cb6f2340ab8ce9b0bd002ba2d3631bfeda7b87050a0427bd53192ab"
+    },
+    {
+      "path": "zh-hans/客房/deluxe-premium/index.html",
+      "sha256": "ed659f5e67f485be6bdb2cd2167cd4d4a61ae9d0f8674d613755b901724b9a78"
+    },
+    {
+      "path": "zh-hans/客房/prestige-deluxe/index.html",
+      "sha256": "e2a6a2ffe62bdf1d575463a9312d6515309345d9fef9a2420ec6fbb71d3c6c92"
+    },
+    {
+      "path": "zh-hans/客房/hornigold/index.html",
+      "sha256": "edef7b5147eeedc55cb68bc65a9e5bd694c5e9a50191ee01b9e15bf55f69a61f"
+    },
+    {
+      "path": "zh-hans/客房/suite/index.html",
+      "sha256": "b4ef524bf6d97425b14588a17b6eec340eb1c8515347373ee0fbf040298b97b1"
+    },
+    {
+      "path": "zh-hans/客房/apartament-deluxe/index.html",
+      "sha256": "f5cdeda1358878ab91876e3850421a4fbd64cd209b10623704b3a78c786570eb"
+    },
+    {
+      "path": "zh-hans/客房/premium/index.html",
+      "sha256": "0c5a71e1c2af5ae533e229faec1dec4e0a08b483a9df47704edd18963115d038"
+    },
+    {
+      "path": "zh-hans/适合您行程的住宿条件/index.html",
+      "sha256": "85fe6512d89641fe90af3abdce71a45f4fd713cfe5105ecb325fc0b1c19a707b"
+    },
+    {
+      "path": "zh-hans/katowice/带孩子游卡托维兹简单规划/index.html",
+      "sha256": "872e57a398dd3e24fd33148624fac922e49a929f19f423204d415fffc2843a88"
+    },
+    {
+      "path": "zh-hans/katowice/24或48小时游卡托维兹/index.html",
+      "sha256": "e01d5d4942369f2f782236752d43740661e66d3d2f2b61c87b611b5c7f3a5549"
+    },
+    {
+      "path": "zh-hans/katowice/首次抵达卡托维兹/index.html",
+      "sha256": "b86fcbda82a8b1e39a78ab21e841611609b49493f4770171a5a00a6fb5a3bded"
+    },
+    {
+      "path": "zh-hans/katowice/选好活动规划住宿/index.html",
+      "sha256": "0222c78ef5f8b94e3199505eaed4b83e428e521d3c0e442a3c380e4bb9943ce8"
+    },
+    {
+      "path": "zh-hans/katowice/商务出行抵达前须知/index.html",
+      "sha256": "8146be0b8c3b1591a9039540705801ea56e99e18ff31cf6a6d8a57bd95ea698c"
+    },
+    {
+      "path": "zh-hans/katowice/参加-mckspodek-或-nospr-活动/index.html",
+      "sha256": "01a5dcba84668ec7f6ba127e21e6101381b4868b367e73b986274858834e17ab"
+    },
+    {
+      "path": "zh-hans/katowice/建筑与市中心漫步/index.html",
+      "sha256": "4283627676ae7b08e5252c87320f2f5b95f964a7874fcfadc59771399bf23d8d"
+    },
+    {
+      "path": "zh-hans/安心规划抵达/index.html",
+      "sha256": "333b897891981dbba1eb85bef4544f058d0c16dfab28abccc30709b6232899cb"
+    },
+    {
+      "path": "zh-hans/从出发前开始安心规划旅程/index.html",
+      "sha256": "f32e5bcb67a8581ef4eea9a4db635cdc1d61785a34cb94daa4707f1f31b1269e"
+    },
+    {
+      "path": "zh-hans/早餐/index.html",
+      "sha256": "12ae03d2759c4d5a4518edbf692846e47fb12bf816236132f812ad75e83c906f"
+    },
+    {
+      "path": "zh-hans/隐私与数据/index.html",
+      "sha256": "7551a561385893824b274bdafcebe35d11d86604805101f8a72af843d3ac8af9"
+    },
+    {
+      "path": "zh-hans/康体与水疗/index.html",
+      "sha256": "1ae8e4a23b3bbdc81afc4d70e271038c15579a1b354aa57f442ee3c3246eca0a"
+    },
+    {
+      "path": "zh-hans/入住前了解清楚/index.html",
+      "sha256": "6c94d0bc9c290373f2c68ed717553d9bd5e724063d25ca5994154009672bd169"
+    },
+    {
+      "path": "zh-hans/rezerwacja/index.html",
+      "sha256": "78d4a3abafcb613e8c9e50f619efdfff2a7a2bf7004537bb2d1d2e7a9f0d3691"
+    },
+    {
+      "path": "zh-hans/比较/index.html",
+      "sha256": "3707e42a0ce96c31bcab7e3cc2f27acc80a3bc368b21d9b99c8c23e13777cf8b"
+    },
+    {
+      "path": "zh-hans/机场/index.html",
+      "sha256": "c9fc51aa3e4fc43bed40342e2a4e3d60c97388992b1dd97a0f46e706438f2eec"
+    },
+    {
+      "path": "zh-hans/机场/balice/index.html",
+      "sha256": "38f26523bbd26ed9693cb9fdcfeb72e39c27dd7da915b8324ec0436f1df29522"
+    },
+    {
+      "path": "zh-hans/机场/pyrzowice/index.html",
+      "sha256": "b24e48a211cc607e6fddb93376d0b2e4851aae5f69f40ea442782aef31b7477c"
+    },
+    {
+      "path": "zh-hans/联系/index.html",
+      "sha256": "3e71ca02d82cd71d4a0618874e57aa6267a52b1887e18216de1edeecc7ca198f"
+    },
+    {
+      "path": "pl/index.html",
+      "sha256": "10a989bf436bf914180c9b18589370eec1ebdd693eb37cb0e9e50e2cb37bc80a"
+    },
+    {
+      "path": "pl/404.html",
+      "sha256": "7b76f01c1000bdea01f4db70d274751c12a30afdc9ca08a15954cc38447c1363"
+    },
+    {
+      "path": "pl/lokalizacja/index.html",
+      "sha256": "e41556f149e51c286d7b28f3d250a128035e3135f862fadda3a0152e0c44d1e1"
+    },
+    {
+      "path": "pl/opinie/index.html",
+      "sha256": "2c059de2007df7dc3c4d9db606075cd5bf950551f0474f9c8be65a8a302f6964"
+    },
+    {
+      "path": "pl/oferty/index.html",
+      "sha256": "2b9d4ac757dd1202186319a7e3aae1d019e07679cb4cb32ebdaff6cf6add68fe"
+    },
+    {
+      "path": "pl/porownaj/index.html",
+      "sha256": "2094ddcca57f10335af6aba0d9ad2c6e5a4abb3eaffd125718d3d916c49e3d06"
+    },
+    {
+      "path": "pl/pobyt/index.html",
+      "sha256": "c2f6a7a48fc1238fdb8fe02dfcb50032d226200e26289b540f847e554981eb8c"
+    },
+    {
+      "path": "pl/pobyt/sluzbowo/index.html",
+      "sha256": "713b1ed9496dd44efaeaabccb805fec118becc437f81ff800d8f6c06af436748"
+    },
+    {
+      "path": "pl/pobyt/weekend/index.html",
+      "sha256": "471c9c04e86a0256cd4d0e80e2139cd66af6f893e9f083c9a2b751ac72ea26cc"
+    },
+    {
+      "path": "pl/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "4cfd6bafb396486f71a20ceda40c1a479f82b7cee0ff0f3e491f0bf97ac85de0"
+    },
+    {
+      "path": "pl/pobyt/wydarzenie/index.html",
+      "sha256": "dd4a0f4203711c49351badf3c39e813fc5d4ee7c763ec87970d526bc2039c64e"
+    },
+    {
+      "path": "pl/pobyt/rodzina/index.html",
+      "sha256": "9e13d862fdf910e4872f5dc3cea61aa85094c412a128eb3cf22c23572968ebd2"
+    },
+    {
+      "path": "pl/dla-firm/index.html",
+      "sha256": "bd6f1a8f590604d8118ad961af5f72356b3af81b3e3e79505d4728612bc15550"
+    },
+    {
+      "path": "pl/konferencje/index.html",
+      "sha256": "a3beca8b43b1e45e9942cc24221a5417a1e9c333c61e71d5c3b94aff33b02073"
+    },
+    {
+      "path": "pl/kontakt/index.html",
+      "sha256": "dd7499e625d8078b0caea05308f46ff7635bdb67265ae287000f645294c76659"
+    },
+    {
+      "path": "pl/faq/index.html",
+      "sha256": "2c368e27a447265418e960c7b3e3e809b20562d07e4099639025b7b8c386f375"
+    },
+    {
+      "path": "pl/wellness-spa/index.html",
+      "sha256": "e9a2357dc8597dae7418d2ceac6ee28d755b595ec2af508357f942cc2c9f1c33"
+    },
+    {
+      "path": "pl/dokumenty/index.html",
+      "sha256": "c7fcc2ad6a3588aded7d6a92ed36ecd59bd7c856d2d3f4c46210e45f0c735711"
+    },
+    {
+      "path": "pl/club-hornigold/index.html",
+      "sha256": "d692a1e6ba291aca98931ee656f97ffd6bc4a4fdb09d80d8ba7bfa578859b094"
+    },
+    {
+      "path": "pl/pokoje/index.html",
+      "sha256": "6c89caa39a5319037411a18e22360e524f20e1818cc99720549b7699092d8fb5"
+    },
+    {
+      "path": "pl/pokoje/deluxe/index.html",
+      "sha256": "00839fd373b3e955f21e56f5eebc5910a59fa352a4dc8fba4c04da009e940ec8"
+    },
+    {
+      "path": "pl/pokoje/prestige/index.html",
+      "sha256": "f96779bcb8366a5a336a5b8156ec06d830dc788c730ba05029906c082656b534"
+    },
+    {
+      "path": "pl/pokoje/classic/index.html",
+      "sha256": "aaf6b1a5457827f7f9a50d01bf037dc339a2b50289ed7d96e20e1fcf70c3bb08"
+    },
+    {
+      "path": "pl/pokoje/deluxe-premium/index.html",
+      "sha256": "5fbe9f2e984a488f8f6611c3b434eeb272eeb9a07f373801bb7a7683c1ef2238"
+    },
+    {
+      "path": "pl/pokoje/prestige-deluxe/index.html",
+      "sha256": "9d94282527b913b2962ca1042cdcdf3efee69a57818eb8cc6a00ff43108e4ea8"
+    },
+    {
+      "path": "pl/pokoje/hornigold/index.html",
+      "sha256": "ca7037c36df9150c936eb8b448303f1040ff91dc39c30029ad96c93a823f3e8c"
+    },
+    {
+      "path": "pl/pokoje/suite/index.html",
+      "sha256": "c759445be0d1f2ea0a17dd5e0112880469e2ca73230d336aced0ef84da3eea47"
+    },
+    {
+      "path": "pl/pokoje/apartament-deluxe/index.html",
+      "sha256": "4d8317fa55525e376b01e40fc4f596158ff5bb91e619b9d7c474399747e9c1ea"
+    },
+    {
+      "path": "pl/pokoje/premium/index.html",
+      "sha256": "9200ea4218151eb05107bd6eb470db797961356a161bb7cb047a7c4106c88210"
+    },
+    {
+      "path": "pl/lotniska/index.html",
+      "sha256": "783de9966fcd08a3febc035e2c7beaae1b930594116c49b9f1c5a92429e005f7"
+    },
+    {
+      "path": "pl/lotniska/balice/index.html",
+      "sha256": "201df9f933fbe9617b7a5d8a7a0a24cbab2f27a00cd9dc46caa2f4db7f99bc46"
+    },
+    {
+      "path": "pl/lotniska/pyrzowice/index.html",
+      "sha256": "c0098615c9366b085ecdb8d61d7a23efd765f6e469b19bc58f0b8dabd6f8f9ca"
+    },
+    {
+      "path": "pl/katowice/index.html",
+      "sha256": "94145b0ebf83b6412a5e67967190b6c62e275dd21d04731817437cca9c02fc3b"
+    },
+    {
+      "path": "pl/katowice/sluzbowo/index.html",
+      "sha256": "dce216dbfdf4f7d7adbec40a624bc2e1772f832df77df12ffd1f7b9b83427d6f"
+    },
+    {
+      "path": "pl/katowice/weekend/index.html",
+      "sha256": "af480add11c706235efc725610d58edae7606377d2ced422498b728501c27dc0"
+    },
+    {
+      "path": "pl/katowice/wydarzenie/index.html",
+      "sha256": "060ce15c3982f840f874382bd357286dc1d59773d40d5dc98f64c2a996f7febe"
+    },
+    {
+      "path": "pl/katowice/pierwszy-przyjazd/index.html",
+      "sha256": "3374e3a098d418a1a4399244b733ca78818ca50e29e8f1c4b54311f71c7f5ea3"
+    },
+    {
+      "path": "pl/katowice/architektura/index.html",
+      "sha256": "26998209ad105802aefbdec8f9227a8c554fa12d60228bc27962667623b3009b"
+    },
+    {
+      "path": "pl/katowice/z-dziecmi/index.html",
+      "sha256": "cd77aac0a298fb00cf22426504a6c3f2ff39cfb08c8658aab350e15d532d53c0"
+    },
+    {
+      "path": "pl/katowice/wydarzenia/index.html",
+      "sha256": "022d6d90f5830cfb5ef4e2f05190d5dc251f1aee3d54e07a73331583c2f645f0"
+    },
+    {
+      "path": "pl/informacje/index.html",
+      "sha256": "ecb19b820375170299989f77a224e7fdd52f358f9b25f3b0018f05c877cb54e9"
+    },
+    {
+      "path": "pl/sniadania/index.html",
+      "sha256": "9ca70d5439c42859e604510367240d38aa1005b9e3f24029dfac5b67723b254b"
+    },
+    {
+      "path": "pl/miasto-i-okolice/index.html",
+      "sha256": "b709b6b3acda2ec51605cac0afa1d0478bffe1141bf4df082f2bfb386c7ed592"
+    },
+    {
+      "path": "pl/miasto-i-okolice/giszowiec/index.html",
+      "sha256": "4c0a921d8e623ad54ee9790d64d74dd4f8badbd5e115170ac07fd22ffc3ce355"
+    },
+    {
+      "path": "pl/miasto-i-okolice/strefa-kultury/index.html",
+      "sha256": "2dc3a54f6105c3f6761ea487db720504899c4f40de10749d049609f851481830"
+    },
+    {
+      "path": "pl/miasto-i-okolice/zabrze-guido-luiza/index.html",
+      "sha256": "ea64667563823a7e56033438f7406bdaabfd91f9418da911391d1e1f5b472e50"
+    },
+    {
+      "path": "pl/miasto-i-okolice/rynek/index.html",
+      "sha256": "a0d8b4dc73670ea79cac4d991958468e9cd32050985ad3cd6f41e20fb626dd34"
+    },
+    {
+      "path": "pl/miasto-i-okolice/pszczyna/index.html",
+      "sha256": "0fb645be4dc7343ec4376daffc7b1f3bf728152b25afa0872bb554921dc80026"
+    },
+    {
+      "path": "pl/miasto-i-okolice/tarnowskie-gory/index.html",
+      "sha256": "91362d323a547b7975401a9097ccaba0666fd004a8e4ece543bad12be6d2232f"
+    },
+    {
+      "path": "pl/miasto-i-okolice/moderna-i-zabytki/index.html",
+      "sha256": "29d0b367cb138a776f49e371d92310fbb6c5f7464870cc0bb977ca9873238967"
+    },
+    {
+      "path": "pl/miasto-i-okolice/miejsca-pamieci-slaska/index.html",
+      "sha256": "3becabe04646ccb8525dfe916c145f51f41599e12a5ddca4745022373ff099b4"
+    },
+    {
+      "path": "pl/miasto-i-okolice/auschwitz-birkenau/index.html",
+      "sha256": "125f0495018496c5dfe01e1814352dcf1c9d74379653158c63b517ac7b9d0716"
+    },
+    {
+      "path": "pl/miasto-i-okolice/szlak-zabytkow-techniki/index.html",
+      "sha256": "0161fcdf336d66da6d7b29967510053d5177532dbbb6eecce0ba24dd24fcb74a"
+    },
+    {
+      "path": "pl/miasto-i-okolice/dziedzictwo-zydowskie/index.html",
+      "sha256": "3f5a6b16eb9930e21e19dccad501e738d3be0fbb4f4e54f38f18406aed2b8c2b"
+    },
+    {
+      "path": "pl/miasto-i-okolice/historia-katowic/index.html",
+      "sha256": "34c59bb5853b006b77a2b06fe15ea36db7af04fa101b54c145e5aa486feee8e9"
+    },
+    {
+      "path": "pl/miasto-i-okolice/nikiszowiec/index.html",
+      "sha256": "45192edd39bae5c17da0054522b4d0f7742cfe34da9a6303d28e12ab396496bc"
+    },
+    {
+      "path": "pl/miasto-i-okolice/katalog-zabytkow/index.html",
+      "sha256": "e46e105bdcbe9803cbee32afa2d07a6ce89111b517a39d8fd052e4ff4e6e6769"
+    },
+    {
+      "path": "pl/miasto-i-okolice/gastronomia/index.html",
+      "sha256": "237cd017f9515f64395ff46f1f35fb33ab658397f825d602ea6ea4492529b111"
+    },
+    {
+      "path": "pl/miasto-i-okolice/bedzin-i-jura/index.html",
+      "sha256": "aeb0b59169debc3ea9b35aa50887ca435fde76912ad3e1f6e1b5ee05ec8a91c3"
+    },
+    {
+      "path": "pl/miasto-i-okolice/historia-slaska/index.html",
+      "sha256": "11e780ff950f5e97b28a77c99bfaf86ad954abfa0d659a60dc56f0be103e9ae9"
+    },
+    {
+      "path": "pl/miasto-i-okolice/cieszyn/index.html",
+      "sha256": "a17be78752dcef2e649572c6673442fbd74f9e3b377a2842b20ef9860c54c3cb"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/index.html",
+      "sha256": "b645cc05697a0d5cc445b49fa4cbc7260dfd837cdfca3841bd0ce12ecfe6be6e"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/modernizm/index.html",
+      "sha256": "51e933a7200fbbc4d7c3e5f3edeeb4d2adc2572365318561e99c420c2fdb96e1"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/industrialna-zielen/index.html",
+      "sha256": "1bbcaad704c5f513d951d85b21c35536d10ae1afead18b1b8a1768b189ee0722"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/kultura-po-zmroku/index.html",
+      "sha256": "a2917945ebb0f6b47674acb5b6562cede5bda1c5e341a18ac3dbf7cf0f8e255e"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/ulica-moderny/index.html",
+      "sha256": "fa07747db5e8db781192cd8e21566b4c2fe555e3b5f7ec98402c8abf1b6d7065"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/hala-dworcowa/index.html",
+      "sha256": "383b3841ea5c77ceb7884062dbc3322732f4506fc239a4ed3383a4a49bca2f3e"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/panorama-regionu/index.html",
+      "sha256": "c71b5d1fb9518395a44b580e353d124d72eee332a3fe6585205846c84a79d373"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/park-kosciuszki/index.html",
+      "sha256": "5affd44feae376bf0580a0f3cce05e33e228a46149071fbba398828d5f6a8891"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/tramwaj-wieczor/index.html",
+      "sha256": "f8396ea4d9119e8e8eb6cb6f54d2cae6b47d406a4adeff691e1173bb69ecccd8"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/sakralne-wieze/index.html",
+      "sha256": "19341861b8faba6ee1f4a94c61d0e1db688943df264b51032244dacb2f824c21"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/park-nad-stawem/index.html",
+      "sha256": "c468960e5b8120b7a5dafc0964c7074aeb23e45693d1bee6e33f5fd091e2c7be"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/archikatedra/index.html",
+      "sha256": "4a73b6b9e96874e154f1c3233d6305f5f4bb288d34f679822359b9834cbd8712"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/mck/index.html",
+      "sha256": "70c4f55184653a7ab7ca78133d49a6eed9dfb57945bb6d45799818b0704657db"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/nospr/index.html",
+      "sha256": "5f80b350abfee8bc1c99be6e8a2799fa6e9971204a76a5fc357a1ae6efc44213"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/dziedziniec-sztuki/index.html",
+      "sha256": "05d12259765f9b0dcd8a7cc71ba0bbba55a0e924e404460f4b8153f6d78a4739"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/tramwaj-poranek/index.html",
+      "sha256": "8b18ad67f9a6ae4d1219bd2b31ff8f5af4eed79d6bb1379434430a292a0713a8"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/giszowiec-ogrod/index.html",
+      "sha256": "afe2b58915ef201d3b1ccf06a0108d088cf6a444eda504ea6acbcab82f5a8ec4"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/teatr-slaski/index.html",
+      "sha256": "a2dba596d01dae24fc09c0655837397669682566bfa329736395ff9a3b16c3ff"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/nikiszowiec-cegla/index.html",
+      "sha256": "c960212b4480c5861ad8d72e5d7908c321026f982fd96abf0bbd4a4f6353e3cf"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/zielony-korytarz/index.html",
+      "sha256": "aa24ee205c2075670eb21cc6c7765cf397b9b065d37cf10aa673561df290a435"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/arkady/index.html",
+      "sha256": "17a012086325084b0be5bc1d6266df1d4c428f24e6233684232a3864df51a680"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/przed-koncertem/index.html",
+      "sha256": "e269362fb45ea76914b18f5df5bb04de384b4f207735d311af4c95f5ba4f2d71"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/kultura-zachod/index.html",
+      "sha256": "286c2cffbe956e4828b620909e43998a16bd116c5f5d906c3e861be8f35242a2"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/sala-nad-woda/index.html",
+      "sha256": "1134b4ed7960ad628a04fd6fec45cfc87ae1b7a335e66c95512bb8091237f243"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/porcelana/index.html",
+      "sha256": "af9092bfa2ad711a41680683efd11a2543c63199566674606326be76a73630a2"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/opera-wyobrazona/index.html",
+      "sha256": "5bb4805bc016dd98dfd2a4e2015cb3a4c252c496e2f0648ff838fa21c80e1eb3"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/kosciol-mariacki/index.html",
+      "sha256": "e9da69fd42a55d2cf85196cd35a0383a09a5ccf99af2701200ad10593c581da0"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/ceglane-podworze/index.html",
+      "sha256": "9ace5034134f8b04675a2581fad5669a60feb742defa6a8e931f9a3527d30eaf"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/spodek/index.html",
+      "sha256": "2bd9a14709234ddc87fc3147f0fea3f8a0314c188ec554e57ef4461954d1e686"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/muzeum-slaskie/index.html",
+      "sha256": "370f634775bc474cedd69d71e5b65b71b406fd0393aa0d3561cc369e1f1ae28d"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/wieza-wodna/index.html",
+      "sha256": "0ba26cd907a63a2f557560b616cd37585c4931474953e7ffcfddc31a06f8bdce"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/kino-art-deco/index.html",
+      "sha256": "d001357caded7149fb32fba8382145f7b6e5f78566b9a5cb80876dce183d6f1b"
+    },
+    {
+      "path": "pl/miasto-i-okolice/ilustracje/teatralne-schody/index.html",
+      "sha256": "b61f668cdbb9bc025a9a853e9448ddb1dcdf5cbe14840a3447c6d43098f750af"
+    },
+    {
+      "path": "pl/miasto-i-okolice/gliwice-radiostacja/index.html",
+      "sha256": "beb6bcf0b5b171dfc6c356d6139f0626ba455105d2cb576be5a2837dfa953d41"
+    },
+    {
+      "path": "pl/catering/index.html",
+      "sha256": "ab4f5c22a07a7ee19d84affd97e21d6af1e19e2f52867094ce19c59363209da4"
+    },
+    {
+      "path": "pl/parking/index.html",
+      "sha256": "82643df27736cdb420bce2958e011aaab8a082c98d14036ff8c685262ba89eec"
+    },
+    {
+      "path": "pl/o-nas/index.html",
+      "sha256": "7f5c06430f41ff7145969ae35c7a2f39c7aa078f44fa5cd9534818debb23c91a"
+    },
+    {
+      "path": "pl/rezerwacja/index.html",
+      "sha256": "4aeb7a9f9f50347f5616682104e23fb618b5c514f0b2aa9838ca71322ab2cb78"
+    },
+    {
+      "path": "pl/prywatnosc/index.html",
+      "sha256": "35f9df151b3e8c5e2ab4e861e91e2e656153661a3bc0098ff3f2a10659594ec9"
+    },
+    {
+      "path": "it/index.html",
+      "sha256": "8c02daba4493e90c95636ba67f081b08b1cf4ba28b7d4cffd067ec5f3c510e96"
+    },
+    {
+      "path": "it/404.html",
+      "sha256": "726d953a542223e12d01f1562a1755485e1a5a3c16229cd5ebc4e97dee13ad76"
+    },
+    {
+      "path": "it/informazioni-chiare-prima-dellarrivo/index.html",
+      "sha256": "445096ddf631082aebd7b72058ab6f5cfce8d261aac32c1b4c11850fcd72287d"
+    },
+    {
+      "path": "it/katowice-con-hornigold/index.html",
+      "sha256": "4c8106aadfbebc96942142668e0dd6207dbf487f1bfd108ed3214eb5d582a0e6"
+    },
+    {
+      "path": "it/organizza-un-arrivo-senza-pensieri/index.html",
+      "sha256": "8e4dbf7a215b4fc6bd3fd4541725d0af86a7e11c4eaf18845af6f264ae1644a8"
+    },
+    {
+      "path": "it/confronta/index.html",
+      "sha256": "79310f9bae3b3d662fc53922be46c0610e1d6bcda887cfeeca0609a1ee96ea5a"
+    },
+    {
+      "path": "it/pobyt/index.html",
+      "sha256": "e7751aaa55db935e39bca9884adfa58afdab5427f82e478d2a37645a678c4d3b"
+    },
+    {
+      "path": "it/pobyt/sluzbowo/index.html",
+      "sha256": "0ee6fffd3e15b1537fcae3b467ce6f8e60fbe0d50d2cf9e2ed1201f0a3aa6f78"
+    },
+    {
+      "path": "it/pobyt/weekend/index.html",
+      "sha256": "c706ebaba20199a140c5dfff4e5d2e8be89b709d04340b9990576d47a28348b2"
+    },
+    {
+      "path": "it/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "603e10e3d4a9b8eb7366c5a1c2e04116da041ddc337591ea073c42606f34cc2e"
+    },
+    {
+      "path": "it/pobyt/wydarzenie/index.html",
+      "sha256": "527a7bb80274d99c27686cf47ab4b32c803141d92a94c3f6c49520fa1fd8c671"
+    },
+    {
+      "path": "it/pobyt/rodzina/index.html",
+      "sha256": "0f3c5752558725a1201ad3cd2b5fd0b28019b43da55ce7def454a5a2eda76530"
+    },
+    {
+      "path": "it/catering-ed-eventi/index.html",
+      "sha256": "b4fcfbf04e401f6fc177cf0250cb02e968393bf8d0749d3b7ab16545ee21f2e8"
+    },
+    {
+      "path": "it/condizioni-adatte-ai-tuoi-programmi/index.html",
+      "sha256": "737bbe51ffbeefe70ebcaa31a0be2bce84e6336b384b519ff52b81c12f50495d"
+    },
+    {
+      "path": "it/privacy-e-dati/index.html",
+      "sha256": "82e532dd3526d3b440f7f0317dfe85e57da3d032121cf19d62250a4e8ceb97eb"
+    },
+    {
+      "path": "it/club-hornigold/index.html",
+      "sha256": "876fb4bcd45da2a3a57d3fb70eb94c58368cef0e9652c20fed378ee158e68248"
+    },
+    {
+      "path": "it/un-soggiorno-su-misura-per-te/index.html",
+      "sha256": "604715fa8aadcee3fb3033ccd3cc9b78d3310674dd663fd07914b13e6b571ed0"
+    },
+    {
+      "path": "it/una-visita-rilassante-comincia-prima-dellarrivo/index.html",
+      "sha256": "a1cc0be3bc4d42d07f3662847543e5f85128c7dfbe03760bfd704982565450db"
+    },
+    {
+      "path": "it/le-esperienze-dei-nostri-ospiti/index.html",
+      "sha256": "500ea869d2329006a624529840bb268d51b70bb486e134d4577a8bd5becc4f74"
+    },
+    {
+      "path": "it/conferenze-e-incontri/index.html",
+      "sha256": "34f4c0d10174e3e291cc04254cc61e594ff6f333cf67b158aee99f6054467c4d"
+    },
+    {
+      "path": "it/katowice/katowice-in-24-o-48-ore/index.html",
+      "sha256": "edb81f99fbe376c137c5491f90dacfe9c5369431d4f99612e8b97c97550b6737"
+    },
+    {
+      "path": "it/katowice/scegli-un-evento-organizza-il-soggiorno/index.html",
+      "sha256": "906cafe3126d2c84c39ba1727607fdf176c4c40dd690f8394ad0184371a3923b"
+    },
+    {
+      "path": "it/katowice/katowice-con-i-bambini-un-programma-semplice/index.html",
+      "sha256": "ea382a7271aec6de17ee9d2d770163ffafbe6113294b852c886ae392cb770d07"
+    },
+    {
+      "path": "it/katowice/visita-a-mck-spodek-o-nospr/index.html",
+      "sha256": "9e54fcac91cf6477702496977338f68a4ea87e3336c35b528eb30a1109c3f601"
+    },
+    {
+      "path": "it/katowice/viaggi-di-lavoro-prima-dellarrivo/index.html",
+      "sha256": "0007af137117b74142d058aebdf821a0de4098da2e161ffdf721fc473834d313"
+    },
+    {
+      "path": "it/katowice/il-tuo-primo-arrivo-a-katowice/index.html",
+      "sha256": "bff9a7baa96bcefe429ef8f1e141daa5f7edcaa5781584bbd58eb186531f9d21"
+    },
+    {
+      "path": "it/katowice/architettura-e-passeggiate-in-centro/index.html",
+      "sha256": "3e510cc58a628a9f58b20ec2dc337f06283365f3d63c9bcf13e54df5460f5541"
+    },
+    {
+      "path": "it/informazioni-su-hornigold/index.html",
+      "sha256": "41fa0ae95319ba8cf609c1307159be05f42b2fc287af8be761a122f49dd563e9"
+    },
+    {
+      "path": "it/benessere-e-spa/index.html",
+      "sha256": "90eedf0f6597067adfa1ab95ea5fdf716aaa742608e727d4c45f562fddeacad3"
+    },
+    {
+      "path": "it/contatti/index.html",
+      "sha256": "3a13e68177695db6181fa86b382f16524ecd8346720d1d4714d9148ec945204e"
+    },
+    {
+      "path": "it/colazione/index.html",
+      "sha256": "2bcdc7b3ee77bae9c0a2902191ee861e01d3dd1e0f5cc1934f94c3a947a56518"
+    },
+    {
+      "path": "it/camere/index.html",
+      "sha256": "0dcfae5990b217cfc0cb6cba5b7a00386b1e4e9c87d6e4c928de022b66a95e37"
+    },
+    {
+      "path": "it/camere/deluxe/index.html",
+      "sha256": "8099d1e8506542aab83ddd95c6d3c88297aeab011cce7199ae92c2d84bc1eed7"
+    },
+    {
+      "path": "it/camere/prestige/index.html",
+      "sha256": "f0bcfb8ea79a25e8360f5e42328fd0decccc5a24d48024734c3cec055018f063"
+    },
+    {
+      "path": "it/camere/classic/index.html",
+      "sha256": "4922d4fafbd61faf386f399ef1cbfe3173589691e8be4535fdf530289a0da4a7"
+    },
+    {
+      "path": "it/camere/deluxe-premium/index.html",
+      "sha256": "a9e4d6eb9f4908d6c7593174b1f0ba74fdec8a832b19badcea006c5837b12221"
+    },
+    {
+      "path": "it/camere/prestige-deluxe/index.html",
+      "sha256": "1dc77f2418aa1c1758b0b9fddc737ac75a338d0234be2049780b5b6bfba8102f"
+    },
+    {
+      "path": "it/camere/hornigold/index.html",
+      "sha256": "e5ebefed7e287df16f8ec7f9a43c2e1fed41acdd53a993efb0bd1de423c03424"
+    },
+    {
+      "path": "it/camere/suite/index.html",
+      "sha256": "91762354953737d285d955324ea613b91e3d43712064c035fa00c09058009d26"
+    },
+    {
+      "path": "it/camere/apartament-deluxe/index.html",
+      "sha256": "d33553ac5ed7e15a31f409353a63848f172c6e1f53697ae50ba2ccad76c1fff6"
+    },
+    {
+      "path": "it/camere/premium/index.html",
+      "sha256": "a244423203f83a796568e74d5b210f6a94c8483f38dab8be7fbd1dc9aa6a342c"
+    },
+    {
+      "path": "it/posizione/index.html",
+      "sha256": "a935d419ebe9c9e241762374f38c788257dce5d85f179da27671d667c1212b84"
+    },
+    {
+      "path": "it/aeroporti/index.html",
+      "sha256": "a2d73e16680cc1883a4f16d32b9028827d24a74a3091c3d3f44f122fbc22a2e5"
+    },
+    {
+      "path": "it/aeroporti/balice/index.html",
+      "sha256": "58a73e10882974bd44c6321fb86912c77d3195b70b9815db27f7c9a439ee87f6"
+    },
+    {
+      "path": "it/aeroporti/pyrzowice/index.html",
+      "sha256": "0fa7421166e9043efb792679b8d6dfd59c198378f97ce9c6b8fe35662c04fdab"
+    },
+    {
+      "path": "it/da-sapere/index.html",
+      "sha256": "c1425a590b5742abc40effe5e2d9a77671196619aa4f525363f2f70d5528f4d3"
+    },
+    {
+      "path": "it/rezerwacja/index.html",
+      "sha256": "9acf74a1fbd2fa3d59204eb92cd34f3791aeb7dc25caf6187848b429af30558c"
+    },
+    {
+      "path": "it/citta-e-dintorni/index.html",
+      "sha256": "cf963c04e531a8bcb060500bd1f539657c4f67858dd28851989a5ce10a4d67cf"
+    },
+    {
+      "path": "it/citta-e-dintorni/la-piazza-del-mercato-katowice-in-un-solo-sguardo/index.html",
+      "sha256": "7278ad742e94990482d05d06fb4ead5bb42de676cbbcaa9f5e9954b025614427"
+    },
+    {
+      "path": "it/citta-e-dintorni/la-storia-di-katowice-una-citta-in-movimento/index.html",
+      "sha256": "1c5c0ee79a3b109e41c95c59344fe8fe75fa0ff6f7473d8a8ab273348f52734a"
+    },
+    {
+      "path": "it/citta-e-dintorni/patrimonio-ebraico-persone-luoghi-e-assenze/index.html",
+      "sha256": "4cbdcada688e75cee93c3ef5049b5f7969636963774470a5f9091e47d07ee51b"
+    },
+    {
+      "path": "it/citta-e-dintorni/giszowiec/index.html",
+      "sha256": "7804009397fbebb3019440b16ec7d8f2f38c1a2ced028fbde41d8b06327ebfb6"
+    },
+    {
+      "path": "it/citta-e-dintorni/patrimonio-e-itinerari-continua-a-esplorare/index.html",
+      "sha256": "268187c35da896f882a4d0efe932ec94349547ba305a1a79e0b261a067ce5a4c"
+    },
+    {
+      "path": "it/citta-e-dintorni/katowice-e-la-slesia-nelle-illustrazioni/index.html",
+      "sha256": "1ba4f7e224c38df95ef26e36e636dffc8ee7968da41f2fac89731c6bef7e3309"
+    },
+    {
+      "path": "it/citta-e-dintorni/pszczyna/index.html",
+      "sha256": "0a3f9f7cabb48dc6eea3b2d82b037f78222beafd481e21d3063173c83bd15b33"
+    },
+    {
+      "path": "it/citta-e-dintorni/zabrze-la-miniera-guido-e-la-galleria-della-regina-luisa/index.html",
+      "sha256": "1625fa99d000f58a646b122f001444e6194e9474e4c8b2cc1128fb9366336fad"
+    },
+    {
+      "path": "it/citta-e-dintorni/tarnowskie-gory/index.html",
+      "sha256": "1aadfd237da8d87748db1dbd2a046e902d03ee91fabe57e5913aca983fa70fa8"
+    },
+    {
+      "path": "it/citta-e-dintorni/auschwitz-birkenau/index.html",
+      "sha256": "0ad80179600ac3ddc12d1f29b4bb0768bfccf446c51e2ed536fba53b9d9c2642"
+    },
+    {
+      "path": "it/citta-e-dintorni/il-percorso-dei-monumenti-della-tecnica-una-regione-plasmata-dal-lavoro/index.html",
+      "sha256": "21272e721b184a468a4bb6cc5edbc1f860e94f418c057d499ca68790da1b5f0a"
+    },
+    {
+      "path": "it/citta-e-dintorni/slesia-molte-voci-una-regione/index.html",
+      "sha256": "f0d71471d144d833e83d5a613e8bf27526bbd1454614a664e0b4e516af2c6992"
+    },
+    {
+      "path": "it/citta-e-dintorni/luoghi-della-memoria-in-slesia-storie-distinte/index.html",
+      "sha256": "0dd6197ca19af7ac7aa1e04eda9563fd03196a6f1efb6f0895fd17ce023a94ab"
+    },
+    {
+      "path": "it/citta-e-dintorni/mangiare-a-katowice/index.html",
+      "sha256": "28d28690bcaaf42b012fc76f83e163abac6969655666207102bcfeb723e83c90"
+    },
+    {
+      "path": "it/citta-e-dintorni/nikiszowiec/index.html",
+      "sha256": "8e73049d68046c482adc12a2c417ee7529c54dd211246fc1587a3d4aadee579b"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/slesia-un-panorama-immaginato/index.html",
+      "sha256": "718167a6f7c21e05125c5954522dbf9248ca3d0a60ed408dbdbafbb56a0f58a4"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-viaggio-comincia-nellatrio/index.html",
+      "sha256": "0056ca01cee68191a4ab9daed30bd786155d3f2336c94834c766c8251db6c10f"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/museo-della-slesia-la-nuova-vita-di-una-miniera/index.html",
+      "sha256": "1fbe7f793423ee9db02d229a091c963eb3ab7eb599682bca1e405cd3185a1783"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/una-strada-modernista/index.html",
+      "sha256": "01dd8d7de7c7dc98283fd21784c08171c0784f0262bbdbc1275b0dbc2092a564"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/nospr-una-citta-di-musica/index.html",
+      "sha256": "b1fdb926d4ea41f53e06d4fa714bdc3ac092339304961727850f02f5e3bca237"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/il-corridoio-verde-della-citta/index.html",
+      "sha256": "f061ad56828099151f3df2e15c193b473acb2f4f1e0a3614b3f590b3950943f1"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/il-percorso-del-modernismo-una-citta-di-forme-nuove/index.html",
+      "sha256": "01a33311c0887ec6522ab94d37100386f2d7b9f14150c7709bda9d9d8489d64d"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/cinema-tra-le-luci-della-citta/index.html",
+      "sha256": "1658fb79554bf5e1e6558659ae1c48d1dbf6a232dca17b787c280c069f89fa43"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-momento-prima-del-concerto/index.html",
+      "sha256": "2888d73fc9eb55f20bb5c53baee04c7c7b9134ec2ea499445070390a9661df17"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/cultura-dopo-il-tramonto/index.html",
+      "sha256": "d82249a88afa3cb225e00ad4d5d6fbf9a942281fb121acd409658b8189abe46b"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/sotto-i-portici-della-citta/index.html",
+      "sha256": "36dad5a9bb0a88383df756720a520ac7168df97da25cfc3cfdb78e7fc1243d91"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/la-torre-dellacqua-una-traccia-delle-infrastrutture/index.html",
+      "sha256": "caeeea1b3cfbfcfa03df3dd4b07889be3152d3916f376b64d2bd06a1bb6a1481"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/musica-sullacqua/index.html",
+      "sha256": "f6bbd2749a3dbe982b0253933d082bbac6787b4fc75f4167de8223d6c694c62f"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/torri-e-silenzio/index.html",
+      "sha256": "52eaf2eec46fe551d476e8227175742321e4921682e3881abb3c758f95af953f"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-tram-nellora-blu/index.html",
+      "sha256": "af49af54bf4b8fb99d0e96a60ef5be3e9053103713a9d569a7865f7b9c430ccf"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-quartiere-culturale-al-tramonto/index.html",
+      "sha256": "1beeeab7ed3a912b2b946f4a902d6d397cefed5c4ae05e8e0eed51cc66d972f8"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/i-gradini-verso-il-teatro/index.html",
+      "sha256": "79d96e41e6700bfc58f4a0ce579326227185083ae1181c0b781a2d4799c23777"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/industria-e-ritorno-del-verde/index.html",
+      "sha256": "cc5d4f8df2c7a2815e5409b48812f4940c81f833d084e6ae74ff9a3948febc7d"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-cortile-per-larte/index.html",
+      "sha256": "e47052433f6e71d1168450c9f444c2a29c57193bda4ba67d668e1d629342b8af"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/giszowiec-lidea-della-citta-giardino/index.html",
+      "sha256": "bb55d571647e86c3a9b462a31ec0a39caa34e98f65e2976ebae7f1060b956314"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/una-serata-allopera/index.html",
+      "sha256": "129fcaef53e150d12ce889fb379cd94090008b96ef8526367a7ee15c07d61469"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/parco-kosciuszko-spazio-per-respirare/index.html",
+      "sha256": "b1702b8ad0af7f51276401a9d0eb20cdbdf61297f786403a7712390879b3d97d"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/la-fabbrica-della-porcellana-industria-e-artigianato/index.html",
+      "sha256": "412da62e2191aeb2529ffe214efb855d42ca42b00e779f39362a64c4c624d556"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-cortile-in-mattoni/index.html",
+      "sha256": "787bd27d3f7d67f3ae4bcfb5e9b90e0528025a10853ca6138e2ffa2e6c5cc829"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/teatro-della-slesia-una-serata-sulla-piazza/index.html",
+      "sha256": "a2b81098c689d3efb7216bc65b886289fe152ce73bdaa4b32ca213650f8be5b4"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/la-chiesa-di-santa-maria-un-ritmo-gotico/index.html",
+      "sha256": "f96ecedee70fb08370641e4a254bb72512c640631d64f5cbbf218850d672bc18"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/mck-architettura-per-incontrarsi/index.html",
+      "sha256": "c3564b5c05987b1cca9d7c448f69c77ed13a43527e40d7438afa8444898e05ab"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/un-parco-vicino-allo-stagno/index.html",
+      "sha256": "5a28854688fee8dc89c3ae8bcd66dba4349ce87132ba3aed01d0a295077e3469"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/nikiszowiec-storie-in-mattoni-rossi/index.html",
+      "sha256": "d9af499b4c4d579b1bd6c9d008bf6500f259aa8f147c947d62ad73beeb4b1e4c"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/mattino-sui-binari/index.html",
+      "sha256": "67b5446e33efe63bbd85cfb92fc63c053168c031fe56ba75061716f3947edb6b"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/larcicattedrale-luce-e-pietra/index.html",
+      "sha256": "34b6dbbc6ad58618a5310c0acc58b1f1ac2aa9a37216332b768470752d3f4c92"
+    },
+    {
+      "path": "it/citta-e-dintorni/illustrazioni/spodek-uninterpretazione/index.html",
+      "sha256": "f1fad745c27a50e3db7db75c5a37a89dddf29f233691a1152306e5f8f260faa2"
+    },
+    {
+      "path": "it/citta-e-dintorni/gliwice-la-stazione-radio-e-la-storia-della-propaganda/index.html",
+      "sha256": "90a8834de2e5074bbb5614d8ec29e24acc5825bc66325c55bf05a2ee17e25102"
+    },
+    {
+      "path": "it/citta-e-dintorni/la-zona-della-cultura-un-nuovo-capitolo-per-un-sito-industriale/index.html",
+      "sha256": "c5d5ee0a9655c6181580b82e2be99cd5139bfcf478b6903b984bfa31ebf913ca"
+    },
+    {
+      "path": "it/citta-e-dintorni/modernismo-palazzi-e-una-chiesa-in-legno/index.html",
+      "sha256": "a4004cca44933ef942056b115986ea0d6fbfd3b9f84768bbc9f6e938608588d2"
+    },
+    {
+      "path": "it/citta-e-dintorni/cieszyn/index.html",
+      "sha256": "d9791a04c6316dbb618c85b724cd8d848caeba75feca7ecfa1681b996b2bae36"
+    },
+    {
+      "path": "it/citta-e-dintorni/bedzin-e-la-jura-castelli-confini-e-paesaggio/index.html",
+      "sha256": "11f16f08abe8c03f8ed26e54b04d01fb992c064c910bf64d89d409d4e54fddb2"
+    },
+    {
+      "path": "uk/index.html",
+      "sha256": "0c18e46d55e39f6cdeb6001458c6e52c3ee86e11d2d65151ac48b49d3d03f0e7"
+    },
+    {
+      "path": "uk/404.html",
+      "sha256": "68378bcf329c31df9be53820e831a45c503534426d3c96b0187d8b6583698808"
+    },
+    {
+      "path": "uk/pobyt/index.html",
+      "sha256": "f6f40742f30cc87a27a53d2e88c3c04cd9255ab94a18b6e303a6003c50e903bf"
+    },
+    {
+      "path": "uk/pobyt/sluzbowo/index.html",
+      "sha256": "d06108d972a936c0bfa0f6333730cb15c33a7b5c2a52e8c93c22efff8d7c581d"
+    },
+    {
+      "path": "uk/pobyt/weekend/index.html",
+      "sha256": "049192c0cad3673d4f6c4b8cf42e8f37d3d53da3e739ef5e9eb70a3ae7b904d6"
+    },
+    {
+      "path": "uk/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "ae8e523d2c2da55afb95a2f8364629f2a7f30e6656c2eec7be93cfa4738a35d3"
+    },
+    {
+      "path": "uk/pobyt/wydarzenie/index.html",
+      "sha256": "bf2831db12e080cb0401fa95efa2872b4385ee2bc09b99854c674737fa19d8a5"
+    },
+    {
+      "path": "uk/pobyt/rodzina/index.html",
+      "sha256": "46f5c4b7ce362cbc6a319e4847e682072b6bfe5586014a38f3007a07472510da"
+    },
+    {
+      "path": "uk/приватність-і-дані/index.html",
+      "sha256": "3fb66adef7abc2bdf890144c9a99fda8f1e6f9775c25d218874c221b7965b809"
+    },
+    {
+      "path": "uk/порівняти/index.html",
+      "sha256": "aa0e9eeb7e357eab7a294b91cb11cc1367d608132abc06b51178d138ffcbb3ff"
+    },
+    {
+      "path": "uk/контакти/index.html",
+      "sha256": "bb3fd55624d7e2b68fa7a91b53163d87130eac5ac17cc2fede757420f76dcf0d"
+    },
+    {
+      "path": "uk/усе-зрозуміло-ще-до-приізду/index.html",
+      "sha256": "157592656988cf688b183f1c5e77c763b4c46893508be21e1c4a3fea00631cd5"
+    },
+    {
+      "path": "uk/аеропорти/index.html",
+      "sha256": "b92b77db662833d8dee8445d8eb38cd5b2d2863755b025c762a75ff634e24543"
+    },
+    {
+      "path": "uk/аеропорти/balice/index.html",
+      "sha256": "3ae99a2dae7c1e298845632ac02295365d8fb8d6eb38bbf8fb869895556094ad"
+    },
+    {
+      "path": "uk/аеропорти/pyrzowice/index.html",
+      "sha256": "1614ec66a4d1dd208caf23bfef4f208595535e1808456ee1a2f37ddaee788b4c"
+    },
+    {
+      "path": "uk/спокіина-подорож-починається-ще-до-приізду/index.html",
+      "sha256": "0ff5d81f08e4a96b4a03276ff5d9c01bf28b85657e0a5357ca3fc2c9e22fa573"
+    },
+    {
+      "path": "uk/номери/index.html",
+      "sha256": "013d34262ff0a684e78639e50b6980ac56c368f7c52d906f1577724dca50df18"
+    },
+    {
+      "path": "uk/номери/deluxe/index.html",
+      "sha256": "984ff06897ebed89eb8a02393adef7cb670e5cfbac1913c6e8b92693ad70bc5e"
+    },
+    {
+      "path": "uk/номери/prestige/index.html",
+      "sha256": "56384378600a09210a8d8d7f3b5e22dc52ee7721f65dbb84a65619f15d7bbcce"
+    },
+    {
+      "path": "uk/номери/classic/index.html",
+      "sha256": "bc28e7c5ca6bf3508baf5ec410d6cd9e8b123232488c4ecb23c7c6b592796075"
+    },
+    {
+      "path": "uk/номери/deluxe-premium/index.html",
+      "sha256": "6ca4161e1bf5cb5ea8a52840cc1c96ca198772cc477590b67c63d580b04d90c6"
+    },
+    {
+      "path": "uk/номери/prestige-deluxe/index.html",
+      "sha256": "58059629d5ae93a3e1851fe4ef33fd35c9fe73bcd28bc389b307ac07aed3a811"
+    },
+    {
+      "path": "uk/номери/hornigold/index.html",
+      "sha256": "8b2163de9b1c3e9525342b1f14b46b50a28e7e38104e96edd5d4a08b02b59a12"
+    },
+    {
+      "path": "uk/номери/suite/index.html",
+      "sha256": "6bc67dc3e6f9e042ec39caa2f92effddd69b270dba7cf1a2b5215b34114ff5ad"
+    },
+    {
+      "path": "uk/номери/apartament-deluxe/index.html",
+      "sha256": "c25f329b90c763cd0c984019333fb6abeb611e98fd0af12c4658f3864f9f119d"
+    },
+    {
+      "path": "uk/номери/premium/index.html",
+      "sha256": "16ec5e92e3c75415845515a23f6b90060a4036f91a252d6df44c7122a7081fdb"
+    },
+    {
+      "path": "uk/проживання-відповідно-до-ваших-потреб/index.html",
+      "sha256": "e53e569d2b6023236bee8194453e8cd00b54b43bc3bdd229c0b424e878952a17"
+    },
+    {
+      "path": "uk/club-hornigold/index.html",
+      "sha256": "ae2aaac63b065293fbedc74bbf418af6dc2beec0d2a94b8aae00455b13cf04b1"
+    },
+    {
+      "path": "uk/враження-наших-гостеи/index.html",
+      "sha256": "798bf0adf4216f65752fd52c4277cfc911e2aeb119d934abbb8d1e5d5a95c269"
+    },
+    {
+      "path": "uk/умови-відповідно-до-ваших-планів/index.html",
+      "sha256": "1f476ee3e209db3cdb3b43fefc4b4b369efde4d46652b0c22c1e83be78d9f287"
+    },
+    {
+      "path": "uk/розташування/index.html",
+      "sha256": "b5bdb503eeb5b791cac2ce87db8584722dec94cc2225c58deabf3be1c3855344"
+    },
+    {
+      "path": "uk/katowice/оберіть-подію-заплануите-проживання/index.html",
+      "sha256": "e4a7bd11eecdda3ac864b30e22b3f32bf98a7b0422854827326e9156c776f3e9"
+    },
+    {
+      "path": "uk/katowice/катовіце-з-дітьми-простии-план/index.html",
+      "sha256": "b390592874db7da78b0fc0e6e4fc68805a2f031ba82fb992e930d7fe63e4631c"
+    },
+    {
+      "path": "uk/katowice/ваш-першии-приізд-до-катовіце/index.html",
+      "sha256": "2777ea39202c0156ad8949ce9da240a8ad4b6eb3da017ca0177ab1df74f19a63"
+    },
+    {
+      "path": "uk/katowice/на-подію-в-mck-spodek-або-nospr/index.html",
+      "sha256": "293ff7a88153629e74225bc62b6cf08e54a82f4c1c6b87e1e5b6519425ae2b5d"
+    },
+    {
+      "path": "uk/katowice/ділова-поіздка-перед-приіздом/index.html",
+      "sha256": "7c54a54596d53061139c2a989dcdcccee86d6555bfcff0731ff5ac57349baf5e"
+    },
+    {
+      "path": "uk/katowice/катовіце-за-24-або-48-годин/index.html",
+      "sha256": "589fa584030261b4ee336756cd47d184a046c5eff23c1461c854d1459fdbfbdc"
+    },
+    {
+      "path": "uk/katowice/архітектура-та-прогулянка-центром/index.html",
+      "sha256": "014b4853221974be34193a13a8fc4a0fe51ae6fa7005d548b899d69d8dc5a736"
+    },
+    {
+      "path": "uk/про-hornigold/index.html",
+      "sha256": "ed381b78592f008c3ad69c4d62c0df3aba8e49a36e386024045b1ffec473b38f"
+    },
+    {
+      "path": "uk/кеитеринг-і-подіі/index.html",
+      "sha256": "dc53e80bfe69aa307afbfea4b1f06a89f5be96bb94b03bdbcb22eeab1d725df2"
+    },
+    {
+      "path": "uk/конференціі-та-зустрічі/index.html",
+      "sha256": "c03ed569d21281f72850844fe6d3abc6a5e7b190b5e1a590076ace26a9649a93"
+    },
+    {
+      "path": "uk/місто-та-околиці/index.html",
+      "sha256": "d16f54fc501eee4d07b74d78920f99b5df3a5c3edbcd6bf1344b06e21319faa9"
+    },
+    {
+      "path": "uk/місто-та-околиці/забже-шахта-guido-та-штольня-krolowa-luiza/index.html",
+      "sha256": "d021cbfca29b815c156335d62dbe957e91f92fc79e179259286d575e634633f6"
+    },
+    {
+      "path": "uk/місто-та-околиці/giszowiec/index.html",
+      "sha256": "d3d06846a8a19cc94c65a6f5bbe097b3c532d70b007aea63fc285e88143251ed"
+    },
+    {
+      "path": "uk/місто-та-околиці/модернізм-камяниці-та-деревянии-храм/index.html",
+      "sha256": "214d28eaac8bfe5243d7b05094575526e226710e170c5338c70e5b37b14ea8ff"
+    },
+    {
+      "path": "uk/місто-та-околиці/pszczyna/index.html",
+      "sha256": "7244aac0778a28c1eb36b61999e720611d02f18fd2bb28302f623ecfae84056e"
+    },
+    {
+      "path": "uk/місто-та-околиці/tarnowskie-gory/index.html",
+      "sha256": "797f1d400c2430cd2ea4be9de074b718c47218cd771d9df8aa82309a3a522fe5"
+    },
+    {
+      "path": "uk/місто-та-околиці/гастрономія-катовіце/index.html",
+      "sha256": "f8b921924faaec3df5525fe9b3b28d99a22ae00a4edd334bdb7b4c5e646c3910"
+    },
+    {
+      "path": "uk/місто-та-околиці/auschwitz-birkenau/index.html",
+      "sha256": "f53eed6fc695a68854dd07adc25d7c5d6f1e262b8810773da87c92334ec033de"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/nospr-місто-музики/index.html",
+      "sha256": "cf840f6167230fe0baf6ad32b2166f3f11dd878aee8689fec2bdf2409bbd2886"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/spodek-художнє-бачення/index.html",
+      "sha256": "c69677fc61824ab2962549f3951bf058add8b818d319c18d8e0763a4877591d0"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/сілезія-уявна-панорама/index.html",
+      "sha256": "90616e7fcedd9552bffe36026fe89c73f1266462f75a52a1157cfd7fcec5d76e"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/архікатедра-світло-и-камінь/index.html",
+      "sha256": "d2dcb41390e9158cfb259148265f76575c4c7daa05c6eeabe2ed3d1dd9b8806f"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/подорож-починається-в-залі/index.html",
+      "sha256": "cae5be6d87f905591a7eab7f1d522b8f1286584b150c996e9c42d171ce4618c3"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/водонапірна-вежа-слід-інфраструктури/index.html",
+      "sha256": "e3b41627a31ea6b3442f3b7b1fe696f2a8dacfcb73ce32f4eac9a78f84c1502e"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/мить-перед-концертом/index.html",
+      "sha256": "f027ef4e34de080596aa609b09ab26c120af7c118209348ddee52316832fdb7e"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/парк-біля-ставу/index.html",
+      "sha256": "90ad294557009b4b1c8fde33e08afd6a24a0494682c5609e3afbbdc65373f557"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/ранок-на-коліях/index.html",
+      "sha256": "5d8273237490ec2beb2d3adb3ea25949c2261d60d5062a9df745f7a362f3bfe9"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/культура-після-сутінків/index.html",
+      "sha256": "d90ec95d8d5f659c0d30979797d0162547f07f62bcb5385805500b3a19f48a01"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/нікішовець-історія-червоноі-цегли/index.html",
+      "sha256": "fb4415dc2660ea8b1047e34d9c2e8bdaad5e3f2541defa937df28d1a27e8fb28"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/музика-біля-води/index.html",
+      "sha256": "9cb7e22617e5368695ce593a207fbaa77e665c49424957b703585d55f66936eb"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/вежі-и-тиша/index.html",
+      "sha256": "95c6f84e09030a7bcc974251c0f4be3e182c042b8357d40454b28d969bb3f525"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/сілезькии-театр-вечір-біля-ринку/index.html",
+      "sha256": "747d71bc1a4fee6d853c935b0a74e2f22c38b84227b1a0024db5f5b45768202b"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/зелении-коридор-міста/index.html",
+      "sha256": "f4e4d6bc5a31eb4edd56b21df846c72fbce5d8c225d4a24b3d10e918ece49d08"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/сілезькии-музеи-нове-життя-шахти/index.html",
+      "sha256": "5e4de4ae99f187175d5c17051256b82f3e0539d7992e4d6c28cabcac2f2cfc64"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/гішовець-ідея-міста-саду/index.html",
+      "sha256": "50da9a42ecab7df9adbaf68997e0cccd6ce6b3b20901d9234c207f46e56164cb"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/культурнии-раион-на-заході-сонця/index.html",
+      "sha256": "2feb65860f89e61e2ce9e551af2e8c4e503de751e02d88a09ff58f4a609d4521"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/сходи-до-театру/index.html",
+      "sha256": "964546f1a146737cd9d6cae13aa899d775d146209038628715529a0e9ce55f22"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/під-міськими-аркадами/index.html",
+      "sha256": "5f22fbd1d5ebc3ca5aed9e7752c0fad54d5e6019cbb53ea7e0a764a3d90dfdd3"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/трамваи-у-синю-годину/index.html",
+      "sha256": "5fcb97840c9827f82854138e55dcea88a8c4d4256aa4a129b5f4190723e24565"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/промисловість-і-повернення-зелені/index.html",
+      "sha256": "620a8fbf0441f0912dbeb71fd62ee0ee8d1d34e363f9875755a86fb003485e99"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/mck-архітектура-зустрічеи/index.html",
+      "sha256": "101fc066df9fac2dae51344b703689342633499e2a51a274d5e3d7d34e6ccf8e"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/опернии-вечір/index.html",
+      "sha256": "08dfb72ab09313e37692a41fbc4394d3a2578ee87ac0d75ca0f3678760c1f429"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/порцелянова-фабрика-промисловість-і-ремесло/index.html",
+      "sha256": "df4f60a0179f3b57112d7b88012b35f81872e5337d0d010bc14f12fc6f6ded92"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/шлях-модернізму-місто-нових-форм/index.html",
+      "sha256": "02e6387e04c4d977fb0dadecb92bfb4c8a6c16569716cb6e271d790ee0596a0e"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/подвіря-мистецтва/index.html",
+      "sha256": "6c5e631abaa49ca12938da1f8fa50798a3433256428f1b68dd15f32508f1d18f"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/маріацькии-костел-готичнии-ритм/index.html",
+      "sha256": "2e5304f25bb69840a389014789656c78bf008fa216e16f2d1052e348b54402e6"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/модерністська-вулиця/index.html",
+      "sha256": "627affbd80d799777d1d7d94ed924c522c8fea4cfd5b101bb1ea5abd87f5755f"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/цегляне-подвіря/index.html",
+      "sha256": "0b4ec2fd0b102b1c6fc2e2a8672cbcc0f3cab4da861287618b88c57d716ad6d8"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/парк-костюшка-подих-міста/index.html",
+      "sha256": "cf0409ff6fb6b8de3cabe63b44cb336778bb8e2f2555aca810bec6b9dc9bcc08"
+    },
+    {
+      "path": "uk/місто-та-околиці/ілюстрації/кіно-у-світлі-міста/index.html",
+      "sha256": "116bea5177333610ab214eb298f049e977cc4141fbbefe21292a318060b6cdd2"
+    },
+    {
+      "path": "uk/місто-та-околиці/катовіце-и-сілезія-в-ілюстраціях/index.html",
+      "sha256": "5232c5f0765b492efb6910e0f8d733f4f66420c9c63f95b103813648ed31d223"
+    },
+    {
+      "path": "uk/місто-та-околиці/памятки-и-маршрути-шукаите-далі/index.html",
+      "sha256": "70474b855f6c7677e7baa3cd8757a394459647987b5e60ddb032f69f6a749780"
+    },
+    {
+      "path": "uk/місто-та-околиці/ринок-катовіце-в-одному-кадрі/index.html",
+      "sha256": "7452f63cf8ea73cc70d5fd00b5f1c6521aa0c8eea41246f4aa448418855f1393"
+    },
+    {
+      "path": "uk/місто-та-околиці/глівіце-радіостанція-та-історія-пропаганди/index.html",
+      "sha256": "3e23b3b0e3aa5469ec0d673c3771ef702e298c0e83916f95ad56f754d9ad6f72"
+    },
+    {
+      "path": "uk/місто-та-околиці/євреиська-спадщина-люди-місця-відсутність/index.html",
+      "sha256": "26c3b6dd95888161b61060650f5e143d71d11efe5c74d2b8da55d6a3381ba511"
+    },
+    {
+      "path": "uk/місто-та-околиці/nikiszowiec/index.html",
+      "sha256": "3c7c136ab99f2c9093f730f0028d3e6cd38abbcf2799b67524c66a28e6864fe2"
+    },
+    {
+      "path": "uk/місто-та-околиці/місця-памяті-сілезіі-різні-історіі-точні-слова/index.html",
+      "sha256": "92ef4f52e97d9198aa6929098793c70dcad24558ad9a90b273bc2c38ba791f22"
+    },
+    {
+      "path": "uk/місто-та-околиці/cieszyn/index.html",
+      "sha256": "3720386c1118e69284d88785d0ebb7425bbf0ee4b072e753203f57bd027d936f"
+    },
+    {
+      "path": "uk/місто-та-околиці/історія-катовіце-місто-що-змінюється/index.html",
+      "sha256": "1347ba0aaf7aa8c36847c00f3ba4a4766b521f9ce2cf100646300e06b7644c64"
+    },
+    {
+      "path": "uk/місто-та-околиці/бендзін-і-юра-замки-кордони-та-краєвид/index.html",
+      "sha256": "073cedeb6db5243804983848bfe43be1e0c9791fea5834eae9e986dac1aabf8d"
+    },
+    {
+      "path": "uk/місто-та-околиці/сілезія-багато-голосів-одного-краю/index.html",
+      "sha256": "ec5bc991b2e1622a905e3d3efe4fcee73c47fce7619a1569722c4d682246f840"
+    },
+    {
+      "path": "uk/місто-та-околиці/шлях-памяток-техніки-краи-розказании-через-працю/index.html",
+      "sha256": "ccb395db09e1d2e923429e8624377de8f105302c87733a3fe6843a608a803b1a"
+    },
+    {
+      "path": "uk/місто-та-околиці/зона-культури-нове-життя-промислового-місця/index.html",
+      "sha256": "59b248708474e28a6038a4c2d004fff37b77577f303e3b2813163d45e4e67169"
+    },
+    {
+      "path": "uk/корисно-знати/index.html",
+      "sha256": "fa27f1bf7cc20aa4a8bfe6a84d24ef03840a78635b1221bb616129f4224f10ff"
+    },
+    {
+      "path": "uk/заплануите-спокіинии-приізд/index.html",
+      "sha256": "4593f450a3d66eef8fca4bb5e435a05b288bd55c8d4d13ff718277ebeb1ffa32"
+    },
+    {
+      "path": "uk/велнес-і-спа/index.html",
+      "sha256": "5e0a67333d87928bdc2a6bcf1ac4293dc009d38ed596ed41b286440dfa3cb011"
+    },
+    {
+      "path": "uk/катовіце-з-hornigold/index.html",
+      "sha256": "92a8f832dbd592922192a14177f98f2b14d7a100c0b69e08443792ea3927ff04"
+    },
+    {
+      "path": "uk/rezerwacja/index.html",
+      "sha256": "6291c9476cf95fe1753db8b89690dc75bc7699c5b1779ad18dfb1b6c52e9d75e"
+    },
+    {
+      "path": "uk/сніданки/index.html",
+      "sha256": "7ea891c168d5b59d16d3bfb5e6c13e8c85a4406e1b8756d099fcce4e03c71c92"
+    },
+    {
+      "path": "de/index.html",
+      "sha256": "908f502012ba9bb27fd73c8bd9d17a70718cf87e30e693af2eac3225a2b3c43a"
+    },
+    {
+      "path": "de/404.html",
+      "sha256": "33badd9b83788062b4e6d1a8fa7b730df02a1fd01582d1e05a560b5440cd8e18"
+    },
+    {
+      "path": "de/gut-zu-wissen/index.html",
+      "sha256": "1f52d48a0c9254bd844ea4b8f91b0ae2f92e3a9493ed6c41c606856b0be3bd1b"
+    },
+    {
+      "path": "de/ein-aufenthalt-der-zu-ihnen-passt/index.html",
+      "sha256": "9579044f1acc3173536d5607a91115e1c37804d9adb2100c2148040e76762edb"
+    },
+    {
+      "path": "de/pobyt/index.html",
+      "sha256": "79788a4562f01af8706995a0635e45a7334298a4b4299d9f6db63aba5457d8a0"
+    },
+    {
+      "path": "de/pobyt/sluzbowo/index.html",
+      "sha256": "580a75b8347db9829c2c237529222c8b533491921ed91320a7d395080e826ba7"
+    },
+    {
+      "path": "de/pobyt/weekend/index.html",
+      "sha256": "51c6e9267b5f69c41d0750314b0294ad7f515a7028cb8f8b841fa23a11de430c"
+    },
+    {
+      "path": "de/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "4c6d96dca78aa2df279b60e043a471bd65efecca9d5c9d9e808cdca371742bf9"
+    },
+    {
+      "path": "de/pobyt/wydarzenie/index.html",
+      "sha256": "05358b01bc423f237ccb9b6517638fe1c13c2fa5572ed2de0b5b58b0b3990ce2"
+    },
+    {
+      "path": "de/pobyt/rodzina/index.html",
+      "sha256": "202b2e57729cec03374ae1045d2db0b429c22613a3c845a20a3645c3161b959a"
+    },
+    {
+      "path": "de/anfahrt/index.html",
+      "sha256": "2b77934f000664cc496f2be1ebce3e24f26b962714acfd177e582a896281540b"
+    },
+    {
+      "path": "de/kontakt/index.html",
+      "sha256": "7c08c3af0886dcd176c4376ff95c969a6db454b732b6d52ddb370f2853b96a51"
+    },
+    {
+      "path": "de/bedingungen-die-zu-ihren-planen-passen/index.html",
+      "sha256": "735e277d16bafb17196ef90db704db6e21f0de16b2407bd441b320e9a79facf7"
+    },
+    {
+      "path": "de/klare-informationen-vor-der-anreise/index.html",
+      "sha256": "536b5f9008b7bac1de2d07be191fb139c68341f9524c1916dd1bd2a565280631"
+    },
+    {
+      "path": "de/entspannt-reisen-beginnt-vor-der-ankunft/index.html",
+      "sha256": "d8650f0569382ce105f1f948cbf4f9d336514084df5ab8e291472f4727be85e3"
+    },
+    {
+      "path": "de/fruehstueck/index.html",
+      "sha256": "573f39317f42e67374863af27a17c0847143c38a5b6f8c0ef7e9df3e08b80cc2"
+    },
+    {
+      "path": "de/catering-und-veranstaltungen/index.html",
+      "sha256": "2eeeb970640d471aadbc96714f975823f8b17e568323e07e7b5eabe597a53141"
+    },
+    {
+      "path": "de/wellness-und-spa/index.html",
+      "sha256": "6cc2d683fb51813183fe8509023d3a50c742479ae687eef436d28f7061f39e04"
+    },
+    {
+      "path": "de/erfahrungen-unserer-gaste/index.html",
+      "sha256": "51f3c4db8a8c923311dcdf9763018b541f6f77dacbe91c72695223e2e2a7a657"
+    },
+    {
+      "path": "de/club-hornigold/index.html",
+      "sha256": "cf8ccc3ce6b4f896b4c9919548047a45841244075965e610ffd174b88b7b925a"
+    },
+    {
+      "path": "de/vergleichen/index.html",
+      "sha256": "485d35db4037b6d280feb8f2d7b541a3c2745a0530ace06235b036ccf208739c"
+    },
+    {
+      "path": "de/katowice/veranstaltung-wahlen-aufenthalt-planen/index.html",
+      "sha256": "82d040d7f2184f718ead7c52d9e46f7c27b184188edced10d3edb4ccbb0c0719"
+    },
+    {
+      "path": "de/katowice/ihr-besuch-im-mck-spodek-oder-nospr/index.html",
+      "sha256": "ad1f19c2e2c23ef36b414c3ab8b78a3c9e6fc501195ca3438187c024d32f9dea"
+    },
+    {
+      "path": "de/katowice/architektur-und-ein-spaziergang-durch-die-innenstadt/index.html",
+      "sha256": "55169be1b41e9eff695180b68c2b25b4621147e119af83ba598bd1e47a4acc69"
+    },
+    {
+      "path": "de/katowice/katowice-mit-kindern-ein-entspannter-plan/index.html",
+      "sha256": "1bccf51e36a261d5cdde8cb834032b4bb82a9452cf4abddfc102546ae57edb15"
+    },
+    {
+      "path": "de/katowice/ihre-erste-anreise-nach-katowice/index.html",
+      "sha256": "82e7b75989f6a286df6f43b4618874180608d5ae9cc052d9df787d18c6813ae2"
+    },
+    {
+      "path": "de/katowice/katowice-in-24-oder-48-stunden/index.html",
+      "sha256": "aa4e7a362b4ff05201dca133eeb204c7cd735ae703e9ab2deec0025bf0c8353b"
+    },
+    {
+      "path": "de/katowice/geschaftsreise-vor-der-ankunft/index.html",
+      "sha256": "95034b2c2b0ea6f08dc6d53e0951a10271ad36824a653d2ffd8fbd1a8f991cc9"
+    },
+    {
+      "path": "de/zimmer/index.html",
+      "sha256": "83fe3220a5a1b96bc46a6f3ec4a5d1fad2e33a10de40785f5a05baa622cafe17"
+    },
+    {
+      "path": "de/zimmer/deluxe/index.html",
+      "sha256": "07f3494f65375da2bf325dff56131c1c0e13bd6836f98b0ffa25661fb9262a58"
+    },
+    {
+      "path": "de/zimmer/prestige/index.html",
+      "sha256": "2423f42c663201cdea875dae9da357f01d1389c9ab23dfe4699d496fd83917a0"
+    },
+    {
+      "path": "de/zimmer/classic/index.html",
+      "sha256": "56dfb249890734f9bfc9e6d9625bb13bc2b111e457fd0554b8b19f8b279bfebb"
+    },
+    {
+      "path": "de/zimmer/deluxe-premium/index.html",
+      "sha256": "a45109183d1c98a111d637e04b018f18ea02fd43cf334f336fdc4222cd294f00"
+    },
+    {
+      "path": "de/zimmer/prestige-deluxe/index.html",
+      "sha256": "1cc4c57da6be28d0db83ce3cbdb0345b302966d9f9e6e7984ee3328f07b88f29"
+    },
+    {
+      "path": "de/zimmer/hornigold/index.html",
+      "sha256": "5f3146970f8ec7c4567d5bdb9f0830f2c3ec16cda21e48de1c8fd51f79522872"
+    },
+    {
+      "path": "de/zimmer/suite/index.html",
+      "sha256": "d1982156d7d58b57430efc9c67e3a817180778af5fffaf8707ea0286c347fe5b"
+    },
+    {
+      "path": "de/zimmer/apartament-deluxe/index.html",
+      "sha256": "de5366d4eb293086cf1a94ec49ddfed6b2e3a83728b19c05a3b0f59d066e29f0"
+    },
+    {
+      "path": "de/zimmer/premium/index.html",
+      "sha256": "c5238d17a0a601e9094883a2376ce795a02a44dd56f0b31d6cd849011be7b2f4"
+    },
+    {
+      "path": "de/datenschutz-und-daten/index.html",
+      "sha256": "9a1b1bb48c4a72f3301d8d17e0c672c912441ca3c1740a166536027c38371776"
+    },
+    {
+      "path": "de/katowice-mit-hornigold/index.html",
+      "sha256": "07910e2b17bb55176638e6256cf0fd7af027e108f61b4fdca0b6ef661a007191"
+    },
+    {
+      "path": "de/flughaefen/index.html",
+      "sha256": "739d102f7980c0e73535c0c56f26eae5c2bb2dce13f0cc8bfeb3647ea0e4d809"
+    },
+    {
+      "path": "de/flughaefen/balice/index.html",
+      "sha256": "d4a4762d45a24c94809c8c0f52b07c483204da512d0978c0a6aea3d05bef2184"
+    },
+    {
+      "path": "de/flughaefen/pyrzowice/index.html",
+      "sha256": "f727f8cda36e0af4a701aa2958211128b0ca3544246a4dc823f0060fdcfdd957"
+    },
+    {
+      "path": "de/entspannt-anreisen/index.html",
+      "sha256": "116c47e00e32ae4a404a733a6c733b41011263c184afc53b82cd961642304a4e"
+    },
+    {
+      "path": "de/uber-hornigold/index.html",
+      "sha256": "85c93e6de6238f50281f7dbb82b18bc3daecc05f978480f2292980fad1a6833f"
+    },
+    {
+      "path": "de/stadt-und-umgebung/index.html",
+      "sha256": "8a2535a3a6579d6c96924a6c5204834e72999f57ac7e8444dfb1fc03fe380382"
+    },
+    {
+      "path": "de/stadt-und-umgebung/giszowiec/index.html",
+      "sha256": "421b99b7963bbaa4ddd1ed07cb4172e52edc9f493de3554ea8f0256fe8f999c9"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/schlesisches-theater-ein-abend-am-rynek/index.html",
+      "sha256": "9c26293216942d69de64d81eac7c865bd799b79ec3d1a2dbb18b61c470e7071f"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/morgen-auf-den-gleisen/index.html",
+      "sha256": "887fa2ec7bd2143a86a1e4fc1d954d577384f43c4916434fae990d1938141eca"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/marienkirche-gotischer-rhythmus/index.html",
+      "sha256": "5340cc87bcc473512b2051b677ee198ade7d16b81837e55dab8d340b68aacc80"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/giszowiec-die-gartenstadtidee/index.html",
+      "sha256": "702581ad11fba170705829d2f3527702609cd27aa8d76893a232675a0e502d60"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/schlesien-ein-erdachtes-panorama/index.html",
+      "sha256": "bd9ef8165c33b0107cf10b07c9ee4ad9ebecfcf732fb673bc343c09013e8871c"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/kultur-nach-einbruch-der-dunkelheit/index.html",
+      "sha256": "0d003a1f8a7f8c077610250047c602282c91ae323d96aea184132484ab983299"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/die-erzkathedrale-licht-und-stein/index.html",
+      "sha256": "e541bc6204d65a73e257ce64b6e37af2d4e9eeff3ca5490d31dbd0b0b597bb58"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/stufen-zum-theater/index.html",
+      "sha256": "f5f4a37840afe333c2e927a9a7d5fb52c2c18913049920004efb9a6abf363a34"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/nikiszowiec-geschichten-aus-backstein/index.html",
+      "sha256": "1fbc40a69988b62ba8cd42b1d0a0b965379a76f6a6f1584c3b8730b97541deaa"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/turme-und-stille/index.html",
+      "sha256": "5e9335af401d3639ed7dfb5ba8039d7f6d1457b31ad7580e29d9ca130cdfeea5"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/nospr-eine-stadt-der-musik/index.html",
+      "sha256": "3e37967b099cf2a35b8af112dceacfcf9f394b0445695a046b5969c045ae6263"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/straßenbahn-in-der-blauen-stunde/index.html",
+      "sha256": "86a235b4e9b4402ddcdfd4eab3d00dfa89e8588c5f9375fe77367ab5c667a214"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/kosciuszko-park-raum-zum-durchatmen/index.html",
+      "sha256": "22a3eddd1675a910e26d761091116e6f5e8ea70b1b313f2da47890dc3ba79f6e"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/die-reise-beginnt-in-der-halle/index.html",
+      "sha256": "9ef27a5b6fdde7ccd70ca6ea22a08b6adf478b2c462613e2b189cc718c52d48c"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/spodek-eine-inspiration/index.html",
+      "sha256": "1ad41a2ba393f1c1cb8c32557fa55904787c441e8d7806802c227f8949b2d942"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/unter-stadtischen-arkaden/index.html",
+      "sha256": "c83aa544b402bc8e0bfeb569ccfce022cd117bd672fbc81c796757d50d2e5006"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/industrie-und-zuruckkehrendes-grun/index.html",
+      "sha256": "52bc8ec5f65ef428a8261e3b114efd776862b8e2a1ce489b3a9d5b815eb28c92"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/porzellanfabrik-industrie-und-handwerk/index.html",
+      "sha256": "1c9e297fa25ac03243920a53fbfe903e795e64226a0eafbc85e99253a7584488"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/ein-moment-vor-dem-konzert/index.html",
+      "sha256": "9fab4b94ff037a4b09ab0403ae524c5db0af2b96e70ce1d7cc95603a0e7b24f5"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/modernismusweg-eine-stadt-neuer-formen/index.html",
+      "sha256": "f778d2bef452630d25678941e278a8a8c8c98fabe963f08ef32f39c2a1017477"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/eine-straße-der-moderne/index.html",
+      "sha256": "ffabaa6fbfb411a1ebca89154838f7d5b89f62288db6023787804bc2246e8d4e"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/park-am-teich/index.html",
+      "sha256": "3b23268c59dabf4a3ceb455fd345432e4260a4ab9076e3bff2f7eae1051bb381"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/ein-opernabend/index.html",
+      "sha256": "057d8104be90e8d06eb7ae681f5652bd4b717e93f41f6686b42910e64b27f63e"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/ein-hof-fur-kunst/index.html",
+      "sha256": "592beee6f893e0c0af2affc98406dd269a067d67f973e0af926026946ec864c2"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/wasserturm-spur-der-infrastruktur/index.html",
+      "sha256": "8ee009df3c0d9bab1f1bde8c40b2b57e95d095dbd3b4c3a48f70761f48637589"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/der-grune-korridor-der-stadt/index.html",
+      "sha256": "1d61d572c7d600d55da74c8fc7f17a41472d6bbd6178240606fd7a8b479f4f93"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/musik-am-wasser/index.html",
+      "sha256": "e622302edad9d8172d27d12f2b635720eeef69eeb1066e5ef5bae3b4a9c764c1"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/kulturviertel-im-sonnenuntergang/index.html",
+      "sha256": "f0effab0af776bdebad10f73c1d91daaae6778f481672245e867beebe66ca0ba"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/mck-architektur-der-begegnung/index.html",
+      "sha256": "2d7dd18ff32e1689747603987cfad54a77caebe7bf089c7c86d0d5dc8978c4b1"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/schlesisches-museum-neues-leben-einer-zeche/index.html",
+      "sha256": "c56194787c540ce037df0d20dd44df6b1e57b004be1414bee6503f7937cb8633"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/ein-backsteinhof/index.html",
+      "sha256": "bd396ad339d4bc82765ffff88dd02bbec1c2348bb544af246dd93b31a05c0d48"
+    },
+    {
+      "path": "de/stadt-und-umgebung/illustrationen/kino-im-licht-der-stadt/index.html",
+      "sha256": "600b53a3bc7576ab0023e4105d60a8ad3f45ba5d1152a6c551fbe07f646b3c92"
+    },
+    {
+      "path": "de/stadt-und-umgebung/katowices-geschichte-eine-stadt-im-wandel/index.html",
+      "sha256": "2175b1379ef41c995ecd5f23aa16f4f6a41a11c50a42d9e958e45d4ba51a7a4f"
+    },
+    {
+      "path": "de/stadt-und-umgebung/die-route-der-technischen-denkmaler-eine-arbeitswelt-erzahlt/index.html",
+      "sha256": "a8c06ee05ab76c15774819977fcc5ae04c186dbaa425aeedb1337dd854f6ced3"
+    },
+    {
+      "path": "de/stadt-und-umgebung/schlesische-erinnerungsorte-unterschiedliche-geschichten/index.html",
+      "sha256": "e824eb9fb81aa564423c813831f9ca028069f3acb8670acd8f7965413780b879"
+    },
+    {
+      "path": "de/stadt-und-umgebung/katowice-und-schlesien-in-illustrationen/index.html",
+      "sha256": "2d116eb62e01421cf86e9e0011a32f64b8376b3ff8f9259a80ddc8fdff701a46"
+    },
+    {
+      "path": "de/stadt-und-umgebung/pszczyna/index.html",
+      "sha256": "b48895f49b917253e600adeaf9a1bf3d9d9d0be5ebe216d0c663c55162b5b54c"
+    },
+    {
+      "path": "de/stadt-und-umgebung/tarnowskie-gory/index.html",
+      "sha256": "0f85af2d8e96b6ca89c590584cb7933f095d1a6467efdb58c53f08c3f10734c6"
+    },
+    {
+      "path": "de/stadt-und-umgebung/zabrze-zeche-guido-und-konigin-luise-stollen/index.html",
+      "sha256": "2749b4fea1cb84eda672b61e6c7443ff2f75e90a6cda9e40f42c7ee83b20f9bf"
+    },
+    {
+      "path": "de/stadt-und-umgebung/essen-gehen-in-katowice/index.html",
+      "sha256": "c62dd0b80a129077f4fb08bb274aa48cce4e6ce1276878c8a973364af8a1f0cd"
+    },
+    {
+      "path": "de/stadt-und-umgebung/schlesien-eine-region-viele-stimmen/index.html",
+      "sha256": "f42666309857f506fc54450f8861bc22f33b6c225190c6159d8ac6b5726b65c1"
+    },
+    {
+      "path": "de/stadt-und-umgebung/auschwitz-birkenau/index.html",
+      "sha256": "251357026930d31c1e8c799946616b247d4ef81c8678d91132d44d109da2e64a"
+    },
+    {
+      "path": "de/stadt-und-umgebung/die-kulturzone-ein-neues-kapitel-fur-einen-industriestandort/index.html",
+      "sha256": "bf770a36a98058c8ebe932e2c8ab41253eac0fa94e6126f142c01c804f34fb80"
+    },
+    {
+      "path": "de/stadt-und-umgebung/moderne-stadthauser-und-eine-holzkirche/index.html",
+      "sha256": "24a7154d7355d2fc245a9d5d1538408aec153c229b06afe1bf234c90e8253ea7"
+    },
+    {
+      "path": "de/stadt-und-umgebung/gliwice-der-sender-und-die-geschichte-der-propaganda/index.html",
+      "sha256": "2be918735a8c1111384b89a37643893905cd5678af53ade5d8d8383c32b4d40e"
+    },
+    {
+      "path": "de/stadt-und-umgebung/denkmaler-und-routen-weiterentdecken/index.html",
+      "sha256": "961cebd3be91afa57c4e8dcef369488c6e4ad23e415c3a6ad7b745b49004c454"
+    },
+    {
+      "path": "de/stadt-und-umgebung/nikiszowiec/index.html",
+      "sha256": "b5d9c51a1820e9c96381a26ef630414c62f27b594485cd71d0cd3b8762715f75"
+    },
+    {
+      "path": "de/stadt-und-umgebung/der-rynek-katowice-auf-einen-blick/index.html",
+      "sha256": "999359bce2f1194e89ecc0fd19d820e2417214b3378f781b9e280328c1cea657"
+    },
+    {
+      "path": "de/stadt-und-umgebung/cieszyn/index.html",
+      "sha256": "0feeb53d687f1c1795196d287c61bb8ac82f730c917a0452edf21aa25b8bb8c2"
+    },
+    {
+      "path": "de/stadt-und-umgebung/judisches-erbe-menschen-orte-und-ihre-leerstellen/index.html",
+      "sha256": "178e6822cf7f10f0853dfd7574a655895afda1428280b039cedb163bd282d683"
+    },
+    {
+      "path": "de/stadt-und-umgebung/bedzin-und-der-jura-burgen-grenzen-und-landschaft/index.html",
+      "sha256": "2b11bad41b450eded38750a6768f1d991ca054a7fb9747d4953b8067c3d782a4"
+    },
+    {
+      "path": "de/rezerwacja/index.html",
+      "sha256": "21ea4204e2decfe2621295727f4a22a60175a40b3809c1331c0af8f2d065802a"
+    },
+    {
+      "path": "de/konferenzen-und-tagungen/index.html",
+      "sha256": "72a636d2936cb2dc1070a7ce97dabe1b74cf97ca0ae8aff733866d9abd384e2f"
+    },
+    {
+      "path": "es/index.html",
+      "sha256": "94fe8b1e7495cd4c8d9e380211c5c193306db2fb6b4c360766388671b99b6547"
+    },
+    {
+      "path": "es/404.html",
+      "sha256": "b27055fcd1b19f6cbd86d540a95f4fa2f3688d8a8da316d35d7aca8c59bc3ea7"
+    },
+    {
+      "path": "es/conviene-saberlo/index.html",
+      "sha256": "80791849a5fdde3e5f9316ad8ba8b210d63946f15f69ed5670cff41b387195eb"
+    },
+    {
+      "path": "es/todo-claro-antes-de-llegar/index.html",
+      "sha256": "2984295a6f8d00e40d326084ce6bc69a5d70d315b6ef4fc354c807439105446b"
+    },
+    {
+      "path": "es/bienestar-y-spa/index.html",
+      "sha256": "248310b98735ae561bd9048ce06a60610a5ab1f1dfd89b80d89afc36f38839ee"
+    },
+    {
+      "path": "es/katowice-con-hornigold/index.html",
+      "sha256": "36f6d62df37a529a469490d37354f535781a765d6545359317a81991108af9bf"
+    },
+    {
+      "path": "es/pobyt/index.html",
+      "sha256": "604493ff6f3bb0de1e19378d60ba07716a5473aafdbe036797ba3a432c11b81b"
+    },
+    {
+      "path": "es/pobyt/sluzbowo/index.html",
+      "sha256": "7e042f8172f61ee1f2d1959d442da961ab2dd3bae434a65dec01f3c5fbee65da"
+    },
+    {
+      "path": "es/pobyt/weekend/index.html",
+      "sha256": "393bca4e62ad438777e43b74d555efba95f6ffd89cb1f5c2dcfa452965202240"
+    },
+    {
+      "path": "es/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "edb12605ecc7a74fb921a6bed4a7c219614e00d362af5c82a89daa6079436643"
+    },
+    {
+      "path": "es/pobyt/wydarzenie/index.html",
+      "sha256": "f9889b8a044f15653dff866e1e1a00ab79e5b6639821bf78ccd81d7230a69553"
+    },
+    {
+      "path": "es/pobyt/rodzina/index.html",
+      "sha256": "66e92b7f1f9ea3fcd39e71eb4748ddd6cd0add381823863062e56eea985087ca"
+    },
+    {
+      "path": "es/habitaciones/index.html",
+      "sha256": "a5172cb4eba842117a12cb036e4088c1249a6f9e7174f224feecba9bcc315c72"
+    },
+    {
+      "path": "es/habitaciones/deluxe/index.html",
+      "sha256": "df81644979b56b484700f0b8099940698d66de38db59829ec96db13f4718c740"
+    },
+    {
+      "path": "es/habitaciones/prestige/index.html",
+      "sha256": "7af0de7abe4ecb24470e53ae04a9f4a0f5a8974aecdcd664a732929e46464783"
+    },
+    {
+      "path": "es/habitaciones/classic/index.html",
+      "sha256": "cbb1c2be99b8ac67abe22abc330c854eed95c34313427abb9fc9f4b4a7f7f4be"
+    },
+    {
+      "path": "es/habitaciones/deluxe-premium/index.html",
+      "sha256": "8968c64b5aeda475388585de482c850d3d7d6959bf3b5f00e0bb8d10830558c5"
+    },
+    {
+      "path": "es/habitaciones/prestige-deluxe/index.html",
+      "sha256": "dea1954c05fd7032059ca24ef3c845898281d529822d8e2461fdd0fa1b0a98bd"
+    },
+    {
+      "path": "es/habitaciones/hornigold/index.html",
+      "sha256": "4768ceff7ad04268f3751f4b6adcd971721b61182107a037215959b76ce29a9c"
+    },
+    {
+      "path": "es/habitaciones/suite/index.html",
+      "sha256": "58169d2e2e1837d294bf56c7301b1df3194a719d2a7371c5650bf9a60c0677f3"
+    },
+    {
+      "path": "es/habitaciones/apartament-deluxe/index.html",
+      "sha256": "7772581c5c48bff61766d76baba555bb4c50d94fcce64558a169e137e5f08290"
+    },
+    {
+      "path": "es/habitaciones/premium/index.html",
+      "sha256": "5d982fc9210d9c6aba7328cff43b8cf03aa9eaed698a2f2d14eac4786b2c4730"
+    },
+    {
+      "path": "es/desayuno/index.html",
+      "sha256": "985208fa31da91610dc8b33b6b5ad5889bd792e77e5ab717c079ce655f5bb421"
+    },
+    {
+      "path": "es/contacto/index.html",
+      "sha256": "ae84e3a54499ee2175816523b8b4da765a075aa1ce5219dbe8812cf68c558213"
+    },
+    {
+      "path": "es/experiencias-de-nuestros-huespedes/index.html",
+      "sha256": "6760f527b11c61f079b4807f5c64189f2b869ec89ad9969f4531d54a9e76e248"
+    },
+    {
+      "path": "es/sobre-hornigold/index.html",
+      "sha256": "cdaa0c18f915180dc62ae413e440ecf4d6ca6b75a5ea7115ffcc47c1bd956cf0"
+    },
+    {
+      "path": "es/catering-y-celebraciones/index.html",
+      "sha256": "c98865ef5d4522e59c3270a86d429b2ab8b8090534a21c64b5acabb622a02cff"
+    },
+    {
+      "path": "es/conferencias-y-reuniones/index.html",
+      "sha256": "1a9e2614c42d6395320c5ca66a40d18387ca10b0a0349495dc2c1aeb83a673fe"
+    },
+    {
+      "path": "es/una-visita-tranquila-empieza-antes-de-llegar/index.html",
+      "sha256": "830c0f9eacd963125f31a590eebf5d89ed5b1bc1fa155f9c67582f429aa35ebb"
+    },
+    {
+      "path": "es/club-hornigold/index.html",
+      "sha256": "00efad51e96ca00fb1b8e95237d49d39ec2b27ae2a6608cb208643d264f00eef"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/index.html",
+      "sha256": "cf17dbe62e65e05cce28ebc07d6587f6ac7071930f139b43169ce648aef39653"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/la-zona-de-la-cultura-una-nueva-etapa-para-un-recinto-industrial/index.html",
+      "sha256": "f9e2cc2b5f6756567bf9e697d969b58261f85173adc7d71fdce1c8395e9b61b1"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/la-plaza-del-mercado-katowice-en-una-sola-imagen/index.html",
+      "sha256": "01de74ef5def9827f728ac7a8e920557d5bced8c79ab465ee573bcf0c3d8fe11"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/patrimonio-judio-personas-lugares-y-ausencias/index.html",
+      "sha256": "f60fe2e72db3b0b53da8a144ca46d5652f6a68268b49df8fa0fe7d3ab6311d5e"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/giszowiec/index.html",
+      "sha256": "2fe16dbb8f3cee3a9bbd6fc8c85e28f947d50c101875265be9559d17da0a6b06"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/la-historia-de-katowice-una-ciudad-en-movimiento/index.html",
+      "sha256": "a4227928dd7162d819debef17a39dfc86368764e5aa7666f3206025084decc47"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/lugares-de-memoria-de-silesia-historias-diferentes/index.html",
+      "sha256": "b5ef2375e8e7ea007a5b6ca0b9983424d1df81d9cc504d6885c719ecb4f36544"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/katowice-y-silesia-en-ilustraciones/index.html",
+      "sha256": "49772c21780f2972a2cd68d0384292e43c105046225a611b8fe01ae82a938dd9"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/pszczyna/index.html",
+      "sha256": "a082ba939dfc4f156cf4375c239823a57f8f42e0c4a8582be8188be36b9127fe"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/donde-comer-en-katowice/index.html",
+      "sha256": "47fb850fbe91dbaf2ad99d0f1d224a4c4aec353d93d933021cd3d6086498afa5"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/bedzin-y-el-jura-castillos-fronteras-y-paisaje/index.html",
+      "sha256": "d7a0ab188905ac4c0990f26d77529fea543c21f456eb2e867d517e21b0cdb0ea"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/tarnowskie-gory/index.html",
+      "sha256": "b98deb97e4616899678efdcc229f77181dec72a2b1b375f986f35601e66b994e"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/auschwitz-birkenau/index.html",
+      "sha256": "6ec9662812c094b5cabcbe41d5d182918770fe8bf197b4388485aa43a8792296"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/patrimonio-y-rutas-sigue-explorando/index.html",
+      "sha256": "055e8f08a1b2538e6f7d7f10c088fcec883d2444c8cead1d1c4381e55d034099"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/zabrze-la-mina-guido-y-la-galeria-reina-luisa/index.html",
+      "sha256": "354a8e3fc709833b4723beca1a23583ff67ab8de712cdc362d77b042d11d8f65"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/modernismo-casas-urbanas-y-una-iglesia-de-madera/index.html",
+      "sha256": "a026cdbefbd0e20616bec00175b92c202d69d125e6f4e18b1271ecaca4060f6a"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/la-archicatedral-luz-y-piedra/index.html",
+      "sha256": "cf5e7dadea524c785a73e66f84ef7ee71d71fc27e6341f8b645781473da85c74"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/el-viaje-empieza-en-el-vestibulo/index.html",
+      "sha256": "58b91f7105b6f75800edb6c2bdd3bf5f116edb8fe44738392fd2a1ca56cab71d"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/museo-de-silesia-la-nueva-vida-de-una-mina/index.html",
+      "sha256": "f84e35419827ef684c83fa7c9e5cf5ec7c75cbe627202138356dc090d552a981"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/manana-sobre-railes/index.html",
+      "sha256": "fd954437f14c680e76abf6f8ed00ad6450157e9db8c537d3f00bd8322a4a5285"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/cultura-al-anochecer/index.html",
+      "sha256": "3baf8a85b222b02a1146b4d40e1da7e2c170fabaeb107ceaa149169ea15524c0"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/escalinata-hacia-el-teatro/index.html",
+      "sha256": "1cd2db87f137b26f50d07c12a73bb297b42e434e46f7125ef4d9355b28f7e6d6"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/bajo-los-soportales-de-la-ciudad/index.html",
+      "sha256": "d42fe33e13c32b8af4297702e2b42719f89c4e8c61a483c0d489980277c74ac6"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/torres-y-silencio/index.html",
+      "sha256": "f41843adad0fcceb86b6874c291f8459b4eae80b8cfa30e7892e6ab05a4ec937"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-parque-junto-al-estanque/index.html",
+      "sha256": "f0780837c322e9d302e3c45621eea0eb420d1cef03ca7606780eceb6cd227f2d"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/cine-entre-las-luces-de-la-ciudad/index.html",
+      "sha256": "9a7c248733a03a9c99dce38bc5f8004b1d4190d5739db130d6c2e25cb5c43187"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/la-iglesia-de-santa-maria-un-ritmo-gotico/index.html",
+      "sha256": "6e80a9f3505737915db86bab57695a0e3bd9451139290608526c99507ffc7d11"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/una-calle-modernista/index.html",
+      "sha256": "d9785878979048b710eb63cb461545a2e00d236afa85344508dadbd75fe58c32"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/nikiszowiec-historias-en-ladrillo-rojo/index.html",
+      "sha256": "6cddf94f56020c26fa885c6b5003e93007cdeeb36c147054ba931726a13febd9"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-tranvia-en-la-hora-azul/index.html",
+      "sha256": "1897458baf46cda9de5776cfa40be0dd32bceca10daa6ccd61a6c766c1cd264f"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/una-noche-en-la-opera/index.html",
+      "sha256": "c36b7c0e3f9d3a924e15864bd090b2d906d0f38d5261b689dcc3f32e2a0740c4"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/nospr-una-ciudad-de-musica/index.html",
+      "sha256": "f8e36cada0d1e6b4c0a0d88e0c320b47b2e45a4abf6738425e7936c6746614a3"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/spodek-una-interpretacion/index.html",
+      "sha256": "91e360d7c3d2eaa3dc1e25a446a255f4e1c6af7d293bbc6edc4b96cf3683cdf6"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/fabrica-de-porcelana-industria-y-artesania/index.html",
+      "sha256": "73196b6d90c946c6eecc8dcd7af6541930f4e6166a24e89614954e3ede44970b"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-patio-para-el-arte/index.html",
+      "sha256": "ac12b9d576972d6efc91055513868e1a7dfefa5dfc9e12e5d935502234e9a703"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/silesia-una-panoramica-imaginada/index.html",
+      "sha256": "45fd8e8744f3d839717ef2819bf67550f9d2b2c2d83ea553c79cc1aac9aee87c"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/giszowiec-la-idea-de-la-ciudad-jardin/index.html",
+      "sha256": "669f9f1c7d554601bb2e54cefd67cfd2c4fcd2363f8dd5beb4bfb53dbacef436"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/musica-junto-al-agua/index.html",
+      "sha256": "aa755f98b976e184a16f73d39caf2ffce4c431fc0b33e594308d5df8297298cd"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/el-corredor-verde-de-la-ciudad/index.html",
+      "sha256": "ba09189693089f43becb18819a81d6e1bf0235aefcffbfa94147dad2daf720a0"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/ruta-del-modernismo-una-ciudad-de-nuevas-formas/index.html",
+      "sha256": "43b62ff36fcf62141f4cb613ad81d41ec23c1dfd983c8c3b9ee0c3cf929ea952"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-patio-de-ladrillo/index.html",
+      "sha256": "9d8fb7341794c334c63e47703fd6a431bddc030a079e3adbc7f58c72ffa44e55"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-distrito-cultural-al-atardecer/index.html",
+      "sha256": "9c42293e91bdb96bd8c51fee9f91201ac655750fd97069955e683fd049a5458d"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/parque-kosciuszko-espacio-para-respirar/index.html",
+      "sha256": "2fb81d3c727cb059a8bf3b31da80474c1e52d9d000b809a2a65ccf59c35a2242"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/la-industria-y-el-regreso-de-la-vegetacion/index.html",
+      "sha256": "24a8bdac5dd906eb1ee89ab54aba8f37462304775fb564f8af095af122012fc2"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/teatro-de-silesia-una-velada-junto-a-la-plaza/index.html",
+      "sha256": "fbe6c11d10b5c4c1855d0ff2503d44e365a8381ef2e84d5ec6541786293c14fc"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/un-instante-antes-del-concierto/index.html",
+      "sha256": "bfbb2117e11ec865b7c87ee16d992f293dbfe40dd9eb4e8fc7b8016f519e0257"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/torre-de-agua-huella-de-la-infraestructura/index.html",
+      "sha256": "d438f007ac1a1494813c16294c7b7dc829a32a1c29d49c50d9c94884bd64b5fd"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/ilustraciones/mck-arquitectura-para-el-encuentro/index.html",
+      "sha256": "10e361418ae13a7f1dd452de72fc9631cd1b853f07e3489f42db6e57e325d81b"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/la-ruta-de-los-monumentos-industriales-una-region-forjada-por-el-trabajo/index.html",
+      "sha256": "c9b442c30e717225f950391f6d605584ce8eda61d56735ae094db7a41c3dcf9c"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/nikiszowiec/index.html",
+      "sha256": "8b373c30d7361186e5157f598f2017e9f6bf6a69bb18237ea033fe206d94b0f3"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/gliwice-la-emisora-de-radio-y-la-historia-de-la-propaganda/index.html",
+      "sha256": "37ee804003a4592c96777ed355950c28bdf276a9b70171cdfabaa057676be2b1"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/cieszyn/index.html",
+      "sha256": "30c90d0c491f5117861420ec47e8a515aaa39ae74eabf5c70fa062cdb12c90ff"
+    },
+    {
+      "path": "es/ciudad-y-alrededores/silesia-muchas-voces-una-region/index.html",
+      "sha256": "8a95b866e13165504bbf47f3f3232e5e28ab889b52790b277890854b29552187"
+    },
+    {
+      "path": "es/planifica-una-llegada-tranquila/index.html",
+      "sha256": "101431afbcfd6a5e17e945db33f25545f310e04b9401ce26bc2e4760a5f09854"
+    },
+    {
+      "path": "es/katowice/tu-primera-llegada-a-katowice/index.html",
+      "sha256": "d16942d703b09c79592c19429427beb4c01d1f70e9d1917b51231847dab21a22"
+    },
+    {
+      "path": "es/katowice/katowice-en-24-o-48-horas/index.html",
+      "sha256": "6b1c72b424a516b7fe0314b2796d507abfb2970728dd70c6234f1f3b2c8abcc6"
+    },
+    {
+      "path": "es/katowice/elige-un-evento-planifica-tu-estancia/index.html",
+      "sha256": "f43c865dc7e0f33760ef1d8c6ff966320593e286021767213ce2919876333214"
+    },
+    {
+      "path": "es/katowice/visita-a-mck-spodek-o-nospr/index.html",
+      "sha256": "d58e0d62177346fc62c6ceaeab89c01f45f643882c6616e4f7d59b7e5a4e1e88"
+    },
+    {
+      "path": "es/katowice/katowice-con-ninos-un-plan-sencillo/index.html",
+      "sha256": "c7d1cb99d2fe5f30ea7198a1b34420da57011328f11321134ec08ce68a559a5e"
+    },
+    {
+      "path": "es/katowice/viaje-de-trabajo-antes-de-llegar/index.html",
+      "sha256": "8847500250e87b5f619e91a1c9c8cdea60bdcf083b6a1d021d977292c48576c0"
+    },
+    {
+      "path": "es/katowice/arquitectura-y-paseo-por-el-centro/index.html",
+      "sha256": "19287c6c1f8ec89e0f1407f68dbe544d381c42eadbf12f6b6b5d0ddf0284063d"
+    },
+    {
+      "path": "es/una-estancia-a-tu-medida/index.html",
+      "sha256": "d7015354789c2bb15ff8f44f1b8f0e52247c19ffa1c4eef401e568b4e72eaa25"
+    },
+    {
+      "path": "es/privacidad-y-datos/index.html",
+      "sha256": "e1e3320ed4b245d0ed00f682d57f1234261617ce967cad37e1a26429763a2e5a"
+    },
+    {
+      "path": "es/comparar/index.html",
+      "sha256": "987b0ecd853a6510455bb38b9cbf4f97d112d220676668f99edbae3260f8c002"
+    },
+    {
+      "path": "es/condiciones-adaptadas-a-tus-planes/index.html",
+      "sha256": "3f157d7aab590222c594a73e17e47ca9dcd885327c0ef67fdfb615351bbbf5a8"
+    },
+    {
+      "path": "es/aeropuertos/index.html",
+      "sha256": "43fdc2519158f042be27a3aba0fd3a5d816fd97491db7ef3bc61ac2eb8919494"
+    },
+    {
+      "path": "es/aeropuertos/balice/index.html",
+      "sha256": "4405266bc9ddfa9fd285b0f2a142c16eefc1121d4e95acef5f721bcbb4b6c408"
+    },
+    {
+      "path": "es/aeropuertos/pyrzowice/index.html",
+      "sha256": "895b4213373d4e7f4afe30b01bb030101b94518a33ed39e600c615199f589f65"
+    },
+    {
+      "path": "es/ubicacion/index.html",
+      "sha256": "721b76aae764c6167ab071b391cbd1840ca5f6780c54e99726cccfb28c0eaefd"
+    },
+    {
+      "path": "es/rezerwacja/index.html",
+      "sha256": "19d21cc23c0649e9e4f22a77dacdb8b5ee6b40d9fc2db8ff839a996d8311094e"
+    },
+    {
+      "path": "en/index.html",
+      "sha256": "7e06792d56a27990b7b097c5e2534b8615612c67d0eeb0e621e06d3a37bc4f71"
+    },
+    {
+      "path": "en/404.html",
+      "sha256": "b3e571e603ade545eed16a704356b855d5371155d7a5d38f190a6b27bfa34bbf"
+    },
+    {
+      "path": "en/catering-and-events/index.html",
+      "sha256": "6627bfbf6c8b2d5d975d16696e2938230d04b38b8a2ace853567a6e9703bc677"
+    },
+    {
+      "path": "en/our-guests-experiences/index.html",
+      "sha256": "0541c38fe5ab8dee1cc48de85d0ba1c34e777c70a67f4572481183db57e378e3"
+    },
+    {
+      "path": "en/contact/index.html",
+      "sha256": "6aa05e5bf29339ddb0deb1d686fa7bd2c9b09a5aa38e8b255747b5297b124ad7"
+    },
+    {
+      "path": "en/pobyt/index.html",
+      "sha256": "50c82b4fdcfd1be3bb48ee5a30e044076865f50f974d6492e0b2c2cf14c3962a"
+    },
+    {
+      "path": "en/pobyt/sluzbowo/index.html",
+      "sha256": "929367853c77144418855a1e9ce26cd82cbae270ca593071d86fba7f33d21ae9"
+    },
+    {
+      "path": "en/pobyt/weekend/index.html",
+      "sha256": "9124d1b661851359fea185537305173c5b5df368abbb6a9a1666054a154105c6"
+    },
+    {
+      "path": "en/pobyt/dluzszy-pobyt/index.html",
+      "sha256": "5c68b0be67f05886fc9195b6b49b0f9dbe1475f9fb903c9f993187f9e1f421bf"
+    },
+    {
+      "path": "en/pobyt/wydarzenie/index.html",
+      "sha256": "2e6e3b6514010fca353600f23d7cefa646cc9b174a76f10767349d97237cb159"
+    },
+    {
+      "path": "en/pobyt/rodzina/index.html",
+      "sha256": "20ca3b3d71b143161c2481598ccf96cd022d05f68c8ad1fcdbd89abf28f314ba"
+    },
+    {
+      "path": "en/a-relaxed-visit-starts-before-arrival/index.html",
+      "sha256": "383566ec1bf3f3c35a9bb24a17a857633c835fa7d98c7b23643d8fe750f89b17"
+    },
+    {
+      "path": "en/terms-that-fit-your-plans/index.html",
+      "sha256": "2d8cbe8035a8c832718d3b28833f6acf5d62cdd63e766dd72d215238b104672e"
+    },
+    {
+      "path": "en/katowice-with-hornigold/index.html",
+      "sha256": "a91c16b7d0b6c4bc5174a34723948b228cf9f31f90ea8ab372cec0602650f06b"
+    },
+    {
+      "path": "en/location/index.html",
+      "sha256": "159a372f95bb4209444792426cfdf1664c8f7b7535e2e43dfc04ce58006d549c"
+    },
+    {
+      "path": "en/clarity-before-your-arrival/index.html",
+      "sha256": "f7268d2968db4e6fa60b656b0f121b2cef50125f6ede3a8230479a1d011f9ea3"
+    },
+    {
+      "path": "en/about-hornigold/index.html",
+      "sha256": "dbf0df2c527cdfaa9dce8ef684cc004136d3ea8261f883f97c6acd9264956d3b"
+    },
+    {
+      "path": "en/club-hornigold/index.html",
+      "sha256": "bfc184729e730474e5fe104fba90c04b4d83a7673d5685c5039e003ad6ddf6ee"
+    },
+    {
+      "path": "en/good-to-know/index.html",
+      "sha256": "a9782a2d290424b008322e10d9b0800c7f7e8548d9a5bb298f355c690f5a7348"
+    },
+    {
+      "path": "en/conferences-and-meetings/index.html",
+      "sha256": "bb13573eff9f9d546843dea9dace354ec820ce0df99d2d63d11f64bfd00d7cd9"
+    },
+    {
+      "path": "en/city-and-surroundings/index.html",
+      "sha256": "67c0083d5cb44c38f8255f1b8b1f3ee030e37bbc3954d033a643a7d8d6c18802"
+    },
+    {
+      "path": "en/city-and-surroundings/giszowiec/index.html",
+      "sha256": "111ef27ae1a07a3c84317970068f959aed316e99b48b8eb06452501cd8c20982"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-modernist-street/index.html",
+      "sha256": "c9703921d3fce9d7d492ebae93665820c64c67dd4e5f00e14b888da46aba631e"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/towers-and-quiet/index.html",
+      "sha256": "726b18c1eb9bc32a64c36f25634204f1deff73c6afa4cc1fac77776330e04f70"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/cinema-in-city-lights/index.html",
+      "sha256": "51f03b742092ed89e5aed39cd9e06fb245582e9af0f36165623dc07173241e7b"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/music-by-the-water/index.html",
+      "sha256": "a0644960a532cd42373d8f0a63225db32db19c198bb28ce52adf3ebde609beae"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/culture-after-dark/index.html",
+      "sha256": "c3aecb717bbc076d1597a53eeb7fe041d30f78a3eb4c043eecb00d0b1fca742e"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/porcelain-factory-industry-and-craft/index.html",
+      "sha256": "9f61d3935fcfae54bc375b95ebbd85b535f3ca86bb966346bdd4ac1733efa691"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/kosciuszko-park-room-to-breathe/index.html",
+      "sha256": "63b2591bc2a3db6a761e689847a0a62ae12f569a2b3d1dd3a4c1fe30b5531146"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-journey-begins-in-the-hall/index.html",
+      "sha256": "76e8106e07af8783ccd4419d44722b176d54f8c201a2c1847709826303bb4524"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/nospr-a-city-of-music/index.html",
+      "sha256": "e28d4c9143e4c5d20e01ba75416bf602f794dbc86e37a82b2121ab9647da2ae0"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/the-citys-green-corridor/index.html",
+      "sha256": "62822309f55be9fc4f5289ea74c524187e2fb55e9a0f4c636a8f722380b966fc"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/industry-and-returning-greenery/index.html",
+      "sha256": "d7f6cd2483e6e95778874f2cea4bd8c5065acdcfa2509894b046ddfadc70d0a2"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
+      "sha256": "183e7cbe42de64437d24bc5ab1134cb19d6feb9ab9416bcb2e5019c4be5493c7"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/mck-architecture-for-meeting/index.html",
+      "sha256": "0ed7dc8c41617b6c7143ca964a0719aafe9178748a8be4dc77c46933568eecfc"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/nikiszowiec-stories-in-red-brick/index.html",
+      "sha256": "65d6427b6ebf102e377560320729b42fecec9ce3fd2f085e466aa4ebdff40f37"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/the-archcathedral-light-and-stone/index.html",
+      "sha256": "82e700c3dc6a3e9d48b046c8ff8433692b4409b352fd9ae2a03492a630aa16f5"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/silesia-an-imagined-panorama/index.html",
+      "sha256": "053928d88c4ea7a04d87b0b354c231b0db027522bf1c9a3f568a7ba232f70d29"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/st-marys-church-a-gothic-rhythm/index.html",
+      "sha256": "89c77109f472062d88935eca16426732efaa68b01a778a0e16471d8bd196643b"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-park-by-the-pond/index.html",
+      "sha256": "e2e91946650882f6562f7516264e677af3afcd8fe5782c3a310fbfb9fc4d560e"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html",
+      "sha256": "4203f14f8298f60899237fb492ad6a6a0f56547387834f3a759cf0458b3c03d3"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/morning-on-the-tracks/index.html",
+      "sha256": "b057b745337fcbff6bb367e98d6c1d2791e5465728aeaf39d3f099a9e7438fd1"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/giszowiec-the-garden-city-idea/index.html",
+      "sha256": "f5baaaaaf578faec94fa1c512f50253f7ae0e4b86770627ef4a4d7a92d9feba6"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/water-tower-a-trace-of-infrastructure/index.html",
+      "sha256": "c773d0ca6e87819e32f00aeefd6fb3e856ceb6be90b20a595e64aa8e60f99488"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html",
+      "sha256": "ed345615c00d29ca4e98343a8b68a281baa5ba0c1c02ff4220215403194f10bf"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/spodek-an-interpretation/index.html",
+      "sha256": "43faea9512a8a3fccc3e635240a923aafc5226a52873d90a159693cfea21a95d"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/an-evening-at-the-opera/index.html",
+      "sha256": "7c40d104a1c9a7fe892285c8aaf3e786cc9451f7f78b15f5a2445481343ba37d"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/modernism-trail-a-city-of-new-forms/index.html",
+      "sha256": "b1f78c1c714bd798dedadbd15dd33d0cd9cfe9b161bb4613013ca5ca265e4b58"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/silesian-theatre-an-evening-by-the-square/index.html",
+      "sha256": "38ea8a1771ad686f4d4f7b4f500ff4da12bbb2fd1b69b54e05dbfe542ac8def8"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/silesian-museum-a-mines-new-life/index.html",
+      "sha256": "d54d27621d574b09d9cb004153b5ac31d8f24c8fae03005cbd0cc89dae696cd2"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html",
+      "sha256": "fb5ceaf62c8211dc90e5a43717aac0bd33fa58d4a64b770b110b7a6377c14b69"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/steps-to-the-theatre/index.html",
+      "sha256": "84dd1c39738056459264da2c97d504488ee139bbf992f65ecae8a7191e4cc72f"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/beneath-city-arcades/index.html",
+      "sha256": "db74a0c98b6b7dc0b1862e5119598840c25a6ce1a786f9aeed280aec9d5b2804"
+    },
+    {
+      "path": "en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
+      "sha256": "34acdce625d4e330a488b7420cc2eaf02bcd6248ade479da0e02a81f9e660cfe"
+    },
+    {
+      "path": "en/city-and-surroundings/modernism-townhouses-and-a-wooden-church/index.html",
+      "sha256": "255a94b0ea86f429c193b9a1d6649567f21b00e1415889ba554aed195d6571ff"
+    },
+    {
+      "path": "en/city-and-surroundings/pszczyna/index.html",
+      "sha256": "5746d79b2034cf81760b9f0bb37a0593e07d6b531230a36c2d2909fae104cdbe"
+    },
+    {
+      "path": "en/city-and-surroundings/gliwice-the-radio-station-and-the-history-of-propaganda/index.html",
+      "sha256": "120574eb3cf687f7ca121d570a0231c2c6950b6113446f9781d3b188bc1b740a"
+    },
+    {
+      "path": "en/city-and-surroundings/tarnowskie-gory/index.html",
+      "sha256": "7b61e7ba5897a68e71c98b555a838342b7a16c9c30de756b15591aa106b2bf37"
+    },
+    {
+      "path": "en/city-and-surroundings/the-history-of-katowice-a-city-in-motion/index.html",
+      "sha256": "ab89fd0f7d87a774dcf0d12a92fef2a156298e6d323aa397815b6693e0a9ed0a"
+    },
+    {
+      "path": "en/city-and-surroundings/silesian-places-of-remembrance-distinct-histories/index.html",
+      "sha256": "f18b792b352271a20ccc7825034d5de1dd299c40209233dcfe6cd6e74b4a65bb"
+    },
+    {
+      "path": "en/city-and-surroundings/auschwitz-birkenau/index.html",
+      "sha256": "abbba49215e89946c8a8008ee2ef1e3a85c394204d3b003688696c3e986826ad"
+    },
+    {
+      "path": "en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html",
+      "sha256": "d79963a905ee94d3b12792ff15ca6883c42097a6a09b380177f2074d7de1a4a9"
+    },
+    {
+      "path": "en/city-and-surroundings/jewish-heritage-people-places-and-absence/index.html",
+      "sha256": "2669fc2b483a6ad6731d0017256055c6cc1c4e5c307d748deaf50d114203b450"
+    },
+    {
+      "path": "en/city-and-surroundings/heritage-and-trails-explore-further/index.html",
+      "sha256": "5321de843e603f567302945b39f5a982c754f8362c113344463480d7bb050084"
+    },
+    {
+      "path": "en/city-and-surroundings/silesia-many-voices-one-region/index.html",
+      "sha256": "7849d644abacbee368c3980ef5d78298c00052f38eb150957917528c52f0d625"
+    },
+    {
+      "path": "en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
+      "sha256": "1d4f2ebeba94accb8862d8203f01f798a4cf1d89fb3d265c56ddf178e9d5ee4b"
+    },
+    {
+      "path": "en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html",
+      "sha256": "62a31cde8902bbfb7e7c39035da759a1383b64075eb81d630f891ed9e5d42cb5"
+    },
+    {
+      "path": "en/city-and-surroundings/zabrze-guido-mine-and-the-queen-louise-adit/index.html",
+      "sha256": "150cda1ed9877dd734673a2cf7f1e6efe6f0688f6698d7d67c71169eb1374fbc"
+    },
+    {
+      "path": "en/city-and-surroundings/nikiszowiec/index.html",
+      "sha256": "d309f4c2b8dbf044c995fef081e8b2db21a99b6dabcb14abb66ebae3621287c6"
+    },
+    {
+      "path": "en/city-and-surroundings/the-market-square-katowice-in-one-frame/index.html",
+      "sha256": "406ef24e71ffde80763aba54900caa39900542a7d68aaa02974f89bfadb6c919"
+    },
+    {
+      "path": "en/city-and-surroundings/the-culture-zone-a-new-chapter-for-an-industrial-site/index.html",
+      "sha256": "89b93b134f623fafa55de12a292f0a59f0602685ecc4a834e7f4ae9ab6f7d2bc"
+    },
+    {
+      "path": "en/city-and-surroundings/cieszyn/index.html",
+      "sha256": "7e890639ba545fa1a3f679e8578a071cdd69fbb649da3bc7fdab06971b96dc25"
+    },
+    {
+      "path": "en/city-and-surroundings/dining-in-katowice/index.html",
+      "sha256": "328e5da0e8ea0dc47fba51241dc88699bd5c9449a60f7b3b81d1aa11abfc8a8d"
+    },
+    {
+      "path": "en/katowice/visiting-mck-spodek-or-nospr/index.html",
+      "sha256": "9ee823e2966b7c467655591d19f03cd411fd51eb536f41b3280c490e9d94a90a"
+    },
+    {
+      "path": "en/katowice/katowice-with-children-keep-it-simple/index.html",
+      "sha256": "f1807339163f2a52d092ffb96ad5eaafc88979473fe3ca477892ed8048e6b639"
+    },
+    {
+      "path": "en/katowice/choose-an-event-plan-your-stay/index.html",
+      "sha256": "35c3f750f01c58cbb23206c21e5e195373e376eee0951625e2b3c54618c75ef2"
+    },
+    {
+      "path": "en/katowice/architecture-and-a-city-centre-walk/index.html",
+      "sha256": "b1414ee484267f8d94245110b42fd9dd9bfe877134e58f9248729f02578b0652"
+    },
+    {
+      "path": "en/katowice/business-travel-before-you-arrive/index.html",
+      "sha256": "5bb451ba94af7e3a4343c193209a6753822ed153a288a542668600290e19ae6f"
+    },
+    {
+      "path": "en/katowice/your-first-arrival-in-katowice/index.html",
+      "sha256": "76f3a799f9d16a58939b68909edfb87a993a59c8cbbe2040ffe1d45e174ef631"
+    },
+    {
+      "path": "en/katowice/katowice-in-24-or-48-hours/index.html",
+      "sha256": "d0879d4e991fb37b712bcce55695042e4bb72e8a72aa38bec4e1de5fcb532108"
+    },
+    {
+      "path": "en/compare/index.html",
+      "sha256": "f4268e0a6b1f55b6bbf3174554a717783b57332c06c0de407706986d47a1223c"
+    },
+    {
+      "path": "en/plan-an-easy-arrival/index.html",
+      "sha256": "e60e51c236c1f2a9d8508a8b167187b70b3b09aa7683feea53b9d6fa62e94b7c"
+    },
+    {
+      "path": "en/rooms/index.html",
+      "sha256": "93ab8734387fc9dfbc4150d9f9545a6adeb71af45b935dd796745aa302d20d50"
+    },
+    {
+      "path": "en/rooms/deluxe/index.html",
+      "sha256": "af1fd16142546a617cc478a51b47e13093bcfe353988a716ff07f338279d0464"
+    },
+    {
+      "path": "en/rooms/prestige/index.html",
+      "sha256": "c187c632e5ff1a7e80540364a025be1375be3ea7672c004398ff8a76038f920f"
+    },
+    {
+      "path": "en/rooms/classic/index.html",
+      "sha256": "06ea0d1cba789fa45ba53e7f15869fbea45f4638ab2ca8ce5cc3323c6ae57ab0"
+    },
+    {
+      "path": "en/rooms/deluxe-premium/index.html",
+      "sha256": "1d6651f3285caf8dcb22cd9204a066cd3df85d3774ae3c10cf417508a72e4e4b"
+    },
+    {
+      "path": "en/rooms/prestige-deluxe/index.html",
+      "sha256": "af7741248d441dd688784220b5220ed62fc6bfe15a8fdf5f0b0072ed2c17f3be"
+    },
+    {
+      "path": "en/rooms/hornigold/index.html",
+      "sha256": "a08922cc165ccf8cc2c8b86cf3d3432ee369b665870d515548d1ce8f02a8d6c0"
+    },
+    {
+      "path": "en/rooms/suite/index.html",
+      "sha256": "41322bda21f54f55993505af1a6166fb38bbbc9eec6546342dd770449923cd97"
+    },
+    {
+      "path": "en/rooms/apartament-deluxe/index.html",
+      "sha256": "d1449054d812982c3ae6cb51f5e6e9ffffbbe3669bdb600dbc1fed87fe81236b"
+    },
+    {
+      "path": "en/rooms/premium/index.html",
+      "sha256": "235c63a0f4febfab1f98f7078562e82c85f2be40d3ec4becbed3f1d1d02cb679"
+    },
+    {
+      "path": "en/privacy-and-data/index.html",
+      "sha256": "41432d9943020e9c406a81f2a94134b552f589a32eabdf53c00beb45aa8b317e"
+    },
+    {
+      "path": "en/a-stay-that-suits-you/index.html",
+      "sha256": "14dd6dc5b4082afae814e907b95da2687749ee964e4ce8771fae52a99444bbfa"
+    },
+    {
+      "path": "en/wellness-and-spa/index.html",
+      "sha256": "f0f4009f5ca8a19396f577a63875671729ea04c01988e3127f4f0192b442a673"
+    },
+    {
+      "path": "en/breakfast/index.html",
+      "sha256": "5a7c62406f8239584ddf2372d74bb99b3f92b0e034d1227dc29bf6c923155e15"
+    },
+    {
+      "path": "en/rezerwacja/index.html",
+      "sha256": "3e790181a653de79e6f2f9c98bf03a61b4715567d6b3796207826d7694209b78"
+    },
+    {
+      "path": "en/airports/index.html",
+      "sha256": "e6a872a0e804f94171fbcb7fa74cc0d8ff7dfb24ea3ba7962fd5798de185637d"
+    },
+    {
+      "path": "en/airports/balice/index.html",
+      "sha256": "6e83875baf486f33881c091796ae7f6ef1436a7a1edfdc64c102c2784f3b6961"
+    },
+    {
+      "path": "en/airports/pyrzowice/index.html",
+      "sha256": "dfc459f22bd5138df30435c7aba11034b0c6babea0b71ecc103b483c50f0dd8c"
+    },
+    {
+      "path": "assets/detail-800.webp",
+      "sha256": "a39f34c95c33120b81f8b2bd442ab18b9feea1cead49ee6647fbe88a9424a82a"
+    },
+    {
+      "path": "assets/katowice-editorial-ai.png",
+      "sha256": "bb36b344d1e31adc3d99d89b64a09a60a9313f28e8b580fa28afcbfe9ecf9122"
+    },
+    {
+      "path": "assets/hero-800.webp",
+      "sha256": "1cffd4b3953e7b0510bb4e2989d3fd0d87e8b6b48ae28b515f4234f27615ea30"
+    },
+    {
+      "path": "assets/classic-480.webp",
+      "sha256": "16a436292430542686c584289b097c428c7bd5cfabfb4668e981279542a0f042"
+    },
+    {
+      "path": "assets/hero-1600.webp",
+      "sha256": "b219d0df16f55547934069eaf50c4a6e4f81b56fb178115c9233978b52a93e29"
+    },
+    {
+      "path": "assets/site-stats.js",
+      "sha256": "402a61a6ed13be38e6edf10290b9f77253160c5895b281f8ac94dcc19f55b257"
+    },
+    {
+      "path": "assets/classic-1600.webp",
+      "sha256": "d3fe6916f561d1548d8f0697d70d62bba499ed03a942699da362d237f9d205a5"
+    },
+    {
+      "path": "assets/experience.js",
+      "sha256": "7332ddd5ba19403b823f70b1f914db46629ec1460e0b69b0a2ac3a67c232e44c"
+    },
+    {
+      "path": "assets/deluxe-480.webp",
+      "sha256": "e64b3f813b70a0e79dbf88ad42f95010a1ecec2f9f7d62225832f84be9d308ec"
+    },
+    {
+      "path": "assets/premiumdeluxe-480.webp",
+      "sha256": "87d996babcf5af2fc7ce9cb2fa67db9118534a18c110d15dba773879618b7990"
+    },
+    {
+      "path": "assets/virtual-walk.js",
+      "sha256": "815c10467a80a9be4f0e8f77e0e4a63704111e446dfffeca8ac80bab9ae3701b"
+    },
+    {
+      "path": "assets/city.js",
+      "sha256": "fae78fd2d4e2ae7eba58716577a543c0a92d7d94add94cdc4f7ee5e0ac8ee9a3"
+    },
+    {
+      "path": "assets/deluxe-800.webp",
+      "sha256": "c03deff50d8b2102ab09dde1afe47232980c122192a162b333a680cb1cd2398d"
+    },
+    {
+      "path": "assets/premiumdeluxe-800.webp",
+      "sha256": "15da354ec9d467314498ff1c8b93340b3632abec98e1b85bca5524110e190559"
+    },
+    {
+      "path": "assets/katowice-editorial-thumb.webp",
+      "sha256": "e2afb1a481d7e99940e21209e83f2a8ec65457cee6e38720aad21002ce7e94a6"
+    },
+    {
+      "path": "assets/favicon.png",
+      "sha256": "694c5d6f02683d9104cd029fe49b2eeb71a08d6cf96f357377f5cfc308674501"
+    },
+    {
+      "path": "assets/logo.png",
+      "sha256": "ab317fb18678cc72f745597801b47c9e97f5e7524df7b246309551d2fb81a9a0"
+    },
+    {
+      "path": "assets/entrance-flags-1800.webp",
+      "sha256": "49cf8ad46be424e66aad8cccef6b06f4baec707143ed7aa9169f067e8c4c2bd9"
+    },
+    {
+      "path": "assets/style.css",
+      "sha256": "9551028587081e54684f35a50fb5e87e22af6532dd4f77692831f49c24f5c51e"
+    },
+    {
+      "path": "assets/error-language.js",
+      "sha256": "ee47ee33a775fb7b73be21b0d05bba1da94725681b91787493548cc4d9d197b9"
+    },
+    {
+      "path": "assets/entrance-flags-600.webp",
+      "sha256": "d1fc0c66dd0490552f4e33e69b2df545b8c26e605c2fcf6df121a847ae36bbdf"
+    },
+    {
+      "path": "assets/detail-480.webp",
+      "sha256": "20b967414a4056f73f36b3f9084eb2f204e71762734f7aef6c9e0eba3c46e848"
+    },
+    {
+      "path": "assets/deluxe-1600.webp",
+      "sha256": "c03deff50d8b2102ab09dde1afe47232980c122192a162b333a680cb1cd2398d"
+    },
+    {
+      "path": "assets/root-language.js",
+      "sha256": "daaea4701666653c61e6f3959c1d3f567588752ecae9566830a7d12f7ffbf3e1"
+    },
+    {
+      "path": "assets/premiumdeluxe-1600.webp",
+      "sha256": "15da354ec9d467314498ff1c8b93340b3632abec98e1b85bca5524110e190559"
+    },
+    {
+      "path": "assets/hero-480.webp",
+      "sha256": "2b7923b30a1290f5587419acfb7fdb310e3b8594be4d90095ec094cdf990b7e6"
+    },
+    {
+      "path": "assets/i18n.js",
+      "sha256": "8ee6cfb27471771cc0035a5fc9b702693b5d7db9a47e63721a038e0c7bfacc1b"
+    },
+    {
+      "path": "assets/classic-800.webp",
+      "sha256": "d3fe6916f561d1548d8f0697d70d62bba499ed03a942699da362d237f9d205a5"
+    },
+    {
+      "path": "assets/app.js",
+      "sha256": "5b7887d783dc1d1c1edd9b28367c3bac898f6b9e4fed93d62ed770508dcdf69c"
+    },
+    {
+      "path": "assets/entrance-flags-1200.webp",
+      "sha256": "0bb195ed794873e9c98a5c6ebbff6f719e6f396c6a3304f911b42a21935e2644"
+    },
+    {
+      "path": "assets/detail-1600.webp",
+      "sha256": "3d009b6b9dfeef1d5ca7a312f3289c1889c783f851da48d46b86cfaf3a569941"
+    },
+    {
+      "path": "assets/memorial/birkenau.jpg",
+      "sha256": "6265ec5bdb0a08ce22dbc7b54d48c8091b14057bf46398e8df0efe83136eea9d"
+    },
+    {
+      "path": "assets/messages/pl.js",
+      "sha256": "8b0d023db746dc99d851f355a0e807e4e5b771e6514688bbd37efc109fd3363a"
+    },
+    {
+      "path": "assets/messages/de.js",
+      "sha256": "eb7c56afbef2b9c8111b99c0adfa9cf367ce88d32cf95b38c3d528b9a637402c"
+    },
+    {
+      "path": "assets/messages/en.js",
+      "sha256": "8b0d023db746dc99d851f355a0e807e4e5b771e6514688bbd37efc109fd3363a"
+    },
+    {
+      "path": "assets/messages/uk.js",
+      "sha256": "43fdae3cf664b6d06f24c8141988578f840d0ed37277b20cd4b67d553f3a4d36"
+    },
+    {
+      "path": "assets/messages/it.js",
+      "sha256": "377dff04296548929dfd849dcae31e96d1a2f32520cdbb6fdad980b041644378"
+    },
+    {
+      "path": "assets/messages/es.js",
+      "sha256": "3aa516be30c13e4354f7d2debe4b2bd310f385886305f7972f9e19e02e81a178"
+    },
+    {
+      "path": "assets/messages/zh-hans.js",
+      "sha256": "44f17716dea928f6bdbdee9ae4eec55cf48cb67152d581188d3aa14c02002956"
+    },
+    {
+      "path": "assets/city-gallery/at-02-nospr-inspiracja-ai-960.webp",
+      "sha256": "83d0aff1e39008b8dc4bca5848a94510e44c6d7f218833b13d6ea692599ec272"
+    },
+    {
+      "path": "assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-640.webp",
+      "sha256": "5dfb520d2cbe0a8652455ff05aec07703efec1257e93cb583f6c365ecb402229"
+    },
+    {
+      "path": "assets/city-gallery/sr-11-hala-dworcowa-320.webp",
+      "sha256": "76ec67fa5044e4ed1bf9a3419c94146994b1f1965c582c2877e370c95977f9e2"
+    },
+    {
+      "path": "assets/city-gallery/sr-17-muzyka-filharmonia-320.webp",
+      "sha256": "b73b57ad249a23cb8c565d8fc93f36124a32e3d000b587649bfd5912ece67389"
+    },
+    {
+      "path": "assets/city-gallery/sr-20-panorama-slaska-960.webp",
+      "sha256": "aa82478ad184bbc1e325300b30a54e6158a4381e7788c1c71be76fa6e1073bfa"
+    },
+    {
+      "path": "assets/city-gallery/at-07-archikatedra-inspiracja-ai-320.webp",
+      "sha256": "cd61efac016bf5444da16728a7d2ee706a990b4b2867be57cb4ca48fcabde7e1"
+    },
+    {
+      "path": "assets/city-gallery/sr-12-wieza-wodna-320.webp",
+      "sha256": "83fadfa2757504c2e6e615e3da7ca6916c1d2affbb0b90b8572964092fb7bbee"
+    },
+    {
+      "path": "assets/city-gallery/sr-14-teatr-klasyczny-640.webp",
+      "sha256": "c606cafc55f1a0ccab3971a98145251b60644212366e1abb75c29934a332aa3e"
+    },
+    {
+      "path": "assets/city-gallery/sr-01-katedra-inspirowana-960.webp",
+      "sha256": "0faee802df525d6352fd28011486c96e6a745b1fc271faf1d24a7bc2cfec8090"
+    },
+    {
+      "path": "assets/city-gallery/sr-03-opera-inspirowana-640.webp",
+      "sha256": "bdc89dd88e1414efa8f627d2adb9c2af4044dec141346337c277971998640b0c"
+    },
+    {
+      "path": "assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-960.webp",
+      "sha256": "7da2f0b33b371ea559fc84c012bd20856fe8d330de3c6868371f2ea5b1624667"
+    },
+    {
+      "path": "assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-320.webp",
+      "sha256": "efda2ac0557e38e86f6eafb59b5c11d7cd1682845c0c5af929d9f200be744a96"
+    },
+    {
+      "path": "assets/city-gallery/sr-05-tramwaj-poranek-640.webp",
+      "sha256": "3c8cdfe5b71d5c81186773230901e0752b5f43aa3c45e687781ac5b8a342e0b6"
+    },
+    {
+      "path": "assets/city-gallery/at-10-giszowiec-inspiracja-ai-320.webp",
+      "sha256": "5275a5204aee2050ae2e5c60d9ca002aa5e4d96568ddf6c2bc29862d5dd06e7c"
+    },
+    {
+      "path": "assets/city-gallery/sr-02-filharmonia-inspirowana-640.webp",
+      "sha256": "236f580a571a0f86ac1bed1264811bba03265d92ac48fd21f979becae1ac503e"
+    },
+    {
+      "path": "assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-640.webp",
+      "sha256": "a9db28760801bbc14e95cf2ff8e511cd138b6e1491dda018ab3e72383016dc08"
+    },
+    {
+      "path": "assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-320.webp",
+      "sha256": "fb141dede5056846fefc8aeb1aaa8faabc5119be42672d0f70d75f23fb03c600"
+    },
+    {
+      "path": "assets/city-gallery/at-05-mck-inspiracja-ai-640.webp",
+      "sha256": "162555f70e10d5de95c0949c2b9d822d8d77d0ce62739047d547ff79e667248b"
+    },
+    {
+      "path": "assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-320.webp",
+      "sha256": "1d105b4bb3d71658a603c856e238cdd1a5af26d34fc2d160c254ffdea8f25752"
+    },
+    {
+      "path": "assets/city-gallery/sr-16-ceglana-dzielnica-320.webp",
+      "sha256": "68c2336440325237d1879d192759bb27ea7f8ed4a81344ec4f92d1ab9c88d6fe"
+    },
+    {
+      "path": "assets/city-gallery/sr-04-kino-art-deco-320.webp",
+      "sha256": "b33cf9494f6245b4a3734cb727ddf96326d2d913451032cd54e7daca9a160f37"
+    },
+    {
+      "path": "assets/city-gallery/sr-18-dziedziniec-muzealny-320.webp",
+      "sha256": "f5b75c071ab94e2e3d7d0c2e7aaf303cd08cee1dea121d56c7a60ed930866dee"
+    },
+    {
+      "path": "assets/city-gallery/sr-08-galeria-kino-960.webp",
+      "sha256": "34ca7a117d97d7f84ef76eb4720403bd834ea6e7b8ee1c109a13a11eab35ffb1"
+    },
+    {
+      "path": "assets/city-gallery/sr-07-park-metropolitalny-960.webp",
+      "sha256": "8cf430ccee0d2e3d090be3432643d32262ca21a7614cf47eb4995abc364e6325"
+    },
+    {
+      "path": "assets/city-gallery/sr-09-arkady-targowe-960.webp",
+      "sha256": "4d2f71ae74ee13669f38db35e2a0df801fc58e0b8054c8f87dad595349d6a84a"
+    },
+    {
+      "path": "assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-320.webp",
+      "sha256": "09261b40a77b7c14243d043748698688ac612bbc7ae8fd793f66af0b78d8ddea"
+    },
+    {
+      "path": "assets/city-gallery/sr-06-dziedzictwo-przemyslowe-320.webp",
+      "sha256": "e9221a8ce1e9f8186e3a502717a49a5e452ae4d465bdecd8ac8bfb002bd3a378"
+    },
+    {
+      "path": "assets/city-gallery/at-10-giszowiec-inspiracja-ai-960.webp",
+      "sha256": "b47df8e5abf560be1735a58e4a54890d40f4d1fad33bb6158f5d563e1ae16f13"
+    },
+    {
+      "path": "assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-960.webp",
+      "sha256": "d49ccc4dc1f06766892ebd98e8b05e8b7e239034462ead8928c2d632ffa7ca1f"
+    },
+    {
+      "path": "assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-320.webp",
+      "sha256": "cf02e635688ec5f579953a3cf8e8d6c94297cbe7c7cb4c218f0b465079619fa0"
+    },
+    {
+      "path": "assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-960.webp",
+      "sha256": "9b2f7dd2899d3768ff279ea67ffe4a106c3df1615b9ec5b0d3bf805138dfa267"
+    },
+    {
+      "path": "assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-960.webp",
+      "sha256": "241e889355ec073a20606c7d098bda552b359597d5f35bdc49fa7e13f06da385"
+    },
+    {
+      "path": "assets/city-gallery/sr-19-dzielnica-kultury-640.webp",
+      "sha256": "a3910cef89a9fc868d7377fa293281323dc89dfeb0ceaecd029bce30122d517e"
+    },
+    {
+      "path": "assets/city-gallery/sr-18-dziedziniec-muzealny-960.webp",
+      "sha256": "980e3e3b56ccf263540214efe0add77cefb6ca6b421ff358848bc34233a69df6"
+    },
+    {
+      "path": "assets/city-gallery/sr-04-kino-art-deco-960.webp",
+      "sha256": "c22788d71bd15c3b8f29823926daaacec27102eb965b10f98979f3fa12222e58"
+    },
+    {
+      "path": "assets/city-gallery/sr-16-ceglana-dzielnica-960.webp",
+      "sha256": "7ae0ab873f8cbf30ed2203717008d157af35c0484341b0fe5cc551648648b685"
+    },
+    {
+      "path": "assets/city-gallery/sr-13-tramwaj-wieczorem-640.webp",
+      "sha256": "beab1413bae11411b0bb83b0f26de5c77a23e8b249214c6d3fe0b46a3268222f"
+    },
+    {
+      "path": "assets/city-gallery/sr-06-dziedzictwo-przemyslowe-960.webp",
+      "sha256": "ccbbe80b9c8256ae9c688c6c515cf5c8496754f5d2d56b22dc74813a416dedf2"
+    },
+    {
+      "path": "assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-960.webp",
+      "sha256": "d4dee03ce55fe16b63c06c64bbad6a8544a678b0829e56cd2ac8f2e1bc73b923"
+    },
+    {
+      "path": "assets/city-gallery/sr-08-galeria-kino-320.webp",
+      "sha256": "4553e1d110a6cc20eefc65109c6f3894acf34f09f47821d4f83cd0e7ba9a2748"
+    },
+    {
+      "path": "assets/city-gallery/sr-10-ulica-modernistyczna-640.webp",
+      "sha256": "10d4c7939884a591c53c73808cb8468b707f2fee98c1f3c7bf60388649b9f973"
+    },
+    {
+      "path": "assets/city-gallery/sr-07-park-metropolitalny-320.webp",
+      "sha256": "ff78fc5896001ab2ceeae2c2f671a02ddd8b48115830b61421579f1cff560416"
+    },
+    {
+      "path": "assets/city-gallery/sr-09-arkady-targowe-320.webp",
+      "sha256": "d00e87ce68aa8d0bda6ffe58b74e2fedf785f7126357436330772e5f3aff4f36"
+    },
+    {
+      "path": "assets/city-gallery/sr-15-zielony-korytarz-640.webp",
+      "sha256": "04022f2e15da401b294e697241698f3144d21947c7b206b9e02b89d9df0928fb"
+    },
+    {
+      "path": "assets/city-gallery/at-02-nospr-inspiracja-ai-320.webp",
+      "sha256": "3194f90a68ebfe4fbe32cc71ef6112bcf4ccbd70381c586dc396bf5a93966c81"
+    },
+    {
+      "path": "assets/city-gallery/at-01-spodek-inspiracja-ai-640.webp",
+      "sha256": "5896ff982157723ebd521e042e6123dda6c3139756fb0db53d010e0a88a82750"
+    },
+    {
+      "path": "assets/city-gallery/sr-17-muzyka-filharmonia-960.webp",
+      "sha256": "979aacbae79369869574cdee14c9b9864feacee1a17ad3e85a4abcaa0cc1f744"
+    },
+    {
+      "path": "assets/city-gallery/sr-11-hala-dworcowa-960.webp",
+      "sha256": "2726ef942011a67fb0f3a5ad41c560101f03a7ee5a5f082c438e6a01f1565e34"
+    },
+    {
+      "path": "assets/city-gallery/sr-20-panorama-slaska-320.webp",
+      "sha256": "83217a0622a54ad98c7523729a94074b272e970885935c242143889a8d4a6089"
+    },
+    {
+      "path": "assets/city-gallery/at-07-archikatedra-inspiracja-ai-960.webp",
+      "sha256": "0d6b0e0f9d95007f9c2501cb14b2442f1d2552eecc812276228efb746727b012"
+    },
+    {
+      "path": "assets/city-gallery/sr-01-katedra-inspirowana-320.webp",
+      "sha256": "5f4a82b0f3ad7ff0481b49641b869b4d1ddd1be4665652c3dee9888e0211dc9b"
+    },
+    {
+      "path": "assets/city-gallery/sr-12-wieza-wodna-960.webp",
+      "sha256": "ea73d0568088fc6c5d627f83e395379482ffa762440ae39bee9e9196e804b774"
+    },
+    {
+      "path": "assets/city-gallery/sr-19-dzielnica-kultury-320.webp",
+      "sha256": "2f7fddc0a32053daa320f7e5ab0f0cc741954368afcaacda7cc4200264c18c94"
+    },
+    {
+      "path": "assets/city-gallery/sr-13-tramwaj-wieczorem-320.webp",
+      "sha256": "8a5a4ff78fe93cb247bf69278403bb02fc568ca21f84f5b6271ae55340b8aa92"
+    },
+    {
+      "path": "assets/city-gallery/sr-08-galeria-kino-640.webp",
+      "sha256": "97b6f1a3f474b33dba6329df3d5aefe52c791c8595cf6f5de0d15d678b136d86"
+    },
+    {
+      "path": "assets/city-gallery/sr-09-arkady-targowe-640.webp",
+      "sha256": "2915f87eb491c76c292ebcc9e12b93ca798e19fcce40b0e36da41cbf20329bb5"
+    },
+    {
+      "path": "assets/city-gallery/sr-07-park-metropolitalny-640.webp",
+      "sha256": "dc76756f9c4390b6125829c7880cce17d59d56918b628da7c6c49602eb69ef5b"
+    },
+    {
+      "path": "assets/city-gallery/sr-10-ulica-modernistyczna-320.webp",
+      "sha256": "670fcad6505cb081dca0e416b2246127c19665690a14811536dccd2a466783a9"
+    },
+    {
+      "path": "assets/city-gallery/sr-05-tramwaj-poranek-960.webp",
+      "sha256": "a6ae803da65726e0d794c46af09bd880ac10f4fd02d9307c56d8cb37f5d265c1"
+    },
+    {
+      "path": "assets/city-gallery/at-03-muzeum-slaskie-inspiracja-ai-640.webp",
+      "sha256": "077a9e8958b6431aa7caab29609a4c7f56be9f198f8db42841b99cc9ef3c2983"
+    },
+    {
+      "path": "assets/city-gallery/at-05-mck-inspiracja-ai-960.webp",
+      "sha256": "c86430c8007ef6d6bc9b58298f472a18099c5042b263c6c8ca5e1b330f157f4e"
+    },
+    {
+      "path": "assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-960.webp",
+      "sha256": "7b378c2deacb19e4eb22d513839348c5dd237da1072a1f0f83f76036d287a82d"
+    },
+    {
+      "path": "assets/city-gallery/sr-02-filharmonia-inspirowana-960.webp",
+      "sha256": "fe7b2c7154d5cab4482d985c0207388b38dab10efb9cd0889d1f791f827b1c3a"
+    },
+    {
+      "path": "assets/city-gallery/sr-20-panorama-slaska-640.webp",
+      "sha256": "198bdfec2e8640ce31155ed0d7043c05d21b8b8d7defdd2e2e09fe6bd6d78d0b"
+    },
+    {
+      "path": "assets/city-gallery/sr-01-katedra-inspirowana-640.webp",
+      "sha256": "bfa0fce244c71b2e966d3ad2e96c7a9d0e074e8abde0b1233f5d2b4c19174a2d"
+    },
+    {
+      "path": "assets/city-gallery/sr-03-opera-inspirowana-960.webp",
+      "sha256": "f275aaccf2e7c04f8609a588f061762529a4ae2c707626288ebf47ec072b6e12"
+    },
+    {
+      "path": "assets/city-gallery/sr-14-teatr-klasyczny-960.webp",
+      "sha256": "bb56e9ff0c0c9956ba6c278577b90c49dce993139d245a0099e99f7dfe8bbbf5"
+    },
+    {
+      "path": "assets/city-gallery/sr-15-zielony-korytarz-320.webp",
+      "sha256": "31cc46c46458cd50d225eeb562027e8aaab9e2bc4de402c579432974a98980f1"
+    },
+    {
+      "path": "assets/city-gallery/at-01-spodek-inspiracja-ai-320.webp",
+      "sha256": "afcd10aefe821071a2b196a318c9863f7bcde63b3ddb78591165f897cb345d30"
+    },
+    {
+      "path": "assets/city-gallery/at-02-nospr-inspiracja-ai-640.webp",
+      "sha256": "18e237058f82d7e20012fc3842d25c3eb801757d7479c38c9c952c4fd95b7710"
+    },
+    {
+      "path": "assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-960.webp",
+      "sha256": "a7f4c0777dafad28679a4db48d6a95038a4253e3eea8f5c80c8b046c623c344b"
+    },
+    {
+      "path": "assets/city-gallery/at-07-archikatedra-inspiracja-ai-640.webp",
+      "sha256": "01cb960d6e77592e7c82e689d52e2229f0a64fd8872c5d28fbb988935a1c6e0f"
+    },
+    {
+      "path": "assets/city-gallery/sr-12-wieza-wodna-640.webp",
+      "sha256": "0ddde9646c27ce3224ea9284d94a0a8e461c2407a0f8e358ed8405e222ee6fe0"
+    },
+    {
+      "path": "assets/city-gallery/sr-14-teatr-klasyczny-320.webp",
+      "sha256": "3ceaa27b82522e7d48a27c8692fb35bbddf963c692458a24186b5338917aff8e"
+    },
+    {
+      "path": "assets/city-gallery/sr-03-opera-inspirowana-320.webp",
+      "sha256": "f93739b1e84afd730832bf83e4297f7dd4eec8b4bd595dac582854fa4026e8c8"
+    },
+    {
+      "path": "assets/city-gallery/at-01-spodek-inspiracja-ai-960.webp",
+      "sha256": "ce9f3562b5e7272cde5704a7d92b4f07c5dc90e55eab041466f88cfc0b6e8e24"
+    },
+    {
+      "path": "assets/city-gallery/sr-15-zielony-korytarz-960.webp",
+      "sha256": "a81ecd5b58955121b8d6044ed33cd3ed4e4a86f704d844f108b5766eb481fdce"
+    },
+    {
+      "path": "assets/city-gallery/at-08-kosciol-mariacki-inspiracja-ai-320.webp",
+      "sha256": "5ebb91227cfc08f4fef012fd47bccbb0b677804136e609af2d75e267995e6c94"
+    },
+    {
+      "path": "assets/city-gallery/sr-11-hala-dworcowa-640.webp",
+      "sha256": "441f2d557aeeff81012a83944bfc1559a65feadf4ff33fa2079116c0b7c7bdad"
+    },
+    {
+      "path": "assets/city-gallery/sr-17-muzyka-filharmonia-640.webp",
+      "sha256": "fd587e9b17320242900ca300b0c4109597dbcae059d8008cda8f241502436b2b"
+    },
+    {
+      "path": "assets/city-gallery/sr-16-ceglana-dzielnica-640.webp",
+      "sha256": "54c63cfb9e053edc6cd1dfebde7f1302820a1570e417ea6309f4dcfc00e65e4d"
+    },
+    {
+      "path": "assets/city-gallery/sr-04-kino-art-deco-640.webp",
+      "sha256": "a97ccb9b408e981ceda44330490298cdb216a3c8360a331c13fa3952a8ec4a1e"
+    },
+    {
+      "path": "assets/city-gallery/sr-19-dzielnica-kultury-960.webp",
+      "sha256": "9c294b6ed1a197dc5eb42b607e5478041817786cbfd287d754bad7a5b6025823"
+    },
+    {
+      "path": "assets/city-gallery/sr-18-dziedziniec-muzealny-640.webp",
+      "sha256": "8d40eb43e5875244b331a97a5978e23b9ef470614e3adc3fb99ffaee282006f4"
+    },
+    {
+      "path": "assets/city-gallery/sr-10-ulica-modernistyczna-960.webp",
+      "sha256": "ab2f27d0a29bf05f5bd5f12a69774631f60904097203e03200d89af5530deb5c"
+    },
+    {
+      "path": "assets/city-gallery/at-04-nikiszowiec-inspiracja-ai-640.webp",
+      "sha256": "e0c2eaf8d16ba56e773ba714f9c3c565622f050b48c7dd844e1572a5d7609308"
+    },
+    {
+      "path": "assets/city-gallery/sr-06-dziedzictwo-przemyslowe-640.webp",
+      "sha256": "03631b61cb839f9e4854702e277b33062ea1a639110adf1232d7ba3ecd6f9a8e"
+    },
+    {
+      "path": "assets/city-gallery/sr-13-tramwaj-wieczorem-960.webp",
+      "sha256": "fab03a547942429ac727ce9273bfa6ca366bdd41e11c44dfc12bf6da8ba2dd89"
+    },
+    {
+      "path": "assets/city-gallery/sr-05-tramwaj-poranek-320.webp",
+      "sha256": "c4a36f6da98725d611f9980a7226afae553e9838a11d6aed3888f65c50007c9c"
+    },
+    {
+      "path": "assets/city-gallery/at-12-park-kosciuszki-inspiracja-ai-640.webp",
+      "sha256": "2f773ba63b0ad3ac613a3c694cd63778d20e931f6daeeb6ef4ae67848b694583"
+    },
+    {
+      "path": "assets/city-gallery/at-10-giszowiec-inspiracja-ai-640.webp",
+      "sha256": "1ac48788bbc20ac4cf969447c606ba317dee3dda768e4aba5812c82b1041d7a3"
+    },
+    {
+      "path": "assets/city-gallery/sr-02-filharmonia-inspirowana-320.webp",
+      "sha256": "f72c835f744aabeb1d57d889677c5bea084ea392dcd09988fcba6198a1a9a545"
+    },
+    {
+      "path": "assets/city-gallery/at-06-teatr-slaski-inspiracja-ai-320.webp",
+      "sha256": "ff92409325e2c4dbab8cfa0f093f688e1de25a393e15e1767fcf37dcc3794557"
+    },
+    {
+      "path": "assets/city-gallery/at-09-szlak-moderny-inspiracja-ai-640.webp",
+      "sha256": "7ebcb9cc137d5182efcd039e6ec4d0836747dfc90e001abcc4809481bb949f56"
+    },
+    {
+      "path": "assets/city-gallery/at-05-mck-inspiracja-ai-320.webp",
+      "sha256": "0b01ad52ede1f2ef8bb55d0ef7cb9e066f9da54458197224e2db1b107d3a971c"
+    },
+    {
+      "path": "assets/city-gallery/at-11-fabryka-porcelany-inspiracja-ai-640.webp",
+      "sha256": "0af2b90f8c4e1c239455f098565d25dce4aa5e89d320b5896cf8b1aac219be42"
+    },
+    {
+      "path": "assets/rooms/premium-02-1200.webp",
+      "sha256": "6fdc6b7a8ede1f45112cd8d19de83b09ba27479ee96537cebe31ca01123d2c71"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-01-320.webp",
+      "sha256": "b4a1cd91338ee5e481f56d77e9a3fee1d8c3f8601afb0a2a3faff285b8e60b29"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-03-800.webp",
+      "sha256": "ef0dae5efe57d069c0b07f52a012d48f4ec999ca7d9004db312ea87af6c1bd6c"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-02-800.webp",
+      "sha256": "75295558132798418011c9c4ba45803875d5b0926a05fdcf4980ccb966ee9fd0"
+    },
+    {
+      "path": "assets/rooms/classic-01-320.webp",
+      "sha256": "a437bfcfa6e4a686974cf57cabd1ec6da9a03803a71f0ccb509d30e362f84eda"
+    },
+    {
+      "path": "assets/rooms/prestige-03-1200.webp",
+      "sha256": "40246a276846be2ad512b6c8044cb5b669d1b06d3129554e30b6c52093af4a8f"
+    },
+    {
+      "path": "assets/rooms/deluxe-08-800.webp",
+      "sha256": "efb39c55624e647423e10b274089610f687e36bba9b00d91088d99de15793d10"
+    },
+    {
+      "path": "assets/rooms/hornigold-08-800.webp",
+      "sha256": "e8293ec5dee13bd5a9e5fa1901d728df8798e857533a1553eb9ba65bc4f6dfcc"
+    },
+    {
+      "path": "assets/rooms/classic-04-1200.webp",
+      "sha256": "4e6ef81580cb3357e82d98ce9a0dad12be138a733becb327b8c4c2ab441a2cad"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-04-800.webp",
+      "sha256": "9cd07f485421c657c9ffe8776dde44b96ee169678b58695ae3910b73310c33a8"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-05-800.webp",
+      "sha256": "c8e097b97b5d37c8bc432942776a9d7718a4be9183a020d4c8b35108078f70c2"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-07-320.webp",
+      "sha256": "f8959c5a548dc7a98e9144ff286e539cf317c99d4e6d8da19326f0ca37bf1baf"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-01-1200.webp",
+      "sha256": "8940408f4da72309c87b9596b7254b8f64d073bc20c73cf7785305d5ac5a95fd"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-06-320.webp",
+      "sha256": "64ebec31c8760f0bedab6fab8dda5db9b34bcd75e30327996240edb137157605"
+    },
+    {
+      "path": "assets/rooms/suite-02-1200.webp",
+      "sha256": "e693444cfac68cdc967a5124b8297c1ff455895e88b975fcd103f6a38d8d0765"
+    },
+    {
+      "path": "assets/rooms/classic-05-800.webp",
+      "sha256": "80804a1e624983c1b45cc0f7b795c7f46f587a0a4a8bdc272367bf4e4fa74c4a"
+    },
+    {
+      "path": "assets/rooms/classic-04-800.webp",
+      "sha256": "342473f50d5a6b800ad7cc75072c236a108921e9dccc21fdd9dd00bd9d708e82"
+    },
+    {
+      "path": "assets/rooms/hornigold-07-1200.webp",
+      "sha256": "cd15c11653529f72da63d347f587e65abd07c40ea27e7b3ed99469349942c417"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-09-800.webp",
+      "sha256": "2fbb11e924a7b6bf5994a4987bae0e4077ceed298e14f8ffd1ebb660d107c810"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-08-800.webp",
+      "sha256": "fbe01589a4812821fb314dece4e95c0a5fdde92bb5f3c1ac7f917987f54ed0c0"
+    },
+    {
+      "path": "assets/rooms/hornigold-07-320.webp",
+      "sha256": "80b20c3a08cc8182e9961aa96116574bafb9fea1f298b2da337e76c4573ddb06"
+    },
+    {
+      "path": "assets/rooms/hornigold-06-320.webp",
+      "sha256": "ddecad3428c590fe0846ea00001948a881233d289d5f6c865d7d0fd2aee48d5c"
+    },
+    {
+      "path": "assets/rooms/deluxe-07-320.webp",
+      "sha256": "3bc0fb473ad59ee4972c00fd22619fa346cbd00ceb174c07e937abe61c7f3ee9"
+    },
+    {
+      "path": "assets/rooms/deluxe-06-320.webp",
+      "sha256": "c180a2135fa6be07d179c51771fa628b02655d8243d0d040364e7d37aef07e6e"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-01-1200.webp",
+      "sha256": "9bf8532a6ce20daa7d71e9104b88608b4ff306da1ccaddf5d2fdbc7a38cb9383"
+    },
+    {
+      "path": "assets/rooms/hornigold-03-800.webp",
+      "sha256": "0a8e09d8119f6df89c4172152efe01879d0c5c2593639ddb9ec6199942302886"
+    },
+    {
+      "path": "assets/rooms/hornigold-02-800.webp",
+      "sha256": "cfc3654fb7b7bc476021695a2908b8f37185c8a24a18eb1fc57a0f787166aee7"
+    },
+    {
+      "path": "assets/rooms/deluxe-03-800.webp",
+      "sha256": "04940878bffef2d85210e6472d3629537e8606771ded0e7ebc6c09535dfef2e6"
+    },
+    {
+      "path": "assets/rooms/deluxe-02-800.webp",
+      "sha256": "dd42560ef28f167118a92212294562f84f675c0793cc3ac6c0e2fcff852e3498"
+    },
+    {
+      "path": "assets/rooms/prestige-07-320.webp",
+      "sha256": "4328dbcc6686f198a14a3cd984771b4b95a5da7c43b14e7c834bd5b4678c1c85"
+    },
+    {
+      "path": "assets/rooms/prestige-06-320.webp",
+      "sha256": "8ef05d4e4fb51fdc377cbefb8ac691bbc133fb3e959326a02a132256afc95bc8"
+    },
+    {
+      "path": "assets/rooms/prestige-05-1200.webp",
+      "sha256": "acac87e297cdfd1e61c3b7d837e8095afce3662fe92a3b029799515169bf5511"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-07-1200.webp",
+      "sha256": "17914f86543fc7c8601a039722ecd3215c2ccdffaa6b487b7b378c1a6e844976"
+    },
+    {
+      "path": "assets/rooms/suite-04-1200.webp",
+      "sha256": "07e0b1d78d0ac7b662474a14ef5ca0dd0911135212b143eb82f87fe9048f7802"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-06-1200.webp",
+      "sha256": "330ede48b26d8fd5b683e2c5e50484bd72dabda75300a1e26d4c01410177c300"
+    },
+    {
+      "path": "assets/rooms/hornigold-01-1200.webp",
+      "sha256": "6038ac1bb37c84914a44218ac7c055cdd729d9169c4a3936f78f509cddabdf8f"
+    },
+    {
+      "path": "assets/rooms/suite-07-800.webp",
+      "sha256": "18a76db3e44dd8eea0c3a9fc4724fe446db1eb42df01bbb4b7c6608b79bca745"
+    },
+    {
+      "path": "assets/rooms/suite-06-800.webp",
+      "sha256": "158fa5847db5b2835484c98699bf6d48cd1bcaa832e448062eae3a39a68aa92d"
+    },
+    {
+      "path": "assets/rooms/classic-02-1200.webp",
+      "sha256": "aad390c341f2129d05bf982cb039ad838523fffa1fc0716ac052080493aa987f"
+    },
+    {
+      "path": "assets/rooms/deluxe-06-1200.webp",
+      "sha256": "f83c1bb3a9356f61d212a5312639b9181f73d7500a601d2a6fe16880bfe9268e"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-10-320.webp",
+      "sha256": "2efbe978c75c9fdd99fc6d13fcb8a68bf51401f87a83fde75c39b5c08944b259"
+    },
+    {
+      "path": "assets/rooms/prestige-03-800.webp",
+      "sha256": "08ce91107d8b530862030489f7d3e6a9139bfef89dd30513f3353ea96e744ddf"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-08-320.webp",
+      "sha256": "9d1241f6daaa48bd90feafda4e025240a981447fe2200646e2e3cad32c4920c4"
+    },
+    {
+      "path": "assets/rooms/prestige-02-800.webp",
+      "sha256": "8bbfd2173991ae3107db85f0c88a1e349c8d478692ad0b8c38a40224d8c83ea2"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-11-320.webp",
+      "sha256": "4f01aa5a581bb02abde5967350bd4d8f77864dc6fa5dcf9951eeb8720e28f292"
+    },
+    {
+      "path": "assets/rooms/suite-03-320.webp",
+      "sha256": "87c36e30fab1f26960cd2cb0dacc0b5dbd6bcadf95d24067c7df98cba93a32de"
+    },
+    {
+      "path": "assets/rooms/suite-02-320.webp",
+      "sha256": "f9e846e8b98211a641cfa68152e50a17f8b96d8b7bfad9f5985520490dc486cc"
+    },
+    {
+      "path": "assets/rooms/premium-04-1200.webp",
+      "sha256": "56ca2495220969c5b59854b23adc03513eca900118eacc2becc3cb36c51b4447"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-07-1200.webp",
+      "sha256": "57b829b33779dcdf64c7c6ac05dc9324ba55e14ca2c2fed352e41c8171100ec3"
+    },
+    {
+      "path": "assets/rooms/prestige-08-1200.webp",
+      "sha256": "1a057dcdf1b8c03953d793c5e54464f4a1eef39a283aa32977567fb22bdfa785"
+    },
+    {
+      "path": "assets/rooms/premium-01-320.webp",
+      "sha256": "3fdbe9fa4168cc4296e74cb2426d0a724dd2dc591e31e57656c095b7f5bef3ce"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-07-800.webp",
+      "sha256": "ef3828057aefaaf7588469e28b77cdd477d45b0c459054e2b3775e19d8bd45fe"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-06-800.webp",
+      "sha256": "4178a7af065443eeb770f075a8cb2a6af768f77312a9537a48fa756afe9de45e"
+    },
+    {
+      "path": "assets/rooms/suite-08-320.webp",
+      "sha256": "248e86cff6387c819aced1a6ec966bda1cf3e536626ebd6eb9491769a942d588"
+    },
+    {
+      "path": "assets/rooms/premium-04-800.webp",
+      "sha256": "11df38f6fde7007af98c0c95b7c9a0a31fc9dc22c1985efe39e51f2c739d7627"
+    },
+    {
+      "path": "assets/rooms/premium-05-800.webp",
+      "sha256": "3333f280a7694c585e310eac1fae9c9d72b770773ee9245126b67667417ad723"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-03-320.webp",
+      "sha256": "1ad2785539efb9da4a197ef99af6d53a9e867becfb0b47ce328cf8c538ebaed5"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-02-320.webp",
+      "sha256": "92a3c780f68822adebdaa643a9bb924fce0bca52054669af535e063f0b877cbd"
+    },
+    {
+      "path": "assets/rooms/prestige-08-800.webp",
+      "sha256": "462c17d5d126c8a18f6f473294077c48c1f45989d2f2cdeb34ed75c2c693393c"
+    },
+    {
+      "path": "assets/rooms/premium-03-1200.webp",
+      "sha256": "2a28bc39a2389a31c0f438b8bd2fbbc6de94b552e11d24afd6e774634dc47892"
+    },
+    {
+      "path": "assets/rooms/prestige-01-320.webp",
+      "sha256": "ad39bc1141d6ce2be3fd6a0ca43a049a411015bce62be97ac2b20888455c6c59"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-12-800.webp",
+      "sha256": "6913732b06778883ef462e99f35ab21f1cfbe353a8749883673fbce73e6e63f3"
+    },
+    {
+      "path": "assets/rooms/suite-01-800.webp",
+      "sha256": "f97615a0bdd367c066b05b4b5673f4ae43813d28f0da9737c5a17c5e2a8e02f6"
+    },
+    {
+      "path": "assets/rooms/classic-05-1200.webp",
+      "sha256": "4070a72a1018737b26f9e93de40c5ac7e798e1abdec278a8291f4b90a53027c4"
+    },
+    {
+      "path": "assets/rooms/deluxe-01-1200.webp",
+      "sha256": "bde136e15589e5b6d591f7cc01917a80082cccee8031c0f6b5bfef32f46dd213"
+    },
+    {
+      "path": "assets/rooms/prestige-04-800.webp",
+      "sha256": "d1836db7818d19ae037112f7a50ba79c4c3a8b278f3da912a44322b3b0d6811b"
+    },
+    {
+      "path": "assets/rooms/prestige-05-800.webp",
+      "sha256": "cdb6cbf3b331babdc05447d5101a9bc080a4c381388740dd3a36bfe9ad6d6103"
+    },
+    {
+      "path": "assets/rooms/suite-03-1200.webp",
+      "sha256": "9a242cd1e3ef5a828597afc970cb4d4cfe5656f8a5eab2e3789004a9c0fdda8f"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-01-1200.webp",
+      "sha256": "cf55a53ba52ff4ce900d29d1b0c5e999530c1b4fca2a840af2a58c8460aba99d"
+    },
+    {
+      "path": "assets/rooms/hornigold-06-1200.webp",
+      "sha256": "479212c89080790abc405fe52b07767f31eae275bdd8a6d35dad157eb799ba59"
+    },
+    {
+      "path": "assets/rooms/premium-08-800.webp",
+      "sha256": "c5e9d81b3ca8dd55b776fc957511cee2e43c7115b9a6f462e4a8e77469263db7"
+    },
+    {
+      "path": "assets/rooms/prestige-02-1200.webp",
+      "sha256": "dc08cbe1d79b212036b6f2f2121fab1caeab53f5084b4b542d1b8226d7b75ce4"
+    },
+    {
+      "path": "assets/rooms/suite-04-320.webp",
+      "sha256": "59e3a80d272c53dbbd753db35151a150ef457d4cba979261533a2acb2d5090d6"
+    },
+    {
+      "path": "assets/rooms/suite-05-320.webp",
+      "sha256": "c0a88f3f90cc61789589d58a6d6b22db812c91cc0844f6bde0a2207b3086338a"
+    },
+    {
+      "path": "assets/rooms/premium-07-320.webp",
+      "sha256": "fbd48a06801f12fd405fe2bbc01a04b2685fa5ae8109241147510625f6696aff"
+    },
+    {
+      "path": "assets/rooms/premium-06-320.webp",
+      "sha256": "8e72e5b7ff51176816cda71ba9045f27ed69ec8f7425fa7b21ba8eee5b5dd373"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-01-800.webp",
+      "sha256": "088e0ca3da042cccf7ece1fb89633c09a063b2e857ad08206c4cfa8a21fa55e0"
+    },
+    {
+      "path": "assets/rooms/classic-08-1200.webp",
+      "sha256": "a1c3342e7fc15491e368ec0186616a281dc000766555a24c2b0948f8e9612db2"
+    },
+    {
+      "path": "assets/rooms/premium-03-800.webp",
+      "sha256": "270e357a34272e2d444886360032daf9219fdd23e8a3e7504351dc96cbb629d2"
+    },
+    {
+      "path": "assets/rooms/premium-02-800.webp",
+      "sha256": "9ff75f5ba185f8eef648c9a662fb2668a26659a69135032236ca243597623736"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-04-320.webp",
+      "sha256": "ff4a1426c6708803bebd1bee86929698421d3f326e5a3e945bab084f9c249c78"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-05-320.webp",
+      "sha256": "bf70161e4ba8e920af3ca3849b6adf741bcece0d8fbaa05af43f183b64e59e8d"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-06-1200.webp",
+      "sha256": "176de47230ee46ff02bcfde2e39575ed1adf5162054223799101e4fc4f65c73b"
+    },
+    {
+      "path": "assets/rooms/suite-05-1200.webp",
+      "sha256": "9768384311c272bac87b8736fb4d3364cf0cf512b97771e92f9af7cad3764651"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-07-1200.webp",
+      "sha256": "87d960f447dedef7abbf9cc13746edd7d082ac44c34717b8c175abf50725395a"
+    },
+    {
+      "path": "assets/rooms/classic-03-1200.webp",
+      "sha256": "62027183fb8bf765bbfec82d42d0084c2ee7e40b54e079171ee79b9a7ef231f0"
+    },
+    {
+      "path": "assets/rooms/deluxe-07-1200.webp",
+      "sha256": "a0863517ff12503a4b0a90b519a8a3c9eaf8a04f7bb42102e9393ad1e13fe9e4"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-04-800.webp",
+      "sha256": "873dd223468561ca83b3cac33976c71f78b288a94e4f5715b131cb8354a9126b"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-05-800.webp",
+      "sha256": "5351645039b56cdd2695fa21cc9f8295646474b7fb66fc5137dba5237c297fba"
+    },
+    {
+      "path": "assets/rooms/classic-06-320.webp",
+      "sha256": "0ea0d84ea6769e97eefb53eb86d2b482c01e28b7c6d0ff0bf89e969646368099"
+    },
+    {
+      "path": "assets/rooms/classic-07-320.webp",
+      "sha256": "f4675961204c2bf10200bbeb318f9290c948e0d7f7b2cb1137030ba4e77ab01d"
+    },
+    {
+      "path": "assets/rooms/prestige-04-1200.webp",
+      "sha256": "1fb5e6816e34013ac715b6e905c66d56d9e8a755650707f7bffd3735bd858d6b"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-07-320.webp",
+      "sha256": "5d319875a7094b0ffb78b13138aba3a9bc5d0dda41c63bb2a5b1c46fcc7f6b82"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-12-1200.webp",
+      "sha256": "6038ac1bb37c84914a44218ac7c055cdd729d9169c4a3936f78f509cddabdf8f"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-06-320.webp",
+      "sha256": "70dd38a1a82ed7fe1eca103ad1794f50482e7ed1c45b1e40115cb69f0bcae29f"
+    },
+    {
+      "path": "assets/rooms/premium-05-1200.webp",
+      "sha256": "2d0d980f836d0d7d3c604caa8560395ffda5de70c1b8c0f47b6eeecb7b4b2eb6"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-01-320.webp",
+      "sha256": "ba3b8d8d0f9903cba2118d08f1fd447265e8297f3bd517355478110ab724adcc"
+    },
+    {
+      "path": "assets/rooms/classic-02-800.webp",
+      "sha256": "e4c91555c97af52159c3ce251a13f17bf522f15c9f788e5249b95de07cec4d08"
+    },
+    {
+      "path": "assets/rooms/classic-03-800.webp",
+      "sha256": "7032d7ee8f5958c9094522834cb78101542f99f1e0d3a02e62e60ed7439bdd8d"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-03-800.webp",
+      "sha256": "49b83c7d45fadd0a19c9171c32403f110d822aa17d2963b7bbe97ae4ad107e5d"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-02-800.webp",
+      "sha256": "1928f5c7e5bd69a27fe3519bc4a9369084c36e0da679a1d1e053be995ad28a58"
+    },
+    {
+      "path": "assets/rooms/suite-08-1200.webp",
+      "sha256": "0fab7dbd9c3b637a2fca8299867c683d6c4e9d566eddd14f4fe5114e951a4275"
+    },
+    {
+      "path": "assets/rooms/hornigold-01-320.webp",
+      "sha256": "5ec3da36b39fb7d90bf207133cc4cfbf12a78976ab727bceb4035ee8cb6e1d2b"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-06-1200.webp",
+      "sha256": "ec17ead992777a794936a390c745ba9c18fcb69c4dea1236c58cac7268fd6748"
+    },
+    {
+      "path": "assets/rooms/deluxe-01-320.webp",
+      "sha256": "0d21b7fff1c6661a003d546bd6e86397b62f9247e12bb44e7dcfaf984c8ca2ef"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-08-800.webp",
+      "sha256": "8f75d142485897ba99fadc9948894f0c2bb05350a6025a51f0a4725c9dda5d01"
+    },
+    {
+      "path": "assets/rooms/classic-08-800.webp",
+      "sha256": "3ca1e6ce32c6d18dff45f4a15ca32c4d57813a568664a9ba8c386172b5744f4c"
+    },
+    {
+      "path": "assets/rooms/premium-08-1200.webp",
+      "sha256": "5f0a976fb96a5595f3466717fb75bf7350e6cb888cf2f5a73d920d996c54caa0"
+    },
+    {
+      "path": "assets/rooms/hornigold-04-800.webp",
+      "sha256": "d1f5beceb96ff460b0ac3f7876f105b5deddc179c53a249c89d4260f02d3844d"
+    },
+    {
+      "path": "assets/rooms/hornigold-05-800.webp",
+      "sha256": "5e1e2e065c810006d4eca712b7f647cb1134604cf969de1fc3b2cb1c6d69a7a6"
+    },
+    {
+      "path": "assets/rooms/deluxe-04-800.webp",
+      "sha256": "6048a1dfb6bb33a4ff63652c6c39847030701c3a208ed0364e9bf9a7c9ad1467"
+    },
+    {
+      "path": "assets/rooms/deluxe-05-800.webp",
+      "sha256": "609c6ea7e281f403e86bde2efd33d0fc3cdfdf232026e90081216a6ad8c64538"
+    },
+    {
+      "path": "assets/rooms/prestige-01-1200.webp",
+      "sha256": "438cbe948a22c35a3d679ba2a7b493d02eca76e7a36c5d63d587fa0bc80e7670"
+    },
+    {
+      "path": "assets/rooms/deluxe-02-1200.webp",
+      "sha256": "ce37e83def1fb8d1e71f420fb425c51599d1f3959581285376c4e67c2ca7b04a"
+    },
+    {
+      "path": "assets/rooms/classic-06-1200.webp",
+      "sha256": "dceaace75989699befdcd0d722ae81e824905c971cf8b09cdefc961f10dbf44e"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-04-800.webp",
+      "sha256": "56b7c90acce9413b6335781b05bfd74ee0369da2bf990a404fadf559a00e0bb3"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-02-1200.webp",
+      "sha256": "4f8ca2214bd4bf8de1330cbc0324464c06b174a69b4644da9920d2fe5dc1bc90"
+    },
+    {
+      "path": "assets/rooms/hornigold-05-1200.webp",
+      "sha256": "74b151b560e71409da3eb0ed1a49c13e5e74d5e55c90693e66a054914265499d"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-05-800.webp",
+      "sha256": "be978b8bbad6c232b3b4e4eb453a092e613a84d42665be789e3cf3b16c519b13"
+    },
+    {
+      "path": "assets/rooms/premium-03-320.webp",
+      "sha256": "2669b6bd02f7a644b9766565ed4b98e5ea6f544d6a1bd74d2c3c7dfb436a37c8"
+    },
+    {
+      "path": "assets/rooms/premium-02-320.webp",
+      "sha256": "d5f96146cc4950d0a51e48bdb174b6991d1ece9201a09eeb30372fb9faf3d305"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-03-1200.webp",
+      "sha256": "4e90ab682ea813cb0eafd40835435756141ad8aa33a5d5422395e945538511ec"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-01-320.webp",
+      "sha256": "3aef03e8afc312dd3ddfa1d8779e255ff04e23efa4af5eddefbcfc8dc884b282"
+    },
+    {
+      "path": "assets/rooms/premium-07-800.webp",
+      "sha256": "e191bae7d21684aaba65edeeb6c06aed6564a067405f31dada1cf234fcf4c1fc"
+    },
+    {
+      "path": "assets/rooms/premium-06-800.webp",
+      "sha256": "e69476283c5d5cf2acc736fb91db62b708aa360626fc02ab8cdca31b23609bed"
+    },
+    {
+      "path": "assets/rooms/premium-08-320.webp",
+      "sha256": "3c9147c08cff7688cc2a3e8ee5b2cfabb9181615bd3509e4e368575a0c6209c6"
+    },
+    {
+      "path": "assets/rooms/prestige-04-320.webp",
+      "sha256": "22161ebe5e4f8a6af2c3da071a515f997cf0b39045d09928e12795f5bc51c675"
+    },
+    {
+      "path": "assets/rooms/prestige-05-320.webp",
+      "sha256": "dbb49a085ee072652acb8f333b7b56f01e59e033d7dcb5d7a1d891d24b4439d3"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-03-1200.webp",
+      "sha256": "9bce131248545aeff1e5a3b90a90d3eb2e4ee57a60e7768012271ee6852cff64"
+    },
+    {
+      "path": "assets/rooms/suite-04-800.webp",
+      "sha256": "7f0c10b300c1852545ab94a674e7091827a45c077500d82897f32fb287e5727b"
+    },
+    {
+      "path": "assets/rooms/suite-05-800.webp",
+      "sha256": "6a8d80d548f281e9e1363e64ed7b814631f7f593e6ce84fef756c534fa35faa5"
+    },
+    {
+      "path": "assets/rooms/hornigold-08-1200.webp",
+      "sha256": "618bc4f0f9a679aaca4b1185a8b6bf81de78f78f39f619cc092a92cadf7f5432"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-12-320.webp",
+      "sha256": "5ec3da36b39fb7d90bf207133cc4cfbf12a78976ab727bceb4035ee8cb6e1d2b"
+    },
+    {
+      "path": "assets/rooms/prestige-01-800.webp",
+      "sha256": "7eed17a0c13e70fecd495789d0c4c8f90e6693b87ba2e39eee48b2311b9cea39"
+    },
+    {
+      "path": "assets/rooms/suite-01-320.webp",
+      "sha256": "f958d906794916580d4dfc869692f04614ee135618637251aeed055f63349207"
+    },
+    {
+      "path": "assets/rooms/classic-08-320.webp",
+      "sha256": "4a7e44e62c3ed94af91f8b1360ca604aeb60618d49ca9d587f235a8c7891c876"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-08-320.webp",
+      "sha256": "b439337fed4a59fec3d8448c42c0c05564b015a8d5a0d2cabdf4f63b54ae4f38"
+    },
+    {
+      "path": "assets/rooms/deluxe-04-320.webp",
+      "sha256": "266e8b19755aa325d8746a44c719a71a2f3d8b1196d71a2ec1bd394b6a1c8571"
+    },
+    {
+      "path": "assets/rooms/deluxe-05-320.webp",
+      "sha256": "eb8aa1bb8a751006513b42202a027c74aab8835fc005b2c307b278dcdd555777"
+    },
+    {
+      "path": "assets/rooms/hornigold-04-320.webp",
+      "sha256": "0423e3fbd582df02d668c1f54a1f4f11306bb5a7db2ac286f8df05e040daf5b3"
+    },
+    {
+      "path": "assets/rooms/hornigold-05-320.webp",
+      "sha256": "2efbe978c75c9fdd99fc6d13fcb8a68bf51401f87a83fde75c39b5c08944b259"
+    },
+    {
+      "path": "assets/rooms/premium-06-1200.webp",
+      "sha256": "89691cf8ed5ca15acd3f6574216fc793ad5d93fbd520b3b559fe27546a1efc5a"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-08-1200.webp",
+      "sha256": "5b7c028c48d2b1eaacfb4de0fa7c74ab53eb0e19d6e53ed80ac93f75011a9c93"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-11-1200.webp",
+      "sha256": "d74b0b08a2a6b4ccbafa749baeb177d58baaace0077f9e4d4f7ecf108059fc02"
+    },
+    {
+      "path": "assets/rooms/prestige-07-1200.webp",
+      "sha256": "adfb589c6ad12d62d38e62c0cc7b7d71fe5a89d209047eeda219bb82eb4aa394"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-04-1200.webp",
+      "sha256": "fa91740ee5181f5339c16ad656cf6373cee60fad49e36fa038c0ac812ca72a04"
+    },
+    {
+      "path": "assets/rooms/hornigold-03-1200.webp",
+      "sha256": "d74b0b08a2a6b4ccbafa749baeb177d58baaace0077f9e4d4f7ecf108059fc02"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-05-1200.webp",
+      "sha256": "5152227341112724d838674a58ac0fff7002e33d0fb968f29007d6bb75a1b652"
+    },
+    {
+      "path": "assets/rooms/suite-06-1200.webp",
+      "sha256": "12dd218cad44bbefc1dc9cc6c14c9f8de373f719d7c9fedc3d481a47c769eb4e"
+    },
+    {
+      "path": "assets/rooms/deluxe-04-1200.webp",
+      "sha256": "123165cef03ad65656085c5f0e561baff848d4bb13b51a64ab10e335376e7300"
+    },
+    {
+      "path": "assets/rooms/deluxe-01-800.webp",
+      "sha256": "56eb968682fca1da5e4be6d432c70b7962378c1756578f4c38b3fd0e6a4c8ac3"
+    },
+    {
+      "path": "assets/rooms/hornigold-01-800.webp",
+      "sha256": "6913732b06778883ef462e99f35ab21f1cfbe353a8749883673fbce73e6e63f3"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-03-320.webp",
+      "sha256": "a165d9fdf2248998113b183a0a9ae48feb6f28e3354a4c97e3830f62e722fd5a"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-02-320.webp",
+      "sha256": "a62d4f065b0c76f021d9f7c1bd3719a7982e2ed7cb812a1bb2a6cec50501da34"
+    },
+    {
+      "path": "assets/rooms/classic-02-320.webp",
+      "sha256": "b783dd4464fd7ee6e6f6cf2909465c5061c0c0b367834ac4e8c2ea8eeeebc70c"
+    },
+    {
+      "path": "assets/rooms/classic-03-320.webp",
+      "sha256": "42173641f3df1c52f5a0fe55488e049e01e6b1b08820a57a0418af97f85827e4"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-01-800.webp",
+      "sha256": "624d9673518efa8aef8c9af47a0003420ac3384c6cd3a6b06d377e812415382e"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-05-1200.webp",
+      "sha256": "1d11edfc394959282dad2625a454f52f1fc0afe4fe806493c6b5e977b49558c6"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-07-800.webp",
+      "sha256": "92e093bb39307fc557528b8fa8252fa837ac5e56d25453cac01a5cb586786acb"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-08-1200.webp",
+      "sha256": "e222ab9529313b2e8234cccaeea6cf47ceb4e779bb478a7d792e4174b33d8dee"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-06-800.webp",
+      "sha256": "2809ed9f5718c151a70b0fd01a822b0e4f6035b4f5356c2e1095794ce0a871f4"
+    },
+    {
+      "path": "assets/rooms/classic-06-800.webp",
+      "sha256": "1b9499a2403bfdc9a3af16ab86dfb8cf299fd4398fafae48563291a9e0245663"
+    },
+    {
+      "path": "assets/rooms/classic-07-800.webp",
+      "sha256": "3106c1d93c929453cc77507351f3c23bb01dbc034126ef7e145bf93eb3f6117d"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-04-320.webp",
+      "sha256": "3e53cc44b163966e86be7fd7a30e7d22b8ce73a4b3cf50d0ef2b6157d4204778"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-05-320.webp",
+      "sha256": "ed3902bdebc999b6fec8281fbccc6cac8556814a7c108e3fb1a24f94ff998470"
+    },
+    {
+      "path": "assets/rooms/deluxe-03-1200.webp",
+      "sha256": "f5227559aa276b39b17dd477053677ec533c0bb6f00031b06ee5a69840bd2718"
+    },
+    {
+      "path": "assets/rooms/classic-07-1200.webp",
+      "sha256": "0f78a33bd27e5d21ff9642c3261a3eaa1619442afb610fc86647119206aa80f8"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-03-1200.webp",
+      "sha256": "fddef7dd671d0761924f9b14a1f0aa661be29fbf5bf534b12a39eaf8db02cc3b"
+    },
+    {
+      "path": "assets/rooms/hornigold-04-1200.webp",
+      "sha256": "1a9cb52812c64f72247c204f34c02879698c3453101218d5a7a2181d6cbcc5d2"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-02-1200.webp",
+      "sha256": "3600df4265e2b27a20fa8ab3bdbe573c21e13a8fccca91a888a85cc9448f1f86"
+    },
+    {
+      "path": "assets/rooms/suite-01-1200.webp",
+      "sha256": "0a42e64d6a88aa27cc0ffd710f7529ad6a3270df702e8e89ad4b8daadf6c5dbe"
+    },
+    {
+      "path": "assets/rooms/deluxe-03-320.webp",
+      "sha256": "95b7d58381146b425b05c2a0bdf8c7dc2bc7fe97747d9812a77b7649cd5540c2"
+    },
+    {
+      "path": "assets/rooms/deluxe-02-320.webp",
+      "sha256": "8289cb52384e358ce98f7675ced7e8dd416545dafa33a7989a41fd3c9d4fdb7c"
+    },
+    {
+      "path": "assets/rooms/hornigold-03-320.webp",
+      "sha256": "4f01aa5a581bb02abde5967350bd4d8f77864dc6fa5dcf9951eeb8720e28f292"
+    },
+    {
+      "path": "assets/rooms/hornigold-02-320.webp",
+      "sha256": "c754b1a91f9873c13578fbf6cbe682cf91d826bc6547ce26ffe67a6b65b1c0cb"
+    },
+    {
+      "path": "assets/rooms/premium-01-1200.webp",
+      "sha256": "a116982be9008920a69a708cf4d4dc2f2822a27f13c4b176706769520bef1139"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-09-320.webp",
+      "sha256": "80b20c3a08cc8182e9961aa96116574bafb9fea1f298b2da337e76c4573ddb06"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-08-320.webp",
+      "sha256": "ddc666788a12c8c10ee6430deb04ed078d10d8b2f813840cad85d081acb2c1a1"
+    },
+    {
+      "path": "assets/rooms/deluxe-07-800.webp",
+      "sha256": "c5c312981ac5b18541426d9009c254e85e72368376a534d401b316c41ff02d58"
+    },
+    {
+      "path": "assets/rooms/deluxe-06-800.webp",
+      "sha256": "006d77b6553f4787e62df308a7ee5929457c795bb93663df96f263d989c35ad7"
+    },
+    {
+      "path": "assets/rooms/hornigold-07-800.webp",
+      "sha256": "2fbb11e924a7b6bf5994a4987bae0e4077ceed298e14f8ffd1ebb660d107c810"
+    },
+    {
+      "path": "assets/rooms/hornigold-06-800.webp",
+      "sha256": "b35f8986056b14a6cfe90bd127c430c39dff9fa4f65d8b00e4c1e7e18236a16a"
+    },
+    {
+      "path": "assets/rooms/hornigold-08-320.webp",
+      "sha256": "508a977cde77a2efa7d6fa93af0f669c2b555aa3378dddb002a174f53b18d597"
+    },
+    {
+      "path": "assets/rooms/deluxe-08-320.webp",
+      "sha256": "0f242f99229031ee4ee6cbce33e0d2e31b2331d7fd424953bbe5ed2a7e32f44e"
+    },
+    {
+      "path": "assets/rooms/classic-05-320.webp",
+      "sha256": "e6993f6ebbb2f1110ee01bb140b6f3675e6c1afb77d98b37fb93a4c0afb4a9be"
+    },
+    {
+      "path": "assets/rooms/classic-04-320.webp",
+      "sha256": "f6a9aeb5b350b95acdde989f43835cbf8e405ccb6bdfd61195af2191ee93b2a5"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-07-800.webp",
+      "sha256": "ac9104b3eaa45a5e6233947ddbfe424ff029fc6b80908dc7935f2c88d5953692"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-06-800.webp",
+      "sha256": "9528035f742939eb7931d8c1897c3c7d814cb749e65d3962e293a0e55e46e732"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-04-320.webp",
+      "sha256": "8c0ff38fef66eebaa2b017eadc7e89dfcaee7a384cf4fce40017c422a2fdfc4e"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-05-320.webp",
+      "sha256": "0653820e414a4a832b35abb0a2494107cc047e9d9cad0c0f169ecf466b26a27c"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-02-1200.webp",
+      "sha256": "5715931fe590801d9d8bc7bf38b6d296f48e1e77a29af3802e18f03415e1d0cc"
+    },
+    {
+      "path": "assets/rooms/classic-01-800.webp",
+      "sha256": "53a8c095050f2b4aee728f77ec8d1d53ba71afdfe9921da9bfa5c546c29b1156"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-03-320.webp",
+      "sha256": "f9f35d1dd3f63f4681c0ccf4cb68975b0594bfd1384b6bd8045088011e838c25"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-02-320.webp",
+      "sha256": "ca76983ddf70a26632acd3b5c37a7580bf05cbc4217fe2574efd3fa972201d8b"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-01-800.webp",
+      "sha256": "6afdf0b72e47b6fb3969a715340fd316c818f33142aec9775c17ca1c6944beb5"
+    },
+    {
+      "path": "assets/rooms/suite-08-800.webp",
+      "sha256": "0c3abc71066228971e6fb7b715a6a08b94cb1e0f5d96aeac691d0304c701de28"
+    },
+    {
+      "path": "assets/rooms/premium-07-1200.webp",
+      "sha256": "de60ebb34de5d663b89783fbac3241ce537c36a0fed504655081b5a01e9c6379"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-03-800.webp",
+      "sha256": "dfbaab1dfa534085c775a4b0a506fb8e7b24be49a5e236a51b2d125478466856"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-02-800.webp",
+      "sha256": "e20ebe092f21c7a2a5bef93cfc6dd5dd5ed77fd85ebfe29a29058f8950565a3c"
+    },
+    {
+      "path": "assets/rooms/prestige-08-320.webp",
+      "sha256": "1192d8a32c43c78029fd27938ba84cb5661e698761b95784d26754a69bb78f55"
+    },
+    {
+      "path": "assets/rooms/premium-04-320.webp",
+      "sha256": "84cc4ef3e2df4b2327450eb653bd3f30216dba4cabb5d609c7b8d6ab82823aff"
+    },
+    {
+      "path": "assets/rooms/premium-05-320.webp",
+      "sha256": "69344849d94d4eb8a3139de81079cf00fd15fdfbaad8accd91b94753e085cf70"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-05-1200.webp",
+      "sha256": "de152b936fe8938efb28f233888d8b6606924354ebce61af971411cf475fda9a"
+    },
+    {
+      "path": "assets/rooms/hornigold-02-1200.webp",
+      "sha256": "8383be652625c2aa2adef3a7567d4a903338cb941574fdae7453a85f78af910b"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-04-1200.webp",
+      "sha256": "5566feee1389567cf2cc5eca0d0855c947e8374627d7649c9f611649ac689293"
+    },
+    {
+      "path": "assets/rooms/suite-07-1200.webp",
+      "sha256": "9a4992f0830bdb74a625409a3055301d4051ea98384495d9a232efb3d8f866f9"
+    },
+    {
+      "path": "assets/rooms/deluxe-05-1200.webp",
+      "sha256": "6d1565ec79ff6c87640cc08b491a32d4fd6f0cc059afbd4c086e15a09cbc670a"
+    },
+    {
+      "path": "assets/rooms/classic-01-1200.webp",
+      "sha256": "1044b0c9f16513da8984b576582d31d3bcc1ca4c335b14f8eca0bd4da0ab343d"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-07-320.webp",
+      "sha256": "75142fbc5b221dc9b8c02898eec4d5857dd3f7022f249fc0d5f9a29e590fa70f"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-06-320.webp",
+      "sha256": "5a9174c2af55d47f8a5ecbb8697962d296eede1a7b10220a5004ee1378cb7a74"
+    },
+    {
+      "path": "assets/rooms/premium-01-800.webp",
+      "sha256": "ef9ce9b98d0b234db4565b31697a37df0e6801050bc1eac15674f8e451743ebb"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-10-1200.webp",
+      "sha256": "74b151b560e71409da3eb0ed1a49c13e5e74d5e55c90693e66a054914265499d"
+    },
+    {
+      "path": "assets/rooms/prestige-06-1200.webp",
+      "sha256": "2a9ddd41c912d9dc0a95d5d3ada183cb7e6da7ce8e923756cab9a10cfbb5725c"
+    },
+    {
+      "path": "assets/rooms/prestige-03-320.webp",
+      "sha256": "2635a49bf6266fce4e72df8bc06e6b0111cf55b77cca84a4c6abd8b967e34e40"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-10-800.webp",
+      "sha256": "5e1e2e065c810006d4eca712b7f647cb1134604cf969de1fc3b2cb1c6d69a7a6"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-08-800.webp",
+      "sha256": "874ed77d68e140845cf3f041d8864bf879416e6882d5764e3618490961a8af0f"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-11-800.webp",
+      "sha256": "0a8e09d8119f6df89c4172152efe01879d0c5c2593639ddb9ec6199942302886"
+    },
+    {
+      "path": "assets/rooms/prestige-02-320.webp",
+      "sha256": "b8a80a798d115be64a837d0fb2a62567647d7d8a48e3dff7ccdf814d4072c89d"
+    },
+    {
+      "path": "assets/rooms/suite-03-800.webp",
+      "sha256": "b584e7295262d42bb2ce207a75d49f35851eaf64acf07a0e01d86a7fc8d9b3cc"
+    },
+    {
+      "path": "assets/rooms/suite-02-800.webp",
+      "sha256": "cf7f504a00c38134d29bfa660d077792b3655acd6c430a0b224c6eefb4f4747e"
+    },
+    {
+      "path": "assets/rooms/apartament-deluxe-09-1200.webp",
+      "sha256": "cd15c11653529f72da63d347f587e65abd07c40ea27e7b3ed99469349942c417"
+    },
+    {
+      "path": "assets/rooms/prestige-deluxe-08-1200.webp",
+      "sha256": "7185f530c3b066a3ca2d378db7f4636d1291b0dd8814b85a87053d8fbf993e8b"
+    },
+    {
+      "path": "assets/rooms/prestige-07-800.webp",
+      "sha256": "7e6ac79fb4150757270f8cd6c08b33c56653e8ce0c72f5349a7e2e339d82d616"
+    },
+    {
+      "path": "assets/rooms/prestige-06-800.webp",
+      "sha256": "fbaeefbff3fd743bad5f6ea00f3d39916c38eb59825dca2672f9e99e332b9908"
+    },
+    {
+      "path": "assets/rooms/deluxe-08-1200.webp",
+      "sha256": "a799471439dbf46be5ef75a588c23078a78026f07d1f6347cf7aa4b9c7a4f1bb"
+    },
+    {
+      "path": "assets/rooms/deluxe-premium-04-1200.webp",
+      "sha256": "782f6a7c0a10dadf63c13b7ceb8c6e4542d460349229c24731d400c89f8616f9"
+    },
+    {
+      "path": "assets/rooms/suite-07-320.webp",
+      "sha256": "588bbf220c1d17016ab46b9f5bb427377a717dd95e50120cf334cd7c5378cacf"
+    },
+    {
+      "path": "assets/rooms/suite-06-320.webp",
+      "sha256": "e4a7b248a1e20e33b868be4d7794d7e917eef03126e8407d046908f01ef8a5c5"
+    },
+    {
+      "path": "assets/og/hotel.jpg",
+      "sha256": "433e27093c18b5d06a40e193ffd89470b9d0dcf1cbd271ff2cc09aa2c0a848bb"
+    },
+    {
+      "path": "assets/og/deluxe.jpg",
+      "sha256": "a2a35ce4a88a4a8378d9a57137f9589848ad17dfd826a3dca343e2db1a4c9a10"
+    },
+    {
+      "path": "assets/og/apartament-deluxe.jpg",
+      "sha256": "c0f26a0d2db27de97905ec00227ee2e8d7143ea7a8baa0369f5989d6d957b327"
+    },
+    {
+      "path": "assets/og/classic.jpg",
+      "sha256": "684aedce3fc9549eedeb4e9d5db145ee17db7d4b05bde2054d361f1f89482c6b"
+    },
+    {
+      "path": "assets/og/hornigold.jpg",
+      "sha256": "d3cffc6ae9f46b718c78b1b5d91b860761605a343baf1792c6119e3f31b9edd5"
+    },
+    {
+      "path": "assets/og/prestige.jpg",
+      "sha256": "c961f675d37658de0ad338bbe686b3a9c979783529c9273358e4482937f89355"
+    },
+    {
+      "path": "assets/og/prestige-deluxe.jpg",
+      "sha256": "afd070b8c0170ae89c1c9dab08f4538c06389ed4435d1b3c81a94fb577e663a7"
+    },
+    {
+      "path": "assets/og/suite.jpg",
+      "sha256": "478912a9704ee3501b0aaf3368d1999c03d99586a7cbb5e23d65cf9b0d6ccba8"
+    },
+    {
+      "path": "assets/og/premium.jpg",
+      "sha256": "47295caa07f68f5bc650ee658927b0f4f95e4018febac9b6ac37b68f509ce8ae"
+    },
+    {
+      "path": "assets/og/deluxe-premium.jpg",
+      "sha256": "6200183c0487e8c064a29f92feabb081bffb4e6186cde54296a64b89cf4a574b"
+    },
+    {
+      "path": "assets/airports/ktw.jpg",
+      "sha256": "7e366915af17fdfd9cdbcb527d6bc2ca3090531f01d5870ed2ffd16f09b6fd14"
+    },
+    {
+      "path": "assets/airports/krk.jpg",
+      "sha256": "220971d1beb11f6b133f4fbad358e0910d7e520cf528661de943a668b9aa0da3"
+    },
+    {
+      "path": "assets/airports/ktw-exterior.jpg",
+      "sha256": "fa06e67bae229d17bc88a8d67d0d1450939ac1523cbd3f55c0a8f1c614b2be7a"
+    }
+  ]
+}

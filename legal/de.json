@@ -41,7 +41,7 @@
         "Verantwortlicher für die Bearbeitung Ihrer Anfrage ist die in den rechtlichen Angaben genannte Gesellschaft. Datenschutzkontakt: office@hornigold.pl oder Postanschrift der Gesellschaft. Diese Erklärung betrifft die Website und Anfragen an die Rezeption, nicht das inaktive Zahlungssystem oder andere gesonderte Verarbeitungskanäle.",
         "Nachrichten werden lokal im Browser vorbereitet. Erst beim Versand aus Ihrem E-Mail-Programm übermitteln Sie Adresse, Text und freiwillige Angaben an den Empfänger. Für Angebot oder Vertrag nötige Daten verarbeiten wir nach Art. 6 Abs. 1 Buchst. b DSGVO; allgemeine Korrespondenz, Missbrauchsschutz und Geltendmachung oder Abwehr von Ansprüchen aufgrund berechtigter Interessen nach Buchst. f; gesetzlich erforderliche Unterlagen nach Buchst. c. Eine Werbeeinwilligung ist weder für Fragen noch für Buchungen erforderlich.",
         "Angaben sind freiwillig; ohne Kontakt- und Aufenthaltsinformationen können wir jedoch nicht antworten oder ein Angebot erstellen. Keine sensiblen Daten oder Ausweisdokumente im Formular senden. Die Website betreibt kein Profiling und keine automatisierten Entscheidungen mit Rechtswirkung. Es gibt kein Newsletterformular und keine aktiven Werbewerkzeuge.",
-        "Empfänger können befugte Bearbeiter, E-Mail- und IT-Dienstleister, Buchhaltung, Rechtsberatung und gesetzlich berechtigte Behörden sein, soweit erforderlich. Hosting: GitHub Pages. Der Anbieter kann IP-Adresse, angeforderte URL und technische Daten, auch zur Sicherheit, nach eigener Datenschutzerklärung verarbeiten. GitHub erläutert Verarbeitung außerhalb des EWR und Transfermechanismen, etwa einschlägige Angemessenheitsbeschlüsse oder Standardvertragsklauseln: docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Einzelheiten und Kopien anwendbarer Garantien können Sie beim Verantwortlichen anfordern. Google-Karten aktivieren einen gesonderten Google-Dienst: policies.google.com/privacy.",
+        "Zugriff erhalten befugte Beschäftigte sowie erforderliche Anbieter für E-Mail, IT, Buchhaltung und Rechtsberatung und gesetzlich befugte Behörden. Die Adresse chatgpt.site nutzt OpenAI Sites und Cloudflare, github.io nutzt GitHub Pages. Hostinganbieter können IP-Adressen, angeforderte URLs und technische Daten für Bereitstellung und Sicherheit verarbeiten. Informationen zu Anbietern und Drittlandübermittlungen: openai.com/policies/eu-privacy-policy/, cloudflare.com/privacypolicy/, docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Einzelheiten zu geltenden Schutzmaßnahmen erhalten Sie beim Verantwortlichen. Google Maps ist ein eigener Dienst: policies.google.com/privacy.",
         "Anfragen werden während Bearbeitung und Angebotsabstimmung aufbewahrt; bei Vertragsschluss auch während Erfüllung und gesetzlicher Dokumentationsfristen. Steuerunterlagen grundsätzlich fünf Jahre ab Ende des Jahres, in dem die Steuerzahlungsfrist ablief. Anspruchsrelevante Daten bis zum Ende der anwendbaren Verjährung: grundsätzlich sechs Jahre, bei geschäftsbezogenen Ansprüchen drei Jahre, vorbehaltlich Sonderfristen und fristbeeinflussender Ereignisse. Übrige Korrespondenz wird nach Abschluss ohne weitere Aufbewahrungsgrundlage gelöscht. Browserdaten sind gesondert erläutert; Anbieter bestimmen die Speicherung eigener Protokolle in ihren Regeln.",
         "Sie können Auskunft, Berichtigung, Löschung und Einschränkung sowie unter DSGVO-Voraussetzungen Datenübertragbarkeit verlangen. Gegen Verarbeitung aufgrund berechtigter Interessen können Sie Widerspruch einlegen. Einwilligungen sind jederzeit widerruflich, ohne die Rechtmäßigkeit früherer Verarbeitung zu berühren. Beschwerden sind beim Präsidenten der polnischen UODO (uodo.gov.pl) oder der zuständigen Aufsichtsbehörde möglich. Anträge beantworten wir grundsätzlich innerhalb eines Monats; über zulässige Verlängerungen und Gründe informieren wir innerhalb dieser Frist. Eine angemessene Identitätsprüfung kann nötig sein."
       ]
@@ -50,10 +50,11 @@
       "id": "cookies",
       "title": "Cookies, Gerätespeicher und Einwilligungen",
       "paragraphs": [
-        "Ohne Einwilligung aktivieren wir keine Werbung, Analyse oder eingebetteten Google-Panoramen. Scrollen, Schließen eines Hinweises und Websitenutzung sind keine Einwilligung. Derzeit sind Google-Karten und Panoramen die einzige optionale Integration; Analyse und Werbung sind inaktiv.",
+        "Eingebettete Google-Panoramen laden wir nur mit Ihrer Einwilligung. Scrollen oder Schließen des Hinweises gilt nicht als Einwilligung. Karten sind die einzige optionale Einbindung; Google Analytics und Werbedienste sind inaktiv.",
         "Eigener Speicher: hornigold-language (localStorage) speichert die gewählte Sprache bis zur Löschung. hornigold-stay, hornigold-comparison und hornigold-enquiry-plan (sessionStorage) speichern Planung und Vergleich bis zum Ende der Tab-Sitzung. Freitext und Kartendaten werden dort nicht gespeichert. hornigold-privacy (localStorage) speichert Datenschutzauswahl, Regelversion und Datum höchstens 180 Tage; danach sind optionale Karten wieder deaktiviert. Dies dient angeforderten Funktionen und Ihrer Auswahl, nicht der Werbeverfolgung.",
         "Reisedaten und Gästezahl können in der URL stehen: Wer den Link erhält, sieht diese Angaben; die angeforderte URL kann in Hosting-Protokollen erscheinen. Keine Namen, E-Mail-Adressen oder sonstigen personenbezogenen Daten in URLs eintragen. Externe Links öffnen andere Dienste erst nach Anklicken.",
-        "Über „Datenschutzeinstellungen“ in der Fußzeile wählen Sie nur notwendige Funktionen oder erlauben gesondert Google-Karten und können die Einwilligung ebenso leicht widerrufen. Beim Widerruf entfernen wir eingebettete Karten. Bereits beim Fremdanbieter gespeicherte Daten können wir nicht löschen; verwalten Sie diese auch im Browser und beim Anbieter. Die Löschfunktion entfernt Hornigolds eigenen Speicher auf diesem Gerät. Schriftliche Wegbeschreibungen und Kontaktdaten bleiben bei Ablehnung verfügbar."
+        "Über „Datenschutzeinstellungen“ in der Fußzeile wählen Sie nur notwendige Funktionen oder erlauben gesondert Google-Karten und können die Einwilligung ebenso leicht widerrufen. Beim Widerruf entfernen wir eingebettete Karten. Bereits beim Fremdanbieter gespeicherte Daten können wir nicht löschen; verwalten Sie diese auch im Browser und beim Anbieter. Die Löschfunktion entfernt Hornigolds eigenen Speicher auf diesem Gerät. Schriftliche Wegbeschreibungen und Kontaktdaten bleiben bei Ablehnung verfügbar.",
+        "Die Sites-Version besitzt einen gemeinsamen Seitenaufrufzähler. Seine Datenbank speichert nur die Gesamtsumme und das Startdatum der Zählung. Sie speichert keine IP-Adressen, besuchten Seitenadressen oder Personenkennungen und nutzt keine Cookies oder Gerätespeicher zur Wiedererkennung. Erneutes Laden und wiederholte Besuche können den Wert erhöhen: Er zählt Seitenaufrufe, keine einzelnen Besucher. Verkäufe und Werbeerfolge werden nicht gemessen. Technische Hostingprotokolle sind von dieser Datenbank getrennt. Bei einer Kopie ohne Server wird der Zähler als nicht verfügbar angezeigt."
       ]
     },
     {
@@ -68,13 +69,13 @@
   ],
   "ui": {
     "settings": "Datenschutzeinstellungen",
-    "notice": "Wir speichern Daten für die von Ihnen gewählten Funktionen. Google-Karten benötigen Ihre Einwilligung. Werbung und Analyse sind ausgeschaltet.",
+    "notice": "Wir merken uns Ihre gewählten Websitefunktionen. Google Maps benötigt Ihre Einwilligung. Google Analytics und Werbung sind deaktiviert.",
     "necessary": "Nur notwendige Funktionen",
     "save": "Auswahl speichern",
     "close": "Schließen",
     "maps": "Google-Karten und Panoramen erlauben",
     "mapDetail": "Google erhält unter anderem Ihre IP-Adresse, kann eigene Cookies nutzen und Daten außerhalb des EWR verarbeiten. Hier können Sie widerrufen. Schriftliche Wegbeschreibungen funktionieren ohne Einwilligung.",
-    "inactive": "Analyse und Werbung: inaktiv; dafür holen wir keine Einwilligung ein.",
+    "inactive": "Google Analytics und Werbung sind inaktiv. Ein separater Zähler zeigt nur die Gesamtzahl der Seitenaufrufe.",
     "clear": "Gespeicherte Auswahl und Aufenthaltsplan löschen",
     "cleared": "Gespeicherte Websitedaten wurden gelöscht. Zum Leeren der Formulare bitte neu laden.",
     "privacyLink": "So verarbeiten wir Daten",
@@ -83,6 +84,6 @@
     "toc": "Dokumentenübersicht",
     "quick": "Schnellzugriff",
     "reviews": "Die Bewertung stammt von Google. Wir prüfen nicht selbst, ob alle Bewertenden bei uns übernachtet haben. Aktuelle Bewertungen und Veröffentlichungsregeln finden Sie bei Google.",
-    "club": "Club Hornigold ist derzeit nicht verfügbar. Für ein Aufenthaltsangebot wenden Sie sich an die Rezeption."
+    "club": "Vorteile müssen von der Rezeption bestätigt werden und gelten nicht automatisch. Ein regulärer Aufenthalt ist ohne Mitgliedschaft oder Werbeeinwilligung möglich. Eine Anfrage allein ist keine Anmeldung zum Programm."
   }
 }

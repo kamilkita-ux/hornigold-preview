@@ -1,0 +1,35 @@
+{
+  "cases": 7,
+  "results": [
+    {
+      "lang": "pl",
+      "pass": true
+    },
+    {
+      "lang": "en",
+      "pass": true
+    },
+    {
+      "lang": "de",
+      "pass": true
+    },
+    {
+      "lang": "zh-hans",
+      "pass": true
+    },
+    {
+      "lang": "uk",
+      "pass": true
+    },
+    {
+      "lang": "es",
+      "pass": true
+    },
+    {
+      "lang": "it",
+      "pass": true
+    }
+  ],
+  "remoteRequestsMocked": true,
+  "publication": "deferred"
+}

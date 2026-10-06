@@ -1,0 +1,27 @@
+# Hornigold w Zielonej Kamienicy
+
+> Strona informacyjna Hornigold. Rezerwacje i płatności online są obecnie niedostępne. Warunki i aktualne ceny potwierdza recepcja.
+
+Kopernika 6, 40-064 Katowice
++48 608 662 707
+office@hornigold.pl
+
+## Pokoje
+- Classic: Powierzchnia: 20–22 m²; Łóżka: Jedno łóżko podwójne lub dwa pojedyncze; Cena od: 380 PLN
+- Deluxe: Powierzchnia: 30 m²; Łóżka: Jedno łóżko podwójne; Cena od: 410 PLN
+- Deluxe Premium: Powierzchnia: 26–47 m²; Łóżka: Jedno łóżko podwójne lub dwa pojedyncze; Cena od: 485 PLN
+- Premium: Powierzchnia: 35 m²; Łóżka: Jedno łóżko podwójne; Cena od: 450 PLN
+- Suite: Powierzchnia: 40 m²; Liczba gości: 3; Łóżka: Jedno łóżko podwójne; Cena od: 590 PLN
+- Apartament Deluxe: Powierzchnia: 43–61 m²; Łóżka: Jedno łóżko queen; Cena od: 600 PLN
+- Apartament Prestige: Powierzchnia: 60–70 m²; Liczba gości: 6; Łóżka: Dwie sypialnie; łóżko podwójne i dwa pojedyncze lub dwa podwójne; sofa; Cena od: 695 PLN
+- Apartament Prestige Deluxe: Powierzchnia: 49 m²; Łóżka: Dwie sypialnie, w każdej łóżko queen; Cena od: 795 PLN
+- Apartament Hornigold: Powierzchnia: 105 m²; Łóżka: Dwie sypialnie, w każdej łóżko queen; Cena od: 1100 PLN
+
+## Języki
+- pl: https://hornigold.pl/pl/
+- en: https://hornigold.pl/en/
+- de: https://hornigold.pl/de/
+- zh-hans: https://hornigold.pl/zh-hans/
+- uk: https://hornigold.pl/uk/
+- es: https://hornigold.pl/es/
+- it: https://hornigold.pl/it/

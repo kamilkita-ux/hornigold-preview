@@ -9,3 +9,7 @@ node_modules/
 *.sqlite*
 *.db
 *.log
+
+_pages/
+dist/
+.wrangler/

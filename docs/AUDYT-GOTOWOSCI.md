@@ -1,3 +1,5 @@
+Aktualne scalenie 23.1: [AUDYT-SCALENIA-23.md](AUDYT-SCALENIA-23.md). Poniższe raporty opisują wcześniejsze etapy; serwer i licznik wracają na Sites, a push GitHub jest odłożony.
+
 Aktualizacja 2026-10-06: wersja 23 dodaje dokumenty i sterowanie prywatnością. Szczegółowy aktualny zakres, testy oraz otwarte wymagania: [AUDYT-UE-23.json](AUDYT-UE-23.json). Poniżej zachowano audyt wersji 22 jako punkt odniesienia, nie jako aktualny wykaz brakujących dokumentów.
 
 # Hornigold — audyt gotowości

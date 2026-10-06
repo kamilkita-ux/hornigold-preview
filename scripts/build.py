@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 VERSION=str(RELEASE['version'])
-args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');opts=args.parse_args()
+args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
 if not re.fullmatch(r'/[A-Za-z0-9_/-]*',BASE):raise SystemExit('Invalid base path')
 OUT=ROOT/'_site'
@@ -18,6 +18,8 @@ p=OUT/'assets/root-language.js';s=p.read_text().replace("location.replace('/'+la
 p=OUT/'assets/error-language.js';s=p.read_text().replace('location.pathname.replace(', 'location.pathname.slice('+str(len(BASE)-1)+').replace(').replace("a.href='/'+a.dataset.language",'a.href='+json.dumps(BASE)+'+a.dataset.language');p.write_text(s)
 for p in OUT.rglob('*.html'):
  s=BeautifulSoup(p.read_text(),'html.parser')
+ if opts.counter and s.select_one('[data-site-version]'):
+  meta=s.new_tag('meta');meta['name']='hornigold-counter-endpoint';meta['content']=BASE+'api/site-stats';s.head.append(meta)
  for el in s.select('[href],[src],[action],[poster]'):
   for attr in ['href','src','action','poster']:
    if attr in el.attrs:el[attr]=prefixed(el[attr])
@@ -53,5 +55,5 @@ for p in OUT.rglob('*.html'):
 if pages!=693:errors.append('Expected 693 pages, found '+str(pages))
 if errors:raise SystemExit('\n'.join(errors[:30]))
 import os
-(OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')
+(OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'counterEnabled':opts.counter,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'pages':pages,'base':BASE,'errors':0,'mode':'preview','output':str(OUT)}))

@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-06T18:00:30.002Z",
+  "base": "http://127.0.0.1:4334",
+  "cases": 28,
+  "results": [
+    {
+      "route": "/de/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/de/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/de/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/de/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/en/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/en/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/en/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/en/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/es/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/es/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/es/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/es/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/it/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/it/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/it/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/it/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/pl/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/pl/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/pl/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/pl/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/uk/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/uk/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/uk/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/uk/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/zh-hans/club-hornigold/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/zh-hans/club-hornigold/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": []
+    },
+    {
+      "route": "/zh-hans/",
+      "width": 375,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    },
+    {
+      "route": "/zh-hans/",
+      "width": 1366,
+      "overflow": false,
+      "external": [],
+      "cookies": "",
+      "violations": [],
+      "manualReview": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "Automated scan only; not full WCAG, legal or physical-device certification"
+  ]
+}

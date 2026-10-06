@@ -1,0 +1,259 @@
+{
+  "cases": 42,
+  "results": [
+    {
+      "engine": "chromium",
+      "lang": "pl",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "pl",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "en",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "en",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "de",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "de",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "zh-hans",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "zh-hans",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "uk",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "uk",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "es",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "es",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "it",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "it",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "pl",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "pl",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "en",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "en",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "de",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "de",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "zh-hans",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "zh-hans",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "uk",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "uk",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "es",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "es",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "it",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "it",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "pl",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "pl",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "en",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "en",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "de",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "de",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "zh-hans",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "zh-hans",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "uk",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "uk",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "es",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "es",
+      "width": 1366,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "it",
+      "width": 375,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "it",
+      "width": 1366,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "counterRequestsMocked": true
+}
