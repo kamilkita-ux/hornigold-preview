@@ -15,3 +15,9 @@ This SEO worktree is local-only. Do not push, publish, modify DNS/Pages/Search C
 
 ## Subsequent publication authorization (2026-10-07)
 The user explicitly authorized implementing AI discovery improvements and publishing them in all seven languages. Revision 23.2 may be pushed and deployed to the existing GitHub Pages and Sites previews. Retain preview indexing blocks, Site identity/audience/D1 binding and the original dirty checkout. Production-ready artifacts, production domain and external search/profile/booking/payment services remain outside this authorization.
+
+## Current instruction: Polish local SEO only (2026-10-07)
+The latest user instruction supersedes earlier publication authorization for this task. Work in this initially clean Sites checkout; save changes and tests locally only. Do not push, deploy, publish or change any external service. Keep preview robots and noindex unchanged. Only minimal WebPage schema is permitted. Do not infer that the requested keyword "hotel" authorizes describing Hornigold as a hotel. Preserve existing prices, availability, business data and operational integrations.
+
+## Owner approval to publish Polish SEO (2026-10-07)
+The user subsequently approved publication. Revision 23.3 may be published to the existing Sites and complete GitHub Pages previews. Preserve all preview indexing blocks, Site audience/identity/D1 binding, and booking/payment restrictions. Do not deploy production-ready or alter the production domain. The previous local-only rule describes the completed preparation phase.

@@ -1,0 +1,2 @@
+{"date": "2026-10-06T22:10:02.344436+00:00", "mode": "production-ready", "polishCanonicalPages": 99, "allCanonicalRoutes": 693, "metadataPagesUpdated": 13, "contextualLinksAdded": 65, "duplicates": {"titles": [], "descriptions": []}, "errors": [], "limits": ["Offline source review; no new validation of commercial facts, local distances, external profiles or rankings.", "Business-claim scanner is heuristic, not a complete factual audit or legal assessment."]}
+{"claimCandidates": 179, "ambiguousCandidates": 4, "weakLinkCandidates": 3, "technicalNoindexHtml": 548, "pdfs": 7}

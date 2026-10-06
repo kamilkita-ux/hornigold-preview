@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-06T22:10:04.700Z",
+  "pages": 21,
+  "cases": 42,
+  "axeCases": 42,
+  "failures": [],
+  "results": [
+    {
+      "route": "/pl/catering/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/faq/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/informacje/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/katowice/wydarzenie/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/konferencje/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/kontakt/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/lokalizacja/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/o-nas/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/opinie/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/parking/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/dluzszy-pobyt/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/rodzina/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/sluzbowo/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/weekend/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/wydarzenie/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/pokoje/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/porownaj/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/sniadania/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/wellness-spa/",
+      "width": 375,
+      "errors": []
+    },
+    {
+      "route": "/pl/catering/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/faq/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/informacje/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/katowice/wydarzenie/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/konferencje/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/kontakt/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/lokalizacja/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/o-nas/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/opinie/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/parking/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/dluzszy-pobyt/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/rodzina/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/sluzbowo/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/weekend/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pobyt/wydarzenie/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/pokoje/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/porownaj/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/sniadania/",
+      "width": 1366,
+      "errors": []
+    },
+    {
+      "route": "/pl/wellness-spa/",
+      "width": 1366,
+      "errors": []
+    }
+  ],
+  "limits": [
+    "Local Chromium emulation only; not full manual WCAG certification or field metrics."
+  ]
+}

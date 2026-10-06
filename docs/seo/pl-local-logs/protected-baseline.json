@@ -1,0 +1,18 @@
+{
+  "site/robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+  "site/_headers": "902c93e6e7d3e9829103d786c3cbbe860b8659d67ecb3ee13303fdbc21c9a29c",
+  "release.json": "5a2ba8c201b2ce95c92a620efee87214797fb4d15126dc5d9ff08c3dc94b94f8",
+  ".openai/hosting.json": "0ad8fe278da47fd633ca41125581de4a7de687601dfff7505b39f2668292bfd2",
+  "server/worker.mjs": "fa90b2f05d9223892c2176394c0617531b2a60cd8febec5535b0de703189e86a",
+  "server/routes.mjs": "ac36cc02c468a4c6b8cc5e371959abc8c5eacb8e9e0972160d6ce554a6b3840e",
+  "server/counter.mjs": "6e27d619684329324f61acd2161f3a4edf85c8258d59ebb03b469d1a5adea17e",
+  "legal/de.json": "e48093906163295ae4c1fcf3d626f68b178f8272efd22a8df55dd901cdced104",
+  "legal/pl.json": "a63824388989229c159eaf6079b793adad60c32fca3ecfe9b370c296d72a0105",
+  "legal/uk.json": "5dbb71b1922aa737bf4146e836a092b7f51c5cae095acf5dde201a1442a3c75f",
+  "legal/en.json": "3cfffd799755185f62e8735de321fb18d1523d014ce62f4daf7e194ee00fff17",
+  "legal/it.json": "1697492dfee2f8176d3b763e297e3ae9d16f4bf743d5d080034dc3f9c903262b",
+  "legal/operator-verification.json": "dcfa6905bf757343cfb28469149c0e4b475e17584fe6a6e4f40fb0ee0debd6de",
+  "legal/zh-hans.json": "0328d5a22ed058200686df28df1d0e8c63b18676690547137c4f8f827be365d9",
+  "legal/es.json": "291f19f15b171b15db710ccae0ee670f67ab9b436558593c0d8469eb61f5e002",
+  ".github/workflows/pages.yml": "5cece9bb0b461030086434aeea089f741e2c98d1daba402b638d76fb6ae96a2e"
+}

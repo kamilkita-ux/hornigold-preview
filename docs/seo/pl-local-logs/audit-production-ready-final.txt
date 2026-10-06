@@ -1,0 +1,1 @@
+{"date": "2026-10-06T22:09:56.769762+00:00", "mode": "production-ready", "base": "/", "routes": 693, "html": 1241, "links": 69077, "images": 2604, "reachableRoutes": 693, "redirectAliases": 539, "errors": [], "warnings": [], "limits": ["Offline audit only; no external link, indexing, DNS or ranking validation", "No legal, translation or full WCAG certification"]}

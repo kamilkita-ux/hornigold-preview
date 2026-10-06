@@ -1,0 +1,87 @@
+{
+  "dateLocal": "2026-10-07",
+  "sourceCheckout": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/tmp/sites-consolidated-23",
+  "sourceProject": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+  "startingCommit": "04af54414df7d0764786dbb4d771b95c16644a3e",
+  "localOnly": true,
+  "pushPerformed": false,
+  "deployPerformed": false,
+  "indexingOpened": false,
+  "productionDomainChanged": false,
+  "metadataPages": 13,
+  "navigationPages": 18,
+  "contextualLinks": 65,
+  "sourcePagesChanged": 21,
+  "polishCanonicalPages": 99,
+  "builds": {
+    "preview": {
+      "routes": 693,
+      "html": 1241,
+      "references": 69077,
+      "imageOccurrences": 2604,
+      "errors": 0,
+      "warnings": 0
+    },
+    "production-ready": {
+      "routes": 693,
+      "html": 1241,
+      "references": 69077,
+      "imageOccurrences": 2604,
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  "seoTestsPassed": 10,
+  "browser": {
+    "pages": 21,
+    "cases": 42,
+    "axeCases": 42,
+    "failures": 0
+  },
+  "businessClaimCandidates": 179,
+  "businessClaimPages": 28,
+  "genericIntentCandidates": 4,
+  "intentionalLinkExceptions": [
+    {
+      "route": "/pl/miasto-i-okolice/auschwitz-birkenau/",
+      "potentialMissingTargets": [
+        "/pl/pokoje/"
+      ],
+      "status": "ŚWIADOMIE POZOSTAWIONO: treść o pamięci i dziedzictwie; brak automatycznego CTA noclegowego w artykule, nawigacja globalna pozostaje."
+    },
+    {
+      "route": "/pl/miasto-i-okolice/dziedzictwo-zydowskie/",
+      "potentialMissingTargets": [
+        "/pl/pokoje/"
+      ],
+      "status": "ŚWIADOMIE POZOSTAWIONO: treść o pamięci i dziedzictwie; brak automatycznego CTA noclegowego w artykule, nawigacja globalna pozostaje."
+    },
+    {
+      "route": "/pl/miasto-i-okolice/miejsca-pamieci-slaska/",
+      "potentialMissingTargets": [
+        "/pl/pokoje/"
+      ],
+      "status": "ŚWIADOMIE POZOSTAWIONO: treść o pamięci i dziedzictwie; brak automatycznego CTA noclegowego w artykule, nawigacja globalna pozostaje."
+    }
+  ],
+  "nonPolishMetadataChanged": false,
+  "noindexTechnicalHtml": 548,
+  "pdfsExcludedFromSitemap": 7,
+  "secretScan": {
+    "files": 5067,
+    "gitObjects": 24970,
+    "findings": []
+  },
+  "protectedBoundaryCheck": {
+    "protectedFilesChecked": 16,
+    "protectedChanges": [],
+    "polishHtmlCompared": 100,
+    "commercialParagraphChanges": [],
+    "sourceCommit": "04af54414df7d0764786dbb4d771b95c16644a3e",
+    "networkMutationPerformed": false
+  },
+  "limits": [
+    "Offline checks, not publication, external indexing, ranking or factual/legal certification.",
+    "Browser checks use local Chromium and emulated widths, not physical devices."
+  ]
+}

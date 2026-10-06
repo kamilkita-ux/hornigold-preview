@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-06T22:02:42.621791+00:00",
+  "date": "2026-10-06T22:09:56.769762+00:00",
   "mode": "production-ready",
   "base": "/",
   "routes": 693,
   "html": 1241,
-  "links": 69012,
+  "links": 69077,
   "images": 2604,
   "reachableRoutes": 693,
   "redirectAliases": 539,
@@ -905,20 +905,20 @@
     {
       "route": "/pl/",
       "lang": "pl",
-      "title": "Pokoje i apartamenty w centrum Katowic | Hornigold",
-      "description": "Pokoje i apartamenty w centrum Katowic. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami.",
+      "title": "Noclegi w centrum Katowic – pokoje i apartamenty | Hornigold",
+      "description": "Zaplanuj nocleg w centrum Katowic. Poznaj pokoje i apartamenty Hornigold, sprawdź dojazd i wybierz plan pobytu. Termin i warunki uzgodnij z recepcją.",
       "canonical": "https://hornigold.pl/pl/",
       "robots": "index,follow",
-      "sha256": "1af943582905a7ea14f7ffe56e254de722364bfa2fcaed8a90570c3850f5b696"
+      "sha256": "0adf1993cce56b0da3a8e35a87d5faf84b988c3a249f4c7f786c1dcaecdec754"
     },
     {
       "route": "/pl/lokalizacja/",
       "lang": "pl",
-      "title": "Katowice. Twoja kolejna historia. | Hornigold",
-      "description": "Katowice. Twoja kolejna historia. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Lokalizacja Hornigold – dojazd w Katowicach | Hornigold",
+      "description": "Hornigold przy Kopernika 6 w Katowicach: zobacz wejście, opis spaceru z dworca oraz odnośniki do tras z lotnisk. Aktualne połączenia sprawdź w mapach.",
       "canonical": "https://hornigold.pl/pl/lokalizacja/",
       "robots": "index,follow",
-      "sha256": "093d0689c5e008c56d994fc915579c8160003f849bea2f179b655ae37054612e"
+      "sha256": "8820906857eb20d2f543e009920473eeacadef836db3cf47a7f633685657082b"
     },
     {
       "route": "/pl/opinie/",
@@ -927,7 +927,7 @@
       "description": "Doświadczenia naszych gości. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/opinie/",
       "robots": "index,follow",
-      "sha256": "f4e6a64882ff7ff25772c2f359e98dccaa3c5d15648b586dcee762a6a58fde05"
+      "sha256": "f05c29853093a1e9c318a648f060912dc834ac1cdaf579b36d77d176cfb9fcea"
     },
     {
       "route": "/pl/oferty/",
@@ -941,38 +941,38 @@
     {
       "route": "/pl/porownaj/",
       "lang": "pl",
-      "title": "Wybierz to, co ważne dla Ciebie. | Hornigold",
-      "description": "Wybierz to, co ważne dla Ciebie. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Porównaj pokoje i apartamenty w Katowicach | Hornigold",
+      "description": "Porównaj opisy kategorii pokoi i apartamentów Hornigold. Wybierz ważne dla siebie cechy i zapytaj recepcję o warunki oraz dostępność w swoim terminie.",
       "canonical": "https://hornigold.pl/pl/porownaj/",
       "robots": "index,follow",
-      "sha256": "f8d9f4e380a395563715acdeff4616e9c361537365a84a7f136e2c77abd78722"
+      "sha256": "a6ad5ae273ba7343ee890cb19d5b4932c3bb408076c726f2e45758b047845635"
     },
     {
       "route": "/pl/pobyt/",
       "lang": "pl",
-      "title": "Zacznij od dobrego planu. | Hornigold",
-      "description": "Zacznij od dobrego planu. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Zaplanuj nocleg w Katowicach | Hornigold",
+      "description": "Wybierz daty i liczbę gości, przejrzyj kategorie pokoi oraz plany pobytu w Katowicach. Katalog nie potwierdza dostępności; warunki ustal z recepcją.",
       "canonical": "https://hornigold.pl/pl/pobyt/",
       "robots": "index,follow",
-      "sha256": "6abd881dd4e796cd97a5f4c1a51d4bd53aa8c1284a8b833b30ebdcb8b703ce85"
+      "sha256": "a81d2b48b403d9ac8ab0d108f5ff31d5118e22e22db6612a9af2eca8bc20277f"
     },
     {
       "route": "/pl/pobyt/sluzbowo/",
       "lang": "pl",
-      "title": "Podróż służbowa | Hornigold",
-      "description": "Podróż służbowa. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Nocleg służbowy w Katowicach | Hornigold",
+      "description": "Planujesz nocleg służbowy w Katowicach? Poznaj pokoje Hornigold i przygotuj pytania o warunki pracy, fakturę oraz przyjazd przed uzgodnieniem pobytu.",
       "canonical": "https://hornigold.pl/pl/pobyt/sluzbowo/",
       "robots": "index,follow",
-      "sha256": "8ff70e8b4d1de66fcad0dca67b38f5073c2865ddbb829dcb3fced44e88d427b8"
+      "sha256": "bf941c8f7dd3981e9b25e46be3bb8d1ef0da8bcd2897183e88ae006a596388b4"
     },
     {
       "route": "/pl/pobyt/weekend/",
       "lang": "pl",
-      "title": "Weekend w Katowicach | Hornigold",
-      "description": "Weekend w Katowicach. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Weekend w Katowicach – plan pobytu | Hornigold",
+      "description": "Zaplanuj weekend w Katowicach: poznaj pokoje Hornigold, wybierz miejsca do odwiedzenia i sprawdź dojazd. Termin oraz warunki pobytu ustal z recepcją.",
       "canonical": "https://hornigold.pl/pl/pobyt/weekend/",
       "robots": "index,follow",
-      "sha256": "b47085af85982af187b90880f3c35d672f991920a7f6922c012884837ae2f01c"
+      "sha256": "1771e1b95b5fdbde47d17e8baa544c98c32d729723b638a5899e6fe93c72de07"
     },
     {
       "route": "/pl/pobyt/dluzszy-pobyt/",
@@ -981,16 +981,16 @@
       "description": "Dłuższy pobyt. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/pobyt/dluzszy-pobyt/",
       "robots": "index,follow",
-      "sha256": "26da79324e5ded0d6be21d475a4522db864405a0fb4aff613607c1ed189fc901"
+      "sha256": "d136ac63b2b1db80a3d8b6b6ded6eae0b618f95c1de8ea1dd994b2e35b8dc9be"
     },
     {
       "route": "/pl/pobyt/wydarzenie/",
       "lang": "pl",
-      "title": "Koncert lub wydarzenie | Hornigold",
-      "description": "Koncert lub wydarzenie. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Nocleg na wydarzenie w Katowicach | Hornigold",
+      "description": "Planujesz nocleg na wydarzenie w Katowicach? Poznaj pokoje Hornigold i wskazówki przed wizytą w Spodku, MCK lub NOSPR. Warunki uzgodnij z recepcją.",
       "canonical": "https://hornigold.pl/pl/pobyt/wydarzenie/",
       "robots": "index,follow",
-      "sha256": "d03c16d42c2adeeb974d3d995da188d94d72e360cef28cab4a5ac563e9f8ebff"
+      "sha256": "3aef12e952a7398639560a549cf90fe5c28e1f1d4592126592bee7453d349e41"
     },
     {
       "route": "/pl/pobyt/rodzina/",
@@ -999,7 +999,7 @@
       "description": "Z rodziną. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/pobyt/rodzina/",
       "robots": "index,follow",
-      "sha256": "8f31646738df2638fc6459f7d1eb11b8c4f0c82fed72b63c465aa465d8d2c364"
+      "sha256": "d0137b0615fef2c8e03cd7996a51289212023468595d5e21bca150b775b0bf45"
     },
     {
       "route": "/pl/dla-firm/",
@@ -1017,25 +1017,25 @@
       "description": "Konferencje i spotkania. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/konferencje/",
       "robots": "index,follow",
-      "sha256": "46f317fef22bf1ad53d0f3c5283d6d979f6493570fe1a545b98e9771f2393d66"
+      "sha256": "1821ede8f8a7446a7318a33823a77d6863eb7b1db87264f0490858ea395c59f3"
     },
     {
       "route": "/pl/kontakt/",
       "lang": "pl",
-      "title": "Porozmawiajmy o Twoim pobycie | Hornigold",
-      "description": "Porozmawiajmy o Twoim pobycie. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Kontakt z Hornigold w Katowicach | Hornigold",
+      "description": "Skontaktuj się z Hornigold w Katowicach w sprawie planowanego pobytu. Znajdź dane kontaktowe i przygotuj pytania o termin, kategorię pokoju oraz warunki.",
       "canonical": "https://hornigold.pl/pl/kontakt/",
       "robots": "index,follow",
-      "sha256": "623e389620ca1b4272e5cdf808c8b75a0d635ac931fcb6c5b92e4310c90e0f25"
+      "sha256": "cf9ec4c18651a02980b7843c68b512f0947c8ebbf5d9a1601ee22e5862f42780"
     },
     {
       "route": "/pl/faq/",
       "lang": "pl",
-      "title": "Dobrze wiedzieć | Hornigold",
-      "description": "Dobrze wiedzieć. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Pytania przed pobytem w Katowicach | Hornigold",
+      "description": "Przeczytaj odpowiedzi na pytania o planowanie pobytu w Hornigold, kontakt, dojazd, zapytanie i dokumenty. Indywidualne warunki ustal z recepcją.",
       "canonical": "https://hornigold.pl/pl/faq/",
       "robots": "index,follow",
-      "sha256": "894663a5d2fa735ecd999171810465454200779d7c9bd18be2b08c126446981f"
+      "sha256": "4d8e32c63febbdb08bb10e455e97e9ad6034a35a4598a34c714c2e1b57084da1"
     },
     {
       "route": "/pl/wellness-spa/",
@@ -1044,7 +1044,7 @@
       "description": "Wellness i SPA. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/wellness-spa/",
       "robots": "index,follow",
-      "sha256": "daae59a2ec4816308c03b5c0fed89a5e910971825cfc9beeb63ac12ade2a08c2"
+      "sha256": "787ded8b229b8bb94644bdd5c4abc291f3cb3e8264f0e2f24f70d08a4f80a54e"
     },
     {
       "route": "/pl/dokumenty/",
@@ -1067,11 +1067,11 @@
     {
       "route": "/pl/pokoje/",
       "lang": "pl",
-      "title": "Pokoje i apartamenty · Katowice | Hornigold",
-      "description": "Pokoje i apartamenty · Katowice. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Pokoje i apartamenty w Katowicach | Hornigold",
+      "description": "Poznaj kategorie pokoi i apartamentów Hornigold w Katowicach. Obejrzyj wnętrza, porównaj opisy i zapytaj recepcję o warunki dla wybranego terminu.",
       "canonical": "https://hornigold.pl/pl/pokoje/",
       "robots": "index,follow",
-      "sha256": "12e7de19ba3cfe0534773005e2e2a3e31c2ff7371d64086e2562a467606c90d8"
+      "sha256": "e1266f038afd970fb350c6befbc667b122906132b641be82b1bc4920001ad18a"
     },
     {
       "route": "/pl/pokoje/deluxe/",
@@ -1211,11 +1211,11 @@
     {
       "route": "/pl/katowice/wydarzenie/",
       "lang": "pl",
-      "title": "Na wydarzenie w MCK, Spodku lub NOSPR | Hornigold",
-      "description": "Na wydarzenie w MCK, Spodku lub NOSPR. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold.",
+      "title": "Spodek, MCK i NOSPR – dojazd i plan pobytu | Hornigold",
+      "description": "Przyjazd na wydarzenie w Spodku, MCK lub NOSPR? Sprawdź źródła organizatorów, zaplanuj dojazd i powrót oraz przejdź do informacji o noclegu w Katowicach.",
       "canonical": "https://hornigold.pl/pl/katowice/wydarzenie/",
       "robots": "index,follow",
-      "sha256": "65836c6268704c075994c717c76c5450c9cc288ec6a75ca150917b1431f6c0cb"
+      "sha256": "262ce74f766a54f37e4f902a3415ab9917e9602e94283f7285787aa42ef74116"
     },
     {
       "route": "/pl/katowice/pierwszy-przyjazd/",
@@ -1256,11 +1256,11 @@
     {
       "route": "/pl/informacje/",
       "lang": "pl",
-      "title": "Spokojna podróż zaczyna się wcześniej. | Hornigold",
-      "description": "Spokojna podróż zaczyna się wcześniej. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami.",
+      "title": "Przed przyjazdem do Katowic – informacje | Hornigold",
+      "description": "Przygotuj pobyt w Hornigold: przejdź do wskazówek dojazdu, pytań i odpowiedzi oraz dokumentów. Sprawdź, co uzgodnić z recepcją przed przyjazdem.",
       "canonical": "https://hornigold.pl/pl/informacje/",
       "robots": "index,follow",
-      "sha256": "d71be03505f6aa2e786f4d7e947d909b4ea7e07a883a48f1cc6f4934952840e2"
+      "sha256": "74e3fe06dd93f84a70085d7fc66b4d78d8b75584e3ff4a01eb24dfe7996f5853"
     },
     {
       "route": "/pl/sniadania/",
@@ -1269,7 +1269,7 @@
       "description": "Dobry początek dnia. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/sniadania/",
       "robots": "index,follow",
-      "sha256": "763fe3d754945c85283cb5a73c0614031c192b1ddcdfc332d67d247c18230e6c"
+      "sha256": "2152f5378db9d7fec76ef977845ec3f8c538ee55aa40398e885e7a90dda03a05"
     },
     {
       "route": "/pl/miasto-i-okolice/",
@@ -1755,16 +1755,16 @@
       "description": "Catering i przyjęcia. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/catering/",
       "robots": "index,follow",
-      "sha256": "8813ef5611c28b23927c5bcbc5f800d8a6c4116357d282aeb33b992007acc214"
+      "sha256": "00e6e067760237aeac7365d5372cb1cbbb69a22a7285ba1e16b33f417133d643"
     },
     {
       "route": "/pl/parking/",
       "lang": "pl",
-      "title": "Zaplanuj spokojny przyjazd | Hornigold",
-      "description": "Zaplanuj spokojny przyjazd. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
+      "title": "Parking i dojazd – informacje przed przyjazdem | Hornigold",
+      "description": "Planujesz przyjazd samochodem do Hornigold w Katowicach? Sprawdź wskazówki dojazdu. Warunki korzystania z parkingu i miejsce uzgodnij z recepcją.",
       "canonical": "https://hornigold.pl/pl/parking/",
       "robots": "index,follow",
-      "sha256": "0427a5220f8ff02678257bd7c0fd31a8a1d7ac901b9b6ed87cd06549b2499115"
+      "sha256": "b97bbcc120a99df564c442f5fc621e4164e3f09717ec8ede4578e48f336e48fe"
     },
     {
       "route": "/pl/o-nas/",
@@ -1773,7 +1773,7 @@
       "description": "O Hornigold. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/o-nas/",
       "robots": "index,follow",
-      "sha256": "7217285ce52f79229e7d10f3ff60948333f9fc2b47eebe3adb619f4b9376611f"
+      "sha256": "5c39253801a5e1cf4cf6f8484710a76af8bfa0f6b88ef2ac2bdebcb56067ebb8"
     },
     {
       "route": "/pl/rezerwacja/",

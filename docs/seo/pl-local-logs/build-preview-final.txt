@@ -1,0 +1,1 @@
+{"pages": 693, "base": "/hornigold-preview/", "errors": 0, "mode": "preview", "output": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/tmp/sites-consolidated-23/_site"}
