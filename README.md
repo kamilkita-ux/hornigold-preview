@@ -1,4 +1,4 @@
-# Hornigold — podgląd wersji 21
+# Hornigold — podgląd wersji 22
 
 Samodzielny podgląd WWW: 693 podstrony w siedmiu językach (polski, angielski, niemiecki, chiński uproszczony, ukraiński, hiszpański, włoski).
 
@@ -38,3 +38,24 @@ Dla GitHub Pages: `python scripts/build.py --base /hornigold-preview/`. Publikow
 Publikacja tego podglądu nie jest zgodą na uruchomienie sprzedaży. Przed podmianą hornigold.pl wymagane są zatwierdzone dokumenty i fakty, potwierdzenie praw do materiałów, sprawdzona rezerwacja/płatność/potwierdzenia we wszystkich językach oraz odbiór domeny, analityki i kopii bezpieczeństwa. Nie dodawaj CNAME ani nie zmieniaj DNS na podstawie tego repozytorium.
 
 Materiały wizualne zachowują dotychczasowe oznaczenia i prawa ich właścicieli. Publiczna dostępność repozytorium nie oznacza udzielenia licencji na dowolne wykorzystanie zdjęć i marki.
+
+## Aktualizacja, kontrola i wycofanie
+
+Edytowalnym źródłem tej niezależnej strony jest `site/`: pełny HTML, CSS, JavaScript i zasoby. Nie potrzeba prywatnego generatora ani oryginalnego komputera. Edycję wspólnego elementu trzeba zastosować do wszystkich odpowiednich podstron; CMS dla obsługi nie jest wdrożony.
+
+Aktualizacja: sklonuj repozytorium, utwórz gałąź, zmień źródła i `release.json`, zbuduj oba warianty, uruchom `scripts/audit_static.py` i `scripts/check_repository.py`, wykonaj testy przeglądarkowe. Przegląd zmian poprzedza push do `main`, który publikuje Pages. Sprawdź udany GitHub Actions run, a następnie publiczne `release.json` i stronę; sam push nie potwierdza publikacji.
+
+Testy przeglądarkowe: `pnpm install --frozen-lockfile`, `pnpm exec playwright install`, lokalny serwer `_site/`, następnie `AUDIT_URL=http://127.0.0.1:4329/ node scripts/browser_audit.cjs`. Skrypt używa odizolowanych przeglądarek Chromium, Firefox i WebKit. WebKit nie zastępuje ręcznego testu wydanej aplikacji Safari.
+
+Kopia kodu: `git clone --mirror` do bezpiecznego katalogu poza publicznym repozytorium, osobno archiwum `_site/` z sumami kontrolnymi. Kopie danych PMS/płatności dopiero po wdrożeniu backendu, szyfrowane i poza GitHubem. Nie commitować `.env`, logów gości, baz ani kopii.
+
+Wycofanie kodu: utwórz commit odwracający wadliwą zmianę (`git revert`), sprawdź build i wypchnij go do `main`; zweryfikuj udane wdrożenie i ponownie odczytaj publiczną stronę. Nie używaj force push. Odtworzenie danych rezerwacji wymaga osobnej procedury.
+
+Wersja 22 usuwa widoczne oznaczenia testowe na polecenie właściciela; nie usuwa noindex i nie włącza rezerwacji. Brak banera nie jest deklaracją gotowości do produkcji.
+
+## Przekazanie i integracje
+
+- [PMS i Fiserv — projekt integracji](docs/PMS-FISERV.md)
+- [Pytania do dostawców](docs/PYTANIA-DO-DOSTAWCOW.md) — przygotowane, niewysłane.
+- [Domena i odbiór dla Marka](docs/DOMENA-I-ODBIOR.md) — DNS wymaga danych konkretnego hostingu.
+- `render.yaml` — przygotowana alternatywa dla frontendu, jeszcze niewdrożona. GitHub Pages nie jest docelowym hostingiem sprzedaży online.

@@ -4,6 +4,8 @@ from urllib.parse import urlsplit,unquote
 import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent.parent
+RELEASE=json.loads((ROOT/'release.json').read_text())
+VERSION=str(RELEASE['version'])
 args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
 if not re.fullmatch(r'/[A-Za-z0-9_/-]*',BASE):raise SystemExit('Invalid base path')
@@ -27,7 +29,7 @@ for p in OUT.rglob('*.html'):
   attr='src' if asset.name=='script' else 'href';u=urlsplit(asset[attr])
   if u.path.startswith(BASE+'assets/'):
    local=OUT/unquote(u.path[len(BASE):])
-   if local.is_file():asset[attr]=u.path+'?v=21-'+hashlib.sha256(local.read_bytes()).hexdigest()[:10]
+   if local.is_file():asset[attr]=u.path+'?v='+VERSION+'-'+hashlib.sha256(local.read_bytes()).hexdigest()[:10]
  # Preview indexing exclusion must survive any static host configuration.
  if not s.select_one('meta[name=robots]'):
   meta=s.new_tag('meta');meta['name']='robots';meta['content']='noindex,nofollow,noarchive';s.head.append(meta)
@@ -39,9 +41,9 @@ for p in OUT.rglob('*.html'):
  s=BeautifulSoup(p.read_text(),'html.parser')
  if s.select_one('[data-site-version]'):
   pages+=1
-  if s.select_one('[data-site-version]').get_text()!='21':errors.append(str(p)+' wrong version')
+  if s.select_one('[data-site-version]').get_text()!=VERSION:errors.append(str(p)+' wrong version')
   if 'noindex' not in s.select_one('meta[name=robots]')['content']:errors.append(str(p)+' indexing')
-  if not s.select_one('.preview-bar'):errors.append(str(p)+' missing preview notice')
+  if s.select_one('.preview-bar'):errors.append(str(p)+' unexpected preview banner')
  for el in s.select('a[href],img[src],script[src],link[rel=stylesheet],form[action]'):
   raw=el.get('href') or el.get('src') or el.get('action');u=urlsplit(raw)
   if u.scheme or u.netloc or not u.path:continue
@@ -50,4 +52,6 @@ for p in OUT.rglob('*.html'):
   if not target.exists():errors.append(str(p)+' missing '+raw)
 if pages!=693:errors.append('Expected 693 pages, found '+str(pages))
 if errors:raise SystemExit('\n'.join(errors[:30]))
+import os
+(OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'pages':pages,'base':BASE,'errors':0,'mode':'preview','output':str(OUT)}))

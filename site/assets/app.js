@@ -44,7 +44,7 @@
   document.querySelectorAll('.stay-summary').forEach(el=>{
     if(stay.arrival&&stay.departure){const nights=Math.round((new Date(stay.departure)-new Date(stay.arrival))/86400000);el.textContent=`${fmt(stay.arrival)} – ${fmt(stay.departure)} · ${t('Liczba nocy','Nights')}: ${nights} · ${t('Goście','Guests')}: ${stay.guests||2}`;}
     else el.textContent=t('Wybierz termin, aby zaplanować pobyt.','Choose your dates to plan your stay.');
-    if(stay.room&&path.includes('/rezerwacja/')){const strong=document.createElement('strong');strong.className='selected-room';strong.textContent=t('Kategoria pokoju: ','Room category: ')+t(plNames[stay.room]||roomNames[stay.room],roomNames[stay.room]);el.append(strong);}
+    if(stay.room&&document.body.dataset.pageKey==='rezerwacja'){const strong=document.createElement('strong');strong.className='selected-room';strong.textContent=t('Kategoria pokoju: ','Room category: ')+t(plNames[stay.room]||roomNames[stay.room],roomNames[stay.room]);el.append(strong);}
   });
   document.querySelectorAll('form[data-search]').forEach(form=>{
     const a=form.elements.arrival,d=form.elements.departure,g=form.elements.guests,error=form.querySelector('.form-error');
@@ -62,7 +62,7 @@
   });
   const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#mobile-menu');
   if(menu&&nav){menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.hidden=!open;});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!nav.hidden){nav.hidden=true;menu.setAttribute('aria-expanded','false');menu.focus();}});}
-  if(path.includes('/rezerwacja/')&&(!stay.arrival||!stay.departure)){const n=document.querySelector('.notice');if(n){const p=document.createElement('p');p.textContent=t('Nie wybrano prawidłowego terminu. Wróć do planowania pobytu.','No valid dates selected. Go back and choose your stay.');n.prepend(p);}}
+  if(document.body.dataset.pageKey==='rezerwacja'&&(!stay.arrival||!stay.departure)){const n=document.querySelector('.notice');if(n){const p=document.createElement('p');p.textContent=t('Nie wybrano prawidłowego terminu. Wróć do planowania pobytu.','No valid dates selected. Go back and choose your stay.');n.prepend(p);}}
 })();
 
 // Keep the full language list on desktop and a compact disclosure on phones.
