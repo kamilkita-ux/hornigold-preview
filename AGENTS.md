@@ -12,3 +12,6 @@ Publication reports must always include both live website links: Sites and GitHu
 
 ## Current SEO preparation boundary (2026-10-06)
 This SEO worktree is local-only. Do not push, publish, modify DNS/Pages/Search Console/analytics/CMS/profiles, or activate booking/payments based on the SEO reports. Preview remains blocked. `_production_ready/` is an isolated unpublished artifact. Original uncommitted work in `hornigold-github-preview` is not to be overwritten. A future external launch requires a separate instruction.
+
+## Subsequent publication authorization (2026-10-07)
+The user explicitly authorized implementing AI discovery improvements and publishing them in all seven languages. Revision 23.2 may be pushed and deployed to the existing GitHub Pages and Sites previews. Retain preview indexing blocks, Site identity/audience/D1 binding and the original dirty checkout. Production-ready artifacts, production domain and external search/profile/booking/payment services remain outside this authorization.

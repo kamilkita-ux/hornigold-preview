@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-06T18:37:43.593297+00:00",
+  "date": "2026-10-06T22:02:02.999606+00:00",
   "mode": "preview",
   "base": "/hornigold-preview/",
   "routes": 693,
   "html": 1241,
-  "links": 68963,
+  "links": 69012,
   "images": 2604,
   "reachableRoutes": 693,
   "redirectAliases": 539,
@@ -36,7 +36,7 @@
       "description": "实用须知. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。",
       "canonical": "https://hornigold.pl/zh-hans/%E5%AE%9E%E7%94%A8%E9%A1%BB%E7%9F%A5/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "6644ccbe11370498c12ebc0a9a88a09731b3762036afa17c92ca3cf52893ab74"
+      "sha256": "ee3e802eefa1bcaa11f4e7443d2ac4f6574f2a5548c9d6bda8e93176500f319f"
     },
     {
       "route": "/zh-hans/%E5%85%B3%E4%BA%8E-hornigold/",
@@ -810,7 +810,7 @@
       "description": "从出发前开始，安心规划旅程。. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。",
       "canonical": "https://hornigold.pl/zh-hans/%E4%BB%8E%E5%87%BA%E5%8F%91%E5%89%8D%E5%BC%80%E5%A7%8B%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%97%85%E7%A8%8B/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "4f05f83e8a2993f3dab459e1563f4427ad9948b4f47bf5c2cdf3dbe0ac2087b0"
+      "sha256": "0a826291f2eb2f92ebb2023ef14c937599c54aefd2fe8f48988d5dd9ebd070e5"
     },
     {
       "route": "/zh-hans/%E6%97%A9%E9%A4%90/",
@@ -1035,7 +1035,7 @@
       "description": "Dobrze wiedzieć. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd.",
       "canonical": "https://hornigold.pl/pl/faq/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "58599cfe7cde3ffec26fe6a16a66f2a7f37cca086c71226905d39f1c17b89f5e"
+      "sha256": "6ffd391002db59bd1dab4b23ad03ae939c0046e84b9ccb776d31e082703620b8"
     },
     {
       "route": "/pl/wellness-spa/",
@@ -1260,7 +1260,7 @@
       "description": "Spokojna podróż zaczyna się wcześniej. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami.",
       "canonical": "https://hornigold.pl/pl/informacje/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "177d6cdb8a5cddc7d4120057fc77613e086d391785b950288a3b9ca00b59d091"
+      "sha256": "83534cacbea59e4a1e403a81ca1314bc6d76f3d53e9ae0666c02bdc23571252a"
     },
     {
       "route": "/pl/sniadania/",
@@ -1944,7 +1944,7 @@
       "description": "Una visita rilassante comincia prima dell'arrivo. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci.",
       "canonical": "https://hornigold.pl/it/una-visita-rilassante-comincia-prima-dellarrivo/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "5a83bd619bc8bf2e792015f6faea02a87ce8bfc1fdc19bca4caa7fa92fd58850"
+      "sha256": "58f1e50e27fc62eba29d23a7836faa94f786c9308c03e0bb20149c23f3b7d81d"
     },
     {
       "route": "/it/le-esperienze-dei-nostri-ospiti/",
@@ -2196,7 +2196,7 @@
       "description": "Da sapere. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo.",
       "canonical": "https://hornigold.pl/it/da-sapere/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "6dcb3c01135fd98fdf8085f343a2f0370bc3288a95d04e3d5bec78b52b398c21"
+      "sha256": "6994b3771b04435bb7cab7e1b2afc9408757f9f3e5228a814df87bd78f356265"
     },
     {
       "route": "/it/rezerwacja/",
@@ -2817,7 +2817,7 @@
       "description": "Спокійна подорож починається ще до приїзду. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами.",
       "canonical": "https://hornigold.pl/uk/%D1%81%D0%BF%D0%BE%D0%BA%D1%96%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B6-%D0%BF%D0%BE%D1%87%D0%B8%D0%BD%D0%B0%D1%94%D1%82%D1%8C%D1%81%D1%8F-%D1%89%D0%B5-%D0%B4%D0%BE-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4%D1%83/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "c8fd3f29bd1eaae5e07e433f2475519fe284e4b2e9bd305c7f8e6c9e7ea418a9"
+      "sha256": "26414db467d831754c8c23cf7753f96f85bf71f44ffb26853544de8393eceea1"
     },
     {
       "route": "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/",
@@ -3528,7 +3528,7 @@
       "description": "Корисно знати. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути.",
       "canonical": "https://hornigold.pl/uk/%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D0%BD%D0%BE-%D0%B7%D0%BD%D0%B0%D1%82%D0%B8/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "19b4a76bb540ee6280cf77d7598d9140d5069248696da148cdc443dbf3f46c55"
+      "sha256": "18b1f68f6b16b6380649e32e1718e36c1364d771833da7c3cbcfddccbdc7a5e3"
     },
     {
       "route": "/uk/%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D1%83%D0%B8%D1%82%D0%B5-%D1%81%D0%BF%D0%BE%D0%BA%D1%96%D0%B8%D0%BD%D0%B8%D0%B8-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4/",
@@ -3591,7 +3591,7 @@
       "description": "Gut zu wissen. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns.",
       "canonical": "https://hornigold.pl/de/gut-zu-wissen/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "58990576560a5192735f43f601175887d2e8c5de306a2166b39861e978481a0f"
+      "sha256": "10641cbc087a8868a087abeeb67c8218232593730206af2eefc23f9cbe826e4a"
     },
     {
       "route": "/de/ein-aufenthalt-der-zu-ihnen-passt/",
@@ -3699,7 +3699,7 @@
       "description": "Entspannt reisen beginnt vor der Ankunft. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns.",
       "canonical": "https://hornigold.pl/de/entspannt-reisen-beginnt-vor-der-ankunft/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "efe562c282aec0715d96f23ded6e8abb129c00e9afa2d5bec3f5ef47d657f9ea"
+      "sha256": "253a45389d172ca3841f18f4a5c61002aadae7d9033996d7701c60f75313f4bb"
     },
     {
       "route": "/de/fruehstueck/",
@@ -4482,7 +4482,7 @@
       "description": "Conviene saberlo. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Descubra las habitaciones y cómo llegar.",
       "canonical": "https://hornigold.pl/es/conviene-saberlo/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "dfa70d41a6f1c0264453c465149396c30f75400560a9b5d9886632ab639c20cf"
+      "sha256": "8afd4833f6b5431eff39f2e7cf8a2149664cca19c9ae488db9508605e8875126"
     },
     {
       "route": "/es/todo-claro-antes-de-llegar/",
@@ -4716,7 +4716,7 @@
       "description": "Una visita tranquila empieza antes de llegar. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo.",
       "canonical": "https://hornigold.pl/es/una-visita-tranquila-empieza-antes-de-llegar/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "ca16388d38bc2b1fdd91a6016685a047d65b6dfec7dce02316a172e3205b4b8e"
+      "sha256": "c2e1fc5f92393556bd62de0f6032f74ea67b46755bf80c341fc81e65a47910b4"
     },
     {
       "route": "/es/club-hornigold/",
@@ -5454,7 +5454,7 @@
       "description": "A relaxed visit starts before arrival. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team.",
       "canonical": "https://hornigold.pl/en/a-relaxed-visit-starts-before-arrival/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "83b216cd4747481d4517584c145133f50aa4d3111bb91ec5a5fbabb36d158b01"
+      "sha256": "d7a41aa83711375a12d00393696af51957360c2265c840be55cccd32bf5e28ef"
     },
     {
       "route": "/en/terms-that-fit-your-plans/",
@@ -5517,7 +5517,7 @@
       "description": "Good to know. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
       "canonical": "https://hornigold.pl/en/good-to-know/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "916c6f1410540f01e2eb5f4442635bf79ecdde43ac0592ba17af74ba229c72e9"
+      "sha256": "4a404c4df60620d9c894742a798d5f50549b2ca1073851ef51510f63839aa5e5"
     },
     {
       "route": "/en/conferences-and-meetings/",

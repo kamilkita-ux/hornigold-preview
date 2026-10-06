@@ -4,6 +4,7 @@ from urllib.parse import urlsplit,unquote
 import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
 from seo import load_routes, route_for_file, apply_seo, write_indexing_files
+from discovery import write_guides
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 VERSION=str(RELEASE['version'])
@@ -42,6 +43,7 @@ for p in OUT.rglob('*.html'):
   meta=s.new_tag('meta');meta['name']='robots';meta['content']='noindex,nofollow,noarchive';s.head.append(meta)
  p.write_text(str(s))
 write_indexing_files(OUT,opts.mode,ROUTES)
+write_guides(ROOT,OUT,BASE,opts.mode)
 p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE;p.write_text(json.dumps(d,ensure_ascii=False))
 # Validate every local document/asset link, and require the preview markers on real pages.
 errors=[];pages=0

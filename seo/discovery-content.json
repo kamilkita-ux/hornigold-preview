@@ -1,0 +1,93 @@
+{
+  "pl": {
+    "name": "Polski",
+    "heading": "Najważniejsze informacje przed przyjazdem",
+    "intro": "Zacznij od wyboru kategorii pokoju i terminu. Następnie sprawdź dojazd, dokumenty oraz warunki, które chcesz uzgodnić z recepcją. Informacje o okolicy pomagają zaplanować pobyt; nie stanowią potwierdzenia rezerwacji ani dostępności usług.",
+    "guide": "Przewodnik po informacjach Hornigold",
+    "notice": "Ten przewodnik wskazuje strony źródłowe. Nie jest ofertą cenową ani potwierdzeniem dostępności. Rezerwacje i płatności online są obecnie niedostępne. Aktualne warunki potwierdź z recepcją przez stronę Kontakt.",
+    "labels": ["Pokoje i apartamenty", "Zapytanie o pobyt", "Lokalizacja i dojazd", "Przed przyjazdem", "Pytania i odpowiedzi", "Regulaminy i dokumenty", "Miasto i okolice", "Kontakt"],
+    "questions": [
+      ["Czy samo zapytanie potwierdza rezerwację?", "Nie. Przygotowanie zapytania nie sprawdza dostępności, nie blokuje pokoju i nie pobiera płatności. Uzgodnij z recepcją cenę, dostępność oraz sposób potwierdzenia pobytu.", "pl/rezerwacja"],
+      ["Czy cena „od” jest ceną mojego pobytu?", "Cena „od” nie zastępuje wyceny dla wybranych dat i liczby osób. Poproś o łączną kwotę oraz informację, co obejmuje, jakie są dodatkowe koszty i zasady anulacji.", "pl/kontakt"],
+      ["Gdzie sprawdzić zasady przed potwierdzeniem pobytu?", "Otwórz stronę Regulaminy i dokumenty. Zapoznaj się z dokumentami dotyczącymi pobytu i przetwarzania danych; wyjaśnij niejasności z recepcją przed potwierdzeniem warunków.", "pl/dokumenty"]
+    ]
+  },
+  "en": {
+    "name": "English",
+    "heading": "Essential information before you arrive",
+    "intro": "Start by choosing a room category and dates. Then check directions, documents and the conditions you would like to agree with reception. The local guide helps you plan your visit; it does not confirm a reservation or the availability of services.",
+    "guide": "Hornigold information guide",
+    "notice": "This guide links to source pages. It is not a price quote or confirmation of availability. Online reservations and payments are currently unavailable. Use the Contact page to confirm current conditions with reception.",
+    "labels": ["Rooms and apartments", "Stay enquiry", "Location and directions", "Before arrival", "Questions and answers", "Terms and documents", "City and surroundings", "Contact"],
+    "questions": [
+      ["Does submitting an enquiry confirm a reservation?", "No. Preparing an enquiry does not check availability, hold a room or collect payment. Agree the price, availability and booking confirmation process with reception.", "pl/rezerwacja"],
+      ["Is a ‘from’ price the price of my stay?", "A ‘from’ price does not replace a quote for your dates and number of guests. Ask for the total amount, what it includes, any additional charges and the cancellation conditions.", "pl/kontakt"],
+      ["Where can I check the conditions before confirming a stay?", "Open the Terms and documents page. Read the documents about your stay and the processing of personal data; clarify any questions with reception before agreeing the conditions.", "pl/dokumenty"]
+    ]
+  },
+  "de": {
+    "name": "Deutsch",
+    "heading": "Das Wichtigste vor Ihrer Anreise",
+    "intro": "Wählen Sie zunächst eine Zimmerkategorie und Ihre Reisedaten. Prüfen Sie anschließend die Anfahrt, die Dokumente und die Bedingungen, die Sie mit der Rezeption vereinbaren möchten. Der Reiseführer hilft bei der Planung; er bestätigt weder eine Buchung noch die Verfügbarkeit von Leistungen.",
+    "guide": "Informationsübersicht zu Hornigold",
+    "notice": "Diese Übersicht verweist auf die jeweiligen Informationsseiten. Sie ist weder ein Preisangebot noch eine Verfügbarkeitsbestätigung. Onlinebuchungen und Onlinezahlungen sind derzeit nicht verfügbar. Bestätigen Sie die aktuellen Bedingungen über die Kontaktseite mit der Rezeption.",
+    "labels": ["Zimmer und Apartments", "Aufenthaltsanfrage", "Lage und Anfahrt", "Vor der Anreise", "Fragen und Antworten", "Bedingungen und Dokumente", "Stadt und Umgebung", "Kontakt"],
+    "questions": [
+      ["Bestätigt eine Anfrage bereits eine Buchung?", "Nein. Beim Vorbereiten einer Anfrage wird weder die Verfügbarkeit geprüft noch ein Zimmer reserviert oder eine Zahlung eingezogen. Klären Sie Preis, Verfügbarkeit und Buchungsbestätigung mit der Rezeption.", "pl/rezerwacja"],
+      ["Ist der Ab-Preis der Preis für meinen Aufenthalt?", "Ein Ab-Preis ersetzt kein Angebot für Ihre Reisedaten und Gästezahl. Fragen Sie nach dem Gesamtpreis, den enthaltenen Leistungen, möglichen Zusatzkosten und den Stornierungsbedingungen.", "pl/kontakt"],
+      ["Wo finde ich die Bedingungen vor der Buchungsbestätigung?", "Öffnen Sie die Seite Bedingungen und Dokumente. Lesen Sie die Unterlagen zum Aufenthalt und zur Verarbeitung personenbezogener Daten. Klären Sie offene Fragen mit der Rezeption, bevor Sie die Bedingungen bestätigen.", "pl/dokumenty"]
+    ]
+  },
+  "zh-Hans": {
+    "name": "中文",
+    "heading": "抵达前的重要信息",
+    "intro": "请先选择房型和入住日期，再查看交通路线、相关文件以及需要与前台确认的条件。周边指南可帮助您规划行程，但不代表预订已确认，也不保证相关服务有空位。",
+    "guide": "Hornigold 信息指南",
+    "notice": "本指南提供相关信息页面的链接，不构成报价或空房确认。目前暂不提供在线预订和在线付款。请通过联系页面向前台确认最新条件。",
+    "labels": ["客房与公寓", "住宿咨询", "位置与交通", "抵达前须知", "常见问题", "条款与文件", "城市与周边", "联系"],
+    "questions": [
+      ["提交咨询是否意味着预订已确认？", "不是。准备咨询内容不会查询空房、保留客房或收取费用。请与前台确认价格、空房情况及预订确认方式。", "pl/rezerwacja"],
+      ["“起价”就是我此次住宿的价格吗？", "“起价”不能代替根据您的入住日期和人数提供的报价。请确认总价、包含的项目、额外费用及取消条件。", "pl/kontakt"],
+      ["确认住宿前，在哪里查看相关条件？", "请打开条款与文件页面，阅读住宿及个人数据处理相关文件。在同意相关条件前，请向前台询问任何不清楚的事项。", "pl/dokumenty"]
+    ]
+  },
+  "uk": {
+    "name": "Українська",
+    "heading": "Найважливіше перед приїздом",
+    "intro": "Спочатку оберіть категорію номера та дати. Потім перегляньте маршрут, документи й умови, які хочете узгодити з рецепцією. Путівник околицями допомагає спланувати подорож; він не підтверджує бронювання чи доступність послуг.",
+    "guide": "Інформаційний путівник Hornigold",
+    "notice": "Цей путівник містить посилання на відповідні інформаційні сторінки. Він не є ціновою пропозицією або підтвердженням наявності місць. Онлайн-бронювання та онлайн-оплата наразі недоступні. Уточніть актуальні умови на рецепції через сторінку контактів.",
+    "labels": ["Номери й апартаменти", "Запит щодо проживання", "Розташування та доїзд", "Перед приїздом", "Запитання й відповіді", "Правила та документи", "Місто й околиці", "Контакти"],
+    "questions": [
+      ["Чи підтверджує запит бронювання?", "Ні. Підготовка запиту не перевіряє наявність місць, не резервує номер і не передбачає списання коштів. Узгодьте з рецепцією ціну, наявність місць та порядок підтвердження бронювання.", "pl/rezerwacja"],
+      ["Чи є ціна «від» вартістю мого проживання?", "Ціна «від» не замінює розрахунку для ваших дат і кількості гостей. Запитайте про загальну суму, що до неї входить, додаткові витрати та умови скасування.", "pl/kontakt"],
+      ["Де перевірити умови перед підтвердженням проживання?", "Відкрийте сторінку правил і документів. Ознайомтеся з документами щодо проживання та обробки персональних даних; з’ясуйте незрозумілі питання на рецепції, перш ніж погоджувати умови.", "pl/dokumenty"]
+    ]
+  },
+  "es": {
+    "name": "Español",
+    "heading": "Información esencial antes de llegar",
+    "intro": "Empieza por elegir una categoría de habitación y las fechas. Después consulta cómo llegar, los documentos y las condiciones que quieras acordar con recepción. La guía de los alrededores ayuda a planificar la visita; no confirma una reserva ni la disponibilidad de servicios.",
+    "guide": "Guía de información de Hornigold",
+    "notice": "Esta guía enlaza a las páginas de información correspondientes. No constituye un presupuesto ni una confirmación de disponibilidad. Actualmente no están disponibles las reservas ni los pagos en línea. Confirma las condiciones vigentes con recepción a través de la página de contacto.",
+    "labels": ["Habitaciones y apartamentos", "Consulta sobre una estancia", "Ubicación y cómo llegar", "Antes de llegar", "Preguntas y respuestas", "Condiciones y documentos", "Ciudad y alrededores", "Contacto"],
+    "questions": [
+      ["¿Una consulta confirma la reserva?", "No. Preparar una consulta no comprueba la disponibilidad, no bloquea una habitación ni cobra ningún importe. Acuerda con recepción el precio, la disponibilidad y el procedimiento de confirmación de la reserva.", "pl/rezerwacja"],
+      ["¿El precio «desde» es el precio de mi estancia?", "Un precio «desde» no sustituye un presupuesto para tus fechas y número de huéspedes. Solicita el importe total, qué incluye, los posibles gastos adicionales y las condiciones de cancelación.", "pl/kontakt"],
+      ["¿Dónde puedo consultar las condiciones antes de confirmar la estancia?", "Abre la página de condiciones y documentos. Lee los documentos sobre la estancia y el tratamiento de datos personales; aclara cualquier duda con recepción antes de aceptar las condiciones.", "pl/dokumenty"]
+    ]
+  },
+  "it": {
+    "name": "Italiano",
+    "heading": "Le informazioni essenziali prima dell’arrivo",
+    "intro": "Scegli prima una categoria di camera e le date. Poi consulta le indicazioni per arrivare, i documenti e le condizioni da concordare con la reception. La guida dei dintorni aiuta a organizzare il soggiorno; non conferma una prenotazione né la disponibilità dei servizi.",
+    "guide": "Guida alle informazioni di Hornigold",
+    "notice": "Questa guida rimanda alle pagine informative pertinenti. Non costituisce un preventivo né una conferma di disponibilità. Le prenotazioni e i pagamenti online non sono attualmente disponibili. Conferma le condizioni aggiornate con la reception tramite la pagina dei contatti.",
+    "labels": ["Camere e appartamenti", "Richiesta di soggiorno", "Posizione e indicazioni", "Prima dell’arrivo", "Domande e risposte", "Condizioni e documenti", "Città e dintorni", "Contatti"],
+    "questions": [
+      ["Una richiesta conferma la prenotazione?", "No. Preparare una richiesta non verifica la disponibilità, non blocca una camera e non comporta addebiti. Concorda con la reception il prezzo, la disponibilità e la procedura di conferma della prenotazione.", "pl/rezerwacja"],
+      ["Il prezzo «a partire da» è il prezzo del mio soggiorno?", "Un prezzo «a partire da» non sostituisce un preventivo per le tue date e il numero di ospiti. Chiedi l’importo totale, che cosa include, gli eventuali costi aggiuntivi e le condizioni di cancellazione.", "pl/kontakt"],
+      ["Dove posso consultare le condizioni prima di confermare il soggiorno?", "Apri la pagina delle condizioni e dei documenti. Leggi i documenti sul soggiorno e sul trattamento dei dati personali; chiarisci eventuali dubbi con la reception prima di accettare le condizioni.", "pl/dokumenty"]
+    ]
+  }
+}

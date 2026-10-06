@@ -1,3 +1,9 @@
+# Update: revision 23.2, 2026-10-07
+
+The owner subsequently authorized publishing preview improvements. The earlier local-only audit below is retained as historical evidence, not the current publication status. See `docs/AI_DISCOVERY_READINESS.md` and `docs/seo/discovery-*.json` for the multilingual discovery work. Production-ready remains unpublished and preview indexing protections remain mandatory. Publication success must be confirmed by the deployment platforms, not inferred from this document.
+
+---
+
 # SEO_RELEASE_READINESS
 
 Stan lokalny: 6 października 2026. Repozytorium `hornigold-github-preview`, bezpieczny worktree `hornigold-seo-readiness-review`, gałąź `codex/seo-readiness-verified-20261006`.

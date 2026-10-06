@@ -18,11 +18,12 @@
   "legalDocumentsDate": "2026-10-06",
   "privacyControls": true,
   "independentLegalReview": false,
-  "revision": "23.1",
+  "revision": "23.2",
   "consolidatedFrom": 18,
   "primaryOrigin": "https://kamilkita-ux.github.io",
   "primaryBasePath": "/hornigold-preview/",
   "intendedDomain": "https://hornigold.pl",
   "domainConnected": false,
-  "githubPagesMode": "complete-static-site"
+  "githubPagesMode": "complete-static-site",
+  "discoveryContentDate": "2026-10-07"
 }
