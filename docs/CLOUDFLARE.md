@@ -60,3 +60,17 @@ jeden adres z `server/routes.mjs` (301 z zachowaniem parametrów), nagłówek `X
   tu wdrażany.
 - Rezerwacje i płatności wyłączone. PMS/Fiserv: `docs/PMS-FISERV.md` — osobne wdrożenie po umowach z dostawcami.
 - Sites Kamila i GitHub Pages działają dalej niezależnie od tego wdrożenia.
+
+## Stan przejściowy (7 października 2026 r., ok. 20:15) — do cofnięcia po aktywacji
+
+Inten wpisał `vera`/`weston` jako rekordy NS w swojej strefie, ale nie zmienił delegacji w NASK (rejestr nadal
+`ns.inten.pl`, `ns2.inten.pl`). Resolwery dostawały mieszane NS, a nieaktywna strefa Cloudflare nie miała adresu
+IPv4 dla apeksu. Za zgodą Marka strefa w Cloudflare tymczasowo odpowiada tak jak inten:
+
+- Custom Domain `hornigold.pl` odpięta od Workera; `A hornigold.pl 91.200.185.61` bez proxy, TTL 300;
+- `www` → `91.200.185.61` bez proxy (zamiast `192.0.2.1` proxied + Redirect); `old` bez proxy.
+
+**Nie robić `wrangler deploy` przed aktywacją strefy** — `routes` w `wrangler.jsonc` ponownie podepnie apeks.
+Po aktywacji (rejestr .pl wskazuje `vera`/`weston`, strefa `active`): usunąć tymczasowy `A` apeksu, `www` z
+powrotem na `192.0.2.1` proxied, `old` proxied, `workers_dev: false`, `npx wrangler deploy` (podpina Custom Domain),
+smoke testy.
