@@ -1,0 +1,62 @@
+# Hornigold — wdrożenie Cloudflare Workers
+
+Gałąź `deploy/cloudflare` (CloudMentor). Źródło treści bez zmian: `site/`, `server/`, `drizzle/` z `main` Kamila.
+Ta gałąź dodaje tylko `wrangler.jsonc`, `scripts/cloudflare/` i ten plik. Wzorzec: wdrożenie FFP Inwestor
+(`inwestor.farmyfotowoltaiki.pl`) — to samo konto, osobne zasoby z prefiksem `hornigold`.
+
+## Zasoby (od 7 października 2026 r.)
+
+| Co | Wartość |
+|---|---|
+| Konto | `FFP Inwestor Accpunt` `a9ef2a238caad7300877ba80a42e2942` (wspólne z FFP — zasoby rozdzielone nazwą) |
+| Worker | `hornigold` (`server/worker.mjs` + statyczne `_site/` jako `ASSETS`, `run_worker_first`) |
+| D1 | `hornigold-counter` `6f2bfe35-b19b-4b1f-8403-bbb92ae55553`, region `eeur`, migracje `drizzle/` |
+| Strefa | `hornigold.pl` `fb7861190638732d6bb875f6620769cd`, plan Free, SSL `full` |
+| Adresy | `https://hornigold.pl` (Custom Domain Workera); `www` → 301 regułą Redirect na `hornigold.pl` |
+| Adres techniczny | `https://hornigold.ffp-inwestor-accpunt.workers.dev` (wyłączyć po aktywacji strefy) |
+| Stara strona PHP | `old.hornigold.pl` → `91.200.185.61` (proxied) |
+
+Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`); suma ze starego
+Sites nie została przeniesiona — decyzja Marka.
+
+## DNS
+
+Strefa odtworzona 1:1 z serwerów `ns*.inten.pl` (7 października 2026 r.): poczta Microsoft 365 (MX, SPF z
+Profitroom, DKIM `selector1/2`, DMARC, autodiscover, Lync/SIP SRV, Intune), `mail/pop/smtp/ftp` → `91.200.185.61`
+bez proxy. Rekord A apeksu usunięty (zastępuje go Custom Domain), `www` = `192.0.2.1` proxied tylko pod
+przekierowanie.
+
+**Aktywacja**: u rejestratora zmienić serwery nazw `ns.inten.pl, ns2.inten.pl, ns3.inten.pl` na
+`courtney.ns.cloudflare.com` i `todd.ns.cloudflare.com`. Dopiero wtedy `hornigold.pl` zaczyna wskazywać na
+Workera. Po aktywacji sprawdzić: HTTPS apeksu i `www` (301), pocztę (wysłanie i odbiór), `old.hornigold.pl`,
+licznik `/api/site-stats`. Potem `workers_dev: false` i ponowny deploy.
+
+**Wycofanie**: przywrócić NS inten.pl u rejestratora (stara strefa nie była zmieniana) albo w Cloudflare usunąć
+Custom Domain i dodać `A hornigold.pl 91.200.185.61` proxied.
+
+## Wdrożenie nowej wersji z `main`
+
+Na Windows w Git Bash: `MSYS_NO_PATHCONV=1` (inaczej `--base /` zamienia się na ścieżkę Gita) i
+`core.autocrlf=false` w repo (pliki mają być LF).
+
+```sh
+git fetch origin && git merge origin/main          # w C:\dev\hornigold-cloudflare
+python -m venv .venv && .venv/Scripts/python -m pip install -r requirements.txt   # raz
+export MSYS_NO_PATHCONV=1 PYTHONUTF8=1
+GITHUB_SHA=$(git rev-parse HEAD) .venv/Scripts/python scripts/build.py --base / --counter
+.venv/Scripts/python scripts/audit_static.py --base /
+node --test tests/server.test.mjs
+npx wrangler d1 migrations apply hornigold-counter --remote   # tylko gdy przybyło coś w drizzle/
+npx wrangler deploy
+```
+
+Smoke: `/`, `/pl/`, `/pl/nie-ma-takiej` (404), `/release.json` (wersja i commit), `/api/site-stats`,
+jeden adres z `server/routes.mjs` (301 z zachowaniem parametrów), nagłówek `X-Robots-Tag`.
+
+## Granice
+
+- Build w trybie `preview`: `noindex` i `Disallow: /` zostają, dopóki właściciel osobno nie zgodzi się na
+  indeksowanie (`README.md`, `SEO_PRODUCTION_HANDOFF.md`). Tryb `production-ready` nie ma licznika i nie jest
+  tu wdrażany.
+- Rezerwacje i płatności wyłączone. PMS/Fiserv: `docs/PMS-FISERV.md` — osobne wdrożenie po umowach z dostawcami.
+- Sites Kamila i GitHub Pages działają dalej niezależnie od tego wdrożenia.

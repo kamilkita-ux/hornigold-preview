@@ -1,0 +1,28 @@
+// Hornigold — wdrożenie Cloudflare Workers (CloudMentor). Runbook: docs/CLOUDFLARE.md.
+// Ten sam Worker co w Sites (server/worker.mjs), własne zasoby z prefiksem "hornigold-".
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hornigold",
+  "main": "server/worker.mjs",
+  "compatibility_date": "2026-05-15",
+  // www.hornigold.pl -> 301 regułą Redirect w strefie; stara strona PHP: old.hornigold.pl.
+  "routes": [{ "pattern": "hornigold.pl", "custom_domain": true }],
+  "assets": {
+    "directory": "_site",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hornigold-counter",
+      "database_id": "6f2bfe35-b19b-4b1f-8403-bbb92ae55553",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  // Adres techniczny do czasu aktywacji strefy (zmiana NS u rejestratora); potem wyłączyć jak w FFP.
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true }
+}
