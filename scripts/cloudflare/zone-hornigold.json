@@ -1,0 +1,31 @@
+{
+  "_opis": "Stan strefy hornigold.pl do odtworzenia na koncie Hornigold (2026-10-07). Rekord apeksu tworzy Custom Domain Workera (AAAA 100::), nie dodawać go ręcznie.",
+  "ssl": "full",
+  "records": [
+    {"type":"A","name":"apartamenty.hornigold.pl","content":"91.200.185.61","proxied":false,"comment":"Z eksportu inten.pl 2026-10-07"},
+    {"type":"A","name":"ftp.hornigold.pl","content":"91.200.185.61","proxied":false},
+    {"type":"A","name":"mail.hornigold.pl","content":"91.200.185.61","proxied":false},
+    {"type":"A","name":"pop.hornigold.pl","content":"91.200.185.61","proxied":false},
+    {"type":"A","name":"smtp.hornigold.pl","content":"91.200.185.61","proxied":false},
+    {"type":"A","name":"old.hornigold.pl","content":"91.200.185.61","proxied":true,"comment":"Dawna strona PHP (nginx) sprzed przejecia hornigold.pl przez Worker hornigold, 2026-10-07"},
+    {"type":"A","name":"www.hornigold.pl","content":"192.0.2.1","proxied":true,"comment":"Tylko przekierowanie 301 www -> hornigold.pl (regula Redirect)"},
+    {"type":"CNAME","name":"autodiscover.hornigold.pl","content":"autodiscover.outlook.com","proxied":false},
+    {"type":"CNAME","name":"enterpriseenrollment.hornigold.pl","content":"enterpriseenrollment.manage.microsoft.com","proxied":false},
+    {"type":"CNAME","name":"enterpriseregistration.hornigold.pl","content":"enterpriseregistration.windows.net","proxied":false},
+    {"type":"CNAME","name":"lyncdiscover.hornigold.pl","content":"webdir.online.lync.com","proxied":false},
+    {"type":"CNAME","name":"msoid.hornigold.pl","content":"clientconfig.microsoftonline-p.net","proxied":false},
+    {"type":"CNAME","name":"selector1._domainkey.hornigold.pl","content":"selector1-hornigold-pl._domainkey.fulinowospzoo180.onmicrosoft.com","proxied":false},
+    {"type":"CNAME","name":"selector2._domainkey.hornigold.pl","content":"selector2-hornigold-pl._domainkey.fulinowospzoo180.onmicrosoft.com","proxied":false},
+    {"type":"MX","name":"hornigold.pl","content":"hornigold-pl.mail.protection.outlook.com","priority":0},
+    {"type":"SRV","name":"_sip._tls.hornigold.pl","data":{"priority":100,"weight":1,"port":443,"target":"sipdir.online.lync.com"}},
+    {"type":"SRV","name":"_sipfederationtls._tcp.hornigold.pl","data":{"priority":100,"weight":1,"port":5061,"target":"sipfed.online.lync.com"}},
+    {"type":"TXT","name":"hornigold.pl","content":"\"v=spf1 include:spf.protection.outlook.com include:_spfmail.profitroom.net ~all\""},
+    {"type":"TXT","name":"hornigold.pl","content":"\"MS=ms55610637\""},
+    {"type":"TXT","name":"_dmarc.hornigold.pl","content":"\"v=DMARC1; p=none; rua=mailto:hornigold@hornigold.pl\""},
+    {"type":"TXT","name":"_domainkey.hornigold.pl","content":"\"o=~\"","comment":"Z eksportu inten.pl 2026-10-07"},
+    {"type":"TXT","name":"x._domainkey.hornigold.pl","content":"\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0FdI16Q/JjfYT3I29r9XfqdGRUvOT5TkMUa1seMv/+ieNIpbsUYWcg0+sfgYdCC1kmpqTkFrn8i/YkY2isxfiDbLcGSrrXqGDZxFA11uu3NtJDu11fLTQbP0tfO0UBNBsoFFpD/6AGHZsLtp5mtrrwxX61j52CuexqO7uTW7JgBntcSJwzsvr41WLBBqA+EX5\" \"Y/hfykBVcyrPoxC2LjIkNVGF88zH+XboD6x1SRBM7Dzzn+BcQml43tJtgaNUVY/Mh9yab5C5mJB0K/YG/Pzt6bcMvyrrGP1uwcmwhyz+9YwDT8eHLR5SqwOe0K9RFlKP8QZ39RPn6/rtownw5ExmwIDAQAB\"","comment":"Z eksportu inten.pl 2026-10-07"}
+  ],
+  "redirectRules": [
+    {"description":"www -> hornigold.pl (301, sciezka i parametry zachowane)","expression":"(http.host eq \"www.hornigold.pl\")","action":"redirect","action_parameters":{"from_value":{"status_code":301,"preserve_query_string":true,"target_url":{"expression":"concat(\"https://hornigold.pl\", http.request.uri.path)"}}}}
+  ]
+}

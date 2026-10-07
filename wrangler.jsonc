@@ -3,6 +3,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hornigold",
+  "account_id": "ee23b9132a9692ab6c0e9f22aa86dda8", // konto Hornigold (osobne od FFP)
   "main": "server/worker.mjs",
   "compatibility_date": "2026-05-15",
   // www.hornigold.pl -> 301 regułą Redirect w strefie; stara strona PHP: old.hornigold.pl.
@@ -17,7 +18,7 @@
     {
       "binding": "DB",
       "database_name": "hornigold-counter",
-      "database_id": "6f2bfe35-b19b-4b1f-8403-bbb92ae55553",
+      "database_id": "bb927207-d7e2-4ebf-bbfa-a540704d6495",
       "migrations_dir": "drizzle"
     }
   ],

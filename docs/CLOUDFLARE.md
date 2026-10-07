@@ -2,18 +2,18 @@
 
 Gałąź `deploy/cloudflare` (CloudMentor). Źródło treści bez zmian: `site/`, `server/`, `drizzle/` z `main` Kamila.
 Ta gałąź dodaje tylko `wrangler.jsonc`, `scripts/cloudflare/` i ten plik. Wzorzec: wdrożenie FFP Inwestor
-(`inwestor.farmyfotowoltaiki.pl`) — to samo konto, osobne zasoby z prefiksem `hornigold`.
+(`inwestor.farmyfotowoltaiki.pl`), ale na osobnym koncie Cloudflare `Hornigold`.
 
 ## Zasoby (od 7 października 2026 r.)
 
 | Co | Wartość |
 |---|---|
-| Konto | `FFP Inwestor Accpunt` `a9ef2a238caad7300877ba80a42e2942` (wspólne z FFP — zasoby rozdzielone nazwą) |
+| Konto | `Hornigold` `ee23b9132a9692ab6c0e9f22aa86dda8` (osobne od FFP; przeniesione 7 października 2026 r.) |
 | Worker | `hornigold` (`server/worker.mjs` + statyczne `_site/` jako `ASSETS`, `run_worker_first`) |
-| D1 | `hornigold-counter` `6f2bfe35-b19b-4b1f-8403-bbb92ae55553`, region `eeur`, migracje `drizzle/` |
-| Strefa | `hornigold.pl` `fb7861190638732d6bb875f6620769cd`, plan Free, SSL `full` |
+| D1 | `hornigold-counter` `bb927207-d7e2-4ebf-bbfa-a540704d6495`, region `eeur`, migracje `drizzle/` |
+| Strefa | `hornigold.pl` `398f3b032a51a14d095ea3d82d25c821`, plan Free, SSL `full` |
 | Adresy | `https://hornigold.pl` (Custom Domain Workera); `www` → 301 regułą Redirect na `hornigold.pl` |
-| Adres techniczny | `https://hornigold.ffp-inwestor-accpunt.workers.dev` (wyłączyć po aktywacji strefy) |
+| Adres techniczny | `https://hornigold.hornigold-cm.workers.dev` (wyłączyć po aktywacji strefy) |
 | Stara strona PHP | `old.hornigold.pl` → `91.200.185.61` (proxied) |
 
 Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`); suma ze starego
@@ -23,11 +23,11 @@ Sites nie została przeniesiona — decyzja Marka.
 
 Strefa odtworzona 1:1 z serwerów `ns*.inten.pl` (7 października 2026 r.): poczta Microsoft 365 (MX, SPF z
 Profitroom, DKIM `selector1/2`, DMARC, autodiscover, Lync/SIP SRV, Intune), `mail/pop/smtp/ftp` → `91.200.185.61`
-bez proxy. Rekord A apeksu usunięty (zastępuje go Custom Domain), `www` = `192.0.2.1` proxied tylko pod
+bez proxy. Rekordy z eksportu inten.pl także `apartamenty`, `_domainkey`, `x._domainkey`; stare `_acme-challenge` pominięte. Definicja: `scripts/cloudflare/zone-hornigold.json`. Apeks obsługuje Custom Domain, `www` = `192.0.2.1` proxied tylko pod
 przekierowanie.
 
 **Aktywacja**: u rejestratora zmienić serwery nazw `ns.inten.pl, ns2.inten.pl, ns3.inten.pl` na
-`courtney.ns.cloudflare.com` i `todd.ns.cloudflare.com`. Dopiero wtedy `hornigold.pl` zaczyna wskazywać na
+`vera.ns.cloudflare.com` i `weston.ns.cloudflare.com`. Dopiero wtedy `hornigold.pl` zaczyna wskazywać na
 Workera. Po aktywacji sprawdzić: HTTPS apeksu i `www` (301), pocztę (wysłanie i odbiór), `old.hornigold.pl`,
 licznik `/api/site-stats`. Potem `workers_dev: false` i ponowny deploy.
 
