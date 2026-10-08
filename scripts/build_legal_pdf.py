@@ -25,6 +25,10 @@ def markup(s,lang):
   last=font;chunk+=c
  if chunk:chunks.append(f'<font name="{last}">{escape(chunk)}</font>')
  return ''.join(chunks)
+identity=json.loads((ROOT/'content/property-identity.json').read_text())
+def identity_note(lang,style):
+ info=identity[lang]
+ return [Spacer(1,14),Paragraph(markup(info['tagline']+' '+info['description'],lang),style),Paragraph(markup(info['rating']+' '+info['ratingNote'],lang)+' <link href="'+escape(info['reviewUrl'])+'">'+markup(info['reviewLinkLabel'],lang)+'</link>',style)]
 report=[]
 for lang in ['pl','en','de','zh-hans','uk','es','it']:
  d=json.loads((ROOT/'legal'/f'{lang}.json').read_text());font='CJK' if lang=='zh-hans' else 'Body'
@@ -42,6 +46,7 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
   if sources:
    story.extend(paragraphs[:-1]);story.append(KeepTogether([paragraphs[-1]]+sources))
   else:story.extend(paragraphs)
+ story.extend(identity_note(lang,sub))
  def footer(c,doc):
   c.saveState();c.setFont('Body',8);c.setFillColor(HexColor('#385449'));c.drawString(48,25,'Hornigold · office@hornigold.pl');c.drawRightString(547,25,str(doc.page));c.restoreState()
  doc.build(story,onFirstPage=footer,onLaterPages=footer)
@@ -69,6 +74,7 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
   doc=SimpleDocTemplate(str(out),pagesize=(595.28,841.89),leftMargin=48,rightMargin=48,topMargin=45,bottomMargin=48,title=sec['title'],author='Hornigold',subject='2026-10-09 | '+lang)
   story=[Paragraph('HORNIGOLD · 2026-10-09',sub),Paragraph(markup(sec['title'],lang),title)]
   for n,p in enumerate(sec['paragraphs'],1):story.append(Paragraph(markup(str(n)+'. '+p,lang),body))
+  story.extend(identity_note(lang,sub))
   doc.build(story,onFirstPage=footer,onLaterPages=footer)
   reader=PdfReader(out);writer=PdfWriter();writer.clone_document_from_reader(reader);writer._root_object[NameObject('/Lang')]=TextStringObject('zh-Hans' if lang=='zh-hans' else lang)
   with out.open('wb') as f:writer.write(f)

@@ -118,3 +118,6 @@ Siedem wersji dokumentów zawiera sekcję `online-sales`. To wymagania przed uru
 ## Dostępność - przygotowanie 23.8
 
 [Zakres PAD i odbiór](docs/PAD_SCOPE_AND_ACCEPTANCE.md) opisują wymagane dane spółki, procedurę zgłoszeń i testy po podłączeniu silnika. `docs/PAD_BOOKING_ACCEPTANCE.json` ma 15 etapów w 7 językach, wszystkie przyszłe wyniki NOT_RUN. Nie utożsamiać przygotowania z dostępnością aktywnej sprzedaży. `accessibilityJourneyVerified` i `PADScopeConfirmed` pozostają false; PDF-y pozostają nieznakowane, z pełnym odpowiednikiem HTML.
+
+## Property identity — revision 23.9
+Central seven-language copy: `content/property-identity.json`. The visible footer and all 21 legal PDFs carry the owner-confirmed 34 apartments and a dated, attributed 4.6/5 Google snapshot. AI guides repeat the same visible facts; no classification or aggregateRating schema is inferred. Evidence and limits: `docs/PROPERTY_FACT_DOSSIER_2026-10-09.md`. Audit: `python3 scripts/audit_property_identity.py`.

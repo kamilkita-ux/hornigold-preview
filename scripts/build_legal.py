@@ -6,6 +6,7 @@ import json,re
 ROOT=Path(__file__).resolve().parent.parent
 VERSION=str(json.loads((ROOT/'release.json').read_text())['version'])
 langs=['pl','en','de','zh-hans','uk','es','it']
+identity=json.loads((ROOT/'content/property-identity.json').read_text())
 content={l:json.loads((ROOT/'legal'/f'{l}.json').read_text()) for l in langs}
 reference=[(x['id'],len(x['paragraphs'])) for x in content['pl']['sections']]
 for l,d in content.items():
@@ -53,6 +54,8 @@ for p in (ROOT/'site').rglob('*.html'):
  csp=s.new_tag('meta',attrs={'http-equiv':'Content-Security-Policy','content':"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; frame-src https://www.google.com; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"});s.head.insert(1,csp)
  if not s.select_one('meta[name=referrer]'):s.head.append(s.new_tag('meta',attrs={'name':'referrer','content':'no-referrer'}))
  else:s.select_one('meta[name=referrer]')['content']='no-referrer'
+ info=identity[lang]
+ s.footer.append(fragment('<section class="wrap property-identity" data-legal-generated data-property-identity><p><strong>'+escape(info['tagline'])+'</strong> '+escape(info['description'])+'</p><p><strong>'+escape(info['rating'])+'</strong> <a href="'+escape(info['reviewUrl'],quote=True)+'">'+escape(info['reviewLinkLabel'])+'</a><br><small>'+escape(info['ratingNote'])+'</small></p></section>'))
  footerlinks=''.join(f'<a href="{doc}#{x["id"]}">{escape(x["title"])}</a>' for x in d['sections'])
  s.footer.append(fragment(f'<nav class="wrap legal-footer" data-legal-generated aria-label="{escape(u["legal"])}">{footerlinks}<a href="{pdf}" download>{escape(d["download"])}</a><a href="{doc}#cookies" data-privacy-open>{escape(u["settings"])}</a></nav>'))
  s.footer.append(fragment(f'<section id="privacy-notice" class="privacy-notice wrap" data-legal-generated hidden aria-label="{escape(u["settings"])}"><p>{escape(u["notice"])}</p><div class="privacy-actions"><button type="button" data-privacy-necessary>{escape(u["necessary"])}</button><a href="{doc}#cookies" data-privacy-open>{escape(u["settings"])}</a></div></section>'))

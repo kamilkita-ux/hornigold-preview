@@ -36,3 +36,6 @@ The owner requested review of UOKiK and supplier rules, preparation and implemen
 
 ## Owner authorization - accessibility preparation 2026-10-09
 The owner requested PAD accessibility documentation now where supported by evidence and acceptance of the future booking/payment journey after connection. Revision 23.8 may publish factual current-service information and preparation documents in seven languages to both existing previews. Do not certify PAD applicability, microenterprise exemption, building accessibility, tagged PDFs or an unconnected payment journey. Keep the future acceptance gate explicit; do not activate booking, payments or production indexing/domain.
+
+## Owner identity/footer request (2026-10-09)
+The owner confirmed 34 rental apartments and requested consistent identity and rating details on every page and document. Revision 23.9 may update both existing previews. Retain the approved comparative tagline (more than a hotel); do not claim formal hotel classification. Use attributed dated Google rating snapshots, no aggregateRating or invented reviews. Preserve indexing, booking/payment and production-domain restrictions.
