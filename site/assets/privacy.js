@@ -4,7 +4,7 @@
   const dialog=document.querySelector('#privacy-dialog'), notice=document.querySelector('#privacy-notice');
   if(!dialog||typeof dialog.showModal!=='function')return;
   const maps=dialog.querySelector('[name=maps]');let opener;
-  function read(){try{const value=JSON.parse(localStorage.getItem(key));if(value?.version===version&&typeof value.maps==='boolean'&&Number.isFinite(value.time)&&value.time<=Date.now()&&Date.now()-value.time<lifetime)return value;}catch{}return null;}
+  function read(){try{const value=JSON.parse(localStorage.getItem(key));if(value?.version===version&&typeof value.maps==='boolean'&&Number.isFinite(value.time)&&value.time<=Date.now()&&Date.now()-value.time<lifetime)return value;localStorage.removeItem(key);}catch{try{localStorage.removeItem(key)}catch{}}return null;}
   let state=read();
   function publish(){window.dispatchEvent(new CustomEvent('hornigold:privacy',{detail:{maps:state?.maps===true}}));}
   function close(){dialog.close();if(opener?.isConnected)opener.focus();}

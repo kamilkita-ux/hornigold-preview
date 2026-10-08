@@ -24,3 +24,6 @@ The user subsequently approved publication. Revision 23.3 may be published to th
 
 ## Safeguarding publication approval (2026-10-09)
 The owner explicitly requested creation and implementation of full and child-friendly safeguarding standards. Revision 23.4 may update both existing previews, including the previously prepared mobile/language improvements. Preserve indexing blocks, domain, booking/payment restrictions, Site identity and D1. Publication is not proof of named operational appointments, staff training, background checks or on-site display; record these as management implementation tasks.
+
+## Privacy publication approval (2026-10-09)
+The owner requested privacy improvements and implementation. Revision 23.5 may update the two existing previews. Do not certify supplier agreements, transfer mechanisms, retention implementation or DPO appointment without account-specific evidence. Keep internal registers and procedures outside the public repository and website. Preserve noindex, Site identity/D1, domain and inactive booking/payments.

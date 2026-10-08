@@ -1,6 +1,6 @@
 """Create seven printable policy bundles; HTML remains the accessible alternative."""
 from pathlib import Path
-import json,shutil
+import json,shutil,sys
 from xml.sax.saxutils import escape
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -48,6 +48,8 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
  shutil.copyfile(out,DEST/out.name)
  report.append({'lang':lang,'pages':len(reader.pages),'bytes':out.stat().st_size,'paragraphs':sum(len(s['paragraphs']) for s in d['sections']),'file':str(out),'taggedPDFUA':False})
 (BASE/'output/legal-pdf-v23-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False))
+
+if '--bundles-only' in sys.argv:raise SystemExit(0)
 
 # Standalone full standards and an easier-to-read child edition in every language.
 standalone=[]
