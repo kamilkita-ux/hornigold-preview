@@ -74,3 +74,7 @@ IPv4 dla apeksu. Za zgodą Marka strefa w Cloudflare tymczasowo odpowiada tak ja
 Po aktywacji (rejestr .pl wskazuje `vera`/`weston`, strefa `active`): usunąć tymczasowy `A` apeksu, `www` z
 powrotem na `192.0.2.1` proxied, `old` proxied, `workers_dev: false`, `npx wrangler deploy` (podpina Custom Domain),
 smoke testy.
+
+**8 października 2026 r.:** rejestratorem hornigold.pl jest Netium.pl sp. z o.o. (WHOIS NASK, ostatnia modyfikacja
+2026-04-07) — inten obsługuje tylko DNS i hosting, więc delegację na `vera`/`weston` trzeba zmienić w Netium.
+Usunięcie adresów IP w strefie inten nie aktywuje Cloudflare (aktywacja zależy wyłącznie od delegacji w NASK).
