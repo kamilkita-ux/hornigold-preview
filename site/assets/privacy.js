@@ -21,7 +21,7 @@
     window.HornigoldStay?.update({arrival:'',departure:'',guests:'',room:''});
     const url=new URL(location.href);for(const k of ['arrival','departure','guests','room'])url.searchParams.delete(k);history.replaceState(null,'',url);
     for(const k of [key,'hornigold-language'])try{localStorage.removeItem(k)}catch{}
-    for(const k of ['hornigold-stay','hornigold-comparison','hornigold-enquiry-plan'])try{sessionStorage.removeItem(k)}catch{}
+    for(const k of ['hornigold-stay','hornigold-comparison','hornigold-enquiry-plan','hornigold-language-suggestion-dismissed'])try{sessionStorage.removeItem(k)}catch{}
     state=null;maps.checked=false;publish();notice.hidden=false;
     dialog.querySelector('[role=status]').textContent=dialog.dataset.cleared;
   });

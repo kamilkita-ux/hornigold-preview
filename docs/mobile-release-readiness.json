@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-08",
+  "status": "local implementation, not published",
+  "goals": [
+    "mobile home 4 room cards and full catalog link in all 7 languages",
+    "short guide and trip purpose navigation; complete pages retained",
+    "remove unavailable counter row only for builds without counter integration",
+    "browser language suggestion, no forced redirect, remember explicit accept or keep",
+    "privacy refusal withdrawal expiry and PDFs tested in three engines"
+  ],
+  "translationReview": "Existing texts approved by owner on 2026-10-08; external proofreading waived at owner request",
+  "analytics": "Remains disabled; current optional consent purpose is maps only. Analytics or ads require separate purpose-specific controls and verification before activation.",
+  "bookingEnabled": false,
+  "paymentsEnabled": false,
+  "previewIndexingBlocked": true,
+  "testReports": [
+    "privacy-mobile-release.json",
+    "mobile-release.json",
+    "mobile-seo-preview.json",
+    "mobile-seo-production.json"
+  ],
+  "limits": [
+    "No publishing, PMS or payment integration",
+    "No independent legal or linguistic certification",
+    "Google map responses intercepted by test fixture, not a live Google service test"
+  ],
+  "mobileHomeMeasured": {
+    "viewportWidth": 375,
+    "beforePx": 15067,
+    "afterPx": 8401,
+    "reductionPercent": 44.2,
+    "note": "after dismissing optional language suggestion"
+  },
+  "validation": {
+    "responsiveAndLanguageCases": 29,
+    "privacyCases": 42,
+    "seoTests": 10,
+    "serverTests": 6,
+    "seoRoutesPerMode": 693,
+    "previewErrors": 0,
+    "productionReadyErrors": 0,
+    "secretsScanFindings": 0
+  }
+}

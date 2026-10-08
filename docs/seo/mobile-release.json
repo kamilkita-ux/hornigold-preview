@@ -1,0 +1,292 @@
+{
+  "cases": 29,
+  "failures": [],
+  "results": [
+    {
+      "lang": "pl",
+      "width": 320,
+      "height": 9059,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "height": 8846,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 320,
+      "height": 9463,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 320,
+      "height": 8408,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 320,
+      "height": 9295,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 320,
+      "height": 9417,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 320,
+      "height": 9229,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 375,
+      "height": 8529,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "height": 8208,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "height": 8537,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "height": 7833,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "height": 8688,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "height": 8566,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "height": 8417,
+      "overflow": false,
+      "rooms": 4,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 768,
+      "height": 11261,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "height": 10995,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 768,
+      "height": 11188,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 768,
+      "height": 10452,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 768,
+      "height": 11142,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "height": 11105,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 768,
+      "height": 11073,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "height": 10194,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "height": 9823,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "height": 9935,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "height": 9700,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "height": 9963,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "height": 9888,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "height": 9858,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "type": "accept-language",
+      "href": "http://127.0.0.1:4358/hornigold-preview/de/pobyt/?arrival=2027-05-12&departure=2027-05-15&guests=3",
+      "saved": "de",
+      "errors": []
+    }
+  ]
+}
