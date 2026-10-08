@@ -3,7 +3,8 @@
   "languages": 7,
   "updatedPages": 14,
   "guideFiles": 8,
-  "guideLinks": 84,
+  "guideLinks": 91,
+  "externalEvidenceLinks": 7,
   "errors": [],
   "limits": [
     "Navigation files do not grant crawl access or guarantee inclusion in AI answers.",
