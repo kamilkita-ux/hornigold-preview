@@ -21,3 +21,6 @@ The latest user instruction supersedes earlier publication authorization for thi
 
 ## Owner approval to publish Polish SEO (2026-10-07)
 The user subsequently approved publication. Revision 23.3 may be published to the existing Sites and complete GitHub Pages previews. Preserve all preview indexing blocks, Site audience/identity/D1 binding, and booking/payment restrictions. Do not deploy production-ready or alter the production domain. The previous local-only rule describes the completed preparation phase.
+
+## Safeguarding publication approval (2026-10-09)
+The owner explicitly requested creation and implementation of full and child-friendly safeguarding standards. Revision 23.4 may update both existing previews, including the previously prepared mobile/language improvements. Preserve indexing blocks, domain, booking/payment restrictions, Site identity and D1. Publication is not proof of named operational appointments, staff training, background checks or on-site display; record these as management implementation tasks.
