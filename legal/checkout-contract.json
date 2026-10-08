@@ -34,7 +34,10 @@
     "notificationAuthenticationAndStatusLookup",
     "sandboxPaymentsRefundsAndFailures",
     "sevenLanguageCheckoutAndDurableConfirmations",
-    "legalReview"
+    "legalReview",
+    "PADScopeAssessment",
+    "endToEndAccessibilityAcceptance",
+    "accessibleDurableConfirmations"
   ],
   "prohibited": [
     "preselectedPaidExtras",

@@ -104,9 +104,28 @@
       "id": "accessibility",
       "title": "Informacja o dostępności",
       "paragraphs": [
-        "Dążymy do dostępności serwisu zgodnej z WCAG 2.2 na poziomie AA. Zapewniamy nawigację klawiaturą, widoczny fokus, etykiety formularzy, przełącznik siedmiu języków oraz tekstowe odpowiedniki informacji o dojeździe. Strona nie wymaga zgody na zewnętrzne mapy do przeczytania wskazówek.",
-        "Nie deklarujemy pełnej zgodności ani certyfikacji. Testy automatyczne nie zastępują oceny z czytnikiem ekranu i użytkownikami. Ograniczenia: dostępność zewnętrznych panoram zależy od Google; pliki PDF nie mają jeszcze potwierdzonej zgodności PDF/UA. Ta sama treść dokumentów jest dostępna jako HTML. System rezerwacji i płatności online nie jest uruchomiony i nie został odebrany pod kątem dostępności.",
-        "Jeśli napotkasz barierę, napisz na office@hornigold.pl lub zadzwoń +48 608 662 707. Wskaż adres strony, problem i preferowaną formę kontaktu lub informacji. Pomagamy uzyskać treść i ofertę inną drogą. Skargi dotyczące dostępności usług możesz składać również pisemnie na adres spółki. W sprawach handlu elektronicznego informacje o nadzorze publikuje Minister Cyfryzacji na gov.pl/web/dostepnosc-cyfrowa. Zakres ustawowych obowiązków podlega ocenie dla danej usługi; nie zakładamy automatycznie zwolnienia dla mikroprzedsiębiorców."
+        "Usługa i zakres informacji. Hornigold udostępnia informacje o pobycie, kategorie pokoi, planowanie i przygotowanie zapytania do recepcji. Usługodawcą jest spółka wskazana w informacjach prawnych. Obecnie wybór dat i pokoju nie zawiera umowy, a rezerwacje i płatności online są wyłączone. Ta informacja opisuje obecny serwis i przygotowanie przyszłej usługi, nie jest deklaracją zgodności niepodłączonego silnika.",
+        "Jak korzystać. Potrzebujesz połączenia z Internetem i aktualnej przeglądarki. Treści i regulaminy można czytać jako HTML bez JavaScript; planowanie, porównywanie i ustawienia prywatności wymagają JavaScript. Przygotowane zapytanie wysyłasz z własnej poczty albo kontaktujesz się z recepcją. Nie musisz zgadzać się na mapy Google, aby przeczytać adres i tekstowe wskazówki dojazdu.",
+        "Rozwiązania dostępności. Strona wykorzystuje nagłówki, tekstowe etykiety formularzy, obsługę klawiaturą i widoczny fokus. Dostępne są siedem języków i tekstowe odpowiedniki wskazówek dojazdu. Projekt jest rozwijany w kierunku WCAG 2.2 AA. Kontrole automatyczne i testy klawiatury nie zastępują oceny z czytnikiem ekranu i użytkownikami; nie deklarujemy pełnej zgodności ani certyfikacji PAD.",
+        "Znane ograniczenia. PDF-y dokumentów nie mają struktury znaczników dostępności; nie deklarujemy zgodności PDF/UA. Pełna treść pozostaje dostępna jako HTML w odpowiednim języku. Dostępność zewnętrznych panoram zależy od Google. Informacja o dostępności cyfrowej nie potwierdza braku schodów, dostosowania łazienek ani innych cech budynku; konkretne potrzeby pobytu ustal z recepcją przed zawarciem umowy.",
+        "Przyszła rezerwacja i płatność. Po podłączeniu KWHotel i wybranego produktu Fiserv trzeba sprawdzić całą ścieżkę: daty i gości, wybór oferty, formularze i błędy, podsumowanie i regulamin, przycisk z obowiązkiem zapłaty, przekierowanie, uwierzytelnienie bankowe, status płatności, potwierdzenie, anulowanie i zwrot. Odbiór ma objąć klawiaturę, czytniki ekranu, powiększenie, limity czasu oraz wiadomości i dokumenty we wszystkich siedmiu językach. Instrukcja dostawcy nie jest dowodem dostępności konkretnej integracji.",
+        "Kontakt i zgłaszanie barier. Napisz na office@hornigold.pl, zadzwoń +48 608 662 707 albo zgłoś sprawę osobiście lub listownie: Hornigold w Zielonej Kamienicy sp. z o.o., ul. Mikołaja Kopernika 6, 40-064 Katowice. Wskaż adres strony lub etap, napotkaną barierę, oczekiwaną pomoc i preferowaną formę kontaktu. Nie trzeba przesyłać diagnozy, dokumentu tożsamości ani danych karty. Pomoc w kontakcie z recepcją nie zastępuje naprawienia bariery w usłudze.",
+        "Skarga na dostępność. Podaj imię i nazwisko, kontakt i preferowany sposób odpowiedzi, usługę, niespełnione wymaganie lub opis bariery oraz żądanie zapewnienia dostępności. Możesz wskazać preferowane rozwiązanie. Skargę przyjmujemy powyższymi kanałami, także ustnie do protokołu. Odpowiedź przekazujemy wybraną drogą w ciągu 30 dni; w szczególnie skomplikowanej sprawie w tym terminie wyjaśniamy opóźnienie i wskazujemy nowy termin, nie dłuższy niż 60 dni od otrzymania. Ustawowych skutków braku odpowiedzi nie wyłączamy. Możesz również zawiadomić właściwy organ; w e-handlu nadzór sprawuje Minister Cyfryzacji. To odrębna procedura od reklamacji pobytu.",
+        "Status i aktualizacja. Informacja z 9 października 2026 r. Nie przyjmujemy automatycznie zwolnienia dla mikroprzedsiębiorców; zakres PAD wymaga oceny dla spółki i rzeczywiście oferowanej usługi. Przed uruchomieniem sprzedaży informacja musi zostać uzupełniona o wynik odbioru integracji, potwierdzone warunki obiektu i znane ograniczenia. Po zmianie silnika, płatności lub dokumentów potrzebna jest ponowna kontrola. Nie uznajemy alternatywnego HTML ani kontaktu telefonicznego za dowód pełnej zgodności całego procesu."
+      ],
+      "sources": [
+        {
+          "title": "PAD - information obligations",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad"
+        },
+        {
+          "title": "PAD - e-commerce scope",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego"
+        },
+        {
+          "title": "Polski Akt o Dostępności - Dz.U. 2024 poz. 731",
+          "url": "https://dziennikustaw.gov.pl/D2024000073101.pdf"
+        }
       ]
     },
     {

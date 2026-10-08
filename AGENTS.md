@@ -33,3 +33,6 @@ The owner requested language-suggestion storage and hidden-counter documentation
 
 ## Owner authorization - online-sales disclosures 2026-10-09
 The owner requested review of UOKiK and supplier rules, preparation and implementation of online-sales documents. Revision 23.7 may update both existing previews. Do not activate sales or payments, invent account-specific supplier/tariff settings, or certify legal/operational readiness. Keep noindex, Site identity/audience/D1 and production domain unchanged. Distinguish preparatory disclosures from binding future checkout terms.
+
+## Owner authorization - accessibility preparation 2026-10-09
+The owner requested PAD accessibility documentation now where supported by evidence and acceptance of the future booking/payment journey after connection. Revision 23.8 may publish factual current-service information and preparation documents in seven languages to both existing previews. Do not certify PAD applicability, microenterprise exemption, building accessibility, tagged PDFs or an unconnected payment journey. Keep the future acceptance gate explicit; do not activate booking, payments or production indexing/domain.

@@ -114,3 +114,7 @@ Worktree `hornigold-seo-readiness-review` jest zweryfikowaną kopią niezapisany
 ## Dokumentacja przyszłej sprzedaży - 23.7
 
 Siedem wersji dokumentów zawiera sekcję `online-sales`. To wymagania przed uruchomieniem, nie potwierdzenie aktywnej sprzedaży ani zweryfikowanych taryf. [Warunki odbioru](docs/ONLINE_SALES_LAUNCH_GATES.md) rozdzielają źródła, decyzje właściciela i testy dostawców. `legal/checkout-contract.json` przechowuje przyszłe etykiety przycisków i wymagania podsumowania; nie jest aktywnym checkoutem.
+
+## Dostępność - przygotowanie 23.8
+
+[Zakres PAD i odbiór](docs/PAD_SCOPE_AND_ACCEPTANCE.md) opisują wymagane dane spółki, procedurę zgłoszeń i testy po podłączeniu silnika. `docs/PAD_BOOKING_ACCEPTANCE.json` ma 15 etapów w 7 językach, wszystkie przyszłe wyniki NOT_RUN. Nie utożsamiać przygotowania z dostępnością aktywnej sprzedaży. `accessibilityJourneyVerified` i `PADScopeConfirmed` pozostają false; PDF-y pozostają nieznakowane, z pełnym odpowiednikiem HTML.

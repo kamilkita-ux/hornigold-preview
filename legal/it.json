@@ -104,9 +104,28 @@
       "id": "accessibility",
       "title": "Informazioni sull'accessibilità",
       "paragraphs": [
-        "Puntiamo all'accessibilità WCAG 2.2 livello AA. Offriamo navigazione da tastiera, focus visibile, moduli etichettati, sette lingue e indicazioni stradali scritte. Non serve consenso alle mappe per leggere il percorso.",
-        "Non dichiariamo piena conformità o certificazione. Test automatici non sostituiscono valutazioni con lettori di schermo e utenti. Limiti: i panorami esterni dipendono da Google; conformità PDF/UA non verificata. Lo stesso testo è disponibile in HTML. Prenotazioni e pagamenti online sono inattivi e non hanno superato un collaudo di accessibilità.",
-        "Segnala ostacoli a office@hornigold.pl o +48 608 662 707 con URL, problema e forma di contatto o informazione preferita. Aiutiamo tramite un altro canale. Puoi reclamare anche per posta alla società. Il Ministro polacco della Digitalizzazione informa sulla vigilanza del commercio elettronico su gov.pl/web/dostepnosc-cyfrowa. Gli obblighi vanno valutati per il servizio specifico; non presumiamo un'esenzione per microimprese."
+        "Servizio e ambito. Hornigold offre informazioni sul soggiorno, categorie, pianificazione e preparazione di richieste alla reception. Il fornitore è la società identificata nelle informazioni legali. Scegliere date o camera non conclude attualmente un contratto; prenotazioni e pagamenti online sono disattivati. Questa informativa descrive il sito attuale e la preparazione, non la conformità di un motore non ancora collegato.",
+        "Come utilizzare il servizio. Occorrono Internet e un browser aggiornato. Contenuti e condizioni sono leggibili in HTML senza JavaScript; pianificazione, confronto e privacy richiedono JavaScript. Inviare la richiesta preparata dalla propria email o contattare la reception. Non serve il consenso a Google Maps per leggere indirizzo e indicazioni scritte.",
+        "Funzioni di accessibilità. Il sito utilizza titoli, etichette testuali, navigazione da tastiera e focus visibile. Sono disponibili sette lingue e indicazioni scritte. Lo sviluppo mira a WCAG 2.2 AA. Test automatici e da tastiera non sostituiscono valutazioni con lettori di schermo e utenti; non si dichiara piena conformità né certificazione PAD.",
+        "Limiti noti. I PDF delle norme non hanno struttura di tag di accessibilità; non si dichiara conformità PDF/UA. Il testo completo resta disponibile in HTML in ciascuna lingua. Le panoramiche esterne dipendono da Google. L’accessibilità digitale non conferma assenza di gradini, bagni adattati o altre caratteristiche dell’edificio; concordare esigenze specifiche con la reception prima del contratto.",
+        "Prenotazioni e pagamenti futuri. Dopo il collegamento di KWHotel e del prodotto Fiserv scelto, va verificato l’intero percorso: date e ospiti, offerta, moduli ed errori, riepilogo e condizioni, pulsante con obbligo di pagamento, reindirizzamento, autenticazione bancaria, stato, conferma, cancellazione e rimborso. Il collaudo comprende tastiera, lettori di schermo, ingrandimento, limiti temporali, messaggi e documenti in sette lingue. Il manuale del fornitore non prova l’accessibilità dell’integrazione specifica.",
+        "Contatti e barriere. Scrivere a office@hornigold.pl, chiamare +48 608 662 707 o contattare di persona o per posta: Hornigold w Zielonej Kamienicy sp. z o.o., ul. Mikołaja Kopernika 6, 40-064 Katowice, Polonia. Indicare pagina o fase, barriera, aiuto richiesto e contatto preferito. Non inviare diagnosi, documenti d’identità o dati della carta. L’aiuto della reception non sostituisce la rimozione della barriera.",
+        "Reclami di accessibilità. Fornire nome e cognome, contatto e modalità di risposta, servizio, requisito non soddisfatto o barriera e richiesta di accessibilità. Si può proporre una soluzione. I reclami sono accettati tramite i canali indicati, anche oralmente con verbalizzazione. Rispondiamo nel modo scelto entro 30 giorni; in casi particolarmente complessi spieghiamo entro tale termine il ritardo e fissiamo una nuova scadenza, non oltre 60 giorni dal ricevimento. Restano le conseguenze legali della mancata risposta. Si può informare l’autorità; l’e-commerce è vigilato dal Ministro degli Affari Digitali polacco. È una procedura distinta dai reclami sul soggiorno.",
+        "Stato e aggiornamento. Informativa del 9 ottobre 2026. Non si presume un’esenzione automatica per microimpresa; l’applicabilità PAD richiede valutazione della società e del servizio effettivo. Prima delle vendite online vanno aggiunti risultati del collaudo, informazioni verificate sull’immobile e limiti noti. Cambi a motore, pagamenti o documenti richiedono nuove verifiche. HTML alternativo o telefono non provano la piena conformità dell’intero processo."
+      ],
+      "sources": [
+        {
+          "title": "PAD - information obligations",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad"
+        },
+        {
+          "title": "PAD - e-commerce scope",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego"
+        },
+        {
+          "title": "Polski Akt o Dostępności - Dz.U. 2024 poz. 731",
+          "url": "https://dziennikustaw.gov.pl/D2024000073101.pdf"
+        }
       ]
     },
     {

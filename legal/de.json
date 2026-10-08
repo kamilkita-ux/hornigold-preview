@@ -104,9 +104,28 @@
       "id": "accessibility",
       "title": "Informationen zur Barrierefreiheit",
       "paragraphs": [
-        "Wir streben Barrierefreiheit nach WCAG 2.2 Stufe AA an. Angeboten werden Tastaturnavigation, sichtbarer Fokus, beschriftete Formulare, sieben Sprachen und schriftliche Wegbeschreibungen. Zum Lesen ist keine Zustimmung zu externen Karten nötig.",
-        "Wir erklären keine vollständige Konformität oder Zertifizierung. Automatische Tests ersetzen keine Prüfung mit Screenreadern und Nutzern. Grenzen: Externe Panoramen hängen von Google ab; PDF/UA-Konformität der PDFs ist nicht bestätigt. Dieselben Dokumentinhalte stehen als HTML bereit. Online-Buchung und Zahlung sind nicht aktiv und nicht hinsichtlich Barrierefreiheit abgenommen.",
-        "Barrieren melden Sie an office@hornigold.pl oder +48 608 662 707 mit Seitenadresse, Problem und gewünschter Kontakt- oder Informationsform. Wir helfen auf anderem Weg. Beschwerden zur Barrierefreiheit können auch postalisch eingehen. Zur Aufsicht im E-Commerce informiert der polnische Minister für Digitalisierung unter gov.pl/web/dostepnosc-cyfrowa. Gesetzliche Pflichten sind für den jeweiligen Dienst zu bewerten; eine Ausnahme für Kleinstunternehmen wird nicht automatisch angenommen."
+        "Dienst und Umfang. Hornigold bietet Aufenthaltsinformationen, Zimmerkategorien, Planung und die Vorbereitung von Anfragen an die Rezeption. Anbieter ist die in den rechtlichen Informationen genannte Gesellschaft. Die Wahl von Daten oder Zimmern schließt derzeit keinen Vertrag; Onlinebuchung und Zahlung sind deaktiviert. Diese Information beschreibt die aktuelle Website und Vorbereitungen, nicht die Konformität eines noch nicht angebundenen Systems.",
+        "Nutzung. Erforderlich sind Internet und ein aktueller Browser. Inhalte und Bedingungen sind als HTML ohne JavaScript lesbar; Planung, Vergleich und Datenschutzeinstellungen benötigen JavaScript. Die vorbereitete Anfrage versenden Sie über Ihre eigene E-Mail oder kontaktieren die Rezeption. Für Adresse und schriftliche Wegbeschreibung ist keine Zustimmung zu Google Maps nötig.",
+        "Barrierefreiheitsfunktionen. Die Website nutzt Überschriften, Textbeschriftungen für Formulare, Tastaturbedienung und sichtbaren Fokus. Sieben Sprachen und schriftliche Wegbeschreibungen sind verfügbar. Die Entwicklung orientiert sich an WCAG 2.2 AA. Automatische Prüfungen und Tastaturtests ersetzen keine Prüfung mit Screenreadern und Nutzern; vollständige Konformität oder PAD-Zertifizierung wird nicht behauptet.",
+        "Bekannte Einschränkungen. Die Regelwerk-PDFs haben keine Struktur von Barrierefreiheitstags; PDF/UA-Konformität wird nicht erklärt. Der vollständige Inhalt ist als HTML in der jeweiligen Sprache vorhanden. Externe Panoramen hängen von Google ab. Digitale Barrierefreiheit bestätigt weder stufenlosen Zugang noch angepasste Bäder oder andere Gebäudemerkmale; klären Sie konkrete Bedürfnisse vor Vertragsschluss mit der Rezeption.",
+        "Künftige Buchung und Zahlung. Nach Anbindung von KWHotel und des ausgewählten Fiserv-Produkts ist der gesamte Ablauf zu prüfen: Daten und Gäste, Angebot, Formulare und Fehler, Zusammenfassung und Bedingungen, zahlungspflichtige Schaltfläche, Weiterleitung, Bankauthentifizierung, Zahlungsstatus, Bestätigung, Stornierung und Erstattung. Die Abnahme umfasst Tastatur, Screenreader, Vergrößerung, Zeitlimits, Nachrichten und Dokumente in sieben Sprachen. Ein Anbieterhandbuch belegt nicht die Barrierefreiheit der konkreten Integration.",
+        "Kontakt und Barrieren. E-Mail: office@hornigold.pl, Telefon: +48 608 662 707; persönlich oder per Post: Hornigold w Zielonej Kamienicy sp. z o.o., ul. Mikołaja Kopernika 6, 40-064 Katowice, Polen. Nennen Sie Seite oder Schritt, Barriere, gewünschte Hilfe und Kontaktform. Diagnosen, Ausweisdokumente und Kartendaten sind nicht nötig. Hilfe durch die Rezeption ersetzt die Beseitigung einer Barriere nicht.",
+        "Beschwerden zur Barrierefreiheit. Nennen Sie Ihren Namen, Kontakt und gewünschte Antwortform, den Dienst, die nicht erfüllte Anforderung oder Barriere und Ihr Verlangen nach Barrierefreiheit. Sie können eine Lösung vorschlagen. Beschwerden nehmen wir über die genannten Wege an, auch mündlich zu Protokoll. Wir antworten innerhalb von 30 Tagen; bei besonders komplexen Fällen erläutern wir innerhalb dieser Frist die Verzögerung und nennen eine neue Frist von höchstens 60 Tagen ab Eingang. Gesetzliche Folgen einer ausbleibenden Antwort bleiben unberührt. Sie können die zuständige Behörde informieren; für E-Commerce ist dies der polnische Minister für Digitalisierung. Das Verfahren ist von Aufenthaltsreklamationen getrennt.",
+        "Stand und Aktualisierung. Information vom 9. Oktober 2026. Eine Ausnahme für Kleinstunternehmen wird nicht automatisch angenommen; die PAD-Anwendbarkeit ist für Gesellschaft und tatsächlich angebotenen Dienst zu prüfen. Vor Onlineverkauf sind Abnahmeergebnisse, bestätigte Gebäudeinformationen und bekannte Einschränkungen zu ergänzen. Änderungen an Buchungssystem, Zahlung oder Dokumenten erfordern neue Prüfungen. Alternatives HTML oder Telefonkontakt beweisen keine vollständige Konformität des gesamten Ablaufs."
+      ],
+      "sources": [
+        {
+          "title": "PAD - information obligations",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad"
+        },
+        {
+          "title": "PAD - e-commerce scope",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego"
+        },
+        {
+          "title": "Polski Akt o Dostępności - Dz.U. 2024 poz. 731",
+          "url": "https://dziennikustaw.gov.pl/D2024000073101.pdf"
+        }
       ]
     },
     {

@@ -1,0 +1,427 @@
+{
+  "date": "2026-10-08T22:44:02.148Z",
+  "cases": 63,
+  "results": [
+    {
+      "engine": "chromium",
+      "lang": "pl",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "pl",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "pl",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "en",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "en",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "en",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "de",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "de",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "de",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "zh-hans",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "zh-hans",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "zh-hans",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "uk",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "uk",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "uk",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "es",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "es",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "es",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "it",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "it",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "lang": "it",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "pl",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "pl",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "pl",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "en",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "en",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "en",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "de",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "de",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "de",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "zh-hans",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "zh-hans",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "zh-hans",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "uk",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "uk",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "uk",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "es",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "es",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "es",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "it",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "it",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "firefox",
+      "lang": "it",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "pl",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "pl",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "pl",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "en",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "en",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "en",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "de",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "de",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "de",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "zh-hans",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "zh-hans",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "zh-hans",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "uk",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "uk",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "uk",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "es",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "es",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "es",
+      "type": "enquiry-local-validation",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "it",
+      "javaScript": true,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "it",
+      "javaScript": false,
+      "type": "320px-documents",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "lang": "it",
+      "type": "enquiry-local-validation",
+      "pass": true
+    }
+  ],
+  "failures": []
+}

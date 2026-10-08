@@ -104,9 +104,28 @@
       "id": "accessibility",
       "title": "Accessibility information",
       "paragraphs": [
-        "We aim for WCAG 2.2 Level AA accessibility. The website provides keyboard navigation, visible focus, labelled forms, a seven-language switcher and written directions. Reading directions does not require consent to external maps.",
-        "We do not claim full compliance or certification. Automated checks cannot replace screen-reader and user testing. Limitations: external panoramas depend on Google's accessibility; PDF/UA compliance of PDFs has not been verified. The same document text is available in HTML. Online booking and payments are inactive and have not passed an accessibility acceptance review.",
-        "If you encounter a barrier, email office@hornigold.pl or call +48 608 662 707. Provide the page URL, issue and preferred contact or information format. We help provide content and offers by another route. Accessibility complaints can also be posted to the company. For e-commerce supervision, consult Poland's Minister of Digital Affairs at gov.pl/web/dostepnosc-cyfrowa. Statutory obligations must be assessed for the service concerned; we do not automatically assume a microenterprise exemption."
+        "Service and scope. Hornigold provides stay information, room categories, planning and preparation of enquiries to reception. The provider is the company identified in the legal information. Selecting dates or a room currently does not conclude a contract; online booking and payments are disabled. This notice describes the current website and preparations, not the compliance of an unconnected booking engine.",
+        "How to use the service. You need Internet access and a current browser. Content and terms are readable as HTML without JavaScript; planning, comparisons and privacy settings require JavaScript. Send the prepared enquiry through your own email application or contact reception. Google Maps consent is not required to read the address and written directions.",
+        "Accessibility features. The website uses headings, text labels for forms, keyboard navigation and visible focus. Seven languages and written directions are available. Development aims at WCAG 2.2 AA. Automated checks and keyboard tests do not replace assessment with screen readers and users; full compliance or PAD certification is not claimed.",
+        "Known limitations. Policy PDFs do not have an accessibility tag structure; PDF/UA compliance is not claimed. Full content remains available as HTML in the relevant language. External panorama accessibility depends on Google. Digital accessibility information does not confirm step-free access, adapted bathrooms or other building features; discuss specific accommodation needs with reception before contracting.",
+        "Future booking and payment. Once KWHotel and the selected Fiserv product are connected, test the entire journey: dates and guests, offer selection, forms and errors, summary and terms, payment-obligation button, redirect, bank authentication, payment status, confirmation, cancellation and refund. Acceptance must cover keyboard use, screen readers, zoom, time limits, messages and documents in all seven languages. A supplier manual is not evidence that the specific integration is accessible.",
+        "Contact and barriers. Email office@hornigold.pl, call +48 608 662 707, or contact us in person or by post: Hornigold w Zielonej Kamienicy sp. z o.o., ul. Mikołaja Kopernika 6, 40-064 Katowice, Poland. Identify the page or stage, barrier, help requested and preferred contact method. Do not send a diagnosis, identity document or card details. Reception assistance is not a substitute for fixing an accessibility barrier.",
+        "Accessibility complaints. Provide your name, contact and preferred response method, the service, unmet requirement or barrier description, and your request for accessibility. You may suggest a solution. Complaints are accepted through the channels above, including orally for a recorded report. We respond by your chosen method within 30 days; for a particularly complex case, within that period we explain the delay and set a deadline no later than 60 days from receipt. Statutory consequences of failing to respond are not excluded. You may also notify the competent authority; e-commerce supervision rests with Poland’s Minister of Digital Affairs. This is separate from accommodation complaints.",
+        "Status and updates. Notice dated 9 October 2026. No automatic microenterprise exemption is assumed; PAD applicability requires assessment of the company and the service actually offered. Before online sales start, update this notice with integration acceptance results, verified premises information and known limitations. Changes to the engine, payments or documents require reassessment. Alternative HTML or telephone contact is not proof that the whole process complies."
+      ],
+      "sources": [
+        {
+          "title": "PAD - information obligations",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad"
+        },
+        {
+          "title": "PAD - e-commerce scope",
+          "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego"
+        },
+        {
+          "title": "Polski Akt o Dostępności - Dz.U. 2024 poz. 731",
+          "url": "https://dziennikustaw.gov.pl/D2024000073101.pdf"
+        }
       ]
     },
     {
