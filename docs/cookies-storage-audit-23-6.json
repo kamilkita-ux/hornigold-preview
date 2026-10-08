@@ -1,0 +1,48 @@
+{
+  "cases": 7,
+  "failures": [],
+  "results": [
+    {
+      "lang": "pl",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "en",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "de",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "zh-hans",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "uk",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "es",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    },
+    {
+      "lang": "it",
+      "dismissalSaved": true,
+      "bothEntriesCleared": true,
+      "counterHidden": true
+    }
+  ]
+}

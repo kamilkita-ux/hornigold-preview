@@ -18,7 +18,7 @@
   "legalDocumentsDate": "2026-10-09",
   "privacyControls": true,
   "independentLegalReview": false,
-  "revision": "23.5",
+  "revision": "23.6",
   "consolidatedFrom": 18,
   "primaryOrigin": "https://kamilkita-ux.github.io",
   "primaryBasePath": "/hornigold-preview/",
@@ -29,5 +29,6 @@
   "polishSeoDate": "2026-10-07",
   "safeguardingDocumentsDate": "2026-10-09",
   "privacyReviewDate": "2026-10-09",
-  "privacyOperationalConfirmation": false
+  "privacyOperationalConfirmation": false,
+  "cookiesReviewDate": "2026-10-09"
 }

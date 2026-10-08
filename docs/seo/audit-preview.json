@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T22:20:09.610167+00:00",
+  "date": "2026-10-08T22:27:41.322965+00:00",
   "mode": "preview",
   "base": "/hornigold-preview/",
   "routes": 693,
@@ -828,7 +828,7 @@
       "description": "Hornigold 隐私政策：数据处理、用户权利、联系方式及网站使用规则。文件也可下载为 PDF。",
       "canonical": "https://hornigold.pl/zh-hans/%E9%9A%90%E7%A7%81%E4%B8%8E%E6%95%B0%E6%8D%AE/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "950d81d2d4f84d9ef9cdd12949bbd01294ded97467aa1bd427569893b94d7729"
+      "sha256": "c337321dfe66c0a47453605a0ed55ab5ff0340b3b76b4c52df461721603d441c"
     },
     {
       "route": "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/",
@@ -846,7 +846,7 @@
       "description": "Hornigold 文件：网站条款、住宿咨询、付款规则、隐私、Cookie 和无障碍信息。可下载 PDF 文件。",
       "canonical": "https://hornigold.pl/zh-hans/%E5%85%A5%E4%BD%8F%E5%89%8D%E4%BA%86%E8%A7%A3%E6%B8%85%E6%A5%9A/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "330e2c68f98f0a009d262df1238dfab1918b9f04cf5d5086b23029a0c3822962"
+      "sha256": "b63198c90a6611c10d5edad908b2fa4ac8e58dec5debbad72485d2a434e20617"
     },
     {
       "route": "/zh-hans/rezerwacja/",
@@ -1053,7 +1053,7 @@
       "description": "Regulaminy i dokumenty Hornigold: zasady serwisu, zapytania o pobyt, płatności, prywatność, cookies i dostępność. Pobierz dokumenty w PDF.",
       "canonical": "https://hornigold.pl/pl/dokumenty/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "0668ea17abe1457651475929b85ddb437252b6bcdb4d732d85f917a69765643f"
+      "sha256": "a46cd3b7d04900448b79cf51c25d394321eb167425382384ebc672b48866edf5"
     },
     {
       "route": "/pl/club-hornigold/",
@@ -1791,7 +1791,7 @@
       "description": "Prywatność w Hornigold: przetwarzanie danych, prawa użytkownika, kontakt i zasady korzystania z serwisu. Dokument dostępny także w PDF.",
       "canonical": "https://hornigold.pl/pl/prywatnosc/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "f4017d54a45e0a75e05333d51f6131bfea8936db2a9030ee7c9a7584945232d0"
+      "sha256": "001018457199da6d94d38b80f4c719dd61f4f5b47de5167340e00eb1aff333b1"
     },
     {
       "route": "/it/",
@@ -1809,7 +1809,7 @@
       "description": "Documenti di Hornigold: condizioni del sito, richieste di soggiorno, pagamenti, privacy, cookie e accessibilità. Scarica i documenti in PDF.",
       "canonical": "https://hornigold.pl/it/informazioni-chiare-prima-dellarrivo/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "4f216b7e33773e4820f7f2284707a350180400a789d6a61ad1083f88f898c0df"
+      "sha256": "a4c6c1007420a21d63d42a4928f99deeec82ee0f07f49e5504c7b2b58018bd5a"
     },
     {
       "route": "/it/katowice-con-hornigold/",
@@ -1917,7 +1917,7 @@
       "description": "Privacy a Hornigold: trattamento dei dati, diritti degli utenti, contatti e uso del sito. Il documento è disponibile anche in PDF.",
       "canonical": "https://hornigold.pl/it/privacy-e-dati/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "e10db5c7e6d26b21ec2388fbf92f9c8149655e4dae03f305004f2bc08d131ace"
+      "sha256": "169a88c01933a1b0f42ef8f674df5d83b3859ae0a6f18e5b7ac1b2ad35263534"
     },
     {
       "route": "/it/club-hornigold/",
@@ -2754,7 +2754,7 @@
       "description": "Конфіденційність у Hornigold: обробка даних, права користувачів, контакти та користування сайтом. Документ також доступний у PDF.",
       "canonical": "https://hornigold.pl/uk/%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%96%D1%81%D1%82%D1%8C-%D1%96-%D0%B4%D0%B0%D0%BD%D1%96/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "715267dbec1cf9965dd1f9c879448e6c3c2097fcb3f1e4afaacb875ed0c2d3e3"
+      "sha256": "9579b4d1f46bf77796e55859a20e7b2ab463ae3d20b6624702a8bf74ebc04a88"
     },
     {
       "route": "/uk/%D0%BF%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D1%82%D0%B8/",
@@ -2781,7 +2781,7 @@
       "description": "Документи Hornigold: правила сайту, запити щодо проживання, платежі, конфіденційність, cookies і доступність. Завантажте документи у PDF.",
       "canonical": "https://hornigold.pl/uk/%D1%83%D1%81%D0%B5-%D0%B7%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BB%D0%BE-%D1%89%D0%B5-%D0%B4%D0%BE-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4%D1%83/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "87ead41a791026f33119e9e2e4b3e19a03f9c5c2853a5d1289827555dbc10161"
+      "sha256": "fc0398b524606aae2e52c84735add7497c549356ebba85d68ccfcea30dd597c3"
     },
     {
       "route": "/uk/%D0%B0%D0%B5%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82%D0%B8/",
@@ -3690,7 +3690,7 @@
       "description": "Dokumente von Hornigold: Website-Bedingungen, Aufenthaltsanfragen, Zahlungen, Datenschutz, Cookies und Barrierefreiheit. Als PDF herunterladen.",
       "canonical": "https://hornigold.pl/de/klare-informationen-vor-der-anreise/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "0017a13868c92d184ac58e8e50a597ace44c029eb426faa7e33904125e673de4"
+      "sha256": "357b1276eb1ee97c7a52ab55196137342f815450cfc816d6e29f7ea735ed0ca8"
     },
     {
       "route": "/de/entspannt-reisen-beginnt-vor-der-ankunft/",
@@ -3915,7 +3915,7 @@
       "description": "Datenschutz bei Hornigold: Datenverarbeitung, Nutzerrechte, Kontakt und Nutzung der Website. Das Dokument steht auch als PDF bereit.",
       "canonical": "https://hornigold.pl/de/datenschutz-und-daten/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "52fe6a064cc2c0b6575525b1aa0a47af64b7eff599feceb76fc4cd75ac20cf5d"
+      "sha256": "c54ecc22a7f232b1ea550a8fc8e66df22d7b0f7a7ca66d9f554d994995a415d5"
     },
     {
       "route": "/de/katowice-mit-hornigold/",
@@ -4491,7 +4491,7 @@
       "description": "Documentos de Hornigold: condiciones del sitio, consultas de estancia, pagos, privacidad, cookies y accesibilidad. Descarga los documentos en PDF.",
       "canonical": "https://hornigold.pl/es/todo-claro-antes-de-llegar/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "06afbb274960649dd4221e0dde80ac6f20969a544e2231fabb4ac2c0018f1999"
+      "sha256": "55708fb9094b47668b52f2cd426714bfac97ea3acb3a242ce90682cdcc56de3b"
     },
     {
       "route": "/es/bienestar-y-spa/",
@@ -5292,7 +5292,7 @@
       "description": "Privacidad en Hornigold: tratamiento de datos, derechos de los usuarios, contacto y uso del sitio web. Documento disponible también en PDF.",
       "canonical": "https://hornigold.pl/es/privacidad-y-datos/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "297e8996cc52bd3b948f92c67cc6ac5962d6a8c33fffd5680685bb3f6a55dba8"
+      "sha256": "7dee7bea5b8d22557d582585c7bbbcf3eb0eadba9dc3907062d838cd95562ec4"
     },
     {
       "route": "/es/comparar/",
@@ -5490,7 +5490,7 @@
       "description": "Hornigold documents: website terms, stay enquiries, payments, privacy, cookies and accessibility. Download the documents as a PDF.",
       "canonical": "https://hornigold.pl/en/clarity-before-your-arrival/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "3fe8d2a499c621f7cf4f89b09c0b14be611e49f8cf03eedda816e8ff092ef7e3"
+      "sha256": "66509bc1c5e0879b3e2fb12ba1d126034ae8aa6c5e5029557f42453fb9033926"
     },
     {
       "route": "/en/about-hornigold/",
@@ -6183,7 +6183,7 @@
       "description": "Privacy at Hornigold: data processing, user rights, contact details and use of the website. The document is also available as a PDF.",
       "canonical": "https://hornigold.pl/en/privacy-and-data/",
       "robots": "noindex,nofollow,noarchive",
-      "sha256": "9e82c703c468e5d7317a963d48854452053fcc4d3ef75a30f25d70572da5040b"
+      "sha256": "18cb19b40d6c2e84fca0ec1c7308913389991a45d220aa8c80552b4dff37b09a"
     },
     {
       "route": "/en/a-stay-that-suits-you/",

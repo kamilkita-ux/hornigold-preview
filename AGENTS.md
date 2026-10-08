@@ -27,3 +27,6 @@ The owner explicitly requested creation and implementation of full and child-fri
 
 ## Privacy publication approval (2026-10-09)
 The owner requested privacy improvements and implementation. Revision 23.5 may update the two existing previews. Do not certify supplier agreements, transfer mechanisms, retention implementation or DPO appointment without account-specific evidence. Keep internal registers and procedures outside the public repository and website. Preserve noindex, Site identity/D1, domain and inactive booking/payments.
+
+## Cookie documentation publication approval (2026-10-09)
+The owner requested language-suggestion storage and hidden-counter documentation in all languages, synchronized HTML/PDF updates and publication to the existing previews. Revision 23.6 may be published. Keep noindex, identity/D1, domain and booking/payment restrictions. No new tracking or operational privacy certification is authorized.
