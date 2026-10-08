@@ -18,6 +18,6 @@ for p in (r/'site').rglob('*.html'):
    link=element.select_one('a[download]');target=r/'site'/link['href'].lstrip('/')
    assert target.read_bytes().startswith(b'%PDF'),target
    downloads+=1
-print({'observedPages':pages,'languages':len(languages),'downloads':downloads});assert pages==693 and len(languages)==7 and downloads==14
-report={'date':'2026-10-09','canonicalPages':pages,'languages':sorted(languages),'footerLinks':pages*2,'standaloneDownloads':downloads,'errors':[],'limits':['Operational adoption, named appointments, staff training and on-site display require management confirmation.','PDFs have an HTML alternative; no PDF/UA certification.']}
+assert pages==686 and len(languages)==7 and downloads==14
+report={'date':'2026-10-09','contentPages':pages,'technical404RoutesExcluded':7,'languages':sorted(languages),'footerLinks':pages*2,'standaloneDownloads':downloads,'errors':[],'limits':['Operational adoption, named appointments, staff training and on-site display require management confirmation.','PDFs have an HTML alternative; no PDF/UA certification.']}
 (r/'docs/safeguarding-source-audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report))
