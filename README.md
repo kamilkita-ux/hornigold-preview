@@ -110,3 +110,7 @@ Prace SEO na gałęzi `codex/seo-readiness-verified-20261006` są wyłącznie lo
 Kolejność późniejszego wdrożenia i ograniczenia: `SEO_PRODUCTION_HANDOFF.md`. Bieżąca macierz odbioru: `SEO_RELEASE_READINESS.md`. Nie mylić daty/wersji starszego raportu publikacji z obecnymi zmianami lokalnymi.
 
 Worktree `hornigold-seo-readiness-review` jest zweryfikowaną kopią niezapisanych prac SEO z repozytorium głównego. Stan wejściowy zabezpieczono na Mac mini; źródłowego drzewa nie nadpisano. Późniejsze przeniesienie zmian wymaga porównania z aktualnym drzewem, a nie kopiowania w ciemno.
+
+## Dokumentacja przyszłej sprzedaży - 23.7
+
+Siedem wersji dokumentów zawiera sekcję `online-sales`. To wymagania przed uruchomieniem, nie potwierdzenie aktywnej sprzedaży ani zweryfikowanych taryf. [Warunki odbioru](docs/ONLINE_SALES_LAUNCH_GATES.md) rozdzielają źródła, decyzje właściciela i testy dostawców. `legal/checkout-contract.json` przechowuje przyszłe etykiety przycisków i wymagania podsumowania; nie jest aktywnym checkoutem.

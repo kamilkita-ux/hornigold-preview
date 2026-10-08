@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "Rezerwacje online i płatności - zasady przed uruchomieniem",
+      "paragraphs": [
+        "Status i strony umowy. Sprzedaż online przez tę stronę nie jest uruchomiona. Ten dokument opisuje wymagania przyszłego procesu, a nie potwierdzenie aktywnego KWHotel lub Fiserv. Usługodawcą pobytu jest spółka wskazana w sekcji informacji prawnych. KWHotel ma obsługiwać dostępność i rezerwację, a wybrany produkt Fiserv płatność; nie stają się przez to stroną umowy o pobyt. Dokładny produkt, podmiot operatora płatności i zakres jego usługi muszą zostać potwierdzone przed uruchomieniem.",
+        "Przed zamówieniem. Bezpośrednio przy końcowym przycisku muszą być widoczne: wybrany termin, kategoria, liczba gości, uzgodnione świadczenia, pełna cena w PLN z podatkami i obowiązkowymi opłatami, kwota płatna teraz, pozostała należność i termin jej zapłaty, warunki zmiany, anulowania i niepojawienia się. Gość musi móc poprawić dane i poznać dane usługodawcy oraz treść regulaminu przed związaniem się umową. Dodatki odpłatne wymagają świadomego wyboru; nie wolno zaznaczać ich z góry.",
+        "Zamówienie z obowiązkiem zapłaty. Przycisk składający odpłatne zamówienie ma brzmieć „Rezerwuję z obowiązkiem zapłaty”. Samo „Rezerwuj”, „Potwierdź” lub „Dalej” nie wystarczy. Informacja o zobowiązaniu dotyczy także oferty, w której płatność następuje później. Przyjęcie regulaminu nie może zastępować oznaczenia przycisku ani wymagać zgody marketingowej. Przeczytanie informacji RODO nie jest zgodą na dowolne przetwarzanie danych.",
+        "Chwila zawarcia umowy. Obecnie zapytanie nie tworzy rezerwacji; warunki uzgadniasz z recepcją. Dla przyszłej sprzedaży dokładny moment związania umową i warunki przyjęcia zamówienia muszą zostać jasno określone przed jej włączeniem. Należy odróżnić otrzymanie zamówienia, oczekiwanie na płatność, otrzymanie płatności i potwierdzenie pobytu. Samo wyświetlenie formularza, blokada dostępności albo powrót z bramki nie oznaczają potwierdzenia pobytu.",
+        "Przedpłata i taryfa. Wysokość przedpłaty, termin, pozostała należność i skutki braku wpłaty muszą wynikać z wybranej oferty i być zapisane w potwierdzeniu. Trzeba wyraźnie wskazać, czy wpłata jest zaliczką, zadatkiem czy pełną zapłatą; tych pojęć nie wolno stosować zamiennie. Nie ustalamy tutaj niepotwierdzonego procentu ani uniwersalnej taryfy bezzwrotnej. Oferta bezzwrotna wymaga jasnego wskazania jej warunków przed zamówieniem i nie wyłącza ustawowych roszczeń.",
+        "Anulowanie i zmiany. Przed zamówieniem gość musi poznać ewentualny termin bezpłatnego anulowania wraz ze strefą czasową, sposób obliczenia opłaty po tym terminie oraz zasady niepojawienia się i skrócenia pobytu. Zgłoszenia kieruje się na office@hornigold.pl; zachowaj potwierdzenie. Brak ustawowego 14-dniowego prawa odstąpienia przy zakwaterowaniu na oznaczony dzień lub okres, innym niż do celów mieszkalnych (art. 38 ust. 1 pkt 12 ustawy o prawach konsumenta), nie oznacza, że każda rezerwacja jest bezzwrotna. Uprawnienia z przyjętej taryfy i ustawy pozostają zachowane.",
+        "Przebieg płatności. Docelowo serwer ponownie sprawdzi ofertę i dostępność w PMS, utworzy rezerwację oczekującą i dopiero potem sesję wybranego Hosted Checkout. Dane karty wprowadza się na stronie operatora, nie w e-mailu ani formularzu Hornigold. Dostępne metody, ewentualne koszty i termin są pokazywane przed zobowiązaniem; nie deklarujemy wszystkich metod reklamowanych przez dostawcę. Nigdy nie wysyłaj kodu CVV, hasła bankowego ani kodu autoryzacyjnego do recepcji.",
+        "Weryfikacja i awaria. Potwierdzenie pobytu ma następować po wiarygodnej weryfikacji płatności przez serwer i przyjęciu rezerwacji w PMS. Płatność otrzymana przy oczekującym PMS musi mieć odrębny komunikat, bez fałszywego potwierdzenia pobytu. Po błędzie lub niejasnym wyniku nie ponawiaj wpłaty bez sprawdzenia statusu z recepcją. Opłacone zamówienie, którego nie można wykonać, wymaga kontaktu i rozwiązania zgodnego z umową i prawem; dokument nie wyłącza odpowiedzialności Hornigold za samo użycie zewnętrznego systemu.",
+        "Zwroty i reklamacje. Gdy zwrot jest należny, gość otrzymuje informację o podstawie, kwocie, terminie i sposobie zwrotu na trwałym nośniku. Zwrot co do zasady następuje pierwotną metodą; uzgodniona inna metoda nie może powodować dodatkowego kosztu dla gościa. Termin zależy od podstawy prawnej i umownej, a termin zaksięgowania przez bank jest odrębny. Nie ustanawiamy fikcyjnego terminu „14 dni dla każdego zwrotu”. Kontakt: office@hornigold.pl lub adres spółki. Zasady reklamacji w sekcji pobytu nie ograniczają praw konsumenta.",
+        "Potwierdzenia i uruchomienie. Gość ma otrzymać e-mailem trwałą treść zawartej umowy, warunki taryfy i regulamin w wersji obowiązującej przy zamówieniu, identyfikator, termin i zakres pobytu, cenę, wpłatę i saldo oraz kontakt. Sam link do zmiennej strony nie zastępuje zapisu warunków. Wiadomość o płatności należy odróżnić od potwierdzenia pobytu. Przed uruchomieniem trzeba zweryfikować siedem języków, etykiety przycisków, podpisy powiadomień, anulowanie, zwroty i wiadomości; ograniczenia językowe zewnętrznej usługi muszą być jawne. Do tego czasu sprzedaż i płatności online pozostają wyłączone."
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "Polityka prywatności i informacja RODO",
       "paragraphs": [

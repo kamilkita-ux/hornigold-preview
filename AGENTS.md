@@ -30,3 +30,6 @@ The owner requested privacy improvements and implementation. Revision 23.5 may u
 
 ## Cookie documentation publication approval (2026-10-09)
 The owner requested language-suggestion storage and hidden-counter documentation in all languages, synchronized HTML/PDF updates and publication to the existing previews. Revision 23.6 may be published. Keep noindex, identity/D1, domain and booking/payment restrictions. No new tracking or operational privacy certification is authorized.
+
+## Owner authorization - online-sales disclosures 2026-10-09
+The owner requested review of UOKiK and supplier rules, preparation and implementation of online-sales documents. Revision 23.7 may update both existing previews. Do not activate sales or payments, invent account-specific supplier/tariff settings, or certify legal/operational readiness. Keep noindex, Site identity/audience/D1 and production domain unchanged. Distinguish preparatory disclosures from binding future checkout terms.

@@ -38,6 +38,8 @@ for p in (ROOT/'site').rglob('*.html'):
   for sec in sections:
    html+=f'<section aria-labelledby="{sec["id"]}"><h2 id="{sec["id"]}">{escape(sec["title"])}</h2>'
    html+=''.join('<p>'+escape(t)+'</p>' for t in sec['paragraphs'])
+   if sec.get('sources'):
+    html+='<ul>'+''.join('<li><a href="'+escape(x['url'],quote=True)+'">'+escape(x['title'])+'</a> (2026-10-09)</li>' for x in sec['sources'])+'</ul>'
    if sec['id'] in ('safeguarding','safeguarding-children'):
     download='/documents/hornigold-'+sec['id']+'-'+lang+'.pdf'
     html+=f'<p><a class="button" href="{download}" download>{escape(sec["title"])} — PDF</a></p>'

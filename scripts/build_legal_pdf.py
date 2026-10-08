@@ -4,7 +4,7 @@ import json,shutil,sys
 from xml.sax.saxutils import escape
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,PageBreak
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,PageBreak,KeepTogether
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.colors import HexColor
 from pypdf import PdfReader,PdfWriter
@@ -37,7 +37,11 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
   if index:story.append(PageBreak())
   story.extend([Paragraph('HORNIGOLD · 2026-10-09',sub),Paragraph(markup(sec['title'],lang),title)])
   if index==0:story.append(Paragraph(markup(d['intro'],lang),sub));story.append(Spacer(1,8))
-  for n,p in enumerate(sec['paragraphs'],1):story.append(Paragraph(markup(str(n)+'. '+p,lang),body))
+  paragraphs=[Paragraph(markup(str(n)+'. '+p,lang),body) for n,p in enumerate(sec['paragraphs'],1)]
+  sources=[Paragraph('<link href="'+escape(source['url'])+'">'+markup(source['title'],lang)+'</link> (2026-10-09)',ParagraphStyle('source',parent=sub,leading=10,spaceAfter=2)) for source in sec.get('sources',[])]
+  if sources:
+   story.extend(paragraphs[:-1]);story.append(KeepTogether([paragraphs[-1]]+sources))
+  else:story.extend(paragraphs)
  def footer(c,doc):
   c.saveState();c.setFont('Body',8);c.setFillColor(HexColor('#385449'));c.drawString(48,25,'Hornigold · office@hornigold.pl');c.drawRightString(547,25,str(doc.page));c.restoreState()
  doc.build(story,onFirstPage=footer,onLaterPages=footer)

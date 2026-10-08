@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "Online bookings and payments - requirements before launch",
+      "paragraphs": [
+        "Status and contracting parties. Online sales through this website are not active. This document sets out requirements for the future process; it does not confirm an active KWHotel or Fiserv service. The accommodation provider is the company identified in the legal information. KWHotel is intended to manage availability and bookings, and the selected Fiserv product to process payment; neither thereby becomes a party to the accommodation contract. The exact product, payment operator and service scope must be confirmed before launch.",
+        "Before ordering. Immediately beside the final button, show the dates, category, guest count, agreed services, total price in PLN including taxes and compulsory charges, amount payable now, balance and due date, and change, cancellation and no-show conditions. Guests must be able to correct their details and read the provider information and terms before becoming bound. Paid extras require an active choice and must not be preselected.",
+        "Order with an obligation to pay. The button placing a paid order must read “Book with an obligation to pay”. “Book”, “Confirm” or “Next” alone is insufficient. The obligation must also be clear when payment is due later. Accepting terms does not replace the button label and must not require marketing consent. Reading the privacy notice is not consent to unrestricted data processing.",
+        "Contract formation. At present an enquiry does not create a booking; conditions are agreed with reception. Before future sales start, the precise point at which the contract becomes binding and the conditions for accepting an order must be stated clearly. Receipt of an order, payment pending, payment received and accommodation confirmed are different states. Displaying a form, holding availability or returning from a payment page does not confirm a stay.",
+        "Advance payment and rate. The advance amount, deadline, balance and consequences of non-payment must be specified in the chosen offer and confirmation. State clearly whether the payment is an advance, a Polish-law earnest payment (zadatek), or full payment; these are not interchangeable. No unconfirmed percentage or universal non-refundable rate is set here. A non-refundable offer requires clear advance disclosure and does not exclude statutory claims.",
+        "Cancellations and changes. Before ordering, disclose any free-cancellation deadline and time zone, the calculation of later charges, and no-show and early-departure conditions. Send requests to office@hornigold.pl and retain confirmation. The absence of the statutory 14-day withdrawal right for non-residential accommodation on specified dates (Article 38(1)(12) of the Polish Consumer Rights Act) does not make every booking non-refundable. Rights under the accepted rate and the law remain intact.",
+        "Payment process. The intended server will recheck the offer and availability in the PMS, create a pending booking, and then create a session for the selected Hosted Checkout. Enter card details on the operator’s page, not in a Hornigold form or email. Available methods, any costs and deadlines must be disclosed before commitment; not every method advertised by the supplier is promised. Never send CVV, banking passwords or authorisation codes to reception.",
+        "Verification and failures. Accommodation confirmation is intended to follow reliable server-side payment verification and acceptance by the PMS. A received payment with PMS confirmation pending requires a distinct message, not a false stay confirmation. After an error or unclear result, check status with reception before paying again. A paid order that cannot be fulfilled requires contact and a remedy under the contract and law; using an external system does not itself exclude Hornigold’s liability.",
+        "Refunds and complaints. When a refund is due, the guest receives its basis, amount, deadline and method on a durable medium. The original method is normally used; an agreed alternative must not impose an additional cost on the guest. The deadline depends on the legal and contractual basis; bank posting time is separate. No fictitious “14 days for every refund” rule is set. Contact office@hornigold.pl or the company’s postal address. The accommodation complaints section does not restrict consumer rights.",
+        "Confirmations and launch. Email must provide a durable record of the concluded contract, rate conditions and terms applicable when ordered, identifier, dates and scope, price, payment and balance, and contact details. A link to a changeable page is not a substitute. Payment messages must be distinguished from stay confirmations. Before launch, verify all seven languages, button labels, notification authentication, cancellations, refunds and messages; disclose external service language limitations. Online sales and payments remain disabled until then."
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "Privacy policy and GDPR information",
       "paragraphs": [

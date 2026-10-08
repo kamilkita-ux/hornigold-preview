@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-09",
+  "status": "prepared-not-active",
+  "enabled": false,
+  "labels": {
+    "pl": "Rezerwuję z obowiązkiem zapłaty",
+    "en": "Book with an obligation to pay",
+    "de": "Zahlungspflichtig buchen",
+    "zh-Hans": "预订并承担付款义务",
+    "uk": "Бронюю із зобов’язанням оплати",
+    "es": "Reservar con obligación de pago",
+    "it": "Prenota con obbligo di pagamento"
+  },
+  "visibleImmediatelyBeforeOrder": [
+    "providerIdentityAndContact",
+    "stayDates",
+    "category",
+    "guestCount",
+    "services",
+    "totalPriceTaxesAndMandatoryFees",
+    "currency",
+    "amountPayableNow",
+    "balanceAndDueDate",
+    "cancellationDeadlineAndTimezone",
+    "cancellationCharges",
+    "changeAndNoShowConditions",
+    "contractFormationRule"
+  ],
+  "mustConfirmBeforeActivation": [
+    "contractFormationRule",
+    "tariffSpecificPrepaymentAndRefundRules",
+    "PMSProductAndAtomicHold",
+    "FiservLegalEntityAndProduct",
+    "notificationAuthenticationAndStatusLookup",
+    "sandboxPaymentsRefundsAndFailures",
+    "sevenLanguageCheckoutAndDurableConfirmations",
+    "legalReview"
+  ],
+  "prohibited": [
+    "preselectedPaidExtras",
+    "mandatoryMarketingConsent",
+    "confirmationFromBrowserReturnOnly",
+    "paymentOnStaticGitHubPages"
+  ]
+}

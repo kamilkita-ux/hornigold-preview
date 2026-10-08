@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "Onlinebuchung und Zahlung - Voraussetzungen vor dem Start",
+      "paragraphs": [
+        "Status und Vertragsparteien. Über diese Website ist der Onlineverkauf nicht aktiv. Dieses Dokument beschreibt Anforderungen an den künftigen Ablauf und bestätigt keinen aktiven KWHotel- oder Fiserv-Dienst. Anbieter der Unterkunft ist die in den rechtlichen Informationen genannte Gesellschaft. KWHotel soll Verfügbarkeit und Buchungen verwalten, das ausgewählte Fiserv-Produkt die Zahlung abwickeln; dadurch werden sie nicht Vertragspartei des Aufenthalts. Produkt, Zahlungsdienstleister und Leistungsumfang müssen vor dem Start bestätigt werden.",
+        "Vor der Bestellung. Unmittelbar neben der abschließenden Schaltfläche müssen Zeitraum, Kategorie, Gästezahl, vereinbarte Leistungen, Gesamtpreis in PLN einschließlich Steuern und Pflichtgebühren, jetzt fälliger Betrag, Restbetrag und Fälligkeit sowie Änderungs-, Stornierungs- und Nichtanreisebedingungen sichtbar sein. Gäste müssen Angaben korrigieren sowie Anbieterinformationen und Bedingungen vor der Bindung lesen können. Kostenpflichtige Zusatzleistungen dürfen nicht vorausgewählt sein.",
+        "Zahlungspflichtige Bestellung. Die abschließende Schaltfläche muss „Zahlungspflichtig buchen“ lauten. „Buchen“, „Bestätigen“ oder „Weiter“ allein genügt nicht. Auch bei späterer Zahlung muss die Verpflichtung klar sein. Die Zustimmung zu Bedingungen ersetzt diese Beschriftung nicht und darf keine Werbeeinwilligung voraussetzen. Das Lesen der Datenschutzhinweise ist keine Einwilligung in beliebige Datenverarbeitung.",
+        "Vertragsschluss. Derzeit begründet eine Anfrage keine Buchung; die Bedingungen werden mit der Rezeption vereinbart. Vor dem Onlineverkauf müssen der genaue Zeitpunkt des verbindlichen Vertragsschlusses und die Annahmebedingungen feststehen. Auftragseingang, ausstehende Zahlung, Zahlungseingang und bestätigter Aufenthalt sind verschiedene Zustände. Formularanzeige, Verfügbarkeitsblockierung oder Rückkehr von der Zahlungsseite bestätigen keinen Aufenthalt.",
+        "Vorauszahlung und Tarif. Betrag, Frist, Restzahlung und Folgen ausbleibender Zahlung müssen im gewählten Angebot und in der Bestätigung stehen. Es ist klar anzugeben, ob eine Vorauszahlung, ein Angeld nach polnischem Recht (zadatek) oder die vollständige Zahlung vorliegt; die Begriffe sind nicht austauschbar. Hier wird weder ein unbestätigter Prozentsatz noch ein allgemeiner nicht erstattbarer Tarif festgelegt. Ein solcher Tarif muss vorher klar erläutert werden und schließt gesetzliche Ansprüche nicht aus.",
+        "Stornierung und Änderungen. Vor der Bestellung müssen eine etwaige kostenlose Stornierungsfrist mit Zeitzone, die Berechnung späterer Gebühren sowie Nichtanreise und vorzeitige Abreise erläutert werden. Anfragen an office@hornigold.pl senden und die Bestätigung aufbewahren. Das fehlende gesetzliche 14-tägige Widerrufsrecht für Beherbergung zu bestimmten Terminen außerhalb von Wohnzwecken (Art. 38 Abs. 1 Nr. 12 des polnischen Verbraucherrechtegesetzes) macht nicht jede Buchung nicht erstattbar. Tarifliche und gesetzliche Rechte bleiben bestehen.",
+        "Zahlungsablauf. Der geplante Server prüft Angebot und Verfügbarkeit im PMS erneut, erstellt eine ausstehende Buchung und danach eine Sitzung des ausgewählten Hosted Checkout. Kartendaten gehören auf die Seite des Zahlungsdienstleisters, nicht in Hornigold-Formulare oder E-Mails. Verfügbare Methoden, Kosten und Fristen sind vor der Verpflichtung offenzulegen; nicht alle beworbenen Methoden des Anbieters werden zugesagt. Niemals CVV, Bankpasswörter oder Autorisierungscodes an die Rezeption senden.",
+        "Prüfung und Störungen. Die Aufenthaltsbestätigung soll erst nach zuverlässiger serverseitiger Zahlungsprüfung und Annahme im PMS erfolgen. Bei Zahlungseingang und ausstehender PMS-Bestätigung ist eine gesonderte Nachricht erforderlich. Nach Fehlern oder unklarem Ergebnis vor einer erneuten Zahlung den Status mit der Rezeption prüfen. Kann ein bezahlter Auftrag nicht erfüllt werden, sind Kontakt und eine vertrags- und gesetzeskonforme Lösung erforderlich. Ein externes System schließt Hornigolds Haftung nicht automatisch aus.",
+        "Erstattungen und Beschwerden. Bei geschuldeter Erstattung erhält der Gast Grundlage, Betrag, Frist und Zahlungsweg auf einem dauerhaften Datenträger. Grundsätzlich wird der ursprüngliche Zahlungsweg genutzt; eine vereinbarte Alternative darf keine zusätzlichen Kosten verursachen. Die Frist hängt von Rechts- und Vertragsgrundlage ab; die Bankbuchungszeit ist gesondert. Es gilt keine erfundene Frist von 14 Tagen für jede Erstattung. Kontakt: office@hornigold.pl oder Postanschrift der Gesellschaft. Die Beschwerderegeln beschränken keine Verbraucherrechte.",
+        "Bestätigungen und Freigabe. Per E-Mail müssen Vertrag, Tarifbedingungen und die bei Bestellung geltenden Bedingungen dauerhaft übermittelt werden, dazu Kennung, Zeitraum, Leistungen, Preis, Zahlung, Restbetrag und Kontakt. Ein Link auf eine veränderbare Seite genügt nicht. Zahlungsnachrichten und Aufenthaltsbestätigungen sind zu unterscheiden. Vor Freigabe sind sieben Sprachen, Schaltflächen, Authentizität der Benachrichtigungen, Stornierungen, Erstattungen und E-Mails zu prüfen; Sprachgrenzen externer Dienste sind offenzulegen. Onlineverkauf und Zahlungen bleiben bis dahin deaktiviert."
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "Datenschutzerklärung und DSGVO-Information",
       "paragraphs": [

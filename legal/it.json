@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "Prenotazioni e pagamenti online - requisiti prima dell’avvio",
+      "paragraphs": [
+        "Stato e parti del contratto. La vendita online su questo sito non è attiva. Il documento descrive requisiti futuri, non conferma servizi KWHotel o Fiserv attivi. Il soggiorno è fornito dalla società indicata nelle informazioni legali. KWHotel è previsto per disponibilità e prenotazioni, il prodotto Fiserv scelto per il pagamento; non diventano per questo parti del contratto di soggiorno. Prima dell’avvio occorre confermare prodotto, soggetto operatore dei pagamenti e ambito del servizio.",
+        "Prima dell’ordine. Accanto al pulsante finale devono apparire date, categoria, numero di ospiti, servizi concordati, prezzo totale in PLN con imposte e costi obbligatori, importo dovuto ora, saldo e scadenza, condizioni di modifica, cancellazione e mancato arrivo. Prima di vincolarsi, l’ospite deve poter correggere i dati e leggere identità del fornitore e condizioni. Gli extra a pagamento richiedono una scelta attiva e non possono essere preselezionati.",
+        "Ordine con obbligo di pagamento. Il pulsante finale deve indicare «Prenota con obbligo di pagamento». «Prenota», «Conferma» o «Avanti» da soli non bastano. L’obbligo deve essere chiaro anche con pagamento successivo. L’accettazione delle condizioni non sostituisce il testo del pulsante e non può richiedere consenso promozionale. Leggere l’informativa privacy non equivale a consentire qualsiasi trattamento dei dati.",
+        "Conclusione del contratto. Attualmente una richiesta non crea una prenotazione; le condizioni si concordano con la reception. Prima delle vendite occorre definire chiaramente il momento vincolante e le condizioni di accettazione. Ricezione dell’ordine, attesa del pagamento, pagamento ricevuto e soggiorno confermato sono stati diversi. Mostrare un modulo, bloccare disponibilità o tornare dalla pagina di pagamento non conferma il soggiorno.",
+        "Anticipo e tariffa. Importo anticipato, scadenza, saldo e conseguenze del mancato pagamento devono risultare nell’offerta scelta e nella conferma. Occorre distinguere acconto, caparra secondo il diritto polacco (zadatek) e pagamento integrale. Qui non si stabiliscono percentuali non confermate né una tariffa universalmente non rimborsabile. Un’offerta non rimborsabile richiede informazione preventiva chiara e non esclude diritti di legge.",
+        "Cancellazioni e modifiche. Prima dell’ordine occorre indicare l’eventuale termine di cancellazione gratuita con fuso orario, il calcolo dei costi successivi, mancato arrivo e partenza anticipata. Scrivere a office@hornigold.pl e conservare conferma. L’assenza del diritto legale di recesso di 14 giorni per alloggio non residenziale in date determinate (art. 38, comma 1, punto 12 della legge polacca sui diritti dei consumatori) non rende ogni prenotazione non rimborsabile. Restano i diritti della tariffa accettata e di legge.",
+        "Procedura di pagamento. Il server previsto ricontrollerà offerta e disponibilità nel PMS, creerà una prenotazione in attesa e poi una sessione del Hosted Checkout selezionato. I dati della carta vanno inseriti nella pagina dell’operatore, non nei moduli o nelle email Hornigold. Metodi disponibili, costi e scadenze devono comparire prima dell’impegno; non sono promessi tutti i metodi pubblicizzati dal fornitore. Non inviare CVV, password bancarie o codici di autorizzazione alla reception.",
+        "Verifica e problemi. La conferma del soggiorno deve seguire la verifica affidabile del pagamento sul server e l’accettazione nel PMS. Il pagamento ricevuto con conferma PMS in attesa richiede un messaggio distinto, senza falsa conferma del soggiorno. Dopo un errore o esito incerto, verificare con la reception prima di pagare di nuovo. Un ordine pagato non eseguibile richiede contatto e rimedio secondo contratto e legge; il sistema esterno non esclude di per sé la responsabilità di Hornigold.",
+        "Rimborsi e reclami. Quando il rimborso è dovuto, l’ospite riceve motivo, importo, termine e metodo su supporto durevole. Di norma si usa il metodo originario; un’alternativa concordata non deve comportare costi aggiuntivi. Il termine dipende dalla base legale e contrattuale; l’accredito bancario è distinto. Non si inventa un termine di «14 giorni per ogni rimborso». Contatti: office@hornigold.pl o indirizzo postale della società. Le regole sui reclami non limitano i diritti del consumatore.",
+        "Conferme e avvio. L’email deve fornire una registrazione durevole di contratto, tariffa e condizioni vigenti all’ordine, identificativo, date e servizi, prezzo, pagamento, saldo e contatti. Un link a una pagina modificabile non basta. Il messaggio di pagamento deve distinguersi dalla conferma del soggiorno. Prima dell’avvio occorre verificare sette lingue, pulsanti, autenticità delle notifiche, cancellazioni, rimborsi ed email; i limiti linguistici esterni devono essere dichiarati. Nel frattempo vendita e pagamenti online restano disattivati."
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "Informativa privacy e GDPR",
       "paragraphs": [

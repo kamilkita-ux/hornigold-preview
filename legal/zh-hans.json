@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "在线预订与付款 - 启用前要求",
+      "paragraphs": [
+        "状态与合同当事人。本网站尚未开通在线销售。本文件说明未来流程的要求，并不确认 KWHotel 或 Fiserv 服务已启用。住宿服务提供方为法律信息中列明的公司。计划由 KWHotel 管理房态与预订，由选定的 Fiserv 产品处理付款；这并不使其成为住宿合同的当事人。启用前必须确认具体产品、支付运营主体及服务范围。",
+        "下单前信息。最终按钮旁必须直接显示住宿日期、房型、人数、约定服务、含税及所有必付费用的波兰兹罗提（PLN）总价、当前应付金额、余款与到期日，以及变更、取消和未入住条件。客人在受合同约束前应能够修改资料并阅读服务提供方信息及条款。付费附加服务必须由客人主动选择，不得预先勾选。",
+        "具有付款义务的订单。提交付费订单的按钮须标明“预订并承担付款义务”。仅写“预订”“确认”或“下一步”并不足够。即使稍后付款，也须明确付款义务。接受条款不能替代按钮说明，也不得以同意营销为前提。阅读隐私告知并不等于同意任意处理个人数据。",
+        "合同成立时间。目前询价不会建立预订，具体条件由您与前台商定。未来启用在线销售前，必须明确合同何时产生约束力及订单接受条件。收到订单、等待付款、收到付款与确认住宿是不同状态。显示表单、暂时保留房态或从支付页面返回均不代表住宿已确认。",
+        "预付款与房价方案。预付金额、期限、余款及逾期未付的后果须在所选报价和确认中列明。应明确属于一般预付款、波兰法律下的定金（zadatek）还是全额付款，不得混用。此处不设未经确认的比例，也不把所有方案规定为不可退款。不可退款方案须在下单前清楚披露，且不排除法定请求权。",
+        "取消与变更。下单前须说明如有的免费取消截止时间及其时区、逾期费用计算方式、未入住与提前离店条件。请向 office@hornigold.pl 提交请求并保留确认。对于指定日期或期间、非居住用途的住宿，原则上不适用远程合同的法定14天撤回权（波兰《消费者权利法》第38条第1款第12项）；这不表示每笔预订都不可退款。已接受房价方案及法律赋予的权利仍然有效。",
+        "付款流程。计划由服务器在 PMS 中重新核对报价与房态，建立待付款预订后，再创建所选 Hosted Checkout 支付会话。银行卡资料应在支付运营方页面输入，不得写入 Hornigold 表单或电子邮件。实际付款方式、费用与期限须在承担义务前显示；并非供应商宣传的所有方式都会开放。切勿向前台发送 CVV、网银密码或授权验证码。",
+        "核验与故障。住宿应在服务器可靠核验付款并由 PMS 接受预订后确认。已收到付款但 PMS 仍待确认时，必须使用单独状态提示，不得虚报住宿已确认。发生错误或结果不明时，请先联系前台核实状态，再考虑付款。已付款但无法履行的订单须联系客人并依合同及法律处理；使用外部系统本身不免除 Hornigold 的责任。",
+        "退款与投诉。应退款时，客人须通过可持久保存的载体获知依据、金额、期限及方式。原则上原路退回；经约定采用其他方式不得增加客人的费用。期限取决于法律及合同依据，银行入账时间另计。此处不设“所有退款均为14天”的虚构规则。请联系 office@hornigold.pl 或公司邮寄地址。住宿投诉条款不限制消费者权利。",
+        "确认与启用。须通过电子邮件提供可持久保存的合同内容、下单时适用的房价条件与条款、编号、日期与服务、总价、已付款和余款及联系方式。指向可变网页的链接不能替代这些记录。付款通知须与住宿确认区分。启用前须核验七种语言、按钮文字、通知真实性、取消、退款和邮件；外部服务的语言限制须明确告知。在此之前，在线销售和付款仍保持关闭。"
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "隐私政策与 GDPR 告知",
       "paragraphs": [

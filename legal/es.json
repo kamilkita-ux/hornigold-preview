@@ -35,6 +35,44 @@
       ]
     },
     {
+      "id": "online-sales",
+      "title": "Reservas y pagos en línea - requisitos antes de la apertura",
+      "paragraphs": [
+        "Estado y partes del contrato. La venta en línea en este sitio no está activa. Este documento describe requisitos futuros; no confirma servicios activos de KWHotel o Fiserv. El alojamiento lo presta la sociedad identificada en la información legal. KWHotel está previsto para gestionar disponibilidad y reservas, y el producto Fiserv elegido para el pago; no se convierten por ello en partes del contrato de estancia. Antes de la apertura deben confirmarse el producto, la entidad operadora de pagos y su alcance.",
+        "Antes de pedir. Junto al botón final deben mostrarse fechas, categoría, huéspedes, servicios acordados, precio total en PLN con impuestos y cargos obligatorios, importe a pagar ahora, saldo y vencimiento, y condiciones de cambios, cancelación y no presentación. El huésped debe poder corregir datos y leer la identificación del prestador y las condiciones antes de quedar obligado. Los extras de pago requieren elección expresa y no pueden estar preseleccionados.",
+        "Pedido con obligación de pago. El botón final debe indicar «Reservar con obligación de pago». «Reservar», «Confirmar» o «Siguiente» no bastan por sí solos. La obligación debe quedar clara también si se paga más tarde. Aceptar las condiciones no sustituye el texto del botón ni puede exigir consentimiento comercial. Leer la información de privacidad no equivale a consentir cualquier tratamiento de datos.",
+        "Celebración del contrato. Actualmente una consulta no crea una reserva; las condiciones se acuerdan con recepción. Antes de activar ventas deben definirse el momento exacto en que el contrato resulta vinculante y las condiciones de aceptación. Recepción del pedido, pago pendiente, pago recibido y estancia confirmada son estados distintos. Mostrar un formulario, bloquear disponibilidad o volver de la pasarela no confirma una estancia.",
+        "Anticipo y tarifa. El importe anticipado, plazo, saldo y consecuencias del impago deben constar en la oferta elegida y su confirmación. Debe indicarse si es anticipo, arras según el derecho polaco (zadatek) o pago completo; no son equivalentes. Aquí no se fija un porcentaje no confirmado ni una tarifa no reembolsable universal. Una oferta no reembolsable exige información previa clara y no excluye derechos legales.",
+        "Cancelaciones y cambios. Antes del pedido deben comunicarse el eventual plazo de cancelación gratuita con zona horaria, cálculo de cargos posteriores, no presentación y salida anticipada. Escriba a office@hornigold.pl y conserve confirmación. La ausencia del derecho legal de desistimiento de 14 días para alojamiento no residencial en fechas concretas (art. 38.1.12 de la ley polaca de derechos del consumidor) no hace que toda reserva sea no reembolsable. Se mantienen los derechos legales y de la tarifa aceptada.",
+        "Proceso de pago. El servidor previsto comprobará de nuevo oferta y disponibilidad en el PMS, creará una reserva pendiente y después una sesión del Hosted Checkout seleccionado. Introduzca datos de tarjeta en la página del operador, no en formularios ni correos de Hornigold. Métodos disponibles, costes y plazos deben mostrarse antes del compromiso; no se prometen todos los métodos anunciados por el proveedor. Nunca envíe CVV, claves bancarias ni códigos de autorización a recepción.",
+        "Verificación e incidencias. La estancia debe confirmarse tras verificar fiablemente el pago en el servidor y aceptarlo el PMS. Un pago recibido con confirmación PMS pendiente requiere un mensaje separado, sin falsa confirmación de estancia. Ante error o resultado incierto, consulte el estado con recepción antes de volver a pagar. Un pedido pagado que no pueda cumplirse exige contacto y solución conforme al contrato y la ley; un sistema externo no excluye por sí solo la responsabilidad de Hornigold.",
+        "Reembolsos y reclamaciones. Si procede un reembolso, el huésped recibirá fundamento, importe, plazo y método en soporte duradero. Normalmente se emplea el método original; una alternativa acordada no debe ocasionar costes adicionales. El plazo depende de la base legal y contractual; la contabilización bancaria es aparte. No se inventa una regla de «14 días para todo reembolso». Contacto: office@hornigold.pl o dirección postal de la sociedad. Las reglas de reclamación no restringen derechos del consumidor.",
+        "Confirmaciones y apertura. El correo debe proporcionar registro duradero del contrato, tarifa y condiciones vigentes al pedir, identificador, fechas y servicios, precio, pago, saldo y contacto. Un enlace a una página modificable no lo sustituye. El aviso de pago debe distinguirse de la confirmación de estancia. Antes de abrir deben verificarse siete idiomas, botones, autenticidad de notificaciones, cancelaciones, reembolsos y correos; deben declararse limitaciones lingüísticas externas. Hasta entonces, venta y pagos en línea siguen desactivados."
+      ],
+      "sources": [
+        {
+          "title": "UOKiK - Prawo do informacji",
+          "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/"
+        },
+        {
+          "title": "UOKiK - Wyłączenia prawa do odstąpienia",
+          "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/"
+        },
+        {
+          "title": "KWHotel Cloud Booking Engine - configuration",
+          "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf"
+        },
+        {
+          "title": "Fiserv Checkout - Introduction",
+          "url": "https://docs.fiserv.dev/public/docs/introduction-checkout"
+        },
+        {
+          "title": "Fiserv Checkout - Webhooks and status updates",
+          "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout"
+        }
+      ]
+    },
+    {
       "id": "privacy",
       "title": "Política de privacidad e información RGPD",
       "paragraphs": [
