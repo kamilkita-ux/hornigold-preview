@@ -1,0 +1,11 @@
+{
+  "nodeTests": 26,
+  "nodeFailed": 0,
+  "seoUnitTests": 10,
+  "seoUnitFailed": 0,
+  "browserCases": 28,
+  "browserErrors": 0,
+  "liveCanonicalRoutes": 693,
+  "liveIndexingStillBlocked": true,
+  "productionDeployed": false
+}

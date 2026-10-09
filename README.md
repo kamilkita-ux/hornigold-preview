@@ -121,3 +121,6 @@ Siedem wersji dokumentów zawiera sekcję `online-sales`. To wymagania przed uru
 
 ## Property identity — revision 23.9
 Central seven-language copy: `content/property-identity.json`. The visible footer and all 21 legal PDFs carry the owner-confirmed 34 apartments and a dated, attributed 4.6/5 Google snapshot. AI guides repeat the same visible facts; no classification or aggregateRating schema is inferred. Evidence and limits: `docs/PROPERTY_FACT_DOSSIER_2026-10-09.md`. Audit: `python3 scripts/audit_property_identity.py`.
+
+## Cloudflare production SEO preparation (2026-10-09)
+See `docs/CLOUDFLARE_SEO_DEPLOYMENT_2026-10-09.md`. Owner authorized indexing on hornigold.pl; actual Cloudflare deployment pipeline/access is awaiting Marek. The separate production package keeps all previews excluded and does not enable booking/payments.
