@@ -29,5 +29,7 @@
   // Adres techniczny wyłączony po aktywacji strefy (9 października 2026 r.), jak w FFP.
   "workers_dev": false,
   "preview_urls": false,
-  "observability": { "enabled": true }
+  // Logi Workers Logs wyłączone (9.10.2026, decyzja Marka): Cloudflare przechowuje je poza UE,
+  // a strona statyczna ich nie potrzebuje. Diagnostyka na żywo: npx wrangler tail hornigold.
+  "observability": { "enabled": false }
 }
