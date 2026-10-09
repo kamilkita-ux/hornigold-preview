@@ -13,7 +13,7 @@ def load_routes(root):
     return {unquote(r): r for r in routes}
 
 def route_for_file(path, directory):
-    rel = str(path.relative_to(directory))
+    rel = path.relative_to(directory).as_posix()  # CloudMentor: na Windows str() daje "\" i żadna trasa nie pasuje
     return '/' + rel[:-10] if rel.endswith('index.html') else '/' + rel
 
 def set_meta(soup, key, value, attr='name'):

@@ -108,3 +108,25 @@ Na prośbę Marka („całkowicie w EU”) w granicach planu Free:
 - Worker `2e24247c-7e31-485c-9fbf-1061d6a78b06`.
 
 Poza zasięgiem planu Free (Enterprise Data Localization Suite): Regional Services (TLS i wykonywanie tylko w UE) oraz Customer Metadata Boundary (logi i analityka tylko w UE). Workers Logs (`observability`) pozostają włączone — wyłączenie zablokował filtr uprawnień sesji; decyzja Marka.
+
+## Produkcja z indeksowaniem (9 października 2026 r., wieczór)
+
+Kamil (PR #1, `75f7095`/`37a7a67`) przygotował paczkę produkcyjną z indeksowaniem hornigold.pl — zgoda właściciela opisana w `README.md` i `docs/CLOUDFLARE_SEO_DEPLOYMENT_2026-10-09.md`. Wdrożenie w istniejącym Workerze `hornigold`, z tym samym D1 (`hornigold-counter-eu`) i domeną; bez zmian DNS, poczty, rezerwacji i płatności.
+
+Build (Windows, Git Bash, `MSYS_NO_PATHCONV=1 PYTHONUTF8=1`):
+
+```sh
+GITHUB_SHA=$(git rev-parse HEAD) .venv/Scripts/python scripts/build.py --mode production-ready --base / --counter --production-counter
+.venv/Scripts/python scripts/audit_seo.py --mode production-ready
+.venv/Scripts/python scripts/audit_discovery.py --mode production-ready
+.venv/Scripts/python scripts/prepare_cloudflare_production.py      # -> _cloudflare_production/ (gitignored)
+node --test tests/production-indexing.test.mjs tests/server.test.mjs
+.venv/Scripts/python -m unittest discover -s tests -p 'test_seo*.py'
+npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc
+```
+
+`wrangler.jsonc`: `main` = `_cloudflare_production/server/production-entry.mjs`, `assets.directory` = `_cloudflare_production/assets` (`run_worker_first`, `404-page` bez zmian). Tryb `preview` (`_site/`) nie jest już wdrażany.
+
+**Poprawka Windows w `scripts/seo.py` (do przeniesienia przez Kamila):** `route_for_file` składał trasę przez `str(path.relative_to(...))` — na Windows `\pl\` zamiast `/pl/`, żadna strona nie pasowała do `routes.json` i build produkcyjny dawał 693× `noindex` (błąd „indexing” w `build.py`). Zmienione na `.as_posix()`.
+
+Wynik: build 693 stron, `audit_seo`/`audit_discovery` bez błędów, testy 26/26 i 10/10. Worker `bc527290-e755-4ce7-83b4-16f8acee67fd` (poprzedni `2e24247c` — rollback). Odczyt z produkcji: `robots.txt` `Allow: /`, `Disallow: /api/`, `Sitemap`; kanoniczne strony `index,follow` bez `X-Robots-Tag` (także 304); 404, aliasy 301, `/api/`, PDF i `/` (przekierowanie języka) z `noindex`; `release.json` `indexing: true`, `bookingEnabled/paymentsEnabled: false`; `www` 301 z parametrami. Zgłoszenie mapy strony w Google Search Console / Bing — po stronie właściciela (dostęp do kont niepotwierdzony).
