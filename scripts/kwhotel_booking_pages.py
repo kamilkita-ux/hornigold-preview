@@ -34,3 +34,20 @@ for lang, engine in LANG.items():
     html = html[:m.end()] + SCRIPT + html[m.end():]
     p.write_text(html, encoding='utf-8', newline='\n')
     print(lang, 'ok')
+
+HELP = {
+ 'pl': 'Po wyborze pokoju rezerwację i płatność zakończysz w systemie rezerwacyjnym hotelu.',
+ 'en': "After choosing a room, you complete the booking and payment in the hotel's booking system.",
+ 'de': 'Nach der Zimmerwahl schließen Sie Buchung und Zahlung im Buchungssystem des Hotels ab.',
+ 'uk': 'Після вибору номера ви завершите бронювання й оплату в системі бронювання готелю.',
+ 'es': 'Tras elegir la habitación, completarás la reserva y el pago en el sistema de reservas del hotel.',
+ 'it': "Dopo aver scelto la camera, completerai prenotazione e pagamento nel sistema di prenotazione dell'hotel.",
+ 'zh-hans': '选定房型后，您将在酒店预订系统中完成预订和付款。',
+}
+for lang, text in HELP.items():
+    for rel in (f'{lang}/index.html', f'{lang}/pobyt/index.html'):
+        p = ROOT / 'site' / rel
+        html = p.read_text(encoding='utf-8')
+        html = one(r'<p class="form-help" id="date-help">.*?</p>', f'<p class="form-help" id="date-help">{esc(text)}</p>', html, rel)
+        p.write_text(html, encoding='utf-8', newline='\n')
+        print(rel, 'ok')

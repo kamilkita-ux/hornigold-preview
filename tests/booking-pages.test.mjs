@@ -24,3 +24,21 @@ for (const [lang, engine] of Object.entries(LANG)) {
     assert.equal(html.split('/assets/booking.js').length - 1, 1);
   });
 }
+
+const HELP = {
+  pl: 'Po wyborze pokoju rezerwację i płatność zakończysz w systemie rezerwacyjnym hotelu.',
+  en: "After choosing a room, you complete the booking and payment in the hotel's booking system.",
+  de: 'Nach der Zimmerwahl schließen Sie Buchung und Zahlung im Buchungssystem des Hotels ab.',
+  uk: 'Після вибору номера ви завершите бронювання й оплату в системі бронювання готелю.',
+  es: 'Tras elegir la habitación, completarás la reserva y el pago en el sistema de reservas del hotel.',
+  it: "Dopo aver scelto la camera, completerai prenotazione e pagamento nel sistema di prenotazione dell'hotel.",
+  'zh-hans': '选定房型后，您将在酒店预订系统中完成预订和付款。',
+};
+const unescape = s => s.replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&');
+for (const lang of Object.keys(HELP)) for (const page of [`${lang}/index.html`, `${lang}/pobyt/index.html`]) {
+  test(`${page} search form help describes booking in the hotel system`, () => {
+    const m = read(page).match(/<p class="form-help" id="date-help">(.*?)<\/p>/s);
+    assert.ok(m, 'form-help missing');
+    assert.equal(unescape(m[1]), HELP[lang]);
+  });
+}
