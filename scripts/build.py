@@ -8,10 +8,11 @@ from discovery import write_guides
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 VERSION=str(RELEASE['version'])
-args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
+args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--production-counter',action='store_true',help='Explicitly retain the existing aggregate counter in a production artifact; requires --counter and --base /');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
 if not re.fullmatch(r'/[A-Za-z0-9_/-]*',BASE):raise SystemExit('Invalid base path')
-if opts.mode=='production-ready' and (BASE!='/' or opts.counter):raise SystemExit('production-ready requires --base / and does not enable server integrations')
+if opts.production_counter and (opts.mode!='production-ready' or not opts.counter or BASE!='/'):raise SystemExit('production-counter requires production-ready --base / --counter')
+if opts.mode=='production-ready' and (BASE!='/' or (opts.counter and not opts.production_counter)):raise SystemExit('production-ready requires --base / and does not enable server integrations')
 OUT=ROOT/('_site' if opts.mode=='preview' else '_production_ready')
 ROUTES=load_routes(ROOT)
 OVERRIDES=json.loads((ROOT/'seo/metadata-overrides.json').read_text())

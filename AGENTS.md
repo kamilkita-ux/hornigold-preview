@@ -39,3 +39,6 @@ The owner requested PAD accessibility documentation now where supported by evide
 
 ## Owner identity/footer request (2026-10-09)
 The owner confirmed 34 rental apartments and requested consistent identity and rating details on every page and document. Revision 23.9 may update both existing previews. Retain the approved comparative tagline (more than a hotel); do not claim formal hotel classification. Use attributed dated Google rating snapshots, no aggregateRating or invented reviews. Preserve indexing, booking/payment and production-domain restrictions.
+
+## Production SEO authorization (2026-10-09)
+The owner confirmed the Cloudflare domain switch and explicitly authorized production SEO and opening indexing on hornigold.pl. This supersedes earlier production-indexing restrictions only for that canonical production host. Preserve Sites/Pages/workers.dev preview exclusions, DNS/mail, existing Cloudflare bindings/counter history and inactive booking/payments. Do not infer the deployment pipeline: the owner authorized emailing Marek from lu@farmyfotowoltaiki.pl for the actual repo/branch/build/config/access. Prepare a tested production package; external deployment remains unverified until confirmed with current public readback.
