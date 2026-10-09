@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-08T21:48:03.884Z",
+  "cases": 42,
+  "results": [
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1366,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1366,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "pl",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "en",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "de",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "zh-hans",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "uk",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "es",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1366,
+      "lang": "it",
+      "pass": true,
+      "googleRequestsWereIntercepted": true
+    }
+  ],
+  "failures": []
+}

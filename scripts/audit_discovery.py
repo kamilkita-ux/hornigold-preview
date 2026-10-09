@@ -9,12 +9,18 @@ root = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser(); parser.add_argument('--mode', choices=['preview','production-ready'], required=True)
 args = parser.parse_args(); out = root/('_site' if args.mode == 'preview' else '_production_ready')
 release = json.loads((out/'release.json').read_text()); data, routes = inputs(root)
-errors = []; links = 0
+identity = json.loads((root/'content/property-identity.json').read_text())
+approved_evidence = {row['reviewUrl'] for row in identity.values()}
+errors = []; links = 0; external_evidence_links = 0
 for p in [out/'llms.txt', *sorted((out/'llms').glob('*.txt'))]:
     text = p.read_text()
     if re.search(r'\b(?:PLN|EUR|GBP|USD)\b|\b\d+\s*m²', text): errors.append(str(p)+': stale numeric offer')
     for raw in re.findall(r'\]\(([^)]+)\)', text):
         links += 1; url = urlsplit(raw)
+        if raw in approved_evidence:
+            if url.scheme != 'https' or url.netloc != 'www.google.pl': errors.append('Invalid evidence URL: '+raw)
+            external_evidence_links += 1
+            continue
         if args.mode == 'production-ready':
             if url.scheme != 'https' or url.netloc != 'hornigold.pl': errors.append('Wrong production origin: '+raw)
         elif url.scheme or url.netloc or not url.path.startswith(release['base']): errors.append('Wrong preview link: '+raw)
@@ -32,7 +38,7 @@ for lang, row in data.items():
             for question, answer, _ in row['questions']:
                 if question not in soup.get_text() or answer not in soup.get_text() or answer not in guide: errors.append(lang+': mismatched answer')
 if len(list((out/'llms').glob('*.txt'))) != 7: errors.append('Expected seven guides')
-report = {'mode':args.mode,'languages':7,'updatedPages':14,'guideFiles':8,'guideLinks':links,'errors':errors,
+report = {'mode':args.mode,'languages':7,'updatedPages':14,'guideFiles':8,'guideLinks':links,'externalEvidenceLinks':external_evidence_links,'errors':errors,
           'limits':['Navigation files do not grant crawl access or guarantee inclusion in AI answers.',
                     'No external native-speaker review or live PMS verification performed.']}
 (root/'docs/seo'/('discovery-'+args.mode+'.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

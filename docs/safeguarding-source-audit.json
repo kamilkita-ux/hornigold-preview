@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "contentPages": 686,
+  "technical404RoutesExcluded": 7,
+  "languages": [
+    "de",
+    "en",
+    "es",
+    "it",
+    "pl",
+    "uk",
+    "zh-hans"
+  ],
+  "footerLinks": 1372,
+  "standaloneDownloads": 14,
+  "errors": [],
+  "limits": [
+    "Operational adoption, named appointments, staff training and on-site display require management confirmation.",
+    "PDFs have an HTML alternative; no PDF/UA certification."
+  ]
+}

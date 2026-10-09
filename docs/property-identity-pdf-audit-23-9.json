@@ -1,0 +1,133 @@
+{
+  "pdfs": 21,
+  "pages": 111,
+  "errors": [],
+  "results": [
+    {
+      "lang": "pl",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "pl",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "pl",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "en",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "en",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "en",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "de",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "de",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "de",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "zh-hans",
+      "kind": "policies",
+      "pages": 12,
+      "complete": true
+    },
+    {
+      "lang": "zh-hans",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "zh-hans",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "uk",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "uk",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "uk",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "es",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "es",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "es",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    },
+    {
+      "lang": "it",
+      "kind": "policies",
+      "pages": 13,
+      "complete": true
+    },
+    {
+      "lang": "it",
+      "kind": "safeguarding",
+      "pages": 2,
+      "complete": true
+    },
+    {
+      "lang": "it",
+      "kind": "safeguarding-children",
+      "pages": 1,
+      "complete": true
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "cases": 14,
+  "failures": [],
+  "results": [
+    {
+      "lang": "pl",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "de",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "uk",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "es",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "failures": []
+    },
+    {
+      "lang": "it",
+      "width": 320,
+      "failures": []
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "failures": []
+    }
+  ]
+}

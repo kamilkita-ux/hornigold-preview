@@ -21,3 +21,21 @@ The latest user instruction supersedes earlier publication authorization for thi
 
 ## Owner approval to publish Polish SEO (2026-10-07)
 The user subsequently approved publication. Revision 23.3 may be published to the existing Sites and complete GitHub Pages previews. Preserve all preview indexing blocks, Site audience/identity/D1 binding, and booking/payment restrictions. Do not deploy production-ready or alter the production domain. The previous local-only rule describes the completed preparation phase.
+
+## Safeguarding publication approval (2026-10-09)
+The owner explicitly requested creation and implementation of full and child-friendly safeguarding standards. Revision 23.4 may update both existing previews, including the previously prepared mobile/language improvements. Preserve indexing blocks, domain, booking/payment restrictions, Site identity and D1. Publication is not proof of named operational appointments, staff training, background checks or on-site display; record these as management implementation tasks.
+
+## Privacy publication approval (2026-10-09)
+The owner requested privacy improvements and implementation. Revision 23.5 may update the two existing previews. Do not certify supplier agreements, transfer mechanisms, retention implementation or DPO appointment without account-specific evidence. Keep internal registers and procedures outside the public repository and website. Preserve noindex, Site identity/D1, domain and inactive booking/payments.
+
+## Cookie documentation publication approval (2026-10-09)
+The owner requested language-suggestion storage and hidden-counter documentation in all languages, synchronized HTML/PDF updates and publication to the existing previews. Revision 23.6 may be published. Keep noindex, identity/D1, domain and booking/payment restrictions. No new tracking or operational privacy certification is authorized.
+
+## Owner authorization - online-sales disclosures 2026-10-09
+The owner requested review of UOKiK and supplier rules, preparation and implementation of online-sales documents. Revision 23.7 may update both existing previews. Do not activate sales or payments, invent account-specific supplier/tariff settings, or certify legal/operational readiness. Keep noindex, Site identity/audience/D1 and production domain unchanged. Distinguish preparatory disclosures from binding future checkout terms.
+
+## Owner authorization - accessibility preparation 2026-10-09
+The owner requested PAD accessibility documentation now where supported by evidence and acceptance of the future booking/payment journey after connection. Revision 23.8 may publish factual current-service information and preparation documents in seven languages to both existing previews. Do not certify PAD applicability, microenterprise exemption, building accessibility, tagged PDFs or an unconnected payment journey. Keep the future acceptance gate explicit; do not activate booking, payments or production indexing/domain.
+
+## Owner identity/footer request (2026-10-09)
+The owner confirmed 34 rental apartments and requested consistent identity and rating details on every page and document. Revision 23.9 may update both existing previews. Retain the approved comparative tagline (more than a hotel); do not claim formal hotel classification. Use attributed dated Google rating snapshots, no aggregateRating or invented reviews. Preserve indexing, booking/payment and production-domain restrictions.

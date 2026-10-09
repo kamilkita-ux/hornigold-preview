@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-09",
+  "status": "BLOCKED_ENGINE_AND_PAYMENT_NOT_CONNECTED",
+  "verified": false,
+  "languages": [
+    "pl",
+    "en",
+    "de",
+    "zh-Hans",
+    "uk",
+    "es",
+    "it"
+  ],
+  "requiredMethods": [
+    "keyboard-only",
+    "screen-reader-desktop",
+    "screen-reader-mobile",
+    "reflow-320px-and-zoom400",
+    "text200-and-spacing",
+    "contrast-and-focus",
+    "automated-scan",
+    "plain-language-review"
+  ],
+  "requiredEvidence": [
+    "date",
+    "engineAndPaymentProductVersion",
+    "sandboxURL",
+    "browserAndATVersions",
+    "steps",
+    "expected",
+    "actual",
+    "evidenceWithoutPersonalData",
+    "owner",
+    "retest"
+  ],
+  "stages": [
+    {
+      "id": "search-dates-guests",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "offer-results-and-room-selection",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "guest-form-and-validation",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "price-summary-and-corrections",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "terms-consents-and-order-button",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "redirect-to-hosted-checkout",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "payment-method-selection",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "bank-authentication-3DS-SCA",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "pending-failed-expired-payment",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "return-and-PMS-confirmation",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "email-and-durable-documents",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "booking-change-and-cancellation",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "full-and-partial-refunds",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "session-timeouts-and-recovery",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    },
+    {
+      "id": "support-and-accessibility-complaint",
+      "resultsByLanguage": {
+        "pl": "NOT_RUN",
+        "en": "NOT_RUN",
+        "de": "NOT_RUN",
+        "zh-Hans": "NOT_RUN",
+        "uk": "NOT_RUN",
+        "es": "NOT_RUN",
+        "it": "NOT_RUN"
+      }
+    }
+  ]
+}

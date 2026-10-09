@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-09",
+  "revision": "23.5",
+  "publicScope": "Website and reception enquiries; payment/PMS inactive",
+  "languages": ["pl", "en", "de", "zh-hans", "uk", "es", "it"],
+  "technicalSuppliersVerified": ["OpenAI Sites", "Cloudflare infrastructure", "GitHub Pages", "Google Maps optional embed"],
+  "verifiedBrowserBehaviour": ["Privacy validity 180 days; invalid record deleted on next website read", "User-triggered clear", "Session-only stay and comparison state", "Persistent user language choice"],
+  "notConfirmed": ["Account-specific legal supplier roles and processing agreements", "Actual recipient countries and transfer mechanisms for Hornigold accounts", "Email provider and infrastructure-log retention", "Operational implementation of retention schedule", "DPO appointment/contact"],
+  "fullComplianceConfirmed": false,
+  "internalDocumentsPublic": false,
+  "references": ["https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng", "https://openai.com/policies/data-processing-addendum/", "https://www.cloudflare.com/cloudflare-customer-dpa/", "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement", "https://policies.google.com/privacy"]
+}

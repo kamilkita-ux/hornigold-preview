@@ -24,6 +24,11 @@ p=OUT/'assets/error-language.js';s=p.read_text().replace('location.pathname.repl
 for p in OUT.rglob('*.html'):
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
+ if s.select_one('[data-site-version]'):
+  script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)
+ if not opts.counter:
+  for element in s.select('.site-views'):
+   element.decompose()
  if opts.counter and s.select_one('[data-site-version]'):
   meta=s.new_tag('meta');meta['name']='hornigold-counter-endpoint';meta['content']=BASE+'api/site-stats';s.head.append(meta)
  for el in s.select('[href],[src],[action],[poster]'):

@@ -35,6 +35,8 @@ def write_guides(root, out, base='/', mode='preview'):
             path = root/'site'/unquote(route).lstrip('/')/'index.html'
             if not path.is_file(): raise ValueError('Missing source page: '+route)
             lines.append(f'- [{label}]({target(route)})')
+        info=json.loads((root/'content/property-identity.json').read_text())[lang.lower()]
+        lines += ['', info['tagline'], info['description'], info['rating']+' '+info['ratingNote'], '['+info['reviewLinkLabel']+']('+info['reviewUrl']+')']
         lines += ['', '## '+row['labels'][4]]
         for question, answer, key in row['questions']:
             lines += ['', '### '+question, answer, f'[{row["labels"][KEYS.index(key)]}]({target(routes[key][lang])})']
