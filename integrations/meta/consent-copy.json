@@ -1,0 +1,37 @@
+{
+  "pl": {
+    "marketing": "Pomiar reklam Meta (Facebook i Instagram)",
+    "marketingDetail": "Zezwalam na pomiar reklam Meta. Po zgodzie Meta może otrzymać dane przeglądarki i identyfikatory cookies oraz informacje o odsłonach i kliknięciach kontaktowych. Odmowa nie utrudnia korzystania ze strony. Zgodę możesz wycofać w ustawieniach prywatności.",
+    "notice": "Opcjonalne mapy i pomiar reklam wymagają osobnej zgody. Zamknięcie komunikatu ani przewijanie nie oznaczają zgody. Google Analytics jest wyłączone."
+  },
+  "en": {
+    "marketing": "Meta advertising measurement (Facebook and Instagram)",
+    "marketingDetail": "I allow Meta advertising measurement. After consent, Meta may receive browser data, cookie identifiers, page views and contact-click events. Refusal does not prevent use of the website. You can withdraw consent in privacy settings.",
+    "notice": "Optional maps and advertising measurement require separate consent. Closing this notice or scrolling does not give consent. Google Analytics is disabled."
+  },
+  "de": {
+    "marketing": "Meta-Werbemessung (Facebook und Instagram)",
+    "marketingDetail": "Ich erlaube die Meta-Werbemessung. Nach der Einwilligung kann Meta Browserdaten, Cookie-Kennungen, Seitenaufrufe und Klicks auf Kontaktlinks erhalten. Eine Ablehnung beeinträchtigt die Nutzung der Website nicht. Die Einwilligung kann in den Datenschutzeinstellungen widerrufen werden.",
+    "notice": "Optionale Karten und Werbemessung erfordern getrennte Einwilligungen. Schließen oder Scrollen gilt nicht als Einwilligung. Google Analytics ist deaktiviert."
+  },
+  "zh-hans": {
+    "marketing": "Meta 广告效果衡量（Facebook 和 Instagram）",
+    "marketingDetail": "我同意使用 Meta 广告效果衡量服务。同意后，Meta 可能接收浏览器数据、Cookie 标识符、页面浏览及联系链接点击事件。拒绝不影响使用网站。您可在隐私设置中撤回同意。",
+    "notice": "可选地图和广告效果衡量分别需要您的同意。关闭提示或滚动页面不代表同意。Google Analytics 未启用。"
+  },
+  "uk": {
+    "marketing": "Вимірювання реклами Meta (Facebook та Instagram)",
+    "marketingDetail": "Я дозволяю вимірювання реклами Meta. Після згоди Meta може отримувати дані браузера, ідентифікатори cookies, перегляди сторінок і натискання контактних посилань. Відмова не перешкоджає користуванню сайтом. Згоду можна відкликати в налаштуваннях приватності.",
+    "notice": "Необов’язкові карти та вимірювання реклами потребують окремої згоди. Закриття повідомлення або прокручування не означає згоди. Google Analytics вимкнено."
+  },
+  "es": {
+    "marketing": "Medición publicitaria de Meta (Facebook e Instagram)",
+    "marketingDetail": "Permito la medición publicitaria de Meta. Tras el consentimiento, Meta puede recibir datos del navegador, identificadores de cookies, visitas a páginas y clics en enlaces de contacto. Rechazarlo no impide usar la web. Puedes retirar el consentimiento en los ajustes de privacidad.",
+    "notice": "Los mapas opcionales y la medición publicitaria requieren consentimientos separados. Cerrar el aviso o desplazarte no implica consentir. Google Analytics está desactivado."
+  },
+  "it": {
+    "marketing": "Misurazione pubblicitaria Meta (Facebook e Instagram)",
+    "marketingDetail": "Acconsento alla misurazione pubblicitaria Meta. Dopo il consenso, Meta può ricevere dati del browser, identificatori dei cookie, visualizzazioni delle pagine e clic sui collegamenti di contatto. Il rifiuto non impedisce di usare il sito. Puoi revocare il consenso nelle impostazioni sulla privacy.",
+    "notice": "Le mappe facoltative e la misurazione pubblicitaria richiedono consensi separati. Chiudere l’avviso o scorrere non equivale a consentire. Google Analytics è disattivato."
+  }
+}
