@@ -28,12 +28,15 @@ for p in OUT.rglob('*.html'):
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
- if s.footer and s.select_one('[data-site-version]') and not s.select_one('[data-hornigold-social]'):
-  # Official Instagram handle supplied by the owner; plain link loads no third-party embed.
-  social=s.new_tag('nav',attrs={'class':'wrap footer-social','data-hornigold-social':'','aria-label':'Instagram Hornigold'})
-  social_link=s.new_tag('a',href='https://www.instagram.com/hornigold.apartments/',attrs={'rel':'noopener noreferrer'})
-  social_link.string='Instagram · @hornigold.apartments'
-  social.append(social_link)
+ if s.footer and s.select_one('[data-site-version]'):
+  for old_social in s.select('[data-hornigold-social]'):
+   old_social.decompose()
+  social=s.new_tag('nav',attrs={'class':'wrap footer-social','data-hornigold-social':'','aria-label':'Hornigold · Instagram, Facebook, LinkedIn'})
+  for channel in json.loads((ROOT/'content/social-channels.json').read_text())['links']:
+   social_link=s.new_tag('a',href=channel['url'],attrs={'rel':'noopener noreferrer'})
+   social_link.string=channel['label']
+   social.append(social_link)
+   social.append(' · ')
   s.footer.insert(1,social)
  if s.select_one('[data-site-version]'):
   script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)

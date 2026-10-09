@@ -1,5 +1,5 @@
-# Hornigold social channels — 2026-10-09
+# Official channel links — 2026-10-09
 
-- Instagram: https://www.instagram.com/hornigold.apartments/ — handle supplied directly by the owner in this conversation. Automated external read throttled; profile contents and ownership not independently verified. A plain footer link is included on all 693 content pages in seven languages during build; no embeds, trackers or automatic requests.
-- TikTok and YouTube: no confirmed Hornigold profile URLs available; do not invent handles or link unrelated group brands.
-- Search Console platform properties require a separate connection and authorization for each profile. No social profile connection has been completed.
+Source: content/social-channels.json. Owner update relayed by project chat on 2026-10-09 confirms Instagram hornigold.apartments and new Facebook ID 61595455341996. Prior Instagram hornigold.zielona.kamienica and Facebook ID 61572887071275 are historical records, not current footer destinations. Facebook hornigold.apartamenty also remains historical. LinkedIn public company page verified on 2026-10-09. No admin access or OAuth connection is implied.
+
+All seven language builds include plain footer links. No tracking embeds or third-party requests are introduced. Minimal WebPage JSON-LD remains unchanged: no speculative sameAs identity expansion. Search Console social connection is separate and not completed. TikTok/YouTube URLs remain unconfirmed.
