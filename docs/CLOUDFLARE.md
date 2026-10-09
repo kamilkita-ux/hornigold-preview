@@ -97,3 +97,14 @@ odpowiada 200 zamiast 301 na HTTPS).
 
 **Uwaga do deployu z sesji Claude Code:** reguła `Bash(npx wrangler deploy*)` pasuje tylko do polecenia zaczynającego
 się od `npx wrangler deploy` — z innego katalogu używać `npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc`.
+
+## Dane w UE i zabezpieczenia (9 października 2026 r.)
+
+Na prośbę Marka („całkowicie w EU”) w granicach planu Free:
+
+- **D1 z jurysdykcją EU:** nowa baza `hornigold-counter-eu` `23c8ca98-7e50-4a5f-98a1-1a0bfbebde7e` (`jurisdiction: eu` — baza działa i przechowuje dane wyłącznie w UE; jurysdykcji nie da się dodać istniejącej bazie). Skopiowane `d1_migrations` i licznik (`total` 2). Stara `hornigold-counter` (`bb927207…`, tylko wskazówka `eeur`) zostaje jako kopia — do usunięcia decyzją Marka.
+- **Wykonywanie Workera:** `placement.region = gcp:europe-central2` (centrum danych Cloudflare najbliższe Warszawie; API: `placement_mode: targeted`). To wskazówka, nie gwarancja; TLS kończy się w centrum danych najbliższym odwiedzającemu.
+- **Strefa:** `min_tls_version` 1.2, `always_use_https` on, HSTS `max-age=31536000` bez `includeSubDomains` i bez preload (subdomeny poczty i `old` nie są objęte), DNSSEC włączony — **status `pending` do czasu wpisania rekordu DS u rejestratora (Netium):** `hornigold.pl. 3600 IN DS 2371 13 2 5A760E3F2AF39F426E90AC2646039FAE4F196605F5E05F444E0F9919E3C504C9`.
+- Worker `2e24247c-7e31-485c-9fbf-1061d6a78b06`.
+
+Poza zasięgiem planu Free (Enterprise Data Localization Suite): Regional Services (TLS i wykonywanie tylko w UE) oraz Customer Metadata Boundary (logi i analityka tylko w UE). Workers Logs (`observability`) pozostają włączone — wyłączenie zablokował filtr uprawnień sesji; decyzja Marka.

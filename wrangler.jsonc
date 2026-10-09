@@ -6,6 +6,8 @@
   "account_id": "ee23b9132a9692ab6c0e9f22aa86dda8", // konto Hornigold (osobne od FFP)
   "main": "server/worker.mjs",
   "compatibility_date": "2026-05-15",
+  // Wykonywanie Workera w centrum danych Cloudflare najbliższym Warszawie (wskazówka, nie gwarancja).
+  "placement": { "region": "gcp:europe-central2" },
   // www.hornigold.pl -> 301 regułą Redirect w strefie; stara strona PHP: old.hornigold.pl.
   "routes": [{ "pattern": "hornigold.pl", "custom_domain": true }],
   "assets": {
@@ -17,8 +19,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "hornigold-counter",
-      "database_id": "bb927207-d7e2-4ebf-bbfa-a540704d6495",
+      "database_name": "hornigold-counter-eu", // jurysdykcja EU (od 9.10.2026); stara hornigold-counter = kopia
+      "database_id": "23c8ca98-7e50-4a5f-98a1-1a0bfbebde7e",
       "migrations_dir": "drizzle"
     }
   ],
