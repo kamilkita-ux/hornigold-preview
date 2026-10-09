@@ -1,0 +1,174 @@
+{
+  "cases": 28,
+  "errors": [],
+  "results": [
+    {
+      "lang": "pl",
+      "route": "/pl/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "pl",
+      "route": "/pl/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "pl",
+      "route": "/pl/dokumenty/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "pl",
+      "route": "/pl/dokumenty/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "en",
+      "route": "/en/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "en",
+      "route": "/en/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "en",
+      "route": "/en/clarity-before-your-arrival/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "en",
+      "route": "/en/clarity-before-your-arrival/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "de",
+      "route": "/de/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "de",
+      "route": "/de/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "de",
+      "route": "/de/klare-informationen-vor-der-anreise/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "de",
+      "route": "/de/klare-informationen-vor-der-anreise/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "zh-hans",
+      "route": "/zh-hans/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "zh-hans",
+      "route": "/zh-hans/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "zh-hans",
+      "route": "/zh-hans/%E5%85%A5%E4%BD%8F%E5%89%8D%E4%BA%86%E8%A7%A3%E6%B8%85%E6%A5%9A/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "zh-hans",
+      "route": "/zh-hans/%E5%85%A5%E4%BD%8F%E5%89%8D%E4%BA%86%E8%A7%A3%E6%B8%85%E6%A5%9A/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "uk",
+      "route": "/uk/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "uk",
+      "route": "/uk/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "uk",
+      "route": "/uk/%D1%83%D1%81%D0%B5-%D0%B7%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BB%D0%BE-%D1%89%D0%B5-%D0%B4%D0%BE-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4%D1%83/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "uk",
+      "route": "/uk/%D1%83%D1%81%D0%B5-%D0%B7%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BB%D0%BE-%D1%89%D0%B5-%D0%B4%D0%BE-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4%D1%83/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "es",
+      "route": "/es/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "es",
+      "route": "/es/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "es",
+      "route": "/es/todo-claro-antes-de-llegar/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "es",
+      "route": "/es/todo-claro-antes-de-llegar/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "it",
+      "route": "/it/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "it",
+      "route": "/it/",
+      "width": 1366,
+      "problems": []
+    },
+    {
+      "lang": "it",
+      "route": "/it/informazioni-chiare-prima-dellarrivo/",
+      "width": 320,
+      "problems": []
+    },
+    {
+      "lang": "it",
+      "route": "/it/informazioni-chiare-prima-dellarrivo/",
+      "width": 1366,
+      "problems": []
+    }
+  ]
+}
