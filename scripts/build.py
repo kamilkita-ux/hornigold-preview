@@ -28,6 +28,13 @@ for p in OUT.rglob('*.html'):
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
+ if s.footer and s.select_one('[data-site-version]') and not s.select_one('[data-hornigold-social]'):
+  # Official Instagram handle supplied by the owner; plain link loads no third-party embed.
+  social=s.new_tag('nav',attrs={'class':'wrap footer-social','data-hornigold-social':'','aria-label':'Instagram Hornigold'})
+  social_link=s.new_tag('a',href='https://www.instagram.com/hornigold.apartments/',attrs={'rel':'noopener noreferrer'})
+  social_link.string='Instagram · @hornigold.apartments'
+  social.append(social_link)
+  s.footer.insert(1,social)
  if s.select_one('[data-site-version]'):
   script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)
  if not opts.counter:
