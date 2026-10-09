@@ -42,3 +42,6 @@ The owner confirmed 34 rental apartments and requested consistent identity and r
 
 ## Production SEO authorization (2026-10-09)
 The owner confirmed the Cloudflare domain switch and explicitly authorized production SEO and opening indexing on hornigold.pl. This supersedes earlier production-indexing restrictions only for that canonical production host. Preserve Sites/Pages/workers.dev preview exclusions, DNS/mail, existing Cloudflare bindings/counter history and inactive booking/payments. Do not infer the deployment pipeline: the owner authorized emailing Marek from lu@farmyfotowoltaiki.pl for the actual repo/branch/build/config/access. Prepare a tested production package; external deployment remains unverified until confirmed with current public readback.
+
+## Search Console owner approval (2026-10-09)
+The owner explicitly approved verification of https://hornigold.pl/ for hotelhornigold@gmail.com, deployment of the Google HTML verification file and submission of the sitemap and important pages. Preserve all existing preview exclusions and inactive booking/payments. Verification is complete only after Google confirms it.

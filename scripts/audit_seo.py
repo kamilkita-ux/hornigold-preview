@@ -49,6 +49,9 @@ def audit(mode, directory):
         if target.is_dir():target=target/'index.html'
         return target
     for p,s in docs.items():
+        if p.parent == out and re.fullmatch(r'google[0-9a-f]+\.html', p.name):
+            check(p.read_text().strip() == 'google-site-verification: '+p.name, 'exact Google verification response', p.name)
+            continue
         path=route_for_file(p,out);route=routes.get(unquote(path));real=bool(route)
         rob=s.select('meta[name=robots]');check(len(rob)==1,'one robots meta',path)
         value=rob[0].get('content','') if rob else ''
@@ -119,6 +122,9 @@ def audit(mode, directory):
     # Alias-chain detection is a separate draft; no server configuration is changed.
     alias={}
     for p,s in docs.items():
+        if p.parent == out and re.fullmatch(r'google[0-9a-f]+\.html', p.name):
+            check(p.read_text().strip() == 'google-site-verification: '+p.name, 'exact Google verification response', p.name)
+            continue
         a=s.select_one('a[data-redirect]')
         if a:
             target=local_target(a['href'],p)
