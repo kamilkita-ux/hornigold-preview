@@ -130,3 +130,15 @@ npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc
 **Poprawka Windows w `scripts/seo.py` (do przeniesienia przez Kamila):** `route_for_file` składał trasę przez `str(path.relative_to(...))` — na Windows `\pl\` zamiast `/pl/`, żadna strona nie pasowała do `routes.json` i build produkcyjny dawał 693× `noindex` (błąd „indexing” w `build.py`). Zmienione na `.as_posix()`.
 
 Wynik: build 693 stron, `audit_seo`/`audit_discovery` bez błędów, testy 26/26 i 10/10. Worker `bc527290-e755-4ce7-83b4-16f8acee67fd` (poprzedni `2e24247c` — rollback). Odczyt z produkcji: `robots.txt` `Allow: /`, `Disallow: /api/`, `Sitemap`; kanoniczne strony `index,follow` bez `X-Robots-Tag` (także 304); 404, aliasy 301, `/api/`, PDF i `/` (przekierowanie języka) z `noindex`; `release.json` `indexing: true`, `bookingEnabled/paymentsEnabled: false`; `www` 301 z parametrami. Zgłoszenie mapy strony w Google Search Console / Bing — po stronie właściciela (dostęp do kont niepotwierdzony).
+
+## Rezerwacje GuestSage (9 października 2026 r.)
+
+Hotel sprzedaje pobyty przez hostowany **GuestSage AI Booking Engine** (KWHotel), identyfikator obiektu `c98ead00-c7fd-4013-bb45-f19539b932d4`; silnik, ceny, płatności i regulamin są skonfigurowane po stronie hotelu, zarząd zgodził się na start (potwierdzenie Marka). Wersja minimalna — przekazanie linkiem, bez obcych skryptów i bez zmian CSP:
+
+- `site/assets/booking.js` buduje adres `https://be.guestsage.com/{język}/{obiekt}/offers?arrivalDate&departureDate&personsCount` z `HornigoldStay` (bez dat → strona główna silnika; `zh-hans` → `en`; mapa pokoi `ROOMS` pusta do czasu otrzymania `featuredRoomTypeId` z panelu KWHotel).
+- 7 podstron `rezerwacja/`: blok „Zarezerwuj online” z przyciskiem (`a[data-booking]`, działa bez JS); tekst pomocy formularzy pobytu (strony główne i `pobyt/`) zmieniony. Zmiany wprowadza idempotentny `scripts/kwhotel_booking_pages.py`.
+- Testy: `tests/booking.test.mjs` (9), `tests/booking-pages.test.mjs` (28); build, `audit_static`, `audit_seo`, `audit_discovery`, testy node 63/63, `test_seo*` OK. Chrome bez okna na produkcji: przycisk dostaje daty i liczbę osób.
+- Worker `06015b8c-4945-434d-adba-109fe71ea7fe` (rollback → `576f78bb`).
+- Spec: `docs/superpowers/specs/2026-10-09-kwhotel-guestsage-booking-design.md`, plan: `docs/superpowers/plans/2026-10-09-kwhotel-guestsage-booking.md`. Materiały hotelu w lokalnym `kwhotel/` (poza repo).
+
+**Etap Kamila (otwarte):** teksty prawne w 7 językach (sprzedaż online, prywatność — GuestSage/KWHotel jako odbiorca), `seo/discovery-content.json` → `llms/*.txt`, znaczenie `release.json` `bookingEnabled` i audytów, `ONLINE_SALES_LAUNCH_GATES.md`/`PAD_*`/`PMS-FISERV.md`, identyfikatory pokoi i kategorii wiekowych dzieci.
