@@ -22,8 +22,8 @@
       "migrations_dir": "drizzle"
     }
   ],
-  // Adres techniczny do czasu aktywacji strefy (zmiana NS u rejestratora); potem wyłączyć jak w FFP.
-  "workers_dev": true,
+  // Adres techniczny wyłączony po aktywacji strefy (9 października 2026 r.), jak w FFP.
+  "workers_dev": false,
   "preview_urls": false,
   "observability": { "enabled": true }
 }

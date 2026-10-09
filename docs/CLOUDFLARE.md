@@ -13,7 +13,7 @@ Ta gałąź dodaje tylko `wrangler.jsonc`, `scripts/cloudflare/` i ten plik. Wzo
 | D1 | `hornigold-counter` `bb927207-d7e2-4ebf-bbfa-a540704d6495`, region `eeur`, migracje `drizzle/` |
 | Strefa | `hornigold.pl` `398f3b032a51a14d095ea3d82d25c821`, plan Free, SSL `full` |
 | Adresy | `https://hornigold.pl` (Custom Domain Workera); `www` → 301 regułą Redirect na `hornigold.pl` |
-| Adres techniczny | `https://hornigold.hornigold-cm.workers.dev` (wyłączyć po aktywacji strefy) |
+| Adres techniczny | `https://hornigold.hornigold-cm.workers.dev` — wyłączony 9 października 2026 r. (`workers_dev: false`) |
 | Stara strona PHP | `old.hornigold.pl` → `91.200.185.61` (proxied) |
 
 Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`); suma ze starego
@@ -61,7 +61,7 @@ jeden adres z `server/routes.mjs` (301 z zachowaniem parametrów), nagłówek `X
 - Rezerwacje i płatności wyłączone. PMS/Fiserv: `docs/PMS-FISERV.md` — osobne wdrożenie po umowach z dostawcami.
 - Sites Kamila i GitHub Pages działają dalej niezależnie od tego wdrożenia.
 
-## Stan przejściowy (7 października 2026 r., ok. 20:15) — do cofnięcia po aktywacji
+## Stan przejściowy (7–9 października 2026 r.) — cofnięty 9 października
 
 Inten wpisał `vera`/`weston` jako rekordy NS w swojej strefie, ale nie zmienił delegacji w NASK (rejestr nadal
 `ns.inten.pl`, `ns2.inten.pl`). Resolwery dostawały mieszane NS, a nieaktywna strefa Cloudflare nie miała adresu
@@ -78,3 +78,22 @@ smoke testy.
 **8 października 2026 r.:** rejestratorem hornigold.pl jest Netium.pl sp. z o.o. (WHOIS NASK, ostatnia modyfikacja
 2026-04-07) — inten obsługuje tylko DNS i hosting, więc delegację na `vera`/`weston` trzeba zmienić w Netium.
 Usunięcie adresów IP w strefie inten nie aktywuje Cloudflare (aktywacja zależy wyłącznie od delegacji w NASK).
+
+## Aktywacja strefy (9 października 2026 r.)
+
+Marek zmienił delegację w Netium; rejestr .pl (`a-dns.pl`) wskazuje `vera`/`weston`. Po `PUT /zones/…/activation_check`
+strefa `active` od 09:19 UTC, certyfikat Universal SSL (`hornigold.pl`, `*.hornigold.pl`) wydany. Stan przejściowy
+cofnięty za zgodą Marka: usunięty tymczasowy `A hornigold.pl 91.200.185.61`, `www` → `192.0.2.1` proxied (reguła
+Redirect 301 zachowuje ścieżkę i parametry), `old` proxied, `workers_dev: false`. Wdrożona wersja Kamila 23.9
+(`origin/main` `b40f5b5` scalone do `deploy/cloudflare`, 693 strony w 7 językach, audyt bez błędów, `tests/server.test.mjs`
+6/6), Worker `be6953c5-5225-4d96-b329-bf7d3c464938`, Custom Domain `hornigold.pl` podpięta. Przerwa apeksu ok. minuty
+(między usunięciem rekordu a deployem).
+
+Smoke: `/`, `/pl/` 200, `/pl/nie-ma-takiej` 404, `www` 301 z parametrami, stary adres `/de/catering/` 301 z `utm_*`,
+`/release.json` wersja 23 / `stage: review` / `indexing: false`, `/api/site-stats` 200, `X-Robots-Tag: noindex`,
+`robots.txt` `Disallow: /`, `old.hornigold.pl` 200, `workers.dev` 404. Poczta: MX, SPF, DKIM `selector1/2`, DMARC,
+autodiscover na serwerach Cloudflare bez zmian. Do decyzji: `always_use_https` w strefie jest `off` (HTTP apeksu
+odpowiada 200 zamiast 301 na HTTPS).
+
+**Uwaga do deployu z sesji Claude Code:** reguła `Bash(npx wrangler deploy*)` pasuje tylko do polecenia zaczynającego
+się od `npx wrangler deploy` — z innego katalogu używać `npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc`.
