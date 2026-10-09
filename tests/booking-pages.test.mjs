@@ -17,6 +17,11 @@ for (const [lang, engine] of Object.entries(LANG)) {
     assert.match(links[0], /class="button"/);
     for (const old of OLD_NOTICE) assert.ok(!html.includes(old), `old notice text left: ${old}`);
   });
+  test(`${lang} booking block is a plain panel, not the status notice app.js writes into`, () => {
+    const html = read(`${lang}/rezerwacja/index.html`);
+    assert.match(html, /<div class="booking-panel"><h2>[^<]+<\/h2><p>[^<]+<\/p><p><a class="button" data-booking=""/);
+    assert.ok(!html.includes('class="notice"'), 'a .notice would receive the "no valid dates" message from app.js');
+  });
   test(`${lang} reservation page loads booking.js after app.js`, () => {
     const html = read(`${lang}/rezerwacja/index.html`);
     const app = html.indexOf('/assets/app.js'), booking = html.indexOf('<script defer="" src="/assets/booking.js"></script>');
@@ -24,6 +29,12 @@ for (const [lang, engine] of Object.entries(LANG)) {
     assert.equal(html.split('/assets/booking.js').length - 1, 1);
   });
 }
+
+test('style.css styles the booking panel like the former notice', () => {
+  const css = read('assets/style.css');
+  assert.ok(css.includes('.booking-panel{padding:28px;background:var(--warm);border-left:3px solid var(--gold);margin-bottom:30px}'));
+  assert.ok(css.includes('.booking-panel h2{font-size:1.9rem}'));
+});
 
 const HELP = {
   pl: 'Po wyborze pokoju rezerwację i płatność zakończysz w systemie rezerwacyjnym hotelu.',

@@ -25,11 +25,16 @@
     return base + '/offers?' + q.toString();
   }
 
-  const api = {bookingUrl, HOTEL, ORIGIN, LANG, ROOMS};
+  // Pierwszy segment ścieżki będący językiem strony — działa też pod bazą /hornigold-preview/.
+  function pageLanguage(pathname) {
+    return String(pathname || '').split('/').find(seg => Object.hasOwn(LANG, seg)) || '';
+  }
+
+  const api = {bookingUrl, pageLanguage, HOTEL, ORIGIN, LANG, ROOMS};
   if (typeof module === 'object' && module && module.exports) { module.exports = api; return; }
   root.HornigoldBooking = api;
   if (!document.querySelector('a[data-booking]')) return;
-  const pageLang = location.pathname.split('/')[1] || '';
+  const pageLang = pageLanguage(location.pathname);
   function refresh() {
     const stay = root.HornigoldStay ? root.HornigoldStay.get() : {};
     const url = bookingUrl(stay, pageLang);

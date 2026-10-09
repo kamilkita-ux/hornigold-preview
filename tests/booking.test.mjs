@@ -44,6 +44,13 @@ test('chinese and unknown languages open the engine in English', () => {
   assert.equal(B.bookingUrl({}, '', TODAY), `${BASE}/en/${H}`);
   assert.equal(B.bookingUrl({}, 'api', TODAY), `${BASE}/en/${H}`);
 });
+test('page language is the first known language segment, also under a non-root base', () => {
+  assert.equal(B.pageLanguage('/pl/rezerwacja/'), 'pl');
+  assert.equal(B.pageLanguage('/hornigold-preview/de/rezerwacja/'), 'de');
+  assert.equal(B.pageLanguage('/hornigold-preview/zh-hans/rezerwacja/'), 'zh-hans');
+  assert.equal(B.pageLanguage('/hornigold-preview/'), '');
+  assert.equal(B.pageLanguage('/'), '');
+});
 test('room mapping adds featuredRoomTypeId only when configured', () => {
   const stay = {arrival: '2026-10-20', departure: '2026-10-21', guests: '2', room: 'classic'};
   assert.doesNotMatch(B.bookingUrl(stay, 'pl', TODAY), /featuredRoomTypeId/);

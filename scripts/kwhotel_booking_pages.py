@@ -19,12 +19,17 @@ def one(pattern, repl, html, name):
     new, n = re.subn(pattern, lambda m: repl, html, count=1, flags=re.S)
     if n != 1: sys.exit(f'{name}: oczekiwano 1 dopasowania, jest {n}')
     return new
+# Blok rezerwacji to stały panel, nie komunikat stanu: app.js:65 dopisuje „brak terminu” do pierwszego .notice.
+OLD_PANEL, PANEL = '<div class="notice" role="status"><h2>', '<div class="booking-panel"><h2>'
 for lang, engine in LANG.items():
     p = ROOT / 'site' / lang / 'rezerwacja' / 'index.html'
     html = p.read_text(encoding='utf-8')
-    if 'data-booking' in html: print(lang, 'już zmienione'); continue
+    if 'data-booking' in html:
+        if OLD_PANEL in html:
+            p.write_text(html.replace(OLD_PANEL, PANEL, 1), encoding='utf-8', newline='\n'); print(lang, 'panel'); continue
+        print(lang, 'już zmienione'); continue
     h2, lead, button, groups, limit = (esc(x) for x in TEXT[lang])
-    notice = (f'<div class="notice" role="status"><h2>{h2}</h2><p>{lead}</p>'
+    notice = (f'{PANEL}{h2}</h2><p>{lead}</p>'
               f'<p><a class="button" data-booking="" href="https://be.guestsage.com/{engine}/{HOTEL}">{button}</a></p>'
               f'<p>{groups}</p></div>')
     html = one(r'<div class="notice" role="status">.*?</div>', notice, html, f'{lang} notice')
