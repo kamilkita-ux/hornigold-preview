@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-09",
+  "dataset": "2174344740165965",
+  "state": "STAGED_NOT_LIVE",
+  "unitTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "browserFixtures": {
+    "passed": 14,
+    "failed": 0,
+    "languages": 7,
+    "widths": [
+      375,
+      1366
+    ],
+    "vendorNetworkIntercepted": true
+  },
+  "metaTestEventsReceived": false,
+  "capiActive": false,
+  "purchaseEnabled": false,
+  "blockers": [
+    "Production Cloudflare access and pipeline unknown",
+    "Synchronize seven-language privacy/cookie HTML and PDFs after account-specific terms/roles/transfer/retention confirmation",
+    "Activate real CMP and matching HTTP/HTML CSP; verify actual Meta Test Events",
+    "CAPI needs secure deployment token, authenticated consent receipt validation, sender, persistence and browser/server shared event transport"
+  ],
+  "safePreviewUnchanged": true
+}

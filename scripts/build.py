@@ -23,8 +23,21 @@ def prefixed(url):return BASE+url.lstrip('/') if url.startswith('/') and not url
 p=OUT/'assets/root-language.js';s=p.read_text().replace("location.replace('/'+language+",'location.replace('+json.dumps(BASE)+'+language+');p.write_text(s)
 p=OUT/'assets/error-language.js';s=p.read_text().replace('location.pathname.replace(', 'location.pathname.slice('+str(len(BASE)-1)+').replace(').replace("a.href='/'+a.dataset.language",'a.href='+json.dumps(BASE)+'+a.dataset.language');p.write_text(s)
 for p in OUT.rglob('*.html'):
+ # Google ownership files must retain their exact verification response.
+ if p.parent == OUT and re.fullmatch(r'google[0-9a-f]+\.html', p.name) and p.read_text().strip() == 'google-site-verification: '+p.name:
+  continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
+ if s.footer and s.select_one('[data-site-version]'):
+  for old_social in s.select('[data-hornigold-social]'):
+   old_social.decompose()
+  social=s.new_tag('nav',attrs={'class':'wrap footer-social','data-hornigold-social':'','aria-label':'Hornigold · Instagram, Facebook, LinkedIn'})
+  for channel in json.loads((ROOT/'content/social-channels.json').read_text())['links']:
+   social_link=s.new_tag('a',href=channel['url'],attrs={'rel':'noopener noreferrer'})
+   social_link.string=channel['label']
+   social.append(social_link)
+   social.append(' · ')
+  s.footer.insert(1,social)
  if s.select_one('[data-site-version]'):
   script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)
  if not opts.counter:
@@ -54,6 +67,9 @@ p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['
 # Validate every local document/asset link, and require the preview markers on real pages.
 errors=[];pages=0
 for p in OUT.rglob('*.html'):
+ # Google ownership files must retain their exact verification response.
+ if p.parent == OUT and re.fullmatch(r'google[0-9a-f]+\.html', p.name) and p.read_text().strip() == 'google-site-verification: '+p.name:
+  continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  if s.select_one('[data-site-version]'):
   pages+=1

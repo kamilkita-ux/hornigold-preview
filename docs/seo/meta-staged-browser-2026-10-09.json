@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-09",
+  "cases": 14,
+  "results": [
+    {
+      "lang": "pl",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "pass": true,
+      "networkIntercepted": true
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "pass": true,
+      "networkIntercepted": true
+    }
+  ],
+  "metaEventsDelivered": false,
+  "limitations": [
+    "Isolated fixtures, not production or Meta Test Events; SDK intercepted.",
+    "Account-specific privacy HTML/PDF and production consent/CSP activation remain blocked."
+  ]
+}
