@@ -1,65 +1,70 @@
 # Hornigold — wdrożenie Cloudflare Workers
 
-Gałąź `deploy/cloudflare` (CloudMentor). Źródło treści bez zmian: `site/`, `server/`, `drizzle/` z `main` Kamila.
-Ta gałąź dodaje tylko `wrangler.jsonc`, `scripts/cloudflare/` i ten plik. Wzorzec: wdrożenie FFP Inwestor
-(`inwestor.farmyfotowoltaiki.pl`), ale na osobnym koncie Cloudflare `Hornigold`.
+Gałąź `deploy/cloudflare` (CloudMentor) w worktree `C:\dev\hornigold-cloudflare`. Źródło treści: `site/`, `server/`, `drizzle/`, `scripts/` z `main` Kamila (`kamilkita-ux/hornigold-preview`, rozwijane w Sites). Ta gałąź dodaje: `wrangler.jsonc`, `scripts/cloudflare/`, ten plik, poprawkę ścieżek Windows w `scripts/seo.py` oraz rezerwacje GuestSage (`site/assets/booking.js`, panel w `site/assets/style.css`, 21 stron HTML, `scripts/kwhotel_booking_pages.py`, `tests/booking*.test.mjs`, spec i plan w `docs/superpowers/`). Konto GitHub `CloudDev-M` nie ma jeszcze prawa zapisu do repo Kamila — commity są lokalne.
 
-## Zasoby (od 7 października 2026 r.)
+## Architektura (stan na 10 października 2026 r.)
+
+Przepływ żądania:
+
+1. **DNS.** Rejestrator Netium → serwery `vera`/`weston` (Cloudflare, konto `Hornigold`). DNSSEC w Cloudflare włączony (`pending`) — rekord DS dopiero po przeniesieniu domeny do rejestratora, który go przyjmie (decyzja Marka).
+2. **Strefa `hornigold.pl`.** TLS ≥ 1.2, `always_use_https`, HSTS 1 rok bez `includeSubDomains`, SSL `full`. `www` → 301 regułą Redirect (ścieżka i parametry zachowane); `old.hornigold.pl` proxied → stara strona PHP `91.200.185.61`; poczta Microsoft 365 (MX, SPF, DKIM, DMARC, autodiscover) bez proxy.
+3. **Worker `hornigold`** (Custom Domain apeksu, `placement.region` `gcp:europe-central2` — wykonywanie najbliżej Warszawy). Wejście `_cloudflare_production/server/production-entry.mjs` (paczka z `scripts/prepare_cloudflare_production.py`): `robots.txt` zależny od hosta (`Allow` tylko na `https://hornigold.pl`), `X-Robots-Tag` zdjęty tylko z 693 tras kanonicznych i mapy strony, `/release.json` z polami produkcyjnymi; dalej `server/worker.mjs`: CSP (`script-src 'self'`) i nagłówki, `/api/site-stats` (licznik), 539 przekierowań 301 starych adresów (`server/routes.mjs`), statyki `ASSETS` z `_cloudflare_production/assets` (`run_worker_first`, `404-page`).
+4. **D1 `hornigold-counter-eu`** (jurysdykcja EU) — wyłącznie zbiorczy licznik odsłon, bez danych osobowych.
+5. **Rezerwacje.** Przycisk „Sprawdź dostępność i zarezerwuj” na `/{język}/rezerwacja/` → hostowany GuestSage AI Booking Engine (KWHotel); `booking.js` dokłada daty i liczbę osób z `HornigoldStay`. Umowa i płatność po stronie GuestSage. **Stan 10.10.2026: silnik nieaktywny w KWHotel → 404** (sekcja „Rezerwacje GuestSage”).
+6. **Logi Workera wyłączone** (dane poza UE); diagnostyka na żywo: `npx wrangler tail hornigold`.
+
+## Zasoby
 
 | Co | Wartość |
 |---|---|
-| Konto | `Hornigold` `ee23b9132a9692ab6c0e9f22aa86dda8` (osobne od FFP; przeniesione 7 października 2026 r.) |
-| Worker | `hornigold` (`server/worker.mjs` + statyczne `_site/` jako `ASSETS`, `run_worker_first`) |
-| D1 | `hornigold-counter` `bb927207-d7e2-4ebf-bbfa-a540704d6495`, region `eeur`, migracje `drizzle/` |
-| Strefa | `hornigold.pl` `398f3b032a51a14d095ea3d82d25c821`, plan Free, SSL `full` |
-| Adresy | `https://hornigold.pl` (Custom Domain Workera); `www` → 301 regułą Redirect na `hornigold.pl` |
-| Adres techniczny | `https://hornigold.hornigold-cm.workers.dev` — wyłączony 9 października 2026 r. (`workers_dev: false`) |
-| Stara strona PHP | `old.hornigold.pl` → `91.200.185.61` (proxied) |
+| Konto | `Hornigold` `ee23b9132a9692ab6c0e9f22aa86dda8` (osobne od FFP; od 7 października 2026 r.) |
+| Worker | `hornigold`, produkcja `6053200a-797c-41ba-8fb6-4238e370578e` (10.10.2026); rollback: `06015b8c` (rezerwacje bez poprawek po przeglądzie), `576f78bb` (bez rezerwacji), `2e24247c` (bez indeksowania) |
+| D1 | `hornigold-counter-eu` `23c8ca98-7e50-4a5f-98a1-1a0bfbebde7e`, **jurysdykcja EU**, migracje `drizzle/`; poprzednia `hornigold-counter` `bb927207-…` (`eeur`) = kopia |
+| Strefa | `hornigold.pl` `398f3b032a51a14d095ea3d82d25c821`, Free, aktywna od 9.10.2026 |
+| Adresy | `https://hornigold.pl` (Custom Domain); `www` → 301; `old.hornigold.pl` = stara strona PHP i rezerwacje Profitroom |
+| `workers.dev` | wyłączony (`workers_dev: false`) |
+| Logi | wyłączone (`observability.enabled: false`) |
 
-Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`); suma ze starego
-Sites nie została przeniesiona — decyzja Marka.
+Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`) — decyzja Marka.
 
 ## DNS
 
-Strefa odtworzona 1:1 z serwerów `ns*.inten.pl` (7 października 2026 r.): poczta Microsoft 365 (MX, SPF z
-Profitroom, DKIM `selector1/2`, DMARC, autodiscover, Lync/SIP SRV, Intune), `mail/pop/smtp/ftp` → `91.200.185.61`
-bez proxy. Rekordy z eksportu inten.pl także `apartamenty`, `_domainkey`, `x._domainkey`; stare `_acme-challenge` pominięte. Definicja: `scripts/cloudflare/zone-hornigold.json`. Apeks obsługuje Custom Domain, `www` = `192.0.2.1` proxied tylko pod
-przekierowanie.
+Strefa odtworzona 1:1 z serwerów `ns*.inten.pl` (7 października 2026 r.): poczta Microsoft 365 (MX, SPF z Profitroom, DKIM `selector1/2`, DMARC, autodiscover, Lync/SIP SRV, Intune), `mail/pop/smtp/ftp` → `91.200.185.61` bez proxy, także `apartamenty`, `_domainkey`, `x._domainkey`. Definicja: `scripts/cloudflare/zone-hornigold.json`. Apeks obsługuje Custom Domain Workera, `www` = `192.0.2.1` proxied tylko pod przekierowanie.
 
-**Aktywacja**: u rejestratora zmienić serwery nazw `ns.inten.pl, ns2.inten.pl, ns3.inten.pl` na
-`vera.ns.cloudflare.com` i `weston.ns.cloudflare.com`. Dopiero wtedy `hornigold.pl` zaczyna wskazywać na
-Workera. Po aktywacji sprawdzić: HTTPS apeksu i `www` (301), pocztę (wysłanie i odbiór), `old.hornigold.pl`,
-licznik `/api/site-stats`. Potem `workers_dev: false` i ponowny deploy.
-
-**Wycofanie**: przywrócić NS inten.pl u rejestratora (stara strefa nie była zmieniana) albo w Cloudflare usunąć
-Custom Domain i dodać `A hornigold.pl 91.200.185.61` proxied.
+**Wycofanie** na starą stronę: w Cloudflare usunąć Custom Domain i dodać `A hornigold.pl 91.200.185.61` proxied (strefa u Cloudflare zostaje). Zmiany DNS przez MCP Cloudflare wymagają reguły `mcp__plugin_cloudflare_cloudflare__execute` w `/permissions`; usuwać rekord dopiero, gdy wiadomo, że deploy przejdzie (9.10.2026 apeks był ok. minuty bez rekordu).
 
 ## Wdrożenie nowej wersji z `main`
 
-Na Windows w Git Bash: `MSYS_NO_PATHCONV=1` (inaczej `--base /` zamienia się na ścieżkę Gita) i
-`core.autocrlf=false` w repo (pliki mają być LF).
+Na Windows w Git Bash: `export MSYS_NO_PATHCONV=1 PYTHONUTF8=1`, `core.autocrlf=false` (pliki LF). Przy scaleniu sprawdzić, czy Kamil przeniósł poprawkę `scripts/seo.py` (`.as_posix()`) — bez niej build produkcyjny kończy się błędami „… indexing”. Po scaleniu uruchomić `scripts/kwhotel_booking_pages.py` (idempotentny), jeśli Kamil zmienił strony rezerwacji lub formularzy pobytu — testy `booking-pages` to wykryją.
 
 ```sh
 git fetch origin && git merge origin/main          # w C:\dev\hornigold-cloudflare
-python -m venv .venv && .venv/Scripts/python -m pip install -r requirements.txt   # raz
-export MSYS_NO_PATHCONV=1 PYTHONUTF8=1
-GITHUB_SHA=$(git rev-parse HEAD) .venv/Scripts/python scripts/build.py --base / --counter
-.venv/Scripts/python scripts/audit_static.py --base /
-node --test tests/server.test.mjs
-npx wrangler d1 migrations apply hornigold-counter --remote   # tylko gdy przybyło coś w drizzle/
-npx wrangler deploy
+P=.venv/Scripts/python; export GITHUB_SHA=$(git rev-parse HEAD)
+$P scripts/build.py --base / --counter                                   # podgląd _site — dla audit_static
+$P scripts/audit_static.py --base /
+$P scripts/build.py --mode production-ready --base / --counter --production-counter
+$P scripts/audit_seo.py --mode production-ready
+$P scripts/audit_discovery.py --mode production-ready
+$P scripts/prepare_cloudflare_production.py                              # -> _cloudflare_production/
+node --test tests/production-indexing.test.mjs tests/server.test.mjs tests/booking.test.mjs tests/booking-pages.test.mjs
+$P -m unittest discover -s tests -p 'test_seo*.py'
+git checkout -- docs/seo/                                                # raporty audytów — nie commitować
+npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc  # musi zaczynać się od „npx wrangler deploy” (reguła uprawnień)
 ```
 
-Smoke: `/`, `/pl/`, `/pl/nie-ma-takiej` (404), `/release.json` (wersja i commit), `/api/site-stats`,
-jeden adres z `server/routes.mjs` (301 z zachowaniem parametrów), nagłówek `X-Robots-Tag`.
+Migracje D1 (tylko gdy przybyło coś w `drizzle/`): `CLOUDFLARE_ACCOUNT_ID=ee23b9132a9692ab6c0e9f22aa86dda8 npx wrangler d1 migrations apply hornigold-counter-eu --remote --config wrangler.jsonc` (wrangler widzi dwa konta).
+
+Smoke: `/pl/` 200 z `index,follow`; `/pl/nie-ma-takiej` 404 z `noindex`; `robots.txt` `Allow: /`; mapa strony 693 adresy; `/release.json` (`indexing: true`, `bookingEnabled: false`); `/api/site-stats`; stary adres z `server/routes.mjs` (301 z parametrami); `www` 301; 7× `/{język}/rezerwacja/` z `a[data-booking]`; nagłówek CSP bez zmian. Build na Windows trwa kilka minut i potrafi zostać przerwany przy braku pamięci — uruchamiać kroki osobno.
 
 ## Granice
 
-- Build w trybie `preview`: `noindex` i `Disallow: /` zostają, dopóki właściciel osobno nie zgodzi się na
-  indeksowanie (`README.md`, `SEO_PRODUCTION_HANDOFF.md`). Tryb `production-ready` nie ma licznika i nie jest
-  tu wdrażany.
-- Rezerwacje i płatności wyłączone. PMS/Fiserv: `docs/PMS-FISERV.md` — osobne wdrożenie po umowach z dostawcami.
-- Sites Kamila i GitHub Pages działają dalej niezależnie od tego wdrożenia.
+- Indeksowanie włączone tylko dla `https://hornigold.pl` (zgoda właściciela opisana przez Kamila w `README.md`, `docs/CLOUDFLARE_SEO_DEPLOYMENT_2026-10-09.md`); inne hosty i podglądy `noindex` + `Disallow: /`. Zgłoszenie mapy strony w Search Console / Bing — właściciel.
+- Rezerwacje: tylko przekazanie do GuestSage; płatności i umowa po stronie silnika. Własny koszyk i Fiserv (`docs/PMS-FISERV.md`, `ONLINE_SALES_LAUNCH_GATES.md`) nie są wdrażane; `release.json` `bookingEnabled: false` oznacza brak sprzedaży na samej stronie.
+- Etap Kamila: teksty prawne w 7 językach (regulamin i `/dokumenty/` mówią, że sprzedaż online nie jest uruchomiona), prywatność (GuestSage/KWHotel jako odbiorca), `llms/*.txt`, znaczenie `bookingEnabled`, identyfikatory pokoi.
+- Materiały KWHotel w lokalnym `kwhotel/` — poza repozytorium (repo publiczne, dane kontaktowe dostawcy).
+- Sites Kamila i GitHub Pages działają niezależnie od tego wdrożenia.
+
+# Dziennik zmian
 
 ## Stan przejściowy (7–9 października 2026 r.) — cofnięty 9 października
 
