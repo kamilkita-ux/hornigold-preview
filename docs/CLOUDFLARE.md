@@ -56,6 +56,34 @@ Migracje D1 (tylko gdy przybyło coś w `drizzle/`): `CLOUDFLARE_ACCOUNT_ID=ee23
 
 Smoke: `/pl/` 200 z `index,follow`; `/pl/nie-ma-takiej` 404 z `noindex`; `robots.txt` `Allow: /`; mapa strony 693 adresy; `/release.json` (`indexing: true`, `bookingEnabled: false`); `/api/site-stats`; stary adres z `server/routes.mjs` (301 z parametrami); `www` 301; 7× `/{język}/rezerwacja/` z `a[data-booking]`; nagłówek CSP bez zmian. Build na Windows trwa kilka minut i potrafi zostać przerwany przy braku pamięci — uruchamiać kroki osobno.
 
+### Automatycznie: `scripts/cloudflare-release.mjs` (od 10 października 2026 r.)
+
+Ten sam runbook jako skrypt, w worktree `C:\dev\hornigold-cloudflare`:
+
+```sh
+node scripts/cloudflare-release.mjs              # przegląd: nowe commity z origin/main i wynik kontroli, nic nie zmienia
+node scripts/cloudflare-release.mjs --deploy     # scalenie, build, audyty, testy, migracje, deploy, smoke, tag, dziennik
+node scripts/cloudflare-release.mjs --smoke      # same testy dymne produkcji
+```
+
+Skrypt zatrzymuje się w tych przypadkach:
+- `WRANGLER` — zmiana `wrangler.jsonc`;
+- `MIGRATION_CHANGED` — zmiana istniejącej migracji D1;
+- `OWNER_SWITCH` — zmiana przełączników właściciela w `release.json`: `indexing`, `bookingEnabled`, `paymentsEnabled`, `counterEnabled`;
+- `CSP` — zmiana `Content-Security-Policy` w `server/`, np. przy aktywacji pomiaru Meta;
+- utrata poprawki `.as_posix()` w `scripts/seo.py`;
+- konflikt scalania;
+- dowolny błąd buildu, audytu lub testu.
+
+`--accept CSP` przepuszcza zmianę CSP po przeglądzie. Inne kody wymagają ręcznej decyzji.
+
+Szczegóły działania:
+- Wranglera skrypt woła przez `npx --yes wrangler@<wersja z package.json>`. Worktree nie ma `node_modules`, a bez `--yes` `npx` czeka na zgodę na instalację.
+- Przed publikacją skrypt zapamiętuje aktywną wersję Workera i bieżący nagłówek CSP. Smoke sprawdza listę powyżej, porównuje CSP i pliki weryfikacyjne Google z `site/`.
+- **Nieudany smoke → automatyczny `wrangler rollback`.**
+- Po wydaniu: lokalny tag `hornigold-v<revision>-cloudflare[-rN]` (rewizja z `release.json`), wiersz w [`DEPLOY-LOG.md`](DEPLOY-LOG.md) i próba push. Dopóki `CloudDev-M` nie ma prawa zapisu, push kończy się 403, a gałąź i tag zostają lokalnie.
+- Testy skryptu: `node --test tests/cloudflare-release.test.mjs`.
+
 ## Granice
 
 - Indeksowanie włączone tylko dla `https://hornigold.pl` (zgoda właściciela opisana przez Kamila w `README.md`, `docs/CLOUDFLARE_SEO_DEPLOYMENT_2026-10-09.md`); inne hosty i podglądy `noindex` + `Disallow: /`. Zgłoszenie mapy strony w Search Console / Bing — właściciel.
@@ -151,3 +179,21 @@ Hotel sprzedaje pobyty przez hostowany **GuestSage AI Booking Engine** (KWHotel)
 **Poprawki po przeglądzie (9.10.2026, Worker `6053200a-797c-41ba-8fb6-4238e370578e`):** język linku liczony z pierwszego znanego segmentu ścieżki (działa pod `/hornigold-preview/`); blok rezerwacji jako `.booking-panel` bez `role="status"` (app.js:65 nie wstawia już „brak terminu” nad przycisk); reguła `.booking-panel` dopisana na końcu `style.css`. Testy 72/72.
 
 **Silnik GuestSage zwraca 404 „Oferta jest niedostępna” (9.10.2026, wieczór).** Każde wyszukiwanie (`/offers` i `/apartments`, z datami i bez) kończy się 404, strona główna silnika działa. Przyczyna po stronie KWHotel: publiczna konfiguracja `GET https://cloud.kwhotel.com/bookingengine/api/guestsage/configurations?hotelId=c98ead00-…` zwraca `enabled: false`, `hotel.active: false`, `hotel.company.active: false`; `availableLanguages: ["pl","en"]`. Do aktywacji w panelu KWHotel / przez wsparcie KWHotel (sales@kwhotel.pl). Instrukcja z kwietnia 2025 (`/offers?arrivalDate&departureDate&personsCount`) zgadza się z obecnym kodem silnika (trasa `/$locale/$hotelGuid/offers`, te same parametry).
+
+## Wydanie 10 października 2026 r. (rewizja 23.9-r2)
+
+Scalone 7 commitów Kamila z `origin/main` (`d5acac0`, 9 października wieczorem):
+- linki do kanałów społecznościowych w stopce wszystkich 7 języków (`content/social-channels.json`; Instagram `hornigold.apartments`, nowy Facebook, LinkedIn), wstawiane przez `build.py`;
+- plik weryfikacyjny Google Search Console `site/google6078b276ecb15bd4.html`, pomijany przez build i audyt SEO;
+- przygotowany pomiar Meta w `integrations/meta/`, poza `site/`, więc **nieaktywny**. Według README Kamila aktywacja wymaga teksty prawne w 7 językach, rozszerzenia CMP o zgodę marketingową, CSP z `connect.facebook.net` i testów Meta Test Events. To decyzja właściciela; CAPI wyłączone.
+
+Bez zmian `server/`, `wrangler.jsonc`, CSP, `release.json` i D1. Poprawka `scripts/seo.py` (`.as_posix()`) zachowana.
+
+Wyniki:
+- build 693 stron; `audit_static`, `audit_seo` i `audit_discovery` bez błędów;
+- paczka 1666 plików;
+- testy node 87/87 (w tym `meta-staged`), `test_seo*` 10/10.
+
+Worker `29de95ba-b100-49a3-ab1b-c7c024e7135b`; poprzedni `6053200a-797c-41ba-8fb6-4238e370578e` przywraca `wrangler rollback`. Smoke `scripts/cloudflare-release.mjs --smoke` przeszedł w całości: 18/18, CSP identyczny jak przed wdrożeniem, brak skryptów Meta na stronach.
+
+**Search Console: plik weryfikacyjny odpowiada przez przekierowanie.** `/google6078b276ecb15bd4.html` zwraca 307 na `/google6078b276ecb15bd4`, a tam 200 z poprawną treścią. To domyślne `assets.html_handling` (`auto-trailing-slash`) Cloudflare, nie kod Kamila. Pomoc Google dopuszcza przekierowania w obrębie tej samej domeny, ale w instrukcji przesyłania pliku pisze też, że przekierowań nie śledzi. Jeśli weryfikacja plikiem się nie powiedzie, pewniejszą metodą jest rekord DNS TXT w strefie `hornigold.pl` (właściwość „Domena” obejmuje też `www`). Token podaje właściciel konta Search Console.
