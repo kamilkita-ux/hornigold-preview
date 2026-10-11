@@ -456,18 +456,19 @@
     },
     {
       "id": "I2",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Kontrolowana symulacja została wykryta i zakończyła checker kodem 1. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1.",
-      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "status": "verified",
+      "environment": "GitHub Actions / GitHub Issues",
+      "change": "Dwa kontrolowane błędy workflow uruchomiły raportowanie; zgłoszenie GitHub #8 powstało i zostało zaktualizowane zamiast zdublowane. Po próbie zgłoszenie testowe zamknięto. 52 testy Node przeszły.",
+      "test": "Rzeczywisty workflow_run → dwa poprawne przebiegi raportowania → odczyt tego samego issue i zamknięcia.",
       "evidence": [
         "evidence/monitor-controlled-alarm.json",
         "QUALITY_PR_REVIEW_2026-10-11.md",
         "evidence/monitor-tls-fixed.json",
-        "evidence/monitor-tls-controlled-alarm.json"
+        "evidence/monitor-tls-controlled-alarm.json",
+        "evidence/controlled-alarm-delivery-23.18.json"
       ],
-      "barrier": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
-      "next": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
+      "barrier": null,
+      "next": "Obserwować rzeczywiste incydenty; odbiór e-mail/czatu i pierwszy dzienny heartbeat nie są potwierdzone tym testem.",
       "title": "Kontrolowany alarm"
     },
     {

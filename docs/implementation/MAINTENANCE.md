@@ -31,3 +31,6 @@ Próba odtworzenia 23.17 (12.10.2026): 2015/2015 hashy, kompletna historia Git, 
 
 ## Tożsamość audytowanego wdrożenia
 Kontrola Pages otrzymuje oczekiwany commit z uruchomienia publikacji. Odczytuje release.json przed audytem wszystkich tras i po nim; wymagane są poprawny transport, ten sam commit i revision, zgodność oczekiwanego commitu oraz istniejące kontrole noindex, canonical i wyłączonej analityki. Rozbieżność zatrzymuje kontrolę; nie oznaczamy jej automatycznie jako nieszkodliwej nowszej publikacji, ponieważ to wymaga osobnego dowodu. Sites może używać osobnego commitu źródeł; nie porównujemy go z commitem GitHub.
+
+## Kontrolowany alarm — potwierdzenie 12.10.2026
+Workflow quality ma opcjonalne `alert_test=true` wyłącznie dla ręcznego wywołania. Test celowo kończy checker błędem, bez zmiany serwisu, rezerwacji i płatności. Oddzielna grupa współbieżności nie przerywa zwykłej kontroli. Raporter rozpoznaje tytuł oraz rzeczywiście zawiedziony krok, oddziela marker testu od realnego incydentu i nie nadpisuje tego incydentu. Dwa przebiegi utworzyły, a potem zaktualizowały to samo zgłoszenie #8; zamknięto je po odczycie dowodów. Potwierdzenie dotyczy kanału GitHub Issues, nie odbioru e-mail/czatu. Dowód: `evidence/controlled-alarm-delivery-23.18.json`.
