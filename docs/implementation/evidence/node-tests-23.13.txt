@@ -1,0 +1,59 @@
+✔ no tag before consent or after refusal (2.471458ms)
+✔ preview, missing ID and disabled configuration do not load Google (2.111375ms)
+✔ consent loads exactly one tag and a sanitized page view (8.985875ms)
+✔ withdrawal disables measurement, removes GA cookies and reloads (0.708083ms)
+✔ only approved campaign labels survive URL sanitization (0.589417ms)
+✔ contact and social clicks require consent and never send destinations (0.939167ms)
+✔ verified GBP campaign labels survive sanitization (0.59375ms)
+✔ actual project social links and www aliases emit one sanitized event (0.517291ms)
+✔ unknown or identifying referrer origins are discarded; known sources lose path and query (3.114959ms)
+✔ no script or events before advertising consent, including map-only legacy CMP (3.623708ms)
+✔ previews, unconfigured documents and query/fragment URLs cannot track (1.198875ms)
+✔ grant loads once and sends distinct PageView/ViewContent/Contact only once (1.504875ms)
+✔ non-room route does not send ViewContent (0.829375ms)
+✔ withdrawal revokes, removes first-party Meta cookies and reloads SDK context (0.489667ms)
+✔ CAPI payload preserves shared event ID without transmitting (1.062583ms)
+✔ CAPI denies missing consent and unverified Purchase (0.284417ms)
+✔ CAPI rejects polluted URL, identifiers and stale timestamp (0.368917ms)
+✔ no secret or public CAPI endpoint is shipped (0.257416ms)
+✔ cross-tab consent and revocation update permissions and publish denial (3.706542ms)
+✔ active tab expiry revokes consent without navigation and deletes storage (1.306291ms)
+✔ future timestamps cannot grant permission (0.739125ms)
+✔ hornigold.pl canonical page indexing gate (28.827875ms)
+✔ hornigold.pl robots gate (0.45575ms)
+✔ hornigold.pl actual runtime release state (4.248958ms)
+✔ hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site canonical page indexing gate (0.412875ms)
+✔ hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site robots gate (0.346834ms)
+✔ hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site actual runtime release state (0.917667ms)
+✔ hornigold.ffp-inwestor-accpunt.workers.dev canonical page indexing gate (0.192208ms)
+✔ hornigold.ffp-inwestor-accpunt.workers.dev robots gate (0.258875ms)
+site_counter_unavailable
+✔ hornigold.ffp-inwestor-accpunt.workers.dev actual runtime release state (1.3805ms)
+✔ technical path stays excluded: /documents/hornigold-policies-pl.pdf (0.440667ms)
+✔ technical path stays excluded: /pl/404.html (0.140666ms)
+✔ technical path stays excluded: /pl/missing-page/ (0.143041ms)
+✔ technical path stays excluded: /api/site-stats (0.164333ms)
+✔ technical path stays excluded: /release.json (0.693416ms)
+✔ technical path stays excluded: / (0.122917ms)
+✔ www redirects with path and query (0.115709ms)
+✔ HTTP cannot activate indexing (0.084167ms)
+✔ preview source remains unchanged (0.662917ms)
+✔ conditional canonical responses cannot acquire noindex (0.123916ms)
+✔ HEAD release response never parses an empty body (0.081083ms)
+site_counter_unavailable
+site_counter_unavailable
+✔ existing counter survives concurrent increments and database reopen (57.005583ms)
+✔ foreign origins and missing headers cannot increment (0.556958ms)
+✔ failed database never returns a fake count (0.484709ms)
+✔ every legacy alias redirects with the selected dates and guests (14.603875ms)
+✔ root uses saved-language document and standard pages have protective headers (0.451042ms)
+✔ all language errors preserve HTTP404, correct language and no stale conditional request (0.684292ms)
+✔ counter rejection and outage keep the same security policy as normal responses (0.175458ms)
+ℹ tests 48
+ℹ suites 0
+ℹ pass 48
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 148.518875

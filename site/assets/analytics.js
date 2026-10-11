@@ -34,7 +34,11 @@
     const incoming=new URLSearchParams(location.search||'');
     const allowed={utm_source:['instagram','facebook','linkedin','google_business','google'],utm_medium:['organic_social','paid_social','organic'],utm_campaign:['profile','room_guide','city_guide','stay_enquiry','gbp']};
     for(const [key,values] of Object.entries(allowed))if(values.includes(incoming.get(key)))page.searchParams.set(key,incoming.get(key));
-    let referrer='';try{const ref=new URL(document.referrer);if(['http:','https:'].includes(ref.protocol))referrer=ref.origin+'/';}catch{}
+    let referrer='';try{
+      const ref=new URL(document.referrer);
+      const knownHosts=new Set(['hornigold.pl','www.google.com','www.google.pl','google.com','google.pl','instagram.com','www.instagram.com','l.instagram.com','facebook.com','www.facebook.com','m.facebook.com','l.facebook.com','linkedin.com','www.linkedin.com']);
+      if(['http:','https:'].includes(ref.protocol)&&knownHosts.has(ref.hostname))referrer='https://'+ref.hostname+'/';
+    }catch{}
     tag('event','page_view',{page_location:page.href,page_referrer:referrer});
     const script=document.createElement('script');
     script.async=true;
@@ -51,7 +55,7 @@
     else if(raw.startsWith('https://be.guestsage.com/'))action='booking';
     else if(/\/rezerwacja\//.test(raw))action='booking';
     else if(link.hasAttribute('data-stay'))action='stay_planner';
-    else{try{const url=new URL(raw,location.origin);const domains={'www.instagram.com':'instagram','www.facebook.com':'facebook','www.linkedin.com':'linkedin'};action=domains[url.hostname];}catch{}}
+    else{try{const url=new URL(raw,location.origin);const domains={'www.instagram.com':'instagram','www.facebook.com':'facebook','www.linkedin.com':'linkedin'};action=domains['www.'+url.hostname.replace(/^www\./,'')];}catch{}}
     if(action)tag('event',({phone:'click_phone',email:'click_email',booking:'booking_click',stay_planner:'stay_planner_click'}[action]||'social_link_click'),{action,language:document.documentElement?.lang||'und',page_location:location.origin+location.pathname,page_referrer:''});
   });
   document.addEventListener('change',event=>{

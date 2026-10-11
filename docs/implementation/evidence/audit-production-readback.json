@@ -1,0 +1,93 @@
+{
+  "release": {
+    "version": 23,
+    "stage": "review",
+    "indexing": true,
+    "bookingEnabled": false,
+    "paymentsEnabled": false,
+    "previewBanner": false,
+    "bannerRemovalApproved": "2026-10-06",
+    "languages": [
+      "pl",
+      "en",
+      "de",
+      "zh-Hans",
+      "uk",
+      "es",
+      "it"
+    ],
+    "legalDocumentsDate": "2026-10-11",
+    "privacyControls": true,
+    "independentLegalReview": false,
+    "revision": "23.11",
+    "consolidatedFrom": 18,
+    "primaryOrigin": "https://kamilkita-ux.github.io",
+    "primaryBasePath": "/hornigold-preview/",
+    "intendedDomain": "https://hornigold.pl",
+    "domainConnected": true,
+    "githubPagesMode": "complete-static-site",
+    "discoveryContentDate": "2026-10-07",
+    "polishSeoDate": "2026-10-07",
+    "safeguardingDocumentsDate": "2026-10-09",
+    "privacyReviewDate": "2026-10-09",
+    "privacyOperationalConfirmation": false,
+    "cookiesReviewDate": "2026-10-09",
+    "onlineSalesDocumentsDate": "2026-10-09",
+    "onlineSalesOperationalConfirmation": false,
+    "accessibilityInformationDate": "2026-10-09",
+    "accessibilityJourneyVerified": false,
+    "PADScopeConfirmed": false,
+    "taggedPDFs": false,
+    "propertyIdentityDate": "2026-10-09",
+    "apartmentCountOwnerConfirmed": 34,
+    "googleRatingSnapshot": 4.6,
+    "analyticsPreparationDate": "2026-10-11",
+    "implementationDate": "2026-10-11",
+    "base": "/",
+    "buildMode": "production-ready",
+    "published": true,
+    "counterEnabled": true,
+    "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+    "deploymentHost": "hornigold.pl"
+  },
+  "assetComparisons": [
+    {
+      "asset": "style.css",
+      "matchesCurrentSource": false,
+      "productionSha256": "4d1631deb62844c210ffd89e87438d662bbf91a79451c1da9572cb997bec6a4c",
+      "differenceExplained": "Production contains additional CloudMentor GuestSage .booking-panel CSS. Preserve during deployment; not overwritten by this audit."
+    },
+    {
+      "asset": "privacy.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "3e5eb11d745430b0d2c69801afc20420e133bb991d742f327b034687b55885dd"
+    },
+    {
+      "asset": "analytics.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "31086e9c6536b7aa224edd046c0d2acb75119ba6660ddb516506924bce679f1b"
+    },
+    {
+      "asset": "app.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "a571b75e6e2c4bc969d9f3d265847cd304e666da7d5e99ea89b58c60e4405d27"
+    },
+    {
+      "asset": "i18n.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "8ee6cfb27471771cc0035a5fc9b702693b5d7db9a47e63721a038e0c7bfacc1b"
+    },
+    {
+      "asset": "business-form.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "c78fb2a88ae77d9baa0bdd9db4d5344c5066e467ce46b86c19cd8519159ac4c9"
+    },
+    {
+      "asset": "browser-language.js",
+      "matchesCurrentSource": true,
+      "productionSha256": "670a492ba9f4626fb632e5837a36a3ed795872b519563e500b39513e493eda7c"
+    }
+  ],
+  "productionAnalyticsEnabled": true,
+  "limits": "Matching assets and release do not prove real GA4 event receipt or checkout."
+}

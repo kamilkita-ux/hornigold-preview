@@ -1,19 +1,20 @@
 {
   "date": "2026-10-11",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
-  "productionBaseline": "23.9",
+  "productionBaseline": "23.11",
   "items": [
     {
       "id": "A1",
       "status": "verified",
-      "environment": "external",
-      "change": "Odczyt produkcji 23.9, Pages 23.10, Sites 23.9 i źródeł.",
+      "environment": "production / previews",
+      "change": "Ponowny odczyt: produkcja 23.11, GitHub Pages i Sites 23.12; sprawdzono różnice zasobów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/hornigold-live-audit-20261011.json"
+        "evidence/hornigold-live-audit-20261011.json",
+        "evidence/audit-production-readback.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Po każdej publikacji powtórzyć odczyt rzeczywistych zasobów.",
       "title": "Sprawdzenie środowisk"
     },
     {
@@ -31,15 +32,16 @@
     },
     {
       "id": "A3",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Zachowano istniejący odnośnik GuestSage; neutralne dokumenty, zgody, mobilny układ i schema.",
+      "status": "verified",
+      "environment": "local + production readback",
+      "change": "Porównano sześć skryptów bajtowo; CSS ma dodatkowy moduł CloudMentor, a booking.js pochodzi od Marka. Przygotowano minimalną poprawkę Workera, która ich nie nadpisuje.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../content/booking-handoff.json"
+        "../../content/booking-handoff.json",
+        "evidence/audit-production-readback.json"
       ],
-      "barrier": "Nieznane zmiany wdrożone przez Marka poza źródłem należy uzgodnić przed podmianą.",
-      "next": "Nieznane zmiany wdrożone przez Marka poza źródłem należy uzgodnić przed podmianą.",
+      "barrier": null,
+      "next": "Zachować rozszerzenia Marka przy publikacji.",
       "title": "Porównanie i wybór zmian"
     },
     {
@@ -57,22 +59,23 @@
     },
     {
       "id": "A5",
-      "status": "blocked",
+      "status": "partial",
       "environment": "local / pending production",
-      "change": "Przygotowany izolowany pakiet Cloudflare; nie wdrożono do produkcji.",
+      "change": "Produkcja została zewnętrznie zaktualizowana do 23.11. Podglądy 23.12; poprawka nagłówków odpowiedzi 403/503 nie jest jeszcze potwierdzona na produkcji.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "MAINTENANCE.md"
+        "MAINTENANCE.md",
+        "evidence/audit-production-readback.json"
       ],
-      "barrier": "Właściwy pipeline i dostęp Marka.",
-      "next": "Właściwy pipeline i dostęp Marka.",
+      "barrier": "Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera.",
+      "next": "Odczytać CSP i X-Frame-Options na produkcyjnej odpowiedzi 403 po wdrożeniu.",
       "title": "Publikacja produkcyjna"
     },
     {
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Wersja 23.11 opublikowana w obu podglądach. Publiczne audyty 693 tras każdy: 0 błędów, noindex, Disallow /, analityka wyłączona.",
+      "change": "Wersja 23.12 w obu podglądach; po 693 tras bez błędów, noindex i brak analityki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../seo/audit-preview.json",
@@ -150,23 +153,23 @@
     },
     {
       "id": "C2",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "14 przypadków GA4 w przeglądarce, 3 testy jednostkowe cyklu oraz rzeczywista synchronizacja dwóch kart i aktywne wygaśnięcie; przed zgodą brak Google.",
+      "status": "verified",
+      "environment": "production browser + local regression",
+      "change": "Cykl zgód testowany lokalnie; na produkcji 14 przypadków bez Google przed zgodą, rzeczywista akceptacja i wycofanie w Safari. Po ponownym otwarciu oba checkboxy odznaczone.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../seo/ga4-browser-2026-10-11.json",
         "evidence/consent-lifecycle-browser.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Powtarzać regresję po zmianie CMP/tagów.",
       "title": "Zgody i ich cykl życia"
     },
     {
       "id": "C3",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "click_phone, click_email, booking_click, select_apartment; bez fałszywych lead/purchase. UTM allowlist; brak dowolnego referrera.",
+      "status": "partial",
+      "environment": "production + local improvement",
+      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; poprawiono lokalnie aliasy linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../tests/ga4-staged.test.mjs"
@@ -177,28 +180,29 @@
     },
     {
       "id": "C4",
-      "status": "blocked",
-      "environment": "local / pending production",
-      "change": "Lokalne testy nie wysyłały do Google; produkcja nadal nie ma nowego kodu.",
-      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "status": "verified",
+      "environment": "production / Google GA4",
+      "change": "Właściwa usługa GA4 pokazała kontrolowaną sesję: 2 page_view, first_visit, session_start i stay_planner_click. Zgoda po teście wycofana.",
+      "test": "Native Safari: odczyt raportu czasu rzeczywistego Google, następnie ponowny odczyt obu odznaczonych zgód.",
       "evidence": [
-        "dashboard-data.json"
+        "evidence/ga4-live-receipt-2026-10-11.json"
       ],
-      "barrier": "Po wdrożeniu: świadoma zgoda testera i odczyt właściwego GA4.",
-      "next": "Po wdrożeniu: świadoma zgoda testera i odczyt właściwego GA4.",
+      "barrier": null,
+      "next": "Obserwować zagregowane dane po przetworzeniu; nie traktować testera jako wyniku sprzedaży.",
       "title": "Odbiór rzeczywistych zdarzeń"
     },
     {
       "id": "D1",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Usunięto przesunięcie wywołane propozycją języka; 3 pokoje i krótsza strona główna.",
+      "status": "verified",
+      "environment": "production + local lab",
+      "change": "Produkcja ma skrócony układ i poprawioną propozycję języka; 14 przypadków mobile/desktop bez błędów. Laboratoryjny CLS maks. 0,075463.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/browser-after.json"
+        "evidence/browser-after.json",
+        "evidence/audit-production-readback.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Obserwować rzeczywiste CWV, gdy zbierze się wystarczający ruch.",
       "title": "Układ mobile i CLS"
     },
     {
@@ -218,7 +222,7 @@
       "id": "D3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "28 przypadków axe, 29 przypadków mobile oraz 63 testy dokumentów/formularzy w Chromium, Firefox i WebKit przeszły. HTML jest odpowiednikiem PDF.",
+      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/axe-after.json",
@@ -226,21 +230,23 @@
         "evidence/mobile-release.json",
         "evidence/pdf-content-qa.json"
       ],
-      "barrier": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
+      "barrier": "Manualny odbiór czytnikiem ekranu i pełna przyszła ścieżka dostawcy. PDF-y nie mają znaczników; dostępny odpowiednik HTML zachowano.",
       "next": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
       "title": "Dostępność"
     },
     {
       "id": "E1",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "693 trasy, canonical, hreflang, H1 i metadane; audyt bez błędów.",
+      "status": "verified",
+      "environment": "production / all 693 routes",
+      "change": "Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../seo/audit-production-ready.json"
+        "../seo/audit-production-ready.json",
+        "evidence/audit-production-readback.json",
+        "evidence/audit-SUMMARY.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Kontrola po każdej publikacji.",
       "title": "SEO wszystkich adresów"
     },
     {
@@ -261,10 +267,11 @@
       "id": "E3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Własność zweryfikowana, sitemapę przesłano, PL i EN zaindeksowane.",
+      "change": "Sprawdzono siedem stron głównych w GSC: PL/EN/DE/ES/IT w indeksie, zh-Hans/UK nieznane; prośby o indeksację obu przyjęte przez Google. Sitemap nadal: nie udało się pobrać; publiczny XML 200 i 693 URL.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "evidence/gsc-seven-languages-2026-10-11.json"
       ],
       "barrier": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
       "next": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
@@ -379,14 +386,17 @@
       "id": "H1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; pozostało 1 moderate w narzędziu developerskim. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7.",
+      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
         "DEPENDENCIES.md",
-        "evidence/pdf-patched-compatibility.json"
+        "evidence/pdf-patched-compatibility.json",
+        "evidence/dependencies-23.13.json",
+        "evidence/dependency-compat-23.13.json",
+        "evidence/audit-SUMMARY.json"
       ],
-      "barrier": "Marek: konfiguracja i kopia bazy Cloudflare. Pozostały esbuild developerski: nie udostępniać serwera; czekać na zgodną aktualizację dostawcy.",
+      "barrier": "Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503.",
       "next": "Cloudflare konfiguracja/baza i zamknięcie wyników audytu zależności.",
       "title": "Bezpieczeństwo i odtworzenie"
     },
@@ -431,30 +441,36 @@
     },
     {
       "id": "J1",
-      "status": "local_ready",
-      "environment": "local / pending production",
+      "status": "verified",
+      "environment": "saved documentation",
       "change": "34 pozycje, trwałe dowody i rozdzielenie stanów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "REGISTER.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Aktualizować po potwierdzonych zmianach; utrzymywać rozdział lokalne/podgląd/produkcja.",
       "title": "Rejestr i dowody"
     },
     {
       "id": "J2",
-      "status": "local_ready",
-      "environment": "local / pending production",
+      "status": "verified",
+      "environment": "saved documentation",
       "change": "Instrukcja publikacji, rollbacku, kopii i przeglądów; właściciele i terminy.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Aktualizować po potwierdzonych zmianach; utrzymywać rozdział lokalne/podgląd/produkcja.",
       "title": "Utrzymanie i obserwacja"
     }
   ],
-  "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów."
+  "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
+  "counts": {
+    "verified": 13,
+    "blocked": 3,
+    "local_ready": 5,
+    "partial": 13
+  }
 }
