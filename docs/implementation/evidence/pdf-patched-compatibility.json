@@ -1,0 +1,41 @@
+{
+  "pypdf": "6.20.0",
+  "rows": [
+    {
+      "lang": "pl",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "en",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "de",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "zh-hans",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "uk",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "es",
+      "samePages": true,
+      "sameText": true
+    },
+    {
+      "lang": "it",
+      "samePages": true,
+      "sameText": true
+    }
+  ],
+  "allPassed": true
+}

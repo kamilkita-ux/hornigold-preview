@@ -5,7 +5,7 @@ Aktualizacja: 2026-10-11. Właściciel decyzji: Kamil. Wdrożenie Cloudflare: Ma
 1. Odczytaj AGENTS.md, git status i ostatni REGISTER.json. Nie nadpisuj równoległych zmian.
 2. Uruchom scripts/backup_release.py na Mac mini i sprawdź readbackVerified oraz manifest SHA-256 poza repozytorium.
 3. Zbuduj preview, wykonaj audit_static.py, audit_seo.py, audit_discovery.py, testy Node/Python i test przeglądarkowy zgód. Podglądy pozostają noindex, bez GA i transakcji.
-4. Osobno zbuduj production-ready oraz uruchom audit_seo.py. scripts/prepare_cloudflare_production.py przygotowuje pakiet, nie publikuje.
+4. Osobno zbuduj production-ready poleceniem `python3 scripts/build.py --mode production-ready --base / --counter --production-counter`, zachowując istniejący licznik i DB. Następnie oraz uruchom audit_seo.py. scripts/prepare_cloudflare_production.py przygotowuje pakiet, nie publikuje.
 5. Marek potwierdza konto, Worker, źródło/gałąź, komendę i katalog budowania. Zachowaj istniejące ASSETS, DB, domeny, pocztę i sekrety. Nie używaj projektu FFP.
 6. Przed podmianą porównaj bieżący zewnętrzny odnośnik GuestSage i zmiany wykonane poza GitHub. Nie zastępuj nieznanych zmian pakietem w ciemno.
 7. Publikuj wyłącznie w potwierdzonym pipeline. Zapisz identyfikator wdrożenia i commit/manifest. Push GitHub nie dowodzi aktualizacji Cloudflare.

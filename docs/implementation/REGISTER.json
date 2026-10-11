@@ -70,15 +70,17 @@
     },
     {
       "id": "A6",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Preview pozostaje noindex, Disallow /, bez pomiaru produkcyjnego i transakcji.",
+      "status": "verified",
+      "environment": "Sites and GitHub Pages live",
+      "change": "Wersja 23.11 opublikowana w obu podglądach. Publiczne audyty 693 tras każdy: 0 błędów, noindex, Disallow /, analityka wyłączona.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../seo/audit-preview.json"
+        "../seo/audit-preview.json",
+        "evidence/public-sites-23.11.json",
+        "evidence/public-github-23.11.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
       "title": "Podglądy"
     },
     {
@@ -216,10 +218,13 @@
       "id": "D3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "28 przypadków axe bez naruszeń; dostępne HTML odpowiadają PDF.",
+      "change": "28 przypadków axe, 29 przypadków mobile oraz 63 testy dokumentów/formularzy w Chromium, Firefox i WebKit przeszły. HTML jest odpowiednikiem PDF.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/axe-after.json"
+        "evidence/axe-after.json",
+        "evidence/legal-edges.json",
+        "evidence/mobile-release.json",
+        "evidence/pdf-content-qa.json"
       ],
       "barrier": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
       "next": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
@@ -374,10 +379,12 @@
       "id": "H1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; pozostało 1 moderate w narzędziu developerskim.",
+      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; pozostało 1 moderate w narzędziu developerskim. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/restore-test.json"
+        "evidence/restore-test.json",
+        "DEPENDENCIES.md",
+        "evidence/pdf-patched-compatibility.json"
       ],
       "barrier": "Marek: konfiguracja i kopia bazy Cloudflare. Pozostały esbuild developerski: nie udostępniać serwera; czekać na zgodną aktualizację dostawcy.",
       "next": "Cloudflare konfiguracja/baza i zamknięcie wyników audytu zależności.",

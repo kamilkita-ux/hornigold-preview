@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "revision": "23.11",
+  "Sites": {
+    "status": "succeeded",
+    "savedVersion": 32,
+    "deployment": "appgdep_6acbeb790c58819199701f175943ce33",
+    "routesVerified": 693,
+    "errors": 0
+  },
+  "GitHub": {
+    "commit": "7c3d336d3d37d3019b42e0e15942c131bda543bb",
+    "run": "38170630579",
+    "status": "success",
+    "routesVerified": 693,
+    "errors": 0
+  },
+  "production": {
+    "revision": "23.9",
+    "commit": "0c1609473be1feee40ce5dd5ec032b2ff7832e4b",
+    "newChangesDeployed": false
+  },
+  "notes": [
+    "A subsequent source-only measurement/dependency follow-up remains part of the same release and requires renewed platform readback."
+  ]
+}
