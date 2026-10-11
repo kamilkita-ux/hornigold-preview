@@ -7,7 +7,7 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Potwierdzono produkcję 23.11 oraz oba podglądy 23.14. Przygotowanie zatwierdzonego przez właściciela Instagrama w 23.15.",
+      "change": "Potwierdzono produkcję 23.11 oraz oba podglądy 23.15. GitHub main: a5fdacdfaa6872491911635881f881c576b136ab.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -49,7 +49,7 @@
       "id": "A4",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "Najnowsza kopia 23.13 na Mac mini: 1964/1964 hashy, zweryfikowana historia Git i odtworzony build 693 tras. Nie obejmuje konfiguracji ani bazy Cloudflare.",
+      "change": "Kopia 23.15 na Mac mini: 1986 plików ze zweryfikowanymi hashami i historia Git. Odtworzenie poprzedniej 23.14: build 693 tras bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
@@ -63,7 +63,7 @@
       "id": "A5",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Produkcja nadal 23.11, potwierdzona bieżącym odczytem release.json. Oba podglądy 23.13. Produkcyjna poprawka odpowiedzi 403/503 niepotwierdzona.",
+      "change": "Bieżący odczyt produkcji nadal 23.11; oba podglądy 23.15. Nie potwierdzono aktualizacji Cloudflare. Zachować istniejącą rezerwację i Fiserv.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
@@ -77,12 +77,12 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.14: po 693 trasy, 1911 encji zdjęć zgodnych ze źródłem, zero błędów, noindex i brak analityki.",
+      "change": "Oba podglądy 23.15: po 693 trasy, zero błędów publicznego audytu; zatwierdzony Instagram na każdej stronie, noindex i brak analityki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/public-sites-23.14.json",
-        "evidence/public-github-23.14.json",
-        "evidence/PUBLICATION_23.14.json"
+        "evidence/public-sites-23.15.json",
+        "evidence/public-github-23.15.json",
+        "evidence/PUBLICATION_23.15.json"
       ],
       "barrier": null,
       "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
@@ -92,10 +92,12 @@
       "id": "A7",
       "status": "verified",
       "environment": "external",
-      "change": "Nie nadpisano pierwotnego brudnego checkoutu; nie zmieniono DNS i poczty.",
+      "change": "Nie nadpisano pierwotnego checkoutu, DNS ani poczty. Właściciel dodatkowo chroni istniejący moduł rezerwacji i Fiserv: bez zmian kodu, konfiguracji i połączeń bez nowego polecenia. Dodano lokalną kontrolę hashy wskazanych chronionych plików; 6 testów. Nie podłączono do nieznanego pipeline.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../AGENTS.md"
+        "../../AGENTS.md",
+        "PROTECTED_INTEGRATIONS.md",
+        "evidence/protected-integrations-tests.json"
       ],
       "barrier": null,
       "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
@@ -113,7 +115,7 @@
         "evidence/guestsage-language-review-expanded.json"
       ],
       "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
-      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
+      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
       "title": "GuestSage, PMS i operator"
     },
     {
@@ -139,7 +141,7 @@
         "MAINTENANCE.md"
       ],
       "barrier": "Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa.",
-      "next": "Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa.",
+      "next": "Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
       "title": "Rezerwacja i płatność end-to-end"
     },
     {
@@ -354,14 +356,16 @@
       "id": "G3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Właściciel 11.10 jednoznacznie wskazał hornigold.zielona.kamienica jako główny Instagram, zgodnie z istniejącą wizytówką Google. W 23.15 przygotowano zmianę odnośników strony we wszystkich językach.",
+      "change": "Zatwierdzony Instagram hornigold.zielona.kamienica opublikowano i sprawdzono na wszystkich 693 stronach obu podglądów 23.15. Produkcja nadal wskazuje poprzedni profil.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
-        "../../content/social-channels.json"
+        "../../content/social-channels.json",
+        "evidence/public-sites-23.15.json",
+        "evidence/public-github-23.15.json"
       ],
-      "barrier": "Publikacja podglądów 23.15 i potwierdzenie aktualizacji produkcji przez właściwy pipeline.",
-      "next": "Sprawdzić odnośnik we wszystkich 693 stronach oraz na hornigold.pl po wdrożeniu.",
+      "barrier": "Marek: aktualizacja produkcji przez właściwy pipeline z zachowaniem rezerwacji i Fiserv.",
+      "next": "Po potwierdzonym wdrożeniu sprawdzić profil na hornigold.pl.",
       "title": "Linki i profile zewnętrzne"
     },
     {
@@ -415,7 +419,8 @@
       "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/monitor-latest.json"
+        "evidence/monitor-latest.json",
+        "QUALITY_PR_REVIEW_2026-10-11.md"
       ],
       "barrier": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
       "next": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
@@ -428,7 +433,8 @@
       "change": "Kontrolowana symulacja została wykryta i zakończyła checker kodem 1.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/monitor-controlled-alarm.json"
+        "evidence/monitor-controlled-alarm.json",
+        "QUALITY_PR_REVIEW_2026-10-11.md"
       ],
       "barrier": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
       "next": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
@@ -481,5 +487,5 @@
     "local_ready": 5,
     "partial": 13
   },
-  "publicationSnapshot": "23.14: oba podglądy potwierdzone; produkcja 23.11; 23.15 przygotowanie zmiany Instagrama."
+  "publicationSnapshot": "23.15: oba podglądy potwierdzone, mail do Marka w Wysłanych; produkcja nadal 23.11. Rezerwacja i Fiserv chronione."
 }

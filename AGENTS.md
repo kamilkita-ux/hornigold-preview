@@ -51,3 +51,6 @@ The owner explicitly requested implementing the prepared measurement and updatin
 
 ## Full implementation authorization — 2026-10-11
 Owner supplied the 34-point implementation request: implement/test/publish available work, preserve preview exclusions and existing services. Extend schema beyond WebPage only with dated evidence and visible facts. Preserve actual GuestSage handoff; do not infer successful reservations/payments. No historical migration. New fees, permissions, account ownership and real payment charges require a separate decision. Keep a durable 34-item register, backup, rollback and public readback.
+
+## Owner protection: existing booking module and Fiserv — 2026-10-11
+The owner explicitly declared the existing booking module and Fiserv payment gateway untouchable. Do not overwrite, replace, refactor or change their code, configuration or connections while updating the website, SEO, content, analytics or documents. Preserve Marek’s integration and do not replace production wholesale with preview artifacts. Any intervention in these protected components requires a new explicit owner instruction. Read-only verification remains allowed; do not infer operational acceptance from this preservation rule.
