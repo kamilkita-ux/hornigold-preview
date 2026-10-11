@@ -240,16 +240,17 @@
       "id": "D3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF.",
+      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Lokalnie 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/axe-after.json",
         "evidence/legal-edges.json",
         "evidence/mobile-release.json",
-        "evidence/pdf-content-qa.json"
+        "evidence/pdf-content-qa.json",
+        "evidence/tagged-pdf-adoption-23.18.json"
       ],
-      "barrier": "Manualny odbiór czytnikiem ekranu i pełna przyszła ścieżka dostawcy. PDF-y nie mają znaczników; dostępny odpowiednik HTML zachowano.",
-      "next": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
+      "barrier": "Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i publikacja 23.18. Nie potwierdzono PDF/UA.",
+      "next": "Regresja HTML/PDF i publikacja 23.18, następnie odbiór z czytnikiem oraz ścieżka dostawcy w sandboxie.",
       "title": "Dostępność"
     },
     {

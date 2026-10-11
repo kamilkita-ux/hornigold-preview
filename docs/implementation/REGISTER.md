@@ -2,6 +2,8 @@
 
 Aktualizacja 12.10.2026: oba podglądy 23.17 potwierdzone; produkcja nadal 23.11. Publikacje podglądów niezależne od Cloudflare.
 
+Wersja 23.18 przygotowana lokalnie: 21 oznaczonych PDF i zgodny HTML, publikacja jeszcze nie nastąpiła.
+
 verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 
 | ID | Zakres | Stan | Zmiana / wynik | Bariera |
@@ -22,7 +24,7 @@ verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 | C4 | Odbiór rzeczywistych zdarzeń | verified | Właściwa usługa GA4 pokazała kontrolowaną sesję: 2 page_view, first_visit, session_start i stay_planner_click. Zgoda po teście wycofana. | — |
 | D1 | Układ mobile i CLS | verified | Produkcja ma skrócony układ i poprawioną propozycję języka; 14 przypadków mobile/desktop bez błędów. Laboratoryjny CLS maks. 0,075463. | — |
 | D2 | Obrazy i wydajność | partial | 361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników. | Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji. |
-| D3 | Dostępność | partial | 1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. | Manualny odbiór czytnikiem ekranu i pełna przyszła ścieżka dostawcy. PDF-y nie mają znaczników; dostępny odpowiednik HTML zachowano. |
+| D3 | Dostępność | partial | 1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Lokalnie 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. | Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i publikacja 23.18. Nie potwierdzono PDF/UA. |
 | E1 | SEO wszystkich adresów | verified | Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki. | — |
 | E2 | Linki i fragmenty | local_ready | 8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji. | — |
 | E3 | Search Console | partial | Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy. | Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem. |

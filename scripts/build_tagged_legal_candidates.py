@@ -12,13 +12,17 @@ def source_html(data, identity, lang, edition):
  if not sections:raise ValueError('Missing approved section: '+edition)
  title=data['title'] if edition=='policies' else sections[0]['title']
  html_lang='zh-Hans' if lang=='zh-hans' else lang
- extra_css=('body{font-size:10.5pt}' if lang=='zh-hans' else '')+('body{font-size:12pt}' if edition=='safeguarding-children' else '')
+ extra_css=('body{font-size:10.5pt}' if lang=='zh-hans' else '')+('body{font-size:10pt}' if edition=='safeguarding' and lang in ('de','zh-hans') else '')+('body{font-size:12pt}' if edition=='safeguarding-children' else '')
  parts=['<!doctype html><html lang="'+html_lang+'"><head><meta charset="utf-8"><title>'+escape(title)+'</title><style>@page{size:A4;margin:18mm}body{font-family:DejaVu Sans,Noto Sans SC,sans-serif;font-size:11pt;color:#173b33;line-height:1.35}h1{font-size:21pt;line-height:1.4;margin:0 0 14pt}h2{font-size:17pt;line-height:1.4;margin:0 0 12pt;page-break-before:always}h2.first{page-break-before:auto}li{margin-bottom:8pt}h1,h2{page-break-after:avoid}p.identity{font-size:9pt;margin-top:18pt}p.source{font-size:8.5pt;line-height:1.15;margin:2pt 0}'+extra_css+'</style></head><body><h1>'+escape(title)+'</h1>']
  expected=[title]
  if edition=='policies':parts+=['<p>'+escape(data['intro'])+'</p>'];expected.append(data['intro'])
  for n,sec in enumerate(sections):
   if edition=='policies':parts+=['<h2 class="'+('first' if n==0 else '')+'">'+escape(sec['title'])+'</h2>'];expected.append(sec['title'])
-  parts+=['<ol>']+['<li>'+escape(p)+'</li>' for p in sec['paragraphs']]+['</ol>'];expected+=sec['paragraphs']
+  parts+=['<ol>']
+  for i,paragraph in enumerate(sec['paragraphs']):
+   style=' style="page-break-before:always"' if edition=='safeguarding' and lang=='zh-hans' and i==6 else ''
+   parts+=['<li'+style+'>'+escape(paragraph)+'</li>']
+  parts+=['</ol>'];expected+=sec['paragraphs']
   for s in sec.get('sources',[]):parts+=['<p class="source"><a href="'+escape(s['url'],quote=True)+'">'+escape(s['title'])+'</a> (2026-10-09)</p>'];expected.append(s['title'])
  note=identity['tagline']+' '+identity['description']
  rating=identity['rating']+' '+identity['ratingNote']

@@ -4,7 +4,14 @@ import json
 from bs4 import BeautifulSoup
 r=Path(__file__).resolve().parent.parent
 rel=json.loads((r/'release.json').read_text());plan=json.loads((r/'docs/PAD_BOOKING_ACCEPTANCE.json').read_text());contract=json.loads((r/'legal/checkout-contract.json').read_text())
-assert rel['accessibilityJourneyVerified'] is False and rel['PADScopeConfirmed'] is False and rel['taggedPDFs'] is False
+assert rel['accessibilityJourneyVerified'] is False and rel['PADScopeConfirmed'] is False
+if rel.get('taggedPDFs'):
+ import hashlib
+ proof=json.loads((r/'docs/implementation/evidence/tagged-pdf-adoption-23.18.json').read_text())
+ assert len(proof['documents'])==21 and proof['structure']['errors']==0 and not proof['pdfUAValidated']
+ for doc in proof['documents']:
+  assert doc['tagged'] and doc['visualReviewCompleted'] and not doc['missingTextItems']
+  assert hashlib.sha256((r/'site/documents'/doc['file']).read_bytes()).hexdigest()==doc['sha256']
 assert not rel['bookingEnabled'] and not rel['paymentsEnabled'] and not rel['indexing']
 assert not plan['verified'] and len(plan['stages'])==15
 assert all(v=='NOT_RUN' for s in plan['stages'] for v in s['resultsByLanguage'].values())
