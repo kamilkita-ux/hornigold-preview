@@ -44,6 +44,13 @@ jobs:
           trap 'kill "$SERVER_PID"' EXIT
           for attempt in $(seq 1 20); do curl --fail --silent http://127.0.0.1:4382/pl/ > /dev/null && break; sleep 1; done
           AUDIT_URL=http://127.0.0.1:4382/ node scripts/audit_mobile_release.cjs
+      - name: Lighthouse mobile (production-ready artifact)
+        run: |
+          python -m http.server 4383 --bind 127.0.0.1 --directory _production_ready > /tmp/hornigold-lighthouse.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          for attempt in $(seq 1 20); do curl --fail --silent http://127.0.0.1:4383/pl/ > /dev/null && break; sleep 1; done
+          node scripts/audit_lighthouse.mjs
       - name: Evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

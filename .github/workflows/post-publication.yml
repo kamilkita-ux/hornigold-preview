@@ -13,7 +13,7 @@ jobs:
   check:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
@@ -27,6 +27,16 @@ jobs:
       - name: Canonical production health (read-only)
         if: always()
         run: python scripts/monitor_public.py
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: corepack enable && corepack prepare pnpm@10.30.3 --activate
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - name: Lighthouse canonical production (read-only)
+        env:
+          LIGHTHOUSE_URL: https://hornigold.pl
+        run: node scripts/audit_lighthouse.mjs
       - name: Evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
@@ -35,4 +45,5 @@ jobs:
           path: |
             docs/implementation/evidence/public-github-actions.json
             docs/implementation/evidence/monitor-latest.json
+            docs/implementation/evidence/lighthouse/
           retention-days: 7
