@@ -1,6 +1,6 @@
 {
   "title": "Condizioni, privacy e accessibilità",
-  "intro": "Regole per usare il sito Hornigold e richiedere un soggiorno. Versione del 9 ottobre 2026. I documenti descrivono le funzioni attuali. Prenotazioni e pagamenti online non sono disponibili: concorda il soggiorno direttamente con la reception.",
+  "intro": "Regole per usare il sito Hornigold e richiedere un soggiorno. Versione del 11 ottobre 2026. I documenti descrivono le funzioni attuali. Prenotazioni e pagamenti online non sono disponibili: concorda il soggiorno direttamente con la reception.",
   "download": "Scarica tutti i documenti in PDF",
   "sections": [
     {
@@ -85,19 +85,22 @@
         "Le mappe e panoramiche Google sono facoltative. I contenuti incorporati si caricano solo dopo il consenso nelle impostazioni privacy (art. 6(1)(a) GDPR). Google può quindi ricevere IP e dati del browser e usare propri sistemi di memorizzazione secondo https://policies.google.com/privacy. La revoca rimuove l’incorporamento e impedisce nuovi caricamenti, ma non annulla il trattamento precedente del fornitore. Un normale link alla mappa apre un servizio separato dopo il clic.",
         "Destinatari e ruoli. Accede il personale Hornigold autorizzato a gestire la pratica. I destinatari possono comprendere fornitori di posta e IT e, se necessario, contabilità, consulenti legali e autorità autorizzate dalla legge. Un fornitore che agisce su nostre istruzioni richiede un adeguato accordo sul trattamento; chi determina finalità proprie può essere titolare autonomo. La citazione del nome non certifica un contratto sottoscritto né lo stesso ruolo per ogni servizio. Rivolgersi al titolare per i destinatari della propria pratica.",
         "Trasferimenti fuori dal SEE. I fornitori globali di hosting e mappe possono trattare dati fuori dallo Spazio economico europeo. Le loro informative pubblicate descrivono clausole contrattuali tipo e, ove applicabile, l’EU–US Data Privacy Framework: https://openai.com/policies/eu-privacy-policy/, https://www.cloudflare.com/privacypolicy/, https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Sono dichiarazioni dei fornitori, non conferma del meccanismo di uno specifico contratto Hornigold. Chiedere al titolare il Paese, destinatario, base applicabile e come ottenere copia delle garanzie; occorre verificare ogni servizio e destinatario.",
-        "Le preferenze privacy sono valide per un massimo di 180 giorni. Una voce non valida viene eliminata alla successiva lettura da parte del sito; il browser chiuso o offline non la cancella in background. Periodi tecnici verificati nel codice. Le preferenze privacy rimangono sul dispositivo per un massimo di 180 giorni; piano di soggiorno e confronti fino al termine della sessione della scheda. La lingua resta fino alla cancellazione. Rifiutare la proposta linguistica usa anche la chiave di sessione hornigold-language-suggestion-dismissed. Cancellare le scelte salvate elimina queste voci proprie. Ciò non determina la conservazione di email o registri dei fornitori. Il contatore Sites registra solo totale e data iniziale senza identificativi del visitatore; su GitHub Pages è nascosto."
+        "Le preferenze privacy sono valide per un massimo di 180 giorni. Una voce non valida viene eliminata alla successiva lettura da parte del sito; il browser chiuso o offline non la cancella in background. Periodi tecnici verificati nel codice. Le preferenze privacy rimangono sul dispositivo per un massimo di 180 giorni; piano di soggiorno e confronti fino al termine della sessione della scheda. La lingua resta fino alla cancellazione. Rifiutare la proposta linguistica usa anche la chiave di sessione hornigold-language-suggestion-dismissed. Cancellare le scelte salvate elimina queste voci proprie. Ciò non determina la conservazione di email o registri dei fornitori. Il contatore Sites registra solo totale e data iniziale senza identificativi del visitatore; su GitHub Pages è nascosto.",
+        "Google Analytics 4. Solo sul dominio di produzione hornigold.pl e dopo un consenso separato (articolo 6, paragrafo 1, lettera a GDPR), misuriamo visualizzazioni, lingua della pagina, fonti generali di traffico e clic su telefono, email, pianificazione del soggiorno e profili social. Un clic non è una chiamata completata, un messaggio inviato o una prenotazione. Il fornitore è Google; informazioni: https://policies.google.com/privacy e https://business.safety.google/adsprocessorterms/. Il destinatario riceve dati di connessione, dispositivo e identificatori analitici. Non trasmettiamo contenuti dei moduli, dati degli ospiti, indirizzi email, telefoni, date del soggiorno o parametri URL arbitrari. Google Signals, personalizzazione pubblicitaria e misurazione degli acquisti non sono attivi. Google può trattare dati fuori dal SEE; meccanismi di trasferimento: https://business.safety.google/adsdatatransfers/. Accordi e basi di trasferimento specifici dell’account richiedono una verifica separata del titolare."
       ]
     },
     {
       "id": "cookies",
       "title": "Cookie, memoria del dispositivo e consensi",
       "paragraphs": [
-        "Non carichiamo panorami Google incorporati senza il tuo consenso. Scorrere la pagina o chiudere l’avviso non equivale a consentire. Le mappe sono l’unica integrazione facoltativa; Google Analytics e gli strumenti pubblicitari sono inattivi.",
+        "Mappe e statistiche Google sono facoltative e richiedono consensi separati. I sistemi pubblicitari di tracciamento restano disattivati. Le statistiche funzionano solo su hornigold.pl dopo il consenso; le anteprime non inviano dati analitici.",
         "Memoria propria: hornigold-language (localStorage) conserva la lingua scelta fino alla cancellazione; hornigold-stay, hornigold-comparison e hornigold-enquiry-plan (sessionStorage) conservano pianificazione e confronto fino alla fine della sessione della scheda. Non memorizzano testo libero o carte. hornigold-privacy (localStorage) registra scelta privacy, versione e data per massimo 180 giorni; alla scadenza le mappe sono di nuovo disattivate. Sono funzioni richieste e memoria delle scelte, non tracciamento pubblicitario.",
         "La proposta linguistica usa le impostazioni del browser, senza localizzare il visitatore né reindirizzarlo automaticamente. Scegliere di mantenere la lingua attuale salva la decisione in hornigold-language (localStorage) e il marcatore hornigold-language-suggestion-dismissed (sessionStorage), che impedisce altre proposte durante la sessione della scheda. Il marcatore non contiene identificativi personali o dati della richiesta e termina con la sessione secondo il comportamento del browser. La scelta linguistica persistente resta fino alla cancellazione. Cancellare le scelte salvate nelle impostazioni privacy elimina entrambe le voci. Non sono strumenti di analisi o pubblicità.",
         "Date e numero di ospiti possono figurare nell'URL: condividere il link li rende visibili e l'indirizzo richiesto può entrare nei log di hosting. Non inserire nomi, email o altri dati personali negli URL. I link esterni aprono altri servizi solo con un clic.",
         "Apri Impostazioni privacy nel piè di pagina: scegli solo funzioni necessarie o consenti separatamente mappe Google; puoi revocare con la stessa facilità. La revoca rimuove le mappe incorporate. Non possiamo cancellare dati già conservati da terzi: gestiscili anche nel browser e presso il fornitore. Il pulsante di cancellazione rimuove la memoria propria di Hornigold sul dispositivo. Il rifiuto non limita indicazioni scritte e contatti.",
-        "La versione Sites dispone di un contatore complessivo delle visualizzazioni. Il suo database conserva solo il totale e la data di inizio del conteggio. Non memorizza IP, indirizzi delle pagine visitate o identificativi personali e non usa cookie o memoria del dispositivo per riconoscere i visitatori. Ricaricamenti e visite ripetute possono aumentare il numero: sono visualizzazioni, non visitatori unici. Non misura vendite o risultati pubblicitari. I registri tecnici dell’hosting sono separati da questo database. Su GitHub Pages il contatore è nascosto."
+        "La versione Sites dispone di un contatore complessivo delle visualizzazioni. Il suo database conserva solo il totale e la data di inizio del conteggio. Non memorizza IP, indirizzi delle pagine visitate o identificativi personali e non usa cookie o memoria del dispositivo per riconoscere i visitatori. Ricaricamenti e visite ripetute possono aumentare il numero: sono visualizzazioni, non visitatori unici. Non misura vendite o risultati pubblicitari. I registri tecnici dell’hosting sono separati da questo database. Su GitHub Pages il contatore è nascosto.",
+        "I cookie _ga e _ga_* servono alle statistiche solo dopo il consenso; la durata è di 180 giorni senza rinnovo automatico. I dati di utenti ed eventi della nuova proprietà GA4 sono conservati per 14 mesi senza ripristino del periodo a ogni nuova attività (impostazioni lette il 10/10/2026). Non è il periodo di tutti i rapporti aggregati Google. La revoca blocca nuove misurazioni, elimina i cookie GA accessibili del dominio e ricarica la pagina; non cancella automaticamente i dati già trasmessi. Richieste: office@hornigold.pl.",
+        "Dopo il consenso, Google Analytics misura visualizzazioni, fonti di traffico e clic di contatto. Puoi revocare il consenso qui. Il rifiuto non limita contenuti o contatti."
       ]
     },
     {
@@ -163,13 +166,13 @@
   ],
   "ui": {
     "settings": "Impostazioni privacy",
-    "notice": "Memorizziamo le funzioni del sito che hai scelto. Google Maps richiede il consenso. Google Analytics e pubblicità sono disattivati.",
+    "notice": "Mappe e statistiche Google sono facoltative e richiedono consensi separati. I sistemi pubblicitari di tracciamento restano disattivati.",
     "necessary": "Solo necessari",
     "save": "Salva scelta",
     "close": "Chiudi",
     "maps": "Consenti mappe e panorami Google",
     "mapDetail": "Google riceve anche il tuo IP, può usare cookie propri e trattare dati fuori dal SEE. Puoi revocare qui il consenso. Le indicazioni scritte funzionano senza consenso.",
-    "inactive": "Google Analytics e pubblicità sono inattivi. Un contatore separato mostra solo il totale delle visualizzazioni.",
+    "inactive": "Le statistiche funzionano solo su hornigold.pl dopo il consenso; le anteprime non inviano dati analitici.",
     "clear": "Cancella scelte salvate e piano di soggiorno",
     "cleared": "I dati salvati del sito sono stati cancellati. Ricarica per svuotare anche i moduli.",
     "privacyLink": "Come trattiamo i dati",
@@ -178,6 +181,9 @@
     "toc": "Indice dei documenti",
     "quick": "Accesso rapido",
     "reviews": "Il punteggio proviene da Google. Non verifichiamo autonomamente che ogni autore abbia soggiornato da noi. Consulta recensioni aggiornate e regole di pubblicazione su Google.",
-    "club": "I vantaggi richiedono conferma della reception e non vengono concessi automaticamente. Puoi concordare un soggiorno normale senza iscrizione o consenso al marketing. Una richiesta non equivale all’adesione al programma."
-  }
+    "club": "I vantaggi richiedono conferma della reception e non vengono concessi automaticamente. Puoi concordare un soggiorno normale senza iscrizione o consenso al marketing. Una richiesta non equivale all’adesione al programma.",
+    "analytics": "Consenti le statistiche di Google Analytics",
+    "analyticsDetail": "Dopo il consenso, Google Analytics misura visualizzazioni, fonti di traffico e clic di contatto. Puoi revocare il consenso qui. Il rifiuto non limita contenuti o contatti."
+  },
+  "updated": "2026-10-11"
 }

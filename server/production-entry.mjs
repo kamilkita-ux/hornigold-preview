@@ -13,6 +13,7 @@ export default {async fetch(request,env,ctx){
  if(url.pathname==='/robots.txt')return new Response(production?'User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: '+ORIGIN+'/sitemap.xml\n':'User-agent: *\nDisallow: /\n',{headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'}});
  const response=await worker.fetch(request,env,ctx);
  const headers=new Headers(response.headers);
+ if(production){const policy=headers.get('Content-Security-Policy');if(policy)headers.set('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'","connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com"));}
  const indexable=production && [200,304].includes(response.status) && (canonical.has(url.pathname) || url.pathname==='/sitemap.xml');
  if(indexable)headers.delete('X-Robots-Tag');
  else headers.set('X-Robots-Tag','noindex, nofollow, noarchive');

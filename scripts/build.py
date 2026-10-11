@@ -18,6 +18,7 @@ ROUTES=load_routes(ROOT)
 OVERRIDES=json.loads((ROOT/'seo/metadata-overrides.json').read_text())
 if OUT.exists():shutil.rmtree(OUT)
 shutil.copytree(ROOT/'site',OUT)
+(OUT/'assets/analytics-config.js').write_text("window.HornigoldGA4={enabled:"+('true' if opts.mode=='production-ready' else 'false')+",measurementId:'G-ZJ9VJNGHGT'};\n")
 def prefixed(url):return BASE+url.lstrip('/') if url.startswith('/') and not url.startswith('//') else url
 # These two scripts use root-relative generated destinations. All other UI follows DOM URLs.
 p=OUT/'assets/root-language.js';s=p.read_text().replace("location.replace('/'+language+",'location.replace('+json.dumps(BASE)+'+language+');p.write_text(s)
@@ -40,6 +41,11 @@ for p in OUT.rglob('*.html'):
   s.footer.insert(1,social)
  if s.select_one('[data-site-version]'):
   script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)
+ if s.select_one('[data-site-version]') and opts.mode=='production-ready':
+  for name in ['analytics-config.js','analytics.js']:
+   script=s.new_tag('script',src='/assets/'+name,defer=True);s.head.append(script)
+  for meta in s.select('meta[http-equiv=Content-Security-Policy]'):
+   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com")
  if not opts.counter:
   for element in s.select('.site-views'):
    element.decompose()

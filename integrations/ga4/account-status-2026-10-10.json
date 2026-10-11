@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-10",
+  "sourceThread": {
+    "id": "01a10d1c-0fd1-7a12-a126-42c9f3651fb0",
+    "title": "Wizytówka Google Hornigold"
+  },
+  "googleAnalytics": {
+    "accountId": "93077899",
+    "accountName": "Hornigold",
+    "propertyId": "558323228",
+    "propertyName": "Hornigold.pl — nowa strona",
+    "streamId": "16101873868",
+    "streamName": "Hornigold.pl — WWW produkcja",
+    "url": "https://hornigold.pl",
+    "measurementId": "G-ZJ9VJNGHGT",
+    "timezone": "Europe/Warsaw",
+    "currency": "PLN",
+    "businessSize": "11–100 confirmed by owner",
+    "enhancedMeasurement": false,
+    "collection": "Production code and translated consent prepared; Cloudflare deployment and real GA4 receipt remain unverified",
+    "eventRetention": "14 months saved and reread in UI",
+    "userRetention": "14 months",
+    "resetOnActivity": false,
+    "signedInEmail": "hotelhornigold@gmail.com"
+  },
+  "googleBusinessProfile": {
+    "profileId": "8443598707508737068",
+    "liveObserved": "existing firm user; office and Kamil invitations pending; ai@hornigold.pl absent",
+    "permissionsChanged": false
+  },
+  "historyPolicy": "Separate new property; no migration, reuse or modification of old website stream/history.",
+  "remaining": [
+    "Verify detailed account roles before granting any additional access",
+    "CMP analytics category in all seven languages",
+    "Synchronize privacy HTML and PDF documents with verified Google configuration",
+    "Production CSP and Cloudflare deployment",
+    "GA4 DebugView test after explicit consent",
+    "Verify Search Console ownership before linking",
+    "Review Ads and social permissions before any data-sharing connection; no advertising spend authorized"
+  ],
+  "implementationUpdated": "2026-10-11"
+}

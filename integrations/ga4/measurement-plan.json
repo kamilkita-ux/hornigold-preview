@@ -1,0 +1,54 @@
+{
+  "status": "prepared_not_operational",
+  "goal": "Maximize profitable occupied apartment nights using verified demand, availability and paid reservations; no occupancy guarantee.",
+  "channels": [
+    "google_organic",
+    "google_ads_search",
+    "google_business_profile",
+    "instagram",
+    "facebook",
+    "linkedin"
+  ],
+  "websiteEvents": {
+    "page_view": "consented page visit",
+    "contact_click": "click on phone or email, not a completed conversation or lead",
+    "social_link_click": "outbound social profile click",
+    "stay_planner_click": "opens stay planner, not a reservation"
+  },
+  "futureVerifiedEvents": {
+    "availability_search": "requires actual PMS search result; no guest data",
+    "begin_checkout": "requires actual checkout start",
+    "purchase": "server-confirmed payment and PMS confirmation only; unique transaction deduplication",
+    "refund": "confirmed payment reversal only"
+  },
+  "businessInputs": [
+    "PMS available apartment nights by date",
+    "Confirmed reservation value and cancellations",
+    "Actual advertising spend by campaign",
+    "Contribution margin and owner-approved acquisition cost ceiling"
+  ],
+  "decisionMetrics": [
+    "Cost per verified enquiry when lead qualification exists",
+    "Cost per paid reservation",
+    "Net confirmed booking revenue per advertising spend",
+    "Occupancy by stay date; not by website visit date",
+    "Cancellation-adjusted contribution after advertising costs"
+  ],
+  "rules": [
+    "Do not optimize paid campaigns to page views or contact clicks as if they were paid bookings",
+    "Never invent purchase events before payment/PMS integration",
+    "Separate brand search from non-brand acquisition",
+    "Keep platform reported conversions separate from confirmed PMS totals",
+    "Do not start spending until budget and acquisition cost ceiling are approved",
+    "Use sufficient observed data before shifting budget; label small samples",
+    "Reduce or stop date-specific promotion when verified inventory is exhausted"
+  ],
+  "requiredBeforeActivation": [
+    "Consent and privacy documents synchronized in seven languages",
+    "Cloudflare production deployment access and live verification",
+    "GA4 DebugView received events after explicit consent",
+    "Advertising account access and data-sharing approval for each connection",
+    "Owner budget approval",
+    "Verified PMS/payment events before revenue optimization"
+  ]
+}

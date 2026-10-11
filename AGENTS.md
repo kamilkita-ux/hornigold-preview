@@ -45,3 +45,6 @@ The owner confirmed the Cloudflare domain switch and explicitly authorized produ
 
 ## Search Console owner approval (2026-10-09)
 The owner explicitly approved verification of https://hornigold.pl/ for hotelhornigold@gmail.com, deployment of the Google HTML verification file and submission of the sitemap and important pages. Preserve all existing preview exclusions and inactive booking/payments. Verification is complete only after Google confirms it.
+
+## Analytics implementation and GitHub publication approval (2026-10-11)
+The owner explicitly requested implementing the prepared measurement and updating GitHub. Revision 23.10 adds separate opt-in analytics consent in seven languages, synchronized policy PDFs and a production-only GA4 tag for verified new property 558323228 / stream 16101873868 / G-ZJ9VJNGHGT. Keep previews nontracking/noindex. Do not activate Ads, Meta or payment/PMS workflows, migrate old website data, or infer Cloudflare deployment from GitHub publication. Backup and reread before push. Real event receipt remains unverified until a consented live test. Account-specific processor/transfer checks remain operational tasks, not certified by website copy.

@@ -1,0 +1,14 @@
+{
+  "preview": {
+    "pages": 693,
+    "consentInputs": 693,
+    "ga4Included": false,
+    "errors": 0
+  },
+  "production-ready": {
+    "pages": 693,
+    "consentInputs": 693,
+    "ga4Included": true,
+    "errors": 0
+  }
+}

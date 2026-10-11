@@ -1,0 +1,15 @@
+const fs=require('node:fs'),path=require('node:path'),{chromium}=require('playwright');
+const root=path.resolve(__dirname,'..'),langs=['pl','en','de','zh-hans','uk','es','it'];
+const assert=(v,m)=>{if(!v)throw Error(m)};
+(async()=>{const browser=await chromium.launch({headless:true}),results=[];
+for(const lang of langs)for(const width of [375,1366]){
+const context=await browser.newContext({viewport:{width,height:900}}),page=await context.newPage();let google=0;
+await context.route('**/*',async route=>{const u=new URL(route.request().url());if(u.hostname==='www.googletagmanager.com'){google++;return route.fulfill({contentType:'application/javascript',body:'/* intercepted: no real analytics transmission */'});}if(u.hostname!=='hornigold.pl')return route.abort();let file=path.join(root,'_production_ready',decodeURIComponent(u.pathname));if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');if(!fs.existsSync(file))return route.fulfill({status:404,body:''});const ext=path.extname(file),type={'.html':'text/html','.js':'application/javascript','.css':'text/css','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml'}[ext]||'application/octet-stream';return route.fulfill({contentType:type,body:fs.readFileSync(file)});});
+await page.goto('https://hornigold.pl/'+lang+'/?email=private@example.com&arrival=2030-01-01',{waitUntil:'networkidle'});
+assert(google===0,'preconsent traffic');await page.locator('[data-privacy-open]').first().click();assert(!await page.locator('[name=analytics]').isChecked(),'prechecked analytics');await page.locator('[data-privacy-necessary]').last().click();assert(google===0,'refusal traffic');
+await page.locator('[data-privacy-open]').first().click();await page.locator('[name=analytics]').check();await page.locator('[data-privacy-save]').click();await page.waitForLoadState('networkidle');assert(google===1,'tag after consent');
+let queue=await page.evaluate(()=>JSON.stringify(window.dataLayer));assert(!queue.includes('private@example')&&!queue.includes('2030-01-01'),'private params in queue');
+assert(await page.evaluate(()=>window.HornigoldPrivacy.allowsAnalytics()),'saved consent');
+await page.locator('[data-privacy-open]').first().click();await page.locator('[name=analytics]').uncheck();await page.locator('[data-privacy-save]').click();await page.waitForLoadState('networkidle');assert(google===1,'tag reloaded after withdrawal');assert(!await page.evaluate(()=>window.HornigoldPrivacy.allowsAnalytics()),'withdrawal persistence');
+assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'mobile overflow');results.push({lang,width,passed:true,googleTagRequests:google,realGoogleRequests:0});await context.close();}
+await browser.close();fs.mkdirSync(path.join(root,'docs/seo'),{recursive:true});fs.writeFileSync(path.join(root,'docs/seo/ga4-browser-2026-10-11.json'),JSON.stringify({mode:'local-intercepted-production-host',results},null,2)+'\n');console.log(JSON.stringify({cases:results.length,passed:results.length,realGoogleRequests:0}));})().catch(e=>{console.error(e);process.exit(1)});
