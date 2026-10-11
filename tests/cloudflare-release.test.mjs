@@ -3,8 +3,8 @@ import test from "node:test";
 import { firstRedirect, isBookingPage, nextReleaseTag, parseArgs, pickActiveVersion, reviewChanges, robotsMeta } from "../scripts/cloudflare-release.mjs";
 
 test("strony z blokami rezerwacji — tylko te konflikty rozwiązywane automatycznie", () => {
-  for (const path of ["site/pl/index.html", "site/zh-hans/pobyt/index.html", "site/de/rezerwacja/index.html"]) assert.ok(isBookingPage(path), path);
-  for (const path of ["site/pl/pokoje/index.html", "server/worker.mjs", "site/assets/booking.js", "site/pl/rezerwacja/regulamin/index.html"]) assert.ok(!isBookingPage(path), path);
+  for (const path of ["site/pl/index.html", "site/zh-hans/pobyt/index.html", "site/de/rezerwacja/index.html", "site/assets/style.css"]) assert.ok(isBookingPage(path), path);
+  for (const path of ["site/pl/pokoje/index.html", "server/worker.mjs", "site/assets/booking.js", "site/pl/rezerwacja/regulamin/index.html", "site/assets/app.js"]) assert.ok(!isBookingPage(path), path);
 });
 
 test("domyślnie przegląd origin/main; --candidate dopisuje origin/", () => {

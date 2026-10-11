@@ -12,7 +12,7 @@
 // Zatrzymuje się na: zmianie wrangler.jsonc, zmianie istniejącej migracji D1, zmianie przełączników właściciela
 // w release.json (indexing, bookingEnabled, paymentsEnabled, counterEnabled), zmianie CSP, utracie poprawki
 // Windows w scripts/seo.py, konflikcie scalania (poza stronami rezerwacji — te: wersja Kamila + kwhotel_booking_pages.py),
-// błędzie buildu/audytu/testu (także audytów przeglądarkowych scripts/audit_*.cjs — wymagają Playwright).
+// błędzie buildu/audytu/testu (także audytu przeglądarkowego scripts/audit_ga4.cjs — wymaga Playwright).
 // Po publikacji, gdy strona ma GA4: test zgody na żywej stronie (żądania do Google przerywane). Nieudany smoke → rollback.
 
 import { spawnSync } from "node:child_process";
@@ -89,7 +89,7 @@ export function reviewChanges(nameStatus, { releaseBefore = {}, releaseAfter = {
 // Strony z naszymi blokami rezerwacji GuestSage (scripts/kwhotel_booking_pages.py). Gdy Kamil je przegeneruje,
 // konflikt rozwiązuje się wersją Kamila + ponownym uruchomieniem idempotentnego skryptu.
 export function isBookingPage(path) {
-  return /^site\/[^/]+\/(?:index\.html|pobyt\/index\.html|rezerwacja\/index\.html)$/.test(path);
+  return /^site\/[^/]+\/(?:index\.html|pobyt\/index\.html|rezerwacja\/index\.html)$/.test(path) || path === "site/assets/style.css";
 }
 
 export function robotsMeta(html) {
@@ -189,8 +189,9 @@ function buildAndTest(changedTests) {
   say("   ✓ testy node");
   python(["-m", "unittest", "discover", "-s", "tests", "-p", "test_seo*.py"]);
   say("   ✓ testy SEO");
-  // Audyty przeglądarkowe Kamila (GA4, Meta) — zgody i brak ruchu do dostawców przed zgodą; ruch przechwytywany.
-  const browserAudits = readdirSync(join(ROOT, "scripts")).filter((f) => /^audit_.*\.cjs$/.test(f));
+  // Audyt przeglądarkowy GA4 Kamila (zgoda, brak ruchu do Google przed zgodą; ruch przechwytywany) na _production_ready.
+  // Pozostałe scripts/audit_*.cjs to QA Kamila pisane pod Linux/macOS (/tmp, podgląd _site, pomiary wydajności) — nie bramka wydania.
+  const browserAudits = ["audit_ga4.cjs"].filter((f) => existsSync(join(ROOT, "scripts", f)));
   if (browserAudits.length && !existsSync(join(ROOT, "node_modules", "playwright"))) {
     fail("Brak Playwright do audytów przeglądarkowych: npm install --no-package-lock && npx playwright install chromium");
   }

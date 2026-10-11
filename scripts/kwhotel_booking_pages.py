@@ -56,3 +56,15 @@ for lang, text in HELP.items():
         html = one(r'<p class="form-help" id="date-help">.*?</p>', f'<p class="form-help" id="date-help">{esc(text)}</p>', html, rel)
         p.write_text(html, encoding='utf-8', newline='\n')
         print(rel, 'ok')
+
+# Reguła .booking-panel na końcu style.css (CloudMentor 2026-10-09). Po konflikcie ze zmianą Kamila w style.css
+# skrypt wydania bierze jego wersję i uruchamia ten skrypt — reguła wraca, jeśli jej brak.
+CSS = ('/* CloudMentor 2026-10-09: panel rezerwacji GuestSage — wygląd jak .notice, bez roli komunikatu (app.js:65 pisze do .notice). */\n'
+       '.booking-panel{padding:28px;background:var(--warm);border-left:3px solid var(--gold);margin-bottom:30px}.booking-panel h2{font-size:1.9rem}.booking-panel p:last-child{margin-bottom:0}@media(max-width:760px){.booking-panel{padding:22px}}\n')
+p = ROOT / 'site' / 'assets' / 'style.css'
+css = p.read_text(encoding='utf-8')
+if '.booking-panel{' in css:
+    print('style.css', 'już zmienione')
+else:
+    p.write_text(css + ('' if css.endswith('\n') else '\n') + CSS, encoding='utf-8', newline='\n')
+    print('style.css', 'ok')
