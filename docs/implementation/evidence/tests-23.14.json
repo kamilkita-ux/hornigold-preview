@@ -1,0 +1,14 @@
+{
+  "revision": "23.14",
+  "python": {
+    "command": "python3 -m unittest discover -s tests -p test_*.py",
+    "tests": 12,
+    "passed": 12
+  },
+  "node": {
+    "command": "node --test tests/ga4-staged.test.mjs tests/meta-staged.test.mjs tests/privacy-lifecycle.test.mjs tests/production-indexing.test.mjs tests/server.test.mjs",
+    "tests": 48,
+    "passed": 48
+  },
+  "test_execution_note": "Initial Node attempt overlapped a production artifact rebuild and failed because release.json had not yet been written. Repeated after both builds completed: 48/48 passed. No code workaround for this test scheduling error."
+}

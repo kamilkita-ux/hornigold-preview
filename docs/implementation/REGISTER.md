@@ -1,22 +1,22 @@
 # Rejestr wdrożenia Hornigold — 2026-10-11
 
-Produkcja: 23.11; podglądy: 23.12. Przygotowanie 23.13. verified dotyczy wyłącznie wskazanego zakresu i środowiska.
+Produkcja: 23.11; podglądy: 23.13. verified dotyczy wyłącznie wskazanego zakresu i środowiska. Dokument zaktualizowano lokalnie po publikacji; nie oznacza kolejnego deployu.
 
 | ID | Zakres | Stan | Zmiana / wynik | Bariera |
 |---|---|---|---|---|
-| A1 | Sprawdzenie środowisk | verified | Ponowny odczyt: produkcja 23.11, GitHub Pages i Sites 23.12; sprawdzono różnice zasobów. | — |
+| A1 | Sprawdzenie środowisk | verified | Ponowny odczyt: produkcja 23.11; GitHub Pages i Sites 23.13, z potwierdzonymi wdrożeniami. | — |
 | A2 | Identyfikacja pipeline Cloudflare | blocked | Sprawdzono oba dostępne konta; brak Workera Hornigold. | Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp. |
 | A3 | Porównanie i wybór zmian | verified | Porównano sześć skryptów bajtowo; CSS ma dodatkowy moduł CloudMentor, a booking.js pochodzi od Marka. Przygotowano minimalną poprawkę Workera, która ich nie nadpisuje. | — |
-| A4 | Kopia i rollback | local_ready | Kopia na Mac mini; 3572/3572 hashy i odtworzony build. | Marek: kopia konfiguracji i bazy Cloudflare. |
-| A5 | Publikacja produkcyjna | partial | Produkcja została zewnętrznie zaktualizowana do 23.11. Podglądy 23.12; poprawka nagłówków odpowiedzi 403/503 nie jest jeszcze potwierdzona na produkcji. | Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera. |
-| A6 | Podglądy | verified | Wersja 23.12 w obu podglądach; po 693 tras bez błędów, noindex i brak analityki. | — |
+| A4 | Kopia i rollback | local_ready | Najnowsza kopia 23.13 na Mac mini: 1964/1964 hashy, zweryfikowana historia Git i odtworzony build 693 tras. Nie obejmuje konfiguracji ani bazy Cloudflare. | Marek: kopia konfiguracji i bazy Cloudflare. |
+| A5 | Publikacja produkcyjna | partial | Produkcja nadal 23.11, potwierdzona bieżącym odczytem release.json. Oba podglądy 23.13. Produkcyjna poprawka odpowiedzi 403/503 niepotwierdzona. | Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera. |
+| A6 | Podglądy | verified | Wersja 23.13 opublikowana w obu podglądach; po 693 tras bez końcowych błędów, noindex i wyłączona analityka. Jeden przejściowy 503 GitHub przeszedł trzy ponowienia. | — |
 | A7 | Ochrona pozostałych zmian | verified | Nie nadpisano pierwotnego brudnego checkoutu; nie zmieniono DNS i poczty. | — |
-| B1 | GuestSage, PMS i operator | blocked | Zewnętrzny link odpowiada 200; odbiór funkcjonalny niepotwierdzony. Wysłano zapytanie do recepcji. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
+| B1 | GuestSage, PMS i operator | blocked | Publiczny interfejs PL/EN/DE działa. Opisy obiektu widoczne w PL nie pojawiły się w EN/DE. Menu pokazało PL/EN; bezpośredni DE działa. Nie potwierdzono PMS, płatności ani pozostałych języków. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
 | B2 | Spójność kontaktu i dokumentów | local_ready | Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail. | Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane. |
 | B3 | Rezerwacja i płatność end-to-end | blocked | Nie wykonano fikcyjnego testu płatności ani rezerwacji produkcyjnej. | Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa. |
 | C1 | Konto i ustawienia GA4 | verified | Właściwa usługa/strumień; pomiar zaawansowany wyłączony, Signals wyłączone, retencja 14 miesięcy bez resetu. | — |
 | C2 | Zgody i ich cykl życia | verified | Cykl zgód testowany lokalnie; na produkcji 14 przypadków bez Google przed zgodą, rzeczywista akceptacja i wycofanie w Safari. Po ponownym otwarciu oba checkboxy odznaczone. | — |
-| C3 | Zdarzenia i minimalizacja danych | partial | Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; poprawiono lokalnie aliasy linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. | Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy. |
+| C3 | Zdarzenia i minimalizacja danych | partial | Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. | Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy. |
 | C4 | Odbiór rzeczywistych zdarzeń | verified | Właściwa usługa GA4 pokazała kontrolowaną sesję: 2 page_view, first_visit, session_start i stay_planner_click. Zgoda po teście wycofana. | — |
 | D1 | Układ mobile i CLS | verified | Produkcja ma skrócony układ i poprawioną propozycję języka; 14 przypadków mobile/desktop bez błędów. Laboratoryjny CLS maks. 0,075463. | — |
 | D2 | Obrazy i wydajność | partial | 361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. | Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji. |
@@ -26,7 +26,7 @@ Produkcja: 23.11; podglądy: 23.12. Przygotowanie 23.13. verified dotyczy wyłą
 | E3 | Search Console | partial | Sprawdzono siedem stron głównych w GSC: PL/EN/DE/ES/IT w indeksie, zh-Hans/UK nieznane; prośby o indeksację obu przyjęte przez Google. Sitemap nadal: nie udało się pobrać; publiczny XML 200 i 693 URL. | Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne. |
 | E4 | GSC, GA4 i stare dane | verified | Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań. | Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano. |
 | F1 | Fakty i siedem języków | partial | Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. | Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review. |
-| F2 | Schema i odpowiedzi AI | local_ready | 693 WebPage/LodgingBusiness/Organization, 686 BreadcrumbList, 7 FAQPage i 49 Article; tylko datowane źródła i widoczna treść. | ImageObject i autorstwo wymagają udokumentowanych praw; brak źródła nie zatrzymał pozostałych typów. |
+| F2 | Schema i odpowiedzi AI | local_ready | Istniejące WebPage, LodgingBusiness, Organization, BreadcrumbList, FAQPage i Article zachowane. Lokalnie dodano ImageObject wyłącznie dla istniejących obrazów w treści main, z URL i widocznym opisem alt; bez przypisywania autora, praw lub licencji. | Publikacja zmiany ImageObject i ponowny publiczny odczyt. Prawa do zdjęć pozostają odrębnym zadaniem G5; nie są zastępowane danymi strukturalnymi. |
 | G1 | Dostęp do istniejącego GBP | verified | Google pokazuje Zarządzasz tym profilem na koncie obiektu; zachowano profil i opinie. | — |
 | G2 | NAP, kategorie, godziny | partial | Nazwa, Kopernika 6 i 608662707 zgodne; publiczne oznaczenie 4-gwiazdkowy wymaga wyjaśnienia. | Recepcja: formalna klasyfikacja/kategoria i godziny przed zmianą profilu. |
 | G3 | Linki i profile zewnętrzne | partial | WWW i publiczny GuestSage istnieją; GBP Instagram różni się od linku projektu. | Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu. |

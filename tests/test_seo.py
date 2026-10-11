@@ -3,9 +3,35 @@ import sys,unittest,tempfile,json,subprocess,hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 R=Path(__file__).resolve().parent.parent;sys.path.insert(0,str(R/'scripts'))
-from seo import apply_seo,write_indexing_files,PREVIEW_ROBOTS
+from seo import apply_seo,write_indexing_files,PREVIEW_ROBOTS,visible_image_objects
 
 class SeoSafety(unittest.TestCase):
+    def test_image_schema_uses_only_visible_existing_local_assets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory); assets=root/'site/assets';assets.mkdir(parents=True)
+            (assets/'known.webp').write_bytes(b'fixture')
+            (root/'private.webp').write_bytes(b'private')
+            s=BeautifulSoup('''<main>
+              <img src="/assets/known.webp?v=1" alt="Ilustracja: wejście">
+              <img src="/assets/known.webp" alt="Duplicate">
+              <img src="https://other.example/image.jpg" alt="External">
+              <img src="/assets/missing.webp" alt="Missing">
+              <img src="/assets/%2e%2e/%2e%2e/private.webp" alt="Traversal">
+              <img src="/assets/known.webp" alt="">
+            </main>''','html.parser')
+            images=visible_image_objects(s,root)
+            self.assertEqual(len(images),1)
+            self.assertEqual(images[0]['contentUrl'],'https://hornigold.pl/assets/known.webp')
+            self.assertEqual(images[0]['description'],'Ilustracja: wejście')
+            self.assertEqual(set(images[0]),{'@type','@id','contentUrl','description'})
+    def test_hidden_and_decorative_images_are_not_described(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);assets=root/'site/assets';assets.mkdir(parents=True)
+            (assets/'known.webp').write_bytes(b'fixture')
+            s=BeautifulSoup('''<main><div hidden><img src="/assets/known.webp" alt="Hidden"></div>
+              <img aria-hidden="true" src="/assets/known.webp" alt="Hidden">
+              <img src="/assets/known.webp" alt=""></main>''','html.parser')
+            self.assertEqual(visible_image_objects(s,root),[])
     def soup(self):
         return BeautifulSoup('<html lang="pl"><head><title>Page</title><meta name="description" content="Known page"><meta name="robots" content="index,follow"><script type="application/ld+json">{"@type":"Hotel","priceRange":"unknown","numberOfRooms":999}</script></head><body><h1>Page</h1></body></html>','html.parser')
     def test_preview_overrides_existing_index_permission(self):

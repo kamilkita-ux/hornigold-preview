@@ -7,11 +7,12 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Ponowny odczyt: produkcja 23.11, GitHub Pages i Sites 23.12; sprawdzono różnice zasobów.",
+      "change": "Ponowny odczyt: produkcja 23.11; GitHub Pages i Sites 23.13, z potwierdzonymi wdrożeniami.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
-        "evidence/audit-production-readback.json"
+        "evidence/audit-production-readback.json",
+        "evidence/PUBLICATION_23.13.json"
       ],
       "barrier": null,
       "next": "Po każdej publikacji powtórzyć odczyt rzeczywistych zasobów.",
@@ -48,10 +49,11 @@
       "id": "A4",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "Kopia na Mac mini; 3572/3572 hashy i odtworzony build.",
+      "change": "Najnowsza kopia 23.13 na Mac mini: 1964/1964 hashy, zweryfikowana historia Git i odtworzony build 693 tras. Nie obejmuje konfiguracji ani bazy Cloudflare.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/restore-test.json"
+        "evidence/restore-test.json",
+        "evidence/restore-23.13.json"
       ],
       "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
       "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
@@ -61,7 +63,7 @@
       "id": "A5",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Produkcja została zewnętrznie zaktualizowana do 23.11. Podglądy 23.12; poprawka nagłówków odpowiedzi 403/503 nie jest jeszcze potwierdzona na produkcji.",
+      "change": "Produkcja nadal 23.11, potwierdzona bieżącym odczytem release.json. Oba podglądy 23.13. Produkcyjna poprawka odpowiedzi 403/503 niepotwierdzona.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
@@ -75,12 +77,12 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Wersja 23.12 w obu podglądach; po 693 tras bez błędów, noindex i brak analityki.",
+      "change": "Wersja 23.13 opublikowana w obu podglądach; po 693 tras bez końcowych błędów, noindex i wyłączona analityka. Jeden przejściowy 503 GitHub przeszedł trzy ponowienia.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../seo/audit-preview.json",
-        "evidence/public-sites-23.11.json",
-        "evidence/public-github-23.11.json"
+        "evidence/public-sites-23.13.json",
+        "evidence/public-github-23.13.json",
+        "evidence/PUBLICATION_23.13.json"
       ],
       "barrier": null,
       "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
@@ -103,10 +105,11 @@
       "id": "B1",
       "status": "blocked",
       "environment": "local / pending production",
-      "change": "Zewnętrzny link odpowiada 200; odbiór funkcjonalny niepotwierdzony. Wysłano zapytanie do recepcji.",
+      "change": "Publiczny interfejs PL/EN/DE działa. Opisy obiektu widoczne w PL nie pojawiły się w EN/DE. Menu pokazało PL/EN; bezpośredni DE działa. Nie potwierdzono PMS, płatności ani pozostałych języków.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../content/booking-handoff.json"
+        "../../content/booking-handoff.json",
+        "evidence/guestsage-language-review.json"
       ],
       "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
       "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
@@ -169,7 +172,7 @@
       "id": "C3",
       "status": "partial",
       "environment": "production + local improvement",
-      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; poprawiono lokalnie aliasy linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły.",
+      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../tests/ga4-staged.test.mjs"
@@ -307,14 +310,15 @@
       "id": "F2",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "693 WebPage/LodgingBusiness/Organization, 686 BreadcrumbList, 7 FAQPage i 49 Article; tylko datowane źródła i widoczna treść.",
+      "change": "Istniejące WebPage, LodgingBusiness, Organization, BreadcrumbList, FAQPage i Article zachowane. Lokalnie dodano ImageObject wyłącznie dla istniejących obrazów w treści main, z URL i widocznym opisem alt; bez przypisywania autora, praw lub licencji.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../scripts/seo.py",
-        "evidence/schema-counts.json"
+        "evidence/schema-counts.json",
+        "evidence/image-schema-preview.json"
       ],
-      "barrier": "ImageObject i autorstwo wymagają udokumentowanych praw; brak źródła nie zatrzymał pozostałych typów.",
-      "next": "ImageObject i autorstwo wymagają udokumentowanych praw; brak źródła nie zatrzymał pozostałych typów.",
+      "barrier": "Publikacja zmiany ImageObject i ponowny publiczny odczyt. Prawa do zdjęć pozostają odrębnym zadaniem G5; nie są zastępowane danymi strukturalnymi.",
+      "next": "Po pełnych testach przygotować kolejną publikację; zachować brak nieudokumentowanych pól autora i licencji.",
       "title": "Schema i odpowiedzi AI"
     },
     {
@@ -397,7 +401,7 @@
         "evidence/audit-SUMMARY.json"
       ],
       "barrier": "Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503.",
-      "next": "Cloudflare konfiguracja/baza i zamknięcie wyników audytu zależności.",
+      "next": "Marek: konfiguracja/baza Cloudflare i wdrożenie patcha serwera. Audyt zależności 23.13: zero zgłoszonych podatności.",
       "title": "Bezpieczeństwo i odtworzenie"
     },
     {
@@ -472,5 +476,6 @@
     "blocked": 3,
     "local_ready": 5,
     "partial": 13
-  }
+  },
+  "publicationSnapshot": "23.13: GitHub main i Sites succeeded; produkcja nadal 23.11; wiadomość do Marka potwierdzona w Wysłanych."
 }

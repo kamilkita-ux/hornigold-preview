@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-11",
+  "method": "Manual public Safari UI review; no reservation or payment submitted",
+  "property_public_id": "c98ead00-c7fd-4013-bb45-f19539b932d4",
+  "observations": {
+    "pl": "Booking interface and property descriptions visible, including practical stay information",
+    "en": "English interface visible; property descriptions seen in Polish were absent",
+    "de": "German interface visible; property descriptions seen in Polish were absent",
+    "language_menu": "Observed Polish and English choices; direct German route also renders German UI",
+    "privacy_modal": "English modal refers to facility website privacy policy and consents; account-specific provider/controller roles not established"
+  },
+  "limitations": [
+    "No provider administration access inspected",
+    "Remaining four languages not verified by this review",
+    "No PMS synchronization, price, availability, booking, payment or confirmation email test",
+    "Provider business descriptions are observations, not new approved facts for website copy"
+  ],
+  "required_followup": [
+    "Provider configuration: add verified property descriptions in every supported booking language",
+    "Confirm supported languages for checkout and confirmation messages",
+    "Obtain account-specific service/API/sandbox and privacy-role documentation"
+  ],
+  "status": "PARTIAL_PUBLIC_UI_REVIEW"
+}
