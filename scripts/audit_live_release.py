@@ -26,6 +26,6 @@ with ThreadPoolExecutor(max_workers=8) as pool:rows=list(pool.map(check,routes))
 robots,rs,_=fetch(opts.origin+opts.base+'/robots.txt');release,ls,_=fetch(opts.origin+opts.base+'/release.json');config,cs,_=fetch(opts.origin+opts.base+'/assets/analytics-config.js')
 try:release=json.loads(release)
 except Exception:release={}
-checks={'robotsBlocked':rs=='200' and 'Disallow: /' in robots,'revision':release.get('revision'),'expectedRevision':release.get('revision')=='23.11','analyticsDisabled':cs=='200' and 'enabled:false' in config}
+checks={'robotsBlocked':rs=='200' and 'Disallow: /' in robots,'revision':release.get('revision'),'expectedRevision':release.get('revision')==json.loads((root/'release.json').read_text()).get('revision'),'analyticsDisabled':cs=='200' and 'enabled:false' in config}
 report={'date':datetime.datetime.now().astimezone().isoformat(),'origin':opts.origin,'base':opts.base,'routes':len(rows),'checks':checks,'failures':[r for r in rows if r['errors']],'results':rows,'limits':['Read-only HTML verification, not a completed booking, receipt of analytics or legal certification.']}
 p=root/'docs/implementation/evidence'/('public-'+opts.label+'.json');p.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k not in ['results','limits']},ensure_ascii=False));raise SystemExit(bool(report['failures']) or not all(checks[k] for k in ['robotsBlocked','expectedRevision','analyticsDisabled']))

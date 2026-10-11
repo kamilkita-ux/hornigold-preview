@@ -38,3 +38,15 @@ test('all language errors preserve HTTP404, correct language and no stale condit
  assert.equal(r.status,404);assert.match(await r.text(),new RegExp('lang="'+lang+'"'));
  }
 });
+
+test('counter rejection and outage keep the same security policy as normal responses',async()=>{
+ const cases=[await worker.fetch(req('POST',{Origin:'https://evil.example'}),{}),await worker.fetch(req(),{})];
+ assert.deepEqual(cases.map(r=>r.status),[403,503]);
+ for(const response of cases){
+  assert.match(response.headers.get('Content-Security-Policy'),/object-src 'none'/);
+  assert.equal(response.headers.get('X-Frame-Options'),'DENY');
+  assert.equal(response.headers.get('Referrer-Policy'),'no-referrer');
+  assert.equal(response.headers.get('X-Content-Type-Options'),'nosniff');
+  assert.equal(response.headers.get('Cache-Control'),'no-store');
+ }
+});

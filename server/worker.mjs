@@ -32,14 +32,14 @@ export default {
       return headersFor(new Response(localized.body,{status:404,headers:errorHeaders}),url.pathname);
     }
     if(!['GET','POST'].includes(request.method)) return headersFor(json({error:'method_not_allowed'},405),url.pathname);
-    if(request.method==='POST' && (request.headers.get('Origin')!==url.origin || request.headers.get('X-Hornigold-View')!=='1' || request.headers.get('Sec-Fetch-Site')==='cross-site')) return json({error:'invalid_origin'},403);
+    if(request.method==='POST' && (request.headers.get('Origin')!==url.origin || request.headers.get('X-Hornigold-View')!=='1' || request.headers.get('Sec-Fetch-Site')==='cross-site')) return headersFor(json({error:'invalid_origin'},403),url.pathname);
     try {
       if(!env.DB) throw new Error('Missing DB binding');
       const result=request.method==='POST'?await countView(env.DB):await readCount(env.DB);
       return headersFor(json({...result,metric:'pageviews'}),url.pathname);
     } catch {
       console.error('site_counter_unavailable');
-      return json({error:'counter_unavailable'},503);
+      return headersFor(json({error:'counter_unavailable'},503),url.pathname);
     }
   }
 };
