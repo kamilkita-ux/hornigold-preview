@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-11T22:55:00+02:00",
+  "method": "Safari native UI, correct GA4 realtime report after consented controlled production visit",
+  "property": "558323228",
+  "stream": "16101873868",
+  "measurementId": "G-ZJ9VJNGHGT",
+  "activeUsersLast30Minutes": 1,
+  "pageViews": 2,
+  "events": {
+    "page_view": 2,
+    "first_visit": 1,
+    "session_start": 1,
+    "stay_planner_click": 1
+  },
+  "scope": "Controlled tester activity; not customer conversion or representative marketing performance",
+  "consentRestored": {
+    "maps": false,
+    "analytics": false,
+    "rereadCheckboxes": true
+  },
+  "testTabClosed": true,
+  "salesVerified": false
+}

@@ -24,6 +24,28 @@ def set_meta(soup, key, value, attr='name'):
     tag['content'] = value
     if not tags: soup.head.append(tag)
 
+def visible_image_objects(soup, root):
+    """Describe existing visible assets; never infer creator or licensing rights."""
+    objects = []
+    seen = set()
+    assets = (root / 'site' / 'assets').resolve()
+    for img in soup.select('main img[src][alt]'):
+        if any(parent.has_attr('hidden') or parent.get('aria-hidden') == 'true'
+               for parent in [img, *img.parents] if getattr(parent, 'attrs', None)):
+            continue
+        src = urlsplit(img['src'])
+        description = img['alt'].strip()
+        if src.scheme or src.netloc or not src.path.startswith('/assets/') or not description:
+            continue
+        path = (root / 'site' / unquote(src.path).lstrip('/')).resolve()
+        if not path.is_relative_to(assets) or not path.is_file() or src.path in seen:
+            continue
+        seen.add(src.path)
+        content_url = ORIGIN + src.path
+        objects.append({'@type': 'ImageObject', '@id': content_url + '#image',
+                        'contentUrl': content_url, 'description': description})
+    return objects
+
 def apply_seo(soup, route, root, mode, routes, overrides):
     canonical_route = routes.get(unquote(route))
     indexable = bool(canonical_route and mode == 'production-ready')
@@ -59,6 +81,10 @@ def apply_seo(soup, route, root, mode, routes, overrides):
         {'@type':'LodgingBusiness','@id':entity_id,'name':facts['name'],'url':facts['url'],'address':facts['address']},
         {'@type':'Organization','@id':ORIGIN+'/#organization','name':facts['name'],'url':facts['url']}
     ]}
+    images = visible_image_objects(soup, root)
+    if images:
+        graph['@graph'][0]['image'] = [{'@id': item['@id']} for item in images]
+        graph['@graph'].extend(images)
     # Visible home/current trail, translated using the existing page heading.
     home='/' + canonical_route.split('/')[1] + '/'
     if canonical_route!=home and soup.main and not soup.select_one('.breadcrumb'):
