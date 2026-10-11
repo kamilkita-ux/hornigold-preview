@@ -439,7 +439,7 @@
       "id": "I1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. Automatyczny workflow_run po publikacji 23.17 wykonał kontrolę 693 tras GitHub, monitor produkcji i trzy pomiary Lighthouse; run 38180305635 success.",
+      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. Automatyczny workflow_run po publikacji 23.17 wykonał kontrolę 693 tras GitHub, monitor produkcji i trzy pomiary Lighthouse; run 38180305635 success. Monitor rozszerzono o noindex/none w meta robots i Googlebot oraz wielokrotne nagłówki X-Robots-Tag. 39 testów Python przeszło; produkcja 10/10.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-latest.json",
@@ -448,10 +448,11 @@
         "evidence/monitor-tls-controlled-alarm.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/monitor-automatic-23.17.json",
-        "evidence/lighthouse-automatic-23.17.json"
+        "evidence/lighthouse-automatic-23.17.json",
+        "evidence/monitor-html-indexing-23.18.json"
       ],
-      "barrier": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
-      "next": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
+      "barrier": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
+      "next": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
       "title": "Monitoring dostępności"
     },
     {
@@ -519,5 +520,5 @@
     "partial": 13
   },
   "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.",
-  "updatedAtUTC": "2026-10-11T22:27:27.925817+00:00"
+  "updatedAtUTC": "2026-10-11T23:54:28.706631+00:00"
 }

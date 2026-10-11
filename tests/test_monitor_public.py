@@ -48,6 +48,25 @@ class MonitorPublicTests(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertFalse(rows[0]['ok'])
 
+    def test_html_noindex_fails_production_route_checks(self):
+        response = {'status': '200', 'headers': '', 'body': '<META CONTENT="NOINDEX,follow" NAME="robots">', 'tlsVerified': True, 'curlExit': 0}
+        with patch.object(monitor, 'request', return_value=response):
+            rows = monitor.run_checks()
+        self.assertTrue(all(not row['ok'] and row['detail']['indexingBlocked'] for row in rows[:5]))
+
+    def test_crawler_directives_and_none_are_detected(self):
+        for headers, body in [
+            ('X-Robots-Tag: googlebot: noindex, follow', ''),
+            ('x-robots-tag: noarchive\nx-robots-tag: none', ''),
+            ('', '<meta name="googlebot" content="none">'),
+            ('', '<meta name="robots" content="no&#105;ndex">'),
+        ]:
+            with self.subTest(headers=headers, body=body):
+                self.assertTrue(monitor.indexing_blocked({'headers': headers, 'body': body}))
+
+    def test_visible_words_and_nonblocking_directives_do_not_fail(self):
+        self.assertFalse(monitor.indexing_blocked({'headers': 'x-robots-tag: noarchive', 'body': '<meta name="robots" content="index,follow"><p>noindex none</p>'}))
+
 
 if __name__ == '__main__':
     unittest.main()

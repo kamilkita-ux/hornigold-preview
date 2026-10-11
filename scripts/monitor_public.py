@@ -2,9 +2,29 @@
 import argparse
 import datetime
 import json
+import re
+from html.parser import HTMLParser
 from pathlib import Path
 import subprocess
 import xml.etree.ElementTree as ET
+
+
+def indexing_blocked(response):
+    """Detect explicit indexing exclusions in HTTP and crawler HTML directives."""
+    directives = []
+
+    class RobotsParser(HTMLParser):
+        def handle_starttag(self, tag, attrs):
+            values = dict(attrs)
+            if tag == 'meta' and (values.get('name') or '').lower() in ('robots', 'googlebot', 'googlebot-news'):
+                directives.append(values.get('content') or '')
+
+    for line in response['headers'].splitlines():
+        key, _, value = line.partition(':')
+        if key.strip().lower() == 'x-robots-tag':
+            directives.append(value)
+    RobotsParser().feed(response['body'])
+    return any(set(re.findall(r'[a-z]+', value.lower())) & {'noindex', 'none'} for value in directives)
 
 
 def request(url):
@@ -33,8 +53,9 @@ def run_checks(self_test=False):
         return checks
     for route in ['/pl/', '/en/', '/pl/pokoje/', '/pl/lokalizacja/', '/pl/rezerwacja/']:
         r = request('https://hornigold.pl' + route)
-        check(route, r['status'] == '200' and r['tlsVerified'] and 'x-robots-tag: noindex' not in r['headers'], {
-            'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'hsts': 'strict-transport-security:' in r['headers']})
+        blocked = indexing_blocked(r)
+        check(route, r['status'] == '200' and r['tlsVerified'] and not blocked, {
+            'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'indexingBlocked': blocked, 'hsts': 'strict-transport-security:' in r['headers']})
     r = request('https://hornigold.pl/robots.txt')
     check('robots', r['status'] == '200' and r['tlsVerified'] and 'Allow: /' in r['body'] and '\nDisallow: /\n' not in r['body'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
     r = request('https://hornigold.pl/sitemap.xml')

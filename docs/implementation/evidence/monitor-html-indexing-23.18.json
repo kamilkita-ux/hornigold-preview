@@ -1,0 +1,164 @@
+{
+  "checkedAt": "2026-10-11T23:54:09.558873+00:00",
+  "mode": "production-read-only",
+  "ok": true,
+  "checks": [
+    {
+      "name": "/pl/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "indexingBlocked": false,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/en/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "indexingBlocked": false,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/pokoje/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "indexingBlocked": false,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/lokalizacja/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "indexingBlocked": false,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/rezerwacja/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "indexingBlocked": false,
+        "hsts": true
+      }
+    },
+    {
+      "name": "robots",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0
+      }
+    },
+    {
+      "name": "sitemap",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "count": 693
+      }
+    },
+    {
+      "name": "www301",
+      "ok": true,
+      "detail": {
+        "http": "301",
+        "tls": true,
+        "curlExit": 0
+      }
+    },
+    {
+      "name": "404",
+      "ok": true,
+      "detail": {
+        "http": "404",
+        "tls": true,
+        "curlExit": 0
+      }
+    },
+    {
+      "name": "release",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "curlExit": 0,
+        "release": {
+          "version": 23,
+          "stage": "review",
+          "indexing": true,
+          "bookingEnabled": false,
+          "paymentsEnabled": false,
+          "previewBanner": false,
+          "bannerRemovalApproved": "2026-10-06",
+          "languages": [
+            "pl",
+            "en",
+            "de",
+            "zh-Hans",
+            "uk",
+            "es",
+            "it"
+          ],
+          "legalDocumentsDate": "2026-10-11",
+          "privacyControls": true,
+          "independentLegalReview": false,
+          "revision": "23.11",
+          "consolidatedFrom": 18,
+          "primaryOrigin": "https://kamilkita-ux.github.io",
+          "primaryBasePath": "/hornigold-preview/",
+          "intendedDomain": "https://hornigold.pl",
+          "domainConnected": true,
+          "githubPagesMode": "complete-static-site",
+          "discoveryContentDate": "2026-10-07",
+          "polishSeoDate": "2026-10-07",
+          "safeguardingDocumentsDate": "2026-10-09",
+          "privacyReviewDate": "2026-10-09",
+          "privacyOperationalConfirmation": false,
+          "cookiesReviewDate": "2026-10-09",
+          "onlineSalesDocumentsDate": "2026-10-09",
+          "onlineSalesOperationalConfirmation": false,
+          "accessibilityInformationDate": "2026-10-09",
+          "accessibilityJourneyVerified": false,
+          "PADScopeConfirmed": false,
+          "taggedPDFs": false,
+          "propertyIdentityDate": "2026-10-09",
+          "apartmentCountOwnerConfirmed": 34,
+          "googleRatingSnapshot": 4.6,
+          "analyticsPreparationDate": "2026-10-11",
+          "implementationDate": "2026-10-11",
+          "base": "/",
+          "buildMode": "production-ready",
+          "published": true,
+          "counterEnabled": true,
+          "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+          "deploymentHost": "hornigold.pl"
+        }
+      }
+    }
+  ],
+  "limits": [
+    "TLS means a successful HTTPS request with default certificate verification; not a certificate-expiry forecast or a full security certification.",
+    "No mail delivery, booking, payment, GA4 receipt or Google indexing is inferred from HTTP health.",
+    "No Google account API credentials are configured."
+  ]
+}
