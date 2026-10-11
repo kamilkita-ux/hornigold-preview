@@ -26,3 +26,5 @@ Poproś każdego rzeczywistego gościa neutralnie o dobrowolną opinię; bez nag
 
 ## Automatyczne kontrole GitHub — potwierdzony przebieg
 Po zakończonej sukcesem publikacji Pages uruchamia się Hornigold publication check. Run 38180305635 po wersji 23.17 zakończył się sukcesem: 693 trasy podglądu bez błędów, odczytowy monitor produkcji i Lighthouse dla /pl/, /pl/pokoje/ oraz /en/. Raporty pobrano trwale do evidence; artefakty GitHub wygasają po 7 dniach. Nie jest to test transakcji ani potwierdzenie aktualizacji Cloudflare. Workflow raportowania błędów pozostaje niezweryfikowany w zakresie rzeczywistego dostarczenia alarmu. Codzienny heartbeat 07:30 oraz tygodniowe kontrole mają oddzielny harmonogram; sukces kontroli po publikacji nie dowodzi ich wykonania.
+
+Próba odtworzenia 23.17 (12.10.2026): 2015/2015 hashy, kompletna historia Git, build 693 tras, 24 testy Python oraz kontrola 75106 linków i SEO bez błędów. Dowód: evidence/restore-23.17.json. Próba nie obejmuje konfiguracji, bazy ani rzeczywistych transakcji Cloudflare.
