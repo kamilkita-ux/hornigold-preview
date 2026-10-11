@@ -10,6 +10,7 @@ test("strony z blokami rezerwacji — tylko te konflikty rozwiązywane automatyc
 test("domyślnie przegląd origin/main; --candidate dopisuje origin/", () => {
   assert.equal(parseArgs([]).mode, "review");
   assert.equal(parseArgs([]).candidate, "origin/main");
+  assert.equal(parseArgs(["--prepare"]).mode, "prepare");
   const options = parseArgs(["--deploy", "--candidate", "codex/x", "--accept", "csp"]);
   assert.equal(options.mode, "deploy");
   assert.equal(options.candidate, "origin/codex/x");

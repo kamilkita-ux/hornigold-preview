@@ -4,6 +4,7 @@
 //
 //   node scripts/cloudflare-release.mjs               przegląd: nowe commity z origin/main i wynik kontroli, nic nie zmienia
 //   node scripts/cloudflare-release.mjs --deploy      scalenie → build + audyty + testy → deploy → smoke → tag → dziennik
+//   node scripts/cloudflare-release.mjs --prepare     scalenie → build + audyty + testy, bez publikacji
 //   node scripts/cloudflare-release.mjs --smoke       same testy dymne produkcji
 //
 // Opcje: --candidate <ref> (zamiast origin/main), --accept CSP,SERVER (świadome przyjęcie po przeglądzie),
@@ -36,6 +37,7 @@ export function parseArgs(argv) {
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--deploy") options.mode = "deploy";
+    else if (arg === "--prepare") options.mode = "prepare";
     else if (arg === "--smoke") options.mode = "smoke";
     else if (arg === "--candidate") { const ref = argv[++i] ?? ""; options.candidate = ref.startsWith("origin/") ? ref : `origin/${ref}`; }
     else if (arg === "--accept") for (const code of (argv[++i] ?? "").split(",")) { if (code) options.accept.add(code.trim().toUpperCase()); }
@@ -365,7 +367,7 @@ async function main() {
   say(`   nowe migracje D1: ${review.newMigrations.length ? review.newMigrations.join(", ") : "brak"}`);
   const blocks = review.blocks.filter((block) => !options.accept.has(block.code));
   if (blocks.length) fail(`Przegląd zatrzymał wydanie (${[...new Set(blocks.map((b) => b.code))].join(", ")}). Po weryfikacji: --accept <kody> (nie dotyczy MIGRATION_CHANGED, WRANGLER).`);
-  if (options.mode !== "deploy") { say("Przegląd czysty. Wdrożenie: node scripts/cloudflare-release.mjs --deploy"); return; }
+  if (!["deploy", "prepare"].includes(options.mode)) { say("Przegląd czysty. Wdrożenie: node scripts/cloudflare-release.mjs --deploy"); return; }
 
   say("3. Scalanie do deploy/cloudflare");
   const changedTests = git(["diff", "--name-only", "--diff-filter=AM", `HEAD...${ref}`, "--", "tests/"]).split("\n").filter((f) => f.endsWith(".test.mjs"));
@@ -375,6 +377,10 @@ async function main() {
 
   say("4. Build, audyty, testy (kilkanaście minut)");
   const pages = buildAndTest(changedTests);
+  if (options.mode === "prepare") {
+    say(`Przygotowane (${pages} stron, paczka _cloudflare_production). Publikacja: npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc, potem --smoke.`);
+    return;
+  }
 
   say("5. Migracje D1");
   if (review.newMigrations.length) {
