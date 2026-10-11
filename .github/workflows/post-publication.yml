@@ -24,10 +24,15 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - name: Verify deployed Pages release
         run: python scripts/audit_live_release.py --origin https://kamilkita-ux.github.io --base /hornigold-preview --label github-actions
+      - name: Canonical production health (read-only)
+        if: always()
+        run: python scripts/monitor_public.py
       - name: Evidence
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
           name: publication-evidence
-          path: docs/implementation/evidence/public-github-actions.json
+          path: |
+            docs/implementation/evidence/public-github-actions.json
+            docs/implementation/evidence/monitor-latest.json
           retention-days: 7

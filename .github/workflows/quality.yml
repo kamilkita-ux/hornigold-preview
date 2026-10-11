@@ -33,6 +33,8 @@ jobs:
       - run: corepack enable && corepack prepare pnpm@10.30.3 --activate
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec playwright install --with-deps chromium
+      - run: python scripts/build.py --mode production-ready --base /
+      - run: python scripts/prepare_cloudflare_production.py
       - run: node --test tests/*.test.mjs
       - name: Mobile and accessibility audit
         run: |
