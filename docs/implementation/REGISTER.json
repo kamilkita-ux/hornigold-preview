@@ -7,7 +7,7 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
+      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -15,10 +15,13 @@
         "evidence/PUBLICATION_23.13.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/public-github-23.17.json",
-        "evidence/public-sites-23.17.json"
+        "evidence/public-sites-23.17.json",
+        "evidence/public-github-23.18.json",
+        "evidence/public-sites-23.18.json",
+        "evidence/production-release-2026-10-12.json"
       ],
       "barrier": null,
-      "next": "Po każdej publikacji powtórzyć odczyt rzeczywistych zasobów.",
+      "next": "Ponawiać kontrolę po kolejnych publikacjach.",
       "title": "Sprawdzenie środowisk"
     },
     {
@@ -85,7 +88,7 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
+      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/public-sites-23.16.json",
@@ -93,10 +96,13 @@
         "evidence/PUBLICATION_23.16.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/public-github-23.17.json",
-        "evidence/public-sites-23.17.json"
+        "evidence/public-sites-23.17.json",
+        "evidence/public-github-23.18.json",
+        "evidence/public-sites-23.18.json",
+        "evidence/production-release-2026-10-12.json"
       ],
       "barrier": null,
-      "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
+      "next": "Ponawiać kontrolę po kolejnych publikacjach.",
       "title": "Podglądy"
     },
     {
@@ -240,17 +246,19 @@
       "id": "D3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Lokalnie 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach.",
+      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/axe-after.json",
         "evidence/legal-edges.json",
         "evidence/mobile-release.json",
         "evidence/pdf-content-qa.json",
-        "evidence/tagged-pdf-adoption-23.18.json"
+        "evidence/tagged-pdf-adoption-23.18.json",
+        "evidence/public-pdfs-23.18.json",
+        "evidence/tagged-pdf-structure-current.json"
       ],
-      "barrier": "Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i publikacja 23.18. Nie potwierdzono PDF/UA.",
-      "next": "Regresja HTML/PDF i publikacja 23.18, następnie odbiór z czytnikiem oraz ścieżka dostawcy w sandboxie.",
+      "barrier": "Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i wdrożenie Cloudflare. Nie potwierdzono PDF/UA.",
+      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; produkcję publikuje Marek.",
       "title": "Dostępność"
     },
     {

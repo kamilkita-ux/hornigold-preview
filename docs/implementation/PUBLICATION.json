@@ -1,26 +1,36 @@
 {
-  "date": "2026-10-11",
-  "revision": "23.11",
+  "date": "2026-10-12",
+  "revision": "23.18",
   "Sites": {
     "status": "succeeded",
-    "savedVersion": 32,
-    "deployment": "appgdep_6acbeb790c58819199701f175943ce33",
+    "savedVersion": 40,
+    "deployment": "appgdep_6acc1e97fd5c8191bcaec55fc8c52c4e",
+    "sourceCommit": "f9584930a68f9aee945cb64c29c0096bd88cedbe",
     "routesVerified": 693,
     "errors": 0
   },
   "GitHub": {
-    "commit": "7c3d336d3d37d3019b42e0e15942c131bda543bb",
-    "run": "38170630579",
+    "commit": "7db11b25ded0426283a9f5d3375ddd892cd5e949",
+    "run": "38185049162",
+    "postPublicationRun": "38185165953",
     "status": "success",
     "routesVerified": 693,
     "errors": 0
   },
   "production": {
-    "revision": "23.9",
-    "commit": "0c1609473be1feee40ce5dd5ec032b2ff7832e4b",
+    "revision": "23.11",
+    "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+    "observedAt": "2026-10-12T01:44:55.563911+02:00",
     "newChangesDeployed": false
   },
+  "PDFs": {
+    "documentsPerPreview": 21,
+    "publicHashChecks": 42,
+    "errors": 0,
+    "evidence": "evidence/public-pdfs-23.18.json"
+  },
   "notes": [
-    "A subsequent source-only measurement/dependency follow-up remains part of the same release and requires renewed platform readback."
+    "Existing booking module and Fiserv remain protected.",
+    "PDF/UA and screen-reader acceptance are not certified."
   ]
 }

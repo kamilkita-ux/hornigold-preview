@@ -1,19 +1,18 @@
 # Rejestr wdrożenia Hornigold
 
-Aktualizacja 12.10.2026: oba podglądy 23.17 potwierdzone; produkcja nadal 23.11. Publikacje podglądów niezależne od Cloudflare.
+Aktualizacja 12.10.2026: oba podglądy 23.18 potwierdzone; produkcja nadal 23.11. Publikacje podglądów niezależne od Cloudflare.
 
-Wersja 23.18 przygotowana lokalnie: 21 oznaczonych PDF i zgodny HTML, publikacja jeszcze nie nastąpiła.
 
 verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 
 | ID | Zakres | Stan | Zmiana / wynik | Bariera |
 |---|---|---|---|---|
-| A1 | Sprawdzenie środowisk | verified | Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem. | — |
+| A1 | Sprawdzenie środowisk | verified | Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11. | — |
 | A2 | Identyfikacja pipeline Cloudflare | blocked | Sprawdzono oba dostępne konta; brak Workera Hornigold. | Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp. |
 | A3 | Porównanie i wybór zmian | verified | Porównano sześć skryptów bajtowo; CSS ma dodatkowy moduł CloudMentor, a booking.js pochodzi od Marka. Przygotowano minimalną poprawkę Workera, która ich nie nadpisuje. | — |
 | A4 | Kopia i rollback | local_ready | Kopia 23.17 na Mac mini: odtworzono i sprawdzono 2015 plików oraz kompletną historię Git. Build 693 tras, 24 testy, audyty 75106 linków i SEO bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare. | Marek: kopia konfiguracji i bazy Cloudflare. |
 | A5 | Publikacja produkcyjna | partial | Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem. | Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera. |
-| A6 | Podglądy | verified | Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem. | — |
+| A6 | Podglądy | verified | Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11. | — |
 | A7 | Ochrona pozostałych zmian | verified | Nie nadpisano pierwotnego checkoutu, DNS ani poczty. Właściciel dodatkowo chroni istniejący moduł rezerwacji i Fiserv: bez zmian kodu, konfiguracji i połączeń bez nowego polecenia. Dodano lokalną kontrolę hashy wskazanych chronionych plików; 6 testów. Nie podłączono do nieznanego pipeline. | — |
 | B1 | GuestSage, PMS i operator | blocked | Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
 | B2 | Spójność kontaktu i dokumentów | local_ready | Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail. | Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane. |
@@ -24,7 +23,7 @@ verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 | C4 | Odbiór rzeczywistych zdarzeń | verified | Właściwa usługa GA4 pokazała kontrolowaną sesję: 2 page_view, first_visit, session_start i stay_planner_click. Zgoda po teście wycofana. | — |
 | D1 | Układ mobile i CLS | verified | Produkcja ma skrócony układ i poprawioną propozycję języka; 14 przypadków mobile/desktop bez błędów. Laboratoryjny CLS maks. 0,075463. | — |
 | D2 | Obrazy i wydajność | partial | 361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników. | Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji. |
-| D3 | Dostępność | partial | 1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Lokalnie 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. | Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i publikacja 23.18. Nie potwierdzono PDF/UA. |
+| D3 | Dostępność | partial | 1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona. | Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i wdrożenie Cloudflare. Nie potwierdzono PDF/UA. |
 | E1 | SEO wszystkich adresów | verified | Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki. | — |
 | E2 | Linki i fragmenty | local_ready | 8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji. | — |
 | E3 | Search Console | partial | Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy. | Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem. |
