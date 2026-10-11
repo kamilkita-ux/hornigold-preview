@@ -77,6 +77,18 @@ Skrypt zatrzymuje się w tych przypadkach:
 
 `--accept CSP` przepuszcza zmianę CSP po przeglądzie. Inne kody wymagają ręcznej decyzji.
 
+**Od 11 października 2026 r.:**
+- **Tryb `--prepare`** wykonuje scalenie, build, audyty i testy bez publikacji. Klasyfikator trybu auto blokuje agentowi pełne `--deploy` bez wyraźnego polecenia „publikuj”. Agent robi więc `--prepare`, a po zgodzie Marka `npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc` i `--smoke`.
+- **Automatyczne rozwiązywanie konfliktów.** Konflikty w `site/*/index.html`, `site/*/pobyt/index.html`, `site/*/rezerwacja/index.html` i `site/assets/style.css` skrypt rozwiązuje wersją Kamila, a potem uruchamia `scripts/kwhotel_booking_pages.py`. Ten skrypt idempotentnie przywraca bloki rezerwacji GuestSage i regułę `.booking-panel`. Konflikt w innym pliku zatrzymuje wydanie.
+- **Audyt GA4 przed publikacją.** `scripts/audit_ga4.cjs` Kamila sprawdza zgodę na `_production_ready` i przechwytuje ruch do Google; wymaga Playwright (`npm install --no-package-lock && npx playwright install chromium`). Pozostałe `audit_*.cjs` Kamila pisał pod Linux/macOS (`/tmp`, `_site`, pomiary wydajności), dlatego nie są bramką wydania.
+- **Test zgody GA4 po publikacji (smoke).** Na żywej stronie, w Chromium:
+  - przed zgodą i po odmowie 0 żądań do `googletagmanager.com`/`google-analytics.com`;
+  - zgoda „analityka” domyślnie odznaczona;
+  - po zgodzie tag się ładuje (żądanie przerywane, do GA nic nie trafia);
+  - e-mail i daty z adresu nie trafiają do `dataLayer`.
+
+  Wyjątek w tym teście jest porażką smoke i wywołuje rollback.
+
 Szczegóły działania:
 - Wranglera skrypt woła przez `npx --yes wrangler@<wersja z package.json>`. Worktree nie ma `node_modules`, a bez `--yes` `npx` czeka na zgodę na instalację.
 - Przed publikacją skrypt zapamiętuje aktywną wersję Workera i bieżący nagłówek CSP. Smoke sprawdza listę powyżej, porównuje CSP i pliki weryfikacyjne Google z `site/`.
@@ -215,3 +227,36 @@ Testy i weryfikacja:
 - Worker `84eaa0a1-8645-4607-83ca-179488cf2fef`; poprzedni `29de95ba` przywraca `wrangler rollback`.
 
 **Kamil:** to odstępstwo od Twojego kodu. Przy kolejnym scaleniu proszę przenieść blok z `production-entry.mjs` do Sites, inaczej scalenie go cofnie i smoke zatrzyma wydanie.
+
+## Wydanie 11 października 2026 r. (rewizja 23.11) — Google Analytics 4 po zgodzie
+
+Trzy commity Kamila z `origin/main` (`8dab79d` 21:10, `7c3d336` 22:03, `c239af6` 22:07):
+
+- **GA4** `G-ZJ9VJNGHGT`: konto Hornigold 93077899, property 558323228, strumień 16101873868. Działa tylko na `https://hornigold.pl`; podglądy go nie ładują.
+  - `build.py` w trybie `production-ready` dopisuje `analytics-config.js` i `analytics.js`.
+  - Podstawowy tryb zgody: tag Google ładuje się dopiero po zgodzie „analityka”.
+  - Wyłączone: Google Signals, personalizacja reklam i enhanced measurement.
+  - Zdarzenia: `page_view` (adres bez parametrów, poza dozwolonymi etykietami kampanii), kliknięcia telefonu/e-maila/rezerwacji/planera/social oraz `select_apartment`.
+- **Prywatność:**
+  - w oknie zgód nowa, domyślnie odznaczona kategoria „analityka” w 7 językach;
+  - wygasanie zgody w trakcie wizyty;
+  - teksty prawne HTML i PDF z datą 2026-10-11;
+  - `independentLegalReview: false`.
+- **CSP** (nagłówek w `production-entry.mjs` i meta w HTML): `script-src` + `https://www.googletagmanager.com`, `connect-src` + `https://www.google-analytics.com https://region1.google-analytics.com`. Przyjęte świadomie `--accept CSP` po przeglądzie i za zgodą Marka („publikuj”).
+- Audyty i narzędzia QA Kamila (mobile, zgody, SEO, monitoring) oraz poprawki SEO w `scripts/seo.py`. Nasza poprawka `.as_posix()` zachowana.
+
+Scalenie: konflikty w 21 stronach rezerwacji i w `style.css` (obie strony dopisały kod na końcu). Rozwiązane automatycznie wersją Kamila + `kwhotel_booking_pages.py`. Bloki GuestSage, zgoda „analityka” i reguła `.booking-panel` obecne.
+
+Wyniki:
+- build 693 stron; `audit_static`, `audit_seo` i `audit_discovery` bez błędów;
+- testy node i `test_seo*` zielone;
+- `audit_ga4.cjs` zielony.
+
+Worker `b6522385-6671-4430-b8c7-6872d90f6c8f`; poprzedni `84eaa0a1` przywraca `wrangler rollback`. Smoke 23/23, w tym test zgody GA4 na żywej stronie.
+
+**Do zrobienia po stronie właściciela (z przekazania Kamila):**
+- w panelu GA (konto `hotelhornigold@gmail.com`) ponownie sprawdzić, że enhanced measurement, automatyczne zdarzenia formularzy i linków wychodzących oraz Google Signals są wyłączone;
+- sprawdzić warunki przetwarzania i transferu Google dla konta;
+- wykonać test w DebugView/Realtime z sesji z wyraźną zgodą.
+
+Meta, Ads, rezerwacje i płatności pozostają wyłączone.
