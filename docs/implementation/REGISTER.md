@@ -1,17 +1,17 @@
 # Rejestr wdrożenia Hornigold — 2026-10-11
 
-Produkcja: 23.11; podglądy: 23.13. verified dotyczy wyłącznie wskazanego zakresu i środowiska. Dokument zaktualizowano lokalnie po publikacji; nie oznacza kolejnego deployu.
+Produkcja: 23.11; podglądy: 23.14; przygotowanie 23.15. verified dotyczy wskazanego zakresu i środowiska.
 
 | ID | Zakres | Stan | Zmiana / wynik | Bariera |
 |---|---|---|---|---|
-| A1 | Sprawdzenie środowisk | verified | Ponowny odczyt: produkcja 23.11; GitHub Pages i Sites 23.13, z potwierdzonymi wdrożeniami. | — |
+| A1 | Sprawdzenie środowisk | verified | Potwierdzono produkcję 23.11 oraz oba podglądy 23.14. Przygotowanie zatwierdzonego przez właściciela Instagrama w 23.15. | — |
 | A2 | Identyfikacja pipeline Cloudflare | blocked | Sprawdzono oba dostępne konta; brak Workera Hornigold. | Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp. |
 | A3 | Porównanie i wybór zmian | verified | Porównano sześć skryptów bajtowo; CSS ma dodatkowy moduł CloudMentor, a booking.js pochodzi od Marka. Przygotowano minimalną poprawkę Workera, która ich nie nadpisuje. | — |
 | A4 | Kopia i rollback | local_ready | Najnowsza kopia 23.13 na Mac mini: 1964/1964 hashy, zweryfikowana historia Git i odtworzony build 693 tras. Nie obejmuje konfiguracji ani bazy Cloudflare. | Marek: kopia konfiguracji i bazy Cloudflare. |
 | A5 | Publikacja produkcyjna | partial | Produkcja nadal 23.11, potwierdzona bieżącym odczytem release.json. Oba podglądy 23.13. Produkcyjna poprawka odpowiedzi 403/503 niepotwierdzona. | Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera. |
-| A6 | Podglądy | verified | Wersja 23.13 opublikowana w obu podglądach; po 693 tras bez końcowych błędów, noindex i wyłączona analityka. Jeden przejściowy 503 GitHub przeszedł trzy ponowienia. | — |
+| A6 | Podglądy | verified | Oba podglądy 23.14: po 693 trasy, 1911 encji zdjęć zgodnych ze źródłem, zero błędów, noindex i brak analityki. | — |
 | A7 | Ochrona pozostałych zmian | verified | Nie nadpisano pierwotnego brudnego checkoutu; nie zmieniono DNS i poczty. | — |
-| B1 | GuestSage, PMS i operator | blocked | Publiczny interfejs PL/EN/DE działa. Opisy obiektu widoczne w PL nie pojawiły się w EN/DE. Menu pokazało PL/EN; bezpośredni DE działa. Nie potwierdzono PMS, płatności ani pozostałych języków. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
+| B1 | GuestSage, PMS i operator | blocked | Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
 | B2 | Spójność kontaktu i dokumentów | local_ready | Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail. | Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane. |
 | B3 | Rezerwacja i płatność end-to-end | blocked | Nie wykonano fikcyjnego testu płatności ani rezerwacji produkcyjnej. | Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa. |
 | C1 | Konto i ustawienia GA4 | verified | Właściwa usługa/strumień; pomiar zaawansowany wyłączony, Signals wyłączone, retencja 14 miesięcy bez resetu. | — |
@@ -26,10 +26,10 @@ Produkcja: 23.11; podglądy: 23.13. verified dotyczy wyłącznie wskazanego zakr
 | E3 | Search Console | partial | Sprawdzono siedem stron głównych w GSC: PL/EN/DE/ES/IT w indeksie, zh-Hans/UK nieznane; prośby o indeksację obu przyjęte przez Google. Sitemap nadal: nie udało się pobrać; publiczny XML 200 i 693 URL. | Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne. |
 | E4 | GSC, GA4 i stare dane | verified | Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań. | Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano. |
 | F1 | Fakty i siedem języków | partial | Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. | Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review. |
-| F2 | Schema i odpowiedzi AI | local_ready | Istniejące WebPage, LodgingBusiness, Organization, BreadcrumbList, FAQPage i Article zachowane. Lokalnie dodano ImageObject wyłącznie dla istniejących obrazów w treści main, z URL i widocznym opisem alt; bez przypisywania autora, praw lub licencji. | Publikacja zmiany ImageObject i ponowny publiczny odczyt. Prawa do zdjęć pozostają odrębnym zadaniem G5; nie są zastępowane danymi strukturalnymi. |
+| F2 | Schema i odpowiedzi AI | local_ready | ImageObject opublikowane w obu podglądach 23.14: 1911 encji na 546 stronach, publiczna kontrola 693 tras bez błędów. Pozostałe typy zachowane; bez niepotwierdzonych twierdzeń o prawach/licencjach. | Marek: wdrożenie Cloudflare i publiczny odbiór produkcji; prawa do zdjęć pozostają odrębnym G5. |
 | G1 | Dostęp do istniejącego GBP | verified | Google pokazuje Zarządzasz tym profilem na koncie obiektu; zachowano profil i opinie. | — |
 | G2 | NAP, kategorie, godziny | partial | Nazwa, Kopernika 6 i 608662707 zgodne; publiczne oznaczenie 4-gwiazdkowy wymaga wyjaśnienia. | Recepcja: formalna klasyfikacja/kategoria i godziny przed zmianą profilu. |
-| G3 | Linki i profile zewnętrzne | partial | WWW i publiczny GuestSage istnieją; GBP Instagram różni się od linku projektu. | Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu. |
+| G3 | Linki i profile zewnętrzne | partial | Właściciel 11.10 jednoznacznie wskazał hornigold.zielona.kamienica jako główny Instagram, zgodnie z istniejącą wizytówką Google. W 23.15 przygotowano zmianę odnośników strony we wszystkich językach. | Publikacja podglądów 23.15 i potwierdzenie aktualizacji produkcji przez właściwy pipeline. |
 | G4 | Autentyczne opinie | local_ready | Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych. | — |
 | G5 | Zdjęcia i lokalne wzmianki | partial | Inwentaryzacja obrazów i wymóg weryfikacji praw. | Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek. |
 | H1 | Bezpieczeństwo i odtworzenie | partial | Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje. | Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503. |
@@ -39,4 +39,4 @@ Produkcja: 23.11; podglądy: 23.13. verified dotyczy wyłącznie wskazanego zakr
 | J1 | Rejestr i dowody | verified | 34 pozycje, trwałe dowody i rozdzielenie stanów. | — |
 | J2 | Utrzymanie i obserwacja | verified | Instrukcja publikacji, rollbacku, kopii i przeglądów; właściciele i terminy. | — |
 
-Liczby pozycji: verified: 13, blocked: 3, local_ready: 5, partial: 13. Procent punktów nie jest procentem roboczogodzin.
+Liczby pozycji: verified: 13, blocked: 3, local_ready: 5, partial: 13. Liczba punktów nie jest procentem roboczogodzin.

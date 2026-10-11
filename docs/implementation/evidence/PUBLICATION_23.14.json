@@ -1,0 +1,61 @@
+{
+  "revision": "23.14",
+  "github": {
+    "repository": "kamilkita-ux/hornigold-preview",
+    "branch": "main",
+    "commit": "63a09a552386bebcab4e70503d02838be2256c8d",
+    "run": 38175763852,
+    "status": "success"
+  },
+  "sites": {
+    "version": 36,
+    "versionId": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_b26b5d95fef481918139c14ba3e0dc7b",
+    "commit": "febb385b126fcda1370998f137e2cdff844f7bb8",
+    "deployment": "appgdep_6acbfd3f8b4c8191bc97eff7e2955694",
+    "status": "succeeded"
+  },
+  "production": {
+    "revision": "23.11",
+    "pipelineUnconfirmed": true
+  },
+  "mail": {
+    "id": "AAMkADA0ZDQwZDcxLTNkMzQtNGMyZS1iODJiLWI1ODE4OGMwMzkyYwBGAAAAAABUrZN1upf0Rrc-NHXXnp9XBwDe34BR7GzjSLJfU_CqVPVUAAAAAAEJAADe34BR7GzjSLJfU_CqVPVUAAASjQKMAAA=",
+    "sender": {
+      "emailAddress": {
+        "address": "lu@farmyfotowoltaiki.pl",
+        "name": "LU - Cyfrowa Asystentka Prezesa Zarządu"
+      }
+    },
+    "to": [
+      {
+        "emailAddress": {
+          "address": "biuro@cloudmentor.pl",
+          "name": "Marek  Iwiński"
+        }
+      }
+    ],
+    "sentItemsConfirmed": true,
+    "deliveryConfirmed": false,
+    "date": "2026-10-11T21:20:40Z"
+  },
+  "backup": {
+    "path": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_231720-release23",
+    "files": 1975,
+    "hashReadbackVerified": true
+  },
+  "tests": {
+    "node": 48,
+    "python": 12
+  },
+  "publicAudit": {
+    "routesPerPreview": 693,
+    "failures": 0,
+    "imageEntitiesPerPreview": 1911,
+    "imageFailures": 0
+  },
+  "restore": {
+    "files": 1975,
+    "buildPages": 693,
+    "errors": 0
+  }
+}

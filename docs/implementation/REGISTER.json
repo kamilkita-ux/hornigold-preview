@@ -7,7 +7,7 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Ponowny odczyt: produkcja 23.11; GitHub Pages i Sites 23.13, z potwierdzonymi wdrożeniami.",
+      "change": "Potwierdzono produkcję 23.11 oraz oba podglądy 23.14. Przygotowanie zatwierdzonego przez właściciela Instagrama w 23.15.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -77,12 +77,12 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Wersja 23.13 opublikowana w obu podglądach; po 693 tras bez końcowych błędów, noindex i wyłączona analityka. Jeden przejściowy 503 GitHub przeszedł trzy ponowienia.",
+      "change": "Oba podglądy 23.14: po 693 trasy, 1911 encji zdjęć zgodnych ze źródłem, zero błędów, noindex i brak analityki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/public-sites-23.13.json",
-        "evidence/public-github-23.13.json",
-        "evidence/PUBLICATION_23.13.json"
+        "evidence/public-sites-23.14.json",
+        "evidence/public-github-23.14.json",
+        "evidence/PUBLICATION_23.14.json"
       ],
       "barrier": null,
       "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
@@ -105,11 +105,12 @@
       "id": "B1",
       "status": "blocked",
       "environment": "local / pending production",
-      "change": "Publiczny interfejs PL/EN/DE działa. Opisy obiektu widoczne w PL nie pojawiły się w EN/DE. Menu pokazało PL/EN; bezpośredni DE działa. Nie potwierdzono PMS, płatności ani pozostałych języków.",
+      "change": "Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/booking-handoff.json",
-        "evidence/guestsage-language-review.json"
+        "evidence/guestsage-language-review.json",
+        "evidence/guestsage-language-review-expanded.json"
       ],
       "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
       "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
@@ -310,15 +311,17 @@
       "id": "F2",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "Istniejące WebPage, LodgingBusiness, Organization, BreadcrumbList, FAQPage i Article zachowane. Lokalnie dodano ImageObject wyłącznie dla istniejących obrazów w treści main, z URL i widocznym opisem alt; bez przypisywania autora, praw lub licencji.",
+      "change": "ImageObject opublikowane w obu podglądach 23.14: 1911 encji na 546 stronach, publiczna kontrola 693 tras bez błędów. Pozostałe typy zachowane; bez niepotwierdzonych twierdzeń o prawach/licencjach.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../scripts/seo.py",
         "evidence/schema-counts.json",
-        "evidence/image-schema-preview.json"
+        "evidence/image-schema-preview.json",
+        "evidence/public-image-schema-sites-23.14.json",
+        "evidence/public-image-schema-github-23.14.json"
       ],
-      "barrier": "Publikacja zmiany ImageObject i ponowny publiczny odczyt. Prawa do zdjęć pozostają odrębnym zadaniem G5; nie są zastępowane danymi strukturalnymi.",
-      "next": "Po pełnych testach przygotować kolejną publikację; zachować brak nieudokumentowanych pól autora i licencji.",
+      "barrier": "Marek: wdrożenie Cloudflare i publiczny odbiór produkcji; prawa do zdjęć pozostają odrębnym G5.",
+      "next": "Zweryfikować dane zdjęć na produkcji po wdrożeniu.",
       "title": "Schema i odpowiedzi AI"
     },
     {
@@ -351,13 +354,14 @@
       "id": "G3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "WWW i publiczny GuestSage istnieją; GBP Instagram różni się od linku projektu.",
+      "change": "Właściciel 11.10 jednoznacznie wskazał hornigold.zielona.kamienica jako główny Instagram, zgodnie z istniejącą wizytówką Google. W 23.15 przygotowano zmianę odnośników strony we wszystkich językach.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "../../content/social-channels.json"
       ],
-      "barrier": "Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu.",
-      "next": "Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu.",
+      "barrier": "Publikacja podglądów 23.15 i potwierdzenie aktualizacji produkcji przez właściwy pipeline.",
+      "next": "Sprawdzić odnośnik we wszystkich 693 stronach oraz na hornigold.pl po wdrożeniu.",
       "title": "Linki i profile zewnętrzne"
     },
     {
@@ -477,5 +481,5 @@
     "local_ready": 5,
     "partial": 13
   },
-  "publicationSnapshot": "23.13: GitHub main i Sites succeeded; produkcja nadal 23.11; wiadomość do Marka potwierdzona w Wysłanych."
+  "publicationSnapshot": "23.14: oba podglądy potwierdzone; produkcja 23.11; 23.15 przygotowanie zmiany Instagrama."
 }

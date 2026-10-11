@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-11T21:22:03.474937+00:00",
+  "method": "Native Safari public UI; anonymous HTML GET separately; public production booking.js readback",
+  "languageReview": {
+    "pl": "Property descriptions visible (prior controlled UI review)",
+    "en": "English interface, property descriptions absent (prior controlled UI review)",
+    "de": "German interface, property descriptions absent (prior controlled UI review)",
+    "es": "Spanish interface; English Anytime and copyright remain; property descriptions absent",
+    "it": "Italian interface; English Anytime and copyright remain; property descriptions absent",
+    "uk": "Ukrainian initial controls; generic marketing heading and benefit text remain English; property descriptions absent",
+    "zh-hans": "Direct URL shows in-app 404 Offer unavailable; HTTP shell still returns 200. Production booking.js explicitly maps zh-hans to en."
+  },
+  "productionBookingReadback": {
+    "languageMap": {
+      "pl": "pl",
+      "en": "en",
+      "de": "de",
+      "uk": "uk",
+      "es": "es",
+      "it": "it",
+      "zh-hans": "en"
+    },
+    "roomTypeMap": "Empty ROOMS object; apartment mapping awaits provider room IDs",
+    "source": "https://hornigold.pl/assets/booking.js"
+  },
+  "actions": "No account login, reservation, date selection, guest details or payment submitted; optional cookies rejected when prompted; owned review tab closed",
+  "limitations": [
+    "UI translation does not prove confirmation-message language or PMS/payment operation",
+    "Do not interpret HTML200 as a functioning localized page",
+    "No new business claims copied to Hornigold content"
+  ],
+  "next": [
+    "Marek/provider: translate property descriptions and remaining interface text",
+    "Provider: confirm all supported checkout/confirmation languages",
+    "Provider: deliver verified room-type identifiers and purchased service/sandbox documentation"
+  ]
+}
