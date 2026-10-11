@@ -173,7 +173,7 @@ function buildAndTest(changedTests) {
     if (label === "build produkcyjny" && report?.pages) pages = report.pages;
     say(`   ✓ ${label} (${Math.round((Date.now() - started) / 1000)} s)`);
   }
-  const nodeTests = ["tests/production-indexing.test.mjs", "tests/server.test.mjs", "tests/booking.test.mjs", "tests/booking-pages.test.mjs", ...changedTests];
+  const nodeTests = ["tests/production-indexing.test.mjs", "tests/server.test.mjs", "tests/booking.test.mjs", "tests/booking-pages.test.mjs", "tests/search-console-verification.test.mjs", ...changedTests];
   run(process.execPath, ["--test", ...new Set(nodeTests.filter((f) => existsSync(join(ROOT, f))))]);
   say("   ✓ testy node");
   python(["-m", "unittest", "discover", "-s", "tests", "-p", "test_seo*.py"]);
@@ -232,12 +232,10 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
     const page = await request(path);
     check(page.status === 200 && (await page.text()).includes("data-booking"), `${path} → ${page.status} z a[data-booking]`);
   }
-  // Assety Cloudflare (html_handling auto-trailing-slash) odpowiadają na /plik.html przez 307 na /plik — w obrębie hosta.
+  // Search Console wymaga 200 pod dokładnym adresem — bez obsługi w server/production-entry.mjs assety dałyby 307.
   for (const file of readdirSync(join(ROOT, "site")).filter((f) => /^google[0-9a-f]+\.html$/.test(f))) {
-    let response = await request(`/${file}`);
-    const hop = response.status === 307 ? response.headers.get("location") : null;
-    if (hop?.startsWith("/")) response = await request(hop);
-    check(response.status === 200 && (await response.text()).trim() === `google-site-verification: ${file}`, `/${file} (weryfikacja Search Console${hop ? `, przez 307 → ${hop}` : ""})`);
+    const response = await request(`/${file}`);
+    check(response.status === 200 && (await response.text()).trim() === `google-site-verification: ${file}`, `/${file} → ${response.status} (weryfikacja Search Console)`);
   }
   return failures;
 }

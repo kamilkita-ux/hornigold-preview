@@ -10,6 +10,13 @@ export default {async fetch(request,env,ctx){
   const target=new URL(url.pathname+url.search,ORIGIN);
   return Response.redirect(target.href,301);
  }
+ // Google Search Console requires 200 at the exact /google<hex>.html URL; Cloudflare assets (html_handling
+ // auto-trailing-slash) would answer 307 to the extensionless path, so serve that asset's body directly.
+ const verification=url.pathname.match(/^\/(google[0-9a-f]+)\.html$/);
+ if(verification && ['GET','HEAD'].includes(request.method)){
+  const asset=await env.ASSETS.fetch(new Request(new URL('/'+verification[1],url.origin),{method:request.method}));
+  if(asset.status===200)return new Response(asset.body,{status:200,headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'}});
+ }
  if(url.pathname==='/robots.txt')return new Response(production?'User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: '+ORIGIN+'/sitemap.xml\n':'User-agent: *\nDisallow: /\n',{headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'}});
  const response=await worker.fetch(request,env,ctx);
  const headers=new Headers(response.headers);
