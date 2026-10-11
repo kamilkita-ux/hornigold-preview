@@ -10,10 +10,13 @@
 // --no-push, --no-rollback.
 // Zatrzymuje się na: zmianie wrangler.jsonc, zmianie istniejącej migracji D1, zmianie przełączników właściciela
 // w release.json (indexing, bookingEnabled, paymentsEnabled, counterEnabled), zmianie CSP, utracie poprawki
-// Windows w scripts/seo.py, konflikcie scalania, błędzie buildu/audytu/testu. Nieudany smoke → wrangler rollback.
+// Windows w scripts/seo.py, konflikcie scalania (poza stronami rezerwacji — te: wersja Kamila + kwhotel_booking_pages.py),
+// błędzie buildu/audytu/testu (także audytów przeglądarkowych scripts/audit_*.cjs — wymagają Playwright).
+// Po publikacji, gdy strona ma GA4: test zgody na żywej stronie (żądania do Google przerywane). Nieudany smoke → rollback.
 
 import { spawnSync } from "node:child_process";
 import { appendFileSync, existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { createRequire } from "node:module";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -79,6 +82,12 @@ export function reviewChanges(nameStatus, { releaseBefore = {}, releaseAfter = {
   }
   if (cspChanged) blocks.push({ code: "CSP", detail: "kandydat zmienia Content-Security-Policy w server/ — sprawdzić nowe źródła (np. Meta) i zgodę na pomiar" });
   return { blocks, warnings, newMigrations };
+}
+
+// Strony z naszymi blokami rezerwacji GuestSage (scripts/kwhotel_booking_pages.py). Gdy Kamil je przegeneruje,
+// konflikt rozwiązuje się wersją Kamila + ponownym uruchomieniem idempotentnego skryptu.
+export function isBookingPage(path) {
+  return /^site\/[^/]+\/(?:index\.html|pobyt\/index\.html|rezerwacja\/index\.html)$/.test(path);
 }
 
 export function robotsMeta(html) {
@@ -178,8 +187,70 @@ function buildAndTest(changedTests) {
   say("   ✓ testy node");
   python(["-m", "unittest", "discover", "-s", "tests", "-p", "test_seo*.py"]);
   say("   ✓ testy SEO");
+  // Audyty przeglądarkowe Kamila (GA4, Meta) — zgody i brak ruchu do dostawców przed zgodą; ruch przechwytywany.
+  const browserAudits = readdirSync(join(ROOT, "scripts")).filter((f) => /^audit_.*\.cjs$/.test(f));
+  if (browserAudits.length && !existsSync(join(ROOT, "node_modules", "playwright"))) {
+    fail("Brak Playwright do audytów przeglądarkowych: npm install --no-package-lock && npx playwright install chromium");
+  }
+  for (const audit of browserAudits) {
+    run(process.execPath, [join("scripts", audit)]);
+    say(`   ✓ ${audit}`);
+  }
   git(["checkout", "--", "docs/seo/"]); // raporty audytów — nie commitować
   return pages;
+}
+
+function mergeCandidate(ref) {
+  const merged = run("git", ["merge", "--no-ff", "--no-edit", ref], { allowFail: true, quiet: true });
+  if (merged.status === 0) return;
+  const conflicted = git(["diff", "--name-only", "--diff-filter=U"]).split("\n").filter(Boolean);
+  if (!conflicted.length || !conflicted.every(isBookingPage)) {
+    run("git", ["merge", "--abort"], { allowFail: true });
+    fail(`Konflikt przy scalaniu ${ref} poza stronami rezerwacji:\n  ${conflicted.filter((f) => !isBookingPage(f)).join("\n  ")}`);
+  }
+  git(["checkout", "--theirs", "--", ...conflicted]);
+  python([join("scripts", "kwhotel_booking_pages.py")]);
+  git(["add", "--", ...conflicted]);
+  git(["add", "-u", "--", "site/"]);
+  git(["commit", "--no-edit"]);
+  say(`   konflikt w ${conflicted.length} stronach rezerwacji: wersja Kamila + scripts/kwhotel_booking_pages.py`);
+}
+
+// Na żywej stronie: przed zgodą i po odmowie zero żądań do Google; po zgodzie tag próbuje się załadować.
+// Żądania do Google są przerywane — test nie wysyła żadnych danych do GA.
+async function liveAnalyticsConsent() {
+  const { chromium } = createRequire(import.meta.url)("playwright");
+  const browser = await chromium.launch({ headless: true });
+  try {
+    const context = await browser.newContext({ viewport: { width: 1366, height: 900 } });
+    let google = 0;
+    await context.route("**/*", (route) => {
+      const host = new URL(route.request().url()).hostname;
+      if (/(^|\.)(googletagmanager|google-analytics)\.com$/.test(host)) { google += 1; return route.abort(); }
+      return route.continue();
+    });
+    const page = await context.newPage();
+    page.setDefaultTimeout(20_000);
+    // „load”/„networkidle” na żywej stronie potrafi nie nadejść (Windows) — DOMContentLoaded + pauzy.
+    await page.goto(`${ORIGIN}/pl/?email=private@example.com&arrival=2030-01-01`, { waitUntil: "domcontentloaded" });
+    await page.waitForTimeout(3000);
+    const beforeConsent = google;
+    await page.locator("[data-privacy-open]").first().click();
+    const prechecked = await page.locator("[name=analytics]").isChecked();
+    await page.locator("[data-privacy-necessary]").last().click();
+    await page.waitForTimeout(3000);
+    const afterRefusal = google;
+    await page.locator("[data-privacy-open]").first().click();
+    await page.locator("[name=analytics]").check();
+    await page.locator("[data-privacy-save]").click();
+    await page.waitForTimeout(4000);
+    const leaked = await page.evaluate(() => JSON.stringify(window.dataLayer ?? []));
+    return { beforeConsent, prechecked, afterRefusal, afterConsent: google - afterRefusal, privateParams: /private@example|2030-01-01/.test(leaked) };
+  } catch (error) {
+    return { error: error.message.split("\n")[0] };
+  } finally {
+    await Promise.race([browser.close(), new Promise((r) => setTimeout(r, 10_000))]);
+  }
 }
 
 async function request(path, init = {}) {
@@ -203,6 +274,20 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
   const csp = home.headers.get("content-security-policy");
   if (expectedCsp) check(csp === expectedCsp, "CSP bez zmian względem poprzedniej wersji");
   else check(Boolean(csp), "nagłówek CSP obecny");
+  if (homeHtml.includes("/assets/analytics-config.js")) {
+    const metaCsp = /<meta[^>]*http-equiv=["']Content-Security-Policy["'][^>]*>/i.exec(homeHtml)?.[0] ?? "";
+    check(csp?.includes("https://www.googletagmanager.com") && (!metaCsp || metaCsp.includes("https://www.googletagmanager.com")), "GA4: CSP nagłówka i meta dopuszcza tag Google");
+    if (existsSync(join(ROOT, "node_modules", "playwright"))) {
+      const consent = await liveAnalyticsConsent();
+      if (consent.error) check(false, `GA4: test zgody w przeglądarce nie wykonany: ${consent.error}`);
+      else {
+        check(consent.beforeConsent === 0 && consent.afterRefusal === 0, `GA4: przed zgodą ${consent.beforeConsent}, po odmowie ${consent.afterRefusal} żądań do Google (oczekiwane 0)`);
+        check(!consent.prechecked, "GA4: zgoda na analitykę nie jest domyślnie zaznaczona");
+        check(consent.afterConsent >= 1, `GA4: po zgodzie tag Google ładowany (${consent.afterConsent} żądań, przerwanych w teście)`);
+        check(!consent.privateParams, "GA4: parametry z adresu (e-mail, daty) nie trafiają do dataLayer");
+      }
+    } else say("  ! GA4: test zgody w przeglądarce pominięty — brak Playwright");
+  }
 
   const missing = await request("/pl/nie-ma-takiej/");
   const missingHtml = await missing.text();
@@ -284,8 +369,7 @@ async function main() {
 
   say("3. Scalanie do deploy/cloudflare");
   const changedTests = git(["diff", "--name-only", "--diff-filter=AM", `HEAD...${ref}`, "--", "tests/"]).split("\n").filter((f) => f.endsWith(".test.mjs"));
-  const merged = run("git", ["merge", "--no-ff", "--no-edit", ref], { allowFail: true, quiet: true });
-  if (merged.status !== 0) { run("git", ["merge", "--abort"], { allowFail: true }); fail(`Konflikt przy scalaniu ${ref} — rozwiązać ręcznie.`); }
+  mergeCandidate(ref);
   if (!/as_posix\(\)/.test(readFileSync(join(ROOT, "scripts", "seo.py"), "utf8"))) fail("scripts/seo.py bez .as_posix() — build na Windows da 693× noindex. Przywrócić poprawkę (CLOUDFLARE.md).");
   say(`   HEAD ${git(["rev-parse", "--short", "HEAD"])}`);
 
