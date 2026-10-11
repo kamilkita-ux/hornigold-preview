@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": "23.11",
   "items": [
@@ -7,12 +7,15 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Produkcja przy ostatnim odczycie 23.11; oba podglądy 23.16 potwierdzone publicznie. Przygotowanie 23.17: prawidłowy wynik TLS w monitorze.",
+      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
         "evidence/audit-production-readback.json",
-        "evidence/PUBLICATION_23.13.json"
+        "evidence/PUBLICATION_23.13.json",
+        "evidence/PUBLICATION_23.17.json",
+        "evidence/public-github-23.17.json",
+        "evidence/public-sites-23.17.json"
       ],
       "barrier": null,
       "next": "Po każdej publikacji powtórzyć odczyt rzeczywistych zasobów.",
@@ -49,11 +52,12 @@
       "id": "A4",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "Kopia 23.15 na Mac mini: 1986 plików ze zweryfikowanymi hashami i historia Git. Odtworzenie poprzedniej 23.14: build 693 tras bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
+      "change": "Kopia 23.17 na Mac mini: 2015 plików ze zweryfikowanymi hashami i historia Git. Odtworzenie poprzedniej 23.14: build 693 tras bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
-        "evidence/restore-23.13.json"
+        "evidence/restore-23.13.json",
+        "evidence/PUBLICATION_23.17.json"
       ],
       "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
       "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
@@ -63,11 +67,14 @@
       "id": "A5",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Bieżący odczyt produkcji nadal 23.11; oba podglądy 23.15. Nie potwierdzono aktualizacji Cloudflare. Zachować istniejącą rezerwację i Fiserv.",
+      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
-        "evidence/audit-production-readback.json"
+        "evidence/audit-production-readback.json",
+        "evidence/PUBLICATION_23.17.json",
+        "evidence/public-github-23.17.json",
+        "evidence/public-sites-23.17.json"
       ],
       "barrier": "Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera.",
       "next": "Odczytać CSP i X-Frame-Options na produkcyjnej odpowiedzi 403 po wdrożeniu.",
@@ -77,12 +84,15 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.16: po 693 trasy, zero błędów, noindex i brak analityki.",
+      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/public-sites-23.16.json",
         "evidence/public-github-23.16.json",
-        "evidence/PUBLICATION_23.16.json"
+        "evidence/PUBLICATION_23.16.json",
+        "evidence/PUBLICATION_23.17.json",
+        "evidence/public-github-23.17.json",
+        "evidence/public-sites-23.17.json"
       ],
       "barrier": null,
       "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
@@ -215,10 +225,11 @@
       "id": "D2",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów.",
+      "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/image-inventory.json"
+        "evidence/image-inventory.json",
+        "evidence/lighthouse-automatic-23.17.json"
       ],
       "barrier": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
       "next": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
@@ -418,13 +429,16 @@
       "id": "I1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1.",
+      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. Automatyczny workflow_run po publikacji 23.17 wykonał kontrolę 693 tras GitHub, monitor produkcji i trzy pomiary Lighthouse; run 38180305635 success.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-latest.json",
         "QUALITY_PR_REVIEW_2026-10-11.md",
         "evidence/monitor-tls-fixed.json",
-        "evidence/monitor-tls-controlled-alarm.json"
+        "evidence/monitor-tls-controlled-alarm.json",
+        "evidence/PUBLICATION_23.17.json",
+        "evidence/monitor-automatic-23.17.json",
+        "evidence/lighthouse-automatic-23.17.json"
       ],
       "barrier": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
       "next": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
@@ -493,5 +507,6 @@
     "local_ready": 5,
     "partial": 13
   },
-  "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare."
+  "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.",
+  "updatedAtUTC": "2026-10-11T22:27:27.925817+00:00"
 }
