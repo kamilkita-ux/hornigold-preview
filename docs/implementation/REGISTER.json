@@ -515,10 +515,10 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 13,
+    "verified": 14,
     "blocked": 3,
     "local_ready": 5,
-    "partial": 13
+    "partial": 12
   },
   "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.",
   "updatedAtUTC": "2026-10-11T23:54:28.706631+00:00"
