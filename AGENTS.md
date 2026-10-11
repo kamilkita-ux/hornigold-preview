@@ -54,3 +54,6 @@ Owner supplied the 34-point implementation request: implement/test/publish avail
 
 ## Owner protection: existing booking module and Fiserv — 2026-10-11
 The owner explicitly declared the existing booking module and Fiserv payment gateway untouchable. Do not overwrite, replace, refactor or change their code, configuration or connections while updating the website, SEO, content, analytics or documents. Preserve Marek’s integration and do not replace production wholesale with preview artifacts. Any intervention in these protected components requires a new explicit owner instruction. Read-only verification remains allowed; do not infer operational acceptance from this preservation rule.
+
+## Independent preview publication — owner instruction 2026-10-11
+Do not wait for Marek or Cloudflare before publishing tested subsequent updates to the existing GitHub repository and previews. Marek applies the latest available version through his production pipeline. This does not authorize changing the protected booking module or Fiserv, guessing production deployment, removing preview indexing blocks, or overwriting Marek’s integration. Keep publication and production evidence separate.

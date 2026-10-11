@@ -1,0 +1,58 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_*.py"
+    ],
+    "exit": 0,
+    "output": "..................\n----------------------------------------------------------------------\nRan 18 tests in 0.322s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/build.py",
+      "--mode",
+      "preview",
+      "--base",
+      "/hornigold-preview/"
+    ],
+    "exit": 0,
+    "output": "{\"pages\": 693, \"base\": \"/hornigold-preview/\", \"errors\": 0, \"mode\": \"preview\", \"output\": \"/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/hornigold-ai-discovery/_site\"}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/audit_static.py",
+      "--base",
+      "/hornigold-preview/"
+    ],
+    "exit": 0,
+    "output": "{\"date\": \"2026-10-11T21:52:30.495718+00:00\", \"version\": 23, \"base\": \"/hornigold-preview/\", \"pages\": 693, \"html\": 1242, \"links\": 75106, \"errors\": [], \"warnings\": []}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/audit_seo.py",
+      "--mode",
+      "preview"
+    ],
+    "exit": 0,
+    "output": "{\"date\": \"2026-10-11T21:52:54.728661+00:00\", \"mode\": \"preview\", \"base\": \"/hornigold-preview/\", \"routes\": 693, \"html\": 1242, \"links\": 75106, \"images\": 2604, \"reachableRoutes\": 693, \"redirectAliases\": 539, \"errors\": [], \"warnings\": [], \"limits\": [\"Offline audit only; no external link, indexing, DNS or ranking validation\", \"No legal, translation or full WCAG certification\"]}\n"
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/audit_discovery.py",
+      "--mode",
+      "preview"
+    ],
+    "exit": 0,
+    "output": "{\"mode\": \"preview\", \"languages\": 7, \"updatedPages\": 14, \"guideFiles\": 8, \"guideLinks\": 91, \"externalEvidenceLinks\": 7, \"errors\": [], \"limits\": [\"Navigation files do not grant crawl access or guarantee inclusion in AI answers.\", \"No external native-speaker review or live PMS verification performed.\"]}\n"
+  }
+]
