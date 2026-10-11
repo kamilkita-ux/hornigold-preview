@@ -1,19 +1,30 @@
 name: Hornigold quality
+run-name: ${{ github.event_name == 'workflow_dispatch' && inputs.alert_test && '[TEST ALARMU] Hornigold quality' || 'Hornigold quality' }}
 on:
   pull_request:
   workflow_dispatch:
+    inputs:
+      alert_test:
+        description: Controlled alarm test only; no website outage or transaction
+        type: boolean
+        default: false
   schedule:
     - cron: '0 6 * * 1'
 permissions:
   contents: read
 concurrency:
-  group: quality-${{ github.ref }}
+  group: quality-${{ github.ref }}-${{ inputs.alert_test && 'alarm-test' || 'normal' }}
   cancel-in-progress: true
 jobs:
   quality:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      - name: Controlled alarm self-test
+        if: github.event_name == 'workflow_dispatch' && inputs.alert_test == true
+        run: |
+          echo 'CONTROLLED ALARM TEST: intentional checker failure; no website outage.'
+          exit 1
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
         with:
           fetch-depth: 0
