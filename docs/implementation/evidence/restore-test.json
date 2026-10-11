@@ -1,0 +1,11 @@
+{
+  "backup": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_214141-release23",
+  "restoredTo": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/hornigold-ai-discovery/tmp/restore-20261011",
+  "files": 3572,
+  "hashesMatched": 3572,
+  "buildExit": 0,
+  "build": "{\"pages\": 693, \"base\": \"/\", \"errors\": 0, \"mode\": \"preview\", \"output\": \"/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/hornigold-ai-discovery/tmp/restore-20261011/_site\"}\n",
+  "limits": [
+    "Source and Git history only. Cloudflare configuration, secrets and production database not restored."
+  ]
+}

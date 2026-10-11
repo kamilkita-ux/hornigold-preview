@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-11T19:58:19.563Z",
+  "passed": [
+    "shared browser consent",
+    "cross-tab withdrawal",
+    "active-tab expiry without navigation"
+  ],
+  "realGoogleRequests": 0,
+  "environment": "local, no production tracking"
+}

@@ -88,9 +88,19 @@ def audit(mode, directory):
                 check(target is not None and target.exists(),'social image '+key,route)
             ld=s.select('script[type="application/ld+json"]');check(len(ld)==1,'one JSON-LD graph',route)
             try:
-                data=json.loads(ld[0].string);nodes=data['@graph'];check(data['@context']=='https://schema.org' and len(nodes)==1,'minimal evidence-scoped schema',route)
-                n=nodes[0];check(set(n)=={'@type','@id','url','name','description','inLanguage'},'schema allowed fields only',route)
-                check(n=={'@type':'WebPage','@id':ORIGIN+route+'#page','url':ORIGIN+route,'name':title,'description':description,'inLanguage':lang},'schema equals visible metadata',route)
+                data=json.loads(ld[0].string);nodes=data['@graph'];check(data['@context']=='https://schema.org' and len(nodes)>=3,'evidence-scoped schema',route)
+                allowed_types={'WebPage','Organization','LodgingBusiness','BreadcrumbList','FAQPage','Article'}
+                forbidden={'price','priceRange','offers','availability','aggregateRating','review','starRating','amenityFeature','telephone','checkinTime','checkoutTime','numberOfRooms'}
+                def safe_schema(value):
+                    if isinstance(value,dict):return not(forbidden & set(value)) and all(safe_schema(v) for v in value.values())
+                    if isinstance(value,list):return all(safe_schema(v) for v in value)
+                    return True
+                check(all(node.get('@type') in allowed_types for node in nodes) and safe_schema(nodes),'approved schema types and no unsupported business fields',route)
+                facts=json.loads((ROOT/'content/verified-facts-2026-10-11.json').read_text())
+                business=next((node for node in nodes if node.get('@type')=='LodgingBusiness'),{})
+                check(business.get('name')==facts['name'] and business.get('address')==facts['address'],'entity facts match dated dossier',route)
+                n=nodes[0];check(set(n)=={'@type','@id','url','name','description','inLanguage','about'},'schema allowed fields only',route)
+                check(n=={'@type':'WebPage','@id':ORIGIN+route+'#page','url':ORIGIN+route,'name':title,'description':description,'inLanguage':lang,'about':{'@id':ORIGIN+'/#lodging'}},'schema equals visible metadata',route)
             except (ValueError,KeyError,IndexError,TypeError):check(False,'valid JSON-LD',route)
             inventory.append({'route':route,'lang':lang,'title':title,'description':description,'canonical':ORIGIN+route,'robots':value,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
         for img in s.select('img'):

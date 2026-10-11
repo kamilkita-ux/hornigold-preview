@@ -35,11 +35,11 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
  body=ParagraphStyle('body',fontName=font,fontSize=10.0 if lang=='de' else 10.2,leading=14.5 if lang=='de' else 15.2,spaceAfter=9.5 if lang=='de' else 11,wordWrap='CJK' if lang=='zh-hans' else None,allowWidows=0,allowOrphans=0)
  title=ParagraphStyle('title',parent=body,fontName=font if lang=='zh-hans' else 'Bold',fontSize=18,leading=24,spaceAfter=18,keepWithNext=True)
  sub=ParagraphStyle('sub',parent=body,fontSize=8.5,leading=12,textColor=HexColor('#385449'))
- out=OUT/f'hornigold-policies-{lang}.pdf';doc=SimpleDocTemplate(str(out),pagesize=(595.28,841.89),leftMargin=48,rightMargin=48,topMargin=45,bottomMargin=48,title=d['title'],author='Hornigold',subject='2026-10-09 | '+lang)
+ out=OUT/f'hornigold-policies-{lang}.pdf';doc=SimpleDocTemplate(str(out),pagesize=(595.28,841.89),leftMargin=48,rightMargin=48,topMargin=45,bottomMargin=48,title=d['title'],author='Hornigold',subject='2026-10-11 | '+lang)
  story=[]
  for index,sec in enumerate(d['sections']):
   if index:story.append(PageBreak())
-  story.extend([Paragraph('HORNIGOLD · 2026-10-09',sub),Paragraph(markup(sec['title'],lang),title)])
+  story.extend([Paragraph('HORNIGOLD · 2026-10-11',sub),Paragraph(markup(sec['title'],lang),title)])
   if index==0:story.append(Paragraph(markup(d['intro'],lang),sub));story.append(Spacer(1,8))
   paragraphs=[Paragraph(markup(str(n)+'. '+p,lang),body) for n,p in enumerate(sec['paragraphs'],1)]
   sources=[Paragraph('<link href="'+escape(source['url'])+'">'+markup(source['title'],lang)+'</link> (2026-10-09)',ParagraphStyle('source',parent=sub,leading=10,spaceAfter=2)) for source in sec.get('sources',[])]
@@ -71,8 +71,8 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
   title=ParagraphStyle('standalone-title',parent=body,fontName=font if lang=='zh-hans' else 'Bold',fontSize=20,leading=27,spaceAfter=20,keepWithNext=True)
   sub=ParagraphStyle('standalone-sub',parent=body,fontSize=9,leading=13,textColor=HexColor('#385449'))
   out=OUT/f'hornigold-{sec["id"]}-{lang}.pdf'
-  doc=SimpleDocTemplate(str(out),pagesize=(595.28,841.89),leftMargin=48,rightMargin=48,topMargin=45,bottomMargin=48,title=sec['title'],author='Hornigold',subject='2026-10-09 | '+lang)
-  story=[Paragraph('HORNIGOLD · 2026-10-09',sub),Paragraph(markup(sec['title'],lang),title)]
+  doc=SimpleDocTemplate(str(out),pagesize=(595.28,841.89),leftMargin=48,rightMargin=48,topMargin=45,bottomMargin=48,title=sec['title'],author='Hornigold',subject='2026-10-11 | '+lang)
+  story=[Paragraph('HORNIGOLD · 2026-10-11',sub),Paragraph(markup(sec['title'],lang),title)]
   for n,p in enumerate(sec['paragraphs'],1):story.append(Paragraph(markup(str(n)+'. '+p,lang),body))
   story.extend(identity_note(lang,sub))
   doc.build(story,onFirstPage=footer,onLaterPages=footer)

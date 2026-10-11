@@ -1,0 +1,41 @@
+{
+  "url": "https://be.guestsage.com/pl/c98ead00-c7fd-4013-bb45-f19539b932d4",
+  "providerLanguageVerified": false,
+  "texts": {
+    "pl": {
+      "body": "Ta strona opisuje pobyt i przygotowuje zapytania do recepcji; nie przyjmuje płatności ani samodzielnie nie potwierdza rezerwacji. Na domenie produkcyjnej może prowadzić do zewnętrznego systemu GuestSage. Dostępność, cenę końcową, zasady anulacji, operatora płatności i język potwierdzenia sprawdź w tym systemie przed złożeniem zamówienia. Samo przejście lub przygotowanie wiadomości nie jest rezerwacją.",
+      "label": "Przejdź do zewnętrznego systemu rezerwacji",
+      "limit": "Obsługa wszystkich języków, płatności i potwierdzeń w GuestSage wymaga potwierdzenia dostawcy. Bezpośredni kontakt z recepcją pozostaje dostępny."
+    },
+    "en": {
+      "body": "This website describes stays and prepares enquiries to reception; it does not collect payments or itself confirm bookings. The production domain may link to the external GuestSage system. Check availability, the final price, cancellation rules, the payment provider and the confirmation language in that system before ordering. Opening a link or preparing a message is not a reservation.",
+      "label": "Open the external booking system",
+      "limit": "Support for all languages, payments and confirmations in GuestSage requires provider confirmation. You can still contact reception directly."
+    },
+    "de": {
+      "body": "Diese Website informiert über Aufenthalte und bereitet Anfragen an die Rezeption vor; sie nimmt keine Zahlungen entgegen und bestätigt selbst keine Buchungen. Die Produktionsdomain kann zum externen GuestSage-System führen. Prüfen Sie dort Verfügbarkeit, Endpreis, Stornierungsbedingungen, Zahlungsanbieter und Bestätigungssprache vor der Bestellung. Ein Linkaufruf oder eine vorbereitete Nachricht ist keine Buchung.",
+      "label": "Externes Buchungssystem öffnen",
+      "limit": "Die Unterstützung aller Sprachen, Zahlungen und Bestätigungen in GuestSage muss der Anbieter bestätigen. Die Rezeption bleibt direkt erreichbar."
+    },
+    "zh-hans": {
+      "body": "本网站介绍住宿并协助准备发送给前台的咨询，不收取款项，也不自行确认预订。正式域名可能链接至外部 GuestSage 系统。下单前，请在该系统中核对可订情况、最终价格、取消规则、支付服务商及确认邮件语言。打开链接或准备邮件不代表预订成功。",
+      "label": "打开外部预订系统",
+      "limit": "GuestSage 对所有语言、付款和确认邮件的支持仍需服务商确认。您也可以直接联系前台。"
+    },
+    "uk": {
+      "body": "Цей сайт описує проживання та допомагає підготувати запит до рецепції; він не приймає платежів і самостійно не підтверджує бронювання. Основний домен може вести до зовнішньої системи GuestSage. Перед замовленням перевірте в ній наявність, остаточну ціну, правила скасування, платіжного оператора та мову підтвердження. Перехід за посиланням або підготовка листа не є бронюванням.",
+      "label": "Відкрити зовнішню систему бронювання",
+      "limit": "Підтримку всіх мов, платежів і підтверджень у GuestSage має підтвердити постачальник. Ви також можете звернутися безпосередньо до рецепції."
+    },
+    "es": {
+      "body": "Este sitio describe las estancias y prepara consultas a recepción; no cobra pagos ni confirma reservas por sí mismo. El dominio de producción puede enlazar al sistema externo GuestSage. Antes de realizar un pedido, compruebe allí la disponibilidad, el precio final, las condiciones de cancelación, el proveedor de pagos y el idioma de confirmación. Abrir un enlace o preparar un mensaje no constituye una reserva.",
+      "label": "Abrir el sistema externo de reservas",
+      "limit": "El proveedor debe confirmar la compatibilidad de GuestSage con todos los idiomas, pagos y confirmaciones. También puede contactar directamente con recepción."
+    },
+    "it": {
+      "body": "Questo sito descrive i soggiorni e prepara richieste alla reception; non incassa pagamenti e non conferma autonomamente prenotazioni. Il dominio di produzione può rimandare al sistema esterno GuestSage. Prima di ordinare, verificare nel sistema disponibilità, prezzo finale, condizioni di cancellazione, fornitore dei pagamenti e lingua della conferma. Aprire un link o preparare un messaggio non costituisce una prenotazione.",
+      "label": "Apri il sistema esterno di prenotazione",
+      "limit": "Il fornitore deve confermare il supporto di GuestSage per tutte le lingue, i pagamenti e le conferme. È sempre possibile contattare direttamente la reception."
+    }
+  }
+}

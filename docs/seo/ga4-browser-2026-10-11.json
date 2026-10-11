@@ -1,0 +1,103 @@
+{
+  "mode": "local-intercepted-production-host",
+  "results": [
+    {
+      "lang": "pl",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "passed": true,
+      "googleTagRequests": 1,
+      "realGoogleRequests": 0
+    }
+  ]
+}

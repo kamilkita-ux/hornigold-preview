@@ -15,10 +15,10 @@
     "es",
     "it"
   ],
-  "legalDocumentsDate": "2026-10-09",
+  "legalDocumentsDate": "2026-10-11",
   "privacyControls": true,
   "independentLegalReview": false,
-  "revision": "23.9",
+  "revision": "23.11",
   "consolidatedFrom": 18,
   "primaryOrigin": "https://kamilkita-ux.github.io",
   "primaryBasePath": "/hornigold-preview/",
@@ -39,5 +39,7 @@
   "taggedPDFs": false,
   "propertyIdentityDate": "2026-10-09",
   "apartmentCountOwnerConfirmed": 34,
-  "googleRatingSnapshot": 4.6
+  "googleRatingSnapshot": 4.6,
+  "analyticsPreparationDate": "2026-10-11",
+  "implementationDate": "2026-10-11"
 }

@@ -1,0 +1,262 @@
+[
+  {
+    "path": "/pl/",
+    "width": 375,
+    "http": 200,
+    "status": "Noclegi w centrum Katowic – pokoje i apartamenty | Hornigold",
+    "overflow": false,
+    "height": 9124,
+    "lcp": 300,
+    "cls": 0.13210864197530864,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 86.5,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/",
+    "width": 1366,
+    "http": 200,
+    "status": "Noclegi w centrum Katowic – pokoje i apartamenty | Hornigold",
+    "overflow": false,
+    "height": 10479,
+    "lcp": 160,
+    "cls": 0.041288433382137626,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 61.60000002384186,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/en/",
+    "width": 375,
+    "http": 200,
+    "status": "Rooms and apartments in central Katowice | Hornigold",
+    "overflow": false,
+    "height": 8648,
+    "lcp": 140,
+    "cls": 0,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 60.30000001192093,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/en/",
+    "width": 1366,
+    "http": 200,
+    "status": "Rooms and apartments in central Katowice | Hornigold",
+    "overflow": false,
+    "height": 10035,
+    "lcp": 184,
+    "cls": 0,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 62.5,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/pokoje/",
+    "width": 375,
+    "http": 200,
+    "status": "Pokoje i apartamenty w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 9341,
+    "lcp": 184,
+    "cls": 0.14404018641975308,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 68.70000004768372,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/pokoje/",
+    "width": 1366,
+    "http": 200,
+    "status": "Pokoje i apartamenty w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 4948,
+    "lcp": 152,
+    "cls": 0.041288433382137626,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 65.19999998807907,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/lokalizacja/",
+    "width": 375,
+    "http": 200,
+    "status": "Lokalizacja Hornigold – dojazd w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 10923,
+    "lcp": 156,
+    "cls": 0.13210864197530864,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 65.29999995231628,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/lokalizacja/",
+    "width": 1366,
+    "http": 200,
+    "status": "Lokalizacja Hornigold – dojazd w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 8138,
+    "lcp": 136,
+    "cls": 0.041288433382137626,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707",
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 62.700000047683716,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/pobyt/",
+    "width": 375,
+    "http": 200,
+    "status": "Zaplanuj nocleg w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 10035,
+    "lcp": 188,
+    "cls": 0.13210864197530864,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 74.10000002384186,
+    "errors": [],
+    "external": []
+  },
+  {
+    "path": "/pl/pobyt/",
+    "width": 1366,
+    "http": 200,
+    "status": "Zaplanuj nocleg w Katowicach | Hornigold",
+    "overflow": false,
+    "height": 5474,
+    "lcp": 152,
+    "cls": 0.041288433382137626,
+    "broken": [],
+    "tel": [
+      "tel:+48608662707"
+    ],
+    "email": [
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl",
+      "mailto:office@hornigold.pl"
+    ],
+    "analytics": false,
+    "languages": 7,
+    "ttfb": 63.59999996423721,
+    "errors": [],
+    "external": []
+  }
+]

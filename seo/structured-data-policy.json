@@ -1,22 +1,29 @@
 {
-  "reviewedLocally": "2026-10-06",
+  "reviewedLocally": "2026-10-11",
   "allowedTypes": [
-    "WebPage"
+    "WebPage",
+    "Organization",
+    "LodgingBusiness",
+    "BreadcrumbList",
+    "FAQPage",
+    "Article"
   ],
-  "approvedScope": "Identity, title, description, language and canonical URL of existing local pages only. No commercial or operational assertions.",
+  "approvedScope": "Dated identity dossier and existing visible text only; owner authorization 2026-10-11.",
   "datedEvidenceAvailable": [
-    "legal/operator-verification.json (registry record retrieved 2026-10-06; not an operational hotel fact sheet)"
+    "content/verified-facts-2026-10-11.json",
+    "docs/PROPERTY_FACT_DOSSIER_2026-10-09.md"
   ],
   "omittedFromAllBuilds": [
-    "LodgingBusiness",
-    "Organization",
-    "Accommodation",
-    "MeetingRoom",
-    "FAQPage",
-    "Article",
-    "BreadcrumbList"
+    "ImageObject without rights evidence",
+    "prices",
+    "offers",
+    "availability",
+    "aggregateRating",
+    "starRating",
+    "telephone",
+    "amenities"
   ],
-  "reason": "No per-field dated evidence/approval chain for operational facts, authorship, ratings and room claims; do not infer approval from old generated JSON-LD. Reintroduce individually only after owner review.",
+  "reason": "Each field must have a dated source; no inferred operational or sales acceptance.",
   "requiredBeforeBusinessSchema": [
     "Dated approved name/address/contact dossier",
     "Dated approved room count, check-in/out and amenities",
