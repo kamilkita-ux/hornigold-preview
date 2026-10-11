@@ -1,17 +1,17 @@
-# Rejestr wdrożenia Hornigold — 2026-10-11
+# Rejestr wdrożenia Hornigold
 
-23.15: oba podglądy potwierdzone, mail do Marka w Wysłanych; produkcja nadal 23.11. Rezerwacja i Fiserv chronione.
+Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.
 
-Stan verified dotyczy wyłącznie wskazanego zakresu i środowiska.
+verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 
 | ID | Zakres | Stan | Zmiana / wynik | Bariera |
 |---|---|---|---|---|
-| A1 | Sprawdzenie środowisk | verified | Potwierdzono produkcję 23.11 oraz oba podglądy 23.15. GitHub main: a5fdacdfaa6872491911635881f881c576b136ab. | — |
+| A1 | Sprawdzenie środowisk | verified | Produkcja przy ostatnim odczycie 23.11; oba podglądy 23.16 potwierdzone publicznie. Przygotowanie 23.17: prawidłowy wynik TLS w monitorze. | — |
 | A2 | Identyfikacja pipeline Cloudflare | blocked | Sprawdzono oba dostępne konta; brak Workera Hornigold. | Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp. |
 | A3 | Porównanie i wybór zmian | verified | Porównano sześć skryptów bajtowo; CSS ma dodatkowy moduł CloudMentor, a booking.js pochodzi od Marka. Przygotowano minimalną poprawkę Workera, która ich nie nadpisuje. | — |
 | A4 | Kopia i rollback | local_ready | Kopia 23.15 na Mac mini: 1986 plików ze zweryfikowanymi hashami i historia Git. Odtworzenie poprzedniej 23.14: build 693 tras bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare. | Marek: kopia konfiguracji i bazy Cloudflare. |
 | A5 | Publikacja produkcyjna | partial | Bieżący odczyt produkcji nadal 23.11; oba podglądy 23.15. Nie potwierdzono aktualizacji Cloudflare. Zachować istniejącą rezerwację i Fiserv. | Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera. |
-| A6 | Podglądy | verified | Oba podglądy 23.15: po 693 trasy, zero błędów publicznego audytu; zatwierdzony Instagram na każdej stronie, noindex i brak analityki. | — |
+| A6 | Podglądy | verified | Oba podglądy 23.16: po 693 trasy, zero błędów, noindex i brak analityki. | — |
 | A7 | Ochrona pozostałych zmian | verified | Nie nadpisano pierwotnego checkoutu, DNS ani poczty. Właściciel dodatkowo chroni istniejący moduł rezerwacji i Fiserv: bez zmian kodu, konfiguracji i połączeń bez nowego polecenia. Dodano lokalną kontrolę hashy wskazanych chronionych plików; 6 testów. Nie podłączono do nieznanego pipeline. | — |
 | B1 | GuestSage, PMS i operator | blocked | Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste. | Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. |
 | B2 | Spójność kontaktu i dokumentów | local_ready | Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail. | Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane. |
@@ -25,7 +25,7 @@ Stan verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 | D3 | Dostępność | partial | 1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. | Manualny odbiór czytnikiem ekranu i pełna przyszła ścieżka dostawcy. PDF-y nie mają znaczników; dostępny odpowiednik HTML zachowano. |
 | E1 | SEO wszystkich adresów | verified | Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki. | — |
 | E2 | Linki i fragmenty | local_ready | 8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji. | — |
-| E3 | Search Console | partial | Sprawdzono siedem stron głównych w GSC: PL/EN/DE/ES/IT w indeksie, zh-Hans/UK nieznane; prośby o indeksację obu przyjęte przez Google. Sitemap nadal: nie udało się pobrać; publiczny XML 200 i 693 URL. | Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne. |
+| E3 | Search Console | partial | Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy. | Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem. |
 | E4 | GSC, GA4 i stare dane | verified | Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań. | Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano. |
 | F1 | Fakty i siedem języków | partial | Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. | Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review. |
 | F2 | Schema i odpowiedzi AI | local_ready | ImageObject opublikowane w obu podglądach 23.14: 1911 encji na 546 stronach, publiczna kontrola 693 tras bez błędów. Pozostałe typy zachowane; bez niepotwierdzonych twierdzeń o prawach/licencjach. | Marek: wdrożenie Cloudflare i publiczny odbiór produkcji; prawa do zdjęć pozostają odrębnym G5. |
@@ -35,10 +35,10 @@ Stan verified dotyczy wyłącznie wskazanego zakresu i środowiska.
 | G4 | Autentyczne opinie | local_ready | Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych. | — |
 | G5 | Zdjęcia i lokalne wzmianki | partial | Inwentaryzacja obrazów i wymóg weryfikacji praw. | Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek. |
 | H1 | Bezpieczeństwo i odtworzenie | partial | Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje. | Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503. |
-| I1 | Monitoring dostępności | partial | Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. | Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone. |
-| I2 | Kontrolowany alarm | partial | Kontrolowana symulacja została wykryta i zakończyła checker kodem 1. | Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji. |
+| I1 | Monitoring dostępności | partial | Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. | Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone. |
+| I2 | Kontrolowany alarm | partial | Kontrolowana symulacja została wykryta i zakończyła checker kodem 1. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. | Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji. |
 | I3 | Dashboard | partial | Wewnętrzny panel pokazuje źródła, aktualność i brak danych zamiast zmyślonych liczb. | Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej. |
 | J1 | Rejestr i dowody | verified | 34 pozycje, trwałe dowody i rozdzielenie stanów. | — |
 | J2 | Utrzymanie i obserwacja | verified | Instrukcja publikacji, rollbacku, kopii i przeglądów; właściciele i terminy. | — |
 
-Liczba pozycji: 34. {"verified": 13, "blocked": 3, "local_ready": 5, "partial": 13}. Nie jest to procent wykonania.
+34 pozycje. {"verified": 13, "blocked": 3, "local_ready": 5, "partial": 13}. To nie jest procent wykonania.

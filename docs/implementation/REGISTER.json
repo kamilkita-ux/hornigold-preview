@@ -7,7 +7,7 @@
       "id": "A1",
       "status": "verified",
       "environment": "production / previews",
-      "change": "Potwierdzono produkcję 23.11 oraz oba podglądy 23.15. GitHub main: a5fdacdfaa6872491911635881f881c576b136ab.",
+      "change": "Produkcja przy ostatnim odczycie 23.11; oba podglądy 23.16 potwierdzone publicznie. Przygotowanie 23.17: prawidłowy wynik TLS w monitorze.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -77,12 +77,12 @@
       "id": "A6",
       "status": "verified",
       "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.15: po 693 trasy, zero błędów publicznego audytu; zatwierdzony Instagram na każdej stronie, noindex i brak analityki.",
+      "change": "Oba podglądy 23.16: po 693 trasy, zero błędów, noindex i brak analityki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/public-sites-23.15.json",
-        "evidence/public-github-23.15.json",
-        "evidence/PUBLICATION_23.15.json"
+        "evidence/public-sites-23.16.json",
+        "evidence/public-github-23.16.json",
+        "evidence/PUBLICATION_23.16.json"
       ],
       "barrier": null,
       "next": "Obserwować podglądy; produkcja wymaga właściwego pipeline.",
@@ -273,14 +273,16 @@
       "id": "E3",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Sprawdzono siedem stron głównych w GSC: PL/EN/DE/ES/IT w indeksie, zh-Hans/UK nieznane; prośby o indeksację obu przyjęte przez Google. Sitemap nadal: nie udało się pobrać; publiczny XML 200 i 693 URL.",
+      "change": "Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
-        "evidence/gsc-seven-languages-2026-10-11.json"
+        "evidence/gsc-seven-languages-2026-10-11.json",
+        "evidence/gsc-sitemap-live-test.json",
+        "evidence/sitemap-client-check.json"
       ],
-      "barrier": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
-      "next": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
+      "barrier": "Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem.",
+      "next": "Odczytać raport po następnym przetworzeniu; nie ponawiać w pętli zgłoszeń i nie zdejmować zabezpieczeń Cloudflare na podstawie samego User-Agent.",
       "title": "Search Console"
     },
     {
@@ -416,11 +418,13 @@
       "id": "I1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10.",
+      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-latest.json",
-        "QUALITY_PR_REVIEW_2026-10-11.md"
+        "QUALITY_PR_REVIEW_2026-10-11.md",
+        "evidence/monitor-tls-fixed.json",
+        "evidence/monitor-tls-controlled-alarm.json"
       ],
       "barrier": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
       "next": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
@@ -430,11 +434,13 @@
       "id": "I2",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Kontrolowana symulacja została wykryta i zakończyła checker kodem 1.",
+      "change": "Kontrolowana symulacja została wykryta i zakończyła checker kodem 1. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-controlled-alarm.json",
-        "QUALITY_PR_REVIEW_2026-10-11.md"
+        "QUALITY_PR_REVIEW_2026-10-11.md",
+        "evidence/monitor-tls-fixed.json",
+        "evidence/monitor-tls-controlled-alarm.json"
       ],
       "barrier": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
       "next": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
@@ -487,5 +493,5 @@
     "local_ready": 5,
     "partial": 13
   },
-  "publicationSnapshot": "23.15: oba podglądy potwierdzone, mail do Marka w Wysłanych; produkcja nadal 23.11. Rezerwacja i Fiserv chronione."
+  "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare."
 }

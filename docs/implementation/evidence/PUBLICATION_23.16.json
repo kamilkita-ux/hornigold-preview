@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-11T21:57:02.015Z",
+  "revision": "23.16",
+  "github": {
+    "repository": "kamilkita-ux/hornigold-preview",
+    "branch": "main",
+    "commit": "f315e04a620122abf21bbae1d750fa1e62dd89df",
+    "run": "38178229480",
+    "status": "success"
+  },
+  "sites": {
+    "id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_9677b239022c819180a1dd141ab8105c",
+    "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+    "version_number": 38,
+    "source": {
+      "commit_sha": "05fea0a62c96027380d5b4c762d8ed27abb345f2"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000000990824687502bdcb55d0f26",
+      "content_hash": "sha256:9b663f000be2ff715f332b1bc8f0fda313071409069dd44ccc7bf703a90fb945",
+      "size_bytes": 53381120,
+      "file_count": 1669
+    },
+    "screenshot_url": null,
+    "deployment_id": null,
+    "deployment": {
+      "id": "appgdep_6acc057f61d08191859bc88a60c7ca02",
+      "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+      "title": "Hornigold w Zielonej Kamienicy",
+      "version_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_9677b239022c819180a1dd141ab8105c",
+      "type": "publish",
+      "status": "succeeded",
+      "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "has_mcp": false,
+      "screenshot_asset_pointer": null,
+      "provider_deployment_id": "site---6ac24ff4d7d08191aef99366bb3d966f",
+      "failure_message": null,
+      "env_set_revision": 0,
+      "updated_at": "2026-10-11T21:54:31.396798+00:00"
+    }
+  },
+  "tests": {
+    "pythonPassed": 18,
+    "newProtectionTests": 6,
+    "routesPerPreview": 693,
+    "publicFailures": 0
+  },
+  "backup": {
+    "path": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_235318-release23",
+    "files": 1998,
+    "readbackVerified": true
+  },
+  "mail": {
+    "id": "AAMkADA0ZDQwZDcxLTNkMzQtNGMyZS1iODJiLWI1ODE4OGMwMzkyYwBGAAAAAABUrZN1upf0Rrc-NHXXnp9XBwDe34BR7GzjSLJfU_CqVPVUAAAAAAEJAADe34BR7GzjSLJfU_CqVPVUAAASjQKPAAA=",
+    "subject": "Hornigold 23.16 — nowa aktualizacja na main, ochrona rezerwacji i Fiserv",
+    "sender": {
+      "emailAddress": {
+        "address": "lu@farmyfotowoltaiki.pl",
+        "name": "LU - Cyfrowa Asystentka Prezesa Zarządu"
+      }
+    },
+    "receivedDateTime": "2026-10-11T21:56:42Z",
+    "verifiedInSentItems": true,
+    "deliveryVerified": false
+  },
+  "production": {
+    "lastVerifiedRevision": "23.11",
+    "updatedByThisPublication": false
+  },
+  "protectedIntegrations": "No booking/Fiserv implementation or configuration changes; local checker requires Marek's actual file inventory."
+}
