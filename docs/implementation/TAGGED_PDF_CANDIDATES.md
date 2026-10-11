@@ -1,0 +1,14 @@
+# Lokalne kandydaty PDF ze strukturą
+
+Stan: przygotowanie, nie publikacja. Generator `scripts/build_tagged_legal_candidates.py` zapisuje wyłącznie osobny katalog kandydatów; nie zmienia `site/`, rezerwacji ani Fiserv. Źródła: zatwierdzone `legal/*.json` i `content/property-identity.json`.
+
+21 dokumentów / 7 języków: pakiet dokumentów oraz pełne i dziecięce standardy. Kontrola dokładnej treści Poppler: zero brakujących elementów; nagłówek H1, listy LI i język dokumentu sprawdzone. Poprawiono mapowanie stylu nagłówka Writer/Web do H1 oraz język katalogu PDF. Czcionki pochodzą z `legal/fonts` przez lokalny FONTCONFIG_FILE, bez instalacji systemowej. pypdf przestawia część chińskiej interpunkcji przy ekstrakcji; nie pominięto tych różnic — zastosowano niezależną ekstrakcję Poppler layout.
+
+Wyrenderowano 127 stron i przejrzano arkusze wszystkich języków. Do poprawy: pakiet chiński ma stronę z samymi źródłami. Wymagane jeszcze: ostateczny świeży build generatora, ponowna kontrola układu, struktury linków i kolejności czytania, zgodna informacja HTML/PDF o dostępności przed ewentualną podmianą. Nie potwierdzono PDF/UA, PAD ani całej ścieżki rezerwacji.
+
+Uruchomienie: Python z pypdf 6.20.0, `--soffice` (lokalny LibreOffice), `--pdftotext` (Poppler), `--output` (nowy katalog poza site/). Nie ma automatycznego kopiowania do opublikowanych dokumentów.
+
+## Aktualizacja kontroli
+Świeży build generatora: 21/21, tekst źródłowy kompletny, wszystkie czcionki osadzone. Audyt struktury potwierdził zgodność MCID z treścią stron i kolejnością odwołań oraz powiązania wszystkich linków; zero błędów. Cztery kontrolowane uszkodzenia zostały wykryte. Poprawiono odstępy pod nagłówkami i układ chińskich źródeł; sprawdzono stronę chińską z nagłówkiem prywatności w pełnym rozmiarze. Dowód: evidence/tagged-pdf-candidates-23.18.json.
+
+Do adopcji: zaktualizować informację o znacznikach w akapicie accessibility we wszystkich 7 JSON-ach, jednocześnie wygenerować końcowe HTML/PDF, ponownie przejrzeć finalne arkusze stron, wykonać build i regresję, dopiero potem podmienić istniejące nazwy PDF. PDF/UA i pełny odbiór czytnikiem pozostają niepotwierdzone.
