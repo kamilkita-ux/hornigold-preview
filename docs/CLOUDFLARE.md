@@ -196,4 +196,22 @@ Wyniki:
 
 Worker `29de95ba-b100-49a3-ab1b-c7c024e7135b`; poprzedni `6053200a-797c-41ba-8fb6-4238e370578e` przywraca `wrangler rollback`. Smoke `scripts/cloudflare-release.mjs --smoke` przeszedł w całości: 18/18, CSP identyczny jak przed wdrożeniem, brak skryptów Meta na stronach.
 
-**Search Console: plik weryfikacyjny odpowiada przez przekierowanie.** `/google6078b276ecb15bd4.html` zwraca 307 na `/google6078b276ecb15bd4`, a tam 200 z poprawną treścią. To domyślne `assets.html_handling` (`auto-trailing-slash`) Cloudflare, nie kod Kamila. Pomoc Google dopuszcza przekierowania w obrębie tej samej domeny, ale w instrukcji przesyłania pliku pisze też, że przekierowań nie śledzi. Jeśli weryfikacja plikiem się nie powiedzie, pewniejszą metodą jest rekord DNS TXT w strefie `hornigold.pl` (właściwość „Domena” obejmuje też `www`). Token podaje właściciel konta Search Console.
+**Search Console: plik weryfikacyjny — poprawione w 23.9-r3 (11 października 2026 r.).**
+
+Problem:
+- Po 23.9-r2 adres `/google6078b276ecb15bd4.html` zwracał 307 na `/google6078b276ecb15bd4`. Wynikało to z domyślnego `assets.html_handling` (`auto-trailing-slash`) Cloudflare.
+- Pomoc Google opisuje przekierowania niespójnie, więc weryfikacja plikiem mogła nie przejść.
+- Zmiana `html_handling` na `none` odpadła, bo zepsułaby `/pl/` → `/pl/index.html` na całej stronie.
+
+Poprawka w `server/production-entry.mjs` (warstwa tylko dla produkcji Cloudflare):
+- `GET`/`HEAD` na `/google<hex>.html` pobiera z `ASSETS` ten sam plik pod adresem bez `.html` i oddaje jego treść z kodem 200;
+- gdy pliku nie ma, żądanie idzie zwykłą ścieżką i kończy się 404;
+- źródłem treści zostaje plik w `site/`.
+
+Testy i weryfikacja:
+- `tests/search-console-verification.test.mjs` używa atrapy assetów z 307. Razem z resztą testów node 91/91.
+- Smoke w `cloudflare-release.mjs` znów wymaga 200 bez przekierowania.
+- Na produkcji `GET`/`HEAD` → 200 `text/html`, treść `google-site-verification: google6078b276ecb15bd4.html`. CSP bez zmian.
+- Worker `84eaa0a1-8645-4607-83ca-179488cf2fef`; poprzedni `29de95ba` przywraca `wrangler rollback`.
+
+**Kamil:** to odstępstwo od Twojego kodu. Przy kolejnym scaleniu proszę przenieść blok z `production-entry.mjs` do Sites, inaczej scalenie go cofnie i smoke zatrzyma wydanie.
