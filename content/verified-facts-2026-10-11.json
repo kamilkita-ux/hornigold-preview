@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-11",
+  "sources": [
+    {
+      "path": "docs/PROPERTY_FACT_DOSSIER_2026-10-09.md",
+      "date": "2026-10-09",
+      "basis": "owner confirmed 34 rental apartments and property identity"
+    },
+    {
+      "path": "content/property-identity.json",
+      "date": "2026-10-09",
+      "basis": "visible approved multilingual identity"
+    }
+  ],
+  "name": "Hornigold w Zielonej Kamienicy",
+  "url": "https://hornigold.pl",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Mikołaja Kopernika 6",
+    "addressLocality": "Katowice",
+    "addressCountry": "PL"
+  },
+  "excluded": [
+    "prices",
+    "availability",
+    "aggregateRating",
+    "starRating",
+    "amenityFeature",
+    "checkinTime",
+    "checkoutTime",
+    "legal identifiers",
+    "photographic authorship"
+  ],
+  "externalBooking": {
+    "url": "https://be.guestsage.com/pl/c98ead00-c7fd-4013-bb45-f19539b932d4",
+    "basis": "existing production handoff observed 2026-10-11",
+    "functionalAcceptance": false
+  }
+}

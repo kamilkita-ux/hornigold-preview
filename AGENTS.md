@@ -48,3 +48,6 @@ The owner explicitly approved verification of https://hornigold.pl/ for hotelhor
 
 ## Analytics implementation and GitHub publication approval (2026-10-11)
 The owner explicitly requested implementing the prepared measurement and updating GitHub. Revision 23.10 adds separate opt-in analytics consent in seven languages, synchronized policy PDFs and a production-only GA4 tag for verified new property 558323228 / stream 16101873868 / G-ZJ9VJNGHGT. Keep previews nontracking/noindex. Do not activate Ads, Meta or payment/PMS workflows, migrate old website data, or infer Cloudflare deployment from GitHub publication. Backup and reread before push. Real event receipt remains unverified until a consented live test. Account-specific processor/transfer checks remain operational tasks, not certified by website copy.
+
+## Full implementation authorization — 2026-10-11
+Owner supplied the 34-point implementation request: implement/test/publish available work, preserve preview exclusions and existing services. Extend schema beyond WebPage only with dated evidence and visible facts. Preserve actual GuestSage handoff; do not infer successful reservations/payments. No historical migration. New fees, permissions, account ownership and real payment charges require a separate decision. Keep a durable 34-item register, backup, rollback and public readback.

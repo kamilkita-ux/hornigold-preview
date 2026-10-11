@@ -18,7 +18,7 @@ class SeoSafety(unittest.TestCase):
     def test_no_unverified_commercial_schema_leaks(self):
         s=self.soup();apply_seo(s,'/pl/',R,'production-ready',{'/pl/':'/pl/'},{})
         ld=json.loads(s.select_one('script[type="application/ld+json"]').string)
-        self.assertEqual([x['@type'] for x in ld['@graph']],['WebPage'])
+        self.assertEqual([x['@type'] for x in ld['@graph']],['WebPage','LodgingBusiness','Organization'])
         self.assertNotIn('numberOfRooms',str(ld));self.assertNotIn('priceRange',str(ld))
     def test_alias_cannot_leak_business_schema(self):
         s=self.soup();apply_seo(s,'/old/',R,'production-ready',{'/pl/':'/pl/'},{})

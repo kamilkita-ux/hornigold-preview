@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-11",
+  "source": "Safari accessibility UI, read after save/reload",
+  "ga4": {
+    "account": "hotelhornigold@gmail.com",
+    "property": "558323228",
+    "stream": "16101873868",
+    "measurement": "G-ZJ9VJNGHGT",
+    "enhancedMeasurement": "OFF saved and reread after reload",
+    "dataReceipt": "No data in last 48 hours"
+  },
+  "gsc": {
+    "property": "https://hornigold.pl/",
+    "owner": "hotelhornigold@gmail.com",
+    "verification": "Google confirmed automatic ownership via HTML file",
+    "sitemapSubmission": "accepted",
+    "sitemapFetch": "initial status: could not fetch; pending retry, not confirmed success",
+    "inspections": {
+      "https://hornigold.pl/pl/": {
+        "indexed": true,
+        "lastCrawl": "2026-10-10 03:50:27",
+        "fetch": "successful",
+        "canonicalGoogle": "inspected URL",
+        "userCanonical": "https://hornigold.pl/pl/"
+      },
+      "https://hornigold.pl/en/": {
+        "indexed": true
+      }
+    }
+  },
+  "cloudflare": {
+    "accessibleAccounts": [
+      "5ad519873c783557728c819d0f1ae5b1",
+      "a9ef2a238caad7300877ba80a42e2942"
+    ],
+    "projects": [
+      "none in first account",
+      "ffp-inwestor only in second account"
+    ],
+    "hornigoldWorkerAccessible": false
+  },
+  "monitoring": {
+    "automationId": "hornigold-kontrola-produkcji-i-seo",
+    "status": "ACTIVE",
+    "schedule": "daily07:30 Europe/Warsaw",
+    "channel": "this Codex chat",
+    "owner": "Kamil",
+    "firstScheduledRun": "2026-10-12",
+    "controlledCheckerFailure": "detected; scheduled notification delivery not yet verified"
+  },
+  "gscGa4Link": {
+    "status": "Created and reread in GA4 UI",
+    "property": "https://hornigold.pl/",
+    "stream": "16101873868",
+    "date": "2026-10-11"
+  },
+  "retention": {
+    "eventsMonths": 14,
+    "usersMonths": 14,
+    "resetOnActivity": false,
+    "readback": "2026-10-11"
+  },
+  "signals": {
+    "enabled": false,
+    "userProvidedData": false,
+    "readback": "2026-10-11"
+  },
+  "advertisingPersonalization": {
+    "allowedRegions": 0,
+    "totalRegions": 307,
+    "rereadAfterReload": true
+  },
+  "GBP": {
+    "account": "hotelhornigold@gmail.com",
+    "managerAccessVisible": true,
+    "name": "Hornigold w Zielonej Kamienicy",
+    "address": "Mikołaja Kopernika 6, 40-064 Katowice",
+    "phone": "608 662 707",
+    "ratingSnapshot": 4.6,
+    "reviewCountSnapshot": 639,
+    "starsDisplayed": 4,
+    "starsNotVerified": true,
+    "instagramDisplayed": "https://instagram.com/hornigold.zielona.kamienica/",
+    "linkedinDisplayed": "https://linkedin.com/company/hornigold-w-zielonej-kamienicy-sp-z-o-o/",
+    "noProfileMutation": true,
+    "categoryAdmin": "Noclegi ze śniadaniem",
+    "breakfastHoursAdmin": "07:00–10:00 daily",
+    "websiteAdmin": "https://hornigold.pl/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "profileId": "8443598707508737068"
+  }
+}

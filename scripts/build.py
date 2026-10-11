@@ -41,6 +41,12 @@ for p in OUT.rglob('*.html'):
   s.footer.insert(1,social)
  if s.select_one('[data-site-version]'):
   script=s.new_tag('script',src='/assets/browser-language.js');script['defer']='';s.head.append(script)
+ if opts.mode=='production-ready' and s.body and s.body.get('data-page-key')=='rezerwacja':
+  handoff=json.loads((ROOT/'content/booking-handoff.json').read_text());lang=s.html.get('lang','pl').lower();text=handoff['texts'][lang]
+  notice=s.select_one('.notice')
+  if notice:
+   a=s.new_tag('a',href=handoff['url'],attrs={'class':'button','rel':'noopener noreferrer','data-booking-external':''});a.string=text['label'];notice.append(a)
+   explanation=s.new_tag('p');explanation.string=text['limit'];notice.append(explanation)
  if s.select_one('[data-site-version]') and opts.mode=='production-ready':
   for name in ['analytics-config.js','analytics.js']:
    script=s.new_tag('script',src='/assets/'+name,defer=True);s.head.append(script)

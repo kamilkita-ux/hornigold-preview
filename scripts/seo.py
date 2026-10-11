@@ -52,11 +52,43 @@ def apply_seo(soup, route, root, mode, routes, overrides):
         set_meta(soup, 'twitter:image', image['content'])
         set_meta(soup, 'og:image:alt', title, 'property')
         set_meta(soup, 'twitter:image:alt', title)
-    # Only page identity is asserted. Business claims require an explicit evidence dossier.
-    graph = {'@context':'https://schema.org','@graph':[{
-        '@type':'WebPage', '@id':url+'#page', 'url':url,
-        'name':title, 'description':description, 'inLanguage':soup.html['lang']
-    }]}
+    facts=json.loads((root/'content/verified-facts-2026-10-11.json').read_text())
+    entity_id=ORIGIN+'/#lodging'
+    graph={'@context':'https://schema.org','@graph':[
+        {'@type':'WebPage','@id':url+'#page','url':url,'name':title,'description':description,'inLanguage':soup.html['lang'],'about':{'@id':entity_id}},
+        {'@type':'LodgingBusiness','@id':entity_id,'name':facts['name'],'url':facts['url'],'address':facts['address']},
+        {'@type':'Organization','@id':ORIGIN+'/#organization','name':facts['name'],'url':facts['url']}
+    ]}
+    # Visible home/current trail, translated using the existing page heading.
+    home='/' + canonical_route.split('/')[1] + '/'
+    if canonical_route!=home and soup.main and not soup.select_one('.breadcrumb'):
+        trail=soup.new_tag('nav',attrs={'class':'breadcrumb','aria-label':'Breadcrumb'})
+        link=soup.new_tag('a',href=home);link.string='Hornigold';trail.append(link)
+        trail.append(' / ')
+        current=soup.new_tag('span',attrs={'aria-current':'page'});current.string=soup.h1.get_text(' ',strip=True);trail.append(current)
+        soup.main.insert(0,trail)
+    # Breadcrumbs are derived only from actual visible links, never guessed slugs.
+    nav=soup.select_one('.breadcrumb, [aria-label="Breadcrumb"]')
+    if nav:
+        items=[]
+        for link in nav.select('a[href]'):
+            target=link['href']
+            if target.startswith('/') and target in routes.values():
+                items.append({'@type':'ListItem','position':len(items)+1,'name':link.get_text(' ',strip=True),'item':ORIGIN+target})
+        if items:
+            items.append({'@type':'ListItem','position':len(items)+1,'name':soup.h1.get_text(' ',strip=True),'item':url})
+            graph['@graph'].append({'@type':'BreadcrumbList','@id':url+'#breadcrumbs','itemListElement':items})
+    # Only FAQ visible on the FAQ page; exclude unreviewed operational claims.
+    if soup.body.get('data-page-key')=='faq':
+        questions=[]
+        for detail in soup.select('main details'):
+            summary=detail.find('summary'); answer=detail.find('p')
+            if summary and answer and ('office@hornigold.pl' in answer.get_text() or 'Kopernika 6' in answer.get_text()):
+                questions.append({'@type':'Question','name':summary.get_text(' ',strip=True),'acceptedAnswer':{'@type':'Answer','text':answer.get_text(' ',strip=True)}})
+        if questions:graph['@graph'].append({'@type':'FAQPage','@id':url+'#faq','mainEntity':questions})
+    # Editorial content identifies its publisher, without inventing a personal author.
+    if soup.body.get('data-page-key','').startswith('katowice/') and soup.select_one('main a[href^="https://"]'):
+        graph['@graph'].append({'@type':'Article','@id':url+'#article','headline':soup.h1.get_text(' ',strip=True),'inLanguage':soup.html['lang'],'mainEntityOfPage':{'@id':url+'#page'},'publisher':{'@id':ORIGIN+'/#organization'}})
     script = soup.new_tag('script', type='application/ld+json')
     script.string = json.dumps(graph, ensure_ascii=False).replace('<', chr(92)+'u003c')
     soup.head.append(script)

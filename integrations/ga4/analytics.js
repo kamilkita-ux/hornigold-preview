@@ -48,9 +48,17 @@
     let action;
     if(raw.startsWith('tel:'))action='phone';
     else if(raw.startsWith('mailto:'))action='email';
+    else if(raw.startsWith('https://be.guestsage.com/'))action='booking';
+    else if(/\/rezerwacja\//.test(raw))action='booking';
     else if(link.hasAttribute('data-stay'))action='stay_planner';
     else{try{const url=new URL(raw,location.origin);const domains={'www.instagram.com':'instagram','www.facebook.com':'facebook','www.linkedin.com':'linkedin'};action=domains[url.hostname];}catch{}}
-    if(action)tag('event',action==='stay_planner'?'stay_planner_click':(['phone','email'].includes(action)?'contact_click':'social_link_click'),{action,language:document.documentElement?.lang||'und',page_location:location.origin+location.pathname,page_referrer:''});
+    if(action)tag('event',({phone:'click_phone',email:'click_email',booking:'booking_click',stay_planner:'stay_planner_click'}[action]||'social_link_click'),{action,language:document.documentElement?.lang||'und',page_location:location.origin+location.pathname,page_referrer:''});
+  });
+  document.addEventListener('change',event=>{
+    if(!granted||window.HornigoldPrivacy?.allowsAnalytics?.()!==true)return;
+    const input=event.target;if(!input?.matches?.('[data-compare]')||!input.checked)return;
+    const allowed=['classic','suite','premium','deluxe','prestige','deluxe-premium','apartament-deluxe','prestige-deluxe','hornigold'];
+    if(allowed.includes(input.value))tag('event','select_apartment',{apartment_id:input.value,language:document.documentElement.lang,page_location:location.origin+location.pathname,page_referrer:''});
   });
   window.addEventListener('hornigold:privacy',apply);
   apply();

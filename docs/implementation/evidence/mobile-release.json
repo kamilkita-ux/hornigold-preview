@@ -1,0 +1,292 @@
+{
+  "cases": 29,
+  "failures": [],
+  "results": [
+    {
+      "lang": "pl",
+      "width": 320,
+      "height": 8347,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "height": 8175,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 320,
+      "height": 8761,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 320,
+      "height": 8436,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 320,
+      "height": 8607,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 320,
+      "height": 8675,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 320,
+      "height": 8445,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 375,
+      "height": 7730,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "height": 7397,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "height": 7767,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "height": 7863,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "height": 7886,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "height": 7764,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "height": 7618,
+      "overflow": false,
+      "rooms": 3,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 768,
+      "height": 11601,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "height": 11284,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 768,
+      "height": 11528,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 768,
+      "height": 10741,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 768,
+      "height": 11280,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 768,
+      "height": 11445,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 768,
+      "height": 11414,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "height": 10466,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "height": 10094,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "height": 10206,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "height": 9919,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "height": 10234,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "height": 10211,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "height": 10129,
+      "overflow": false,
+      "rooms": 9,
+      "counter": false,
+      "suggestion": 1,
+      "errors": []
+    },
+    {
+      "type": "accept-language",
+      "href": "http://127.0.0.1:4382/de/pobyt/?arrival=2027-05-12&departure=2027-05-15&guests=3&room=classic",
+      "saved": "de",
+      "errors": []
+    }
+  ]
+}

@@ -124,3 +124,6 @@ Central seven-language copy: `content/property-identity.json`. The visible foote
 
 ## Cloudflare production SEO preparation (2026-10-09)
 See `docs/CLOUDFLARE_SEO_DEPLOYMENT_2026-10-09.md`. Owner authorized indexing on hornigold.pl; actual Cloudflare deployment pipeline/access is awaiting Marek. The separate production package keeps all previews excluded and does not enable booking/payments.
+
+## Wydanie 23.11 — wdrożenie audytu 11.10.2026
+Bieżący stan 34 punktów: [rejestr](docs/implementation/REGISTER.md). [Utrzymanie i rollback](docs/implementation/MAINTENANCE.md), [panel rzeczywistych źródeł](docs/implementation/dashboard.html). Podglądy mają noindex, bez pomiaru produkcyjnego i transakcji. Gotowy pakiet Cloudflare nie oznacza wdrożenia do hornigold.pl. Potwierdzenie publikacji zapisuje osobny raport.

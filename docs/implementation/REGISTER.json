@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-11",
+  "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
+  "productionBaseline": "23.9",
+  "items": [
+    {
+      "id": "A1",
+      "status": "verified",
+      "environment": "external",
+      "change": "Odczyt produkcji 23.9, Pages 23.10, Sites 23.9 i źródeł.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/hornigold-live-audit-20261011.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Sprawdzenie środowisk"
+    },
+    {
+      "id": "A2",
+      "status": "blocked",
+      "environment": "local / pending production",
+      "change": "Sprawdzono oba dostępne konta; brak Workera Hornigold.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
+      "next": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
+      "title": "Identyfikacja pipeline Cloudflare"
+    },
+    {
+      "id": "A3",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Zachowano istniejący odnośnik GuestSage; neutralne dokumenty, zgody, mobilny układ i schema.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../content/booking-handoff.json"
+      ],
+      "barrier": "Nieznane zmiany wdrożone przez Marka poza źródłem należy uzgodnić przed podmianą.",
+      "next": "Nieznane zmiany wdrożone przez Marka poza źródłem należy uzgodnić przed podmianą.",
+      "title": "Porównanie i wybór zmian"
+    },
+    {
+      "id": "A4",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Kopia na Mac mini; 3572/3572 hashy i odtworzony build.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/restore-test.json"
+      ],
+      "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
+      "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
+      "title": "Kopia i rollback"
+    },
+    {
+      "id": "A5",
+      "status": "blocked",
+      "environment": "local / pending production",
+      "change": "Przygotowany izolowany pakiet Cloudflare; nie wdrożono do produkcji.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "MAINTENANCE.md"
+      ],
+      "barrier": "Właściwy pipeline i dostęp Marka.",
+      "next": "Właściwy pipeline i dostęp Marka.",
+      "title": "Publikacja produkcyjna"
+    },
+    {
+      "id": "A6",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Preview pozostaje noindex, Disallow /, bez pomiaru produkcyjnego i transakcji.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../seo/audit-preview.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Podglądy"
+    },
+    {
+      "id": "A7",
+      "status": "verified",
+      "environment": "external",
+      "change": "Nie nadpisano pierwotnego brudnego checkoutu; nie zmieniono DNS i poczty.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../AGENTS.md"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Ochrona pozostałych zmian"
+    },
+    {
+      "id": "B1",
+      "status": "blocked",
+      "environment": "local / pending production",
+      "change": "Zewnętrzny link odpowiada 200; odbiór funkcjonalny niepotwierdzony. Wysłano zapytanie do recepcji.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../content/booking-handoff.json"
+      ],
+      "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
+      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
+      "title": "GuestSage, PMS i operator"
+    },
+    {
+      "id": "B2",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../legal/pl.json"
+      ],
+      "barrier": "Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane.",
+      "next": "Recepcja: potwierdzić odbiór oznaczonej wiadomości; API wysyłki przyjęło zlecenie, doręczenie niezweryfikowane.",
+      "title": "Spójność kontaktu i dokumentów"
+    },
+    {
+      "id": "B3",
+      "status": "blocked",
+      "environment": "local / pending production",
+      "change": "Nie wykonano fikcyjnego testu płatności ani rezerwacji produkcyjnej.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "MAINTENANCE.md"
+      ],
+      "barrier": "Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa.",
+      "next": "Dostawcy: sandbox, dokumentacja, scenariusze sukces/odmowa/powtórzony webhook/zwrot; recepcja: potwierdzona taryfa.",
+      "title": "Rezerwacja i płatność end-to-end"
+    },
+    {
+      "id": "C1",
+      "status": "verified",
+      "environment": "external",
+      "change": "Właściwa usługa/strumień; pomiar zaawansowany wyłączony, Signals wyłączone, retencja 14 miesięcy bez resetu.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Konto i ustawienia GA4"
+    },
+    {
+      "id": "C2",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "14 przypadków GA4 w przeglądarce, 3 testy jednostkowe cyklu oraz rzeczywista synchronizacja dwóch kart i aktywne wygaśnięcie; przed zgodą brak Google.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../seo/ga4-browser-2026-10-11.json",
+        "evidence/consent-lifecycle-browser.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Zgody i ich cykl życia"
+    },
+    {
+      "id": "C3",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "click_phone, click_email, booking_click, select_apartment; bez fałszywych lead/purchase. UTM allowlist; brak dowolnego referrera.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../tests/ga4-staged.test.mjs"
+      ],
+      "barrier": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
+      "next": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
+      "title": "Zdarzenia i minimalizacja danych"
+    },
+    {
+      "id": "C4",
+      "status": "blocked",
+      "environment": "local / pending production",
+      "change": "Lokalne testy nie wysyłały do Google; produkcja nadal nie ma nowego kodu.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "dashboard-data.json"
+      ],
+      "barrier": "Po wdrożeniu: świadoma zgoda testera i odczyt właściwego GA4.",
+      "next": "Po wdrożeniu: świadoma zgoda testera i odczyt właściwego GA4.",
+      "title": "Odbiór rzeczywistych zdarzeń"
+    },
+    {
+      "id": "D1",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Usunięto przesunięcie wywołane propozycją języka; 3 pokoje i krótsza strona główna.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/browser-after.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Układ mobile i CLS"
+    },
+    {
+      "id": "D2",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/image-inventory.json"
+      ],
+      "barrier": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
+      "next": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
+      "title": "Obrazy i wydajność"
+    },
+    {
+      "id": "D3",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "28 przypadków axe bez naruszeń; dostępne HTML odpowiadają PDF.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/axe-after.json"
+      ],
+      "barrier": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
+      "next": "Pełny odbiór z czytnikiem ekranu/użytkownikami i oznaczone PDF-y; ścieżka dostawcy wymaga sandboxu.",
+      "title": "Dostępność"
+    },
+    {
+      "id": "E1",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "693 trasy, canonical, hreflang, H1 i metadane; audyt bez błędów.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../seo/audit-production-ready.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "SEO wszystkich adresów"
+    },
+    {
+      "id": "E2",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/fragments.json",
+        "evidence/external-links.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Linki i fragmenty"
+    },
+    {
+      "id": "E3",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Własność zweryfikowana, sitemapę przesłano, PL i EN zaindeksowane.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
+      "next": "Google: pierwszy odczyt sitemapy nieudany; obserwacja 12.10, Marek: logi jeśli powtarzalne.",
+      "title": "Search Console"
+    },
+    {
+      "id": "E4",
+      "status": "verified",
+      "environment": "external",
+      "change": "Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
+      "next": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
+      "title": "GSC, GA4 i stare dane"
+    },
+    {
+      "id": "F1",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../content/verified-facts-2026-10-11.json"
+      ],
+      "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
+      "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
+      "title": "Fakty i siedem języków"
+    },
+    {
+      "id": "F2",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "693 WebPage/LodgingBusiness/Organization, 686 BreadcrumbList, 7 FAQPage i 49 Article; tylko datowane źródła i widoczna treść.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "../../scripts/seo.py",
+        "evidence/schema-counts.json"
+      ],
+      "barrier": "ImageObject i autorstwo wymagają udokumentowanych praw; brak źródła nie zatrzymał pozostałych typów.",
+      "next": "ImageObject i autorstwo wymagają udokumentowanych praw; brak źródła nie zatrzymał pozostałych typów.",
+      "title": "Schema i odpowiedzi AI"
+    },
+    {
+      "id": "G1",
+      "status": "verified",
+      "environment": "external",
+      "change": "Google pokazuje Zarządzasz tym profilem na koncie obiektu; zachowano profil i opinie.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Dostęp do istniejącego GBP"
+    },
+    {
+      "id": "G2",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Nazwa, Kopernika 6 i 608662707 zgodne; publiczne oznaczenie 4-gwiazdkowy wymaga wyjaśnienia.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": "Recepcja: formalna klasyfikacja/kategoria i godziny przed zmianą profilu.",
+      "next": "Recepcja: formalna klasyfikacja/kategoria i godziny przed zmianą profilu.",
+      "title": "NAP, kategorie, godziny"
+    },
+    {
+      "id": "G3",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "WWW i publiczny GuestSage istnieją; GBP Instagram różni się od linku projektu.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/google-account-readback-2026-10-11.json"
+      ],
+      "barrier": "Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu.",
+      "next": "Właściciel: wskazać aktywny Instagram; nie nadpisywać niepotwierdzonego profilu.",
+      "title": "Linki i profile zewnętrzne"
+    },
+    {
+      "id": "G4",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "MAINTENANCE.md"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Autentyczne opinie"
+    },
+    {
+      "id": "G5",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Inwentaryzacja obrazów i wymóg weryfikacji praw.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/image-inventory.json"
+      ],
+      "barrier": "Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek.",
+      "next": "Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek.",
+      "title": "Zdjęcia i lokalne wzmianki"
+    },
+    {
+      "id": "H1",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; pozostało 1 moderate w narzędziu developerskim.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/restore-test.json"
+      ],
+      "barrier": "Marek: konfiguracja i kopia bazy Cloudflare. Pozostały esbuild developerski: nie udostępniać serwera; czekać na zgodną aktualizację dostawcy.",
+      "next": "Cloudflare konfiguracja/baza i zamknięcie wyników audytu zależności.",
+      "title": "Bezpieczeństwo i odtworzenie"
+    },
+    {
+      "id": "I1",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/monitor-latest.json"
+      ],
+      "barrier": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
+      "next": "Pierwszy zaplanowany przebieg 12.10; doręczenie alarmu jeszcze niepotwierdzone.",
+      "title": "Monitoring dostępności"
+    },
+    {
+      "id": "I2",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Kontrolowana symulacja została wykryta i zakończyła checker kodem 1.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "evidence/monitor-controlled-alarm.json"
+      ],
+      "barrier": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
+      "next": "Weryfikacja faktycznego kanału alertu przy pierwszym wykonaniu automatyzacji.",
+      "title": "Kontrolowany alarm"
+    },
+    {
+      "id": "I3",
+      "status": "partial",
+      "environment": "local / pending production",
+      "change": "Wewnętrzny panel pokazuje źródła, aktualność i brak danych zamiast zmyślonych liczb.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "dashboard.html"
+      ],
+      "barrier": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
+      "next": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
+      "title": "Dashboard"
+    },
+    {
+      "id": "J1",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "34 pozycje, trwałe dowody i rozdzielenie stanów.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "REGISTER.json"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Rejestr i dowody"
+    },
+    {
+      "id": "J2",
+      "status": "local_ready",
+      "environment": "local / pending production",
+      "change": "Instrukcja publikacji, rollbacku, kopii i przeglądów; właściciele i terminy.",
+      "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
+      "evidence": [
+        "MAINTENANCE.md"
+      ],
+      "barrier": null,
+      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "title": "Utrzymanie i obserwacja"
+    }
+  ],
+  "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów."
+}

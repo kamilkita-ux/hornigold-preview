@@ -1,0 +1,1045 @@
+{
+  "date": "2026-10-11T21:57:25.884171+02:00",
+  "method": "Public HEAD; refusal/rate limits are not proof of a broken page",
+  "results": [
+    {
+      "url": "https://bezbarier.katowice.eu/zurownia-2/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://bip.slaskie.pl/wojewodztwo/jednostki_org_i_spolki_z_udzialem_wojewodztwa/jednostki_kultury/teatr-slaski-im-st-wyspianskiego-w-katowicach.html",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Auschwitz_II-Birkenau,_2024_(03).jpg",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Entrance_of_Katowice_Airport.jpg",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:KTW_Terminal_B_motor_ramp_2024_jeh.jpg",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Terminal,_Krak%C3%B3w_Airport,_2024_(01).jpg",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://docs.fiserv.dev/public/docs/introduction-checkout",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://docs.fiserv.dev/public/docs/webhooks-and-status-updates-checkout",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://dziennikustaw.gov.pl/D2024000073101.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://fabryka-porcelany.pl/historia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://katedra.wiara.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://katoobywatel.katowice.eu/katoduma/unikatowa-katowicka-moderna/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://katowice.eu/Foldery%20o%20miecie/SPACEREM%20PO%20%C5%9AR%C3%93DMIE%C5%9ACIU_pl/SPACEREM%20PO%20%C5%9AR%C3%93DMIE%C5%9ACIU_pl.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://katowice.eu/czas-wolny/o-miescie/historia/architektura-katowic",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://katowice.ipn.gov.pl/pl3/publikacje/ksiazki-katowice/30580%2CObozowe-dzieje-Swietochlowic-Eintrachthtte-Zgoda.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://kopalniaguido.pl/poznaj/muzeum/obiekty/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://kopalniaguido.pl/zwiedzaj/przez-przyjazdem/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://kopalniasrebra.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://krakowairport.pl/pl/firma/kontakt-lotnisko",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://krakowairport.pl/pl/pasazer/podroz/przydatne-informacje-podroz/plan-terminalu",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-pociag",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-samochod",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://mariacki.katowice.pl/index.php/rys-historyczny",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://metropolia.slaskie.travel/gastronomy/779600/zurownia",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://metropoliagzm.pl/wp-content/uploads/2026/04/RAPORT_GZM_2017-2026.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://mhk.katowice.pl/historia-miasta/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://mhk.katowice.pl/muzeum/kosciol/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://mhk.katowice.pl/wystawy-stale/dzial-etnologii-miasta",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeum.gliwice.pl/pl/wydarzenia/81-rocznica-prowokacji-gliwickiej",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeum.gliwice.pl/pl/zwiedzaj/radiostacja-gliwice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeumgornictwa.pl/poznaj/muzeum/historia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeumpowstanslaskich.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeumslaskie.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://muzeumslaskie.pl/swiatlo-historii-gorny-slask-na-przestrzeni-dziejow/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl/kalendarz/jazzklub-samora-pinderhughes-quintet",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl/kalendarz/kwartet-slaski-pierwszy-koncert-z-cyklu-aleksander-tansman",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl/kalendarz/nospr-kameralnie-grupa-perkusyjna",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl/kalendarz/nospr-s3-florencio-kowalski",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://nospr.org.pl/pl/kalendarz/podger-swiatkiewicz",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://orlegniazda.pl/Media/Default/.MainStorage/Flashbook/gwmclshx.tax/file.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://panorama.auschwitz.org/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://prawakonsumenta.uokik.gov.pl/prawo-odstapienia-od-umowy/wylaczenia-prawa-do-odstapienia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://prawakonsumenta.uokik.gov.pl/pytania-i-odpowiedzi/prawo-do-informacji/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://sad.slaskie.travel/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://scwis.pl/wystawa/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://silesiatrip.pl/wycieczki/auschwitz-birkenau/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://slaskaprohibicja.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://slaskaprohibicja.pl/cukiernia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://slaskaprohibicja.pl/kontakt/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://slaskaprohibicja.pl/kuchnia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://slaskaprohibicja.pl/ogrod/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://sztetl.org.pl/pl/miejscowosci/k/398-katowice/112-synagogi-domy-modlitwy-mykwy/85438-synagoga-wielka-w-katowicach-pl-synagogi",
+      "status": "403",
+      "exit": 0,
+      "result": "manual_review"
+    },
+    {
+      "url": "https://sztetl.org.pl/pl/miejscowosci/k/398-katowice/99-historia-spolecznosci/137450-historia-spolecznosci",
+      "status": "403",
+      "exit": 0,
+      "result": "manual_review"
+    },
+    {
+      "url": "https://visit.auschwitz.org/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://welcome.katowice.eu/en/attractions.htm",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://welcome.katowice.eu/pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://welcome.katowice.eu/pl/atrakcje.htm?param=atrakcje",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1539/",
+      "status": "403",
+      "exit": 0,
+      "result": "manual_review"
+    },
+    {
+      "url": "https://www.27thfloor.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/en/history/the-number-of-victims/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/en/visiting/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/historia/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/muzeum/aktualnosci/visit-auschwitz-org-karty-wstepu-do-miejsca-pamieci-od-1-marca-dostepne-jedynie-przez-internet,2688.html",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/zwiedzanie/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/zwiedzanie/dojazd/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.auschwitz.org/zwiedzanie/podstawowe-informacje/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.cmjw.pl/obozy1/lata1939-1945/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.cmjw.pl/obozy1/lata1945-1946/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=9VPhyUKiW69lGWaOSV9j-Q&viewpoint=50.25500315756695%2C19.0150909671092&heading=224.19595",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=YBVobUVRCTJpRYEEffpHFg&viewpoint=50.25640338603603%2C19.01582861267559&heading=201.30652",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=sXV4QrTQWbucMKfWY2xS9w&viewpoint=50.25471725231615%2C19.01657632626286&heading=225",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=driving&origin=Dworzec+PKP+Katowice%2C+plac+Szewczyka%2C+Katowice%2C+Poland",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=driving&origin=Katowice+Airport+KTW+terminal+Pyrzowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=driving&origin=Krak%C3%B3w+Airport+KRK+terminal+Balice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=transit&origin=Katowice+Airport+KTW+terminal+Pyrzowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=transit&origin=Krak%C3%B3w+Airport+KRK+terminal+Balice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=walking&dir_action=navigate",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&destination=Hornigold%2C+Kopernika+6%2C+40-064+Katowice%2C+Poland&travelmode=walking&origin=Dworzec+PKP+Katowice%2C+plac+Szewczyka%2C+Katowice%2C+Poland",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Centrum+Obs%C5%82ugi+Odwiedzaj%C4%85cych+Auschwitz%2C+Wi%C4%99%C5%BAni%C3%B3w+O%C5%9Bwi%C4%99cimia+55%2C+O%C5%9Bwi%C4%99cim&destination=Kopernika+6+Katowice&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Centrum+Obs%C5%82ugi+Odwiedzaj%C4%85cych+Auschwitz%2C+Wi%C4%99%C5%BAni%C3%B3w+O%C5%9Bwi%C4%99cimia+55%2C+O%C5%9Bwi%C4%99cim&destination=Kopernika+6+Katowice&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Katowice+Airport+KTW+terminal+Pyrzowice&destination=Kopernika+6+Katowice&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Katowice+Airport+KTW+terminal+Pyrzowice&destination=Kopernika+6+Katowice&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=%C5%9Al%C4%85ska+Prohibicja+Krawczyka+1+Katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=%C5%BBebrownia+Zamkowa+2C%2C+Katowice%E2%80%93Nikiszowiec",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=%C5%BBurownia+Juliusza+Ligonia+16%2C+Katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=27th+Floor+Uniwersytecka+13%2C+Katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Centrum+Obs%C5%82ugi+Odwiedzaj%C4%85cych+Auschwitz%2C+Wi%C4%99%C5%BAni%C3%B3w+O%C5%9Bwi%C4%99cimia+55%2C+O%C5%9Bwi%C4%99cim&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Centrum+Obs%C5%82ugi+Odwiedzaj%C4%85cych+Auschwitz%2C+Wi%C4%99%C5%BAni%C3%B3w+O%C5%9Bwi%C4%99cimia+55%2C+O%C5%9Bwi%C4%99cim&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Drapacz+Chmur+Katowice&travelmode=walking",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Katowice+Airport+KTW+terminal+Pyrzowice&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Katowice+Airport+KTW+terminal+Pyrzowice&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Kopernika+6+Katowice&travelmode=walking",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Krak%C3%B3w+Airport+KRK+terminal+Balice&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Krak%C3%B3w+Airport+KRK+terminal+Balice&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Mi%C4%99dzynarodowe+Centrum+Kongresowe+Katowice&travelmode=walking",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Muzeum+%C5%9Al%C4%85skie+Katowice&travelmode=walking",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=NOSPR+Katowice&travelmode=walking",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Kopernika+6+Katowice&destination=Tatiana+Staromiejska+5%2C+Katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Krak%C3%B3w+Airport+KRK+terminal+Balice&destination=Kopernika+6+Katowice&travelmode=driving",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/dir/?api=1&origin=Krak%C3%B3w+Airport+KRK+terminal+Balice&destination=Kopernika+6+Katowice&travelmode=transit",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=Katowice+Airport+KTW+terminal+Pyrzowice+Wolno%C5%9Bci+90%2C+42-625+O%C5%BCarowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=Kopernika+6+Katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.com/maps/search/?api=1&query=Krak%C3%B3w+Airport+KRK+terminal+Balice+Kpt.+M.+Medweckiego+1%2C+32-083+Balice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.google.pl/travel/hotels/entity/ChcIlM3n-PaCkNECGgsvZy8xdHJwcGpnZhAB/reviews",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/obowiazki-informacyjne-w-pad",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.gov.pl/web/dostepnosc-cyfrowa/polski-akt-o-dostepnosci--uslugi-handlu-elektronicznego",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.katowice-airport.com/pl/dla-pasazera/dojazd",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.katowice-airport.com/pl/dla-pasazera/dojazd/pociag",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.katowice-airport.com/pl/dla-pasazera/plan-terminali",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.katowice-airport.com/pl/dla-pasazera/wirtualny-spacer",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.katowice-airport.com/pl/nasze-lotnisko/kontakt",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.kwhotel.com/downloads/pl/15_kwhotel_booking_engine/KWHotel-Booking-Engine-Cloud-konfiguracja.pdf",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.mckkatowice.pl/pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.muzeumzaglebia.pl/muzeum-zamkowe/muzeum-historia",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.muzeumzaglebia.pl/o-muzeum",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.restauracjatatiana.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.rosotravel.com/tour/Katowice/auschwitz-birkenau-and-krakow-private-car-trip-from-katowice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.seekrakow.com/history-tours/auschwitz-birkenau-museum-guided-tour-from-krakow/",
+      "status": "404",
+      "exit": 0,
+      "result": "possible_broken"
+    },
+    {
+      "url": "https://www.spodekkatowice.pl/pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.spodekkatowice.pl/pl/historia/51/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.zabytkitechniki.pl/news/597226/jubileusz-szlaku-zabytkow-techniki",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://www.zamekcieszyn.pl/pl/artykul/wzgorze-zamkowe-227",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytek.pl/pl",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/guidebook/27266",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1020748/muzeum-hutnictwa-w-chorzowie",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1020749/stacja-biblioteka",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/153082/fabryka-porcelany",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/15656/kopalnia-guido",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1682/muzeum-browaru-zywiec",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1685/gornoslaskie-koleje-waskotorowe",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1689/szyb-prezydent-kompleks-sztygarka",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1695/muzeum-drukarstwa",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1696/stacja-wodociagowa-zawada",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1697/muzeum-techniki-sanitarnej",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1699/muzeum-gornictwa-rud-zelaza",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1700/szyb-maciej_00232",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1701/muzeum-historii-kolei",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1702/oddzial-odlewnictwa-artystycznego-nowe-gliwice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1703/sztolnia-krolowa-luiza-strefa-carnall",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1704/muzeum-produkcji-zapalek",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1705/radiostacja-gliwice",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1706/kopalnia-cwiczebna-muzeum-miejskiego-sztygarka",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1709/sztolnia-czarnego-pstraga",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1710/muzeum-ustronskie",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1711/browar-obywatelski",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1712/zabytkowa-kopalnia-srebra",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1713/osiedle-giszowiec",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1714/galeria-szyb-wilson",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1715/osiedle-nikiszowiec",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1718/zabytkowa-kopalnia-ignacy",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1719/muzeum-energetyki",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1720/centralne-muzeum-pozarnictwa",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1721/muzeum-prasy-slaskiej",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1722/muzeum-chleba-szkoly-i-ciekawostek",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1723/kolonia-robotnicza-ficinus",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1724/kolej-waskotorowa-w-rudach",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/1725/muzeum-tyskich-browarow-ksiazecych",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/176470/wieze-kwk-polska",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/2386/stara-fabryka",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/2930/arcyksiazecy-browar-zamkowy-cieszyn",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/2958/galeria-sztuki-wspolczesnej-elektrownia",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/3657/muzeum-slaskie",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/3925/park-tradycji",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/403656/familoki",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/442224/stary-mlyn-muzeum-dawnych-rzemiosl",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zabytkitechniki.pl/poi/7487/muzeum-hutnictwa-cynku-walcownia",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zamek-pszczyna.pl/strona-glowna/o-muzeum/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    },
+    {
+      "url": "https://zebrownia.pl/",
+      "status": "200",
+      "exit": 0,
+      "result": "ok"
+    }
+  ],
+  "repair": {
+    "old": "https://www.seekrakow.com/history-tours/auschwitz-birkenau-museum-guided-tour-from-krakow/",
+    "new": "https://www.seekrakow.com/history-tours/auschwitz-birkenau-museum-guided-tour/",
+    "GETStatus": 200,
+    "source": "https://www.seekrakow.com/history-tours/auschwitz-birkenau-museum-guided-tour/",
+    "date": "2026-10-11"
+  }
+}

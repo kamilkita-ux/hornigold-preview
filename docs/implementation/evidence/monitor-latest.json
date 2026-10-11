@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-11T20:00:12.623047+00:00",
+  "mode": "production-read-only",
+  "ok": true,
+  "checks": [
+    {
+      "name": "/pl/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/en/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/pokoje/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/lokalizacja/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "hsts": true
+      }
+    },
+    {
+      "name": "/pl/rezerwacja/",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "tls": true,
+        "hsts": true
+      }
+    },
+    {
+      "name": "robots",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "name": "sitemap",
+      "ok": true,
+      "detail": {
+        "http": "200",
+        "count": 693
+      }
+    },
+    {
+      "name": "www301",
+      "ok": true,
+      "detail": "301"
+    },
+    {
+      "name": "404",
+      "ok": true,
+      "detail": "404"
+    },
+    {
+      "name": "release",
+      "ok": true,
+      "detail": {
+        "version": 23,
+        "stage": "review",
+        "indexing": true,
+        "bookingEnabled": false,
+        "paymentsEnabled": false,
+        "previewBanner": false,
+        "bannerRemovalApproved": "2026-10-06",
+        "languages": [
+          "pl",
+          "en",
+          "de",
+          "zh-Hans",
+          "uk",
+          "es",
+          "it"
+        ],
+        "legalDocumentsDate": "2026-10-09",
+        "privacyControls": true,
+        "independentLegalReview": false,
+        "revision": "23.9",
+        "consolidatedFrom": 18,
+        "primaryOrigin": "https://kamilkita-ux.github.io",
+        "primaryBasePath": "/hornigold-preview/",
+        "intendedDomain": "https://hornigold.pl",
+        "domainConnected": true,
+        "githubPagesMode": "complete-static-site",
+        "discoveryContentDate": "2026-10-07",
+        "polishSeoDate": "2026-10-07",
+        "safeguardingDocumentsDate": "2026-10-09",
+        "privacyReviewDate": "2026-10-09",
+        "privacyOperationalConfirmation": false,
+        "cookiesReviewDate": "2026-10-09",
+        "onlineSalesDocumentsDate": "2026-10-09",
+        "onlineSalesOperationalConfirmation": false,
+        "accessibilityInformationDate": "2026-10-09",
+        "accessibilityJourneyVerified": false,
+        "PADScopeConfirmed": false,
+        "taggedPDFs": false,
+        "propertyIdentityDate": "2026-10-09",
+        "apartmentCountOwnerConfirmed": 34,
+        "googleRatingSnapshot": 4.6,
+        "base": "/",
+        "buildMode": "production-ready",
+        "published": true,
+        "counterEnabled": true,
+        "commit": "0c1609473be1feee40ce5dd5ec032b2ff7832e4b",
+        "deploymentHost": "hornigold.pl"
+      }
+    }
+  ],
+  "limits": [
+    "No mail delivery, booking, payment, GA4 receipt or Google indexing is inferred from HTTP health.",
+    "No Google account API credentials are configured."
+  ]
+}

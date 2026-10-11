@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-11T19:46:03.542221+00:00",
+  "mode": "controlled-test",
+  "ok": false,
+  "checks": [
+    {
+      "name": "controlled_failure",
+      "ok": false,
+      "detail": "TEST ONLY: simulated unavailable endpoint; no production configuration changed"
+    }
+  ],
+  "limits": [
+    "No mail delivery, booking, payment, GA4 receipt or Google indexing is inferred from HTTP health.",
+    "No Google account API credentials are configured."
+  ]
+}

@@ -3,9 +3,9 @@
   "private": true,
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
+    "drizzle-kit": "0.31.11",
     "playwright": "1.62.1",
-    "drizzle-kit": "0.31.10",
-    "wrangler": "4.92.0"
+    "wrangler": "4.149.0"
   },
   "scripts": {
     "build:sites": "python3 scripts/build.py --base / --counter && node scripts/build_sites.mjs",

@@ -1,0 +1,34 @@
+{
+  "asOf": "2026-10-11",
+  "sources": {
+    "GA4": {
+      "property": "558323228",
+      "stream": "16101873868",
+      "status": "Brak danych w ostatnich 48 h w odczycie UI. Nowa wersja pomiaru niepotwierdzona na produkcji.",
+      "visits": null,
+      "leads": null,
+      "revenue": null
+    },
+    "GSC": {
+      "property": "https://hornigold.pl/",
+      "ownership": "verified",
+      "ga4Link": "created and reread",
+      "inspectedIndexed": [
+        "/pl/",
+        "/en/"
+      ],
+      "sitemap": "submitted; initial cannot fetch; observe 12 October",
+      "clicks": null,
+      "impressions": null
+    },
+    "Sales": {
+      "status": "Brak zweryfikowanego źródła PMS / płatności",
+      "bookings": null,
+      "revenue": null
+    },
+    "Ads": {
+      "status": "Nie wskazano zweryfikowanego konta do integracji; kampanii nie uruchomiono",
+      "cost": null
+    }
+  }
+}

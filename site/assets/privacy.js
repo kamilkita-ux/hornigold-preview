@@ -5,8 +5,9 @@
   if(!dialog||typeof dialog.showModal!=='function')return;
   const maps=dialog.querySelector('[name=maps]'),analytics=dialog.querySelector('[name=analytics]');let opener;
   function read(){try{const value=JSON.parse(localStorage.getItem(key));if(value?.version===version&&typeof value.maps==='boolean'&&typeof value.analytics==='boolean'&&Number.isFinite(value.time)&&value.time<=Date.now()&&Date.now()-value.time<lifetime)return value;localStorage.removeItem(key);}catch{try{localStorage.removeItem(key)}catch{}}return null;}
-  let state=read();
-  function publish(){window.dispatchEvent(new CustomEvent('hornigold:privacy',{detail:{maps:state?.maps===true,analytics:state?.analytics===true}}));}
+  let state=read(),expiryTimer;
+  function scheduleExpiry(){clearTimeout(expiryTimer);if(!state)return;const remaining=lifetime-(Date.now()-state.time);expiryTimer=setTimeout(()=>{state=read();if(!state){notice.hidden=false;publish();}scheduleExpiry();},Math.min(Math.max(remaining,1),2147483647));}
+  function publish(){scheduleExpiry();window.dispatchEvent(new CustomEvent('hornigold:privacy',{detail:{maps:state?.maps===true,analytics:state?.analytics===true}}));}
   function close(){dialog.close();if(opener?.isConnected)opener.focus();}
   function save(allow,stats=false){state={version,time:Date.now(),maps:allow===true,analytics:stats===true};try{localStorage.setItem(key,JSON.stringify(state));}catch{}notice.hidden=true;publish();if(dialog.open)close();}
   function open(event){event?.preventDefault();opener=document.activeElement;maps.checked=state?.maps===true;if(analytics)analytics.checked=state?.analytics===true;dialog.querySelector('[role=status]').textContent='';dialog.showModal();dialog.querySelector('[data-privacy-close]').focus();}

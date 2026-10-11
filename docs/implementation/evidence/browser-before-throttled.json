@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-11T19:49:19.147Z",
+  "mode": "live-before-unmodified",
+  "conditions": "Headless Chromium; fresh context; 375/1366; en-US triggers language suggestion on PL; latency40ms,down1.5Mbps,up750Kbps,CPU4x; networkidle plus500ms; not field CWV; no INP interaction measurement",
+  "rows": [
+    {
+      "route": "/pl/",
+      "width": 375,
+      "status": 200,
+      "lcp": 824,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 9124,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 3144,
+      "cls": 0.041288433382137626,
+      "overflow": false,
+      "height": 10479,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/pokoje/classic/",
+      "width": 375,
+      "status": 200,
+      "lcp": 684,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 9585,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/pokoje/classic/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 1040,
+      "cls": 0.04410061074256306,
+      "overflow": false,
+      "height": 6352,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/lokalizacja/",
+      "width": 375,
+      "status": 200,
+      "lcp": 628,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 10923,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/lokalizacja/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 612,
+      "cls": 0.041288433382137626,
+      "overflow": false,
+      "height": 8138,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/katowice/wydarzenie/",
+      "width": 375,
+      "status": 200,
+      "lcp": 496,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 6913,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/katowice/wydarzenie/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 524,
+      "cls": 0.041288433382137626,
+      "overflow": false,
+      "height": 5190,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/rezerwacja/",
+      "width": 375,
+      "status": 200,
+      "lcp": 536,
+      "cls": 0.17845771944444444,
+      "overflow": false,
+      "height": 6447,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/rezerwacja/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 560,
+      "cls": 0.05302768690984973,
+      "overflow": false,
+      "height": 4918,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/en/",
+      "width": 375,
+      "status": 200,
+      "lcp": 620,
+      "cls": 0,
+      "overflow": false,
+      "height": 8648,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/en/",
+      "width": 1366,
+      "status": 200,
+      "lcp": 3132,
+      "cls": 0,
+      "overflow": false,
+      "height": 10035,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    }
+  ],
+  "failures": [
+    {
+      "route": "/pl/",
+      "width": 375,
+      "status": 200,
+      "lcp": 824,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 9124,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/pokoje/classic/",
+      "width": 375,
+      "status": 200,
+      "lcp": 684,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 9585,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/lokalizacja/",
+      "width": 375,
+      "status": 200,
+      "lcp": 628,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 10923,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/katowice/wydarzenie/",
+      "width": 375,
+      "status": 200,
+      "lcp": 496,
+      "cls": 0.13210864197530864,
+      "overflow": false,
+      "height": 6913,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    },
+    {
+      "route": "/pl/rezerwacja/",
+      "width": 375,
+      "status": 200,
+      "lcp": 536,
+      "cls": 0.17845771944444444,
+      "overflow": false,
+      "height": 6447,
+      "missing": [],
+      "externalBooking": false,
+      "errors": []
+    }
+  ]
+}
