@@ -55,13 +55,14 @@
       "id": "A4",
       "status": "local_ready",
       "environment": "local / pending production",
-      "change": "Kopia 23.17 na Mac mini: odtworzono i sprawdzono 2015 plików oraz kompletną historię Git. Build 693 tras, 24 testy, audyty 75106 linków i SEO bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
+      "change": "Najnowsza kopia 23.18 z Mac mini: odtworzono i sprawdzono 2038 plików oraz archiwum historii Git. Build 693 tras; audyt 75106 linków i SEO bez błędów; struktura 21 PDF bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
         "evidence/restore-23.13.json",
         "evidence/PUBLICATION_23.17.json",
-        "evidence/restore-23.17.json"
+        "evidence/restore-23.17.json",
+        "evidence/restore-23.18.json"
       ],
       "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
       "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
