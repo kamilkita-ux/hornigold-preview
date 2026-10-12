@@ -37,6 +37,20 @@ for p in OUT.rglob('*.html'):
   if date_marker and RELEASE.get('releaseDate'):
    date_marker['datetime']=RELEASE['releaseDate']
    date_marker.string='.'.join(reversed(RELEASE['releaseDate'].split('-')))
+ if version_marker and s.footer:
+  award=json.loads((ROOT/'content/booking-award-2026.json').read_text())
+  language=s.html.get('lang','pl').lower()
+  if language in award['texts']:
+   heading,explanation,link_label=award['texts'][language]
+   card=s.new_tag('section',attrs={'class':'wrap booking-award','aria-label':award['name'],'data-booking-award':'2026'})
+   picture=s.new_tag('img',src=award['asset'],width=award['width'],height=award['height'],alt=award['name']+' · Hornigold w Zielonej Kamienicy · 9.0/10',loading='lazy',decoding='async');card.append(picture)
+   copy=s.new_tag('div',attrs={'class':'booking-award__copy'})
+   label=s.new_tag('p');label.string=award['name'];copy.append(label)
+   title=s.new_tag('h2');title.string=heading;copy.append(title)
+   description=s.new_tag('p');description.string=explanation;copy.append(description)
+   link=s.new_tag('a',href=award['source'],attrs={'rel':'noopener noreferrer'});link.string=link_label;copy.append(link)
+   card.append(copy);s.footer.insert_before(card)
+   s.head.append(s.new_tag('link',rel='stylesheet',href='/assets/booking-award.css'))
  if s.footer and s.select_one('[data-site-version]'):
   for old_social in s.select('[data-hornigold-social]'):
    old_social.decompose()

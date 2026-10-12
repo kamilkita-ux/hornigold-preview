@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-12",
+  "source": "https://awards.booking.com/en-gb/accommodations/?award=23466",
+  "assetSource": "https://storage.googleapis.com/bdc-ra-europe-west8-c/accommodations/23466/Digital-Award_TRA-2026.thumb.png",
+  "asset": "/assets/booking-traveller-review-awards-2026.png",
+  "sha256": "da5f77651c7c88c9074c860ae4eb09d317d1e5ff6c922c2c3a02aeeb15306792",
+  "year": 2026,
+  "score": "9.0/10",
+  "name": "Booking.com Traveller Review Awards 2026",
+  "width": 256,
+  "height": 180,
+  "texts": {
+    "pl": [
+      "Dziękujemy za Wasze opinie",
+      "Wynik nagrody z 2026 roku: 9,0/10. Nie jest to bieżąca ocena ani klasyfikacja gwiazdkowa.",
+      "Zobacz oficjalny certyfikat"
+    ],
+    "en": [
+      "Thank you for your reviews",
+      "2026 award score: 9.0/10. This is not a current review score or a star classification.",
+      "View the official certificate"
+    ],
+    "de": [
+      "Vielen Dank für Ihre Bewertungen",
+      "Ergebnis der Auszeichnung 2026: 9,0/10. Dies ist keine aktuelle Bewertung oder Sterneklassifizierung.",
+      "Offizielles Zertifikat ansehen"
+    ],
+    "uk": [
+      "Дякуємо за ваші відгуки",
+      "Оцінка нагороди 2026 року: 9,0/10. Це не поточна оцінка та не зіркова класифікація.",
+      "Переглянути офіційний сертифікат"
+    ],
+    "es": [
+      "Gracias por vuestras opiniones",
+      "Puntuación del premio de 2026: 9,0/10. No es una puntuación actual ni una clasificación por estrellas.",
+      "Ver el certificado oficial"
+    ],
+    "it": [
+      "Grazie per le vostre recensioni",
+      "Punteggio del premio 2026: 9,0/10. Non è una valutazione attuale né una classificazione a stelle.",
+      "Visualizza il certificato ufficiale"
+    ],
+    "zh-hans": [
+      "感谢您的评价",
+      "2026 年奖项评分：9.0/10。这并非当前住客评分，也不代表星级评定。",
+      "查看官方证书"
+    ]
+  },
+  "limits": [
+    "Original official thumbnail at native size; full-resolution download timed out.",
+    "Historical award; no aggregateRating, current score or hotel stars claim."
+  ]
+}

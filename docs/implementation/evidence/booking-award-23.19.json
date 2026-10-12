@@ -1,0 +1,16 @@
+{
+  "revision": "23.19",
+  "routes": 693,
+  "languages": [
+    "pl",
+    "en",
+    "de",
+    "uk",
+    "es",
+    "it",
+    "zh-hans"
+  ],
+  "errors": [],
+  "source": "https://awards.booking.com/en-gb/accommodations/?award=23466",
+  "assetHashMatches": true
+}
