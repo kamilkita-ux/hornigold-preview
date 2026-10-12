@@ -324,3 +324,14 @@ Polecenie Marka: gość wybiera termin i pokój na stronie, a silnik KWHotel ma 
 - Worker `4afa9184-c403-4372-ba7e-3009627c026c`; poprzedni `cd5a3f2a` przywraca `wrangler rollback`. Pierwsza próba `wrangler deploy` skończyła się `504` na `assets-upload-session` — przed wysłaniem plików, produkcja bez zmian; ponowienie przeszło. Smoke 23/23.
 - Na żywej stronie (Playwright, bez rezerwacji): dla każdej z sześciu kategorii silnik zwraca jedną ofertę właściwego typu; dla trzech apartamentów bez oferty i dla wejścia bez pokoju — 6 ofert.
 - Silnik nie ma żadnego odnośnika powrotnego do strony hotelu (nazwa obiektu w nagłówku nie jest linkiem). Powrót: „Wstecz” przeglądarki — strona pamięta termin, liczbę osób i pokój.
+
+## Wydanie 12 października 2026 r. (23.19-r4): po wyborze pokoju od razu do silnika
+
+Polecenie Marka: zrezygnować ze strony pośredniej — klik w pokój ma od razu przenosić do KWHotel (publikacja po testach).
+
+- `site/assets/booking.js`: gdy gość trafia na `/{język}/rezerwacja/?room=…` z ważnym terminem i kategorią z mapy `ROOMS`, skrypt wykonuje `location.replace()` na adres silnika z terminem, liczbą osób i `featuredRoomTypeId`. Strona Rezerwacja nie zostaje w historii, więc „Wstecz” z silnika wraca na listę pokoi albo stronę pokoju — to zastępuje przycisk powrotu, którego silnik nie ma.
+- Strona Rezerwacja nadal się pokazuje: bez terminu, dla `apartament-deluxe`, `prestige` i `hornigold` (brak oferty online), przy wejściu bez parametru `room` (wtedy widać też odnośnik „Zobacz wszystkie dostępne pokoje”) i bez JavaScriptu. Formularz zapytania jest też na stronach Kontakt, Dla firm i stronach pobytów.
+- Świadomy koszt: strona Rezerwacja mignie przed przeniesieniem (`booking.js` ładuje się z `defer`), a gość, którego pokój jest zajęty, widzi w silniku „Brak dostępności” bez propozycji innych pokoi i wraca przyciskiem „Wstecz”. Wariant z bezpośrednimi odnośnikami na 84 stronach z przyciskami pokoi odrzucony — te strony Kamil generuje na nowo.
+- Audyt mobilny Kamila (`audit_mobile_release.cjs`) odwiedza `/pl/pobyt/?…&room=classic`, nie stronę Rezerwacja — przeniesienie go nie dotyczy.
+- Testy: `tests/booking.test.mjs` (przeniesienie i cztery przypadki, w których strona zostaje); 125 testów node zielonych. Przed wdrożeniem i po nim przejście w przeglądarce (Playwright, bez rezerwacji): 6 kategorii z listy pokoi → silnik z jedną ofertą właściwego typu → „Wstecz” na listę; strona pokoju z terminem z sesji; 3 apartamenty bez oferty i wejście bez terminu zostają na stronie Rezerwacja.
+- Worker `1a25e28a-5601-4ca8-9aa1-e6f6a0c8ea1a`; poprzedni `4afa9184` przywraca `wrangler rollback`. Smoke 23/23 w drugim przebiegu; w pierwszym test zgody GA4 nie wykonał się (`page.goto` przekroczył 20 s tuż po wdrożeniu), pozostałe kontrole były zielone.
