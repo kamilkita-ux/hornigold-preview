@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { firstRedirect, isBookingPage, nextReleaseTag, parseArgs, pickActiveVersion, reviewChanges, robotsMeta } from "../scripts/cloudflare-release.mjs";
+import { firstRedirect, hasBookingLink, isBookingPage, nextReleaseTag, parseArgs, pickActiveVersion, reviewChanges, robotsMeta } from "../scripts/cloudflare-release.mjs";
 
 test("strony z blokami rezerwacji — tylko te konflikty rozwiązywane automatycznie", () => {
   for (const path of ["site/pl/index.html", "site/zh-hans/pobyt/index.html", "site/de/rezerwacja/index.html", "site/assets/style.css"]) assert.ok(isBookingPage(path), path);
@@ -49,4 +49,10 @@ test("meta robots i pierwsze przekierowanie z server/routes.mjs", () => {
 
 test("aktywna wersja Workera", () => {
   assert.equal(pickActiveVersion([{ created_on: "2026-10-09", versions: [{ version_id: "a", percentage: 100 }] }, { created_on: "2026-10-10", versions: [{ version_id: "b", percentage: 100 }] }]), "b");
+});
+
+test("blok rezerwacji GuestSage — sekcja nagrody (data-booking-award) go nie udaje", () => {
+  assert.ok(hasBookingLink('<p><a class="button" data-booking="" href="https://be.guestsage.com/pl/c98ead00">Zarezerwuj</a></p>'));
+  assert.ok(!hasBookingLink('<section class="wrap booking-award" data-booking-award="2026"></section>'));
+  assert.ok(!hasBookingLink('<a class="button" data-booking="" href="https://example.com/">x</a>'));
 });

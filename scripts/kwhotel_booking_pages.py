@@ -24,7 +24,7 @@ OLD_PANEL, PANEL = '<div class="notice" role="status"><h2>', '<div class="bookin
 for lang, engine in LANG.items():
     p = ROOT / 'site' / lang / 'rezerwacja' / 'index.html'
     html = p.read_text(encoding='utf-8')
-    if 'data-booking' in html:
+    if 'data-booking=""' in html:  # nie samo 'data-booking': sekcja nagrody Kamila ma data-booking-award
         if OLD_PANEL in html:
             p.write_text(html.replace(OLD_PANEL, PANEL, 1), encoding='utf-8', newline='\n'); print(lang, 'panel'); continue
         print(lang, 'już zmienione'); continue

@@ -92,6 +92,11 @@ export function isBookingPage(path) {
   return /^site\/[^/]+\/(?:index\.html|pobyt\/index\.html|rezerwacja\/index\.html)$/.test(path) || path === "site/assets/style.css";
 }
 
+// Odnośnik naszego bloku rezerwacji. Sam napis "data-booking" nie wystarcza: sekcja nagrody Kamila ma data-booking-award.
+export function hasBookingLink(html) {
+  return [...html.matchAll(/<a [^>]*data-booking=""[^>]*>/g)].some((m) => /href="https:\/\/be\.guestsage\.com\//.test(m[0]));
+}
+
 export function robotsMeta(html) {
   const tag = (html.match(/<meta\b[^>]*>/gi) ?? []).find((t) => /\bname=["']robots["']/i.test(t)); // BeautifulSoup zmienia kolejność atrybutów
   return tag ? /\bcontent=["']([^"']*)["']/i.exec(tag)?.[1] ?? null : null;
@@ -318,7 +323,7 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
   for (const language of release.languages ?? []) {
     const path = `/${language.toLowerCase()}/rezerwacja/`;
     const page = await request(path);
-    check(page.status === 200 && (await page.text()).includes("data-booking"), `${path} → ${page.status} z a[data-booking]`);
+    check(page.status === 200 && hasBookingLink(await page.text()), `${path} → ${page.status} z a[data-booking] do GuestSage`);
   }
   // Search Console wymaga 200 pod dokładnym adresem — bez obsługi w server/production-entry.mjs assety dałyby 307.
   for (const file of readdirSync(join(ROOT, "site")).filter((f) => /^google[0-9a-f]+\.html$/.test(f))) {

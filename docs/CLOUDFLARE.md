@@ -93,7 +93,7 @@ Szczegóły działania:
 - Wranglera skrypt woła przez `npx --yes wrangler@<wersja z package.json>`. Worktree nie ma `node_modules`, a bez `--yes` `npx` czeka na zgodę na instalację.
 - Przed publikacją skrypt zapamiętuje aktywną wersję Workera i bieżący nagłówek CSP. Smoke sprawdza listę powyżej, porównuje CSP i pliki weryfikacyjne Google z `site/`.
 - **Nieudany smoke → automatyczny `wrangler rollback`.**
-- Po wydaniu: lokalny tag `hornigold-v<revision>-cloudflare[-rN]` (rewizja z `release.json`), wiersz w [`DEPLOY-LOG.md`](DEPLOY-LOG.md) i próba push. Dopóki `CloudDev-M` nie ma prawa zapisu, push kończy się 403, a gałąź i tag zostają lokalnie.
+- Po wydaniu: lokalny tag `hornigold-v<revision>-cloudflare[-rN]` (rewizja z `release.json`), wiersz w [`DEPLOY-LOG.md`](DEPLOY-LOG.md) i push gałęzi `deploy/cloudflare` z tagiem. `CloudDev-M` ma prawo zapisu od 12.10.2026 (zaproszenie Kamila z 9.10 trzeba było przyjąć na koncie — do tego czasu push kończył się 403). Do `main` nie wypychamy: to gałąź Kamila.
 - Testy skryptu: `node --test tests/cloudflare-release.test.mjs`.
 
 ## Granice
@@ -181,7 +181,7 @@ Wynik: build 693 stron, `audit_seo`/`audit_discovery` bez błędów, testy 26/26
 Hotel sprzedaje pobyty przez hostowany **GuestSage AI Booking Engine** (KWHotel), identyfikator obiektu `c98ead00-c7fd-4013-bb45-f19539b932d4`; silnik, ceny, płatności i regulamin są skonfigurowane po stronie hotelu, zarząd zgodził się na start (potwierdzenie Marka). Wersja minimalna — przekazanie linkiem, bez obcych skryptów i bez zmian CSP:
 
 - `site/assets/booking.js` buduje adres `https://be.guestsage.com/{język}/{obiekt}/offers?arrivalDate&departureDate&personsCount` z `HornigoldStay` (bez dat → strona główna silnika; `zh-hans` → `en`; mapa pokoi `ROOMS` pusta do czasu otrzymania `featuredRoomTypeId` z panelu KWHotel).
-- 7 podstron `rezerwacja/`: blok „Zarezerwuj online” z przyciskiem (`a[data-booking]`, działa bez JS); tekst pomocy formularzy pobytu (strony główne i `pobyt/`) zmieniony. Zmiany wprowadza idempotentny `scripts/kwhotel_booking_pages.py`.
+- 7 podstron `rezerwacja/`: blok „Zarezerwuj online” z przyciskiem (`a[data-booking=""]` z adresem `be.guestsage.com`, działa bez JS; sam napis `data-booking` nie jest znacznikiem bloku, bo sekcja nagrody Kamila ma `data-booking-award`); tekst pomocy formularzy pobytu (strony główne i `pobyt/`) zmieniony. Zmiany wprowadza idempotentny `scripts/kwhotel_booking_pages.py`.
 - Testy: `tests/booking.test.mjs` (9), `tests/booking-pages.test.mjs` (28); build, `audit_static`, `audit_seo`, `audit_discovery`, testy node 63/63, `test_seo*` OK. Chrome bez okna na produkcji: przycisk dostaje daty i liczbę osób.
 - Worker `06015b8c-4945-434d-adba-109fe71ea7fe` (rollback → `576f78bb`).
 - Spec: `docs/superpowers/specs/2026-10-09-kwhotel-guestsage-booking-design.md`, plan: `docs/superpowers/plans/2026-10-09-kwhotel-guestsage-booking.md`. Materiały hotelu w lokalnym `kwhotel/` (poza repo).
@@ -280,3 +280,11 @@ Wydanie zrobione przez `cloudflare-release.mjs --prepare` i `npx wrangler deploy
 Worker `28d62822-4bd1-4c73-82ad-728da81160de`; poprzedni `b6522385` przywraca `wrangler rollback`. Smoke 23/23, w tym test zgody GA4 na żywej stronie.
 
 Uwaga: upload zmienił wszystkie strony i PDF-y, a proces `wrangler deploy` zakończył się dopiero ok. 12 minut po aktywacji wersji. Cloudflare aktywował ją o 06:37 UTC; strona pokazywała 23.19 od razu. Przy długim deployu stan sprawdzać przez `wrangler deployments list` i `/release.json`, nie czekać w ciemno.
+
+## Stan na 12 października 2026 r. (po południu): repo i rezerwacje KWHotel
+
+- **Produkcję `hornigold.pl` wydaje się wyłącznie z gałęzi `deploy/cloudflare`.** `main` Kamila nie ma `wrangler.jsonc`, bloków rezerwacji GuestSage/KWHotel (`site/assets/booking.js`, `scripts/kwhotel_booking_pages.py`, 21 stron), poprawki weryfikacji Search Console w `server/production-entry.mjs` ani poprawki Windows w `scripts/seo.py`. Wydanie zbudowane z samego `main` zdjęłoby rezerwacje ze strony. Publikacja Kamila na GitHub Pages (`kamilkita-ux.github.io/hornigold-preview`) jest budowana z `main`, więc rezerwacji nie ma — to oczekiwane.
+- Na koncie Cloudflare Hornigold jest jeden Worker (`hornigold`) i jeden członek konta; 12.10 jedynym wdrożeniem było nasze z 06:37 UTC (`28d62822`). Smoke 23/23, bloki rezerwacji w 7 językach.
+- Gałąź `deploy/cloudflare` i tagi `hornigold-v*-cloudflare*` są od dziś na GitHubie. Żeby `main` też miał rezerwacje, Kamil może scalić tę gałąź (albo przenieść wymienione pliki do swojego źródła w Sites).
+- Smoke i `kwhotel_booking_pages.py` rozpoznają blok po `a[data-booking=""]` z adresem GuestSage. Wcześniejsze sprawdzenie samego `data-booking` po wejściu sekcji nagrody (23.19) przepuściłoby stronę bez rezerwacji, a skrypt po konflikcie scalania nie odtworzyłby bloków.
+- Silnik po stronie KWHotel nadal wyłączony: `configurations?hotelId=…` zwraca `enabled: false`, `hotel.active: false`. Przycisk prowadzi do silnika, ale wyszukiwanie ofert ruszy dopiero po włączeniu przez KWHotel.
