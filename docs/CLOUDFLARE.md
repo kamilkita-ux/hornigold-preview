@@ -260,3 +260,23 @@ Worker `b6522385-6671-4430-b8c7-6872d90f6c8f`; poprzedni `84eaa0a1` przywraca `w
 - wykonać test w DebugView/Realtime z sesji z wyraźną zgodą.
 
 Meta, Ads, rezerwacje i płatności pozostają wyłączone.
+
+## Wydanie 12 października 2026 r. (rewizja 23.19)
+
+27 commitów Kamila z `origin/main` (23.16–23.19, ostatni `c164364` o 02:56):
+- 21 tagowanych PDF-ów prawnych z ujednoliconymi informacjami w 7 językach (`taggedPDFs: true`, `pdfUAValidated: false`);
+- sekcja nagrody Booking.com 2026 nad stopką: lokalny obraz i link do źródła, bez zmian CSP, `bookingAward2026: true`;
+- numer rewizji i data wydania w stopce z `release.json`;
+- monitoring i audyty publiczne Kamila (`monitor_public.py`, workflow `post-publication`, `quality`). Sprawdzają jego podglądy, a hornigold.pl tylko odczytują;
+- dependabot;
+- `server/worker.mjs`: nagłówki bezpieczeństwa także na odpowiedziach 403/503 licznika.
+
+Bez zmian przełączników właściciela, `wrangler.jsonc`, CSP i D1. Scalenie bez konfliktów.
+
+Wydanie zrobione przez `cloudflare-release.mjs --prepare` i `npx wrangler deploy`:
+- build 693 stron, audyty bez błędów;
+- testy node i `test_seo*` zielone, `audit_ga4.cjs` zielony.
+
+Worker `28d62822-4bd1-4c73-82ad-728da81160de`; poprzedni `b6522385` przywraca `wrangler rollback`. Smoke 23/23, w tym test zgody GA4 na żywej stronie.
+
+Uwaga: upload zmienił wszystkie strony i PDF-y, a proces `wrangler deploy` zakończył się dopiero ok. 12 minut po aktywacji wersji. Cloudflare aktywował ją o 06:37 UTC; strona pokazywała 23.19 od razu. Przy długim deployu stan sprawdzać przez `wrangler deployments list` i `/release.json`, nie czekać w ciemno.
