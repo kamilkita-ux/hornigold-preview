@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-11",
+  "method": "Primary-site content retrieved through web tool; crawler 403 remains separately recorded",
+  "pages": [
+    {
+      "url": "https://whc.unesco.org/en/list/1539/",
+      "title": "Tarnowskie Góry Lead-Silver-Zinc Mine and its Underground Water Management System",
+      "contentRetrieved": true
+    },
+    {
+      "url": "https://sztetl.org.pl/pl/miejscowosci/k/398-katowice/99-historia-spolecznosci/137450-historia-spolecznosci",
+      "title": "Historia społeczności",
+      "contentRetrieved": true
+    },
+    {
+      "url": "https://sztetl.org.pl/pl/miejscowosci/k/398-katowice/112-synagogi-domy-modlitwy-mykwy/85438-synagoga-wielka-w-katowicach-pl-synagogi",
+      "title": "Synagoga Wielka w Katowicach (pl. Synagogi)",
+      "contentRetrieved": true
+    }
+  ],
+  "limit": "Retrieved source content is not proof that every user agent can fetch those sites."
+}

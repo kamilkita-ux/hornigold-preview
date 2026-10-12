@@ -10,6 +10,8 @@ from reportlab.lib.colors import HexColor
 from pypdf import PdfReader,PdfWriter
 from pypdf.generic import NameObject,TextStringObject
 ROOT=Path(__file__).resolve().parent.parent;BASE=ROOT.parent
+if json.loads((ROOT/'release.json').read_text()).get('taggedPDFs'):
+ raise SystemExit('Refusing to overwrite tagged PDFs with the legacy untagged generator. Use scripts/build_tagged_legal_candidates.py and review before adoption.')
 FONT=ROOT/'legal/fonts'
 pdfmetrics.registerFont(TTFont('Body',str(FONT/'DejaVuSans.ttf')));pdfmetrics.registerFont(TTFont('Bold',str(FONT/'DejaVuSans-Bold.ttf')))
 pdfmetrics.registerFont(TTFont('CJK',str(FONT/'NotoSansSC-Regular.ttf')))

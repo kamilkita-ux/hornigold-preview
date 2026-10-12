@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-11",
+  "method": "Native Safari, Google Search Console URL inspection, correct Hornigold property",
+  "property": "https://hornigold.pl/",
+  "account": "hotelhornigold@gmail.com",
+  "indexedHomePages": [
+    "/pl/",
+    "/en/",
+    "/de/",
+    "/es/",
+    "/it/"
+  ],
+  "notYetIndexed": [
+    "/zh-hans/",
+    "/uk/"
+  ],
+  "indexingRequestsAccepted": [
+    "/zh-hans/",
+    "/uk/"
+  ],
+  "requestReadback": "Przesłano prośbę o zindeksowanie; URL został dodany do priorytetowej kolejki indeksowania",
+  "sitemap": {
+    "url": "https://hornigold.pl/sitemap.xml",
+    "googleStatus": "Nie udało się pobrać",
+    "publicGET": 200,
+    "publicXMLUrls": 693,
+    "bytes": 77766,
+    "observedAt": "2026-10-11T23:03:34+02:00"
+  },
+  "limits": [
+    "Inspection covers seven home pages, not all 693 URLs.",
+    "An accepted request is not indexing or a ranking guarantee.",
+    "Public HTTP success does not prove Google fetch success."
+  ],
+  "nextObservation": "2026-10-12"
+}

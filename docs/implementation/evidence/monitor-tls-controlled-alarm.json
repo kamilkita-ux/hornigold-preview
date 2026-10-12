@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-11T22:17:21.328868+00:00",
+  "mode": "controlled-test",
+  "ok": false,
+  "checks": [
+    {
+      "name": "controlled_failure",
+      "ok": false,
+      "detail": "TEST ONLY: simulated unavailable endpoint; no production configuration changed"
+    }
+  ],
+  "limits": [
+    "TLS means a successful HTTPS request with default certificate verification; not a certificate-expiry forecast or a full security certification.",
+    "No mail delivery, booking, payment, GA4 receipt or Google indexing is inferred from HTTP health.",
+    "No Google account API credentials are configured."
+  ]
+}

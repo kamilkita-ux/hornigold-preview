@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "testsPassed": 36,
+  "testsFailed": 0,
+  "pdfTests": 6,
+  "cases": [
+    "valid PDF accepted",
+    "structure removal detected",
+    "language change detected",
+    "reading order change detected",
+    "removed link detected",
+    "missing embedded font detected"
+  ],
+  "documentsChecked": 21,
+  "structureErrors": 0,
+  "protectedComponentsChanged": false,
+  "productionRevisionObserved": "23.11",
+  "previewRevisionVerified": "23.18",
+  "limits": [
+    "No screen-reader or PDF/UA certification.",
+    "Earlier bundled-Python aggregate run lacked bs4; rerun in complete environment passed."
+  ]
+}

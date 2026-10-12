@@ -1,0 +1,205 @@
+{
+  "cases": 14,
+  "failures": [],
+  "results": [
+    {
+      "lang": "pl",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "pl",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "pl",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "en",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "en",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "de",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "de",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "zh-Hans",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "zh-Hans",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "uk",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "uk",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "es",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "es",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "state": {
+        "overflow": false,
+        "lang": "it",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 3
+      },
+      "external": [],
+      "errors": []
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "state": {
+        "overflow": false,
+        "lang": "it",
+        "analytics": true,
+        "consent": false,
+        "cookies": "",
+        "rooms": 9
+      },
+      "external": [],
+      "errors": []
+    }
+  ],
+  "limits": [
+    "Anonymous first visit only; external requests blocked; no consent granted and no real GA4 receipt asserted."
+  ]
+}

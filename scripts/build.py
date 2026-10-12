@@ -7,7 +7,7 @@ from seo import load_routes, route_for_file, apply_seo, write_indexing_files
 from discovery import write_guides
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
-VERSION=str(RELEASE['version'])
+VERSION=str(RELEASE.get('revision',RELEASE['version']))
 args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--production-counter',action='store_true',help='Explicitly retain the existing aggregate counter in a production artifact; requires --counter and --base /');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
 if not re.fullmatch(r'/[A-Za-z0-9_/-]*',BASE):raise SystemExit('Invalid base path')
@@ -29,6 +29,28 @@ for p in OUT.rglob('*.html'):
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
+ version_marker=s.select_one('[data-site-version]')
+ if version_marker:
+  version_marker.string=VERSION
+  version_marker['title']=VERSION
+  date_marker=version_marker.parent.find('time')
+  if date_marker and RELEASE.get('releaseDate'):
+   date_marker['datetime']=RELEASE['releaseDate']
+   date_marker.string='.'.join(reversed(RELEASE['releaseDate'].split('-')))
+ if version_marker and s.footer:
+  award=json.loads((ROOT/'content/booking-award-2026.json').read_text())
+  language=s.html.get('lang','pl').lower()
+  if language in award['texts']:
+   heading,explanation,link_label=award['texts'][language]
+   card=s.new_tag('section',attrs={'class':'wrap booking-award','aria-label':award['name'],'data-booking-award':'2026'})
+   picture=s.new_tag('img',src=award['asset'],width=award['width'],height=award['height'],alt=award['name']+' · Hornigold w Zielonej Kamienicy · 9.0/10',loading='lazy',decoding='async');card.append(picture)
+   copy=s.new_tag('div',attrs={'class':'booking-award__copy'})
+   label=s.new_tag('p');label.string=award['name'];copy.append(label)
+   title=s.new_tag('h2');title.string=heading;copy.append(title)
+   description=s.new_tag('p');description.string=explanation;copy.append(description)
+   link=s.new_tag('a',href=award['source'],attrs={'rel':'noopener noreferrer'});link.string=link_label;copy.append(link)
+   card.append(copy);s.footer.insert_before(card)
+   s.head.append(s.new_tag('link',rel='stylesheet',href='/assets/booking-award.css'))
  if s.footer and s.select_one('[data-site-version]'):
   for old_social in s.select('[data-hornigold-social]'):
    old_social.decompose()

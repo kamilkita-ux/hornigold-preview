@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import fs from 'node:fs';
 const source=fs.readFileSync(new URL('../site/assets/analytics.js',import.meta.url),'utf8');
-function fixture({origin='https://hornigold.pl',enabled=true,id='G-TEST123',consent=false,search='?guests=2&email=private'}={}){
+function fixture({origin='https://hornigold.pl',enabled=true,id='G-TEST123',consent=false,referrer='',search='?guests=2&email=private'}={}){
  const listeners={},scripts=[];let allowed=consent,reloads=0,cookies='_ga=sample; _ga_TEST=sample';
  const window={HornigoldGA4:{enabled,measurementId:id},HornigoldPrivacy:{allowsAnalytics:()=>allowed},addEventListener:(name,fn)=>listeners[name]=fn};
- const document={addEventListener:(name,fn)=>listeners['document:'+name]=fn,referrer:'',get cookie(){return cookies},set cookie(value){cookies=value},createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}};
+ const document={addEventListener:(name,fn)=>listeners['document:'+name]=fn,referrer,get cookie(){return cookies},set cookie(value){cookies=value},createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}};
  vm.runInNewContext(source,{window,document,location:{origin,pathname:'/pl/',search,reload:()=>reloads++},Date,URL,URLSearchParams});
  return {window,scripts,change(value){allowed=value;listeners['hornigold:privacy']?.()},reloads:()=>reloads,cookies:()=>cookies,click(href,stay=false){listeners['document:click']?.({target:{closest:()=>({getAttribute:()=>href,hasAttribute:()=>stay})}})}};
 }
@@ -19,3 +19,21 @@ test('only approved campaign labels survive URL sanitization',()=>{const f=fixtu
 test('contact and social clicks require consent and never send destinations',()=>{const f=fixture();f.click('mailto:private@example.com');assert.equal(f.window.dataLayer.filter(a=>a[0]==='event').length,0);f.change(true);f.click('mailto:private@example.com');f.click('tel:+48123456789');f.click('https://www.instagram.com/hornigold.apartments/');f.click('/pl/pobyt/',true);const events=f.window.dataLayer.filter(a=>a[0]==='event');assert.equal(events.length,5);assert.equal(JSON.stringify(events).includes('private@example'),false);assert.equal(JSON.stringify(events).includes('123456789'),false);assert.deepEqual(Array.from(events,e=>e[1]),['page_view','click_email','click_phone','social_link_click','stay_planner_click']);});
 
 test("verified GBP campaign labels survive sanitization",()=>{const f=fixture({consent:true,search:"?utm_source=google&utm_medium=organic&utm_campaign=gbp&email=private"});const event=f.window.dataLayer.find(a=>a[0]==="event");assert.equal(event[2].page_location,"https://hornigold.pl/pl/?utm_source=google&utm_medium=organic&utm_campaign=gbp")});
+
+test('actual project social links and www aliases emit one sanitized event',()=>{
+ const f=fixture({consent:true});
+ for(const host of ['instagram.com','www.instagram.com','facebook.com','www.facebook.com','linkedin.com','www.linkedin.com']) f.click('https://'+host+'/profile?private=discard');
+ f.click('https://instagram.com.evil.invalid/');
+ const events=f.window.dataLayer.filter(a=>a[0]==='event'&&a[1]==='social_link_click');
+ assert.equal(events.length,6);
+ assert.deepEqual(Array.from(events,e=>e[2].action),['instagram','instagram','facebook','facebook','linkedin','linkedin']);
+ assert.equal(JSON.stringify(events).includes('private'),false);
+});
+
+test('unknown or identifying referrer origins are discarded; known sources lose path and query',()=>{
+ for(const referrer of ['https://private-person.example/secret?email=a','https://www.google.com.evil.invalid/private','file:///private/document']){
+  const f=fixture({consent:true,referrer});const event=f.window.dataLayer.find(a=>a[0]==='event');assert.equal(event[2].page_referrer,'');
+ }
+ const f=fixture({consent:true,referrer:'https://www.google.pl/search?q=private'});
+ assert.equal(f.window.dataLayer.find(a=>a[0]==='event')[2].page_referrer,'https://www.google.pl/');
+});

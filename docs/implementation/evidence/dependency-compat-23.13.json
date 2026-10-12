@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "override": "@esbuild-kit/core-utils>esbuild=0.25.12",
+  "drizzleKitGenerate": "passed in isolated tmp output, no database touched",
+  "migrationMatchesExisting": true,
+  "migrationSHA256": "91d27961473f66b9d9de520d4c6a80071d5073d7e533edf14c86b5a71bf280e0",
+  "vulnerabilities": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0
+  },
+  "source": "https://github.com/evanw/esbuild/security/advisories/GHSA-67mh-4wv8-2f99"
+}

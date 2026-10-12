@@ -16,7 +16,9 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: '3.12'
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements.txt -r requirements-documents.txt
+      - name: Audit published PDF structure
+        run: python scripts/audit_tagged_legal_candidates.py site/documents --report docs/implementation/evidence/tagged-pdf-structure-current.json
       - run: python scripts/check_repository.py
       - id: pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

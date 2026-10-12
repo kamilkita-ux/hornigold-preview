@@ -1,0 +1,18 @@
+{
+  "productionRevision": "23.11",
+  "publicRoutes": 693,
+  "publicFailures": 0,
+  "runtimeCases": 1386,
+  "runtimeFailures": 0,
+  "axeCases": 1386,
+  "axeFailuresAfterRetest": 0,
+  "nodeTests": 46,
+  "pythonTests": 10,
+  "syntaxFiles": 51,
+  "secretScanTextFiles": 1539,
+  "dependencyCritical": 0,
+  "dependencyHigh": 0,
+  "dependencyModerateDevOnly": 1,
+  "localFixes": 1,
+  "pushOrDeployThisAudit": false
+}

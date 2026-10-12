@@ -6,7 +6,7 @@ from collections import defaultdict, deque
 import argparse, json, hashlib, re, datetime, unicodedata
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file
+from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -89,7 +89,7 @@ def audit(mode, directory):
             ld=s.select('script[type="application/ld+json"]');check(len(ld)==1,'one JSON-LD graph',route)
             try:
                 data=json.loads(ld[0].string);nodes=data['@graph'];check(data['@context']=='https://schema.org' and len(nodes)>=3,'evidence-scoped schema',route)
-                allowed_types={'WebPage','Organization','LodgingBusiness','BreadcrumbList','FAQPage','Article'}
+                allowed_types={'WebPage','Organization','LodgingBusiness','BreadcrumbList','FAQPage','Article','ImageObject'}
                 forbidden={'price','priceRange','offers','availability','aggregateRating','review','starRating','amenityFeature','telephone','checkinTime','checkoutTime','numberOfRooms'}
                 def safe_schema(value):
                     if isinstance(value,dict):return not(forbidden & set(value)) and all(safe_schema(v) for v in value.values())
@@ -99,8 +99,13 @@ def audit(mode, directory):
                 facts=json.loads((ROOT/'content/verified-facts-2026-10-11.json').read_text())
                 business=next((node for node in nodes if node.get('@type')=='LodgingBusiness'),{})
                 check(business.get('name')==facts['name'] and business.get('address')==facts['address'],'entity facts match dated dossier',route)
-                n=nodes[0];check(set(n)=={'@type','@id','url','name','description','inLanguage','about'},'schema allowed fields only',route)
-                check(n=={'@type':'WebPage','@id':ORIGIN+route+'#page','url':ORIGIN+route,'name':title,'description':description,'inLanguage':lang,'about':{'@id':ORIGIN+'/#lodging'}},'schema equals visible metadata',route)
+                source=BeautifulSoup((ROOT/'site'/unquote(route).lstrip('/')/'index.html').read_text(),'html.parser')
+                expected_images=visible_image_objects(source,ROOT)
+                check([node for node in nodes if node.get('@type')=='ImageObject']==expected_images,'image schema matches existing visible source assets without rights claims',route)
+                expected_page={'@type':'WebPage','@id':ORIGIN+route+'#page','url':ORIGIN+route,'name':title,'description':description,'inLanguage':lang,'about':{'@id':ORIGIN+'/#lodging'}}
+                if expected_images:expected_page['image']=[{'@id':item['@id']} for item in expected_images]
+                n=nodes[0];check(set(n)==set(expected_page),'schema allowed fields only',route)
+                check(n==expected_page,'schema equals visible metadata',route)
             except (ValueError,KeyError,IndexError,TypeError):check(False,'valid JSON-LD',route)
             inventory.append({'route':route,'lang':lang,'title':title,'description':description,'canonical':ORIGIN+route,'robots':value,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
         for img in s.select('img'):

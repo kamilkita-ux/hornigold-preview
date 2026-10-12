@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
 import argparse,json,subprocess,datetime
 root=Path(__file__).resolve().parent.parent
-ap=argparse.ArgumentParser();ap.add_argument('--origin',required=True);ap.add_argument('--base',default='');ap.add_argument('--label',required=True);opts=ap.parse_args()
+ap=argparse.ArgumentParser();ap.add_argument('--origin',required=True);ap.add_argument('--base',default='');ap.add_argument('--label',required=True);ap.add_argument('--expected-commit');opts=ap.parse_args()
 assert opts.origin in ['https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site','https://kamilkita-ux.github.io']
 routes=json.loads((root/'routes.json').read_text())
 def fetch(url):
@@ -22,10 +22,13 @@ def check(route):
   try:json.loads(s.string)
   except Exception:errors.append('JSON-LD')
  return {'route':route,'status':status,'errors':errors}
+start_body,start_status,start_code=fetch(opts.origin+opts.base+'/release.json')
+try:start_release=json.loads(start_body)
+except Exception:start_release={}
 with ThreadPoolExecutor(max_workers=8) as pool:rows=list(pool.map(check,routes))
-robots,rs,_=fetch(opts.origin+opts.base+'/robots.txt');release,ls,_=fetch(opts.origin+opts.base+'/release.json');config,cs,_=fetch(opts.origin+opts.base+'/assets/analytics-config.js')
+robots,rs,rc=fetch(opts.origin+opts.base+'/robots.txt');release,ls,lc=fetch(opts.origin+opts.base+'/release.json');config,cs,cc=fetch(opts.origin+opts.base+'/assets/analytics-config.js')
 try:release=json.loads(release)
 except Exception:release={}
-checks={'robotsBlocked':rs=='200' and 'Disallow: /' in robots,'revision':release.get('revision'),'expectedRevision':release.get('revision')=='23.11','analyticsDisabled':cs=='200' and 'enabled:false' in config}
+checks={'releaseFetched':start_status=='200' and start_code==0 and ls=='200' and lc==0,'deploymentStable':bool(start_release.get('commit')) and start_release.get('commit')==release.get('commit') and start_release.get('revision')==release.get('revision'),'commit':release.get('commit'),'expectedCommit':not opts.expected_commit or release.get('commit')==opts.expected_commit,'robotsBlocked':rc==0 and rs=='200' and 'Disallow: /' in robots,'revision':release.get('revision'),'expectedRevision':release.get('revision')==json.loads((root/'release.json').read_text()).get('revision'),'analyticsDisabled':cc==0 and cs=='200' and 'enabled:false' in config}
 report={'date':datetime.datetime.now().astimezone().isoformat(),'origin':opts.origin,'base':opts.base,'routes':len(rows),'checks':checks,'failures':[r for r in rows if r['errors']],'results':rows,'limits':['Read-only HTML verification, not a completed booking, receipt of analytics or legal certification.']}
-p=root/'docs/implementation/evidence'/('public-'+opts.label+'.json');p.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k not in ['results','limits']},ensure_ascii=False));raise SystemExit(bool(report['failures']) or not all(checks[k] for k in ['robotsBlocked','expectedRevision','analyticsDisabled']))
+p=root/'docs/implementation/evidence'/('public-'+opts.label+'.json');p.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps({k:v for k,v in report.items() if k not in ['results','limits']},ensure_ascii=False));raise SystemExit(bool(report['failures']) or not all(checks[k] for k in ['releaseFetched','deploymentStable','expectedCommit','robotsBlocked','expectedRevision','analyticsDisabled']))

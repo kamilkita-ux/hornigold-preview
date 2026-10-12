@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-12T01:43:26.347465+02:00",
+  "revision": "23.18",
+  "checks": [
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-policies-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://kamilkita-ux.github.io/hornigold-preview",
+      "file": "hornigold-safeguarding-children-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-pl.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-en.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-de.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-zh-hans.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-uk.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-es.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-policies-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    },
+    {
+      "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+      "file": "hornigold-safeguarding-children-it.pdf",
+      "transportExit": 0,
+      "matchesApprovedSHA256": true
+    }
+  ],
+  "errors": 0
+}

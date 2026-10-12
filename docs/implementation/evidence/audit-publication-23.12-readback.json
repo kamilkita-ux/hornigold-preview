@@ -1,0 +1,23 @@
+[
+  {
+    "origin": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site",
+    "revision": "23.12",
+    "commit": "local",
+    "rejectionStatus": "HTTP/2 403 ",
+    "rejectionCSP": true,
+    "rejectionFrameProtection": true
+  },
+  {
+    "origin": "https://kamilkita-ux.github.io",
+    "revision": "23.12",
+    "commit": "ad8224ee0285496ec1114fef30b2c440ba881b1e"
+  },
+  {
+    "origin": "https://hornigold.pl",
+    "revision": "23.11",
+    "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+    "rejectionStatus": "HTTP/2 403 ",
+    "rejectionCSP": false,
+    "rejectionFrameProtection": false
+  }
+]

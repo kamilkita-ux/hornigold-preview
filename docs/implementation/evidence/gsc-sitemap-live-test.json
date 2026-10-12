@@ -1,0 +1,23 @@
+{
+  "source": "Native Safari AX readback in Google Search Console",
+  "property": "https://hornigold.pl/",
+  "account": "hotelhornigold@gmail.com",
+  "sitemap": "https://hornigold.pl/sitemap.xml",
+  "sitemapsReport": {
+    "status": "Nie udało się pobrać",
+    "detectedPages": 0,
+    "lastReportedRead": "2026-10-11"
+  },
+  "liveTest": {
+    "uiTime": "12 paź 2026, 00:14",
+    "result": "Google ma dostęp do adresu URL",
+    "availabilitySummary": "Stronę można zindeksować",
+    "fullAvailabilityFieldsExpanded": false
+  },
+  "limits": [
+    "Live URL accessibility is not sitemap parsing, ingestion or indexation of its 693 pages.",
+    "UI focus changed during follow-up; no further Google submission or account changes were made."
+  ],
+  "officialProcedure": "https://support.google.com/webmasters/answer/7451001?hl=en",
+  "recordedAtUTC": "2026-10-11T22:18:36.495426+00:00"
+}

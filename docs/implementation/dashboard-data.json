@@ -1,13 +1,24 @@
 {
-  "asOf": "2026-10-11",
+  "asOf": "2026-10-12",
   "sources": {
     "GA4": {
       "property": "558323228",
       "stream": "16101873868",
-      "status": "Brak danych w ostatnich 48 h w odczycie UI. Nowa wersja pomiaru niepotwierdzona na produkcji.",
+      "status": "Potwierdzony odbiór kontrolowanego testu w raporcie czasu rzeczywistego. Dane zbiorcze wymagają przetworzenia przez Google.",
       "visits": null,
       "leads": null,
-      "revenue": null
+      "revenue": null,
+      "controlledTest": {
+        "activeUsersLast30Minutes": 1,
+        "pageViews": 2,
+        "events": {
+          "page_view": 2,
+          "first_visit": 1,
+          "session_start": 1,
+          "stay_planner_click": 1
+        },
+        "evidence": "evidence/ga4-live-receipt-2026-10-11.json"
+      }
     },
     "GSC": {
       "property": "https://hornigold.pl/",
@@ -15,11 +26,19 @@
       "ga4Link": "created and reread",
       "inspectedIndexed": [
         "/pl/",
-        "/en/"
+        "/en/",
+        "/de/",
+        "/es/",
+        "/it/"
       ],
-      "sitemap": "submitted; initial cannot fetch; observe 12 October",
+      "sitemap": "Live test 12 October: Google has access. Sitemap processing report last observed cannot fetch / zero discovered pages; processing not yet confirmed.",
       "clicks": null,
-      "impressions": null
+      "impressions": null,
+      "indexingRequestsAccepted": [
+        "/zh-hans/",
+        "/uk/"
+      ],
+      "indexedObservationDate": "2026-10-11"
     },
     "Sales": {
       "status": "Brak zweryfikowanego źródła PMS / płatności",
@@ -29,6 +48,17 @@
     "Ads": {
       "status": "Nie wskazano zweryfikowanego konta do integracji; kampanii nie uruchomiono",
       "cost": null
+    },
+    "Publication": {
+      "previewRevision": "23.18",
+      "productionRevisionLastObserved": "23.11",
+      "productionReadbackDate": "2026-10-12",
+      "githubRun": 38180159746,
+      "automaticCheckRun": 38180305635,
+      "automaticCheckStatus": "success",
+      "routes": 693,
+      "failures": 0,
+      "evidence": "evidence/PUBLICATION_23.17.json"
     }
   }
 }

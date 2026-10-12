@@ -1,0 +1,769 @@
+{
+  "candidateDirectory": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/output/tagged-legal-candidates-23.18-headings",
+  "published": false,
+  "documents": [
+    {
+      "file": "hornigold-policies-pl.pdf",
+      "sha256": "6d76ee76952b29f4ad4be46d9f9379a03e90c938bf42dbc35ab52cfd0852f3d1",
+      "pages": 16,
+      "language": "pl",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-pl.pdf",
+      "sha256": "43e1b8b52b3e01547029658ff2aef0e7a18f4d0e61cac7987b1bc92a1a7f1eac",
+      "pages": 3,
+      "language": "pl",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-pl.pdf",
+      "sha256": "230f52f58aed46fbe3db776973a5232fcdeee9dd6a74c9770b164a7de371d7de",
+      "pages": 1,
+      "language": "pl",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-en.pdf",
+      "sha256": "2caa590c110ac84c7fb90206163e6b4b0c6edbe71b753a2e8fc7ee22c0e1bb85",
+      "pages": 15,
+      "language": "en",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-en.pdf",
+      "sha256": "9b5d4f6459d0013d87988eb55fcd5fd7f1de40fd0d0bb807b6423f7a8801712f",
+      "pages": 2,
+      "language": "en",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-en.pdf",
+      "sha256": "b82b7991edb30b311e5cc256e0adea8aecf69aa7e49fd2da3fd4ee7ae0a84e38",
+      "pages": 1,
+      "language": "en",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-de.pdf",
+      "sha256": "80cb6123342be9675e90d3a6720dad8780e5834d45b8a0270e0ed1a3592cd152",
+      "pages": 15,
+      "language": "de",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-de.pdf",
+      "sha256": "edd6c1c822b75b7bffa476a6cdf6cf3f4c106e54cd1cf7ecc410620eb03eb283",
+      "pages": 3,
+      "language": "de",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-de.pdf",
+      "sha256": "e8fd82d113802dcfcde73a41b7c25b24c27882b5e79ddb8a62b6f3fdecaf7279",
+      "pages": 1,
+      "language": "de",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 2
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-zh-hans.pdf",
+      "sha256": "d0a521381f047af0d40764961048229ab49cca7b07f58282f8c2eed9672c2d11",
+      "pages": 10,
+      "language": "zh-Hans",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/Span": 273,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [
+        22,
+        28,
+        45,
+        53,
+        84,
+        85
+      ],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-zh-hans.pdf",
+      "sha256": "67e0471510b49266df2365db8eeaceb1cdf462ba776e326d2b3a6d55e59b02b1",
+      "pages": 2,
+      "language": "zh-Hans",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/Span": 42,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-zh-hans.pdf",
+      "sha256": "682a962c3cef5eac2212f9b3153d8555efb8856efb3c48b28a4f6408343a5b80",
+      "pages": 1,
+      "language": "zh-Hans",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/Span": 27,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [
+        0,
+        2,
+        3
+      ],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-uk.pdf",
+      "sha256": "4580658f19ec50d2f661789e0bae61870814aa63bbcaabf093a4783e8802746a",
+      "pages": 15,
+      "language": "uk",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-uk.pdf",
+      "sha256": "1becd84373485ccd88b8ed2e1b8226fc6d0f11713935c8e9d9f86bb75a44d1a3",
+      "pages": 3,
+      "language": "uk",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-uk.pdf",
+      "sha256": "acf1113403c482f9a2c14fe8995828f3a3311735443c9f25e3decc2c00a66cc5",
+      "pages": 1,
+      "language": "uk",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-es.pdf",
+      "sha256": "c0be853b2bfc881b03a62fefc60ae064f994f9f30837d6a62b260ce02dba5c1c",
+      "pages": 15,
+      "language": "es",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-es.pdf",
+      "sha256": "dd768a1a0b05e0eae6e219f43684fddd88fecbf1c110981f8474a3d3b5252d79",
+      "pages": 2,
+      "language": "es",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-es.pdf",
+      "sha256": "472fb0337ee54619a58f90583e2e44761fb908ca82014f37ec007f4417ea0d7e",
+      "pages": 1,
+      "language": "es",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-policies-it.pdf",
+      "sha256": "53aea58580356b76900d4b64daa8f74a7f0bcc41a4451e827277a07e27934f9e",
+      "pages": 15,
+      "language": "it",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/P": 84,
+        "/H2": 9,
+        "/L": 9,
+        "/LI": 72,
+        "/Lbl": 72,
+        "/LBody": 72,
+        "/Link": 9
+      },
+      "expectedTextItems": 94,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-it.pdf",
+      "sha256": "8a35db524462bbd230df4439b64b821d06e25f99f28b50faf61670203be146ce",
+      "pages": 2,
+      "language": "it",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 12,
+        "/Lbl": 12,
+        "/LBody": 12,
+        "/P": 15,
+        "/Link": 1
+      },
+      "expectedTextItems": 16,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    },
+    {
+      "file": "hornigold-safeguarding-children-it.pdf",
+      "sha256": "12c9b8e2ee3d813e10514e3eb339529473864247978f412ff6df1378d51079ff",
+      "pages": 1,
+      "language": "it",
+      "tags": {
+        "/Document": 1,
+        "/H1": 1,
+        "/L": 1,
+        "/LI": 8,
+        "/Lbl": 8,
+        "/LBody": 8,
+        "/P": 11,
+        "/Link": 1
+      },
+      "expectedTextItems": 12,
+      "missingTextItems": [],
+      "textExtractor": "Poppler layout",
+      "pypdfExtractionMissingItems": [],
+      "tagged": true,
+      "pdfUAValidated": false,
+      "visualReviewCompleted": false
+    }
+  ],
+  "structureLinkage": {
+    "documents": [
+      {
+        "file": "hornigold-policies-de.pdf",
+        "pages": 15,
+        "markedContentReferences": 574,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-en.pdf",
+        "pages": 15,
+        "markedContentReferences": 525,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-es.pdf",
+        "pages": 15,
+        "markedContentReferences": 537,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-it.pdf",
+        "pages": 15,
+        "markedContentReferences": 522,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-pl.pdf",
+        "pages": 16,
+        "markedContentReferences": 567,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-uk.pdf",
+        "pages": 15,
+        "markedContentReferences": 557,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-policies-zh-hans.pdf",
+        "pages": 10,
+        "markedContentReferences": 744,
+        "links": 9,
+        "structureLinkReferences": 9,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-de.pdf",
+        "pages": 1,
+        "markedContentReferences": 38,
+        "links": 2,
+        "structureLinkReferences": 2,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-en.pdf",
+        "pages": 1,
+        "markedContentReferences": 34,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-es.pdf",
+        "pages": 1,
+        "markedContentReferences": 36,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-it.pdf",
+        "pages": 1,
+        "markedContentReferences": 34,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-pl.pdf",
+        "pages": 1,
+        "markedContentReferences": 37,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-uk.pdf",
+        "pages": 1,
+        "markedContentReferences": 37,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-children-zh-hans.pdf",
+        "pages": 1,
+        "markedContentReferences": 68,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-de.pdf",
+        "pages": 3,
+        "markedContentReferences": 97,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-en.pdf",
+        "pages": 2,
+        "markedContentReferences": 92,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-es.pdf",
+        "pages": 2,
+        "markedContentReferences": 92,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-it.pdf",
+        "pages": 2,
+        "markedContentReferences": 90,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-pl.pdf",
+        "pages": 3,
+        "markedContentReferences": 111,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-uk.pdf",
+        "pages": 3,
+        "markedContentReferences": 99,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      },
+      {
+        "file": "hornigold-safeguarding-zh-hans.pdf",
+        "pages": 2,
+        "markedContentReferences": 120,
+        "links": 1,
+        "structureLinkReferences": 1,
+        "embeddedFonts": true,
+        "missingFonts": [],
+        "errors": []
+      }
+    ],
+    "errors": 0,
+    "limits": [
+      "Technical structure linkage and ordering only; manual semantic reading-order and assistive-technology acceptance remain unverified."
+    ]
+  },
+  "negativeTests": {
+    "cases": [
+      {
+        "case": "missing-structure",
+        "detected": true,
+        "errors": [
+          "Marked content / structure references mismatch",
+          "Structure order differs from page content order",
+          "Link annotation / structure references mismatch"
+        ]
+      },
+      {
+        "case": "wrong-reading-order",
+        "detected": true,
+        "errors": [
+          "Structure order differs from page content order"
+        ]
+      },
+      {
+        "case": "missing-link",
+        "detected": true,
+        "errors": [
+          "Link annotation / structure references mismatch"
+        ]
+      },
+      {
+        "case": "unembedded-font",
+        "detected": true,
+        "errors": [
+          "Font not embedded"
+        ]
+      }
+    ],
+    "sourceUnchanged": true
+  },
+  "limits": [
+    "Fresh generation succeeds without hand edits.",
+    "All-page visual QA must be repeated on final adopted text.",
+    "Accessibility paragraph currently describes existing untagged published PDFs; update HTML and regenerate candidates together before adoption.",
+    "No manual assistive-technology acceptance or PDF/UA certification."
+  ]
+}

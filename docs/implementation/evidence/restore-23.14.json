@@ -1,0 +1,10 @@
+{
+  "backup": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_231720-release23",
+  "restore": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/output/restore-23.14",
+  "verifiedFiles": 1975,
+  "release": "23.14",
+  "restoredBuild": "passed: 693 pages, zero build errors",
+  "limits": [
+    "Source restore; not Cloudflare configuration or database"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "revision": "23.13",
+  "github": {
+    "repository": "kamilkita-ux/hornigold-preview",
+    "branch": "main",
+    "commit": "1319ff9716e17b1cde114d10034eca96070e5593",
+    "run": 38174862599,
+    "status": "success"
+  },
+  "sites": {
+    "project_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+    "version_id": "appgprj_6ac24ff4d7d08191aef99366bb3d966f~appgver_3d2abb0e08d88191a86f8391434ed76d",
+    "version_number": 35,
+    "commit": "1eb64bcb8c87462c239ed4a763bd3ecb7792dada",
+    "deployment_id": "appgdep_6acbfa57c6808191b78fe6332c831a22",
+    "status": "succeeded",
+    "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site"
+  },
+  "production": {
+    "revision": "23.11",
+    "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+    "pipelineUnconfirmed": true
+  },
+  "mail": {
+    "from": "lu@farmyfotowoltaiki.pl",
+    "to": [
+      "biuro@cloudmentor.pl"
+    ],
+    "subject": "Hornigold 23.13 — nowa aktualizacja GitHub main, GA4 i poprawki pomiaru",
+    "id": "AAMkADA0ZDQwZDcxLTNkMzQtNGMyZS1iODJiLWI1ODE4OGMwMzkyYwBGAAAAAABUrZN1upf0Rrc-NHXXnp9XBwDe34BR7GzjSLJfU_CqVPVUAAAAAAEJAADe34BR7GzjSLJfU_CqVPVUAAASjQKLAAA=",
+    "sentItemsConfirmed": true,
+    "deliveryConfirmed": false
+  },
+  "publicAudits": {
+    "Sites": {
+      "routes": 693,
+      "failures": 0
+    },
+    "GitHubPages": {
+      "routes": 693,
+      "failures": 0,
+      "initialTransient503": 1,
+      "successfulRetries": 3
+    },
+    "footerReadback": {
+      "cases": 14,
+      "passed": true
+    }
+  },
+  "backupRestore": {
+    "backup": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_230814-release23",
+    "restore": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/output/restore-23.13",
+    "verifiedFiles": 1964,
+    "totalFiles": 1964,
+    "release": "23.13",
+    "gitHistoryBundleVerified": true,
+    "limits": [
+      "Source files and Git history; not a Cloudflare database/configuration restore."
+    ],
+    "restoredBuild": "passed"
+  },
+  "dependabotAlert1": "fixed"
+}

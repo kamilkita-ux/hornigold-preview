@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11T21:31:10.845Z",
+  "revision": "23.15",
+  "github": {
+    "repository": "kamilkita-ux/hornigold-preview",
+    "branch": "main",
+    "commit": "a5fdacdfaa6872491911635881f881c576b136ab",
+    "run": "38176309648",
+    "status": "success",
+    "url": "https://kamilkita-ux.github.io/hornigold-preview/pl/"
+  },
+  "sites": {
+    "project": "appgprj_6ac24ff4d7d08191aef99366bb3d966f",
+    "version": 37,
+    "deployment": "appgdep_6acbff38c4a08191985597691139f3e3",
+    "status": "succeeded",
+    "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/"
+  },
+  "publicAudits": {
+    "routesPerPreview": 693,
+    "failures": 0,
+    "instagram": "hornigold.zielona.kamienica",
+    "noindex": true,
+    "analyticsDisabled": true
+  },
+  "production": {
+    "revision": "23.11",
+    "commit": "0ade4c9db17206a1a371864cd2222bbe29c14d4d",
+    "checkedThisTurn": true,
+    "updatedTo2315": false
+  },
+  "backup": {
+    "path": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-11_232513-release23",
+    "sourceFilesVerified": 1986
+  },
+  "email": {
+    "id": "AAMkADA0ZDQwZDcxLTNkMzQtNGMyZS1iODJiLWI1ODE4OGMwMzkyYwBGAAAAAABUrZN1upf0Rrc-NHXXnp9XBwDe34BR7GzjSLJfU_CqVPVUAAAAAAEJAADe34BR7GzjSLJfU_CqVPVUAAASjQKNAAA=",
+    "subject": "Hornigold 23.15 — Instagram, aktualizacja main i ochrona rezerwacji/Fiserv",
+    "sender": {
+      "emailAddress": {
+        "address": "lu@farmyfotowoltaiki.pl",
+        "name": "LU - Cyfrowa Asystentka Prezesa Zarządu"
+      }
+    },
+    "receivedDateTime": "2026-10-11T21:30:42Z",
+    "status": "verified in Sent Items; delivery not verified"
+  },
+  "protectedIntegrations": "Existing booking module and Fiserv: no code, configuration or connection changes without new explicit owner instruction."
+}

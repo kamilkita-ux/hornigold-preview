@@ -1,0 +1,51 @@
+name: Hornigold publication check
+on:
+  workflow_run:
+    workflows: [Publish Hornigold preview]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: publication-check
+  cancel-in-progress: true
+jobs:
+  check:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Verify deployed Pages release
+        env:
+          EXPECTED_COMMIT: ${{ github.event.workflow_run.head_sha || github.sha }}
+        run: python scripts/audit_live_release.py --origin https://kamilkita-ux.github.io --base /hornigold-preview --label github-actions --expected-commit "$EXPECTED_COMMIT"
+      - name: Canonical production health (read-only)
+        if: always()
+        run: python scripts/monitor_public.py
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - run: corepack enable && corepack prepare pnpm@10.30.3 --activate
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - name: Lighthouse canonical production (read-only)
+        env:
+          LIGHTHOUSE_URL: https://hornigold.pl
+        run: node scripts/audit_lighthouse.mjs
+      - name: Evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: publication-evidence
+          path: |
+            docs/implementation/evidence/public-github-actions.json
+            docs/implementation/evidence/monitor-latest.json
+            docs/implementation/evidence/lighthouse/
+          retention-days: 7

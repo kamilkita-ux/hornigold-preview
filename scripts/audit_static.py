@@ -17,7 +17,7 @@ for route in routes:
  check(s.select_one('meta[name=description][content]'),'description')
  check('noindex' in s.select_one('meta[name=robots]')['content'],'noindex')
  check(not s.select('.preview-bar'),'removed banner')
- check(s.select_one('[data-site-version]').get_text()==str(release['version']),'version')
+ check(s.select_one('[data-site-version]').get_text()==str(release.get('revision',release['version'])),'version')
  alts={a['hreflang']:a['href'] for a in s.select('link[rel=alternate][hreflang]')}
  check(set(alts)==langs|{'x-default'},'hreflang matrix')
  check(len(s.select('a[data-language]'))==7,'language switcher')

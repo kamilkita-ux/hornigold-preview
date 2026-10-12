@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-11T22:14:27.621827+00:00",
+  "checks": [
+    {
+      "client": "curl-default",
+      "http": "200",
+      "exit": 0,
+      "headers": [
+        "HTTP/2 200 ",
+        "content-type: application/xml",
+        "server: cloudflare",
+        "cf-ray: a49137c5692fc3aa-WAW"
+      ],
+      "xmlURLs": 693
+    },
+    {
+      "client": "python-client",
+      "http": "403",
+      "exit": 0,
+      "headers": [
+        "HTTP/2 403 ",
+        "content-type: text/plain; charset=UTF-8",
+        "server: cloudflare",
+        "cf-ray: a49137c5f8bcd17b-WAW"
+      ],
+      "xmlURLs": null
+    },
+    {
+      "client": "declared-googlebot",
+      "http": "200",
+      "exit": 0,
+      "headers": [
+        "HTTP/2 200 ",
+        "content-type: application/xml",
+        "server: cloudflare",
+        "cf-ray: a49137c65b0cbf5b-WAW"
+      ],
+      "xmlURLs": 693
+    }
+  ],
+  "limits": [
+    "User-agent simulation only; not a request from verified Google IP or proof of Google ingestion. No Cloudflare or booking/payment configuration changed."
+  ]
+}

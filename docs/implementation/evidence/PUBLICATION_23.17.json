@@ -1,0 +1,44 @@
+{
+  "recordedAtUTC": "2026-10-11T22:26:12.331531+00:00",
+  "revision": "23.17",
+  "preparationBranch": "codex/cloudflare-production-seo-20261009",
+  "publicationBranch": "main",
+  "commit": "b49213e0f602ff2ca82398a81cf4045b12a0475b",
+  "githubPages": {
+    "run": 38180159746,
+    "status": "success",
+    "url": "https://kamilkita-ux.github.io/hornigold-preview/pl/",
+    "routes": 693,
+    "failures": 0,
+    "checks": {
+      "robotsBlocked": true,
+      "revision": "23.17",
+      "expectedRevision": true,
+      "analyticsDisabled": true
+    }
+  },
+  "sites": {
+    "deployment": "appgdep_6acc0bcbecb88191aaa08bdd89d1f8fa",
+    "status": "succeeded",
+    "routes": 693,
+    "failures": 0,
+    "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/"
+  },
+  "backup": "/Users/kamilkita/Documents/Hornigold-backups/2026-10-12_002159-release23",
+  "backupVerifiedFiles": 2015,
+  "pythonTestsPassed": 24,
+  "mail": {
+    "sender": "lu@farmyfotowoltaiki.pl",
+    "recipient": "biuro@cloudmentor.pl",
+    "sentItemsConfirmed": true,
+    "sentAtUTC": "2026-10-11T22:25:35Z"
+  },
+  "automaticPostPublicationRun": 38180305635,
+  "limits": [
+    "Cloudflare deployment is separate and not awaited for preview publication.",
+    "Existing booking and Fiserv unchanged.",
+    "Production version last observed 23.11."
+  ],
+  "automaticPostPublicationStatus": "success",
+  "automaticEvidenceDirectory": "/Users/kamilkita/.codex/.chatgpt-projects/g-p-6aaed13073888191a8289291620e2647/hornigold_official_assets_2026-09-19/output/security-audit-2026-10-12/automatic-publication-38180305635"
+}
