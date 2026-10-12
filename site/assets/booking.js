@@ -37,6 +37,10 @@
   root.HornigoldBooking = api;
   if (!document.querySelector('a[data-booking]')) return;
   const pageLang = pageLanguage(location.pathname);
+  // Gość przyszedł tu z wyboru pokoju (?room=…) i ma ważny termin oraz kategorię sprzedawaną w silniku: strona
+  // pośrednia nic mu nie daje. replace() nie zostawia jej w historii, więc „Wstecz” z silnika wraca na listę pokoi.
+  const direct = bookingUrl(root.HornigoldStay ? root.HornigoldStay.get() : {}, pageLang);
+  if (new URLSearchParams(location.search).has('room') && direct.includes('featuredRoomTypeId=')) { location.replace(direct); return; }
   function refresh() {
     const stay = root.HornigoldStay ? root.HornigoldStay.get() : {};
     const url = bookingUrl(stay, pageLang);

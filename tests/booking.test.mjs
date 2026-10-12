@@ -65,17 +65,17 @@ test('a room without valid dates gives engine home', () => {
 });
 
 // Część przeglądarkowa: atrapa dokumentu z przyciskiem rezerwacji i odnośnikiem „wszystkie pokoje”.
-function page(stay, pathname = '/pl/rezerwacja/') {
+function page(stay, pathname = '/pl/rezerwacja/', search = '') {
   const code = readFileSync(new URL('../site/assets/booking.js', import.meta.url), 'utf8');
   const main = {href: ''}, all = {href: '', parentElement: {hidden: true}};
-  const listeners = {};
-  const sandbox = {URLSearchParams, Intl, Date, location: {pathname}, HornigoldStay: {get: () => ({...stay})},
+  const listeners = {}, replaced = [];
+  const sandbox = {URLSearchParams, Intl, Date, location: {pathname, search, replace: url => { replaced.push(url); }}, HornigoldStay: {get: () => ({...stay})},
     document: {querySelector: sel => sel === 'a[data-booking]' ? main : null,
       querySelectorAll: sel => sel === 'a[data-booking]' ? [main] : sel === 'a[data-booking-all]' ? [all] : [],
       addEventListener: (type, fn) => { listeners[type] = fn; }}};
   sandbox.window = sandbox;
   vm.runInNewContext(code, sandbox);
-  return {main, all, change: next => { stay = next; listeners.change(); }};
+  return {main, all, replaced, change: next => { stay = next; listeners.change(); }};
 }
 const future = offset => new Date(Date.now() + offset * 86400000).toISOString().slice(0, 10);
 test('chosen room narrows the main button; the second link shows all rooms for the same dates', () => {
@@ -101,4 +101,29 @@ test('the all-rooms link follows changes made in the page forms', () => {
   view.change(dates);
   assert.equal(view.all.parentElement.hidden, true);
   assert.equal(view.main.href, view.all.href);
+});
+
+// Wybór pokoju prowadzi na /rezerwacja/?room=…; z ważnym terminem i kategorią sprzedawaną w silniku strona pośrednia jest zbędna.
+test('arriving from a room choice with valid dates goes straight to the engine', () => {
+  const stay = {arrival: future(30), departure: future(32), guests: '2', room: 'suite'};
+  const {replaced} = page(stay, '/de/rezerwacja/', `?arrival=${stay.arrival}&departure=${stay.departure}&guests=2&room=suite`);
+  assert.deepEqual(replaced, [`${BASE}/de/${H}/offers?arrivalDate=${stay.arrival}&departureDate=${stay.departure}&personsCount=2&featuredRoomTypeId=4833`]);
+});
+test('a room chosen on a room page uses the dates remembered from earlier', () => {
+  const stay = {arrival: future(30), departure: future(32), guests: '4', room: 'prestige-deluxe'};
+  assert.equal(page(stay, '/pl/rezerwacja/', '?room=prestige-deluxe').replaced.length, 1);
+});
+test('the reservation page stays when there is nothing to hand over', () => {
+  const dates = {arrival: future(30), departure: future(32), guests: '2'};
+  const cases = [
+    [{...dates, room: 'hornigold'}, '?room=hornigold', 'room without an online offer'],
+    [{room: 'classic'}, '?room=classic', 'no dates yet'],
+    [{...dates, room: 'classic'}, '', 'page opened on its own, room only remembered from the session'],
+    [dates, `?arrival=${dates.arrival}&departure=${dates.departure}&guests=2`, 'dates without a room'],
+  ];
+  for (const [stay, search, why] of cases) {
+    const view = page(stay, '/pl/rezerwacja/', search);
+    assert.deepEqual(view.replaced, [], why);
+    assert.ok(view.main.href.startsWith(`${BASE}/pl/${H}`), `${why}: the button still works`);
+  }
 });
