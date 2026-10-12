@@ -1,6 +1,12 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { firstRedirect, hasBookingLink, isBookingPage, nextReleaseTag, parseArgs, pickActiveVersion, reviewChanges, robotsMeta } from "../scripts/cloudflare-release.mjs";
+import { firstRedirect, hasBookingLink, isBookingPage, nextReleaseTag, parseArgs, pickActiveVersion, reviewChanges, robotsMeta, visibleBodyText } from "../scripts/cloudflare-release.mjs";
+
+test("widoczny tekst strony: noscript i skrypty się nie liczą", () => {
+  assert.equal(visibleBodyText('<html><head><title>Hornigold</title></head><body><noscript><a href="/pl/">Polski</a></noscript></body></html>'), "");
+  assert.equal(visibleBodyText('<html><body><a href="/pl/">Polski</a></body></html>'), "Polski");
+  assert.equal(visibleBodyText("<body><script>var a = 1;</script><p>Witaj <b>gościu</b></p></body>"), "Witaj gościu");
+});
 
 test("strony z blokami rezerwacji — tylko te konflikty rozwiązywane automatycznie", () => {
   for (const path of ["site/pl/index.html", "site/zh-hans/pobyt/index.html", "site/de/rezerwacja/index.html", "site/assets/style.css"]) assert.ok(isBookingPage(path), path);

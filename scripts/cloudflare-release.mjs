@@ -97,6 +97,12 @@ export function hasBookingLink(html) {
   return [...html.matchAll(/<a [^>]*data-booking=""[^>]*>/g)].some((m) => /href="https:\/\/be\.guestsage\.com\//.test(m[0]));
 }
 
+// Tekst, który przeglądarka z JavaScriptem namalowałaby z <body> (bez <noscript>, skryptów i znaczników).
+export function visibleBodyText(html) {
+  const body = /<body[^>]*>([\s\S]*)<\/body>/i.exec(html)?.[1] ?? html;
+  return body.replace(/<(noscript|script|style)\b[\s\S]*?<\/\1>/gi, "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
 export function robotsMeta(html) {
   const tag = (html.match(/<meta\b[^>]*>/gi) ?? []).find((t) => /\bname=["']robots["']/i.test(t)); // BeautifulSoup zmienia kolejność atrybutów
   return tag ? /\bcontent=["']([^"']*)["']/i.exec(tag)?.[1] ?? null : null;
@@ -325,6 +331,19 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
     const page = await request(path);
     check(page.status === 200 && hasBookingLink(await page.text()), `${path} → ${page.status} z a[data-booking] do GuestSage`);
   }
+  // Gość nie może zobaczyć strony pośredniej: "/" nic nie maluje przed przejściem do języka, a wybór pokoju
+  // z terminem dostaje 302 prosto do silnika (server/production-entry.mjs), nie stronę Rezerwacja.
+  const root = await request("/");
+  const rootText = root.status === 200 ? visibleBodyText(await root.text()) : null;
+  check(rootText === "", `/ → ${root.status}, widoczny tekst: ${rootText === "" ? "brak" : JSON.stringify(rootText)}`);
+  const day = (offset) => new Date(Date.now() + offset * 86_400_000).toISOString().slice(0, 10);
+  const stay = `arrival=${day(30)}&departure=${day(32)}&guests=2`;
+  const handover = await request(`/pl/rezerwacja/?${stay}&room=classic`);
+  const target = handover.headers.get("location") ?? "";
+  check(handover.status === 302 && /^https:\/\/be\.guestsage\.com\/pl\/[0-9a-f-]+\/offers\?/.test(target) && target.endsWith(`personsCount=2&featuredRoomTypeId=4830`),
+    `wybór pokoju z terminem → ${handover.status} ${target.replace(/\/[0-9a-f-]{36}\//, "/<obiekt>/")}`);
+  const stays = await request(`/pl/rezerwacja/?${stay}&room=hornigold`);
+  check(stays.status === 200, `pokój bez oferty online → ${stays.status} (strona Rezerwacja)`);
   // Search Console wymaga 200 pod dokładnym adresem — bez obsługi w server/production-entry.mjs assety dałyby 307.
   for (const file of readdirSync(join(ROOT, "site")).filter((f) => /^google[0-9a-f]+\.html$/.test(f))) {
     const response = await request(`/${file}`);
