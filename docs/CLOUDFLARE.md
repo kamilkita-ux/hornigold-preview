@@ -10,7 +10,7 @@ Przepływ żądania:
 2. **Strefa `hornigold.pl`.** TLS ≥ 1.2, `always_use_https`, HSTS 1 rok bez `includeSubDomains`, SSL `full`. `www` → 301 regułą Redirect (ścieżka i parametry zachowane); `old.hornigold.pl` proxied → stara strona PHP `91.200.185.61`; poczta Microsoft 365 (MX, SPF, DKIM, DMARC, autodiscover) bez proxy.
 3. **Worker `hornigold`** (Custom Domain apeksu, `placement.region` `gcp:europe-central2` — wykonywanie najbliżej Warszawy). Wejście `_cloudflare_production/server/production-entry.mjs` (paczka z `scripts/prepare_cloudflare_production.py`): `robots.txt` zależny od hosta (`Allow` tylko na `https://hornigold.pl`), `X-Robots-Tag` zdjęty tylko z 693 tras kanonicznych i mapy strony, `/release.json` z polami produkcyjnymi; dalej `server/worker.mjs`: CSP (`script-src 'self'`) i nagłówki, `/api/site-stats` (licznik), 539 przekierowań 301 starych adresów (`server/routes.mjs`), statyki `ASSETS` z `_cloudflare_production/assets` (`run_worker_first`, `404-page`).
 4. **D1 `hornigold-counter-eu`** (jurysdykcja EU) — wyłącznie zbiorczy licznik odsłon, bez danych osobowych.
-5. **Rezerwacje.** Przycisk „Sprawdź dostępność i zarezerwuj” na `/{język}/rezerwacja/` → hostowany GuestSage AI Booking Engine (KWHotel); `booking.js` dokłada daty i liczbę osób z `HornigoldStay`. Umowa i płatność po stronie GuestSage. **Stan 10.10.2026: silnik nieaktywny w KWHotel → 404** (sekcja „Rezerwacje GuestSage”).
+5. **Rezerwacje.** Przycisk „Sprawdź dostępność i zarezerwuj” na `/{język}/rezerwacja/` → hostowany GuestSage AI Booking Engine (KWHotel); `booking.js` dokłada daty i liczbę osób z `HornigoldStay`. Umowa i płatność po stronie GuestSage. Silnik włączony w KWHotel 12.10.2026 (wcześniej 404 — sekcja „Rezerwacje GuestSage”).
 6. **Logi Workera wyłączone** (dane poza UE); diagnostyka na żywo: `npx wrangler tail hornigold`.
 
 ## Zasoby
@@ -300,3 +300,15 @@ Polecenie Marka: wdrożyć, a gdy działa — scalić z `main`.
 - `main` przesunięty fast-forward do `deploy/cloudflare`. Od tej chwili `main` zawiera rezerwacje KWHotel, `wrangler.jsonc`, runbook i skrypt wydań, a publikacja Kamila na GitHub Pages pokazuje blok „Zarezerwuj online”.
 - Dalej bez zmian: produkcję wydaje się z `deploy/cloudflare` po scaleniu `origin/main`. Jeśli Sites Kamila nadpisze strony rezerwacji wersją bez bloków, konflikt lub smoke to wychwyci, a `scripts/kwhotel_booking_pages.py` odtworzy bloki.
 - Materiały hotelu w lokalnym `kwhotel/` nadal poza repozytorium (repo publiczne, dane osób trzecich); katalog jest w `.git/info/exclude`.
+
+## Silnik rezerwacji włączony (12 października 2026 r., ok. 14:50)
+
+Marek włączył silnik w panelu KWHotel (cloud.kwhotel.com → Moduły → Silnik rezerwacyjny). Sprawdzone z zewnątrz przeglądarką (Playwright), bez wybierania oferty i bez rezerwacji:
+
+- Przed włączeniem `POST be.guestsage.com/bookingengine/api/guestsage/offers` zwracał 403 „Enable booking engine before querying offers”, a gość widział „404 Oferta jest niedostępna”. Po włączeniu: 200 z ofertami.
+- Przejście `hornigold.pl/{język}/rezerwacja/` z datami → przycisk → silnik: 6 ofert na 11–13.11.2026 dla 2 osób w pl, en, de, uk, es, it; `zh-hans` otwiera silnik po angielsku. Oferty są także na terminy za 3, 14 i 90 dni.
+- Publiczna konfiguracja (`…/guestsage/configurations?hotelId=…`) nadal pokazuje `enabled: false`, `hotel.active: false`, `company.active: false`, mimo że silnik działa — tych pól nie traktować jako wyznacznika. Wyznacznikiem jest odpowiedź `/guestsage/offers`.
+- Języki silnika po zmianie w panelu: pl, en, de, it, uk, es.
+- Wszystkie oferty były na jednym planie cenowym (10205), bezzwrotne, z przedpłatą 100%. W ofertach dla 2 osób nie pojawiły się typy 4837 (Apartment Deluxe) i 4838 (Apartament nr 128).
+- Typy pokoi z `…/guestsage/hotels/<obiekt>/roomtypes` (wartości `featuredRoomTypeId` do mapy `ROOMS` w `site/assets/booking.js`): 4830 Classic, 4828 Deluxe, 4834 Premium, 4836 Premium Deluxe, 4833 Apt Suite, 4837 Apartment Deluxe, 4835 Apartament 2 bedrooms, 4838 Apartament nr 128. Mapa `ROOMS` nadal pusta — przypisanie do stron `pokoje/` (zwłaszcza `prestige`, `prestige-deluxe`, `hornigold`) wymaga potwierdzenia hotelu.
+- Nie sprawdzono: formularza danych gościa, płatności i zapisu rezerwacji w KWHotel — to próbna rezerwacja po stronie hotelu.
