@@ -6,8 +6,10 @@
   const ORIGIN = 'https://be.guestsage.com';
   // Silnik nie ma chińskiego; obsługiwane m.in. pl, en, de, uk, es, it.
   const LANG = {pl: 'pl', en: 'en', de: 'de', uk: 'uk', es: 'es', it: 'it', 'zh-hans': 'en'};
-  // Slug pokoju (app.js roomNames) -> featuredRoomTypeId z panelu KWHotel. Uzupełnić po otrzymaniu ID.
-  const ROOMS = {};
+  // Slug pokoju (app.js roomNames) -> featuredRoomTypeId. Silnik zawęża wtedy listę do tej jednej kategorii.
+  // Tylko kategorie, które silnik sprzedaje (stan 2026-10-12): apartament-deluxe, prestige i hornigold nie mają
+  // oferty online — z identyfikatorem gość zobaczyłby „brak dostępności”, bez niego widzi wszystkie wolne pokoje.
+  const ROOMS = {classic: 4830, deluxe: 4828, premium: 4834, 'deluxe-premium': 4836, suite: 4833, 'prestige-deluxe': 4835};
   const validDate = v => /^\d{4}-\d{2}-\d{2}$/.test(v || '') && !isNaN(Date.parse(v)) && new Date(v + 'T12:00:00Z').toISOString().slice(0, 10) === v;
   const todayWarsaw = () => new Intl.DateTimeFormat('sv-SE', {timeZone: 'Europe/Warsaw'}).format(new Date());
 
@@ -39,6 +41,9 @@
     const stay = root.HornigoldStay ? root.HornigoldStay.get() : {};
     const url = bookingUrl(stay, pageLang);
     document.querySelectorAll('a[data-booking]').forEach(a => { a.href = url; });
+    // Gdy przycisk prowadzi do jednej kategorii, drugi odnośnik otwiera wszystkie pokoje na ten sam termin.
+    const all = bookingUrl({...stay, room: ''}, pageLang);
+    document.querySelectorAll('a[data-booking-all]').forEach(a => { a.href = all; a.parentElement.hidden = all === url; });
   }
   refresh();
   // Formularze strony aktualizują HornigoldStay w swoich listenerach; dokument dostaje zdarzenie później.

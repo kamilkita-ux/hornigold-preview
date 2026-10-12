@@ -8,10 +8,19 @@ const read = p => readFileSync(new URL('../site/' + p, import.meta.url), 'utf8')
 const OLD_NOTICE = ['Rezerwacje online są obecnie niedostępne', 'Online booking is currently unavailable', 'Online-Buchungen sind derzeit nicht verfügbar',
   'Онлайн-бронювання наразі недоступне', 'Las reservas en línea no están disponibles', 'Le prenotazioni online non sono al momento disponibili', '本网站版暂不支持预订'];
 
+const ALL_ROOMS = {pl: 'Zobacz wszystkie dostępne pokoje', en: 'See all available rooms', de: 'Alle verfügbaren Zimmer ansehen', uk: 'Переглянути всі доступні номери',
+  es: 'Ver todas las habitaciones disponibles', it: 'Vedi tutte le camere disponibili', 'zh-hans': '查看所有可订房型'};
+
 for (const [lang, engine] of Object.entries(LANG)) {
+  test(`${lang} booking block has a hidden all-rooms link right after the button`, () => {
+    const html = read(`${lang}/rezerwacja/index.html`);
+    assert.equal(html.split('data-booking-all=""').length - 1, 1);
+    assert.ok(html.includes(`</a></p><p hidden=""><a class="text-link" data-booking-all="" href="https://be.guestsage.com/${engine}/${H}">${ALL_ROOMS[lang]}</a></p><p>`),
+      'the link must follow the booking button and stay hidden until booking.js narrows the button to one room');
+  });
   test(`${lang} reservation page links to GuestSage without JavaScript`, () => {
     const html = read(`${lang}/rezerwacja/index.html`);
-    const links = [...html.matchAll(/<a [^>]*data-booking[^>]*>/g)].map(m => m[0]);
+    const links = [...html.matchAll(/<a [^>]*data-booking=""[^>]*>/g)].map(m => m[0]);
     assert.equal(links.length, 1);
     assert.match(links[0], new RegExp(`href="https://be\\.guestsage\\.com/${engine}/${H}"`));
     assert.match(links[0], /class="button"/);
