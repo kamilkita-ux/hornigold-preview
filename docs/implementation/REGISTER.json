@@ -233,14 +233,15 @@
       "id": "D2",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników.",
+      "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/image-inventory.json",
-        "evidence/lighthouse-automatic-23.17.json"
+        "evidence/lighthouse-automatic-23.17.json",
+        "evidence/image-rights-owner-confirmation-2026-10-12.json"
       ],
-      "barrier": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
-      "next": "Właściciel: komplet praw do obrazów. PSI ma limit; INP i rzeczywiste CWV wymagają ruchu i obserwacji.",
+      "barrier": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
+      "next": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
       "title": "Obrazy i wydajność"
     },
     {
@@ -409,13 +410,14 @@
       "id": "G5",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Inwentaryzacja obrazów i wymóg weryfikacji praw.",
+      "change": "Inwentaryzacja obrazów i wymóg weryfikacji praw. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/image-inventory.json"
+        "evidence/image-inventory.json",
+        "evidence/image-rights-owner-confirmation-2026-10-12.json"
       ],
-      "barrier": "Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek.",
-      "next": "Właściciel/partnerzy: prawa, faktyczne partnerstwa i publikacje; nie wymyślono wzmianek.",
+      "barrier": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
+      "next": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
       "title": "Zdjęcia i lokalne wzmianki"
     },
     {
