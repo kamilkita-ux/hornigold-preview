@@ -11,3 +11,4 @@ Zapisuje `scripts/cloudflare-release.mjs --deploy`. Procedura: [`CLOUDFLARE.md`]
 | 2026-10-12 12:36 | `hornigold-v23.19-cloudflare-r2` | 23.19 | `cd5a3f2a-1937-4665-a847-ccc2280f0e06` | `28d62822-4bd1-4c73-82ad-728da81160de` | `c164364` + poprawka znacznika rezerwacji | — |
 | 2026-10-12 13:29 | `hornigold-v23.19-cloudflare-r3` | 23.19 | `4afa9184-c403-4372-ba7e-3009627c026c` | `cd5a3f2a-1937-4665-a847-ccc2280f0e06` | `c164364` + wybrany pokój w silniku KWHotel | — |
 | 2026-10-12 14:45 | `hornigold-v23.19-cloudflare-r4` | 23.19 | `1a25e28a-5601-4ca8-9aa1-e6f6a0c8ea1a` | `4afa9184-c403-4372-ba7e-3009627c026c` | `c164364` + po wyborze pokoju od razu do silnika | — |
+| 2026-10-12 16:06 | `hornigold-v23.19-cloudflare-r5` | 23.19 | `28e4a217-5e1d-442f-9c8e-3007ed6a4696` | `1a25e28a-5601-4ca8-9aa1-e6f6a0c8ea1a` | `c164364` + bez stron pośrednich (`/`, wybór pokoju) | — |
