@@ -93,7 +93,7 @@ Szczegóły działania:
 - Wranglera skrypt woła przez `npx --yes wrangler@<wersja z package.json>`. Worktree nie ma `node_modules`, a bez `--yes` `npx` czeka na zgodę na instalację.
 - Przed publikacją skrypt zapamiętuje aktywną wersję Workera i bieżący nagłówek CSP. Smoke sprawdza listę powyżej, porównuje CSP i pliki weryfikacyjne Google z `site/`.
 - **Nieudany smoke → automatyczny `wrangler rollback`.**
-- Po wydaniu: lokalny tag `hornigold-v<revision>-cloudflare[-rN]` (rewizja z `release.json`), wiersz w [`DEPLOY-LOG.md`](DEPLOY-LOG.md) i push gałęzi `deploy/cloudflare` z tagiem. `CloudDev-M` ma prawo zapisu od 12.10.2026 (zaproszenie Kamila z 9.10 trzeba było przyjąć na koncie — do tego czasu push kończył się 403). Do `main` nie wypychamy: to gałąź Kamila.
+- Po wydaniu: lokalny tag `hornigold-v<revision>-cloudflare[-rN]` (rewizja z `release.json`), wiersz w [`DEPLOY-LOG.md`](DEPLOY-LOG.md) i push gałęzi `deploy/cloudflare` z tagiem. `CloudDev-M` ma prawo zapisu od 12.10.2026 (zaproszenie Kamila z 9.10 trzeba było przyjąć na koncie — do tego czasu push kończył się 403). `main` aktualizujemy wyłącznie przez fast-forward do `deploy/cloudflare` i tylko na polecenie Marka (pierwszy raz 12.10.2026) — push na `main` uruchamia publikację Kamila na GitHub Pages i jej kontrole.
 - Testy skryptu: `node --test tests/cloudflare-release.test.mjs`.
 
 ## Granice
@@ -283,8 +283,20 @@ Uwaga: upload zmienił wszystkie strony i PDF-y, a proces `wrangler deploy` zako
 
 ## Stan na 12 października 2026 r. (po południu): repo i rezerwacje KWHotel
 
-- **Produkcję `hornigold.pl` wydaje się wyłącznie z gałęzi `deploy/cloudflare`.** `main` Kamila nie ma `wrangler.jsonc`, bloków rezerwacji GuestSage/KWHotel (`site/assets/booking.js`, `scripts/kwhotel_booking_pages.py`, 21 stron), poprawki weryfikacji Search Console w `server/production-entry.mjs` ani poprawki Windows w `scripts/seo.py`. Wydanie zbudowane z samego `main` zdjęłoby rezerwacje ze strony. Publikacja Kamila na GitHub Pages (`kamilkita-ux.github.io/hornigold-preview`) jest budowana z `main`, więc rezerwacji nie ma — to oczekiwane.
+- **Produkcję `hornigold.pl` wydaje się wyłącznie z gałęzi `deploy/cloudflare`.** Do 12.10.2026 `main` Kamila nie miał `wrangler.jsonc`, bloków rezerwacji GuestSage/KWHotel (`site/assets/booking.js`, `scripts/kwhotel_booking_pages.py`, 21 stron), poprawki weryfikacji Search Console w `server/production-entry.mjs` ani poprawki Windows w `scripts/seo.py`. Wydanie zbudowane z samego `main` zdjęłoby rezerwacje ze strony. Publikacja Kamila na GitHub Pages (`kamilkita-ux.github.io/hornigold-preview`) jest budowana z `main`, więc rezerwacji nie ma — to oczekiwane.
 - Na koncie Cloudflare Hornigold jest jeden Worker (`hornigold`) i jeden członek konta; 12.10 jedynym wdrożeniem było nasze z 06:37 UTC (`28d62822`). Smoke 23/23, bloki rezerwacji w 7 językach.
-- Gałąź `deploy/cloudflare` i tagi `hornigold-v*-cloudflare*` są od dziś na GitHubie. Żeby `main` też miał rezerwacje, Kamil może scalić tę gałąź (albo przenieść wymienione pliki do swojego źródła w Sites).
+- Gałąź `deploy/cloudflare` i tagi `hornigold-v*-cloudflare*` są od dziś na GitHubie. Scalenie z `main` — patrz niżej.
 - Smoke i `kwhotel_booking_pages.py` rozpoznają blok po `a[data-booking=""]` z adresem GuestSage. Wcześniejsze sprawdzenie samego `data-booking` po wejściu sekcji nagrody (23.19) przepuściłoby stronę bez rezerwacji, a skrypt po konflikcie scalania nie odtworzyłby bloków.
 - Silnik po stronie KWHotel nadal wyłączony: `configurations?hotelId=…` zwraca `enabled: false`, `hotel.active: false`. Przycisk prowadzi do silnika, ale wyszukiwanie ofert ruszy dopiero po włączeniu przez KWHotel.
+
+## Wydanie 12 października 2026 r. po południu (23.19-r2) i scalenie z `main`
+
+Polecenie Marka: wdrożyć, a gdy działa — scalić z `main`.
+
+- Wydanie z `deploy/cloudflare` na commicie `b01ec20` (kod strony i serwera bez zmian wobec 23.19; zmienił się tylko `release.json` z nowym commitem). `origin/main` bez nowych commitów, więc `cloudflare-release.mjs` kończy na „brak nowego kodu” — build, audyty i testy uruchomione tymi samymi krokami ręcznie, dodatkowo wszystkie `tests/*.test.mjs` (110) i `check_repository.py`.
+- Worker `cd5a3f2a-1937-4665-a847-ccc2280f0e06`; poprzedni `28d62822` przywraca `wrangler rollback`. Smoke 23/23, CSP bez zmian.
+- `wrangler deploy` zakończył się błędem `504 Gateway Timeout` na `POST …/deployments`, ale wersja została aktywowana (`deployments list`: 100% `cd5a3f2a`, `/release.json` z nowym commitem). Przy takim błędzie najpierw sprawdzić stan, nie ponawiać w ciemno.
+- Przed scaleniem kontrole Kamila `quality.yml` uruchomione ręcznie (`workflow_dispatch`) na `deploy/cloudflare`: zielone, łącznie z audytem mobilnym i Lighthouse. Lokalnie jedyny błąd testów Pythona to `test_traversal_and_symlink_rejected` (Windows bez uprawnienia do dowiązań symbolicznych) — nie dotyczy CI.
+- `main` przesunięty fast-forward do `deploy/cloudflare`. Od tej chwili `main` zawiera rezerwacje KWHotel, `wrangler.jsonc`, runbook i skrypt wydań, a publikacja Kamila na GitHub Pages pokazuje blok „Zarezerwuj online”.
+- Dalej bez zmian: produkcję wydaje się z `deploy/cloudflare` po scaleniu `origin/main`. Jeśli Sites Kamila nadpisze strony rezerwacji wersją bez bloków, konflikt lub smoke to wychwyci, a `scripts/kwhotel_booking_pages.py` odtworzy bloki.
+- Materiały hotelu w lokalnym `kwhotel/` nadal poza repozytorium (repo publiczne, dane osób trzecich); katalog jest w `.git/info/exclude`.
