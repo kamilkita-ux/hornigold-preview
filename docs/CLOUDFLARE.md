@@ -312,3 +312,15 @@ Marek włączył silnik w panelu KWHotel (cloud.kwhotel.com → Moduły → Siln
 - Wszystkie oferty były na jednym planie cenowym (10205), bezzwrotne, z przedpłatą 100%. W ofertach dla 2 osób nie pojawiły się typy 4837 (Apartment Deluxe) i 4838 (Apartament nr 128).
 - Typy pokoi z `…/guestsage/hotels/<obiekt>/roomtypes` (wartości `featuredRoomTypeId` do mapy `ROOMS` w `site/assets/booking.js`): 4830 Classic, 4828 Deluxe, 4834 Premium, 4836 Premium Deluxe, 4833 Apt Suite, 4837 Apartment Deluxe, 4835 Apartament 2 bedrooms, 4838 Apartament nr 128. Mapa `ROOMS` nadal pusta — przypisanie do stron `pokoje/` (zwłaszcza `prestige`, `prestige-deluxe`, `hornigold`) wymaga potwierdzenia hotelu.
 - Nie sprawdzono: formularza danych gościa, płatności i zapisu rezerwacji w KWHotel — to próbna rezerwacja po stronie hotelu.
+
+## Wydanie 12 października 2026 r. (23.19-r3): wybrany pokój trafia do silnika
+
+Polecenie Marka: gość wybiera termin i pokój na stronie, a silnik KWHotel ma to pamiętać (wariant A, publikacja po testach).
+
+- `site/assets/booking.js`: mapa `ROOMS` dla sześciu kategorii, które silnik sprzedaje — `classic` 4830, `deluxe` 4828, `premium` 4834, `deluxe-premium` 4836, `suite` 4833, `prestige-deluxe` 4835. Przycisk na stronie Rezerwacja otwiera silnik z terminem, liczbą osób i `featuredRoomTypeId`; silnik pokazuje wtedy tylko tę kategorię (sprawdzone: żądanie `/guestsage/offers` dostaje `roomTypeIds: [id]`).
+- `apartament-deluxe` (4837), `prestige` i `hornigold` są bez identyfikatora: w silniku nie mają oferty online, więc z identyfikatorem gość zobaczyłby „Brak dostępności”. Bez niego widzi wszystkie wolne pokoje. Dopisać po uzupełnieniu oferty w KWHotel (dla `prestige` i `hornigold` hotel musi wskazać typ; wolny został 4838 „Apartament nr 128”).
+- Blok rezerwacji ma drugi, domyślnie ukryty odnośnik `a[data-booking-all=""]` („Zobacz wszystkie dostępne pokoje”, 7 języków). `booking.js` odkrywa go, gdy przycisk zawęża silnik do jednej kategorii — silnik przy zajętym pokoju nie proponuje innych. Odnośnik dodaje `scripts/kwhotel_booking_pages.py` (także do stron już zmienionych; wynik identyczny jak przy generowaniu od wersji Kamila).
+- Testy: `tests/booking.test.mjs` (mapa, adresy, zachowanie odnośników na atrapie dokumentu), `tests/booking-pages.test.mjs` (odnośnik w 7 językach). Build, audyty i 121 testów node zielone; przed wdrożeniem sprawdzenie w przeglądarce na lokalnej paczce.
+- Worker `4afa9184-c403-4372-ba7e-3009627c026c`; poprzedni `cd5a3f2a` przywraca `wrangler rollback`. Pierwsza próba `wrangler deploy` skończyła się `504` na `assets-upload-session` — przed wysłaniem plików, produkcja bez zmian; ponowienie przeszło. Smoke 23/23.
+- Na żywej stronie (Playwright, bez rezerwacji): dla każdej z sześciu kategorii silnik zwraca jedną ofertę właściwego typu; dla trzech apartamentów bez oferty i dla wejścia bez pokoju — 6 ofert.
+- Silnik nie ma żadnego odnośnika powrotnego do strony hotelu (nazwa obiektu w nagłówku nie jest linkiem). Powrót: „Wstecz” przeglądarki — strona pamięta termin, liczbę osób i pokój.
