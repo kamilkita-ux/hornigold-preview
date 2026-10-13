@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-14",
   "sources": {
     "GA4": {
       "property": "558323228",
@@ -31,34 +31,34 @@
         "/es/",
         "/it/"
       ],
-      "sitemap": "Live test 12 October: Google has access. Sitemap processing report last observed cannot fetch / zero discovered pages; processing not yet confirmed.",
+      "sitemap": "Odczyt 13.10: Sukces; 693 wykryte URL, ostatni odczyt Google 12.10. Aktualna mapa zawiera 462 indeksowalne URL. Ponowne przetworzenie wymaga potwierdzenia; wykryte URL nie oznaczają indeksacji.",
       "clicks": null,
       "impressions": null,
       "indexingRequestsAccepted": [
         "/zh-hans/",
         "/uk/"
       ],
-      "indexedObservationDate": "2026-10-11"
+      "indexedObservationDate": "2026-10-11",
+      "sitemapEvidence": "evidence/gsc-sitemap-success-20261013.json"
     },
     "Sales": {
-      "status": "Brak zweryfikowanego źródła PMS / płatności",
+      "status": "14.10 właściciel potwierdził oczekiwanie na dokumentację i środowiska testowe KWHotel/GuestSage oraz Fiserv. Brak odbioru transakcyjnego.",
       "bookings": null,
       "revenue": null
     },
     "Ads": {
-      "status": "Nie wskazano zweryfikowanego konta do integracji; kampanii nie uruchomiono",
+      "status": "Tag AW-18507796156 wdrożony po zgodzie marketingowej. Kontrolowany test SDK 14.10: odpowiedzi 200/204, zero żądań przed zgodą i po wycofaniu. Odbiór w panelu Ads i sprzedaż niepotwierdzone.",
       "cost": null
     },
     "Publication": {
-      "previewRevision": "23.18",
-      "productionRevisionLastObserved": "23.11",
-      "productionReadbackDate": "2026-10-12",
-      "githubRun": 38180159746,
-      "automaticCheckRun": 38180305635,
-      "automaticCheckStatus": "success",
+      "productionRevisionLastObserved": "23.21",
+      "productionCommitLastObserved": "fc86140d2cae0907ea6d7a92f2c745290459f382",
+      "productionReadbackDate": "2026-10-14",
+      "sitesRevisionLastObserved": "23.20",
       "routes": 693,
-      "failures": 0,
-      "evidence": "evidence/PUBLICATION_23.17.json"
+      "indexableSitemapURLs": 462,
+      "status": "Publikacja Pages zakończona sukcesem; publiczny release potwierdza commit. Kontrola po publikacji trwa.",
+      "githubPagesCommitLastObserved": "e050a2859f219ffc8550b2b8b693789a6d2ffef7"
     }
   }
 }
