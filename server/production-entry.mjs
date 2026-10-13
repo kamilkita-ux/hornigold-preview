@@ -21,7 +21,14 @@ function bookingRedirect(url){
 export default {async fetch(request,env,ctx){
  const url=new URL(request.url);
  const production=url.protocol==='https:' && url.hostname==='hornigold.pl';
- if(production && url.pathname==='/' && ['GET','HEAD'].includes(request.method))return Response.redirect(new URL('/pl/'+url.search,ORIGIN).href,301);
+ if(production && url.pathname==='/' && ['GET','HEAD'].includes(request.method)){
+  // Retire legacy WordPress language/page parameters while preserving campaign attribution.
+  // Canonical landing pages must not remain reachable under ?lang=…&page_id=… duplicates.
+  const query=new URLSearchParams(url.search);
+  query.delete('lang');query.delete('page_id');
+  const target=new URL('/pl/',ORIGIN);target.search=query;
+  return Response.redirect(target.href,301);
+ }
  if(url.hostname==='www.hornigold.pl'){
   const target=new URL(url.pathname+url.search,ORIGIN);
   return Response.redirect(target.href,301);
