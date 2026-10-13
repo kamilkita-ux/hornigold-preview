@@ -433,7 +433,7 @@
       "id": "H1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje.",
+      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje. Aktualizacja 14.10: patch serwera jest na produkcji; kopie Workera i bazy zweryfikowane, eksport licznika odtworzony lokalnie bez błędów. Stare oczekiwanie na Marka nie obowiązuje.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
@@ -443,15 +443,15 @@
         "evidence/dependency-compat-23.13.json",
         "evidence/audit-SUMMARY.json"
       ],
-      "barrier": "Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503.",
-      "next": "Marek: konfiguracja/baza Cloudflare i wdrożenie patcha serwera. Audyt zależności 23.13: zero zgłoszonych podatności.",
+      "barrier": "Pełny test powrotu w odizolowanym środowisku Cloudflare i końcowy przegląd operacyjnych uprawnień pozostają niepotwierdzone.",
+      "next": "Weryfikować operacyjne zabezpieczenia właściwego konta wyłącznie odczytowo; odtworzenie nie może nadpisać produkcji.",
       "title": "Bezpieczeństwo i odtworzenie"
     },
     {
       "id": "I1",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. Automatyczny workflow_run po publikacji 23.17 wykonał kontrolę 693 tras GitHub, monitor produkcji i trzy pomiary Lighthouse; run 38180305635 success. Monitor rozszerzono o noindex/none w meta robots i Googlebot oraz wielokrotne nagłówki X-Robots-Tag. 39 testów Python przeszło; produkcja 10/10.",
+      "status": "verified",
+      "environment": "scheduled native automation / production",
+      "change": "Potwierdzony rzeczywisty godzinowy heartbeat 13.10 o 21:47 UTC: ukończony, monitoring 12/12, TLS, przekierowania, mapa 462 i API licznika prawidłowe; załadowano pięć publicznych ofert GuestSage. Nie jest to test transakcji. Działanie raportera GitHub Issues potwierdzone oddzielnie w I2.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-latest.json",
@@ -461,10 +461,11 @@
         "evidence/PUBLICATION_23.17.json",
         "evidence/monitor-automatic-23.17.json",
         "evidence/lighthouse-automatic-23.17.json",
-        "evidence/monitor-html-indexing-23.18.json"
+        "evidence/monitor-html-indexing-23.18.json",
+        "evidence/scheduled-monitor-observed-20261014.json"
       ],
-      "barrier": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
-      "next": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
+      "barrier": null,
+      "next": "Obserwować następne zaplanowane przebiegi i rozróżniać awarie od świadomej polityki noindex.",
       "title": "Monitoring dostępności"
     },
     {
@@ -526,13 +527,13 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 20,
-    "partial": 10,
+    "verified": 21,
+    "partial": 9,
     "blocked": 2,
     "local_ready": 2
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-13T22:30:17.003579+00:00",
+  "updatedAtUTC": "2026-10-13T22:31:21.482506+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
