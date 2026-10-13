@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-13T07:42:55.442695+00:00",
+  "property": "https://hornigold.pl/",
+  "source": "Native Search Console read-only, sitemap table",
+  "sitemap": {
+    "status": "Sukces",
+    "discoveredURLs": 693,
+    "lastRead": "2026-10-12",
+    "submitted": "2026-10-11"
+  },
+  "limits": [
+    "Detected URLs are not the count of indexed URLs."
+  ]
+}

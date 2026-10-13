@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-14",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": "23.11",
   "items": [
@@ -26,15 +26,16 @@
     },
     {
       "id": "A2",
-      "status": "blocked",
-      "environment": "local / pending production",
-      "change": "Sprawdzono oba dostępne konta; brak Workera Hornigold.",
+      "status": "verified",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "Potwierdzony właściwy projekt Cloudflare: Worker hornigold, istniejące konto i wrangler.jsonc, źródła origin/main. Wdrożenie 23.21 potwierdzone logiem oraz publicznym release.json. Nie wymaga już wskazania konta przez Marka.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "evidence/goal-reconciliation-20261014.json"
       ],
-      "barrier": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
-      "next": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
+      "barrier": null,
+      "next": "Zachować aktualny pipeline i chronione integracje.",
       "title": "Identyfikacja pipeline Cloudflare"
     },
     {
@@ -53,36 +54,38 @@
     },
     {
       "id": "A4",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Najnowsza kopia 23.18 z Mac mini: odtworzono i sprawdzono 2038 plików oraz archiwum historii Git. Build 693 tras; audyt 75106 linków i SEO bez błędów; struktura 21 PDF bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
+      "status": "partial",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "Zweryfikowano kopie Mac mini, punkt powrotu Workera i kopię istniejącej bazy licznika przed wdrożeniem. Odtworzenie źródeł było testowane; pełne odtworzenie D1 nie zostało potwierdzone.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
         "evidence/restore-23.13.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/restore-23.17.json",
-        "evidence/restore-23.18.json"
+        "evidence/restore-23.18.json",
+        "evidence/goal-reconciliation-20261014.json"
       ],
-      "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
-      "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
+      "barrier": "Pozostaje bezpieczny test odtworzenia bazy w odizolowanym środowisku, bez nadpisania produkcji.",
+      "next": "Ustalić możliwość odizolowanego testu odtworzenia.",
       "title": "Kopia i rollback"
     },
     {
       "id": "A5",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
+      "status": "verified",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "Produkcja 23.21, commit fc86140d2cae0907ea6d7a92f2c745290459f382, Worker 2594af7c-0c7e-4fe8-be91-ab1c28da88d3. Pełny odczyt 693 tras: bez błędów w zakresie statusów, canonicali, H1, polityki indeksacji, hreflang i aktualnego Instagrama. Nie jest to odbiór rezerwacji/płatności.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
         "evidence/audit-production-readback.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/public-github-23.17.json",
-        "evidence/public-sites-23.17.json"
+        "evidence/public-sites-23.17.json",
+        "evidence/goal-reconciliation-20261014.json"
       ],
-      "barrier": "Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera.",
-      "next": "Odczytać CSP i X-Frame-Options na produkcyjnej odpowiedzi 403 po wdrożeniu.",
+      "barrier": null,
+      "next": "Kontrolować kolejny wdrażany commit i wynik SDK.",
       "title": "Publikacja produkcyjna"
     },
     {
@@ -294,31 +297,32 @@
     },
     {
       "id": "E3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy.",
+      "status": "verified",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "13.10 odczyt GSC: sitemap Sukces, 693 wykryte URL, ostatni odczyt 12.10. Nowa mapa produkcyjna zawiera 462 URL zgodnie z polityką indeksacji. Przetworzenie nowej liczby wymaga obserwacji; wykrycie nie oznacza indeksacji.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
         "evidence/gsc-seven-languages-2026-10-11.json",
         "evidence/gsc-sitemap-live-test.json",
-        "evidence/sitemap-client-check.json"
+        "evidence/sitemap-client-check.json",
+        "evidence/gsc-sitemap-success-20261013.json"
       ],
-      "barrier": "Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem.",
-      "next": "Odczytać raport po następnym przetworzeniu; nie ponawiać w pętli zgłoszeń i nie zdejmować zabezpieczeń Cloudflare na podstawie samego User-Agent.",
+      "barrier": null,
+      "next": "Ponownie odczytać GSC po przetworzeniu nowej mapy.",
       "title": "Search Console"
     },
     {
       "id": "E4",
       "status": "verified",
       "environment": "external",
-      "change": "Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań.",
+      "change": "Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań. Google Ads AW-18507796156 wdrożony; na produkcji sprawdzono rzeczywiste odpowiedzi kolekcji 200/204 po zgodzie, bez ruchu przed zgodą i po wycofaniu; brak potwierdzenia panelu Ads.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json"
       ],
-      "barrier": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
-      "next": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
+      "barrier": "Odbiór danych Ads w interfejsie dostawcy oraz konwersje sprzedażowe nie są potwierdzone. Tag AW-18507796156 dodany na wyraźne polecenie właściciela.",
+      "next": "Zweryfikować właściwy Ads ID w diagnostyce i panelu; nie aktywować budżetów ani fikcyjnych Purchase.",
       "title": "GSC, GA4 i stare dane"
     },
     {
@@ -379,18 +383,19 @@
     },
     {
       "id": "G3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Zatwierdzony Instagram hornigold.zielona.kamienica opublikowano i sprawdzono na wszystkich 693 stronach obu podglądów 23.15. Produkcja nadal wskazuje poprzedni profil.",
+      "status": "verified",
+      "environment": "production",
+      "change": "Aktualny Instagram hornigold.zielona.kamienica potwierdzony na wszystkich 693 trasach produkcji. Pozostałe profile pozostają zgodne ze źródłem social-channels.json; nie potwierdzamy posiadania zewnętrznych kont tym testem.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
         "../../content/social-channels.json",
         "evidence/public-sites-23.15.json",
-        "evidence/public-github-23.15.json"
+        "evidence/public-github-23.15.json",
+        "evidence/goal-reconciliation-20261014.json"
       ],
-      "barrier": "Marek: aktualizacja produkcji przez właściwy pipeline z zachowaniem rezerwacji i Fiserv.",
-      "next": "Po potwierdzonym wdrożeniu sprawdzić profil na hornigold.pl.",
+      "barrier": null,
+      "next": "Monitorować zgodność opublikowanych linków z zatwierdzonym źródłem.",
       "title": "Linki i profile zewnętrzne"
     },
     {
@@ -517,13 +522,13 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 14,
-    "blocked": 3,
-    "local_ready": 5,
-    "partial": 12
+    "verified": 18,
+    "partial": 10,
+    "blocked": 2,
+    "local_ready": 4
   },
-  "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.",
-  "updatedAtUTC": "2026-10-11T23:54:28.706631+00:00",
+  "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
+  "updatedAtUTC": "2026-10-13T22:27:00.725180+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
