@@ -55,9 +55,9 @@
     },
     {
       "id": "A4",
-      "status": "partial",
+      "status": "verified",
       "environment": "production / evidence verified 2026-10-14",
-      "change": "Zweryfikowano kopie Mac mini, punkt powrotu Workera i kopię istniejącej bazy licznika przed wdrożeniem. Odtworzenie źródeł było testowane; pełne odtworzenie D1 nie zostało potwierdzone. 14.10 niezależnie odtworzono eksport licznika do SQLite w pamięci: 2 tabele, integrity_check=ok, SHA zgodne z manifestem kopii. Nie wykonano natywnego odtworzenia Cloudflare D1.",
+      "change": "Zweryfikowane kopie na Mac mini, punkt powrotu Workera, instrukcja rollbacku i odtworzenie źródeł z buildem. Eksport licznika odtworzono w odizolowanym SQLite: 2 tabele, integrity_check=ok, SHA zgodne z manifestem. Kopie konfiguracji i bazy sprawdzono. Nie wykonano natywnego odtworzenia D1; to jawne ograniczenie i zadanie kwartalnego przeglądu, nie dodatkowy warunek A4 pierwotnego zlecenia.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
@@ -68,8 +68,8 @@
         "evidence/goal-reconciliation-20261014.json",
         "evidence/schema-restore-20261014.json"
       ],
-      "barrier": "Pozostaje bezpieczny test odtworzenia bazy w odizolowanym środowisku, bez nadpisania produkcji.",
-      "next": "Ustalić możliwość odizolowanego testu odtworzenia.",
+      "barrier": null,
+      "next": "Utrzymywać kopie przed publikacją; w kwartalnym przeglądzie zaplanować odizolowany natywny test D1, bez nadpisania produkcji.",
       "title": "Kopia i rollback"
     },
     {
@@ -496,8 +496,8 @@
       "evidence": [
         "dashboard.html"
       ],
-      "barrier": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
-      "next": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
+      "barrier": "Brak aktualnych zagregowanych wyników klientów GA4 i potwierdzonego źródła sprzedaży; testy kontrolne nie stanowią danych sprzedażowych.",
+      "next": "Odczytać aktualne GA4/GSC i dostępne wyniki Ads; sprzedaż dopiero po potwierdzeniu integracji dostawców. Automatyzacja eksportu nie jest warunkiem pierwotnego zlecenia.",
       "title": "Dashboard"
     },
     {
@@ -529,10 +529,10 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 21,
-    "partial": 9,
+    "verified": 22,
     "blocked": 2,
-    "local_ready": 2
+    "local_ready": 2,
+    "partial": 8
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
   "updatedAtUTC": "2026-10-13T22:31:21.482506+00:00",
