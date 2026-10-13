@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-14",
+  "schemaRoutes": 693,
+  "schemaErrors": 0,
+  "schemaScope": "Schema identity/address/sameAs vs dated local source; ImageObject descriptions vs visible image alt; no unsupported business fields. Does not prove AI inclusion, photo authorship or ranking.",
+  "guides": [
+    {
+      "path": "/llms.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/pl.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/en.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/de.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/es.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/it.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/uk.txt",
+      "available": true,
+      "productionLinks": true
+    },
+    {
+      "path": "/llms/zh-hans.txt",
+      "available": true,
+      "productionLinks": true
+    }
+  ],
+  "localCounterRestore": {
+    "integrityCheck": "ok",
+    "tables": 2,
+    "backupManifestHashMatched": true,
+    "productionMutation": false,
+    "cloudflareNativeRestoreTested": false
+  },
+  "privateReports": [
+    "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/PUBLIC_SCHEMA_AND_GUIDES.json",
+    "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/COUNTER_RESTORE_LOCAL.json"
+  ]
+}

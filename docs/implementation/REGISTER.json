@@ -56,7 +56,7 @@
       "id": "A4",
       "status": "partial",
       "environment": "production / evidence verified 2026-10-14",
-      "change": "Zweryfikowano kopie Mac mini, punkt powrotu Workera i kopię istniejącej bazy licznika przed wdrożeniem. Odtworzenie źródeł było testowane; pełne odtworzenie D1 nie zostało potwierdzone.",
+      "change": "Zweryfikowano kopie Mac mini, punkt powrotu Workera i kopię istniejącej bazy licznika przed wdrożeniem. Odtworzenie źródeł było testowane; pełne odtworzenie D1 nie zostało potwierdzone. 14.10 niezależnie odtworzono eksport licznika do SQLite w pamięci: 2 tabele, integrity_check=ok, SHA zgodne z manifestem kopii. Nie wykonano natywnego odtworzenia Cloudflare D1.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
@@ -64,7 +64,8 @@
         "evidence/PUBLICATION_23.17.json",
         "evidence/restore-23.17.json",
         "evidence/restore-23.18.json",
-        "evidence/goal-reconciliation-20261014.json"
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/schema-restore-20261014.json"
       ],
       "barrier": "Pozostaje bezpieczny test odtworzenia bazy w odizolowanym środowisku, bez nadpisania produkcji.",
       "next": "Ustalić możliwość odizolowanego testu odtworzenia.",
@@ -342,19 +343,20 @@
     },
     {
       "id": "F2",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "ImageObject opublikowane w obu podglądach 23.14: 1911 encji na 546 stronach, publiczna kontrola 693 tras bez błędów. Pozostałe typy zachowane; bez niepotwierdzonych twierdzeń o prawach/licencjach.",
+      "status": "verified",
+      "environment": "production",
+      "change": "14.10 odczyt 693 tras: tożsamość/adres/sameAs zgodne z datowanym źródłem, opisy ImageObject zgodne z widocznymi alt, FAQ i Article zgodne z widoczną treścią, breadcrumbs zgodne z widoczną nawigacją/H1 i istniejącymi trasami; brak niezatwierdzonych cen/ocen/udogodnień. Osiem przewodników tekstowych dostępnych. Nie oznacza to obecności ani priorytetu w AI.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../scripts/seo.py",
         "evidence/schema-counts.json",
         "evidence/image-schema-preview.json",
         "evidence/public-image-schema-sites-23.14.json",
-        "evidence/public-image-schema-github-23.14.json"
+        "evidence/public-image-schema-github-23.14.json",
+        "evidence/schema-restore-20261014.json"
       ],
-      "barrier": "Marek: wdrożenie Cloudflare i publiczny odbiór produkcji; prawa do zdjęć pozostają odrębnym G5.",
-      "next": "Zweryfikować dane zdjęć na produkcji po wdrożeniu.",
+      "barrier": null,
+      "next": "Po zmianach treści ponawiać porównanie faktów i widocznych odpowiedników.",
       "title": "Schema i odpowiedzi AI"
     },
     {
@@ -524,13 +526,13 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 19,
+    "verified": 20,
     "partial": 10,
     "blocked": 2,
-    "local_ready": 3
+    "local_ready": 2
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-13T22:27:57.757692+00:00",
+  "updatedAtUTC": "2026-10-13T22:30:17.003579+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
