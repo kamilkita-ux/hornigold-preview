@@ -3,9 +3,16 @@ import sys,unittest,tempfile,json,subprocess,hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 R=Path(__file__).resolve().parent.parent;sys.path.insert(0,str(R/'scripts'))
-from seo import apply_seo,write_indexing_files,PREVIEW_ROBOTS,visible_image_objects
+from seo import apply_seo,write_indexing_files,PREVIEW_ROBOTS,visible_image_objects,source_date_utc
 
 class SeoSafety(unittest.TestCase):
+    def test_source_dates_follow_actual_utc_day_across_midnight(self):
+        self.assertEqual(source_date_utc('2026-10-14T00:20:00+02:00'), '2026-10-13')
+        self.assertEqual(source_date_utc('2026-10-13T23:50:00-04:00'), '2026-10-14')
+        self.assertEqual(source_date_utc('2026-10-14T00:00:00+00:00'), '2026-10-14')
+        with self.assertRaises(ValueError):
+            source_date_utc('2026-10-14T00:20:00')
+
     def test_image_schema_uses_only_visible_existing_local_assets(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory); assets=root/'site/assets';assets.mkdir(parents=True)
