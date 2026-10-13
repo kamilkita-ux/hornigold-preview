@@ -260,9 +260,10 @@
         "evidence/pdf-content-qa.json",
         "evidence/tagged-pdf-adoption-23.18.json",
         "evidence/public-pdfs-23.18.json",
-        "evidence/tagged-pdf-structure-current.json"
+        "evidence/tagged-pdf-structure-current.json",
+        "MANUAL_ACCEPTANCE.md"
       ],
-      "barrier": "Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i wdrożenie Cloudflare. Nie potwierdzono PDF/UA.",
+      "barrier": "Rzeczywisty ręczny odbiór czytnikiem ekranu i PDF, ustalenie zakresu PAD oraz pełna ścieżka dostawcy. Produkcyjne wdrożenie nie jest już barierą.",
       "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; produkcję publikuje Marek.",
       "title": "Dostępność"
     },
@@ -283,16 +284,17 @@
     },
     {
       "id": "E2",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji.",
+      "status": "verified",
+      "environment": "local audit / production routes",
+      "change": "Audyt fragmentów production-ready: 8582 odnośniki do fragmentów, zero błędów. Pełny audyt statyczny i SEO: 693 trasy i ponad 77 tys. linków bez błędów; odczyt produkcji potwierdza wszystkie 693 trasy. Nie obejmuje dostępności wszystkich serwisów zewnętrznych.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/fragments.json",
-        "evidence/external-links.json"
+        "evidence/external-links.json",
+        "evidence/fragments.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Ponawiać kontrolę po zmianie tras i treści.",
       "title": "Linki i fragmenty"
     },
     {
@@ -522,13 +524,13 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 18,
+    "verified": 19,
     "partial": 10,
     "blocked": 2,
-    "local_ready": 4
+    "local_ready": 3
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-13T22:27:00.725180+00:00",
+  "updatedAtUTC": "2026-10-13T22:27:57.757692+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
