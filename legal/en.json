@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "Privacy settings",
-    "notice": "Google maps and statistics are optional and require separate consent. Advertising trackers remain disabled.",
+    "notice": "Google Maps, Google Analytics statistics and Google Ads measurement are optional. Each feature requires separate consent and remains disabled until you give it.",
     "necessary": "Necessary only",
     "save": "Save choice",
     "close": "Close",

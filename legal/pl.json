@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "Ustawienia prywatności",
-    "notice": "Mapy i statystyki Google są opcjonalne i wymagają osobnych zgód. Reklamowe narzędzia śledzące pozostają wyłączone.",
+    "notice": "Mapy Google, statystyki Google Analytics i pomiar reklam Google Ads są opcjonalne. Każda z tych funkcji wymaga osobnej zgody i pozostaje wyłączona do jej udzielenia.",
     "necessary": "Tylko niezbędne",
     "save": "Zapisz wybór",
     "close": "Zamknij",

@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "Datenschutzeinstellungen",
-    "notice": "Google-Karten und Statistiken sind optional und erfordern getrennte Einwilligungen. Werbetracker bleiben deaktiviert.",
+    "notice": "Google Maps, Statistiken mit Google Analytics und die Messung mit Google Ads sind optional. Jede dieser Funktionen erfordert eine separate Einwilligung und bleibt bis zu deren Erteilung deaktiviert.",
     "necessary": "Nur notwendige Funktionen",
     "save": "Auswahl speichern",
     "close": "Schließen",

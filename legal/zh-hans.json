@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "隐私设置",
-    "notice": "Google 地图和统计均为可选功能，需分别获得同意。广告跟踪工具保持关闭。",
+    "notice": "Google 地图、Google Analytics 统计和 Google Ads 衡量均为可选功能。每项功能都需要单独获得您的同意，在获得同意前保持关闭。",
     "necessary": "仅必要功能",
     "save": "保存选择",
     "close": "关闭",

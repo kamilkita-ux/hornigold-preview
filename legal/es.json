@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "Ajustes de privacidad",
-    "notice": "Los mapas y estadísticas de Google son opcionales y requieren consentimientos separados. Los rastreadores publicitarios siguen desactivados.",
+    "notice": "Google Maps, las estadísticas de Google Analytics y la medición de Google Ads son opcionales. Cada función requiere un consentimiento por separado y permanece desactivada hasta que se otorgue.",
     "necessary": "Solo lo necesario",
     "save": "Guardar elección",
     "close": "Cerrar",

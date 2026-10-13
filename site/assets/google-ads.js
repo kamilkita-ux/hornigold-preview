@@ -4,7 +4,7 @@
   if(location.origin!=='https://hornigold.pl'||window.HornigoldGA4?.enabled!==true)return;
   const id='AW-18507796156';let granted=false,configured=false;
   window.dataLayer=window.dataLayer||[];
-  const tag=(...args)=>window.dataLayer.push(args);
+  function tag(){window.dataLayer.push(arguments);}
   function clear(){
     for(const item of document.cookie.split(';')){
       const name=item.split('=')[0].trim();if(!/^_gcl_/.test(name))continue;

@@ -170,7 +170,7 @@
   ],
   "ui": {
     "settings": "Impostazioni privacy",
-    "notice": "Mappe e statistiche Google sono facoltative e richiedono consensi separati. I sistemi pubblicitari di tracciamento restano disattivati.",
+    "notice": "Google Maps, le statistiche di Google Analytics e la misurazione di Google Ads sono facoltativi. Ogni funzione richiede un consenso separato e rimane disattivata fino a quando non viene dato.",
     "necessary": "Solo necessari",
     "save": "Salva scelta",
     "close": "Chiudi",
