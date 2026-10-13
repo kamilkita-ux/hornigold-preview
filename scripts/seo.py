@@ -2,12 +2,20 @@
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import json
+import datetime
 import subprocess
 import xml.etree.ElementTree as ET
 
 ORIGIN = 'https://hornigold.pl'
 LANGS = {'pl', 'en', 'de', 'zh-Hans', 'uk', 'es', 'it'}
 PREVIEW_ROBOTS = 'noindex,nofollow,noarchive'
+
+def source_date_utc(timestamp):
+    """Use the actual Git instant, consistently across author and CI timezones."""
+    value = datetime.datetime.fromisoformat(timestamp)
+    if value.tzinfo is None:
+        raise ValueError('Git timestamp must include its timezone')
+    return value.astimezone(datetime.timezone.utc).date().isoformat()
 
 def indexable_route(root, route):
     policy=json.loads((root/'seo/indexing-policy.json').read_text())
@@ -146,7 +154,7 @@ def write_indexing_files(out, mode, routes):
         history=subprocess.run(['git','-c','core.quotePath=false','log','--format=@%cI','--name-only','--','site'],cwd=Path(__file__).resolve().parent.parent,text=True,capture_output=True,check=True).stdout
         changed={};stamp=None
         for line in history.splitlines():
-            if line.startswith('@'): stamp=line[1:11]
+            if line.startswith('@'): stamp=source_date_utc(line[1:])
             elif line.startswith('site/') and stamp: changed.setdefault(line,stamp)
         for route in sorted(routes.values()):
             if not indexable_route(Path(__file__).resolve().parent.parent,route): continue
