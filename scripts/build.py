@@ -73,7 +73,7 @@ for p in OUT.rglob('*.html'):
   for name in ['analytics-config.js','analytics.js','google-ads.js']:
    script=s.new_tag('script',src='/assets/'+name,defer=True);s.head.append(script)
   for meta in s.select('meta[http-equiv=Content-Security-Policy]'):
-   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com").replace("img-src 'self' data:", "img-src 'self' data: https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com")
+   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl https://ad.doubleclick.net").replace("img-src 'self' data:", "img-src 'self' data: https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl").replace("frame-src https://www.google.com", "frame-src https://www.google.com https://www.googletagmanager.com")
  if not opts.counter:
   for element in s.select('.site-views'):
    element.decompose()

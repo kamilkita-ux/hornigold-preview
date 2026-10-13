@@ -12,3 +12,11 @@ test('marketing consent configures supplied Ads ID once without private URL para
 test('withdrawal clears advertising cookies and reloads loaded context',()=>{const f=fixture({marketing:true});f.allow(false);assert.equal(f.reloads.length,1);assert.ok(f.cookies.length);assert.ok(f.cookies.every(v=>!v.startsWith('_ga=')))});
 test('previews never load or configure Ads',()=>{const f=fixture({origin:'https://kamilkita-ux.github.io',marketing:true});assert.equal(f.commands().length,0);assert.equal(f.scripts.length,0)});
 test('existing GA4 loader is reused',()=>{const f=fixture({marketing:true,existing:true});assert.equal(f.scripts.length,0);assert.equal(f.commands().filter(a=>a[0]==='config').length,1)});
+test('production CSP permits the documented Ads endpoints without weakening preview',async()=>{
+ const worker=(await import('../_cloudflare_production/server/production-entry.mjs')).default;
+ const env={ASSETS:{fetch:async()=>new Response('<html><body>Page</body></html>',{headers:{'Content-Type':'text/html'}})}};
+ const response=await worker.fetch(new Request('https://hornigold.pl/pl/'),env);const csp=response.headers.get('Content-Security-Policy');
+ for(const host of ['https://www.googleadservices.com','https://pagead2.googlesyndication.com','https://ad.doubleclick.net','https://www.googletagmanager.com','https://www.google.pl'])assert.ok(csp.includes(host));
+ assert.ok(!csp.includes('unsafe-eval'));assert.ok(!/script-src[^;]*unsafe-inline/.test(csp));
+ const preview=await worker.fetch(new Request('https://kamilkita-ux.github.io/pl/'),env);assert.ok(!preview.headers.get('Content-Security-Policy').includes('googleadservices'));
+});
