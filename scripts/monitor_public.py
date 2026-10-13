@@ -58,10 +58,17 @@ def run_checks(self_test=False):
             'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'indexingBlocked': blocked, 'hsts': 'strict-transport-security:' in r['headers']})
     r = request('https://hornigold.pl/robots.txt')
     check('robots', r['status'] == '200' and r['tlsVerified'] and 'Allow: /' in r['body'] and '\nDisallow: /\n' not in r['body'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
+    release_response=request('https://hornigold.pl/release.json')
+    try: served_release=json.loads(release_response['body'])
+    except (ValueError,TypeError): served_release={}
+    expected_routes=set(json.loads((Path(__file__).resolve().parent.parent/'routes.json').read_text()))
+    if served_release.get('audit3ImprovementsDate'):
+        excluded=json.loads((Path(__file__).resolve().parent.parent/'seo/indexing-policy.json').read_text())['excludedRoutes']
+        expected_routes-=set(excluded)
     r = request('https://hornigold.pl/sitemap.xml')
     try:
         urls = [e.text for e in ET.fromstring(r['body']).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-        valid = len(urls) == 693 and len(set(urls)) == 693 and all(u and u.startswith('https://hornigold.pl/') for u in urls)
+        valid = len(urls)==len(set(urls)) and set(urls)=={'https://hornigold.pl'+path for path in expected_routes}
     except (ET.ParseError, ValueError):
         urls, valid = [], False
     check('sitemap', r['status'] == '200' and r['tlsVerified'] and valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'count': len(urls)})
@@ -69,7 +76,7 @@ def run_checks(self_test=False):
     check('www301', r['status'] == '301' and r['tlsVerified'] and 'location: https://hornigold.pl/pl/' in r['headers'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
     r = request('https://hornigold.pl/__monitor_missing_20261011__/')
     check('404', r['status'] == '404' and r['tlsVerified'] and 'noindex' in r['headers'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
-    r = request('https://hornigold.pl/release.json')
+    r = release_response
     try:
         release = json.loads(r['body'])
     except (ValueError, TypeError):

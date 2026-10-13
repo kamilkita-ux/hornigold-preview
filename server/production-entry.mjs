@@ -21,6 +21,7 @@ function bookingRedirect(url){
 export default {async fetch(request,env,ctx){
  const url=new URL(request.url);
  const production=url.protocol==='https:' && url.hostname==='hornigold.pl';
+ if(production && url.pathname==='/' && ['GET','HEAD'].includes(request.method))return Response.redirect(new URL('/pl/'+url.search,ORIGIN).href,301);
  if(url.hostname==='www.hornigold.pl'){
   const target=new URL(url.pathname+url.search,ORIGIN);
   return Response.redirect(target.href,301);
@@ -38,6 +39,7 @@ export default {async fetch(request,env,ctx){
  const response=await worker.fetch(request,env,ctx);
  const headers=new Headers(response.headers);
  if(production){const policy=headers.get('Content-Security-Policy');if(policy)headers.set('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'","connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com"));}
+ if(production)headers.set('Referrer-Policy','strict-origin-when-cross-origin');
  const indexable=production && [200,304].includes(response.status) && (canonical.has(url.pathname) || url.pathname==='/sitemap.xml');
  if(indexable)headers.delete('X-Robots-Tag');
  else headers.set('X-Robots-Tag','noindex, nofollow, noarchive');

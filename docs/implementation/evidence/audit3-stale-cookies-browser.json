@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-13T07:18:44.925Z",
+  "environment": "local artifacts; intercepted production hostname; no transmission to Google",
+  "cases": 28,
+  "results": [
+    {
+      "language": "pl",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "pl",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "pl",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "pl",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "en",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "en",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "en",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "en",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "de",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "de",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "de",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "de",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "zh-hans",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "zh-hans",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "zh-hans",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "zh-hans",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "uk",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "uk",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "uk",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "uk",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "es",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "es",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "es",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "es",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "it",
+      "scenario": "missing",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "it",
+      "scenario": "expired",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "it",
+      "scenario": "obsolete",
+      "passed": true,
+      "analyticsRequests": 0
+    },
+    {
+      "language": "it",
+      "scenario": "refused",
+      "passed": true,
+      "analyticsRequests": 0
+    }
+  ]
+}

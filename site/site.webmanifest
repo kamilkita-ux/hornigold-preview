@@ -1,1 +1,22 @@
-{"name": "Hornigold w Zielonej Kamienicy", "short_name": "Hornigold", "start_url": "/pl/", "display": "browser", "background_color": "#f8f6f1", "theme_color": "#183e36"}
+{
+  "name": "Hornigold w Zielonej Kamienicy",
+  "short_name": "Hornigold",
+  "start_url": "/pl/",
+  "display": "browser",
+  "background_color": "#f8f6f1",
+  "theme_color": "#183e36",
+  "icons": [
+    {
+      "src": "/assets/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

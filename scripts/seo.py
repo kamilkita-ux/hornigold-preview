@@ -2,11 +2,16 @@
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import json
+import subprocess
 import xml.etree.ElementTree as ET
 
 ORIGIN = 'https://hornigold.pl'
 LANGS = {'pl', 'en', 'de', 'zh-Hans', 'uk', 'es', 'it'}
 PREVIEW_ROBOTS = 'noindex,nofollow,noarchive'
+
+def indexable_route(root, route):
+    policy=json.loads((root/'seo/indexing-policy.json').read_text())
+    return route not in policy['excludedRoutes']
 
 def load_routes(root):
     routes = json.loads((root / 'routes.json').read_text())
@@ -48,8 +53,11 @@ def visible_image_objects(soup, root):
 
 def apply_seo(soup, route, root, mode, routes, overrides):
     canonical_route = routes.get(unquote(route))
-    indexable = bool(canonical_route and mode == 'production-ready')
-    set_meta(soup, 'robots', 'index,follow' if indexable else PREVIEW_ROBOTS)
+    eligible = bool(canonical_route and indexable_route(root, canonical_route))
+    indexable = bool(eligible and mode == 'production-ready')
+    set_meta(soup, 'robots', ('index,follow' if indexable else 'noindex,follow') if mode=='production-ready' and canonical_route else PREVIEW_ROBOTS)
+    if mode=='production-ready' and canonical_route and not eligible:
+        for alternate in soup.select('link[rel=alternate][hreflang]'): alternate.decompose()
     # Aliases and errors must not retain legacy business assertions.
     for script in soup.select('script[type="application/ld+json"]'): script.decompose()
     if not canonical_route:
@@ -81,6 +89,11 @@ def apply_seo(soup, route, root, mode, routes, overrides):
         {'@type':'LodgingBusiness','@id':entity_id,'name':facts['name'],'url':facts['url'],'address':facts['address']},
         {'@type':'Organization','@id':ORIGIN+'/#organization','name':facts['name'],'url':facts['url']}
     ]}
+    socials=json.loads((root/'content/social-channels.json').read_text())
+    same_as=[item['url'] for item in socials['links']]
+    if same_as:
+        graph['@graph'][1]['sameAs']=same_as
+        graph['@graph'][2]['sameAs']=same_as
     images = visible_image_objects(soup, root)
     if images:
         graph['@graph'][0]['image'] = [{'@id': item['@id']} for item in images]
@@ -129,9 +142,18 @@ def write_indexing_files(out, mode, routes):
         ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
         namespace = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
         sitemap = ET.Element(namespace+'urlset')
+        # Date comes from actual source-file history, never the build clock.
+        history=subprocess.run(['git','-c','core.quotePath=false','log','--format=@%cI','--name-only','--','site'],cwd=Path(__file__).resolve().parent.parent,text=True,capture_output=True,check=True).stdout
+        changed={};stamp=None
+        for line in history.splitlines():
+            if line.startswith('@'): stamp=line[1:11]
+            elif line.startswith('site/') and stamp: changed.setdefault(line,stamp)
         for route in sorted(routes.values()):
+            if not indexable_route(Path(__file__).resolve().parent.parent,route): continue
             node = ET.SubElement(sitemap, namespace+'url')
             ET.SubElement(node, namespace+'loc').text = ORIGIN+route
+            stamp=changed.get('site'+unquote(route)+'index.html')
+            if stamp: ET.SubElement(node, namespace+'lastmod').text=stamp
         ET.ElementTree(sitemap).write(out/'sitemap.xml', encoding='utf-8', xml_declaration=True)
         # Headers only belong to this isolated artifact; source/preview protections stay intact.
-        (out/'_headers').write_text("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: no-referrer\n  X-Frame-Options: DENY\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/404.html\n  X-Robots-Tag: noindex\n/*/404.html\n  X-Robots-Tag: noindex\n/documents/*\n  X-Robots-Tag: noindex\n")
+        (out/'_headers').write_text("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/404.html\n  X-Robots-Tag: noindex\n/*/404.html\n  X-Robots-Tag: noindex\n/documents/*\n  X-Robots-Tag: noindex\n")

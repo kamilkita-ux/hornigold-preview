@@ -35,7 +35,7 @@ for p in (ROOT/'site').rglob('*.html'):
   s.title.string=title+' | Hornigold'
   s.select_one('meta[name=description]')['content']=d['intro']
   toc=''.join(f'<a href="{doc}#{x["id"]}">{escape(x["title"])}</a>' for x in d['sections'])
-  html=f'<div class="wrap legal-content"><h1>{escape(title)}</h1><p>{escape(d["intro"])}</p><p><a class="button" href="{pdf}" download>{escape(d["download"])}</a></p><nav class="legal-toc" aria-label="{escape(u["toc"])}">{toc}</nav>'
+  html=f'<div class="wrap legal-content"><h1>{escape(title)}</h1><p>{escape(d["intro"])}</p><p data-document-version="">{escape(u["documentVersion"])}: {escape(d["updated"])}</p><p><a class="button" href="{pdf}" download>{escape(d["download"])}</a></p><nav class="legal-toc" aria-label="{escape(u["toc"])}">{toc}</nav>'
   for sec in sections:
    html+=f'<section aria-labelledby="{sec["id"]}"><h2 id="{sec["id"]}">{escape(sec["title"])}</h2>'
    html+=''.join('<p>'+escape(t)+'</p>' for t in sec['paragraphs'])
@@ -83,5 +83,5 @@ for p in (ROOT/'site').rglob('*.html'):
   capital={'pl':'Kapitał zakładowy','en':'Share capital','de':'Stammkapital','es':'Capital social','it':'Capitale sociale','uk':'Статутний капітал','zh-hans':'注册资本'}[lang]
   company.append(fragment(f'<p data-company-register>KRS: 0001265196 · <span>{capital}: 500 000 PLN</span><br><span lang="pl">Sąd Rejonowy Katowice-Wschód w Katowicach, VIII Wydział Gospodarczy Krajowego Rejestru Sądowego</span></p>'))
  p.write_text(str(s))
-release=json.loads((ROOT/'release.json').read_text());release.update(legalDocumentsDate='2026-10-11',privacyControls=True,independentLegalReview=False);(ROOT/'release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')
+release=json.loads((ROOT/'release.json').read_text());release.update(legalDocumentsDate=max(d['updated'] for d in content.values()),privacyControls=True,independentLegalReview=False);(ROOT/'release.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'languages':len(content),'sectionsPerLanguage':len(reference),'pages':693},ensure_ascii=False))

@@ -538,5 +538,12 @@ export const redirects={
   "/zh-hans/porownaj/": "/zh-hans/%E6%AF%94%E8%BE%83/",
   "/zh-hans/prywatnosc/": "/zh-hans/%E9%9A%90%E7%A7%81%E4%B8%8E%E6%95%B0%E6%8D%AE/",
   "/zh-hans/sniadania/": "/zh-hans/%E6%97%A9%E9%A4%90/",
-  "/zh-hans/wellness-spa/": "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/"
+  "/zh-hans/wellness-spa/": "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/",
+  "/apartamenty/": "/pl/pokoje/",
+  "/o-nas/": "/pl/o-nas/",
+  "/kontakt/": "/pl/kontakt/",
+  "/konferencje/": "/pl/konferencje/",
+  "/catering/": "/pl/catering/",
+  "/wellness-spa/": "/pl/wellness-spa/",
+  "/sala-sniadaniowa/": "/pl/sniadania/"
 };

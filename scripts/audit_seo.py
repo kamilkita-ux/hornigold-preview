@@ -6,7 +6,7 @@ from collections import defaultdict, deque
 import argparse, json, hashlib, re, datetime, unicodedata
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects
+from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects, indexable_route
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -29,8 +29,8 @@ def audit(mode, directory):
         check(base=='/','production root')
         check('Sitemap: '+ORIGIN+'/sitemap.xml' in robots,'production sitemap declaration')
         locs=[e.text for e in ET.parse(out/'sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-        check(len(locs)==len(set(locs))==len(routes),'sitemap uniqueness and count')
-        check(set(locs)=={ORIGIN+r for r in routes.values()},'sitemap canonical coverage')
+        check(len(locs)==len(set(locs))==sum(indexable_route(ROOT,r) for r in routes.values()),'sitemap uniqueness and count')
+        check(set(locs)=={ORIGIN+r for r in routes.values() if indexable_route(ROOT,r)},'sitemap canonical coverage')
         header=(out/'_headers').read_text().split('/404.html')[0]
         check('noindex' not in header,'no blanket production noindex header')
     def local_target(value,current,css=False):
@@ -55,7 +55,7 @@ def audit(mode, directory):
         path=route_for_file(p,out);route=routes.get(unquote(path));real=bool(route)
         rob=s.select('meta[name=robots]');check(len(rob)==1,'one robots meta',path)
         value=rob[0].get('content','') if rob else ''
-        check(value==('index,follow' if mode=='production-ready' and real else PREVIEW_ROBOTS),'robots meta state',path)
+        check(value==(('index,follow' if indexable_route(ROOT,route) else 'noindex,follow') if mode=='production-ready' and real else PREVIEW_ROBOTS),'robots meta state',path)
         if not real:check(not s.select('script[type="application/ld+json"]'),'no legacy schema on aliases/errors',path)
         if real:
             h1=s.select('h1');title=s.title.get_text(strip=True) if s.title else '';desc=s.select('meta[name=description]');description=desc[0].get('content','') if desc else ''
@@ -67,13 +67,14 @@ def audit(mode, directory):
             can=s.select('link[rel=canonical]');check(len(can)==1 and can[0].get('href')==ORIGIN+route,'canonical exact',route)
             lang=s.html.get('lang');check(lang in LANGS,'language',route)
             alts=s.select('link[rel=alternate][hreflang]');matrix={a['hreflang']:a.get('href') for a in alts}
-            check(len(alts)==8 and set(matrix)==LANGS|{'x-default'},'complete hreflang',route)
+            eligible=mode=='preview' or indexable_route(ROOT,route)
+            check((len(alts)==8 and set(matrix)==LANGS|{'x-default'}) if eligible else len(alts)==0,'complete indexable hreflang / no excluded cluster',route)
             check(matrix.get('x-default')==matrix.get('pl'),'x-default Polish equivalent',route)
-            check(matrix.get(lang)==ORIGIN+route,'hreflang self',route)
+            if eligible: check(matrix.get(lang)==ORIGIN+route,'hreflang self',route)
             for language,url in matrix.items():
                 u=urlsplit(url);peer=by_route.get(unquote(u.path))
                 check(u.scheme+'://'+u.netloc==ORIGIN and not u.query and not u.fragment,'alternate origin',route)
-                check(unquote(u.path) in routes and peer is not None,'alternate canonical route exists',route)
+                check(unquote(u.path) in routes and peer is not None and (mode=='preview' or indexable_route(ROOT,u.path)),'alternate indexable canonical route exists',route)
                 if peer:
                     back={a['hreflang']:a.get('href') for a in peer.select('link[rel=alternate][hreflang]')}
                     check(back==matrix,'reciprocal hreflang cluster',route)

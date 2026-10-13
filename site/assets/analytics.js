@@ -9,18 +9,21 @@
   function tag(){window.dataLayer.push(arguments);}
   window['ga-disable-'+id]=true;
   tag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+  function clearAnalyticsCookies(){
+    for(const item of document.cookie.split(';')){
+      const name=item.split('=')[0].trim();
+      if(!/^_ga/.test(name))continue;
+      for(const domain of ['', '; domain=hornigold.pl', '; domain=.hornigold.pl'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; Secure; SameSite=Lax';
+    }
+  }
   function apply(){
     const allow=window.HornigoldPrivacy?.allowsAnalytics?.()===true;
+    if(!allow)clearAnalyticsCookies();
     if(allow===granted)return;
     granted=allow;
     window['ga-disable-'+id]=!allow;
     if(!allow){
       // Block collection before clearing first-party GA cookies and unloading the tag.
-      for(const item of document.cookie.split(';')){
-        const name=item.split('=')[0].trim();
-        if(!/^_ga(?:_|$)/.test(name))continue;
-        for(const domain of ['', '; domain=hornigold.pl', '; domain=.hornigold.pl'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; Secure; SameSite=Lax';
-      }
       location.reload();
       return;
     }

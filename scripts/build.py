@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import urlsplit,unquote
 import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
-from seo import load_routes, route_for_file, apply_seo, write_indexing_files
+from seo import load_routes, route_for_file, apply_seo, write_indexing_files, indexable_route
 from discovery import write_guides
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
@@ -97,7 +97,9 @@ for p in OUT.rglob('*.html'):
  p.write_text(str(s))
 write_indexing_files(OUT,opts.mode,ROUTES)
 write_guides(ROOT,OUT,BASE,opts.mode)
-p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE;p.write_text(json.dumps(d,ensure_ascii=False))
+p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE
+for icon in d.get('icons',[]):icon['src']=prefixed(icon['src'])
+p.write_text(json.dumps(d,ensure_ascii=False))
 # Validate every local document/asset link, and require the preview markers on real pages.
 errors=[];pages=0
 for p in OUT.rglob('*.html'):
@@ -108,7 +110,7 @@ for p in OUT.rglob('*.html'):
  if s.select_one('[data-site-version]'):
   pages+=1
   if s.select_one('[data-site-version]').get_text()!=VERSION:errors.append(str(p)+' wrong version')
-  expected='noindex' if opts.mode=='preview' else 'index'
+  expected='index' if opts.mode=='production-ready' and indexable_route(ROOT,ROUTES.get(route_for_file(p,OUT),route_for_file(p,OUT))) else 'noindex'
   if expected not in s.select_one('meta[name=robots]')['content'].split(','):errors.append(str(p)+' indexing')
   if s.select_one('.preview-bar'):errors.append(str(p)+' unexpected preview banner')
  for el in s.select('a[href],img[src],script[src],link[rel=stylesheet],form[action]'):
