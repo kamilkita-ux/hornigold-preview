@@ -22,7 +22,7 @@ class ReleaseIdentity(unittest.TestCase):
     else:
      route='/en/' if url.endswith('/en/') else '/pl/'
      body='<html><meta name="robots" content="noindex,nofollow,noarchive"><link rel="canonical" href="https://hornigold.pl'+route+'"><h1>Stay</h1>'+''.join('<link hreflang="'+str(i)+'">' for i in range(8))+'</html>'
-    return types.SimpleNamespace(stdout=body+'\n200',returncode=code)
+    return types.SimpleNamespace(stdout=body+'\n200',stderr='',returncode=code)
    argv=[str(script),'--origin','https://kamilkita-ux.github.io','--label','test','--expected-commit',expected]
    with patch('sys.argv',argv),patch('subprocess.run',side_effect=fetch),contextlib.redirect_stdout(io.StringIO()):
     with self.assertRaises(SystemExit) as result:runpy.run_path(str(script),run_name='__main__')
