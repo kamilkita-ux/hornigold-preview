@@ -70,10 +70,10 @@ for p in OUT.rglob('*.html'):
    a=s.new_tag('a',href=handoff['url'],attrs={'class':'button','rel':'noopener noreferrer','data-booking-external':''});a.string=text['label'];notice.append(a)
    explanation=s.new_tag('p');explanation.string=text['limit'];notice.append(explanation)
  if s.select_one('[data-site-version]') and opts.mode=='production-ready':
-  for name in ['analytics-config.js','analytics.js']:
+  for name in ['analytics-config.js','analytics.js','google-ads.js']:
    script=s.new_tag('script',src='/assets/'+name,defer=True);s.head.append(script)
   for meta in s.select('meta[http-equiv=Content-Security-Policy]'):
-   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com")
+   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com").replace("img-src 'self' data:", "img-src 'self' data: https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com")
  if not opts.counter:
   for element in s.select('.site-views'):
    element.decompose()

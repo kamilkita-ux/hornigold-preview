@@ -15,10 +15,10 @@
     "es",
     "it"
   ],
-  "legalDocumentsDate": "2026-10-13",
+  "legalDocumentsDate": "2026-10-14",
   "privacyControls": true,
   "independentLegalReview": false,
-  "revision": "23.20",
+  "revision": "23.21",
   "consolidatedFrom": 18,
   "primaryOrigin": "https://kamilkita-ux.github.io",
   "primaryBasePath": "/hornigold-preview/",
@@ -43,8 +43,10 @@
   "analyticsPreparationDate": "2026-10-11",
   "implementationDate": "2026-10-11",
   "securityPatchDate": "2026-10-11",
-  "releaseDate": "2026-10-13",
+  "releaseDate": "2026-10-14",
   "pdfUAValidated": false,
   "bookingAward2026": true,
-  "audit3ImprovementsDate": "2026-10-13"
+  "audit3ImprovementsDate": "2026-10-13",
+  "googleAdsTag": "AW-18507796156",
+  "googleAdsConsentRequired": true
 }

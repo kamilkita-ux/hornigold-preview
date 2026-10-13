@@ -8,7 +8,7 @@
   window.dataLayer=window.dataLayer||[];
   function tag(){window.dataLayer.push(arguments);}
   window['ga-disable-'+id]=true;
-  tag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+  if(!window.HornigoldGoogleConsentInitialized){tag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});window.HornigoldGoogleConsentInitialized=true;}
   function clearAnalyticsCookies(){
     for(const item of document.cookie.split(';')){
       const name=item.split('=')[0].trim();
@@ -27,7 +27,7 @@
       location.reload();
       return;
     }
-    tag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+    tag('consent','update',{analytics_storage:'granted',ad_storage:window.HornigoldPrivacy?.allowsMarketing?.()===true?'granted':'denied',ad_user_data:window.HornigoldPrivacy?.allowsMarketing?.()===true?'granted':'denied',ad_personalization:'denied'});
     if(loaded)return;
     loaded=true;
     tag('js',new Date());
@@ -43,7 +43,9 @@
       if(['http:','https:'].includes(ref.protocol)&&knownHosts.has(ref.hostname))referrer='https://'+ref.hostname+'/';
     }catch{}
     tag('event','page_view',{page_location:page.href,page_referrer:referrer});
+    if(document.querySelector?.('script[data-hornigold-google-tag]'))return;
     const script=document.createElement('script');
+    script.setAttribute?.('data-hornigold-google-tag','');
     script.async=true;
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;
     document.head.appendChild(script);

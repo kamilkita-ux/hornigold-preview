@@ -1,0 +1,6 @@
+# Google Ads 23.21 — 2026-10-14
+Owner supplied and approved AW-18507796156. Production-only Google tag with separate, default-off marketing consent in seven languages; analytics consent does not authorize Ads. Basic Consent Mode: no network before consent, no personalization or fabricated conversion events. Revocation clears first-party _gcl_* and reloads the SDK context. Legacy consent cannot grant marketing. Existing GA4 loader is reused; either tag's consent update preserves the independent category. Sanitized page URL/referrer, no booking parameters or user-provided data. No conversion label, Purchase event, enhanced conversions, budget or campaign activation was configured.
+
+Build preview and production-ready: 693 canonical routes, SEO and static audits zero errors. Node 161/161. Seven browser cases: no Google request before consent; one Ads load after consent; revocation passed. Browser network was intercepted, so this does not prove Google Ads receipt. Twenty-one tagged PDF structure checks passed; no PDF/UA certification. Existing booking scripts, configuration and Fiserv connections unchanged. Shared production CSP permits the explicit Google tag/measurement endpoints; previews remain nontracking and noindex.
+
+Backup verified on Mac mini: /Users/kamilkita/Documents/Hornigold-backups/2026-10-14_000701-release23.
