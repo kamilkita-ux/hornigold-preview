@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-14",
+  "classificationOfPriorGoalTurn": "progress: published 23.21 and obtained production readback; this turn reconciles authoritative status",
+  "productionVerifiedCommit": "fc86140d2cae0907ea6d7a92f2c745290459f382",
+  "workerDeploymentEvidence": "outputs/cloudflare-release-23.21-2026-10-14/public-after.json (private project output)",
+  "backupEvidence": "outputs/cloudflare-release-23.21-2026-10-14/deployment-fix-preflight.json and verified Mac mini backup",
+  "monitor": {
+    "checks": 12,
+    "passed": 12,
+    "report": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/monitor-goal-current.json"
+  },
+  "limits": [
+    "No completed booking/payment",
+    "No independent legal or PDF/UA acceptance",
+    "No Google Ads dashboard receipt proved",
+    "No full D1 restore test proved"
+  ],
+  "routeAudit": {
+    "checked": 693,
+    "failures": 0,
+    "scope": [
+      "HTTP 200",
+      "canonical",
+      "H1",
+      "indexing policy",
+      "hreflang count",
+      "current Instagram",
+      "JSON-LD syntax"
+    ],
+    "privateReport": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/GOAL_PRODUCTION_ROUTES.json",
+    "limitation": "Not every external link or business fact; not exact per-file byte acceptance."
+  },
+  "adsSDK": {
+    "checkedAt": "2026-10-13T22:26:16.866Z",
+    "origin": "https://hornigold.pl/pl/",
+    "revision": "23.21",
+    "commit": "fc86140d2cae0907ea6d7a92f2c745290459f382",
+    "workerVersion": "2594af7c-0c7e-4fe8-be91-ab1c28da88d3",
+    "mapsDefault": false,
+    "analyticsDefault": false,
+    "marketingDefault": false,
+    "externalGoogleRequestsBeforeConsent": 0,
+    "SDKStatus": 200,
+    "advertiserId": "AW-18507796156",
+    "responses": [
+      {
+        "endpoint": "https://www.google.com/ccm/collect",
+        "status": 200
+      },
+      {
+        "endpoint": "https://ad.doubleclick.net/ccm/s/collect",
+        "status": 204
+      }
+    ],
+    "CSPBlockedRequests": 0,
+    "advertisingCookieCreated": "_gcl_au",
+    "advertisingCookiesAfterWithdrawal": 0,
+    "externalGoogleRequestsAfterWithdrawal": 0,
+    "originalApplicationWithoutDiagnosticInjection": true,
+    "purchaseConversionSent": false,
+    "dashboardReceiptVerified": false
+  }
+}
