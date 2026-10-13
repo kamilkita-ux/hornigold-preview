@@ -6,8 +6,8 @@
     {
       "id": "A1",
       "status": "verified",
-      "environment": "production / previews",
-      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
+      "environment": "production / Sites / GitHub Pages; dated public readback",
+      "change": "14.10 ponownie odczytano release.json oraz metadane robots polskiej strony głównej w produkcji i obu podglądach. Aktualne wersje i commity zapisano w environment-readback-20261014.json. Podglądy pozostają noindex. Zakres tej kontroli nie zastępuje pełnego audytu tras ani transakcji.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -18,7 +18,8 @@
         "evidence/public-sites-23.17.json",
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
-        "evidence/production-release-2026-10-12.json"
+        "evidence/production-release-2026-10-12.json",
+        "evidence/environment-readback-20261014.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -92,8 +93,8 @@
     {
       "id": "A6",
       "status": "verified",
-      "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
+      "environment": "production / Sites / GitHub Pages; dated public readback",
+      "change": "14.10 ponownie odczytano release.json oraz metadane robots polskiej strony głównej w produkcji i obu podglądach. Aktualne wersje i commity zapisano w environment-readback-20261014.json. Podglądy pozostają noindex. Zakres tej kontroli nie zastępuje pełnego audytu tras ani transakcji.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/public-sites-23.16.json",
@@ -104,7 +105,8 @@
         "evidence/public-sites-23.17.json",
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
-        "evidence/production-release-2026-10-12.json"
+        "evidence/production-release-2026-10-12.json",
+        "evidence/environment-readback-20261014.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
