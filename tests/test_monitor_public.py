@@ -1,5 +1,6 @@
 """Synthetic responses only: no network or production changes."""
 import importlib.util
+import json
 from pathlib import Path
 from types import SimpleNamespace
 import unittest
@@ -17,6 +18,12 @@ class MonitorPublicTests(unittest.TestCase):
             self.assertNotIn('--insecure', run.call_args.args[0])
             return result
 
+    def check_response(self, name, url, response):
+        default = {'status': '200', 'headers': '', 'body': '{}', 'tlsVerified': True, 'curlExit': 0}
+        with patch.object(monitor, 'request', side_effect=lambda requested: response if requested == url else default) as request:
+            rows = monitor.run_checks()
+        return next(row for row in rows if row['name'] == name), request
+
     def test_certificate_failure_is_not_verified_tls(self):
         result = self.fetch('\n000', 60)
         self.assertFalse(result['tlsVerified'])
@@ -32,14 +39,69 @@ class MonitorPublicTests(unittest.TestCase):
 
     def test_proxy_headers_do_not_hide_server_headers(self):
         result = self.fetch('HTTP/1.1 200 Connection established\r\n\r\nHTTP/2 200\r\nX-Robots-Tag: noindex\r\n\r\nbody\n200')
-        self.assertIn('x-robots-tag: noindex', result['headers'])
+        self.assertEqual(monitor.header_values(result, 'x-robots-tag'), ['noindex'])
         self.assertEqual(result['body'], 'body')
+
+    def test_location_preserves_case_sensitive_path_and_query(self):
+        location = 'https://hornigold.pl/PL/?Promo=AbC'
+        result = self.fetch('HTTP/2 301\nLoCaTiOn: ' + location + '\n\n\n301')
+        self.assertEqual(monitor.header_values(result, 'LOCATION'), [location])
+
+    def test_www_requires_exact_location(self):
+        for location in ['https://hornigold.pl/pl/', 'https://hornigold.pl/PL/', 'https://hornigold.pl/pl/extra', 'https://hornigold.pl/pl/?unexpected=1']:
+            with self.subTest(location=location):
+                response = {'status': '301', 'headers': 'LoCaTiOn: ' + location, 'body': '', 'tlsVerified': True, 'curlExit': 0}
+                row, _ = self.check_response('www301', 'https://www.hornigold.pl/pl/', response)
+                self.assertEqual(row['ok'], location == 'https://hornigold.pl/pl/')
+
+    def test_root_redirect_requires_301_tls_and_unchanged_utm(self):
+        query = 'utm_source=monitor&utm_medium=health&utm_campaign=RootCase'
+        expected = 'https://hornigold.pl/pl/?' + query
+        cases = [('301', expected, True, True), ('302', expected, True, False), ('301', expected, False, False),
+                 ('301', 'https://hornigold.pl/pl/', True, False), ('301', expected.lower(), True, False)]
+        for status, location, tls, ok in cases:
+            with self.subTest(status=status, location=location, tls=tls):
+                response = {'status': status, 'headers': 'Location: ' + location, 'body': '', 'tlsVerified': tls, 'curlExit': 0 if tls else 60}
+                row, _ = self.check_response('root301_utm', 'https://hornigold.pl/?' + query, response)
+                self.assertEqual(row['ok'], ok)
+
+    def test_counter_accepts_valid_aggregate_without_posting(self):
+        url = 'https://hornigold.pl/api/site-stats'
+        response = {'status': '200', 'headers': '', 'body': json.dumps({'total': 0, 'startedAt': '2026-10-05', 'metric': 'pageviews'}), 'tlsVerified': True, 'curlExit': 0}
+        row, request = self.check_response('counter', url, response)
+        self.assertTrue(row['ok'])
+        request.assert_any_call(url)
+        with patch.object(monitor.subprocess, 'run', return_value=SimpleNamespace(stdout='HTTP/2 200\n\n{}\n200', returncode=0)) as curl:
+            monitor.request(url)
+        command = curl.call_args.args[0]
+        self.assertEqual(command[-1], url)
+        self.assertNotIn('POST', command)
+        self.assertNotIn('--data', command)
+
+    def test_counter_rejects_invalid_json_and_unusable_data(self):
+        bodies = ['not JSON', '[]', 'null', '{}', '{"error":"counter_unavailable"}',
+                  json.dumps({'total': True, 'startedAt': '2026-10-05', 'metric': 'pageviews'}),
+                  json.dumps({'total': -1, 'startedAt': '2026-10-05', 'metric': 'pageviews'}),
+                  json.dumps({'total': 1, 'startedAt': '2026-02-30', 'metric': 'pageviews'})]
+        for body in bodies:
+            with self.subTest(body=body):
+                response = {'status': '200', 'headers': '', 'body': body, 'tlsVerified': True, 'curlExit': 0}
+                row, _ = self.check_response('counter', 'https://hornigold.pl/api/site-stats', response)
+                self.assertFalse(row['ok'])
+
+    def test_counter_rejects_transport_or_http_failure_with_valid_body(self):
+        body = json.dumps({'total': 10, 'startedAt': '2026-10-05', 'metric': 'pageviews'})
+        for status, tls, curl_exit in [('200', False, 60), ('503', True, 0)]:
+            with self.subTest(status=status, tls=tls):
+                response = {'status': status, 'headers': '', 'body': body, 'tlsVerified': tls, 'curlExit': curl_exit}
+                row, _ = self.check_response('counter', 'https://hornigold.pl/api/site-stats', response)
+                self.assertFalse(row['ok'])
 
     def test_failed_tls_fails_all_checks(self):
         response = {'status': '200', 'headers': '', 'body': '{}', 'tlsVerified': False, 'curlExit': 60}
         with patch.object(monitor, 'request', return_value=response):
             rows = monitor.run_checks()
-        self.assertEqual(len(rows), 10)
+        self.assertEqual(len(rows), 12)
         self.assertFalse(any(x['ok'] for x in rows))
 
     def test_self_test_is_offline(self):
@@ -53,6 +115,21 @@ class MonitorPublicTests(unittest.TestCase):
         with patch.object(monitor, 'request', return_value=response):
             rows = monitor.run_checks()
         self.assertTrue(all(not row['ok'] and row['detail']['indexingBlocked'] for row in rows[:5]))
+
+    def test_approved_transactional_noindex_is_required_for_new_release(self):
+        for reservation_blocked in (True, False):
+            def respond(url):
+                body = '{}'
+                if url.endswith('/release.json'):
+                    body = '{"revision":"23.20","audit3ImprovementsDate":"2026-10-13"}'
+                elif url.endswith('/pl/rezerwacja/') and reservation_blocked:
+                    body = '<meta name="robots" content="noindex,follow">'
+                return {'status':'200','headers':'','body':body,'tlsVerified':True,'curlExit':0}
+            with self.subTest(reservation_blocked=reservation_blocked), patch.object(monitor, 'request', side_effect=respond):
+                rows = monitor.run_checks()
+                self.assertTrue(all(row['ok'] for row in rows[:4]))
+                self.assertEqual(rows[4]['ok'], reservation_blocked)
+                self.assertTrue(rows[4]['detail']['expectedNoindex'])
 
     def test_crawler_directives_and_none_are_detected(self):
         for headers, body in [
