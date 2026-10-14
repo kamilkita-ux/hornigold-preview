@@ -10365,8 +10365,8 @@
   {
     "id": "06143fb87c50d61c",
     "source": "Quick access Plan your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Rychlý přístup: naplánujte si pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-relaxed-visit-starts-before-arrival/index.html",
       "site/en/a-stay-that-suits-you/index.html",
@@ -10469,8 +10469,8 @@
   {
     "id": "3c8fb7ccecc33de8",
     "source": "A stay that suits you | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pobyt podle vašich potřeb | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html"
     ]
@@ -10478,8 +10478,8 @@
   {
     "id": "1bdfbc90ab385b09",
     "source": "OFFERS",
-    "translation": null,
-    "reviewed": false,
+    "translation": "NABÍDKY",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html"
     ]
@@ -10487,8 +10487,8 @@
   {
     "id": "9adbb03a7de6e83e",
     "source": "A stay that suits you",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pobyt podle vašich potřeb",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html"
     ]
@@ -10496,8 +10496,8 @@
   {
     "id": "5096311b0626c776",
     "source": "Start with the purpose of your trip",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte účelem své cesty",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html"
     ]
@@ -10505,8 +10505,8 @@
   {
     "id": "23bf15cfb620b0f8",
     "source": "Business travel",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10516,8 +10516,8 @@
   {
     "id": "195d8950754ff759",
     "source": "Confirm work facilities, invoicing and arrival arrangements.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte si podmínky pro práci, fakturaci a příjezd.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10527,8 +10527,8 @@
   {
     "id": "3c144a96cb8a30df",
     "source": "A weekend in Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Víkend v Katovicích",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10538,8 +10538,8 @@
   {
     "id": "ee12b8965c10eae7",
     "source": "Match your room choice to your city itinerary.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si pokoj podle plánovaného programu ve městě.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10549,8 +10549,8 @@
   {
     "id": "73b2c3420c46c0ee",
     "source": "A concert or event",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Koncert nebo jiná akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10560,8 +10560,8 @@
   {
     "id": "a551e847d5ab0a9e",
     "source": "Plan transport, the return journey and any late arrival.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si dopravu, návrat a případný pozdní příjezd.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10571,8 +10571,8 @@
   {
     "id": "011f2d3893cf7c6e",
     "source": "With family",
-    "translation": null,
-    "reviewed": false,
+    "translation": "S rodinou",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10582,8 +10582,8 @@
   {
     "id": "d1ed8d6b5ebe0bfa",
     "source": "Confirm guest numbers, children’s ages and bed arrangements.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Potvrďte počet hostů, věk dětí a uspořádání lůžek.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10593,8 +10593,8 @@
   {
     "id": "21b047625d4ce244",
     "source": "A longer stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Delší pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10604,8 +10604,8 @@
   {
     "id": "35b5867e2755beff",
     "source": "Ask about the total cost, housekeeping and date changes.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeptejte se na celkovou cenu, úklid a možnosti změny termínu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -10615,8 +10615,8 @@
   {
     "id": "36638193b533c373",
     "source": "What your quote should include",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co by měla obsahovat cenová nabídka",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/contact/index.html",
@@ -10632,8 +10632,8 @@
   {
     "id": "97008ac4bba42e28",
     "source": "Ask for the total price for your dates and party, the category and bed arrangement, payment and cancellation terms, and separate costs for breakfast, parking and extras. Compare complete offers for the same dates. An enquiry does not hold a room.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požádejte o celkovou cenu pro svůj termín a počet osob, kategorii pokoje a uspořádání lůžek, platební a storno podmínky a samostatné ceny snídaní, parkování a dalších služeb. Porovnávejte úplné nabídky pro stejný termín. Poptávka neznamená rezervaci pokoje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/contact/index.html",
@@ -10649,8 +10649,8 @@
   {
     "id": "838ce6edf61cf20e",
     "source": "Prepare an enquiry",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravte si poptávku",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -10664,8 +10664,8 @@
   {
     "id": "5b154e05a1541078",
     "source": "Explore other categories",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si další kategorie",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10689,8 +10689,8 @@
   {
     "id": "ae25d6481fc1741f",
     "source": "Classic",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Classic",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10718,8 +10718,8 @@
   {
     "id": "a0e8ba2ad66eec68",
     "source": "Natural colours and classic details. Take a closer look at the Classic room.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přírodní barvy a klasické detaily. Prohlédněte si pokoj Classic.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10745,8 +10745,8 @@
   {
     "id": "c18e1ffc82ae5a2b",
     "source": "20–22 m² · From 380 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "20–22 m² · Od 380 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10772,8 +10772,8 @@
   {
     "id": "bc82ef996c591997",
     "source": "Deluxe",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Deluxe",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10801,8 +10801,8 @@
   {
     "id": "d06700aa8706288c",
     "source": "Warm tones and space to unwind. Step inside the Deluxe room.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Teplé tóny a prostor k odpočinku. Vstupte do pokoje Deluxe.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10828,8 +10828,8 @@
   {
     "id": "bc8478caa7e05eee",
     "source": "30 m² · From 410 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "30 m² · Od 410 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10855,8 +10855,8 @@
   {
     "id": "09310a1d86ec4133",
     "source": "Deluxe Premium",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Deluxe Premium",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10884,8 +10884,8 @@
   {
     "id": "c0040cfe006298b9",
     "source": "Light, wood and the character of a historic townhouse. Discover Deluxe Premium.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Světlo, dřevo a charakter historického činžovního domu. Objevte Deluxe Premium.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10911,8 +10911,8 @@
   {
     "id": "b44383b511614220",
     "source": "26–47 m² · From 485 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "26–47 m² · Od 485 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/club-hornigold/index.html",
@@ -10938,8 +10938,8 @@
   {
     "id": "4558024ed4ccc20a",
     "source": "Before you arrive",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před příjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/airports/balice/index.html",
@@ -11031,8 +11031,8 @@
   {
     "id": "37c412c020f6ab00",
     "source": "A stay that suits you. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pobyt podle vašich potřeb. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html"
     ]
@@ -11040,8 +11040,8 @@
   {
     "id": "beaa97a1bb188fec",
     "source": "Bed with a wooden headboard and bedside lamps — Classic, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Postel s dřevěným čelem a nočními lampičkami — Classic, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -11067,8 +11067,8 @@
   {
     "id": "e3528dfe0672c217",
     "source": "Kitchenette and table with chairs — Deluxe, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kuchyňský kout a stůl se židlemi — Deluxe, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -11094,8 +11094,8 @@
   {
     "id": "eba690f55a565536",
     "source": "Interior with exposed beams, bed and red sofa — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Interiér s odhalenými trámy, postelí a červenou pohovkou — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/a-stay-that-suits-you/index.html",
       "site/en/index.html",
@@ -11121,8 +11121,8 @@
   {
     "id": "66e9a36b233f7879",
     "source": "About Hornigold | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "O Hornigoldu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/about-hornigold/index.html"
     ]
@@ -11130,8 +11130,8 @@
   {
     "id": "2703d130d1f900c5",
     "source": "6 Kopernika Street, Katowice. Explore the townhouse interiors and plan your time in the city.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kopernika 6, Katovice. Prohlédněte si interiéry historického domu a naplánujte si pobyt ve městě.",
+    "reviewed": true,
     "usedIn": [
       "site/en/about-hornigold/index.html",
       "site/en/index.html"
@@ -11140,8 +11140,8 @@
   {
     "id": "f664de2f7f4fc694",
     "source": "· Hornigold w Zielonej Kamienicy",
-    "translation": null,
-    "reviewed": false,
+    "translation": "· Hornigold w Zielonej Kamienicy",
+    "reviewed": true,
     "usedIn": [
       "site/en/about-hornigold/index.html",
       "site/en/index.html"
@@ -11150,8 +11150,8 @@
   {
     "id": "53b27f2623992f23",
     "source": "Specific needs? Write to us — we’ll help you choose a room.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Máte zvláštní požadavky? Napište nám, pomůžeme vám vybrat pokoj.",
+    "reviewed": true,
     "usedIn": [
       "site/en/about-hornigold/index.html",
       "site/en/breakfast/index.html",
@@ -11166,8 +11166,8 @@
   {
     "id": "825a28c479aeee70",
     "source": "About Hornigold. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "O Hornigoldu. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/about-hornigold/index.html"
     ]
@@ -11175,8 +11175,8 @@
   {
     "id": "ca1e942505d64746",
     "source": "Kraków–Balice Airport (KRK) | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Krakov–Balice (KRK) | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11184,8 +11184,8 @@
   {
     "id": "deef1afbf8b46887",
     "source": "Where is the airport?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kde se letiště nachází?",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
