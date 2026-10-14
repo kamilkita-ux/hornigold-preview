@@ -11194,8 +11194,8 @@
   {
     "id": "a77cdb8940cebafd",
     "source": "Kraków Airport is in Balice, about 11 km west of central Kraków. From Hornigold in Katowice, this means travelling to another urban area, not to Pyrzowice. Address: Kpt. M. Medweckiego 1, 32-083 Balice. Look for the code KRK on your ticket.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Krakov se nachází v Balicích, přibližně 11 km západně od centra Krakova. Z Hornigoldu v Katovicích tedy pojedete do jiné městské oblasti, nikoli do Pyrzowic. Adresa: Kpt. M. Medweckiego 1, 32-083 Balice. Na letence hledejte kód KRK.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html"
@@ -11204,8 +11204,8 @@
   {
     "id": "2147e02f027e8418",
     "source": "Show location on map",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit polohu na mapě",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11214,8 +11214,8 @@
   {
     "id": "6e1474303290396e",
     "source": "Photograph from 2024; resized without cropping. The terminal’s appearance and layout may change.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fotografie z roku 2024; velikost byla upravena bez ořezu. Vzhled a uspořádání terminálu se mohou změnit.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html",
@@ -11225,8 +11225,8 @@
   {
     "id": "69b7020516bea6c1",
     "source": "Terminal, Kraków Airport, 2024 (01).jpg",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Terminal, Kraków Airport, 2024 (01).jpg",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html"
@@ -11235,8 +11235,8 @@
   {
     "id": "7a58c9738686a326",
     "source": "· Bahnfrend ·",
-    "translation": null,
-    "reviewed": false,
+    "translation": "· Bahnfrend ·",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html",
@@ -11246,8 +11246,8 @@
   {
     "id": "47f00cd36f1a0c8f",
     "source": "CC BY-SA 4.0",
-    "translation": null,
-    "reviewed": false,
+    "translation": "CC BY-SA 4.0",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html",
@@ -11258,8 +11258,8 @@
   {
     "id": "82c2adc62281cdf4",
     "source": "Route from Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Trasa z Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11268,8 +11268,8 @@
   {
     "id": "7496b5a9db574bef",
     "source": "Hornigold · Kopernika 6",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold · Kopernika 6",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11278,8 +11278,8 @@
   {
     "id": "1504d0438dfeb59e",
     "source": "A4 · Kraków",
-    "translation": null,
-    "reviewed": false,
+    "translation": "A4 · Kraków",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11287,8 +11287,8 @@
   {
     "id": "25d6bfb953559a13",
     "source": "Balice · KRK",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Balice · KRK",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/location/index.html"
@@ -11297,8 +11297,8 @@
   {
     "id": "c620d9620124c67c",
     "source": "Journey stages — not a map to scale. Open the current route below.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jednotlivé úseky cesty — nejde o mapu v měřítku. Níže otevřete aktuální trasu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11307,8 +11307,8 @@
   {
     "id": "bd8cefe120116d46",
     "source": "Hornigold → airport · car",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold → letiště · autem",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11317,8 +11317,8 @@
   {
     "id": "78c6c5a2bc1a6606",
     "source": "Airport → Hornigold · car",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště → Hornigold · autem",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11327,8 +11327,8 @@
   {
     "id": "72bdf6179914bb88",
     "source": "Hornigold → airport · public transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold → letiště · veřejnou dopravou",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11337,8 +11337,8 @@
   {
     "id": "4b30b5fa7f48e2c3",
     "source": "Airport → Hornigold · public transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště → Hornigold · veřejnou dopravou",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11347,8 +11347,8 @@
   {
     "id": "a5fd20639a9ab707",
     "source": "What does the terminal look like?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jak vypadá terminál?",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11357,8 +11357,8 @@
   {
     "id": "545151386d273064",
     "source": "The photograph shows Kraków Airport’s distinctive glazed terminal façade and the access road outside. The official map helps locate check-in, arrivals and the route towards the railway. “Kraków Lotnisko” station is connected to the terminal by a covered footbridge. On arrival, follow signs for your flight rather than relying only on the photograph.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fotografie zachycuje charakteristickou prosklenou fasádu terminálu letiště Krakov a příjezdovou komunikaci. Oficiální mapa vám pomůže najít odbavení, přílety i cestu k vlakům. Stanice „Kraków Lotnisko“ je s terminálem propojena krytou lávkou. Po příjezdu se řiďte značením ke svému letu, nespoléhejte pouze na fotografii.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11366,8 +11366,8 @@
   {
     "id": "37eb30abe61428d1",
     "source": "Official terminal map",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální mapa terminálu",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11376,8 +11376,8 @@
   {
     "id": "765047df972f2c2f",
     "source": "By car or taxi",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autem nebo taxíkem",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11386,8 +11386,8 @@
   {
     "id": "c5ace4d4bb6da197",
     "source": "From Katowice, head towards Kraków; a typical approach follows the A4 corridor and then signs for Kraków Airport. Open the route from Kopernika 6 and check the current routing, tolls and traffic. At the airport, choose the correct lane for Kiss&Fly or parking. Check fees and stopping limits before entering, particularly when collecting someone on a delayed flight.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Z Katovic jeďte směrem na Krakov; obvyklá trasa vede po dálnici A4 a dále podle značení k letišti Krakov. Otevřete trasu z adresy Kopernika 6 a ověřte aktuální vedení, mýtné a dopravu. Na letišti zvolte správný pruh pro Kiss&Fly nebo parkoviště. Před vjezdem si ověřte poplatky a dobu povoleného stání, zejména při vyzvedávání cestujících ze zpožděného letu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11395,8 +11395,8 @@
   {
     "id": "fa87582e50bb93dd",
     "source": "Official transport information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální informace o dopravě",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11405,8 +11405,8 @@
   {
     "id": "65fc875b410b0469",
     "source": "By bus and train",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autobusem a vlakem",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11415,8 +11415,8 @@
   {
     "id": "1fc56c37c1fd863c",
     "source": "Rail option: Katowice → Kraków Główny, then the SKA1 train to “Kraków Lotnisko”. Match both legs to your travel date and allow transfer time; tickets and fares may be separate. You can also check direct Katowice–Kraków Airport coaches in the airport’s official long-distance transport section. Do not assume every coach to Kraków stops at the airport.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Možnost cesty vlakem: Katovice → Kraków Główny a poté vlak SKA1 do stanice „Kraków Lotnisko“. Oba spoje ověřte pro svůj den cesty a ponechte si čas na přestup; jízdenky a tarify mohou být samostatné. V oficiální sekci dálkové dopravy letiště si můžete ověřit také přímé autobusy Katovice–letiště Krakov. Nepředpokládejte, že každý autobus do Krakova zastavuje na letišti.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11424,8 +11424,8 @@
   {
     "id": "915f00fb1dfc2987",
     "source": "Trains — airport information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vlaky — informace letiště",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11434,8 +11434,8 @@
   {
     "id": "398a6b140c45e9ce",
     "source": "Before you leave",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před odjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11444,8 +11444,8 @@
   {
     "id": "16835cd02417abe4",
     "source": "Check the airport and terminal on your ticket. Add the airline’s recommended check-in time, security checks and a buffer for disruption to your journey time. For a night flight, check the first or last service. Arrange reduced-mobility assistance with your airline and airport in advance.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte letiště a terminál na letence. K době cesty připočtěte čas na odbavení doporučený leteckou společností, bezpečnostní kontrolu a rezervu pro případ komplikací. U nočního letu zkontrolujte první nebo poslední spoj. Asistenci pro osoby s omezenou pohyblivostí si předem domluvte s leteckou společností a letištěm.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11454,8 +11454,8 @@
   {
     "id": "b88a9da6318cc3f7",
     "source": "Information checked on 4 October 2026. Time and distance depend on the route, traffic and timetable. Buttons open an external map; set your travel date and time there. Confirm schedules, fares and luggage rules with the operator. Transfers are neither included in accommodation nor booked through this page.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Informace ověřeny 4. října 2026. Doba a délka cesty závisí na trase, provozu a jízdním řádu. Tlačítka otevírají externí mapu; nastavte v ní datum a čas cesty. Jízdní řády, ceny a pravidla pro zavazadla ověřte u dopravce. Transfery nejsou zahrnuty v ubytování ani rezervovány prostřednictvím této stránky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11464,8 +11464,8 @@
   {
     "id": "0d08e0a973df7050",
     "source": "Official sources",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální zdroje",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11474,8 +11474,8 @@
   {
     "id": "05c34c3148c3b341",
     "source": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11483,8 +11483,8 @@
   {
     "id": "3f7a022c91693f0c",
     "source": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-pociag",
-    "translation": null,
-    "reviewed": false,
+    "translation": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-pociag",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11492,8 +11492,8 @@
   {
     "id": "7a970eda95b6412c",
     "source": "krakowairport.pl/pl/pasazer/podroz/przydatne-informacje-podroz/plan-terminalu",
-    "translation": null,
-    "reviewed": false,
+    "translation": "krakowairport.pl/pl/pasazer/podroz/przydatne-informacje-podroz/plan-terminalu",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11501,8 +11501,8 @@
   {
     "id": "484d8b8c5b4778c8",
     "source": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-samochod",
-    "translation": null,
-    "reviewed": false,
+    "translation": "krakowairport.pl/pl/pasazer/transport/dojazd/z-do-krakow-airport/dojazd-samochod",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11510,8 +11510,8 @@
   {
     "id": "a93d7c3103b2c9ac",
     "source": "krakowairport.pl/pl/firma/kontakt-lotnisko",
-    "translation": null,
-    "reviewed": false,
+    "translation": "krakowairport.pl/pl/firma/kontakt-lotnisko",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11519,8 +11519,8 @@
   {
     "id": "f104bdf038606cf6",
     "source": "Classic · 20–22 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Classic · 20–22 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html",
@@ -11552,8 +11552,8 @@
   {
     "id": "d03f837643ab274f",
     "source": "Suite · 40 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Suite · 40 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html",
@@ -11585,8 +11585,8 @@
   {
     "id": "541e53a52252d6a3",
     "source": "Breakfast 7:00–10:00",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Snídaně 7:00–10:00",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/pyrzowice/index.html",
@@ -11618,8 +11618,8 @@
   {
     "id": "521a94773fa5a8b6",
     "source": "Kraków–Balice Airport (KRK). Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Krakov–Balice (KRK). Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html"
     ]
@@ -11627,8 +11627,8 @@
   {
     "id": "4e29169c7796ee31",
     "source": "Glazed terminal façade and access road at Kraków Airport in Balice, 2024",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prosklená fasáda terminálu a příjezdová komunikace letiště Krakov v Balicích, 2024",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/balice/index.html",
       "site/en/airports/index.html"
@@ -11637,8 +11637,8 @@
   {
     "id": "81798d666602ea6e",
     "source": "Airports and transfers | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště a transfery | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html"
     ]
@@ -11646,8 +11646,8 @@
   {
     "id": "a74a936f06f99275",
     "source": "Entrance of Katowice Airport.jpg",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Entrance of Katowice Airport.jpg",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11656,8 +11656,8 @@
   {
     "id": "5a1d516689ed802d",
     "source": "· Gnoeee ·",
-    "translation": null,
-    "reviewed": false,
+    "translation": "· Gnoeee ·",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11666,8 +11666,8 @@
   {
     "id": "afa6d635426f7abf",
     "source": "Katowice Airport is in Pyrzowice, north of Katowice and outside the city centre. Its address is Wolności 90, 42-625 Ożarowice. Select the KTW passenger terminal in navigation, not the management office in Katowice or Kraków–Balice Airport.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Katovice se nachází v Pyrzowicích severně od Katovic, mimo centrum města. Adresa je Wolności 90, 42-625 Ożarowice. V navigaci zvolte terminál pro cestující KTW, nikoli kancelář vedení v Katovicích nebo letiště Krakov–Balice.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11676,8 +11676,8 @@
   {
     "id": "9b6919df3878c441",
     "source": "See the airport and route",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit letiště a trasu",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html"
     ]
@@ -11685,8 +11685,8 @@
   {
     "id": "3056d9217aed0676",
     "source": "Airports and transfers. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště a transfery. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html"
     ]
@@ -11694,8 +11694,8 @@
   {
     "id": "9a7dcd28c37f858c",
     "source": "Entrance to Katowice Airport in Pyrzowice, photographed in 2024",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vstup na letiště Katovice v Pyrzowicích, fotografie z roku 2024",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/index.html",
       "site/en/airports/pyrzowice/index.html"
@@ -11704,8 +11704,8 @@
   {
     "id": "df6b786e84e1fa42",
     "source": "Katowice–Pyrzowice Airport (KTW) | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Katovice–Pyrzowice (KTW) | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11713,8 +11713,8 @@
   {
     "id": "1f24f16264a2e3fb",
     "source": "Pyrzowice · KTW",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pyrzowice · KTW",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html",
       "site/en/location/index.html"
@@ -11723,8 +11723,8 @@
   {
     "id": "2f5088dfebdd7b59",
     "source": "The photographs show the entrance to Katowice Airport and the interior of Terminal B. Open the official map to locate your terminal, check-in, arrivals and parking. The virtual tour helps you explore the space beforehand. Follow current signs and airline information; a photograph is not a travel plan.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fotografie zobrazují vstup na letiště Katovice a interiér terminálu B. Otevřete oficiální mapu a najděte svůj terminál, odbavení, přílety a parkoviště. Virtuální prohlídka vám pomůže se předem zorientovat. Řiďte se aktuálním značením a informacemi letecké společnosti; fotografie nenahrazuje plán cesty.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11732,8 +11732,8 @@
   {
     "id": "280c0924a81155b9",
     "source": "Official virtual tour",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální virtuální prohlídka",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11741,8 +11741,8 @@
   {
     "id": "f12c418094267b87",
     "source": "KTW Terminal B motor ramp 2024 jeh.jpg",
-    "translation": null,
-    "reviewed": false,
+    "translation": "KTW Terminal B motor ramp 2024 jeh.jpg",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11750,8 +11750,8 @@
   {
     "id": "630aafbfa8e61e22",
     "source": "· Jim.henderson ·",
-    "translation": null,
-    "reviewed": false,
+    "translation": "· Jim.henderson ·",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11759,8 +11759,8 @@
   {
     "id": "492e2025d51d8f98",
     "source": "Start at Hornigold, Kopernika 6, and set the Katowice Airport terminal as your destination. Navigation will choose a route to Pyrzowice based on current traffic. Before entering, check drop-off and parking signs and fees. Book a taxi or transfer separately, confirming the total fare and meeting point.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyjeďte od Hornigoldu z adresy Kopernika 6 a jako cíl nastavte terminál letiště Katovice. Navigace vybere trasu do Pyrzowic podle aktuálního provozu. Před vjezdem si ověřte značení a poplatky za vysazení cestujících a parkování. Taxi nebo transfer objednávejte samostatně a potvrďte si celkovou cenu i místo setkání.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11768,8 +11768,8 @@
   {
     "id": "f6501ef642039658",
     "source": "Bus AP links Katowice with the airport. Check the current stop, departure and ticket in the official ZTM timetable. For rail, search for “Pyrzowice Lotnisko” and choose a connection from Katowice for your travel date, without assuming a fixed number of changes. The airport states that a roughly 500 m footpath links the station and terminals; allow for luggage and weather.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autobus AP spojuje Katovice s letištěm. Aktuální zastávku, odjezd a jízdenku si ověřte v oficiálním jízdním řádu ZTM. Pro cestu vlakem vyhledejte „Pyrzowice Lotnisko“ a spojení z Katovic pro svůj den cesty; nepředpokládejte pevný počet přestupů. Letiště uvádí, že stanici a terminály spojuje pěší cesta dlouhá přibližně 500 m; počítejte se zavazadly a počasím.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11777,8 +11777,8 @@
   {
     "id": "c4a38e1f028730e0",
     "source": "www.katowice-airport.com/pl/dla-pasazera/dojazd",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.katowice-airport.com/pl/dla-pasazera/dojazd",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11786,8 +11786,8 @@
   {
     "id": "9e8565d82a3a7cb3",
     "source": "www.katowice-airport.com/pl/dla-pasazera/dojazd/pociag",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.katowice-airport.com/pl/dla-pasazera/dojazd/pociag",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11795,8 +11795,8 @@
   {
     "id": "1fa2bf304ceef67c",
     "source": "www.katowice-airport.com/pl/dla-pasazera/plan-terminali",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.katowice-airport.com/pl/dla-pasazera/plan-terminali",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11804,8 +11804,8 @@
   {
     "id": "0a9f21ea5ea65cc9",
     "source": "www.katowice-airport.com/pl/nasze-lotnisko/kontakt",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.katowice-airport.com/pl/nasze-lotnisko/kontakt",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11813,8 +11813,8 @@
   {
     "id": "50b301efd44f1f04",
     "source": "metropoliagzm.pl/wp-content/uploads/2026/04/RAPORT_GZM_2017-2026.pdf",
-    "translation": null,
-    "reviewed": false,
+    "translation": "metropoliagzm.pl/wp-content/uploads/2026/04/RAPORT_GZM_2017-2026.pdf",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11822,8 +11822,8 @@
   {
     "id": "19f42b1b4b62b6d4",
     "source": "Katowice–Pyrzowice Airport (KTW). Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Katovice–Pyrzowice (KTW). Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11831,8 +11831,8 @@
   {
     "id": "baf91e8a6bf142a2",
     "source": "Glazed interior and moving walkway in Terminal B, Katowice Airport, 2024",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prosklený interiér a pohyblivý chodník v terminálu B letiště Katovice, 2024",
+    "reviewed": true,
     "usedIn": [
       "site/en/airports/pyrzowice/index.html"
     ]
@@ -11840,8 +11840,8 @@
   {
     "id": "0e1e9ad991278073",
     "source": "Start your day well | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte den příjemně | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11849,8 +11849,8 @@
   {
     "id": "de0825e66c663b70",
     "source": "BREAKFAST",
-    "translation": null,
-    "reviewed": false,
+    "translation": "SNÍDANĚ",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11858,8 +11858,8 @@
   {
     "id": "932334d14be72c37",
     "source": "Start your day well",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte den příjemně",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11867,8 +11867,8 @@
   {
     "id": "bd164e7617e95f40",
     "source": "Start your day at Hornigold with breakfast before a meeting or a walk around Katowice. Breakfast is served daily from 7:00 to 10:00. If you are planning an early departure, contact reception to discuss breakfast and the details of your stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte den v Hornigoldu snídaní před schůzkou nebo procházkou Katovicemi. Snídaně se podává denně od 7:00 do 10:00. Pokud plánujete brzký odjezd, kontaktujte recepci a domluvte si snídani i podrobnosti pobytu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html",
       "site/en/index.html"
@@ -11877,8 +11877,8 @@
   {
     "id": "eaba1c0e852d99a9",
     "source": "PLN 60 per adult breakfast.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Snídaně pro dospělého za 60 PLN.",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11886,8 +11886,8 @@
   {
     "id": "905aa81edb8fa40f",
     "source": "The allergen list is available in the breakfast room. Discuss any dietary requirements with reception in advance.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Seznam alergenů je k dispozici ve snídaňové místnosti. Případné stravovací požadavky projednejte předem s recepcí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11895,8 +11895,8 @@
   {
     "id": "51840e57ca476451",
     "source": "A takeaway breakfast for early departure can be arranged with reception in advance.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Snídani s sebou při brzkém odjezdu lze předem domluvit s recepcí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11904,8 +11904,8 @@
   {
     "id": "a00daa1e03c3d1a8",
     "source": "Start your day well. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte den příjemně. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/breakfast/index.html"
     ]
@@ -11913,8 +11913,8 @@
   {
     "id": "7ffb8ded620eab4e",
     "source": "Catering and events | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Catering a akce | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/catering-and-events/index.html"
     ]
@@ -11922,8 +11922,8 @@
   {
     "id": "5f71cfc953dbdc07",
     "source": "Catering and events. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Catering a akce. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/catering-and-events/index.html"
     ]
@@ -11931,8 +11931,8 @@
   {
     "id": "242a1a90e5122398",
     "source": "Auschwitz-Birkenau: remembrance and testimony | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz-Birkenau: paměť a svědectví | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -11940,8 +11940,8 @@
   {
     "id": "23e05ace570c279b",
     "source": "All stories",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Všechny příběhy",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -11966,8 +11966,8 @@
   {
     "id": "08390b2cd8d77e75",
     "source": "Jewish heritage and remembrance",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Židovské dědictví a paměť",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/index.html",
@@ -11978,8 +11978,8 @@
   {
     "id": "c2e8f24dcf079b6b",
     "source": "Auschwitz-Birkenau: remembrance and testimony",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz-Birkenau: paměť a svědectví",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/index.html",
@@ -11990,8 +11990,8 @@
   {
     "id": "acb5d8b4fbeccfc5",
     "source": "This place calls for time, preparation and quiet. It is an encounter with evidence of crimes and victims’ lives, not an entertainment stop.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Toto místo vyžaduje čas, přípravu a ticho. Je setkáním s důkazy zločinů a osudy obětí, nikoli zastávkou pro zábavu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/index.html"
@@ -12000,8 +12000,8 @@
   {
     "id": "f9784ad4adbd68be",
     "source": "Getting there from Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jak se tam dostat z Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12009,8 +12009,8 @@
   {
     "id": "95eb97cb9d65a23d",
     "source": "Plan your visit",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si návštěvu",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12018,8 +12018,8 @@
   {
     "id": "2101c942d50e8150",
     "source": "Tour operators",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pořadatelé výletů",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12027,8 +12027,8 @@
   {
     "id": "282fbd12049aa161",
     "source": "Auschwitz II-Birkenau, view from the gatehouse, 11 August 2024.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz II-Birkenau, pohled ze vstupní budovy, 11. srpna 2024.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12036,8 +12036,8 @@
   {
     "id": "ed99f6398ece84f5",
     "source": "Photograph proportionally resized, without cropping.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Velikost fotografie byla upravena při zachování proporcí a bez ořezu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12045,8 +12045,8 @@
   {
     "id": "c5ca72caa5195146",
     "source": "Auschwitz II-Birkenau, 2024 (03)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz II-Birkenau, 2024 (03)",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12054,8 +12054,8 @@
   {
     "id": "4594f6fdb945be66",
     "source": "Panoramas on the Museum website",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Panoramata na webu muzea",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12063,8 +12063,8 @@
   {
     "id": "e9b4455723de8c60",
     "source": "History and context",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Historie a souvislosti",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12089,8 +12089,8 @@
   {
     "id": "d3533e4fb988e7b8",
     "source": "Auschwitz was a German Nazi concentration and extermination camp in occupied Poland, operating in 1940–1945. Auschwitz II-Birkenau became the complex’s principal site of the mass murder of Jews. The museum estimates that at least 1.1 million people were murdered, mostly Jews; victims also included Poles, Roma and Sinti, Soviet prisoners of war and others.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz byl německý nacistický koncentrační a vyhlazovací tábor na okupovaném polském území, který fungoval v letech 1940–1945. Auschwitz II-Birkenau se stal hlavním místem masového vraždění Židů v tomto komplexu. Muzeum odhaduje, že zde bylo zavražděno nejméně 1,1 milionu lidí, převážně Židů; mezi oběťmi byli také Poláci, Romové a Sintové, sovětští váleční zajatci a další.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12098,8 +12098,8 @@
   {
     "id": "f18ebfb414c6acc1",
     "source": "Remembrance and responsibility",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Paměť a odpovědnost",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/jewish-heritage-people-places-and-absence/index.html",
@@ -12109,8 +12109,8 @@
   {
     "id": "b35de8075c83163f",
     "source": "Prepare through the official Auschwitz-Birkenau Memorial: check entry arrangements, educator languages and age guidance. We do not promise tours in every language of this website. Follow the museum’s photography rules and respect the victims’ memory. This introduction does not replace museum education or survivors’ testimony.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravte se prostřednictvím oficiálního Památníku Auschwitz-Birkenau: ověřte podmínky vstupu, jazyky průvodců a doporučený věk návštěvníků. Neslibujeme prohlídky ve všech jazycích tohoto webu. Dodržujte pravidla muzea pro fotografování a respektujte památku obětí. Tento úvod nenahrazuje vzdělávání v muzeu ani svědectví přeživších.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12118,8 +12118,8 @@
   {
     "id": "73f432cf3c960fd7",
     "source": "Before your visit",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před návštěvou",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12144,8 +12144,8 @@
   {
     "id": "cf8fbbfae06f8a63",
     "source": "Check hours, tickets, access, accessibility and guided-tour languages with the site’s custodian. The external sources below may not be available in your chosen language.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevírací dobu, vstupenky, dopravu, přístupnost a jazyky prohlídek si ověřte u správce místa. Níže uvedené externí zdroje nemusí být dostupné ve vámi zvoleném jazyce.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12170,8 +12170,8 @@
   {
     "id": "9a2bb70c19aae9a8",
     "source": "Sources and further reading",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zdroje a další čtení",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12228,8 +12228,8 @@
   {
     "id": "ba7333988ce04209",
     "source": "Sources checked: 4 October 2026.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zdroje ověřeny: 4. října 2026.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12286,8 +12286,8 @@
   {
     "id": "0e570ca6fabe24f9",
     "source": "Source",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zdroj",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
@@ -12344,8 +12344,8 @@
   {
     "id": "62cc0085b55a6129",
     "source": "www.auschwitz.org",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.auschwitz.org",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12353,8 +12353,8 @@
   {
     "id": "4dba5a93b9d9a018",
     "source": "Jewish heritage: people, places and absence",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Židovské dědictví: lidé, místa a prázdná místa",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/index.html",
@@ -12365,8 +12365,8 @@
   {
     "id": "f30f3d792c2b9015",
     "source": "Silesian places of remembrance: distinct histories",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Slezská místa paměti: různé příběhy",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/index.html",
@@ -12377,8 +12377,8 @@
   {
     "id": "daa3d8aa74d6d12d",
     "source": "The Memorial is in Oświęcim and nearby Brzezinka. Visits start at Auschwitz I: the Visitor Services Centre, Więźniów Oświęcimia 55. The route buttons lead from Hornigold at Kopernika 6 to this entrance, rather than directly to the Birkenau gate.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Památník se nachází v Osvětimi a nedaleké Březince. Návštěva začíná v Auschwitz I: Centrum služeb návštěvníkům, Więźniów Oświęcimia 55. Tlačítka s trasami vedou od Hornigoldu na adrese Kopernika 6 k tomuto vstupu, nikoli přímo k bráně Birkenau.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12386,8 +12386,8 @@
   {
     "id": "fdc1698966165baa",
     "source": "Hornigold → Museum · car",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold → muzeum · autem",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12395,8 +12395,8 @@
   {
     "id": "a0bfb71f53690cab",
     "source": "Museum → Hornigold · car",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum → Hornigold · autem",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12404,8 +12404,8 @@
   {
     "id": "d9c9759ecddfe669",
     "source": "Hornigold → Museum · public transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold → muzeum · veřejnou dopravou",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12413,8 +12413,8 @@
   {
     "id": "faf3af4b13249da6",
     "source": "Museum → Hornigold · public transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum → Hornigold · veřejnou dopravou",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12422,8 +12422,8 @@
   {
     "id": "0d540da120a222a1",
     "source": "By car",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autem",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
@@ -12432,8 +12432,8 @@
   {
     "id": "0f40435f093499fa",
     "source": "Enter the full Visitor Services Centre address in your navigation app. The Museum recommends approaching from Legionów Street (DW 933); parking is paid. Choose your route using current traffic and your reserved entry time. Check journey time and any road tolls before leaving.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Do navigace zadejte úplnou adresu Centra služeb návštěvníkům. Muzeum doporučuje příjezd z ulice Legionów (DW 933); parkování je placené. Trasu zvolte podle aktuálního provozu a rezervovaného času vstupu. Před odjezdem si ověřte dobu cesty a případné silniční poplatky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12441,8 +12441,8 @@
   {
     "id": "0ad00661d3fb45e8",
     "source": "By train or bus",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vlakem nebo autobusem",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12450,8 +12450,8 @@
   {
     "id": "763b9e347a34bcb4",
     "source": "Search for Katowice → Oświęcim connections for your visit date. The Museum gives the distance from Oświęcim station as about 1.5 km; allow for the walk or onward transport. For a bus, check the exact arrival stop. Plan to arrive with time to spare and check the return service; timetables and changes depend on the date.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyhledejte spojení Katovice → Oświęcim pro den návštěvy. Muzeum uvádí vzdálenost od nádraží Oświęcim přibližně 1,5 km; počítejte s pěší cestou nebo navazující dopravou. U autobusu si ověřte přesnou příjezdovou zastávku. Naplánujte si příjezd s rezervou a zkontrolujte zpáteční spoj; jízdní řády a přestupy závisí na datu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12459,8 +12459,8 @@
   {
     "id": "bae9e9c37610c63f",
     "source": "Between Auschwitz I and Birkenau",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mezi Auschwitz I a Birkenau",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12468,8 +12468,8 @@
   {
     "id": "0bab75a93c179861",
     "source": "The two parts of the Memorial are about 3.5 km apart. The Museum provides a free shuttle between Auschwitz I and Auschwitz II-Birkenau. Check departure times on site and follow your educator’s instructions. This shuttle does not provide transport from Katowice.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Obě části památníku jsou od sebe vzdáleny přibližně 3,5 km. Muzeum zajišťuje bezplatnou kyvadlovou dopravu mezi Auschwitz I a Auschwitz II-Birkenau. Časy odjezdů si ověřte na místě a řiďte se pokyny průvodce. Tato doprava nezajišťuje spojení z Katovic.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12477,8 +12477,8 @@
   {
     "id": "4ea98d0dd7c60fac",
     "source": "Museum travel information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Informace muzea o dopravě",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12486,8 +12486,8 @@
   {
     "id": "fa7d16dd136938dc",
     "source": "Reserve a named entry pass at visit.auschwitz.org before travelling. Since 1 March 2026, all passes have been available online only, not at the entrance. Admission itself is free; educator-led visits are paid. A standard guided visit lasts about 3.5 hours. The Museum asks visitors to arrive at least 30 minutes before it starts.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před cestou si rezervujte jmenovitou vstupenku na visit.auschwitz.org. Od 1. března 2026 jsou všechny vstupenky dostupné pouze online, nikoli u vstupu. Samotný vstup je bezplatný; prohlídky s průvodcem jsou placené. Standardní prohlídka trvá přibližně 3,5 hodiny. Muzeum žádá návštěvníky, aby přišli nejméně 30 minut před jejím začátkem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12495,8 +12495,8 @@
   {
     "id": "70a1c77e6e54defa",
     "source": "Official Museum booking",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální rezervace muzea",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12504,8 +12504,8 @@
   {
     "id": "f5a93b3fa3998de0",
     "source": "Current Museum visitor information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Aktuální informace muzea pro návštěvníky",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12513,8 +12513,8 @@
   {
     "id": "9b4c39bd9ff9bc3b",
     "source": "The Museum advises against visits by children under 14. Check required documents, photography rules and accessibility arrangements. The maximum bag size is 35 × 25 × 15 cm. Dress appropriately for a place of remembrance and the weather; part of the visit is outdoors.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum nedoporučuje návštěvu dětem mladším 14 let. Ověřte požadované doklady, pravidla fotografování a podmínky přístupnosti. Maximální rozměry zavazadla jsou 35 × 25 × 15 cm. Oblečte se přiměřeně místu paměti a počasí; část návštěvy probíhá venku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12522,8 +12522,8 @@
   {
     "id": "1b01269625788d76",
     "source": "This website’s seven languages do not guarantee tours in all seven. Confirm the educator’s language for your date, particularly Chinese and Ukrainian. The driver, booking form or confirmation may use a different language from the guided visit.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Osm jazyků tohoto webu nezaručuje prohlídky ve všech osmi jazycích. Ověřte jazyk průvodce pro svůj termín, zejména čínštinu a ukrajinštinu. Řidič, rezervační formulář nebo potvrzení mohou používat jiný jazyk než komentovaná prohlídka.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12531,8 +12531,8 @@
   {
     "id": "e5d32c697fa6a309",
     "source": "These independent operators publish relevant tours. Hornigold does not sell these excursions through this website. Confirm prices, availability, language and pickup arrangements directly with the operator.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tito nezávislí pořadatelé zveřejňují příslušné výlety. Hornigold je prostřednictvím tohoto webu neprodává. Ceny, dostupnost, jazyk a místo vyzvednutí si ověřte přímo u pořadatele.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
