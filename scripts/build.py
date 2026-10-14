@@ -119,7 +119,7 @@ for p in OUT.rglob('*.html'):
   if not u.path.startswith(BASE):errors.append(str(p)+' outside base '+raw);continue
   target=OUT/unquote(u.path[len(BASE):]);target=target/'index.html' if target.is_dir() else target
   if not target.exists():errors.append(str(p)+' missing '+raw)
-if pages!=693:errors.append('Expected 693 pages, found '+str(pages))
+if pages!=len(ROUTES):errors.append('Expected '+str(len(ROUTES))+' registered pages, found '+str(pages))
 if errors:raise SystemExit('\n'.join(errors[:30]))
 import os
 (OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'buildMode':opts.mode,'indexing':opts.mode=='production-ready','published':False,'counterEnabled':opts.counter,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')

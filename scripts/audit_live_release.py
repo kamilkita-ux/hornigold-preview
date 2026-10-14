@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 from bs4 import BeautifulSoup
 import argparse,json,subprocess,datetime
+from seo import hreflang_languages
 root=Path(__file__).resolve().parent.parent
 ap=argparse.ArgumentParser();ap.add_argument('--origin',required=True);ap.add_argument('--base',default='');ap.add_argument('--label',required=True);ap.add_argument('--expected-commit');opts=ap.parse_args()
 assert opts.origin in ['https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site','https://kamilkita-ux.github.io']
@@ -21,7 +22,8 @@ def check(route):
  soup=BeautifulSoup(body,'html.parser');meta=soup.select_one('meta[name=robots]');canonical=soup.select_one('link[rel=canonical]')
  if not meta or meta.get('content')!='noindex,nofollow,noarchive':errors.append('preview indexing gate')
  if not canonical or canonical.get('href')!='https://hornigold.pl'+route:errors.append('canonical')
- if len(soup.select('link[hreflang]'))!=8:errors.append('hreflang count')
+ alternates=soup.select('head link[hreflang]');expected_languages=hreflang_languages(root,route)
+ if len(alternates)!=len(expected_languages) or {a.get('hreflang') for a in alternates}!=expected_languages:errors.append('hreflang cluster')
  if len(soup.select('h1'))!=1:errors.append('H1')
  for s in soup.select('script[type="application/ld+json"]'):
   try:json.loads(s.string)

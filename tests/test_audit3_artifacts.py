@@ -11,7 +11,8 @@ class Audit3Artifacts(unittest.TestCase):
   for route in excluded:
    soup=BeautifulSoup((R/'_production_ready'/unquote(route).strip('/')/'index.html').read_text(),'html.parser');self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex,follow');self.assertFalse(soup.select('link[hreflang]'));self.assertEqual(len(soup.select('a[data-language]')),7)
  def test_sitemap_dates_are_not_future_dates_and_manifest_icons_exist(self):
-  dates=ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod');self.assertEqual(len(dates),462)
+  routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes']
+  dates=ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod');self.assertEqual(len(dates),sum(route not in excluded for route in routes))
   for d in dates:self.assertLessEqual(datetime.date.fromisoformat(d.text),datetime.datetime.now(datetime.timezone.utc).date())
   manifest=json.loads((R/'_production_ready/site.webmanifest').read_text());self.assertEqual({i['sizes'] for i in manifest['icons']},{'192x192','512x512'})
   for i in manifest['icons']:self.assertTrue((R/'_production_ready'/i['src'].lstrip('/')).is_file())
