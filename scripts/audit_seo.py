@@ -6,7 +6,7 @@ from collections import defaultdict, deque
 import argparse, json, hashlib, re, datetime, unicodedata
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects, indexable_route
+from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects, indexable_route, hreflang_languages
 
 ROOT=Path(__file__).resolve().parent.parent
 
@@ -65,10 +65,11 @@ def audit(mode, directory):
             titles[unicodedata.normalize('NFKC',title).casefold()].append(route);descriptions[unicodedata.normalize('NFKC',description).casefold()].append(route)
             bodies[hashlib.sha256(s.main.get_text(' ',strip=True).encode()).hexdigest()].append(route)
             can=s.select('link[rel=canonical]');check(len(can)==1 and can[0].get('href')==ORIGIN+route,'canonical exact',route)
-            lang=s.html.get('lang');check(lang in LANGS,'language',route)
+            expected_languages=hreflang_languages(ROOT,route)
+            lang=s.html.get('lang');check(lang in expected_languages-{'x-default'},'language',route)
             alts=s.select('link[rel=alternate][hreflang]');matrix={a['hreflang']:a.get('href') for a in alts}
             eligible=mode=='preview' or indexable_route(ROOT,route)
-            check((len(alts)==8 and set(matrix)==LANGS|{'x-default'}) if eligible else len(alts)==0,'complete indexable hreflang / no excluded cluster',route)
+            check((len(alts)==len(expected_languages) and set(matrix)==expected_languages) if eligible else len(alts)==0,'complete registered hreflang / no excluded cluster',route)
             check(matrix.get('x-default')==matrix.get('pl'),'x-default Polish equivalent',route)
             if eligible: check(matrix.get(lang)==ORIGIN+route,'hreflang self',route)
             for language,url in matrix.items():
