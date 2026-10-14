@@ -95,6 +95,7 @@ def apply_seo(soup, route, root, mode, routes, overrides):
         if soup.html.get('lang') != 'pl':
             raise ValueError('Registered Polish article has a different document language')
         for alternate in soup.select('link[rel=alternate][hreflang]'): alternate.decompose()
+        for alternate in soup.select('meta[property="og:locale:alternate"]'): alternate.decompose()
         if mode == 'preview' or eligible:
             for language in ('pl', 'x-default'):
                 soup.head.append(soup.new_tag('link', rel='alternate', hreflang=language, href=url))
