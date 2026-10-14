@@ -85,7 +85,8 @@
     "description": "Wybierz daty i liczbę gości, przejrzyj kategorie pokoi oraz plany pobytu w Katowicach. Katalog nie potwierdza dostępności; warunki ustal z recepcją."
   },
   "/pl/dla-firm/": {
-    "description": "Warunki dopasowane do Twojego planu. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami."
+    "title": "Noclegi dla firm w Katowicach | Hornigold",
+    "description": "Zapytaj o nocleg służbowy lub dłuższy pobyt w Hornigold przy Kopernika 6 w Katowicach. Podaj termin, liczbę osób i potrzeby fakturowe — warunki potwierdzi recepcja."
   },
   "/pl/pokoje/": {
     "title": "Pokoje i apartamenty w Katowicach | Hornigold",
