@@ -1,0 +1,43 @@
+{
+  "version": "2026-10-15",
+  "status": "prepared_materials_not_operational_acceptance",
+  "property": "Hornigold w Zielonej Kamienicy",
+  "scope": "G4: process, reception materials and division of responsibility; no fabricated reviews or live account changes",
+  "roles": {
+    "reception": "Give the same neutral invitation to actual departing guests; assist only with opening the existing profile, never writing or posting for the guest.",
+    "Beata": "Coordinate reception rollout, verify correct existing Google profile and privacy-safe handling of feedback.",
+    "Kamil": "Approve business decisions and resolve escalations.",
+    "websiteMaintainer": "Keep profile links accurate; never manufacture or selectively publish favourable reviews."
+  },
+  "steps": [
+    "Offer one optional invitation at departure, regardless of whether feedback was positive or negative.",
+    "Do not offer a discount, gift, priority service or other benefit for posting, editing or removing a review.",
+    "Use the existing property profile and history; do not create a replacement listing.",
+    "The guest chooses whether, when and what to publish on their own device and account.",
+    "Handle service problems independently of any review; do not condition support or refunds on changing feedback.",
+    "Before replying publicly, check the facts internally; do not reveal stay dates, room numbers, contacts, billing details or other guest data.",
+    "Record aggregate counts and improvement actions privately; no guest identities or reviews copied into GitHub."
+  ],
+  "receptionCard": {
+    "heading": "Dobrowolna opinia po pobycie",
+    "text": "Dziękujemy za pobyt w Hornigold w Zielonej Kamienicy. Jeśli chcesz, podziel się swoim doświadczeniem w naszym istniejącym profilu Google. Opinia jest dobrowolna — cenimy zarówno pochwały, jak i uwagi.",
+    "entryLink": "https://hornigold.pl/pl/opinie/",
+    "linkMeaning": "Page links to current Google reviews; this is not a verified direct review-composer URL."
+  },
+  "invitationTemplates": {
+    "pl": "Dziękujemy za pobyt w Hornigold w Zielonej Kamienicy. Jeśli chcesz, podziel się swoim doświadczeniem w naszym istniejącym profilu Google. Opinia jest dobrowolna; doceniamy zarówno pochwały, jak i uwagi.",
+    "en": "Thank you for staying at Hornigold w Zielonej Kamienicy. If you wish, share your experience on our existing Google profile. Leaving a review is optional; we appreciate both positive feedback and suggestions.",
+    "de": "Vielen Dank für Ihren Aufenthalt im Hornigold w Zielonej Kamienicy. Wenn Sie möchten, teilen Sie Ihre Erfahrungen auf unserem bestehenden Google-Profil. Eine Bewertung ist freiwillig; wir freuen uns sowohl über Lob als auch über Anregungen.",
+    "es": "Gracias por alojarte en Hornigold w Zielonej Kamienicy. Si lo deseas, comparte tu experiencia en nuestro perfil de Google existente. Dejar una opinión es voluntario; agradecemos tanto los elogios como las sugerencias.",
+    "it": "Grazie per aver soggiornato presso Hornigold w Zielonej Kamienicy. Se lo desideri, condividi la tua esperienza sul nostro profilo Google esistente. Lasciare una recensione è facoltativo; apprezziamo sia i commenti positivi sia i suggerimenti.",
+    "uk": "Дякуємо за перебування в Hornigold w Zielonej Kamienicy. Якщо бажаєте, поділіться своїм досвідом у нашому наявному профілі Google. Відгук є добровільним; ми цінуємо як похвалу, так і зауваження.",
+    "zh-Hans": "感谢您入住 Hornigold w Zielonej Kamienicy。如您愿意，欢迎在我们现有的 Google 商家资料上分享入住体验。是否评价完全自愿；我们同样珍视您的肯定与建议。"
+  },
+  "acceptanceChecklist": [
+    "Beata confirms receipt and suitability for actual reception procedures.",
+    "Reception verifies that the linked profile is the existing Kopernika 6 property and retains its reviews.",
+    "Staff can explain the optional nature of the invitation and do not request a specific rating.",
+    "Any optional electronic outreach is checked against applicable communications and privacy rules before sending; this process does not authorise bulk email."
+  ],
+  "evidenceLimit": "Prepared materials do not prove staff training, actual use, profile moderation or new customer reviews."
+}

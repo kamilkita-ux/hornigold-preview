@@ -412,14 +412,15 @@
     {
       "id": "G4",
       "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych.",
+      "environment": "local materials",
+      "change": "Prepared a concrete neutral reception process, responsibility split, reception card and invitation templates in all seven existing languages. No incentives, review gating, fabricated reviews or public disclosure of stay data.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
+        "RECEPTION_REVIEWS_PROCESS.json",
         "MAINTENANCE.md"
       ],
-      "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "barrier": "Recepcja/Beata: odbiór materiałów i dopasowanie do rzeczywistych procedur; faktyczne użycie nie jest potwierdzone.",
+      "next": "Przekazać materiały w autoryzowanym trybie, potwierdzić właściwy istniejący profil i odbiór przez recepcję. Nie uruchamiać masowej wysyłki.",
       "title": "Autentyczne opinie"
     },
     {
@@ -540,7 +541,7 @@
     "partial": 8
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-15T16:15:43.205224+00:00",
+  "updatedAtUTC": "2026-10-15T16:28:07.630811+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
