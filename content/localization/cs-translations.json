@@ -18124,12 +18124,13 @@
   {
     "id": "e257c44005aeed67",
     "source": "After separate consent, Google Ads tag AW-18507796156 measures advertising effectiveness. Refusal does not restrict this website; withdraw consent here. Ad personalization and purchase tracking are not enabled. Google: https://policies.google.com/privacy · https://business.safety.google/adsdatatransfers/. Cookies: _gcl_* (90 days).",
-    "translation": "Po samostatném souhlasu měří značka Google Ads AW-18507796156 účinnost reklam. Odmítnutí neomezuje tento web; souhlas lze odvolat zde. Personalizace reklam a měření nákupů nejsou zapnuté. Google: https://policies.google.com/privacy · https://business.safety.google/adsdatatransfers/. Cookies: _gcl_* (90 dnů).",
+    "translation": "Po samostatném souhlasu měří značka Google Ads AW-18507796156 účinnost reklam. Odmítnutí neomezuje tento web; souhlas můžete odvolat zde. Personalizace reklam a měření nákupů nejsou zapnuté. Google: https://policies.google.com/privacy · https://business.safety.google/adsdatatransfers/. Cookies: _gcl_* (90 dnů).",
     "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html",
       "site/en/privacy-and-data/index.html"
-    ]
+    ],
+    "reviewNote": "Synchronized to reviewed legal/cs.json and tagged Czech PDF during final exact-paragraph acceptance."
   },
   {
     "id": "d9cc7483f508325e",
@@ -18213,30 +18214,32 @@
   {
     "id": "c69a77456beaa5ea",
     "source": "Accessibility features. The website uses headings, text labels for forms, keyboard navigation and visible focus. Seven languages and written directions are available. Development aims at WCAG 2.2 AA. Automated checks and keyboard tests do not replace assessment with screen readers and users; full compliance or PAD certification is not claimed.",
-    "translation": "Funkce přístupnosti. Web používá nadpisy, textové popisky formulářů, ovládání klávesnicí a viditelný fokus. Připravovaná česká lokalizace rozšiřuje nabídku na osm jazyků; dostupné jsou i textové pokyny k příjezdu. Vývoj směřuje k WCAG 2.2 AA. Automatické kontroly a testy klávesnice nenahrazují posouzení čtečkami obrazovky a uživateli; netvrdíme úplný soulad ani certifikaci podle polského zákona o přístupnosti (PAD).",
-    "reviewed": true,
-    "usedIn": [
-      "site/en/clarity-before-your-arrival/index.html"
-    ]
-  },
-  {
-    "id": "ed63a00a4096953b",
-    "source": "Known limitations. Policy PDFs contain heading, paragraph and list tags and linked annotations. Full PDF/UA compliance and completed screen-reader acceptance are not claimed. Full content remains available as HTML in the relevant language. External panorama accessibility depends on Google. Digital accessibility information does not confirm step-free access, adapted bathrooms or other building features; discuss specific accommodation needs with reception before contracting.",
-    "translation": "Známá omezení. PDF dokumenty zásad obsahují značky nadpisů, odstavců a seznamů a propojené anotace. Netvrdíme plný soulad PDF/UA ani dokončený odběr pomocí čtečky obrazovky. Úplný obsah zůstává dostupný jako HTML v příslušném jazyce. Přístupnost externích panoramat závisí na Googlu. Informace o digitální přístupnosti nepotvrzují bezbariérový vstup, upravené koupelny ani jiné vlastnosti budovy; konkrétní potřeby ubytování projednejte s recepcí před uzavřením smlouvy.",
-    "reviewed": true,
-    "usedIn": [
-      "site/en/clarity-before-your-arrival/index.html"
-    ]
-  },
-  {
-    "id": "c6352acf7860b6ee",
-    "source": "Future booking and payment. Once KWHotel and the selected Fiserv product are connected, test the entire journey: dates and guests, offer selection, forms and errors, summary and terms, payment-obligation button, redirect, bank authentication, payment status, confirmation, cancellation and refund. Acceptance must cover keyboard use, screen readers, zoom, time limits, messages and documents in all eight languages. A supplier manual is not evidence that the specific integration is accessible.",
-    "translation": "Budoucí rezervace a platba. Po propojení KWHotel a vybraného produktu Fiserv je nutné otestovat celou cestu: termín a počet hostů, výběr nabídky, formuláře a chyby, souhrn a podmínky, tlačítko zavazující k platbě, přesměrování, bankovní ověření, stav platby, potvrzení, zrušení a vrácení peněz. Odběr musí zahrnout klávesnici, čtečky obrazovky, zvětšení, časové limity, zprávy a dokumenty ve všech podporovaných jazycích včetně češtiny. Příručka dodavatele není důkazem přístupnosti konkrétní integrace.",
+    "translation": "Funkce přístupnosti. Web používá nadpisy, textové popisky formulářů, ovládání klávesnicí a viditelný fokus. Web nabízí osm jazyků; dostupné jsou i textové pokyny k příjezdu. Vývoj směřuje k WCAG 2.2 AA. Automatické kontroly a testy klávesnice nenahrazují posouzení čtečkami obrazovky a uživateli; netvrdíme úplný soulad ani certifikaci podle polského zákona o přístupnosti (PAD).",
     "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ],
-    "reviewNote": "English scope updated to eight languages; Czech translation already specifies eight. No other legal terms changed."
+    "reviewNote": "Synchronized to reviewed legal/cs.json and tagged Czech PDF during final exact-paragraph acceptance."
+  },
+  {
+    "id": "ed63a00a4096953b",
+    "source": "Known limitations. Policy PDFs contain heading, paragraph and list tags and linked annotations. Full PDF/UA compliance and completed screen-reader acceptance are not claimed. Full content remains available as HTML in the relevant language. External panorama accessibility depends on Google. Digital accessibility information does not confirm step-free access, adapted bathrooms or other building features; discuss specific accommodation needs with reception before contracting.",
+    "translation": "Známá omezení. PDF dokumenty zásad obsahují značky nadpisů, odstavců a seznamů a propojené anotace. Netvrdíme plný soulad PDF/UA ani dokončené ověření pomocí čtečky obrazovky. Úplný obsah zůstává dostupný jako HTML v příslušném jazyce. Přístupnost externích panoramat závisí na Googlu. Informace o digitální přístupnosti nepotvrzují bezbariérový vstup, upravené koupelny ani jiné vlastnosti budovy; konkrétní potřeby ubytování projednejte s recepcí před uzavřením smlouvy.",
+    "reviewed": true,
+    "usedIn": [
+      "site/en/clarity-before-your-arrival/index.html"
+    ],
+    "reviewNote": "Synchronized to reviewed legal/cs.json and tagged Czech PDF during final exact-paragraph acceptance."
+  },
+  {
+    "id": "c6352acf7860b6ee",
+    "source": "Future booking and payment. Once KWHotel and the selected Fiserv product are connected, test the entire journey: dates and guests, offer selection, forms and errors, summary and terms, payment-obligation button, redirect, bank authentication, payment status, confirmation, cancellation and refund. Acceptance must cover keyboard use, screen readers, zoom, time limits, messages and documents in all eight languages. A supplier manual is not evidence that the specific integration is accessible.",
+    "translation": "Budoucí rezervace a platba. Po propojení KWHotel a vybraného produktu Fiserv je nutné otestovat celou cestu: termín a počet hostů, výběr nabídky, formuláře a chyby, souhrn a podmínky, tlačítko zavazující k platbě, přesměrování, bankovní ověření, stav platby, potvrzení, zrušení a vrácení peněz. Ověření musí zahrnout klávesnici, čtečky obrazovky, zvětšení, časové limity, zprávy a dokumenty ve všech podporovaných jazycích včetně češtiny. Příručka dodavatele není důkazem přístupnosti konkrétní integrace.",
+    "reviewed": true,
+    "usedIn": [
+      "site/en/clarity-before-your-arrival/index.html"
+    ],
+    "reviewNote": "Synchronized to reviewed legal/cs.json and tagged Czech PDF during final exact-paragraph acceptance."
   },
   {
     "id": "ba9da2e794013277",
@@ -18259,11 +18262,12 @@
   {
     "id": "09044a7a917e8d6a",
     "source": "Status and updates. Notice dated 9 October 2026. No automatic microenterprise exemption is assumed; PAD applicability requires assessment of the company and the service actually offered. Before online sales start, update this notice with integration acceptance results, verified premises information and known limitations. Changes to the engine, payments or documents require reassessment. Alternative HTML or telephone contact is not proof that the whole process complies.",
-    "translation": "Stav a aktualizace. Informace ze dne 9. října 2026. Automaticky nepředpokládáme výjimku pro mikropodnik; použitelnost PAD vyžaduje posouzení společnosti a skutečně nabízené služby. Před zahájením online prodeje je nutné oznámení aktualizovat výsledky odběru integrace, ověřenými informacemi o objektu a známými omezeními. Změny systému, plateb nebo dokumentů vyžadují nové posouzení. Alternativní HTML či telefonický kontakt nejsou důkazem souladu celého procesu.",
+    "translation": "Stav a aktualizace. Informace ze dne 9. října 2026. Automaticky nepředpokládáme výjimku pro mikropodnik; použitelnost PAD vyžaduje posouzení společnosti a skutečně nabízené služby. Před zahájením online prodeje je nutné oznámení aktualizovat výsledky ověření integrace, ověřenými informacemi o objektu a známými omezeními. Změny systému, plateb nebo dokumentů vyžadují nové posouzení. Alternativní HTML či telefonický kontakt nejsou důkazem souladu celého procesu.",
     "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
-    ]
+    ],
+    "reviewNote": "Synchronized to reviewed legal/cs.json and tagged Czech PDF during final exact-paragraph acceptance."
   },
   {
     "id": "79c17d77a966ed56",
