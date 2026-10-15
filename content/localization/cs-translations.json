@@ -21638,8 +21638,8 @@
   {
     "id": "83ea5f08e8c45d7c",
     "source": "Visiting MCK, Spodek or NOSPR | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Návštěva MCK, Spodku nebo NOSPR | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21647,8 +21647,8 @@
   {
     "id": "0552791ed45754a4",
     "source": "Start with the organiser",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte u pořadatele",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21656,8 +21656,8 @@
   {
     "id": "fad730e6ed519bc6",
     "source": "Check the venue, date, entrance and bag policy on the organiser’s website. Event tickets and accommodation are separate purchases.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Na webu pořadatele ověřte místo konání, termín, vstup a pravidla pro zavazadla. Vstupenky na akci a ubytování se kupují samostatně.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21665,8 +21665,8 @@
   {
     "id": "ce966e36ca68c239",
     "source": "Plan both journeys",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte obě cesty",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21674,8 +21674,8 @@
   {
     "id": "1398562d62f9d942",
     "source": "Choose directions to the correct venue. Allow extra time for entry checks and crowds afterwards; a map estimate is not the whole journey.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zvolte trasu ke správnému místu konání. Počítejte s časem navíc na vstupní kontroly a davy po akci; odhad na mapě nezahrnuje celou cestu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21683,8 +21683,8 @@
   {
     "id": "52b214c8d79ddfdb",
     "source": "Match your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přizpůsobte svůj pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21692,8 +21692,8 @@
   {
     "id": "f7f4de2a731bb6e2",
     "source": "If arriving late, confirm key collection with Hornigold in advance. This website does not guarantee late check-in or transport.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Při pozdním příjezdu si předem potvrďte převzetí klíčů s Hornigoldem. Tento web nezaručuje pozdní příjezd ani dopravu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21701,8 +21701,8 @@
   {
     "id": "cb9f4818c46b6543",
     "source": "Check organiser updates before leaving; events and queues may include outdoor areas.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před odchodem zkontrolujte aktuality pořadatele; akce i fronty mohou zasahovat do venkovních prostor.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21710,8 +21710,8 @@
   {
     "id": "b8d769d516153668",
     "source": "Visiting MCK, Spodek or NOSPR. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Návštěva MCK, Spodku nebo NOSPR. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
     ]
@@ -21719,8 +21719,8 @@
   {
     "id": "e79c7a02cd546b62",
     "source": "Your first arrival in Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Váš první příjezd do Katovic | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21728,8 +21728,8 @@
   {
     "id": "b9fbee3d7f0c2f3f",
     "source": "By train",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vlakem",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21737,8 +21737,8 @@
   {
     "id": "958c2ac888b1b653",
     "source": "Select Katowice railway station as your destination. On arrival, open directions to 6 Kopernika Street and select walking mode. Travel time depends on your station exit and current route.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jako cíl zvolte železniční stanici Katowice. Po příjezdu otevřete trasu na adresu Kopernika 6 a vyberte pěší režim. Doba cesty závisí na zvoleném východu z nádraží a aktuální trase.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21746,8 +21746,8 @@
   {
     "id": "7256d646199f663e",
     "source": "From the airport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Z letiště",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html",
       "site/en/location/index.html"
@@ -21756,8 +21756,8 @@
   {
     "id": "0cb982fa217b67cb",
     "source": "Check transport options and current timetables on the Katowice Airport website. Match your journey to your arrival time and luggage. Night services may differ.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Možnosti dopravy a aktuální jízdní řády ověřte na webu letiště Katovice. Cestu přizpůsobte času příletu a zavazadlům. Noční spoje se mohou lišit.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21765,8 +21765,8 @@
   {
     "id": "3e0c583a13394b84",
     "source": "Confirm parking, charges and entry instructions with Hornigold before travelling. An accommodation address does not confirm a parking space.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před cestou si s Hornigoldem potvrďte parkování, poplatky a pokyny ke vjezdu. Adresa ubytování nepotvrzuje parkovací místo.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21774,8 +21774,8 @@
   {
     "id": "ca1b52266bf251f8",
     "source": "With luggage or in poor weather, consider a car transfer and confirm the fare with the operator.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Se zavazadly nebo za špatného počasí zvažte přepravu autem a cenu si potvrďte u dopravce.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21783,8 +21783,8 @@
   {
     "id": "469d951073fee301",
     "source": "Katowice Airport — transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Katovice — doprava",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21792,8 +21792,8 @@
   {
     "id": "e780aae8efd9dbaf",
     "source": "Your first arrival in Katowice. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Váš první příjezd do Katovic. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/your-first-arrival-in-katowice/index.html"
     ]
@@ -21801,8 +21801,8 @@
   {
     "id": "672ae92de1f1ea93",
     "source": "Katowice with Hornigold | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s Hornigoldem | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html"
     ]
@@ -21810,8 +21810,8 @@
   {
     "id": "54d4b1ca5bb6a6b9",
     "source": "CITY GUIDE",
-    "translation": null,
-    "reviewed": false,
+    "translation": "PRŮVODCE MĚSTEM",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html"
     ]
@@ -21819,8 +21819,8 @@
   {
     "id": "c7fd44231303bd92",
     "source": "Less searching, more time for your stay. Choose a plan that suits you.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Méně hledání, více času na pobyt. Vyberte si plán, který vám vyhovuje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html"
     ]
@@ -21828,8 +21828,8 @@
   {
     "id": "a91848f0fcc9949a",
     "source": "Check events",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédnout akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html"
     ]
@@ -21837,8 +21837,8 @@
   {
     "id": "08f4473f7ae555c6",
     "source": "Katowice with Hornigold. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s Hornigoldem. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html"
     ]
@@ -21846,8 +21846,8 @@
   {
     "id": "7fdb234d7f989191",
     "source": "Katowice. Your next story. | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice. Váš další příběh. | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21855,8 +21855,8 @@
   {
     "id": "ec4ecc14f8b5a115",
     "source": "LOCATION",
-    "translation": null,
-    "reviewed": false,
+    "translation": "POLOHA A PŘÍJEZD",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21864,8 +21864,8 @@
   {
     "id": "37bfc4ef5073c65d",
     "source": "Katowice. Your next story.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice. Váš další příběh.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21873,8 +21873,8 @@
   {
     "id": "0d57ddcd16913a4f",
     "source": "You will find Hornigold at the Green Townhouse at 6 Kopernika Street in Katowice. Make time to explore the city and choose a room to return to at the end of your day.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold w Zielonej Kamienicy najdete na adrese Kopernika 6 v Katovicích. Ponechte si čas na poznávání města a vyberte pokoj, do kterého se na konci dne vrátíte.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21882,8 +21882,8 @@
   {
     "id": "6d1b8acb24801dca",
     "source": "Entrance from 6 Kopernika Street — by the Hornigold flags.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vstup z ulice Kopernika 6 — u vlajek Hornigold.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21891,8 +21891,8 @@
   {
     "id": "a2a2dd88ce339edd",
     "source": "Choose how to reach us",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si cestu k nám",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21900,8 +21900,8 @@
   {
     "id": "73227bac73e44d80",
     "source": "Every route leads to Hornigold, 6 Kopernika Street, Katowice. Choose your starting point and travel mode.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Všechny trasy vedou k Hornigoldu na adresu Kopernika 6, Katovice. Vyberte výchozí místo a způsob dopravy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21909,8 +21909,8 @@
   {
     "id": "5a5d33ee89289423",
     "source": "Choose the airport on your ticket: Pyrzowice (KTW) or Balice (KRK).",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zvolte letiště uvedené na letence: Pyrzowice (KTW) nebo Balice (KRK).",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21918,8 +21918,8 @@
   {
     "id": "76f30a15d8d08b5f",
     "source": "By car / taxi",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autem / taxi",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21927,8 +21927,8 @@
   {
     "id": "2612bdec90d172cc",
     "source": "By public transport",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Veřejnou dopravou",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21936,8 +21936,8 @@
   {
     "id": "9bb6f2462652ae95",
     "source": "Airport and transfer information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Informace o letišti a transferech",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21945,8 +21945,8 @@
   {
     "id": "9f92ecdcf8e12efb",
     "source": "From the railway station",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Z nádraží",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21954,8 +21954,8 @@
   {
     "id": "5648ca0f61e0495c",
     "source": "Starting point: Katowice main railway station. Choose walking or driving directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Výchozí místo: hlavní železniční nádraží Katowice. Vyberte pěší trasu nebo cestu autem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21963,8 +21963,8 @@
   {
     "id": "e4ef7854aaf0bbd9",
     "source": "Virtual walk to Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Virtuální procházka k Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21972,8 +21972,8 @@
   {
     "id": "4636bddfe045cb4a",
     "source": "Walk from the station",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pěšky z nádraží",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21981,8 +21981,8 @@
   {
     "id": "a7829008d5c40c0d",
     "source": "Drive from the station",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Autem z nádraží",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21990,8 +21990,8 @@
   {
     "id": "6e3612acede47eda",
     "source": "On foot",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pěšky",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -21999,8 +21999,8 @@
   {
     "id": "bb0b8264773dde14",
     "source": "Already in the city? Open walking directions from where you are.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Už jste ve městě? Otevřete pěší trasu ze své aktuální polohy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22008,8 +22008,8 @@
   {
     "id": "1cc0f63ba34f9b41",
     "source": "Walk here from my location",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pěší trasa z mé polohy",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22017,8 +22017,8 @@
   {
     "id": "2a1a8552e9b6b22e",
     "source": "Maps may ask for location access. You can also enter your starting point manually.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mapy mohou požádat o přístup k vaší poloze. Výchozí místo můžete zadat také ručně.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22026,8 +22026,8 @@
   {
     "id": "d77b893127ba8a28",
     "source": "Click to open the selected route in Google Maps. Check current travel times, distances and public transport connections there. Choosing taxi does not book a ride.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kliknutím otevřete vybranou trasu v Mapách Google. Ověřte tam aktuální doby cest, vzdálenosti a spoje veřejné dopravy. Volba taxi neobjednává jízdu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22035,8 +22035,8 @@
   {
     "id": "f69a9559f540ce9f",
     "source": "Virtual walk from the station to Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Virtuální procházka z nádraží k Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22044,8 +22044,8 @@
   {
     "id": "d0c1c45bd1d36e68",
     "source": "Get to know the way before you arrive. Three verified street panoramas guide you from the area by the station’s southern exit to the entrance to Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Poznejte cestu ještě před příjezdem. Tři ověřené panoramatické snímky ulic vás provedou od okolí jižního východu nádraží ke vstupu do Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22053,8 +22053,8 @@
   {
     "id": "64467b7f9406c9dd",
     "source": "Start at Katowice station",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte na nádraží Katowice",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22062,8 +22062,8 @@
   {
     "id": "8f62cc1f623f4490",
     "source": "Head for the southern exit onto plac Oddziałów Młodzieży Powstańczej, towards Andrzeja Street. This tour has no panoramas inside the station. The mapped route includes stairs; with a wheelchair, pushchair or heavy luggage, check available exits and lifts at the station.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vydejte se jižním východem na plac Oddziałów Młodzieży Powstańczej směrem k ulici Andrzeja. Prohlídka neobsahuje panoramata uvnitř nádraží. Mapovaná trasa zahrnuje schody; s vozíkem, kočárkem nebo těžkými zavazadly si ověřte dostupné východy a výtahy na nádraží.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22071,8 +22071,8 @@
   {
     "id": "c3d787f2e3431c4a",
     "source": "Open the full walking route",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřít celou pěší trasu",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22080,8 +22080,8 @@
   {
     "id": "82e2872cd9e18b49",
     "source": "Panoramas are provided by Google Maps. Loading them connects your browser to Google and shares information including your IP address. Panoramas do not load until you click.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Panoramata poskytují Mapy Google. Jejich načtení propojí váš prohlížeč s Googlem a předá informace včetně IP adresy. Panoramata se nenačtou, dokud nekliknete.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22089,8 +22089,8 @@
   {
     "id": "31e34f4bb7d8b648",
     "source": "Load Google panoramas",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Načíst panoramata Google",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22098,8 +22098,8 @@
   {
     "id": "5b781a0c06740082",
     "source": "Drag with your finger or mouse to look around. Panorama arrows let you explore the street; the tour buttons take you to the next stop.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tažením prstem nebo myší se rozhlédněte. Šipky panoramatu umožňují prozkoumat ulici; tlačítka prohlídky vás přesunou na další zastávku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22107,8 +22107,8 @@
   {
     "id": "36a5b03a4ac42492",
     "source": "Previous stop",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Předchozí zastávka",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22116,8 +22116,8 @@
   {
     "id": "a2750db0f176ee17",
     "source": "Next stop",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Další zastávka",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22125,8 +22125,8 @@
   {
     "id": "2e3f1bbb8731eddf",
     "source": "Close panoramas",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zavřít panoramata",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22134,8 +22134,8 @@
   {
     "id": "c1338e20ed310b27",
     "source": "Square by the station exit",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Náměstí u východu z nádraží",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22143,8 +22143,8 @@
   {
     "id": "364232f7c7b9f11b",
     "source": "Turn onto Kopernika",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Odbočte na Kopernika",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22152,8 +22152,8 @@
   {
     "id": "79081f3549456885",
     "source": "Hornigold entrance",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vstup do Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22161,8 +22161,8 @@
   {
     "id": "be7fef78f0c155b9",
     "source": "From plac Oddziałów Młodzieży Powstańczej, turn right onto Andrzeja, then left onto Marii Skłodowskiej-Curie. Use marked pedestrian crossings.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Z plac Oddziałów Młodzieży Powstańczej odbočte doprava na Andrzeja a potom doleva na Marii Skłodowskiej-Curie. Používejte vyznačené přechody pro chodce.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22170,8 +22170,8 @@
   {
     "id": "f572d2ae87dd47c0",
     "source": "Image date",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Datum snímku",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
