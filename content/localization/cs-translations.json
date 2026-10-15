@@ -16526,8 +16526,8 @@
   {
     "id": "a2a5a00364979d70",
     "source": "The Culture Zone: a new chapter for an industrial site | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zóna kultury: nová kapitola průmyslového areálu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-culture-zone-a-new-chapter-for-an-industrial-site/index.html"
     ]
@@ -16535,8 +16535,8 @@
   {
     "id": "66d21c36627475c3",
     "source": "Choose one exhibition or concert and leave time for a walk. Observe the relationship between buildings, light and open space. Our guide’s cover illustration is an artistic interpretation inspired by Katowice, not a faithful depiction of this complex or a substitute for a map or documentary photograph.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si jednu výstavu nebo koncert a ponechte si čas na procházku. Pozorujte vztah mezi budovami, světlem a otevřeným prostorem. Úvodní ilustrace našeho průvodce je uměleckou interpretací inspirovanou Katovicemi, nikoli věrným vyobrazením tohoto komplexu ani náhradou mapy či dokumentární fotografie.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-culture-zone-a-new-chapter-for-an-industrial-site/index.html"
     ]
@@ -16544,8 +16544,8 @@
   {
     "id": "6ff097ed2d22dddd",
     "source": "The Culture Zone: a new chapter for an industrial site. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zóna kultury: nová kapitola průmyslového areálu. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-culture-zone-a-new-chapter-for-an-industrial-site/index.html"
     ]
@@ -16553,8 +16553,8 @@
   {
     "id": "26ae95fb246c9a56",
     "source": "The history of Katowice: a city in motion | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dějiny Katovic: město v pohybu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-history-of-katowice-a-city-in-motion/index.html"
     ]
@@ -16562,8 +16562,8 @@
   {
     "id": "fe1ab3db4dde1302",
     "source": "Let your walk become a conversation between eras. Compare a decorated townhouse with the clean lines of a modernist building, then consider how an industrial site can find a new purpose. At the city history museum, look for residents’ stories: they give dates a human scale.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Proměňte procházku v rozhovor mezi epochami. Porovnejte zdobený činžovní dům s čistými liniemi modernistické stavby a potom se zamyslete, jak může průmyslový areál získat nový účel. V muzeu dějin města hledejte příběhy obyvatel: dávají letopočtům lidské měřítko.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-history-of-katowice-a-city-in-motion/index.html"
     ]
@@ -16571,8 +16571,8 @@
   {
     "id": "111620bbc4922686",
     "source": "The history of Katowice: a city in motion. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dějiny Katovic: město v pohybu. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-history-of-katowice-a-city-in-motion/index.html"
     ]
@@ -16580,8 +16580,8 @@
   {
     "id": "b3e5cf7ff76fa22f",
     "source": "The Industrial Monuments Route: a region shaped by work | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stezka technických památek: region utvářený prací | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16589,8 +16589,8 @@
   {
     "id": "863f2f5c9528dd19",
     "source": "Choose one theme for the day: underground work, transport or settlement life. Comparing two related places can be more rewarding than five unrelated stops. Open the operator’s page before travelling: routes may differ in age limits, accessibility, clothing requirements and guided-tour languages.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si pro daný den jedno téma: práci v podzemí, dopravu nebo život sídliště. Porovnání dvou souvisejících míst může být přínosnější než pět nesouvisejících zastávek. Před cestou otevřete stránku provozovatele: trasy se mohou lišit věkovými omezeními, přístupností, požadavky na oblečení i jazyky komentovaných prohlídek.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16598,8 +16598,8 @@
   {
     "id": "e6fe5296c659b621",
     "source": "Industrial Monuments Route directory",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přehled Stezky technických památek",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16607,8 +16607,8 @@
   {
     "id": "4bc4f53ca7b70308",
     "source": "Local names help you find places on a map. The directory does not confirm route availability or opening hours.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Místní názvy vám pomohou najít místa na mapě. Přehled nepotvrzuje dostupnost tras ani otevírací dobu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16616,8 +16616,8 @@
   {
     "id": "e1ba3ee187dfbeb5",
     "source": "Find a place or town",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Najít místo nebo město",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16625,8 +16625,8 @@
   {
     "id": "13fbb5e9c5b91f5f",
     "source": "Matching places",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Odpovídající místa",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16634,8 +16634,8 @@
   {
     "id": "72c638b4f7ddc9dc",
     "source": "No results. Try another name.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Žádné výsledky. Zkuste jiný název.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16643,8 +16643,8 @@
   {
     "id": "59029f373d95fc43",
     "source": "Bielsko-Biała",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Bielsko-Biała",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16652,8 +16652,8 @@
   {
     "id": "02b0333baa813150",
     "source": "Old Factory",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stará továrna",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16661,8 +16661,8 @@
   {
     "id": "8c3be4d4f8fd41f6",
     "source": "Local name",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Místní název",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16670,8 +16670,8 @@
   {
     "id": "bceef6ab5e8182b2",
     "source": "Stara Fabryka",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stara Fabryka",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16679,8 +16679,8 @@
   {
     "id": "9d5ea97f569b47e2",
     "source": "Operator’s listing",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Záznam provozovatele",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16688,8 +16688,8 @@
   {
     "id": "d27256b17487ccc0",
     "source": "Bytom",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Bytom",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16697,8 +16697,8 @@
   {
     "id": "ce00b458b7265c2f",
     "source": "Upper Silesian Narrow-Gauge Railways",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornoslezské úzkorozchodné železnice",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16706,8 +16706,8 @@
   {
     "id": "a5c2651e5f88a9af",
     "source": "Górnośląskie Koleje Wąskotorowe",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Górnośląskie Koleje Wąskotorowe",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16715,8 +16715,8 @@
   {
     "id": "1c16dd6077788b04",
     "source": "Chorzów",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Chorzów",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16724,8 +16724,8 @@
   {
     "id": "221272c66a0a291e",
     "source": "President Shaft and Sztygarka Complex",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Šachta Prezydent a komplex Sztygarka",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16733,8 +16733,8 @@
   {
     "id": "1e810f4481391243",
     "source": "Szyb Prezydent, Kompleks Sztygarka",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Szyb Prezydent, Kompleks Sztygarka",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16742,8 +16742,8 @@
   {
     "id": "6cbeb17bda4d23a7",
     "source": "Chorzów Museum of Metallurgy",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum hutnictví v Chorzówě",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16751,8 +16751,8 @@
   {
     "id": "05ad42211abba45e",
     "source": "Muzeum Hutnictwa w Chorzowie",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Hutnictwa w Chorzowie",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16760,8 +16760,8 @@
   {
     "id": "563dfa140f59f600",
     "source": "Cieszyn",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cieszyn",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16769,8 +16769,8 @@
   {
     "id": "bfda05abb8d36751",
     "source": "Printing Museum",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum tiskařství",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16778,8 +16778,8 @@
   {
     "id": "9f85491cd5a7a3a0",
     "source": "Muzeum Drukarstwa",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Drukarstwa",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16787,8 +16787,8 @@
   {
     "id": "1624c86393c31c43",
     "source": "Cieszyn Archducal Castle Brewery",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Arciknížecí zámecký pivovar Cieszyn",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16796,8 +16796,8 @@
   {
     "id": "0d986cdb376f5a13",
     "source": "Arcyksiążęcy Browar Zamkowy Cieszyn",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Arcyksiążęcy Browar Zamkowy Cieszyn",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16805,8 +16805,8 @@
   {
     "id": "f5db56f37b6c5205",
     "source": "Czeladź",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Czeladź",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16814,8 +16814,8 @@
   {
     "id": "1a5a48f3b09fd05e",
     "source": "Elektrownia Contemporary Art Gallery",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Galerie současného umění Elektrownia",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16823,8 +16823,8 @@
   {
     "id": "6c8945a473b2e7b1",
     "source": "Galeria Sztuki Współczesnej Elektrownia",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Galeria Sztuki Współczesnej Elektrownia",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16832,8 +16832,8 @@
   {
     "id": "214229715832932d",
     "source": "Czerwionka-Leszczyny",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Czerwionka-Leszczyny",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16841,8 +16841,8 @@
   {
     "id": "244bb326b1da1927",
     "source": "Familoki workers’ housing",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dělnické domy familoki",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16850,8 +16850,8 @@
   {
     "id": "fef8fc15ee783372",
     "source": "Familoki",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Familoki",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16859,8 +16859,8 @@
   {
     "id": "969b6bf063ed74f4",
     "source": "Częstochowa",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Częstochowa",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16868,8 +16868,8 @@
   {
     "id": "5f3941a96b7faa3b",
     "source": "Iron Ore Mining Museum",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum těžby železné rudy",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16877,8 +16877,8 @@
   {
     "id": "12a9cd5ac1404aed",
     "source": "Muzeum Górnictwa Rud Żelaza",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Górnictwa Rud Żelaza",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16886,8 +16886,8 @@
   {
     "id": "15fcff0236fafd18",
     "source": "Railway History Museum",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum dějin železnice",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16895,8 +16895,8 @@
   {
     "id": "f6b25a699a244b2d",
     "source": "Muzeum Historii Kolei",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Historii Kolei",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16904,8 +16904,8 @@
   {
     "id": "d0976205f8c6404c",
     "source": "Match Production Museum",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum výroby zápalek",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16913,8 +16913,8 @@
   {
     "id": "6d53c6ca9237584c",
     "source": "Muzeum Produkcji Zapałek",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Produkcji Zapałek",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16922,8 +16922,8 @@
   {
     "id": "85c30d65551f7573",
     "source": "Dąbrowa Górnicza",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dąbrowa Górnicza",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16931,8 +16931,8 @@
   {
     "id": "424474f8ac4aa4ff",
     "source": "Sztygarka Museum Training Mine",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Výcvikový důl Městského muzea Sztygarka",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16940,8 +16940,8 @@
   {
     "id": "506139607c22f711",
     "source": "Kopalnia Ćwiczebna Muzeum Miejskiego Sztygarka",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kopalnia Ćwiczebna Muzeum Miejskiego Sztygarka",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16949,8 +16949,8 @@
   {
     "id": "db072a145cfd6067",
     "source": "Gliwice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Gliwice",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16958,8 +16958,8 @@
   {
     "id": "5fe72e1e3f74d53e",
     "source": "Sanitary Engineering Museum",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum sanitární techniky",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
@@ -16967,8 +16967,8 @@
   {
     "id": "25dc9986b2b4c5e1",
     "source": "Muzeum Techniki Sanitarnej",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Muzeum Techniki Sanitarnej",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/index.html"
     ]
