@@ -827,5 +827,13 @@
     "limits": "Not full screen-reader or PDF/UA acceptance; booking/Fiserv/server unchanged",
     "evidence": "evidence/readability-23.25.json",
     "test": "21 rendered language/viewport cases; 32 gallery captions; no horizontal overflow; target text >=12px at default font scale; certificate link >=44px; final preview build 694 routes and static audit no errors"
+  },
+  "bookingHandoffCopyFix": {
+    "revision": "23.26",
+    "status": "tested_local",
+    "scope": "Fourteen homepage/stay-planner date-help paragraphs across seven languages: accurate external handoff wording; no guarantee of completed payment or property classification as hotel",
+    "protectedComponents": "No booking.js, server, GuestSage/Fiserv configuration or payment logic changed",
+    "acceptanceLimit": "Does not close B1/B3 or certify provider payment/PMS workflows",
+    "evidence": "evidence/handoff-copy-23.26.json"
   }
 }

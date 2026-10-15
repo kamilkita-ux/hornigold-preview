@@ -46,17 +46,17 @@ test('style.css styles the booking panel like the former notice', () => {
 });
 
 const HELP = {
-  pl: 'Po wyborze pokoju rezerwację i płatność zakończysz w systemie rezerwacyjnym hotelu.',
-  en: "After choosing a room, you complete the booking and payment in the hotel's booking system.",
-  de: 'Nach der Zimmerwahl schließen Sie Buchung und Zahlung im Buchungssystem des Hotels ab.',
-  uk: 'Після вибору номера ви завершите бронювання й оплату в системі бронювання готелю.',
-  es: 'Tras elegir la habitación, completarás la reserva y el pago en el sistema de reservas del hotel.',
-  it: "Dopo aver scelto la camera, completerai prenotazione e pagamento nel sistema di prenotazione dell'hotel.",
-  'zh-hans': '选定房型后，您将在酒店预订系统中完成预订和付款。',
+  "pl": "Po wyborze pokoju przejdziesz do zewnętrznego systemu rezerwacji. Sprawdź tam dostępność, cenę końcową i warunki przed dokonaniem rezerwacji.",
+  "en": "After choosing a room, you will continue to an external booking system. Check availability, the total price and terms there before making a reservation.",
+  "de": "Nach der Zimmerwahl gelangen Sie zu einem externen Buchungssystem. Prüfen Sie dort Verfügbarkeit, Gesamtpreis und Bedingungen, bevor Sie buchen.",
+  "uk": "Після вибору номера ви перейдете до зовнішньої системи бронювання. Перед бронюванням перевірте там доступність, загальну ціну та умови.",
+  "es": "Tras elegir la habitación, pasarás a un sistema de reservas externo. Comprueba allí la disponibilidad, el precio total y las condiciones antes de reservar.",
+  "it": "Dopo aver scelto la camera, passerai a un sistema di prenotazione esterno. Verifica disponibilità, prezzo totale e condizioni prima di prenotare.",
+  "zh-hans": "选择房型后，您将进入外部预订系统。请在预订前核实可订情况、总价及相关条款。"
 };
 const unescape = s => s.replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&');
 for (const lang of Object.keys(HELP)) for (const page of [`${lang}/index.html`, `${lang}/pobyt/index.html`]) {
-  test(`${page} search form help describes booking in the hotel system`, () => {
+  test(`${page} search form help describes external handoff and checks before reservation`, () => {
     const m = read(page).match(/<p class="form-help" id="date-help">(.*?)<\/p>/s);
     assert.ok(m, 'form-help missing');
     assert.equal(unescape(m[1]), HELP[lang]);
