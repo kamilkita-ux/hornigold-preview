@@ -1,0 +1,68 @@
+{
+  "scope": [
+    {
+      "path": "site/pl/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/pl/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/en/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/en/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/de/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/de/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/zh-hans/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/zh-hans/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/uk/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/uk/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/es/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/es/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/it/index.html",
+      "onlyDateHelpTextChanged": true
+    },
+    {
+      "path": "site/it/pobyt/index.html",
+      "onlyDateHelpTextChanged": true
+    }
+  ],
+  "protectedBookingAndServerUnchanged": true,
+  "python": {
+    "passed": 65,
+    "skipped": 3
+  },
+  "previewRoutes": 694,
+  "staticAuditErrors": 0,
+  "acceptanceLimit": "No provider payment, availability or PMS end-to-end acceptance inferred."
+}
