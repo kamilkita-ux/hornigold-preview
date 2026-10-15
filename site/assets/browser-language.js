@@ -2,7 +2,7 @@
  'use strict';
  const current=document.documentElement.lang.toLowerCase(),links=[...document.querySelectorAll('[data-language]')];
  let choice;try{choice=localStorage.getItem('hornigold-language');if(choice||sessionStorage.getItem('hornigold-language-suggestion-dismissed'))return;}catch{}
- const supported=['pl','en','de','zh-hans','uk','es','it'];
+ const supported=['pl','en','cs','de','zh-hans','uk','es','it'];
  const preferred=(navigator.languages||[navigator.language]).map(x=>x.toLowerCase()).map(x=>x.startsWith('zh')?'zh-hans':x.split('-')[0]).find(x=>supported.includes(x));
  if(!preferred||preferred===current)return;
  const peer=links.find(x=>x.dataset.language===preferred);if(!peer)return;

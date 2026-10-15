@@ -9,6 +9,7 @@
   "languages": [
     "pl",
     "en",
+    "cs",
     "de",
     "zh-Hans",
     "uk",
@@ -18,7 +19,7 @@
   "legalDocumentsDate": "2026-10-14",
   "privacyControls": true,
   "independentLegalReview": false,
-  "revision": "23.27",
+  "revision": "23.28",
   "consolidatedFrom": 18,
   "primaryOrigin": "https://kamilkita-ux.github.io",
   "primaryBasePath": "/hornigold-preview/",
@@ -54,5 +55,6 @@
   "editorialArticleCount": 1,
   "accessibilityReadabilityDate": "2026-10-15",
   "bookingHandoffCopyDate": "2026-10-15",
-  "reservationDisclosuresDate": "2026-10-15"
+  "reservationDisclosuresDate": "2026-10-15",
+  "czechLocaleDate": "2026-10-15"
 }

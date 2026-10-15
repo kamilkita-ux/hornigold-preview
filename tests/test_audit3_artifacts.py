@@ -3,13 +3,14 @@ from pathlib import Path
 from urllib.parse import unquote
 from bs4 import BeautifulSoup
 R=Path(__file__).resolve().parents[1]
+LANGUAGES=[language.lower() for language in json.loads((R/'release.json').read_text())['languages']]
 @unittest.skipUnless((R/'_production_ready/sitemap.xml').exists(),'Build production-ready before artifact acceptance')
 class Audit3Artifacts(unittest.TestCase):
  def test_excluded_pages_are_available_but_never_advertised_to_indexers(self):
-  routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes'];self.assertEqual(len(excluded),231)
+  routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes'];self.assertEqual(len(excluded),33*len(LANGUAGES))
   locs={e.text for e in ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')};self.assertEqual(locs,{'https://hornigold.pl'+r for r in routes if r not in excluded})
   for route in excluded:
-   soup=BeautifulSoup((R/'_production_ready'/unquote(route).strip('/')/'index.html').read_text(),'html.parser');self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex,follow');self.assertFalse(soup.select('link[hreflang]'));self.assertEqual(len(soup.select('a[data-language]')),7)
+   soup=BeautifulSoup((R/'_production_ready'/unquote(route).strip('/')/'index.html').read_text(),'html.parser');self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex,follow');self.assertFalse(soup.select('link[hreflang]'));self.assertEqual([a['data-language'] for a in soup.select('[data-language-switcher] a[data-language]')],LANGUAGES)
  def test_sitemap_dates_are_not_future_dates_and_manifest_icons_exist(self):
   routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes']
   dates=ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod');self.assertEqual(len(dates),sum(route not in excluded for route in routes))

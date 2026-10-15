@@ -36,6 +36,11 @@
       "body": "Questo sito descrive i soggiorni e prepara richieste alla reception; non incassa pagamenti e non conferma autonomamente prenotazioni. Il dominio di produzione può rimandare al sistema esterno GuestSage. Prima di ordinare, verificare nel sistema disponibilità, prezzo finale, condizioni di cancellazione, fornitore dei pagamenti e lingua della conferma. Aprire un link o preparare un messaggio non costituisce una prenotazione.",
       "label": "Apri il sistema esterno di prenotazione",
       "limit": "Il fornitore deve confermare il supporto di GuestSage per tutte le lingue, i pagamenti e le conferme. È sempre possibile contattare direttamente la reception."
+    },
+    "cs": {
+      "body": "Tento web popisuje pobyt a připravuje poptávky pro recepci; nepřijímá platby ani sám nepotvrzuje rezervace. Produkční doména může odkazovat na externí systém GuestSage. Před objednáním si v tomto systému ověřte dostupnost, konečnou cenu, storno podmínky, poskytovatele plateb a jazyk potvrzení. Otevření odkazu ani příprava zprávy není rezervací.",
+      "label": "Otevřít externí rezervační systém",
+      "limit": "Externí systém se otevře v angličtině. Podpora češtiny, plateb a potvrzovacích zpráv vyžaduje potvrzení dodavatele. Recepce zůstává dostupná pro přímý kontakt."
     }
   }
 }

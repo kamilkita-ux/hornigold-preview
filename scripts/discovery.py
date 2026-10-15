@@ -43,9 +43,11 @@ def write_guides(root, out, base='/', mode='preview'):
         (folder/filename).write_text('\n'.join(lines)+'\n', encoding='utf-8')
     (out/'llms.txt').write_text('\n'.join(index)+'\n', encoding='utf-8')
 
-def apply_visible_content(root):
+def apply_visible_content(root, languages=None):
     data, routes = inputs(root)
     for lang, row in data.items():
+        if languages is not None and lang not in languages:
+            continue
         for key in ['pl/informacje', 'pl/faq']:
             p = root/'site'/unquote(routes[key][lang]).lstrip('/')/'index.html'
             soup = BeautifulSoup(p.read_text(), 'html.parser')

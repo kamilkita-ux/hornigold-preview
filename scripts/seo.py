@@ -7,7 +7,7 @@ import subprocess
 import xml.etree.ElementTree as ET
 
 ORIGIN = 'https://hornigold.pl'
-LANGS = {'pl', 'en', 'de', 'zh-Hans', 'uk', 'es', 'it'}
+LANGS = {'pl', 'en', 'cs', 'de', 'zh-Hans', 'uk', 'es', 'it'}
 PREVIEW_ROBOTS = 'noindex,nofollow,noarchive'
 
 def single_locale_routes(root):
@@ -145,6 +145,8 @@ def apply_seo(soup, route, root, mode, routes, overrides):
     # Breadcrumbs are derived only from actual visible links, never guessed slugs.
     nav=soup.select_one('.breadcrumb, [aria-label="Breadcrumb"]')
     if nav:
+        breadcrumb_labels={'pl':'Ścieżka nawigacji','en':'Breadcrumb','cs':'Navigační cesta','de':'Navigationspfad','zh-hans':'面包屑导航','uk':'Навігаційний шлях','es':'Ruta de navegación','it':'Percorso di navigazione'}
+        nav['aria-label']=breadcrumb_labels[soup.html.get('lang','pl').lower()]
         items=[]
         for link in nav.select('a[href]'):
             target=link['href']
