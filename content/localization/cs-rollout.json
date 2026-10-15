@@ -337,5 +337,18 @@
       "site/en/rooms/prestige-deluxe/index.html",
       "site/en/rooms/suite/index.html"
     ]
+  },
+  "candidateRenderAudit": {
+    "date": "2026-10-15",
+    "pages": 99,
+    "viewports": [
+      375,
+      1366
+    ],
+    "checks": 198,
+    "errors": 0,
+    "scope": "lang, locale, H1, third position, JS exceptions, horizontal overflow only",
+    "reportPrivate": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-15/czech-page-candidates/render-audit.json",
+    "remaining": "Reciprocal existing-language links, full route integration, forms, consent and booking handoff tests"
   }
 }
