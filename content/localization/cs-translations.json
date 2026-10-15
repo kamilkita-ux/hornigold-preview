@@ -20465,8 +20465,8 @@
   {
     "id": "7099ccc4c9dd0b21",
     "source": "49 m² · From 795 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "49 m² · Od 795 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20476,8 +20476,8 @@
   {
     "id": "5d73612e150a548b",
     "source": "Explore the Hornigold Apartment at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si apartmán Hornigold.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20487,8 +20487,8 @@
   {
     "id": "c6ebf868e90724f8",
     "source": "105 m² · From 1100 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "105 m² · Od 1100 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20498,8 +20498,8 @@
   {
     "id": "c480435fe09b5073",
     "source": "View all rooms and apartments",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit všechny pokoje a apartmány",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20507,8 +20507,8 @@
   {
     "id": "6b90687e908f3a15",
     "source": "DIRECTLY WITH HORNIGOLD",
-    "translation": null,
-    "reviewed": false,
+    "translation": "PŘÍMO S HORNIGOLDEM",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20516,8 +20516,8 @@
   {
     "id": "325997a98c303d10",
     "source": "Clarity comes first.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jasné podmínky jsou na prvním místě.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20525,8 +20525,8 @@
   {
     "id": "13f8972ad74bb98e",
     "source": "Ask for the full price and terms for your dates. A lowest-price guarantee or extra benefits require an approved offer.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeptejte se na celkovou cenu a podmínky pro svůj termín. Garance nejnižší ceny nebo další výhody vyžadují schválenou nabídku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20534,8 +20534,8 @@
   {
     "id": "ce329f6dbe31c9b4",
     "source": "Ask about your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeptejte se na svůj pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20543,8 +20543,8 @@
   {
     "id": "f37c499406dd4a05",
     "source": "KOPERNIKA 6 · KATOWICE",
-    "translation": null,
-    "reviewed": false,
+    "translation": "KOPERNIKA 6 · KATOVICE",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20552,8 +20552,8 @@
   {
     "id": "263a8d6aeebee63d",
     "source": "Plan an easy arrival.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si snadný příjezd.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20561,8 +20561,8 @@
   {
     "id": "70e7340226883350",
     "source": "Check your route. Agree parking and entry instructions before travelling.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte si trasu. Před cestou domluvte parkování a pokyny ke vstupu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20570,8 +20570,8 @@
   {
     "id": "e4da3599f5aa4866",
     "source": "Location & directions",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Poloha a příjezd",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20579,8 +20579,8 @@
   {
     "id": "e5ba832a90a49b99",
     "source": "What brings you to Katowice?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co vás přivádí do Katovic?",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20588,8 +20588,8 @@
   {
     "id": "8b3d255d90c39042",
     "source": "Before choosing your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před výběrem pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20597,8 +20597,8 @@
   {
     "id": "4a64d6c849df0110",
     "source": "Parking",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Parkování",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20606,8 +20606,8 @@
   {
     "id": "9282d909b2c64ba3",
     "source": "Arrival arrangements",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podmínky příjezdu",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20615,8 +20615,8 @@
   {
     "id": "b8ea74342d482223",
     "source": "Before arrival, confirm a space, cost, vehicle restrictions and entry. Directions to the building do not guarantee parking access.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před příjezdem potvrďte parkovací místo, cenu, omezení pro vozidla a vjezd. Trasa k budově nezaručuje přístup na parkoviště.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/location/index.html"
@@ -20625,8 +20625,8 @@
   {
     "id": "723e0b196b3cc453",
     "source": "YOUR CITY ITINERARY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "VÁŠ PROGRAM VE MĚSTĚ",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20634,8 +20634,8 @@
   {
     "id": "2b4c5879bdd6e802",
     "source": "Katowice with Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s Hornigoldem",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html"
@@ -20644,8 +20644,8 @@
   {
     "id": "0b5543efa44ab7b2",
     "source": "All guides",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Všechny průvodce",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20653,8 +20653,8 @@
   {
     "id": "4279c1a55c765fa0",
     "source": "KATOWICE WITH HORNIGOLD",
-    "translation": null,
-    "reviewed": false,
+    "translation": "KATOVICE S HORNIGOLDEM",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html"
@@ -20663,8 +20663,8 @@
   {
     "id": "51d2ccf117f9a09b",
     "source": "Katowice in 24 or 48 hours",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice za 24 nebo 48 hodin",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20674,8 +20674,8 @@
   {
     "id": "8e90c4de33331e23",
     "source": "For first-time weekend visitors.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro návštěvníky, kteří přijíždějí poprvé na víkend.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20685,8 +20685,8 @@
   {
     "id": "83b3b277abbf82ba",
     "source": "Read the guide",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přečíst průvodce",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html"
@@ -20695,8 +20695,8 @@
   {
     "id": "c9d3081ad7273a2d",
     "source": "Your first arrival in Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Váš první příjezd do Katovic",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20706,8 +20706,8 @@
   {
     "id": "16e99797045c8fda",
     "source": "For guests arriving by train, plane or car.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro hosty přijíždějící vlakem, letadlem nebo autem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20717,8 +20717,8 @@
   {
     "id": "8d1237822258e447",
     "source": "Visiting MCK, Spodek or NOSPR",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Návštěva MCK, Spodku nebo NOSPR",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20728,8 +20728,8 @@
   {
     "id": "eba3aadb0d354198",
     "source": "For concert, conference and event visitors.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro návštěvníky koncertů, konferencí a dalších akcí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/katowice-with-hornigold/index.html",
@@ -20739,8 +20739,8 @@
   {
     "id": "ebd22b3cc9516700",
     "source": "Good to know before arrival",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co je dobré vědět před příjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20748,8 +20748,8 @@
   {
     "id": "844c75cd82967c9e",
     "source": "Why Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Proč Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20757,8 +20757,8 @@
   {
     "id": "785b0f00cdf6c532",
     "source": "Wellness & SPA",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wellness a SPA",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20766,8 +20766,8 @@
   {
     "id": "99e6c96ba264b134",
     "source": "More information before arrival",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Další informace před příjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20775,8 +20775,8 @@
   {
     "id": "9ac83a01d594ddb4",
     "source": "KTW Katowice–Pyrzowice Airport (KTW)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Katovice–Pyrzowice (KTW)",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20784,8 +20784,8 @@
   {
     "id": "16840a930259d794",
     "source": "KRK Kraków–Balice Airport (KRK)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Letiště Krakov–Balice (KRK)",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20793,8 +20793,8 @@
   {
     "id": "e8cf9709927e8031",
     "source": "See current reviews on Google",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit aktuální recenze na Googlu",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/our-guests-experiences/index.html"
@@ -20803,8 +20803,8 @@
   {
     "id": "e1f8c3cd6bbb25a9",
     "source": "Guest reviews on Google",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Recenze hostů na Googlu",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/our-guests-experiences/index.html"
@@ -20813,8 +20813,8 @@
   {
     "id": "79b80548554413ab",
     "source": "· 640 reviews",
-    "translation": null,
-    "reviewed": false,
+    "translation": "· 640 recenzí",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/our-guests-experiences/index.html"
@@ -20823,8 +20823,8 @@
   {
     "id": "9c10145984596c62",
     "source": "Google · Checked:",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Google · Ověřeno:",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/our-guests-experiences/index.html"
@@ -20833,8 +20833,8 @@
   {
     "id": "17f8270b7e642afb",
     "source": "Rooms and apartments in central Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje a apartmány v centru Katovic. Objevte Hornigold na adrese Kopernika 6. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20842,8 +20842,8 @@
   {
     "id": "44b8fd63d7d57301",
     "source": "Ivy framing the entrance to the Green Townhouse",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Břečťan kolem vstupu do Hornigoldu",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20851,8 +20851,8 @@
   {
     "id": "300caff6e723007c",
     "source": "Choose your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html"
@@ -20861,8 +20861,8 @@
   {
     "id": "a77e6219db3c3b83",
     "source": "Number of guests",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Počet hostů",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html"
@@ -20871,8 +20871,8 @@
   {
     "id": "1a629e35216ef08c",
     "source": "Practical information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Praktické informace",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20880,8 +20880,8 @@
   {
     "id": "fe1a1323ecec5021",
     "source": "Bedroom with a large window and greenery outside — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ložnice s velkým oknem a zelení venku — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20895,8 +20895,8 @@
   {
     "id": "2c019773b303f747",
     "source": "Bed with a wooden headboard and bedside lamps — Suite, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Postel s dřevěným čelem a nočními lampičkami — Suite, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20907,8 +20907,8 @@
   {
     "id": "f48196814eb32443",
     "source": "Bedroom and glazed passage to the seating area — Deluxe Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ložnice a prosklený průchod do odpočinkové části — Apartmán Deluxe, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20919,8 +20919,8 @@
   {
     "id": "0765dac4302527b9",
     "source": "Bedroom with a bed and blue bedspread — Prestige Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ložnice s postelí a modrým přehozem — Apartmán Prestige, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20931,8 +20931,8 @@
   {
     "id": "ad8a7e750739aa95",
     "source": "Bed, mirror and wooden chest of drawers — Prestige Deluxe Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Postel, zrcadlo a dřevěná komoda — Apartmán Prestige Deluxe, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20943,8 +20943,8 @@
   {
     "id": "42fff82d1f30eb97",
     "source": "Living room with wooden beams, red sofa and chest of drawers — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Obývací pokoj s dřevěnými trámy, červenou pohovkou a komodou — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20955,8 +20955,8 @@
   {
     "id": "a09c09bacd66469c",
     "source": "Architecture and a city-centre walk | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Architektura a procházka centrem | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -20964,8 +20964,8 @@
   {
     "id": "ee50582bfcfd6288",
     "source": "EDITORIAL ITINERARY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "REDAKČNÍ PLÁN PROCHÁZKY",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -20978,8 +20978,8 @@
   {
     "id": "45e7a49ad0d1eca8",
     "source": "Architecture and a city-centre walk",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Architektura a procházka centrem",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
@@ -20988,8 +20988,8 @@
   {
     "id": "e8882f6272c9b8d0",
     "source": "For visitors who want to explore on foot.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro návštěvníky, kteří chtějí poznávat pěšky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
@@ -20998,8 +20998,8 @@
   {
     "id": "4af699b51eccd609",
     "source": "Choose a short section",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si krátký úsek",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21007,8 +21007,8 @@
   {
     "id": "7821c4e351492cd5",
     "source": "Start around Skłodowskiej-Curie and Kościuszki streets. The official Modernism Trail helps identify the buildings.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte kolem ulic Skłodowskiej-Curie a Kościuszki. Oficiální Stezka modernismu vám pomůže určit jednotlivé budovy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21016,8 +21016,8 @@
   {
     "id": "3b8b9d8b720aa721",
     "source": "Look at the details",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Všímejte si detailů",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21025,8 +21025,8 @@
   {
     "id": "2e6b59105892c88c",
     "source": "View façades from public space. Do not assume access to residential buildings, offices or stairwells.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fasády si prohlížejte z veřejného prostoru. Nepředpokládejte přístup do obytných domů, kanceláří ani schodišť.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21034,8 +21034,8 @@
   {
     "id": "1342ed307f5beb2b",
     "source": "Adapt the route",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přizpůsobte si trasu",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21043,8 +21043,8 @@
   {
     "id": "c2df516d1f5b3566",
     "source": "Plan a break and check pavement conditions. The entire route has not been audited for wheelchair or pushchair access.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si přestávku a ověřte stav chodníků. Celá trasa nebyla prověřena z hlediska přístupnosti pro vozíčkáře ani kočárky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21052,8 +21052,8 @@
   {
     "id": "441a085b4b3dca89",
     "source": "If the weather changes",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Když se změní počasí",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
