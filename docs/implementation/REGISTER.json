@@ -136,7 +136,7 @@
     {
       "id": "B1",
       "status": "blocked",
-      "environment": "local / pending production",
+      "environment": "production handoff / external supplier acceptance pending",
       "change": "Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -151,7 +151,7 @@
     {
       "id": "B2",
       "status": "local_ready",
-      "environment": "local / pending production",
+      "environment": "production contact copy / reception delivery receipt pending",
       "change": "Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -164,7 +164,7 @@
     {
       "id": "B3",
       "status": "blocked",
-      "environment": "local / pending production",
+      "environment": "external supplier sandbox and transactional acceptance pending",
       "change": "Nie wykonano fikcyjnego testu płatności ani rezerwacji produkcyjnej.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -245,7 +245,7 @@
     {
       "id": "D2",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "production images + local/public laboratory evidence; field CWV pending",
       "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -260,7 +260,7 @@
     {
       "id": "D3",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "production HTML/PDF + automated checks; manual and supplier journey acceptance pending",
       "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -281,7 +281,7 @@
     {
       "id": "E1",
       "status": "verified",
-      "environment": "production / all 693 routes",
+      "environment": "production / 793 current canonical routes; dated indexing-policy readback",
       "change": "Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -342,7 +342,7 @@
     {
       "id": "F1",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "production eight-language content / current operational facts confirmation pending",
       "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -386,7 +386,7 @@
     {
       "id": "G2",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "external existing Google profile / classification and hours confirmation pending",
       "change": "Nazwa, Kopernika 6 i 608662707 zgodne; publiczne oznaczenie 4-gwiazdkowy wymaga wyjaśnienia.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -447,7 +447,7 @@
     {
       "id": "H1",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "production protections + local restore; isolated Cloudflare recovery and permissions review pending",
       "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje. Aktualizacja 14.10: patch serwera jest na produkcji; kopie Workera i bazy zweryfikowane, eksport licznika odtworzony lokalnie bez błędów. Stare oczekiwanie na Marka nie obowiązuje.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -876,5 +876,7 @@
     "productionEvidence": "evidence/production-23.29-readback.json"
   },
   "scopeReconciliationDate": "2026-10-15",
-  "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance."
+  "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance.",
+  "environmentReconciliationDate": "2026-10-15",
+  "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged."
 }
