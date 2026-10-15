@@ -19154,8 +19154,8 @@
   {
     "id": "14b854cdae7e4be0",
     "source": "485 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "485 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/deluxe-premium/index.html"
@@ -19164,8 +19164,8 @@
   {
     "id": "f79b2649f68f45e2",
     "source": "450 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "450 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/premium/index.html"
@@ -19174,8 +19174,8 @@
   {
     "id": "40debecfd8d511d9",
     "source": "590 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "590 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/suite/index.html"
@@ -19184,8 +19184,8 @@
   {
     "id": "5574cea78ca94583",
     "source": "600 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "600 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html"
@@ -19194,8 +19194,8 @@
   {
     "id": "1e0fed8662d3ad3b",
     "source": "695 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "695 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/prestige/index.html"
@@ -19204,8 +19204,8 @@
   {
     "id": "4697b24ce670da36",
     "source": "795 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "795 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/prestige-deluxe/index.html"
@@ -19214,8 +19214,8 @@
   {
     "id": "f6f99d9bb89b577d",
     "source": "1100 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "1100 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/hornigold/index.html"
@@ -19224,8 +19224,8 @@
   {
     "id": "adfbe25f7876e3f7",
     "source": "Choose what matters to you.. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si, na čem vám záleží. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19233,8 +19233,8 @@
   {
     "id": "56e9c87a0d18627a",
     "source": "Conferences and meetings | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Konference a setkání | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19242,8 +19242,8 @@
   {
     "id": "90e668cb432e3d81",
     "source": "Combine a meeting in central Katowice with a stay at the Green Townhouse. Hornigold offers the Madlen, Camila and Ana meeting spaces, measuring 40, 60 and 100 m². In your enquiry, include the date, number of guests, preferred seating layout and any accommodation or catering requirements so we can discuss your event.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Spojte setkání v centru Katovic s pobytem v Hornigold w Zielonej Kamienicy. Hornigold nabízí prostory Madlen, Camila a Ana o rozloze 40, 60 a 100 m². Do poptávky uveďte termín, počet hostů, požadované uspořádání míst a případné požadavky na ubytování či catering, abychom mohli probrat vaši akci.",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html",
       "site/en/good-to-know/index.html",
@@ -19253,8 +19253,8 @@
   {
     "id": "96b4a12ca4f9f820",
     "source": "Madlen",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Madlen",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19262,8 +19262,8 @@
   {
     "id": "80d161545383dd77",
     "source": "Camila",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Camila",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19271,8 +19271,8 @@
   {
     "id": "49187d6ca0021942",
     "source": "60 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "60 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19280,8 +19280,8 @@
   {
     "id": "dea210f058b407db",
     "source": "Ana",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ana",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19289,8 +19289,8 @@
   {
     "id": "3c736e8dfe9a295a",
     "source": "100 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "100 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19298,8 +19298,8 @@
   {
     "id": "207857379c1861d1",
     "source": "Meeting or group enquiry",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Poptávka setkání nebo skupinového pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19324,8 +19324,8 @@
   {
     "id": "175698ddb88d8efe",
     "source": "Event date",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Datum akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19333,8 +19333,8 @@
   {
     "id": "478303a365fd8804",
     "source": "Number of participants",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Počet účastníků",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19342,8 +19342,8 @@
   {
     "id": "049f7cf3967ebd3f",
     "source": "Guest rooms (0 = no overnight stay)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje pro hosty (0 = bez přenocování)",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19351,8 +19351,8 @@
   {
     "id": "5bf135746165f660",
     "source": "Preferred room layout",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požadované uspořádání místnosti",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19360,8 +19360,8 @@
   {
     "id": "cc20e96da05e7277",
     "source": "To be discussed",
-    "translation": null,
-    "reviewed": false,
+    "translation": "K projednání",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19369,8 +19369,8 @@
   {
     "id": "3248c2567c988dda",
     "source": "Theatre",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Divadelní uspořádání",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19378,8 +19378,8 @@
   {
     "id": "5b547053395f2007",
     "source": "Classroom",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Školní uspořádání",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19387,8 +19387,8 @@
   {
     "id": "7c1c8d2b08087652",
     "source": "Boardroom",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Uspořádání u společného stolu",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19396,8 +19396,8 @@
   {
     "id": "71796f125cdbec66",
     "source": "Programme, meals and other requirements",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Program, stravování a další požadavky",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19405,8 +19405,8 @@
   {
     "id": "ac2200df414225eb",
     "source": "We prepare an enquiry in your browser. It is not sent automatically. Do not include sensitive information.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravíme text poptávky ve vašem prohlížeči. Neodesílá se automaticky. Neuvádějte citlivé informace.",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19414,8 +19414,8 @@
   {
     "id": "416073690479642f",
     "source": "Prepare business enquiry",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravit firemní poptávku",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19423,8 +19423,8 @@
   {
     "id": "526a6208d62cbe87",
     "source": "Message ready — not yet sent",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zpráva je připravena — zatím nebyla odeslána",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19432,8 +19432,8 @@
   {
     "id": "6b907bee6c96aac1",
     "source": "Hello, please send a proposal for a meeting at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dobrý den, prosím o zaslání nabídky na setkání v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19441,8 +19441,8 @@
   {
     "id": "4492e62f7d9a6002",
     "source": "Open in email",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřít v e-mailové aplikaci",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html",
       "site/en/contact/index.html",
@@ -19458,8 +19458,8 @@
   {
     "id": "b0ac9cea86878b84",
     "source": "Copy text",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kopírovat text",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html",
       "site/en/contact/index.html",
@@ -19475,8 +19475,8 @@
   {
     "id": "7351b5875116998b",
     "source": "Conferences and meetings. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Konference a setkání. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/conferences-and-meetings/index.html"
     ]
@@ -19484,8 +19484,8 @@
   {
     "id": "eda3090d669208af",
     "source": "Let’s talk about your stay | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Promluvme si o vašem pobytu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19493,8 +19493,8 @@
   {
     "id": "f82ecbb5e510588c",
     "source": "CONTACT",
-    "translation": null,
-    "reviewed": false,
+    "translation": "KONTAKT",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19502,8 +19502,8 @@
   {
     "id": "26517e2c34ecde4c",
     "source": "Let’s talk about your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Promluvme si o vašem pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19511,8 +19511,8 @@
   {
     "id": "c006629b61439d8c",
     "source": "Have a question about a room, arrival or stay arrangements? Contact Hornigold directly. An enquiry is not a booking confirmation.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Máte otázku ohledně pokoje, příjezdu nebo podmínek pobytu? Kontaktujte Hornigold přímo. Poptávka není potvrzením rezervace.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19520,8 +19520,8 @@
   {
     "id": "6c7e5f29ce2c27c1",
     "source": "ul. Kopernika 6, 40-064 Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "ul. Kopernika 6, 40-064 Katowice",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19529,8 +19529,8 @@
   {
     "id": "ba7be2aace116eaf",
     "source": "Existing Hornigold website",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stávající web Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19538,8 +19538,8 @@
   {
     "id": "542ee571787dd444",
     "source": "Open the map and plan your journey",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřít mapu a naplánovat cestu",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19547,8 +19547,8 @@
   {
     "id": "9414dfdd3d623a42",
     "source": "Include dates, numbers of adults and children, bed arrangement and room count in your enquiry. If stairs, bathroom layout, workspace or parking matter to you, describe this before choosing a category. Wait for the property to confirm the terms.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Do poptávky uveďte termín, počet dospělých a dětí, uspořádání lůžek a počet pokojů. Pokud jsou pro vás důležité schody, uspořádání koupelny, pracovní místo nebo parkování, popište to před výběrem kategorie. Vyčkejte na potvrzení podmínek ubytovacím zařízením.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19563,8 +19563,8 @@
   {
     "id": "210ee6d4882fb9ba",
     "source": "Ask about availability and terms",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeptat se na dostupnost a podmínky",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19578,8 +19578,8 @@
   {
     "id": "df4385b38b395f33",
     "source": "Prepare an enquiry and send it from your email app. This page does not send messages automatically or confirm a booking.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravte poptávku a odešlete ji ze své e-mailové aplikace. Tato stránka neodesílá zprávy automaticky ani nepotvrzuje rezervaci.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19649,8 +19649,8 @@
   {
     "id": "e4e1440ebe02b2fe",
     "source": "Invoice needs",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požadavky na fakturu",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19665,8 +19665,8 @@
   {
     "id": "10e3a879ffbdddc8",
     "source": "Invoice required",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požaduji fakturu",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19681,8 +19681,8 @@
   {
     "id": "00d29b461de02113",
     "source": "No invoice required",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fakturu nepožaduji",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19697,8 +19697,8 @@
   {
     "id": "3fe456942fbc20a8",
     "source": "To be agreed",
-    "translation": null,
-    "reviewed": false,
+    "translation": "K dohodě",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19713,8 +19713,8 @@
   {
     "id": "d4e8830a71c73edf",
     "source": "Purpose",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Účel pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19729,8 +19729,8 @@
   {
     "id": "1ee182b369c64265",
     "source": "Business trip",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19745,8 +19745,8 @@
   {
     "id": "d87fa5dfc4c2540b",
     "source": "Longer stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Delší pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19761,8 +19761,8 @@
   {
     "id": "0992718906d7a437",
     "source": "Family trip",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Rodinný pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19777,8 +19777,8 @@
   {
     "id": "4e1f49a9c8ae8a15",
     "source": "Event",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19793,8 +19793,8 @@
   {
     "id": "23abab41073065bc",
     "source": "Other requirements (optional)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Další požadavky (nepovinné)",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19809,8 +19809,8 @@
   {
     "id": "20d7f50b05eec80e",
     "source": "Do not enter card or sensitive information. This form prepares text locally; it does not send or save it to a server.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Nezadávejte údaje z platební karty ani citlivé informace. Formulář připravuje text místně; neodesílá jej ani neukládá na server.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19825,8 +19825,8 @@
   {
     "id": "b8187e2af6c25ee6",
     "source": "Prepare enquiry",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Připravit poptávku",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19841,8 +19841,8 @@
   {
     "id": "908f3a0a487d7054",
     "source": "Message ready to review",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zpráva připravena ke kontrole",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19857,8 +19857,8 @@
   {
     "id": "690eb13d68cc56b4",
     "source": "Not sent. This is an enquiry, not a booking confirmation.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Neodesláno. Jde o poptávku, nikoli o potvrzení rezervace.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
