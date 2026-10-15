@@ -838,7 +838,7 @@
   },
   "reservationDisclosuresFix": {
     "revision": "23.27",
-    "state": "local-testing",
+    "state": "local-tested-unpublished",
     "date": "2026-10-15",
     "evidence": "docs/implementation/evidence/reservation-disclosures-23.27.json",
     "protectedBookingAndFiserv": "unchanged",
