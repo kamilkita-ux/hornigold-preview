@@ -845,11 +845,12 @@
     "providerAcceptance": "not verified"
   },
   "czechLocale": {
-    "state": "local-integrated-tests-pending",
+    "state": "local-tested-ci-pending",
     "revision": "23.28",
     "routes": 99,
     "position": 3,
     "externalBookingLanguage": "English fallback, Czech support unverified",
-    "protectedIntegrations": "unchanged"
+    "protectedIntegrations": "Byte-identical to origin/main; dated hashes recorded",
+    "evidence": "docs/implementation/evidence/czech-local-acceptance-23.28.json"
   }
 }

@@ -14,7 +14,7 @@
     "it"
   ],
   "basePath": "/cs/",
-  "state": "translation-in-progress-not-published",
+  "state": "local-tested-ci-pending",
   "protectedIntegrations": "Do not change booking.js, GuestSage or Fiserv configuration; external Czech support must be verified separately.",
   "required": [
     "All canonical page counterparts",
@@ -320,7 +320,7 @@
   ],
   "translationTotal": 1449,
   "legalHtmlAndPdfVerified": true,
-  "legalEvidenceDirectory": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/czech-legal-reviewed-final",
+  "legalEvidenceDirectory": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-15/legal-eight-languages",
   "bookingHandoffSourceReview": "931c0b7: only date-help copy changed in two English source pages; corresponding translation reviewed.",
   "sourceDisclosureReview": {
     "commit": "e764a07",
@@ -376,5 +376,7 @@
     "sourceFingerprintReview": "Only added Czech navigation, alternate and og locale removed before structural equality comparison to e764a07",
     "verifiedEnglishPages": 99
   },
-  "errorPageSourceReview": "Only Czech navigation inserted; stripped structural comparison to e764a07 passed."
+  "errorPageSourceReview": "Only Czech navigation inserted; stripped structural comparison to e764a07 passed.",
+  "routeAndLanguageTestsPassed": true,
+  "externalBookingLanguageDisclosed": true
 }
