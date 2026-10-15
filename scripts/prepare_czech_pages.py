@@ -110,6 +110,23 @@ def prepare(destination):
             cs['hreflang'] = 'cs'
             cs['href'] = canonical['href']
             alternate.insert_after(cs)
+        # Legal JSON is authoritative for paragraph wording, including repeated source phrases.
+        legal = json.loads((ROOT / 'legal/cs.json').read_text())
+        if soup.body.get('data-page-key') in ('dokumenty','prywatnosc'):
+            for section in legal['sections']:
+                heading = soup.find('h2', id=section['id'])
+                if not heading:
+                    continue
+                paragraphs = []
+                for sibling in heading.find_next_siblings():
+                    if sibling.name == 'h2':
+                        break
+                    if sibling.name == 'p':
+                        paragraphs.append(sibling)
+                if len(paragraphs) < len(section['paragraphs']):
+                    raise ValueError('Incomplete legal section: ' + section['id'])
+                for paragraph, wording in zip(paragraphs, section['paragraphs']):
+                    paragraph.string = wording
         if route == '/en/rezerwacja/':
             paragraphs = soup.select('main p')
             paragraphs[2].string = 'Tlačítko otevře externí rezervační systém v angličtině. Podpora češtiny v tomto systému a potvrzovacích zprávách nebyla ověřena.'
