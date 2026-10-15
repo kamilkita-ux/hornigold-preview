@@ -26,7 +26,7 @@
   ],
   "sourceCommit": "6c65da1",
   "sourcePages": {
-    "site/en/404.html": "4170289f110b432c53b203799650813e6c9fce543427318fff232ea9d62fed83",
+    "site/en/404.html": "ee3d0f215ef5b0c92b022908b5e59a6e12d7e83b4d79d14060758f6dae0e4d85",
     "site/en/a-relaxed-visit-starts-before-arrival/index.html": "89cbbdf50ad41783a9686316f41b35a8c12ba812ae6860af9b2dd5351643bb09",
     "site/en/a-stay-that-suits-you/index.html": "8b5c327d7fc5724ee8d9ee171c38ca5db76d62ed1c0a6d2f5d838de09d816212",
     "site/en/about-hornigold/index.html": "cd369e08788af389a7c6694698e4b53c0ca8309a32d6ff4f453b77b65dff9417",
@@ -375,5 +375,6 @@
     "languageClusters": 792,
     "sourceFingerprintReview": "Only added Czech navigation, alternate and og locale removed before structural equality comparison to e764a07",
     "verifiedEnglishPages": 99
-  }
+  },
+  "errorPageSourceReview": "Only Czech navigation inserted; stripped structural comparison to e764a07 passed."
 }
