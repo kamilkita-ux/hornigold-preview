@@ -14086,8 +14086,8 @@
   {
     "id": "83cb1d955e80401a",
     "source": "Discover real places and history",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Objevte skutečná místa a jejich historii",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
@@ -14126,8 +14126,8 @@
   {
     "id": "984d7079067827c2",
     "source": "Construction of the Giesche miners’ settlement began in 1908. Its former laundry now houses the city museum’s ethnology department. The exhibitions offer a way to understand Nikiszowiec through residents’ homes, work and creativity, as well as its striking architecture.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Výstavba sídliště pro horníky dolu Giesche začala v roce 1908. V bývalé prádelně dnes sídlí etnologické oddělení městského muzea. Výstavy umožňují poznat Nikiszowiec prostřednictvím bydlení, práce a tvořivosti jeho obyvatel i výrazné architektury.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/nikiszowiec-stories-in-red-brick/index.html",
@@ -14137,8 +14137,8 @@
   {
     "id": "f6dd46fb00446534",
     "source": "Read the story",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přečtěte si příběh",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
@@ -14178,8 +14178,8 @@
   {
     "id": "014b6aeed8f34063",
     "source": "Previous illustration",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Předchozí ilustrace",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
@@ -14217,8 +14217,8 @@
   {
     "id": "1ec16507e2150c25",
     "source": "Next illustration",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Další ilustrace",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
@@ -14256,8 +14256,8 @@
   {
     "id": "26906c172b67f10a",
     "source": "A brick courtyard. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold. Explore rooms.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cihlový dvůr. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Prohlédněte si pokoje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html"
     ]
@@ -14265,8 +14265,8 @@
   {
     "id": "9aa988d8b8119f27",
     "source": "Illustration: An arched gateway opens onto an intimate courtyard, with wet paving deepening the warm brick colours.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ilustrace: klenutý průjezd se otevírá do komorního dvora, kde mokrá dlažba zvýrazňuje teplé barvy cihel.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html",
@@ -14278,8 +14278,8 @@
   {
     "id": "fc42ff2eb55df70f",
     "source": "Katowice and Silesia in illustrations",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice a Slezsko v ilustracích",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-brick-courtyard/index.html",
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
@@ -14319,8 +14319,8 @@
   {
     "id": "51146fa9746d9b5f",
     "source": "A courtyard for art | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvůr pro umění | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html"
     ]
@@ -14328,8 +14328,8 @@
   {
     "id": "d7d5ec5c669784c0",
     "source": "A courtyard for art",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvůr pro umění",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14338,8 +14338,8 @@
   {
     "id": "df83d812cd005c23",
     "source": "Stone walls, a sculptural form and a reflection in water create an abstract museum space. The composition invites attention to light and proportion. It documents neither a particular museum nor an artwork in its collection.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kamenné stěny, sochařský tvar a odraz ve vodě vytvářejí abstraktní muzejní prostor. Kompozice vybízí k pozorování světla a proporcí. Nedokumentuje konkrétní muzeum ani umělecké dílo v jeho sbírce.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html"
     ]
@@ -14347,8 +14347,8 @@
   {
     "id": "9f7e0917c7266da1",
     "source": "The former Katowice mine site became the Culture Zone, with the Silesian Museum, NOSPR concert hall and International Congress Centre, beside Spodek. Mining history and contemporary architecture provide a shared setting for art, music and encounters.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Bývalý areál dolu Katowice se proměnil v Zónu kultury se Slezským muzeem, koncertním sálem NOSPR a Mezinárodním kongresovým centrem vedle Spodku. Hornická historie a současná architektura zde tvoří společné prostředí pro umění, hudbu a setkávání.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html",
@@ -14365,8 +14365,8 @@
   {
     "id": "78dab517eb4ab192",
     "source": "A courtyard for art. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvůr pro umění. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html"
     ]
@@ -14374,8 +14374,8 @@
   {
     "id": "abd9294d475dd7dc",
     "source": "Illustration: Stone walls, a sculptural form and a reflection in water create an abstract museum space.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ilustrace: kamenné stěny, sochařský tvar a odraz ve vodě vytvářejí abstraktní muzejní prostor.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-courtyard-for-art/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14384,8 +14384,8 @@
   {
     "id": "b0cf3a9158a426e2",
     "source": "A cultural district at sunset | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kulturní čtvrť při západu slunce | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html"
     ]
@@ -14393,8 +14393,8 @@
   {
     "id": "eb777c2b2ab83bea",
     "source": "A cultural district at sunset",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kulturní čtvrť při západu slunce",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14403,8 +14403,8 @@
   {
     "id": "4affd9140f481261",
     "source": "An industrial tower, glass forms and water meet in golden light. This is a free vision of the transition from industry to culture. It is neither a map of Katowice’s Culture Zone nor a promise of such a viewpoint.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Průmyslová věž, skleněné tvary a voda se setkávají ve zlatém světle. Jde o volnou vizi přechodu od průmyslu ke kultuře. Není to mapa katovické Zóny kultury ani příslib takového výhledu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html"
     ]
@@ -14412,8 +14412,8 @@
   {
     "id": "ac463539282b9d34",
     "source": "A cultural district at sunset. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kulturní čtvrť při západu slunce. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html"
     ]
@@ -14421,8 +14421,8 @@
   {
     "id": "d59fc514518c7380",
     "source": "Illustration: An industrial tower, glass forms and water meet in golden light.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ilustrace: průmyslová věž, skleněné tvary a voda se setkávají ve zlatém světle.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-cultural-district-at-sunset/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14431,8 +14431,8 @@
   {
     "id": "e2a26e646a68aae7",
     "source": "A journey begins in the hall | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cesta začíná v hale | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-journey-begins-in-the-hall/index.html"
     ]
@@ -14440,8 +14440,8 @@
   {
     "id": "fbd5652d6ec5cb83",
     "source": "Katowice gained town rights on 11 September 1865; the settlements now forming its districts are older. Railways, mines and steelworks drew people, skills and languages here. In 1922 the city became part of Poland and the capital of the autonomous Silesian Voivodeship.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice získaly městská práva 11. září 1865; osady, které dnes tvoří jejich čtvrti, jsou starší. Železnice, doly a hutě sem přiváděly lidi, dovednosti a jazyky. V roce 1922 se město stalo součástí Polska a hlavním městem autonomního Slezského vojvodství.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-journey-begins-in-the-hall/index.html",
       "site/en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html",
@@ -14452,8 +14452,8 @@
   {
     "id": "df338222d922dced",
     "source": "A journey begins in the hall. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cesta začíná v hale. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-journey-begins-in-the-hall/index.html"
     ]
@@ -14461,8 +14461,8 @@
   {
     "id": "c674ebea9876eec9",
     "source": "A modernist street | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Modernistická ulice | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html"
     ]
@@ -14470,8 +14470,8 @@
   {
     "id": "52224221bbe6a2d2",
     "source": "A modernist street",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Modernistická ulice",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14480,8 +14480,8 @@
   {
     "id": "3db660e4e139c51a",
     "source": "Balconies, flat façades and long window lines set a calm street rhythm. The image explores interwar modernity. Think of it as an introduction to observing Katowice’s actual modernist architecture.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Balkony, hladké fasády a dlouhé řady oken vytvářejí klidný rytmus ulice. Obraz zkoumá meziválečnou modernitu. Vnímejte jej jako úvod k pozorování skutečné modernistické architektury Katovic.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html"
     ]
@@ -14489,8 +14489,8 @@
   {
     "id": "bb02b3b060a94e08",
     "source": "katoobywatel.katowice.eu",
-    "translation": null,
-    "reviewed": false,
+    "translation": "katoobywatel.katowice.eu",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html",
       "site/en/city-and-surroundings/illustrations/cinema-in-city-lights/index.html",
@@ -14502,8 +14502,8 @@
   {
     "id": "d435d304b587208b",
     "source": "The Modernism Trail links interwar buildings, including the Drapacz Chmur skyscraper and Silesian Parliament building. A different chapter is the wooden Church of St Michael the Archangel in Kościuszko Park, usually dated to the early sixteenth century. Heritage can speak of established traditions as well as the ambition to be modern.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stezka modernismu propojuje meziválečné stavby včetně mrakodrapu Drapacz Chmur a budovy Slezského sněmu. Jinou kapitolu představuje dřevěný kostel svatého Michaela Archanděla v Kościuszkově parku, obvykle datovaný do počátku 16. století. Dědictví může vyprávět o zavedených tradicích i o ambici být moderní.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html",
       "site/en/city-and-surroundings/illustrations/cinema-in-city-lights/index.html",
@@ -14518,8 +14518,8 @@
   {
     "id": "b27027b7340cbc76",
     "source": "A modernist street. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Modernistická ulice. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html"
     ]
@@ -14527,8 +14527,8 @@
   {
     "id": "6d9a35f7c26f543b",
     "source": "Illustration: Balconies, flat façades and long window lines set a calm street rhythm.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ilustrace: balkony, hladké fasády a dlouhé řady oken vytvářejí klidný rytmus ulice.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-modernist-street/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14537,8 +14537,8 @@
   {
     "id": "2192d715e2440dbd",
     "source": "A moment before the concert | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Chvíle před koncertem | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html"
     ]
@@ -14546,8 +14546,8 @@
   {
     "id": "658c25083aeee634",
     "source": "A moment before the concert",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Chvíle před koncertem",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14556,8 +14556,8 @@
   {
     "id": "caedbcefdab3a090",
     "source": "An instrument, sheet music and a tall window create a quiet scene of anticipation. This intimate musical story depicts no named philharmonic interior. It invites a view of the city through its cultural life.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hudební nástroj, noty a vysoké okno vytvářejí tichou scénu očekávání. Tento komorní hudební příběh nezobrazuje interiér žádné konkrétní filharmonie. Zve k pohledu na město prostřednictvím jeho kulturního života.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html"
     ]
@@ -14565,8 +14565,8 @@
   {
     "id": "26ab9d7283939cc3",
     "source": "A moment before the concert. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Chvíle před koncertem. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html"
     ]
@@ -14574,8 +14574,8 @@
   {
     "id": "49f91b19e2f2f6ee",
     "source": "Illustration: An instrument, sheet music and a tall window create a quiet scene of anticipation.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ilustrace: hudební nástroj, noty a vysoké okno vytvářejí tichou scénu očekávání.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-moment-before-the-concert/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14584,8 +14584,8 @@
   {
     "id": "c52ca5d3262e834c",
     "source": "A park by the pond | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Park u rybníka | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-park-by-the-pond/index.html"
     ]
@@ -14593,8 +14593,8 @@
   {
     "id": "d76d1693cbc2250b",
     "source": "A park by the pond. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Park u rybníka. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-park-by-the-pond/index.html"
     ]
@@ -14602,8 +14602,8 @@
   {
     "id": "33dd6ff8c5a81203",
     "source": "A tram in the blue hour | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tramvaj za modré hodinky | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html"
     ]
@@ -14611,8 +14611,8 @@
   {
     "id": "5aca98b4c020dfa4",
     "source": "A tram in the blue hour",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tramvaj za modré hodinky",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html",
       "site/en/city-and-surroundings/katowice-and-silesia-in-illustrations/index.html"
@@ -14621,8 +14621,8 @@
   {
     "id": "5d970ec80afaf40a",
     "source": "A modern tram glides over wet paving between glowing façades. This evening scene is a free vision of urban travel. It confirms no track alignment, night service or departure times.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Moderní tramvaj projíždí po mokré dlažbě mezi rozsvícenými fasádami. Tato večerní scéna je volnou vizí městského cestování. Nepotvrzuje vedení kolejí, noční provoz ani časy odjezdů.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html"
     ]
@@ -14630,8 +14630,8 @@
   {
     "id": "ccfb5337a2e4682c",
     "source": "A tram in the blue hour. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tramvaj za modré hodinky. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/illustrations/a-tram-in-the-blue-hour/index.html"
     ]
