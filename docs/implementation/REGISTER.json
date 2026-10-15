@@ -270,10 +270,11 @@
         "evidence/tagged-pdf-adoption-23.18.json",
         "evidence/public-pdfs-23.18.json",
         "evidence/tagged-pdf-structure-current.json",
-        "MANUAL_ACCEPTANCE.md"
+        "MANUAL_ACCEPTANCE.md",
+        "evidence/legal-eight-languages-23.28.json"
       ],
       "barrier": "Rzeczywisty ręczny odbiór czytnikiem ekranu i PDF, ustalenie zakresu PAD oraz pełna ścieżka dostawcy. Produkcyjne wdrożenie nie jest już barierą.",
-      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; produkcję publikuje Marek.",
+      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; aktualne wdrożenie produkcyjne potwierdzać publicznym odczytem, bez zakładania zależności od Marka.",
       "title": "Dostępność"
     },
     {
@@ -340,14 +341,14 @@
       "id": "F1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe.",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/verified-facts-2026-10-11.json"
       ],
       "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
       "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
-      "title": "Fakty i siedem języków"
+      "title": "Fakty i osiem języków"
     },
     {
       "id": "F2",
