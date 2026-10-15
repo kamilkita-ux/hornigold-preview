@@ -55,7 +55,9 @@ def audit(path):
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('directory',type=Path);ap.add_argument('--report',type=Path);args=ap.parse_args();rows=[audit(p) for p in sorted(args.directory.glob('*.pdf'))]
- expected={f'hornigold-{edition}-{lang}.pdf' for edition in ('policies','safeguarding','safeguarding-children') for lang in ('pl','en','de','zh-hans','uk','es','it')}
- if {x['file'] for x in rows}!=expected:raise SystemExit('Expected exactly the 21 named legal PDFs')
+ languages=[language.lower() for language in json.loads((Path(__file__).resolve().parents[1]/'release.json').read_text())['languages']]
+ if not languages or len(languages)!=len(set(languages)):raise SystemExit('Invalid release language inventory')
+ expected={f'hornigold-{edition}-{lang}.pdf' for edition in ('policies','safeguarding','safeguarding-children') for lang in languages}
+ if {x['file'] for x in rows}!=expected:raise SystemExit(f'Expected exactly the {len(expected)} named legal PDFs for configured release languages')
  report={'documents':rows,'errors':sum(len(r['errors']) for r in rows),'limits':['Technical structure linkage and ordering only; manual semantic reading-order and assistive-technology acceptance remain unverified.']};(args.report or args.directory/'structure-linkage-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False));raise SystemExit(bool(report['errors']))
 if __name__=='__main__':main()
