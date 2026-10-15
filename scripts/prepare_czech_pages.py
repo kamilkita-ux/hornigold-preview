@@ -4,6 +4,8 @@ import copy
 import hashlib
 import json
 import re
+import shutil
+from urllib.parse import urlsplit, urlunsplit
 from pathlib import Path
 from bs4 import BeautifulSoup, Comment, Doctype
 
@@ -31,10 +33,26 @@ def prepare(destination):
             missing.add(core)
             return value
         return value[:len(value)-len(value.lstrip())] + translations[core] + value[len(value.rstrip()):]
+    aliases = {}
+    for name in config['sourcePages']:
+        page = ROOT / name
+        if page.name != 'index.html':
+            continue
+        original = '/' + str(page.parent.relative_to(ROOT / 'site')) + '/'
+        canonical = BeautifulSoup(page.read_text(), 'html.parser').select_one('link[rel="canonical"]')
+        if canonical:
+            aliases[original] = urlsplit(canonical['href']).path
     def url(value):
-        if value.startswith('/en/'):
-            return '/cs/' + value[4:]
-        return value.replace('https://hornigold.pl/en/', 'https://hornigold.pl/cs/')
+        parsed = urlsplit(value)
+        if parsed.netloc and parsed.netloc != 'hornigold.pl':
+            return value
+        path = parsed.path
+        if path.startswith('/en/'):
+            path = aliases.get(path, path)
+            path = '/cs/' + path[4:]
+        if path.startswith('/documents/hornigold-'):
+            path = path.replace('-en.pdf', '-cs.pdf')
+        return urlunsplit((parsed.scheme, parsed.netloc, path, parsed.query, parsed.fragment))
     def schema(value):
         if isinstance(value, dict):
             return {k: ('cs' if k == 'inLanguage' and v == 'en' else schema(v)) for k,v in value.items()}
@@ -92,10 +110,21 @@ def prepare(destination):
             cs['hreflang'] = 'cs'
             cs['href'] = canonical['href']
             alternate.insert_after(cs)
+        if route == '/en/rezerwacja/':
+            paragraphs = soup.select('main p')
+            paragraphs[2].string = 'Tlačítko otevře externí rezervační systém v angličtině. Podpora češtiny v tomto systému a potvrzovacích zprávách nebyla ověřena.'
         target = destination / route.replace('/en/','cs/',1) / 'index.html'
         target.parent.mkdir(parents=True,exist_ok=True)
         target.write_text(str(soup)+'\n')
         written.append(str(target))
+    documents = Path(config['legalEvidenceDirectory'])
+    for name in ('hornigold-policies-cs.pdf','hornigold-safeguarding-cs.pdf','hornigold-safeguarding-children-cs.pdf'):
+        source = documents / name
+        if not source.is_file():
+            raise ValueError('Reviewed Czech PDF missing: ' + str(source))
+        target = destination / 'documents' / name
+        target.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copyfile(source,target)
     report = {'state':'isolated-candidates-not-published','routes':len(written),'missing':sorted(missing),'written':written,
               'limitations':['Existing languages not updated with reciprocal Czech links yet','Dynamic locale route maps and external English fallback disclosure not yet verified','Legal PDF integration and responsive tests still required']}
     (destination / 'candidate-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
