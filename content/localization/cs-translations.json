@@ -18229,13 +18229,14 @@
     ]
   },
   {
-    "id": "81391a18662171ae",
-    "source": "Future booking and payment. Once KWHotel and the selected Fiserv product are connected, test the entire journey: dates and guests, offer selection, forms and errors, summary and terms, payment-obligation button, redirect, bank authentication, payment status, confirmation, cancellation and refund. Acceptance must cover keyboard use, screen readers, zoom, time limits, messages and documents in all seven languages. A supplier manual is not evidence that the specific integration is accessible.",
+    "id": "c6352acf7860b6ee",
+    "source": "Future booking and payment. Once KWHotel and the selected Fiserv product are connected, test the entire journey: dates and guests, offer selection, forms and errors, summary and terms, payment-obligation button, redirect, bank authentication, payment status, confirmation, cancellation and refund. Acceptance must cover keyboard use, screen readers, zoom, time limits, messages and documents in all eight languages. A supplier manual is not evidence that the specific integration is accessible.",
     "translation": "Budoucí rezervace a platba. Po propojení KWHotel a vybraného produktu Fiserv je nutné otestovat celou cestu: termín a počet hostů, výběr nabídky, formuláře a chyby, souhrn a podmínky, tlačítko zavazující k platbě, přesměrování, bankovní ověření, stav platby, potvrzení, zrušení a vrácení peněz. Odběr musí zahrnout klávesnici, čtečky obrazovky, zvětšení, časové limity, zprávy a dokumenty ve všech podporovaných jazycích včetně češtiny. Příručka dodavatele není důkazem přístupnosti konkrétní integrace.",
     "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
-    ]
+    ],
+    "reviewNote": "English scope updated to eight languages; Czech translation already specifies eight. No other legal terms changed."
   },
   {
     "id": "ba9da2e794013277",
