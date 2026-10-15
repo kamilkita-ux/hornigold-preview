@@ -22661,14 +22661,14 @@
     ]
   },
   {
-    "id": "7966e731ac89f441",
-    "source": "The button opens the hotel's booking system in English.",
-    "translation": null,
-    "reviewed": false,
+    "id": "e00b32f02d0bda71",
+    "source": "The button opens an external booking system.",
+    "translation": "Tlačítko otevře externí rezervační systém.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ],
-    "reviewNote": "Source refers to hotel and unverified payment completion; requires neutral source correction and confirmed external language disclosure before review."
+    "reviewNote": "Reconciled against local tested copy-only source e764a07, not yet published. Czech external language fallback still requires page disclosure."
   },
   {
     "id": "5b1da998a6e44b8a",
@@ -22680,14 +22680,14 @@
     ]
   },
   {
-    "id": "6ff042643f57e18d",
-    "source": "You will see availability, rates and terms in the hotel's booking system (KWHotel / GuestSage). That is where you complete the booking and payment and conclude the contract on the hotel's terms.",
-    "translation": null,
-    "reviewed": false,
+    "id": "3d17ee315d953dad",
+    "source": "Check availability, the total price and the selected offer terms in the external KWHotel / GuestSage system. Review cancellation and payment conditions before confirming a reservation.",
+    "translation": "Ověřte dostupnost, celkovou cenu a podmínky vybrané nabídky v externím systému KWHotel / GuestSage. Před potvrzením rezervace si přečtěte podmínky zrušení a platby.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ],
-    "reviewNote": "Source refers to hotel and unverified payment completion; requires neutral source correction and confirmed external language disclosure before review."
+    "reviewNote": "Reconciled against local tested copy-only source e764a07, not yet published. Czech external language fallback still requires page disclosure."
   },
   {
     "id": "43e2502d5dc445b6",
@@ -22735,14 +22735,14 @@
     ]
   },
   {
-    "id": "58d35002bc919dc4",
-    "source": "Visit the existing Hornigold website",
-    "translation": null,
-    "reviewed": false,
+    "id": "d7df9c9c8f7b9ec1",
+    "source": "Hornigold homepage",
+    "translation": "Úvodní stránka Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ],
-    "reviewNote": "Source requires reconciliation with current production and owner instruction against old-site references or blanket no-rates claims; do not publish unreviewed."
+    "reviewNote": "Reconciled against local tested copy-only source e764a07, not yet published. Czech external language fallback still requires page disclosure."
   },
   {
     "id": "da94fc10142d6efb",
@@ -22937,10 +22937,10 @@
     ]
   },
   {
-    "id": "d19db771565820c4",
-    "source": "Category based on the existing Hornigold website. Current offer and photo mapping await approval.",
-    "translation": null,
-    "reviewed": false,
+    "id": "e6a879ba12a8c382",
+    "source": "Confirm current category details and the correspondence of photographs to your selected room with reception.",
+    "translation": "Ověřte si na recepci aktuální podrobnosti kategorie a zda fotografie odpovídají vybranému pokoji.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/apartament-deluxe/index.html",
       "site/en/rooms/classic/index.html",
@@ -22952,7 +22952,7 @@
       "site/en/rooms/prestige/index.html",
       "site/en/rooms/suite/index.html"
     ],
-    "reviewNote": "Source requires reconciliation with current production and owner instruction against old-site references or blanket no-rates claims; do not publish unreviewed."
+    "reviewNote": "Reconciled against local tested copy-only source e764a07, not yet published. Czech external language fallback still requires page disclosure."
   },
   {
     "id": "d3d1c6a600f462c6",
@@ -22972,10 +22972,10 @@
     ]
   },
   {
-    "id": "9fcf42a048b363db",
-    "source": "This website does not show rates or availability. We do not collect personal details or payments.",
-    "translation": null,
-    "reviewed": false,
+    "id": "4b14dd9eadce4a75",
+    "source": "Check the final price, availability and conditions for your dates in the external booking system. An enquiry is not a confirmed reservation.",
+    "translation": "Ověřte konečnou cenu, dostupnost a podmínky pro svůj termín v externím rezervačním systému. Poptávka není potvrzenou rezervací.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/apartament-deluxe/index.html",
       "site/en/rooms/classic/index.html",
@@ -22987,7 +22987,7 @@
       "site/en/rooms/prestige/index.html",
       "site/en/rooms/suite/index.html"
     ],
-    "reviewNote": "Source requires reconciliation with current production and owner instruction against old-site references or blanket no-rates claims; do not publish unreviewed."
+    "reviewNote": "Reconciled against local tested copy-only source e764a07, not yet published. Czech external language fallback still requires page disclosure."
   },
   {
     "id": "69acc9c867382900",
