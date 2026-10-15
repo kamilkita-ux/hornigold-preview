@@ -835,5 +835,13 @@
     "protectedComponents": "No booking.js, server, GuestSage/Fiserv configuration or payment logic changed",
     "acceptanceLimit": "Does not close B1/B3 or certify provider payment/PMS workflows",
     "evidence": "evidence/handoff-copy-23.26.json"
+  },
+  "reservationDisclosuresFix": {
+    "revision": "23.27",
+    "state": "local-testing",
+    "date": "2026-10-15",
+    "evidence": "docs/implementation/evidence/reservation-disclosures-23.27.json",
+    "protectedBookingAndFiserv": "unchanged",
+    "providerAcceptance": "not verified"
   }
 }
