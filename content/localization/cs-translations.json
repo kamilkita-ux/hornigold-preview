@@ -12720,8 +12720,8 @@
   {
     "id": "74dd6200b5550c9b",
     "source": "Silesia: many voices, one region",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Slezsko: mnoho hlasů, jeden region",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html",
       "site/en/city-and-surroundings/gliwice-the-radio-station-and-the-history-of-propaganda/index.html",
@@ -12737,8 +12737,8 @@
   {
     "id": "79c5912f011dff38",
     "source": "Auschwitz-Birkenau: remembrance and testimony. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Auschwitz-Birkenau: paměť a svědectví. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si návštěvy během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12746,8 +12746,8 @@
   {
     "id": "a6ab93a6924871f5",
     "source": "Będzin and the Jura: castles, borders and landscape | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Będzin a Jura: hrady, hranice a krajina | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html"
     ]
@@ -12755,8 +12755,8 @@
   {
     "id": "9a90798330c029d2",
     "source": "Beyond the city",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Za hranicemi města",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12768,8 +12768,8 @@
   {
     "id": "7651663eb7bfaa16",
     "source": "Będzin and the Jura: castles, borders and landscape",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Będzin a Jura: hrady, hranice a krajina",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12781,8 +12781,8 @@
   {
     "id": "1ff1be707ba4a289",
     "source": "A journey from Katowice can also lead into Zagłębie and the Jura, neighbouring areas with their own histories. Not every day trip stays within historic Silesia.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cesta z Katovic může vést také do sousedního Zagłębí a Jury, oblastí s vlastní historií. Ne každý jednodenní výlet zůstává na území historického Slezska.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/index.html"
@@ -12791,8 +12791,8 @@
   {
     "id": "b06206517e203fdf",
     "source": "Będzin Castle was expanded under Casimir the Great in the fourteenth century to protect the borderlands. Farther afield, the Kraków–Częstochowa Upland offers a castle route among limestone rocks, including Ogrodzieniec. Each building has its own sequence of construction, destruction and restoration.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Będzinský hrad byl ve 14. století za Kazimíra Velikého rozšířen na ochranu pohraničí. Dále nabízí Krakovsko-čenstochovská vysočina hradní stezku mezi vápencovými skalami, včetně Ogrodzieniece. Každá stavba má vlastní příběh výstavby, ničení a obnovy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html"
     ]
@@ -12800,8 +12800,8 @@
   {
     "id": "787ce0e66e28220d",
     "source": "Take a closer look",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podívejte se blíže",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12823,8 +12823,8 @@
   {
     "id": "c0329fe5c0cfd374",
     "source": "Choose one castle as your main destination and adapt your walk to the weather and your group. Stone steps and uneven surfaces need care. Viewing a monument from outside and following an indoor ticketed route may involve different access rules.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si jeden hrad jako hlavní cíl a přizpůsobte procházku počasí i své skupině. Na kamenných schodech a nerovném povrchu buďte opatrní. Prohlídka památky zvenčí a placená trasa v interiéru mohou mít odlišná pravidla vstupu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html"
     ]
@@ -12832,8 +12832,8 @@
   {
     "id": "ece4bd0f6fedd9bc",
     "source": "www.muzeumzaglebia.pl",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.muzeumzaglebia.pl",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/jewish-heritage-people-places-and-absence/index.html"
@@ -12842,8 +12842,8 @@
   {
     "id": "121edd675f839caa",
     "source": "orlegniazda.pl",
-    "translation": null,
-    "reviewed": false,
+    "translation": "orlegniazda.pl",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/heritage-and-trails-explore-further/index.html",
@@ -12854,8 +12854,8 @@
   {
     "id": "510ce7b21efc0fb9",
     "source": "Pszczyna: a residence and a gentler pace",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pszczyna: zámecké sídlo a klidnější tempo",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12867,8 +12867,8 @@
   {
     "id": "7e4862eab1a44bcc",
     "source": "Cieszyn: a hill, memory and a borderland",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Těšín: návrší, paměť a pohraničí",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12880,8 +12880,8 @@
   {
     "id": "6193a2af891a9d94",
     "source": "Heritage and trails: explore further",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dědictví a stezky: objevujte dál",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html",
       "site/en/city-and-surroundings/cieszyn/index.html",
@@ -12895,8 +12895,8 @@
   {
     "id": "8f8f0f9aea7d6ea5",
     "source": "Będzin and the Jura: castles, borders and landscape. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Będzin a Jura: hrady, hranice a krajina. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/index.html"
     ]
@@ -12904,8 +12904,8 @@
   {
     "id": "3fce66859983c394",
     "source": "Cieszyn: a hill, memory and a borderland | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Těšín: návrší, paměť a pohraničí | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html"
     ]
@@ -12913,8 +12913,8 @@
   {
     "id": "75bf47a849b9dc78",
     "source": "Slow down and let scale tell the story: a small chapel, a tower, a path and a view over rooftops.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zpomalte a nechte vyprávět samotné měřítko místa: malou kapli, věž, cestu a výhled na střechy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html",
       "site/en/city-and-surroundings/index.html"
@@ -12923,8 +12923,8 @@
   {
     "id": "6d669cf5912ba883",
     "source": "Castle Hill preserves a Romanesque rotunda and the Piast Tower. Traces of the former ducal seat sit alongside the contemporary Zamek Cieszyn design centre. It is a useful place to consider how heritage can remain part of present-day life.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Na Zámeckém vrchu se dochovaly románská rotunda a Piastovská věž. Stopy někdejšího knížecího sídla zde sousedí se současným centrem designu Zamek Cieszyn. Je to vhodné místo k zamyšlení, jak může kulturní dědictví zůstat součástí dnešního života.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html"
     ]
@@ -12932,8 +12932,8 @@
   {
     "id": "291e0b8f4145ab9f",
     "source": "Start with an unhurried walk around the hill, then choose interiors or a viewpoint. Check current access arrangements. Do not assume that every historic tower suits visitors with limited mobility.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte klidnou procházkou po návrší, poté si vyberte interiéry nebo vyhlídku. Ověřte aktuální podmínky vstupu. Nepředpokládejte, že každá historická věž je vhodná pro návštěvníky s omezenou pohyblivostí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html"
     ]
@@ -12941,8 +12941,8 @@
   {
     "id": "5621a1bc3faf429a",
     "source": "www.zamekcieszyn.pl",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.zamekcieszyn.pl",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html"
     ]
@@ -12950,8 +12950,8 @@
   {
     "id": "42a0b135d678ac0e",
     "source": "Cieszyn: a hill, memory and a borderland. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Těšín: návrší, paměť a pohraničí. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/cieszyn/index.html"
     ]
@@ -12959,8 +12959,8 @@
   {
     "id": "d57b397392cd7d27",
     "source": "Dining in Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Gastronomie v Katovicích | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
@@ -12968,8 +12968,8 @@
   {
     "id": "01d500c4a8ab351e",
     "source": "Our first recommendation",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naše první doporučení",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
@@ -12977,8 +12977,8 @@
   {
     "id": "e6538302df1a9037",
     "source": "Discover Katowice around the table. Begin with Śląska Prohibicja in Nikiszowiec, then plan your next meals around a walk, a concert and your appetite. Here is our selection for the culinary side of your stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Poznejte Katovice u společného stolu. Začněte restaurací Śląska Prohibicja v Nikiszowci a další jídla naplánujte podle procházek, koncertu a vlastní chuti. Přinášíme náš výběr pro gastronomickou stránku vašeho pobytu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
@@ -12986,8 +12986,8 @@
   {
     "id": "6a8dccbc7a0c2a8e",
     "source": "Śląska Prohibicja — at the table in Nikiszowiec",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Śląska Prohibicja — u stolu v Nikiszowci",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html",
       "site/en/city-and-surroundings/index.html",
@@ -12999,8 +12999,8 @@
   {
     "id": "72c324141b2a3302",
     "source": "A place to begin",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Místo, kde začít",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
@@ -13008,8 +13008,8 @@
   {
     "id": "49b09b82f09a918e",
     "source": "Śląska Prohibicja at Krawczyka 1 is our first suggestion for guests who want to combine exploring Katowice with regional food. The restaurant is in Nikiszowiec. Make it the destination rather than a hurried stop: a walk around the neighbourhood, a shared meal and an unhurried return to Hornigold make a rewarding afternoon.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Śląska Prohibicja na adrese Krawczyka 1 je naším prvním tipem pro hosty, kteří chtějí spojit poznávání Katovic s regionální kuchyní. Restaurace se nachází v Nikiszowci. Zvolte ji jako cíl, nikoli uspěchanou zastávku: procházka čtvrtí, společné jídlo a klidný návrat do Hornigoldu mohou vytvořit příjemné odpoledne.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
@@ -13017,8 +13017,8 @@
   {
     "id": "014bc46f747b9fab",
     "source": "Silesian roots, contemporary cooking",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Slezské kořeny, současná kuchyně",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/dining-in-katowice/index.html"
     ]
