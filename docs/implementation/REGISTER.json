@@ -412,14 +412,15 @@
     {
       "id": "G4",
       "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych.",
+      "environment": "local materials",
+      "change": "Prepared a concrete neutral reception process, responsibility split, reception card and invitation templates in all seven existing languages. No incentives, review gating, fabricated reviews or public disclosure of stay data.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
+        "RECEPTION_REVIEWS_PROCESS.json",
         "MAINTENANCE.md"
       ],
-      "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "barrier": "Recepcja/Beata: odbiór materiałów i dopasowanie do rzeczywistych procedur; faktyczne użycie nie jest potwierdzone.",
+      "next": "Przekazać materiały w autoryzowanym trybie, potwierdzić właściwy istniejący profil i odbiór przez recepcję. Nie uruchamiać masowej wysyłki.",
       "title": "Autentyczne opinie"
     },
     {
@@ -540,7 +541,7 @@
     "partial": 8
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-15T16:15:43.205224+00:00",
+  "updatedAtUTC": "2026-10-15T16:28:07.630811+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
@@ -814,5 +815,17 @@
     "branch": "codex/audit4-monitor-20261015",
     "scope": "Use served immutable commit routes and exclusions instead of stale checkout; 20 synthetic tests and live readback",
     "publication": "not_pushed_or_deployed"
+  },
+  "readabilityFix": {
+    "revision": "23.25",
+    "status": "tested_local",
+    "branch": "codex/audit4-readability-20261015",
+    "scope": [
+      "Selected form labels, helper text and city captions at least .75rem",
+      "Certificate link at least 44px tall"
+    ],
+    "limits": "Not full screen-reader or PDF/UA acceptance; booking/Fiserv/server unchanged",
+    "evidence": "evidence/readability-23.25.json",
+    "test": "21 rendered language/viewport cases; 32 gallery captions; no horizontal overflow; target text >=12px at default font scale; certificate link >=44px; final preview build 694 routes and static audit no errors"
   }
 }
