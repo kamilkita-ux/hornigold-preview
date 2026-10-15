@@ -18709,8 +18709,8 @@
   {
     "id": "e93c35e602ade6ad",
     "source": "ROOMS & APARTMENTS",
-    "translation": null,
-    "reviewed": false,
+    "translation": "POKOJE A APARTMÁNY",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18718,8 +18718,8 @@
   {
     "id": "023ca5d8dc7ba0fd",
     "source": "Choose what matters to you.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si, na čem vám záleží.",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18727,8 +18727,8 @@
   {
     "id": "05fb701211af574e",
     "source": "Categories to compare (maximum 3)",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kategorie k porovnání (nejvýše 3)",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18736,8 +18736,8 @@
   {
     "id": "de88c121a82a0635",
     "source": "Premium",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18752,8 +18752,8 @@
   {
     "id": "9c21005014a9eea8",
     "source": "Suite",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Suite",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18765,8 +18765,8 @@
   {
     "id": "15864df3662ecd3c",
     "source": "Deluxe Apartment",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Deluxe",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18778,8 +18778,8 @@
   {
     "id": "dc15e96aeeaf785e",
     "source": "Prestige Apartment",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Prestige",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18791,8 +18791,8 @@
   {
     "id": "48e4448ee058dd3a",
     "source": "Prestige Deluxe Apartment",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Prestige Deluxe",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18804,8 +18804,8 @@
   {
     "id": "1e5d36c4d92e8120",
     "source": "Hornigold Apartment",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/index.html",
@@ -18817,8 +18817,8 @@
   {
     "id": "f427fc71eae2debe",
     "source": "Selected room comparison",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Porovnání vybraných pokojů",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18826,8 +18826,8 @@
   {
     "id": "3d377ae910dce03a",
     "source": "Feature",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vlastnost",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18835,8 +18835,8 @@
   {
     "id": "c5689006d960aa33",
     "source": "Floor area",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podlahová plocha",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/conferences-and-meetings/index.html",
@@ -18854,8 +18854,8 @@
   {
     "id": "150e5b8560d1ce30",
     "source": "20–22 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "20–22 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/classic/index.html"
@@ -18864,8 +18864,8 @@
   {
     "id": "b74f04e3c9ae3282",
     "source": "30 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "30 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/deluxe/index.html"
@@ -18874,8 +18874,8 @@
   {
     "id": "2cbad70add8c72f4",
     "source": "26–47 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "26–47 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/deluxe-premium/index.html"
@@ -18884,8 +18884,8 @@
   {
     "id": "5b3a069c9a5985d3",
     "source": "35 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "35 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/premium/index.html"
@@ -18894,8 +18894,8 @@
   {
     "id": "4bb4538e248dddda",
     "source": "40 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "40 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/conferences-and-meetings/index.html",
@@ -18905,8 +18905,8 @@
   {
     "id": "c2ada87543fba6dd",
     "source": "43–61 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "43–61 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html"
@@ -18915,8 +18915,8 @@
   {
     "id": "91caa8cc560d1ea6",
     "source": "60–70 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "60–70 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/prestige/index.html"
@@ -18925,8 +18925,8 @@
   {
     "id": "b4ad82ca00486432",
     "source": "49 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "49 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/prestige-deluxe/index.html"
@@ -18935,8 +18935,8 @@
   {
     "id": "8ce23a57b6a69d48",
     "source": "105 m²",
-    "translation": null,
-    "reviewed": false,
+    "translation": "105 m²",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/hornigold/index.html"
@@ -18945,8 +18945,8 @@
   {
     "id": "a66cf1355f838e1c",
     "source": "Maximum occupancy",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Maximální počet hostů",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -18954,8 +18954,8 @@
   {
     "id": "2e2a3cd1a00809d3",
     "source": "Beds",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Lůžka",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html",
@@ -18972,8 +18972,8 @@
   {
     "id": "70992519eabfe91e",
     "source": "One double bed or two singles",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jedna manželská postel nebo dvě samostatná lůžka",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/classic/index.html",
@@ -18983,8 +18983,8 @@
   {
     "id": "2a966591e5e76615",
     "source": "One double bed",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jedna manželská postel",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/deluxe/index.html",
@@ -18995,8 +18995,8 @@
   {
     "id": "b5d5a5f1f9433ee9",
     "source": "One queen bed",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jedna postel velikosti queen",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html"
@@ -19005,8 +19005,8 @@
   {
     "id": "1fe017d4eaf9c5df",
     "source": "Two bedrooms; a double and two singles or two doubles; sofa",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvě ložnice; jedna manželská postel a dvě samostatná lůžka nebo dvě manželské postele; pohovka",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/prestige/index.html"
@@ -19015,8 +19015,8 @@
   {
     "id": "bdca6c5d8772475a",
     "source": "Two bedrooms, each with a queen bed",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvě ložnice, v každé postel velikosti queen",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/hornigold/index.html",
@@ -19026,8 +19026,8 @@
   {
     "id": "3e671d3a0d15c47e",
     "source": "Amenities",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vybavení",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html",
@@ -19044,8 +19044,8 @@
   {
     "id": "eac1a5cbb26c6b76",
     "source": "Wi-Fi · Desk · Bathroom with bath or shower — varies by room",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Psací stůl · Koupelna s vanou nebo sprchou — podle pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19053,8 +19053,8 @@
   {
     "id": "cc9cb0c6e662decb",
     "source": "Wi-Fi · Desk · Kitchenette",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Psací stůl · Kuchyňský kout",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19062,8 +19062,8 @@
   {
     "id": "b561096dc7ea642c",
     "source": "Wi-Fi · Kitchenette · Manually controlled air conditioning",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Kuchyňský kout · Ručně ovládaná klimatizace",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19071,8 +19071,8 @@
   {
     "id": "6020c5f63fa5dcdd",
     "source": "Wi-Fi · Kitchenette · Whirlpool bath and shower",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Kuchyňský kout · Vířivá vana a sprcha",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19080,8 +19080,8 @@
   {
     "id": "886446db85f37c78",
     "source": "Wi-Fi · Kitchenette · Separate living room · Bathroom with bath or shower — varies by room",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Kuchyňský kout · Samostatný obývací pokoj · Koupelna s vanou nebo sprchou — podle pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19089,8 +19089,8 @@
   {
     "id": "ffd36aa5e7210717",
     "source": "Wi-Fi · Kitchenette · Separate living room · Two bathrooms",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Kuchyňský kout · Samostatný obývací pokoj · Dvě koupelny",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19098,8 +19098,8 @@
   {
     "id": "763b71133d31a1cc",
     "source": "Wi-Fi · Kitchenette · Separate living room · Manually controlled air conditioning · Shower",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Kuchyňský kout · Samostatný obývací pokoj · Ručně ovládaná klimatizace · Sprcha",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19107,8 +19107,8 @@
   {
     "id": "0aa60e2fe58ad0a3",
     "source": "Wi-Fi · Two kitchenettes · Two bathrooms · Manually controlled air conditioning",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi · Dva kuchyňské kouty · Dvě koupelny · Ručně ovládaná klimatizace",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
@@ -19116,8 +19116,8 @@
   {
     "id": "218197693424e015",
     "source": "From",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Od",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/apartament-deluxe/index.html",
@@ -19134,8 +19134,8 @@
   {
     "id": "58c729c7bad3f5a9",
     "source": "380 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "380 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/classic/index.html"
@@ -19144,8 +19144,8 @@
   {
     "id": "ce463c49e843a859",
     "source": "410 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "410 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html",
       "site/en/rooms/deluxe/index.html"
