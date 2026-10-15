@@ -36,5 +36,14 @@
       "sha256": "e8811176ba50c1660a4657f341602c0276f65c0f46642cccd563fe4699929567"
     }
   ],
-  "deploymentRequired": true
+  "deploymentRequired": true,
+  "nodeTests": 168,
+  "productionBuild": {
+    "routes": 793,
+    "errors": 0
+  },
+  "productionSeoAudit": {
+    "links": 89755,
+    "errors": 0
+  }
 }
