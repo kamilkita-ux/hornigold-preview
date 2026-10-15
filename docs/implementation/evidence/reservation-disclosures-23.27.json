@@ -60,5 +60,11 @@
   "bookingPages": 7,
   "scope": "Visible copy only; external availability, price, terms checks; no old-site endorsement or payment acceptance promise",
   "protectedComponents": "unchanged; six invariant tests passed",
-  "remainingAcceptance": "Provider PMS/payment operational verification remains required"
+  "remainingAcceptance": "Provider PMS/payment operational verification remains required",
+  "structuralComparisonPages": 61,
+  "bookingPageTests": 43,
+  "previewBuild": {
+    "routes": 694,
+    "errors": 0
+  }
 }
