@@ -22359,8 +22359,8 @@
   {
     "id": "ddbad95185f5e993",
     "source": "Private parking",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Soukromé parkoviště",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22368,8 +22368,8 @@
   {
     "id": "70283b7d606b96ab",
     "source": "PLN 40 per day for a passenger car.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "40 PLN za den za osobní automobil.",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22377,8 +22377,8 @@
   {
     "id": "756dad20fe49e5f3",
     "source": "Enter the private courtyard from Drzymały 4. Gate: 2.5 m wide, 2.8 m high. Call reception to open it. For a multi-day stay, collect a remote control from reception.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Do soukromého dvora vjeďte z adresy Drzymały 4. Brána je široká 2,5 m a vysoká 2,8 m. Pro otevření zavolejte na recepci. Při vícedenním pobytu si na recepci vyzvedněte dálkové ovládání.",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22386,8 +22386,8 @@
   {
     "id": "e888882706546c5f",
     "source": "Plan an easy arrival. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si pohodlný příjezd. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, pokoje a informace o příjezdu a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22395,8 +22395,8 @@
   {
     "id": "6a29c0926df488a9",
     "source": "A longer stay | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Delší pobyt | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html"
     ]
@@ -22404,8 +22404,8 @@
   {
     "id": "1133e6adb6f986f0",
     "source": "ASK ABOUT SUITABILITY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "OVĚŘTE SI, ZDA VÁM POKOJ VYHOVUJE",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html",
       "site/en/pobyt/rodzina/index.html",
@@ -22417,8 +22417,8 @@
   {
     "id": "8088efbbfefb184a",
     "source": "Before choosing a room",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před výběrem pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html",
       "site/en/pobyt/rodzina/index.html",
@@ -22430,8 +22430,8 @@
   {
     "id": "8ccf08f5d6ad6fc9",
     "source": "Review categories and outstanding details",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si kategorie a podrobnosti, které je třeba ověřit",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html",
       "site/en/pobyt/rodzina/index.html",
@@ -22443,8 +22443,8 @@
   {
     "id": "6de4de9c0c0038ea",
     "source": "Practical guide",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Praktický průvodce",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html",
       "site/en/pobyt/rodzina/index.html",
@@ -22456,8 +22456,8 @@
   {
     "id": "e085af73df6a2a12",
     "source": "A longer stay. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Delší pobyt. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/dluzszy-pobyt/index.html"
     ]
@@ -22465,8 +22465,8 @@
   {
     "id": "24a2433b5665b4fe",
     "source": "A good stay starts here. | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Příjemný pobyt začíná tady. | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22474,8 +22474,8 @@
   {
     "id": "06554ef889a4826f",
     "source": "YOUR STAY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "VÁŠ POBYT",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22483,8 +22483,8 @@
   {
     "id": "3dfb1e38a381f3c2",
     "source": "A good stay starts here.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Příjemný pobyt začíná tady.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22492,8 +22492,8 @@
   {
     "id": "b72275db06b724f8",
     "source": "Choose your dates and number of guests. We will keep your selection while you explore the rooms.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte termín a počet hostů. Váš výběr zachováme, zatímco si budete prohlížet pokoje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22501,8 +22501,8 @@
   {
     "id": "975820f02e18f8b7",
     "source": "This is a room catalogue, not live availability for your chosen dates.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jde o katalog pokojů, nikoli o aktuální dostupnost pro vybraný termín.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22510,8 +22510,8 @@
   {
     "id": "e24772b489c27854",
     "source": "View all categories",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit všechny kategorie",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22519,8 +22519,8 @@
   {
     "id": "9bee696b96a866de",
     "source": "A good stay starts here.. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Příjemný pobyt začíná tady. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/index.html"
     ]
@@ -22528,8 +22528,8 @@
   {
     "id": "2efa8bb1cec3f6d3",
     "source": "With family | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "S rodinou | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/rodzina/index.html"
     ]
@@ -22537,8 +22537,8 @@
   {
     "id": "24ed08c4c5283a94",
     "source": "With family. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pobyt s rodinou. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, pokoje a informace o příjezdu a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/rodzina/index.html"
     ]
@@ -22546,8 +22546,8 @@
   {
     "id": "65c2e57de0d0cc6f",
     "source": "Business travel | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/sluzbowo/index.html"
     ]
@@ -22555,8 +22555,8 @@
   {
     "id": "a40e0f0442f4c083",
     "source": "Business travel. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/sluzbowo/index.html"
     ]
@@ -22564,8 +22564,8 @@
   {
     "id": "cbb1261d85152c05",
     "source": "A weekend in Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Víkend v Katovicích | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/weekend/index.html"
     ]
@@ -22573,8 +22573,8 @@
   {
     "id": "81de7d017aadf9fb",
     "source": "A weekend in Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Víkend v Katovicích. Objevte Hornigold na adrese Kopernika 6. Prohlédněte si fotografie, pokoje a informace o příjezdu, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/weekend/index.html"
     ]
@@ -22582,8 +22582,8 @@
   {
     "id": "18207a6a4adc40d4",
     "source": "A concert or event | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Koncert nebo akce | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/wydarzenie/index.html"
     ]
@@ -22591,8 +22591,8 @@
   {
     "id": "47edb2310c88ff46",
     "source": "A concert or event. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Koncert nebo akce. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/pobyt/wydarzenie/index.html"
     ]
@@ -22600,8 +22600,8 @@
   {
     "id": "376603a72ee4c1f9",
     "source": "Privacy policy and GDPR information | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zásady ochrany osobních údajů a informace podle GDPR | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/privacy-and-data/index.html"
     ]
@@ -22609,8 +22609,8 @@
   {
     "id": "414f5ae9f6343f53",
     "source": "Privacy and data | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Soukromí a osobní údaje | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/privacy-and-data/index.html"
     ]
@@ -22618,8 +22618,8 @@
   {
     "id": "de3fabf1ca8c7b60",
     "source": "Privacy and data. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Soukromí a osobní údaje. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, pokoje a informace o příjezdu a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/privacy-and-data/index.html"
     ]
@@ -22627,8 +22627,8 @@
   {
     "id": "c195a34228656aa8",
     "source": "Your stay at a glance | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přehled vašeho pobytu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22636,8 +22636,8 @@
   {
     "id": "68e9b254beebb809",
     "source": "BOOKING ENQUIRY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "POPTÁVKA POBYTU",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22645,8 +22645,8 @@
   {
     "id": "c0cc85fd0d7fc432",
     "source": "Your stay at a glance",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Přehled vašeho pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22654,8 +22654,8 @@
   {
     "id": "f86888aa3c6fb642",
     "source": "Review your selected dates and room category.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zkontrolujte vybraný termín a kategorii pokoje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22667,13 +22667,14 @@
     "reviewed": false,
     "usedIn": [
       "site/en/rezerwacja/index.html"
-    ]
+    ],
+    "reviewNote": "Source refers to hotel and unverified payment completion; requires neutral source correction and confirmed external language disclosure before review."
   },
   {
     "id": "5b1da998a6e44b8a",
     "source": "Book online",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Rezervovat online",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22685,13 +22686,14 @@
     "reviewed": false,
     "usedIn": [
       "site/en/rezerwacja/index.html"
-    ]
+    ],
+    "reviewNote": "Source refers to hotel and unverified payment completion; requires neutral source correction and confirmed external language disclosure before review."
   },
   {
     "id": "43e2502d5dc445b6",
     "source": "Check availability and book",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřit dostupnost a rezervovat",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22699,8 +22701,8 @@
   {
     "id": "89cfe2f5901f69b3",
     "source": "See all available rooms",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit všechny dostupné pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22708,8 +22710,8 @@
   {
     "id": "5a6eb607bc54c228",
     "source": "For groups of more than 6 people and business enquiries, use the enquiry form below.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro skupiny nad 6 osob a firemní poptávky použijte formulář níže.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22717,8 +22719,8 @@
   {
     "id": "baa8c26f4242d2d0",
     "source": "Edit your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Upravit pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
@@ -22726,8 +22728,8 @@
   {
     "id": "65e37de05ec226bf",
     "source": "Back to rooms",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zpět na pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/rezerwacja/index.html"
     ]
