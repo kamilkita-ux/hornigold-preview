@@ -19873,8 +19873,8 @@
   {
     "id": "05c1b444a77a7105",
     "source": "Message text",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Text zprávy",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html",
       "site/en/pobyt/dluzszy-pobyt/index.html",
@@ -19889,8 +19889,8 @@
   {
     "id": "5fcdbfade9bef1d6",
     "source": "Let’s talk about your stay. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Promluvme si o vašem pobytu. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/contact/index.html"
     ]
@@ -19898,8 +19898,8 @@
   {
     "id": "855409f88c184af1",
     "source": "Good to know | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co je dobré vědět | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19907,8 +19907,8 @@
   {
     "id": "aab7685123cf4b02",
     "source": "Good to know",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co je dobré vědět",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19916,8 +19916,8 @@
   {
     "id": "83737a276b39c6b3",
     "source": "Clear answers before you choose your stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jasné odpovědi před výběrem pobytu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19925,8 +19925,8 @@
   {
     "id": "c5571fc0460bdd56",
     "source": "Where is Hornigold?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kde se Hornigold nachází?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19934,8 +19934,8 @@
   {
     "id": "e21c262c40d8284a",
     "source": "Hornigold w Zielonej Kamienicy, Kopernika 6, 40-064 Katowice.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold w Zielonej Kamienicy, Kopernika 6, 40-064 Katowice.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19943,8 +19943,8 @@
   {
     "id": "b02dd0d479fb0b85",
     "source": "How can I contact Hornigold?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jak mohu Hornigold kontaktovat?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19952,8 +19952,8 @@
   {
     "id": "a48382556b08789f",
     "source": "+48 608 662 707 · office@hornigold.pl",
-    "translation": null,
-    "reviewed": false,
+    "translation": "+48 608 662 707 · office@hornigold.pl",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19961,8 +19961,8 @@
   {
     "id": "5af282dd6bafc770",
     "source": "How do I walk from Katowice station?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jak dojdu pěšky z katovického nádraží?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19970,8 +19970,8 @@
   {
     "id": "6968c682d1e5d47e",
     "source": "Leave via plac Oddziałów Młodzieży Powstańczej. Follow Andrzeja and Marii Skłodowskiej-Curie to Kopernika 6. Directions and panoramas are on the Location page.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyjděte směrem na plac Oddziałów Młodzieży Powstańczej. Pokračujte ulicemi Andrzeja a Marii Skłodowskiej-Curie na adresu Kopernika 6. Pokyny a panoramata najdete na stránce Poloha a příjezd.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -19979,8 +19979,8 @@
   {
     "id": "1376e71aadb871b3",
     "source": "What are the breakfast hours?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kdy se podává snídaně?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -19989,8 +19989,8 @@
   {
     "id": "d138caaf41993fbf",
     "source": "Daily, 7:00–10:00.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Denně od 7:00 do 10:00.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -19999,8 +19999,8 @@
   {
     "id": "1b971f9ddb468425",
     "source": "Does Hornigold have parking?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Má Hornigold parkování?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20009,8 +20009,8 @@
   {
     "id": "5f7f90ab8d1380ac",
     "source": "Hornigold has private parking for a stay in central Katowice. Hornigold is at Kopernika 6. Contact reception about parking for your car and arrival arrangements; the Location page provides routes to Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hornigold má soukromé parkování pro pobyt v centru Katovic. Nachází se na adrese Kopernika 6. Ohledně parkování vašeho auta a příjezdu kontaktujte recepci; trasy k Hornigoldu najdete na stránce Poloha a příjezd.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html",
@@ -20020,8 +20020,8 @@
   {
     "id": "17fecc73a4245a96",
     "source": "Which wellness services are available?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jaké wellness služby jsou dostupné?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20030,8 +20030,8 @@
   {
     "id": "41bd25ef3d7a3381",
     "source": "After a day in Katowice, make time to relax at Hornigold. Our wellness services include a sauna, hot tub and massages. They can complement a day of meetings or a leisurely city weekend. Contact reception to arrange a time and discuss the service you would like.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Po dni v Katovicích si dopřejte čas na odpočinek v Hornigoldu. Naše wellness služby zahrnují saunu, vířivku a masáže. Mohou doplnit den pracovních setkání i klidný víkend ve městě. Kontaktujte recepci a domluvte si termín i požadovanou službu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html",
@@ -20041,8 +20041,8 @@
   {
     "id": "f1d1f8f34f8639b3",
     "source": "Can I arrange a business meeting?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mohu uspořádat pracovní setkání?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20051,8 +20051,8 @@
   {
     "id": "c4152cbfa199859d",
     "source": "Do the rooms have Wi-Fi?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mají pokoje Wi-Fi?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20061,8 +20061,8 @@
   {
     "id": "82d9870027f123b7",
     "source": "Wi-Fi is listed among the amenities in all nine room and apartment categories.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Wi-Fi je uvedena ve vybavení všech devíti kategorií pokojů a apartmánů.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20071,8 +20071,8 @@
   {
     "id": "0ede547f86391670",
     "source": "Is air conditioning available in every room?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Je klimatizace v každém pokoji?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20081,8 +20081,8 @@
   {
     "id": "391148963ab16f2a",
     "source": "Air conditioning is listed for Deluxe Premium, Apartament Deluxe, Prestige Deluxe and Hornigold. Please check the amenities of your chosen category.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Klimatizace je uvedena u kategorií Deluxe Premium, Apartmán Deluxe, Apartmán Prestige Deluxe a Apartmán Hornigold. Ověřte vybavení vybrané kategorie.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html",
       "site/en/index.html"
@@ -20091,8 +20091,8 @@
   {
     "id": "aaf4c482895bbd10",
     "source": "Can I compare rooms before choosing?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mohu před výběrem porovnat pokoje?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20100,8 +20100,8 @@
   {
     "id": "9a51c9904730c077",
     "source": "Yes. Compare up to three categories by floor area, beds, amenities and starting prices.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ano. Porovnejte nejvýše tři kategorie podle plochy, lůžek, vybavení a výchozích cen.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20109,8 +20109,8 @@
   {
     "id": "d0ee306019bf2c6c",
     "source": "Which apartment has the largest floor area?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Který apartmán má největší plochu?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20118,8 +20118,8 @@
   {
     "id": "5ff84e33d879b04d",
     "source": "The Hornigold apartment measures 105 m² and has two bedrooms, two kitchenettes and two bathrooms.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold má 105 m², dvě ložnice, dva kuchyňské kouty a dvě koupelny.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20127,8 +20127,8 @@
   {
     "id": "5a275b3eaeb6d50f",
     "source": "Where can I find the walk from the station to Hornigold?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kde najdu pěší cestu z nádraží do Hornigoldu?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20136,8 +20136,8 @@
   {
     "id": "b5ee5be6d5a831fb",
     "source": "On the Location page, use the railway station section to open walking directions or the virtual walk. The photograph of the entrance with flags helps identify the building.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Na stránce Poloha a příjezd otevřete v části věnované nádraží pěší trasu nebo virtuální procházku. Fotografie vstupu s vlajkami vám pomůže poznat budovu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20145,8 +20145,8 @@
   {
     "id": "18a52bec2260f391",
     "source": "Does submitting an enquiry confirm a reservation?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Potvrzuje odeslání poptávky rezervaci?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20154,8 +20154,8 @@
   {
     "id": "f04abc43ef8f4f9e",
     "source": "No. Preparing an enquiry does not check availability, hold a room or collect payment. Agree the price, availability and booking confirmation process with reception.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ne. Příprava poptávky neověřuje dostupnost, nedrží pokoj ani nevybírá platbu. Cenu, dostupnost a způsob potvrzení rezervace si domluvte s recepcí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20163,8 +20163,8 @@
   {
     "id": "999ca9c5f6456c00",
     "source": "Is a ‘from’ price the price of my stay?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Je cena „od“ cenou mého pobytu?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20172,8 +20172,8 @@
   {
     "id": "7b93e78251924683",
     "source": "A ‘from’ price does not replace a quote for your dates and number of guests. Ask for the total amount, what it includes, any additional charges and the cancellation conditions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cena „od“ nenahrazuje nabídku pro váš termín a počet hostů. Zeptejte se na celkovou částku, co zahrnuje, případné další poplatky a storno podmínky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20181,8 +20181,8 @@
   {
     "id": "1434c597f2658b64",
     "source": "Where can I check the conditions before confirming a stay?",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kde si mohu ověřit podmínky před potvrzením pobytu?",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20190,8 +20190,8 @@
   {
     "id": "a9bd765ae1e35c72",
     "source": "Open the Terms and documents page. Read the documents about your stay and the processing of personal data; clarify any questions with reception before agreeing the conditions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřete stránku Podmínky a dokumenty. Přečtěte si dokumenty o pobytu a zpracování osobních údajů; případné otázky vyjasněte s recepcí před dohodnutím podmínek.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20199,8 +20199,8 @@
   {
     "id": "9d560a8aae424f87",
     "source": "Good to know. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co je dobré vědět. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/good-to-know/index.html"
     ]
@@ -20208,8 +20208,8 @@
   {
     "id": "9d00ee4e26f894f7",
     "source": "Rooms and apartments in central Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje a apartmány v centru Katovic | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20217,8 +20217,8 @@
   {
     "id": "3872d2d36307348c",
     "source": "HORNIGOLD · KATOWICE",
-    "translation": null,
-    "reviewed": false,
+    "translation": "HORNIGOLD · KATOVICE",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20235,8 +20235,8 @@
   {
     "id": "eed83595024151cb",
     "source": "Plan your stay at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si pobyt v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20244,8 +20244,8 @@
   {
     "id": "b6750e326b4a6b30",
     "source": "Choose your dates and explore our interiors.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si termín a prohlédněte si naše interiéry.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20253,8 +20253,8 @@
   {
     "id": "c8789bdc904956aa",
     "source": "Book by phone",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Rezervovat telefonicky",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20262,18 +20262,19 @@
   {
     "id": "32faa4c8e400c286",
     "source": "After choosing a room, you complete the booking and payment in the hotel's booking system.",
-    "translation": null,
+    "translation": "Po výběru pokoje přejdete do externího rezervačního systému. Před rezervací si tam ověřte dostupnost, celkovou cenu a podmínky.",
     "reviewed": false,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html"
-    ]
+    ],
+    "reviewNote": "Prepared neutral replacement. Keep unreviewed until PR27 source sentence and page fingerprints are reconciled."
   },
   {
     "id": "ec0c155b1f01f6df",
     "source": "Kopernika 6",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kopernika 6",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20281,8 +20282,8 @@
   {
     "id": "0451ffe8286aaaa2",
     "source": "Contact the property",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kontaktovat ubytovací zařízení",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20290,8 +20291,8 @@
   {
     "id": "162dbef1e50625d2",
     "source": "Arrival & parking",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Příjezd a parkování",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20299,8 +20300,8 @@
   {
     "id": "c3353216318df532",
     "source": "FIND YOUR KIND OF STAY",
-    "translation": null,
-    "reviewed": false,
+    "translation": "NAJDĚTE SI SVŮJ TYP POBYTU",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20308,8 +20309,8 @@
   {
     "id": "d86ef8f1c923a8a1",
     "source": "Rooms with character",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje s charakterem",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html"
     ]
@@ -20326,8 +20327,8 @@
   {
     "id": "13161fa464e6ad18",
     "source": "THE GREEN TOWNHOUSE",
-    "translation": null,
-    "reviewed": false,
+    "translation": "ZIELONA KAMIENICA",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20337,8 +20338,8 @@
   {
     "id": "9a56c08b119457bb",
     "source": "Explore room",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédnout pokoj",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20359,8 +20360,8 @@
   {
     "id": "f03583d12942a02b",
     "source": "Explore the Premium category at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si kategorii Premium v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20373,8 +20374,8 @@
   {
     "id": "79080b47e3fa7b2e",
     "source": "35 m² · From 450 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "35 m² · Od 450 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20387,8 +20388,8 @@
   {
     "id": "5aa8e7877aaae8dc",
     "source": "Explore the Suite apartment at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si apartmán Suite v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20398,8 +20399,8 @@
   {
     "id": "264bc9a38b3b386a",
     "source": "40 m² · From 590 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "40 m² · Od 590 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20409,8 +20410,8 @@
   {
     "id": "3e66ec8cb1d88ad8",
     "source": "Discover the Deluxe Apartment at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Objevte apartmán Deluxe v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20420,8 +20421,8 @@
   {
     "id": "1af543c86382cefd",
     "source": "43–61 m² · From 600 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "43–61 m² · Od 600 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20431,8 +20432,8 @@
   {
     "id": "6ba1d11e31bc8c66",
     "source": "Explore the Prestige Apartment at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si apartmán Prestige v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20442,8 +20443,8 @@
   {
     "id": "3265e155b33d1d3e",
     "source": "60–70 m² · From 695 PLN",
-    "translation": null,
-    "reviewed": false,
+    "translation": "60–70 m² · Od 695 PLN",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
@@ -20453,8 +20454,8 @@
   {
     "id": "7195360ab1801047",
     "source": "Explore the Prestige Deluxe Apartment at the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si apartmán Prestige Deluxe v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html",
