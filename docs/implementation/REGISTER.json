@@ -843,5 +843,13 @@
     "evidence": "docs/implementation/evidence/reservation-disclosures-23.27.json",
     "protectedBookingAndFiserv": "unchanged",
     "providerAcceptance": "not verified"
+  },
+  "czechLocale": {
+    "state": "local-integrated-tests-pending",
+    "revision": "23.28",
+    "routes": 99,
+    "position": 3,
+    "externalBookingLanguage": "English fallback, Czech support unverified",
+    "protectedIntegrations": "unchanged"
   }
 }

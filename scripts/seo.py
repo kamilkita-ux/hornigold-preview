@@ -7,7 +7,7 @@ import subprocess
 import xml.etree.ElementTree as ET
 
 ORIGIN = 'https://hornigold.pl'
-LANGS = {'pl', 'en', 'de', 'zh-Hans', 'uk', 'es', 'it'}
+LANGS = {'pl', 'en', 'cs', 'de', 'zh-Hans', 'uk', 'es', 'it'}
 PREVIEW_ROBOTS = 'noindex,nofollow,noarchive'
 
 def single_locale_routes(root):
