@@ -350,5 +350,21 @@
     "scope": "lang, locale, H1, third position, JS exceptions, horizontal overflow only",
     "reportPrivate": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-15/czech-page-candidates/render-audit.json",
     "remaining": "Reciprocal existing-language links, full route integration, forms, consent and booking handoff tests"
+  },
+  "candidateInteractiveAudit": {
+    "date": "2026-10-15",
+    "checks": 6,
+    "errors": 0,
+    "scope": [
+      "Czech validation",
+      "necessary-only consent",
+      "separate opt-in stored locally",
+      "withdrawal",
+      "language links retain dates and guests",
+      "Czech clear feedback and stay removal"
+    ],
+    "externalNetwork": "blocked; no transactions or real analytics events",
+    "reportPrivate": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-15/czech-page-candidates/interactive-audit.json",
+    "testRepair": "Initial script selected hidden notice link after dismissal; corrected to visible settings link without forcing clicks."
   }
 }
