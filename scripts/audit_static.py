@@ -8,7 +8,7 @@ p=argparse.ArgumentParser();p.add_argument('--base',default='/');p.add_argument(
 root=Path(__file__).resolve().parent.parent;out=root/'_site';base=args.base
 routes=json.loads((root/'routes.json').read_text());release=json.loads((root/'release.json').read_text())
 docs={f:BeautifulSoup(f.read_text(),'html.parser') for f in out.rglob('*.html')};errors=[];warnings=[];links=0
-langs={'pl','en','de','zh-Hans','uk','es','it'}
+langs=set(release['languages'])
 for route in routes:
  f=out/unquote(route.strip('/'))/'index.html';s=docs[f]
  def check(ok,kind):
@@ -23,7 +23,7 @@ for route in routes:
  alternate_tags=s.select('link[rel=alternate][hreflang]')
  alts={a['hreflang']:a['href'] for a in alternate_tags}
  check(len(alternate_tags)==len(expected_languages) and set(alts)==expected_languages,'hreflang matrix')
- check(len(s.select('a[data-language]'))==7,'language switcher')
+ check([a['data-language'] for a in s.select('[data-language-switcher] a[data-language]')]==[x.lower() for x in release['languages']], 'language switcher order and completeness')
  canonical=s.select_one('link[rel=canonical]')
  check(canonical and canonical['href']=='https://hornigold.pl'+route,'canonical')
  for lang,url in alts.items():

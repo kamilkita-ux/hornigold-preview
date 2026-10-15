@@ -37,8 +37,8 @@ for lang, row in data.items():
         if key == 'pl/faq':
             for question, answer, _ in row['questions']:
                 if question not in soup.get_text() or answer not in soup.get_text() or answer not in guide: errors.append(lang+': mismatched answer')
-if len(list((out/'llms').glob('*.txt'))) != 7: errors.append('Expected seven guides')
-report = {'mode':args.mode,'languages':7,'updatedPages':14,'guideFiles':8,'guideLinks':links,'externalEvidenceLinks':external_evidence_links,'errors':errors,
+if len(list((out/'llms').glob('*.txt'))) != len(data): errors.append('Guide count differs from configured languages')
+report = {'mode':args.mode,'languages':len(data),'updatedPages':2*len(data),'guideFiles':len(data)+1,'guideLinks':links,'externalEvidenceLinks':external_evidence_links,'errors':errors,
           'limits':['Navigation files do not grant crawl access or guarantee inclusion in AI answers.',
                     'No external native-speaker review or live PMS verification performed.']}
 (root/'docs/seo'/('discovery-'+args.mode+'.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
