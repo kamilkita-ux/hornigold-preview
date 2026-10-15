@@ -4,7 +4,7 @@ from unittest.mock import patch
 
 SCRIPT=pathlib.Path(__file__).resolve().parents[1]/'scripts/audit_live_release.py'
 class ReleaseIdentity(unittest.TestCase):
- def audit(self, start=None, end=None, expected='a'*40, transport=0, article=False, article_languages=None):
+ def audit(self, start=None, end=None, expected='a'*40, transport=0, article=False, article_languages=None, common_languages=None):
   initial={'revision':'23.17','commit':'a'*40} if start is None else start
   final=initial if end is None else end
   with tempfile.TemporaryDirectory() as folder:
@@ -26,7 +26,7 @@ class ReleaseIdentity(unittest.TestCase):
     elif url.endswith('/assets/analytics-config.js'):body='enabled:false'
     else:
      route=article_route if url.endswith(article_route) else ('/en/' if url.endswith('/en/') else '/pl/')
-     languages=['pl','en','de','zh-Hans','uk','es','it','x-default']
+     languages=['pl','en','cs','de','zh-Hans','uk','es','it','x-default'] if common_languages is None else common_languages
      if route==article_route:languages=['pl','x-default'] if article_languages is None else article_languages
      body='<html><head><meta name="robots" content="noindex,nofollow,noarchive"><link rel="canonical" href="https://hornigold.pl'+route+'">'+''.join('<link hreflang="'+language+'">' for language in languages)+'</head><body><h1>Stay</h1></body></html>'
     return types.SimpleNamespace(stdout=body+'\n200',stderr='',returncode=code)
@@ -37,6 +37,7 @@ class ReleaseIdentity(unittest.TestCase):
    return bool(result.exception.code),report['checks']
  def test_same_revision_correct_commit_passes(self):self.assertFalse(self.audit()[0])
  def test_registered_polish_article_passes(self):self.assertFalse(self.audit(article=True)[0])
+ def test_missing_czech_peer_fails(self):self.assertTrue(self.audit(common_languages=['pl','en','de','zh-Hans','uk','es','it','x-default'])[0])
  def test_fictional_article_language_cluster_fails(self):self.assertTrue(self.audit(article=True,article_languages=['en','x-default'])[0])
  def test_same_revision_wrong_commit_fails(self):
   failed,checks=self.audit(expected='b'*40);self.assertTrue(failed);self.assertFalse(checks['expectedCommit'])
