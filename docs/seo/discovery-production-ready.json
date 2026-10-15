@@ -1,10 +1,10 @@
 {
   "mode": "production-ready",
-  "languages": 7,
-  "updatedPages": 14,
-  "guideFiles": 8,
-  "guideLinks": 91,
-  "externalEvidenceLinks": 7,
+  "languages": 8,
+  "updatedPages": 16,
+  "guideFiles": 9,
+  "guideLinks": 104,
+  "externalEvidenceLinks": 8,
   "errors": [],
   "limits": [
     "Navigation files do not grant crawl access or guarantee inclusion in AI answers.",
