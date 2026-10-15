@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-15",
+  "scope": "G5: assess image rights and opportunities for valuable local mentions; no promise to secure external publication",
+  "property": "Hornigold w Zielonej Kamienicy",
+  "company": "Hornigold w Zielonej Kamienicy sp. z o.o.",
+  "rightsEvidence": "docs/implementation/evidence/image-rights-owner-confirmation-2026-10-12.json; owner statement covers exact existing image inventory, not third-party reuse or authorship",
+  "opportunities": [
+    {
+      "priority": 1,
+      "source": "https://welcome.katowice.eu/pl/zakwaterowanie.htm",
+      "observed": "City accommodation directory includes a Kopernika 6 entry with 608 662 707 and another Hornigold-labelled entry for multiple locations with a different contact.",
+      "next": "Reception/owner should identify which entities the two entries represent; request factual name/address/contact correction through the directory editor without deleting another business or asserting ownership.",
+      "value": "Relevant existing local accommodation citation, useful for consistent current entity identity.",
+      "state": "researched-not-contacted",
+      "limits": "Editorial access, publication timing, cost and any relationship are unverified."
+    },
+    {
+      "priority": 2,
+      "source": "https://slaskie.travel/staticcontent/1019355",
+      "observed": "Regional tourism portal provides Partner Branżowy registration and management of object information, with an administrator contact on its instructions page.",
+      "next": "Confirm an existing Hornigold partner account or request the official procedure before registration, fee commitments or public edits. Use dated confirmed current facts and rights-cleared images.",
+      "value": "Regional tourism context and maintained factual accommodation entry.",
+      "state": "researched-not-contacted",
+      "limits": "No account created, no partnership claimed, terms and fees not accepted."
+    }
+  ],
+  "contentPackage": [
+    "Correct current property/company name",
+    "Kopernika 6 and confirmed reception contacts from current dossier",
+    "Canonical hornigold.pl landing pages",
+    "Accurate current category and language descriptions",
+    "A small selection of owner-approved existing photographs with usage scope confirmed for each recipient"
+  ],
+  "prohibitedClaims": [
+    "No star classification without evidence",
+    "No copied old website content",
+    "No fabricated endorsements, discounts, availability or SEO guarantees"
+  ],
+  "originalScopeReconciliation": {
+    "G4": "Required process, reception materials and roles are prepared; operational use and new reviews are not an original completion requirement.",
+    "G5": "Required rights check and opportunity assessment can be completed without obtaining third-party publication. Any actual outreach/publication is a separate evidenced state."
+  },
+  "externalActionsTaken": false
+}

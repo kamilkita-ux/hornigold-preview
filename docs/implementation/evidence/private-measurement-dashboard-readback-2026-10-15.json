@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "state": "private-dashboard-prepared-and-reviewed",
+  "sourceReadback": {
+    "ga4Property": "558323228",
+    "ga4Period": "2026-10-08/2026-10-14",
+    "gscProperty": "https://hornigold.pl/",
+    "gscAvailableChartDates": "2026-10-08/2026-10-13",
+    "pageLanguageReceipt": true,
+    "sourceLanguageReceipt": true,
+    "targetLanguageReceipt": true
+  },
+  "privacy": "Actual aggregate values and dashboard stay outside public GitHub",
+  "privateArtifacts": {
+    "ga4-aggregate-20261015.json": "4b3e4377294936bb26c56d744cb372a462e6c976e16ba077a57e12a6c0c13fad",
+    "gsc-performance-20261015.json": "158f4542e465ed75b401f4dfd15ed6aaed1d85036818daf444698775d47f1dbf",
+    "dashboard-2026-10-15.html": "0312d16bd50440259cbb01cbf55711f7a8a64e1ca74769e69ef43cbaadfe31e8"
+  },
+  "limits": [
+    "Manual dated snapshot, not a live API connection",
+    "Very small sample may include controlled tests",
+    "Sales, payment and booking acceptance remain unverified; missing data shown as unknown",
+    "GSC has no sufficient field CWV data"
+  ]
+}
