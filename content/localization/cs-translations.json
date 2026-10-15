@@ -20260,15 +20260,15 @@
     ]
   },
   {
-    "id": "32faa4c8e400c286",
-    "source": "After choosing a room, you complete the booking and payment in the hotel's booking system.",
+    "id": "678d548b6c0d4e65",
+    "source": "After choosing a room, you will continue to an external booking system. Check availability, the total price and terms there before making a reservation.",
     "translation": "Po výběru pokoje přejdete do externího rezervačního systému. Před rezervací si tam ověřte dostupnost, celkovou cenu a podmínky.",
-    "reviewed": false,
+    "reviewed": true,
     "usedIn": [
       "site/en/index.html",
       "site/en/pobyt/index.html"
     ],
-    "reviewNote": "Prepared neutral replacement. Keep unreviewed until PR27 source sentence and page fingerprints are reconciled."
+    "reviewNote": "Verified English copy-only change merged in 931c0b7; Czech preserves external availability, price and terms checks without promising payment acceptance."
   },
   {
     "id": "ec0c155b1f01f6df",
@@ -22179,8 +22179,8 @@
   {
     "id": "21d4714ff4d43c0d",
     "source": "07.2024 · Google Street View",
-    "translation": null,
-    "reviewed": false,
+    "translation": "07.2024 · Google Street View",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22188,8 +22188,8 @@
   {
     "id": "a286eb81257dc3e0",
     "source": "Open this view in Google Maps",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřít tento pohled v Mapách Google",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22197,8 +22197,8 @@
   {
     "id": "1c2e7ce864cd961d",
     "source": "Follow Marii Skłodowskiej-Curie to its junction with Kopernika. Turn left onto Kopernika and continue to number 6.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokračujte ulicí Marii Skłodowskiej-Curie ke křižovatce s ulicí Kopernika. Odbočte vlevo do ulice Kopernika a pokračujte k číslu 6.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22206,8 +22206,8 @@
   {
     "id": "2795f1bde6052492",
     "source": "Look for the entrance with the blue Hornigold canopy and flags at Kopernika 6, visible in the panorama. Confirm current entry and late-arrival arrangements with reception.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hledejte vstup s modrou stříškou Hornigold a vlajkami na adrese Kopernika 6, který je vidět v panoramatu. Aktuální vstup a postup při pozdním příjezdu si ověřte na recepci.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22215,8 +22215,8 @@
   {
     "id": "4c7fbe2e2d533729",
     "source": "09.2025 · Google Street View",
-    "translation": null,
-    "reviewed": false,
+    "translation": "09.2025 · Google Street View",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22224,8 +22224,8 @@
   {
     "id": "1459bf28239aaddc",
     "source": "Archive Google Street View imagery: July 2024 and September 2025. This is a tour of selected stops, not a live view. Signs and traffic arrangements may have changed. If a panorama does not open, use the Google Maps link.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Archivní snímky Google Street View z července 2024 a září 2025. Jde o prohlídku vybraných zastavení, nikoli o živý přenos. Značení a dopravní uspořádání se mohly změnit. Pokud se panorama neotevře, použijte odkaz na Mapy Google.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22233,8 +22233,8 @@
   {
     "id": "7f1401ce94c5e02b",
     "source": "Kopernika 6, Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kopernika 6, Katowice",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22242,8 +22242,8 @@
   {
     "id": "e5d8fefb4ece025d",
     "source": "Parking & entrance",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Parkování a vstup",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22251,8 +22251,8 @@
   {
     "id": "82c9e97e59f9559b",
     "source": "First-arrival guide",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Průvodce prvním příjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22260,8 +22260,8 @@
   {
     "id": "5d3b8421bb345b5f",
     "source": "Katowice. Your next story.. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice. Váš další příběh. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22269,8 +22269,8 @@
   {
     "id": "9f3aaa32c1500c4d",
     "source": "The front of the Hornigold townhouse at 6 Kopernika Street in Katowice, with flags by the street entrance.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Průčelí domu Hornigold na adrese Kopernika 6 v Katovicích s vlajkami u vstupu z ulice.",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22278,8 +22278,8 @@
   {
     "id": "3df357b030f29e6d",
     "source": "Greenery at the Hornigold entrance",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeleň u vstupu do Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/location/index.html"
     ]
@@ -22287,8 +22287,8 @@
   {
     "id": "35ae545294665e20",
     "source": "Our guests’ experiences | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zkušenosti našich hostů | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/our-guests-experiences/index.html"
     ]
@@ -22296,8 +22296,8 @@
   {
     "id": "62dae7e9ed76240b",
     "source": "REVIEWS",
-    "translation": null,
-    "reviewed": false,
+    "translation": "RECENZE",
+    "reviewed": true,
     "usedIn": [
       "site/en/our-guests-experiences/index.html"
     ]
@@ -22305,8 +22305,8 @@
   {
     "id": "84807dd2aefcf7e7",
     "source": "Our guests’ experiences",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zkušenosti našich hostů",
+    "reviewed": true,
     "usedIn": [
       "site/en/our-guests-experiences/index.html"
     ]
@@ -22314,7 +22314,7 @@
   {
     "id": "655aff86bc625fc4",
     "source": "The rating comes from Google. We do not independently verify whether every reviewer has stayed with us. See Google for current reviews and its publication rules.",
-    "translation": "Hodnocení pochází z Googlu. Samostatně neověřujeme, zda u nás každý recenzent pobýval. Aktuální recenze a pravidla jejich zveřejňování najdete na Googlu.",
+    "translation": "Hodnocení pochází z Googlu. Neověřujeme nezávisle, zda u nás každý recenzent pobýval. Aktuální recenze a pravidla jejich zveřejňování najdete na Googlu.",
     "reviewed": true,
     "usedIn": [
       "site/en/our-guests-experiences/index.html"
@@ -22323,8 +22323,8 @@
   {
     "id": "e9cee3225dd52778",
     "source": "Our guests’ experiences. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zkušenosti našich hostů. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, pokoje a informace o příjezdu, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/our-guests-experiences/index.html"
     ]
@@ -22332,8 +22332,8 @@
   {
     "id": "9fd685e7c8790af6",
     "source": "Plan an easy arrival | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si pohodlný příjezd | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22341,8 +22341,8 @@
   {
     "id": "cc801e2a7834f417",
     "source": "PARKING & ARRIVAL",
-    "translation": null,
-    "reviewed": false,
+    "translation": "PARKOVÁNÍ A PŘÍJEZD",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]
@@ -22350,8 +22350,8 @@
   {
     "id": "1fed799013bddb01",
     "source": "Plan an easy arrival",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si pohodlný příjezd",
+    "reviewed": true,
     "usedIn": [
       "site/en/plan-an-easy-arrival/index.html"
     ]

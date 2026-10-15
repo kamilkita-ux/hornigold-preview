@@ -98,7 +98,7 @@
     "site/en/dokumenty/index.html": "73fc827eae421b0bac0cc32c5fde1a731a0b5cefc70dfd432afdce8a30c89556",
     "site/en/faq/index.html": "eb54ecfa66f626d323edc380e33ca3fed08232cb122f3d892706ba04dcd30023",
     "site/en/good-to-know/index.html": "98698503247da113358edc302aba04b3990877b89f18951990ce9877802f60dd",
-    "site/en/index.html": "78cbeed8fbd63591d4072f413a4e30694d007cdb7321eac59ad27f56207614f7",
+    "site/en/index.html": "8b307ff44ee149406367de465fe25e4152a7b4de5bbea1a38e00f561814e2b3c",
     "site/en/informacje/index.html": "60ebd3c7c7f8fd30bc9fa6516f6b599d674e029b852276b078bb839e95a0b7d8",
     "site/en/katowice/architecture-and-a-city-centre-walk/index.html": "de1ac491f6772db829c6d057f635eb2f569be8cf1ffb7d0190b3c6e1023d3abb",
     "site/en/katowice/architektura/index.html": "4e03d4f4337e42accdf6d84ef6211b480885ecc82873a381c9902ce19787155d",
@@ -183,7 +183,7 @@
     "site/en/parking/index.html": "4445f8c9fba60dc5f838d3272bd22109b1c9a57c4fc470508719bd26bc927f34",
     "site/en/plan-an-easy-arrival/index.html": "2525eb08337a6586fa25ea4ab6adcc9138bb152733da01a4bbe5ac0fc05f4f4a",
     "site/en/pobyt/dluzszy-pobyt/index.html": "66f4aaf5ce850c5e3ab9085674b35d21c87edc3511ca48768e9a314a2748b3a3",
-    "site/en/pobyt/index.html": "71cddca1b7fcc5afe4c60f9669e2846fe6b98b1250da5fd6dca4edf2f2f08353",
+    "site/en/pobyt/index.html": "68155dbf603f660f530bff223998ed1d5266af75fc918b3af4399d85848e08da",
     "site/en/pobyt/rodzina/index.html": "1a71b991f292e79b004bf8cdb74225af65cd501c67fafa9ac14982734cdc21bb",
     "site/en/pobyt/sluzbowo/index.html": "364df48d4434580f643f5693b6f74356cb6bcb403401fca2f9d71cd91bccb188",
     "site/en/pobyt/weekend/index.html": "5372c6873bd7ccc25803d67392cf7f451bc480e51efb4bcb48a05ac8c7dc784f",
@@ -320,5 +320,6 @@
   ],
   "translationTotal": 1448,
   "legalHtmlAndPdfVerified": true,
-  "legalEvidenceDirectory": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/czech-legal-reviewed-final"
+  "legalEvidenceDirectory": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-14/czech-legal-reviewed-final",
+  "bookingHandoffSourceReview": "931c0b7: only date-help copy changed in two English source pages; corresponding translation reviewed."
 }
