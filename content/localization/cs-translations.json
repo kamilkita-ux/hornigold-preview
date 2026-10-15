@@ -23470,8 +23470,8 @@
   {
     "id": "01d3a6e92ddbcc0d",
     "source": "Bed beneath wooden beams — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Postel pod dřevěnými trámy — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23479,8 +23479,8 @@
   {
     "id": "9642d63ebcb85df8",
     "source": "Close-up of cushions and the wooden headboard — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Detail polštářů a dřevěného čela postele — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23488,8 +23488,8 @@
   {
     "id": "6e3394bede47e71e",
     "source": "Kitchenette with wooden cabinets — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kuchyňský kout s dřevěnými skříňkami — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23497,8 +23497,8 @@
   {
     "id": "ac4840576b2dd400",
     "source": "Bathroom washbasin and mirror — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Umyvadlo a zrcadlo v koupelně — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23506,8 +23506,8 @@
   {
     "id": "8be3aad09bc92757",
     "source": "Bathroom shower cubicle — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Sprchový kout v koupelně — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23515,8 +23515,8 @@
   {
     "id": "6e6849aa3f26a4a5",
     "source": "Front view of the bed with pictures above the headboard — Deluxe Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Čelní pohled na postel s obrazy nad čelem — Deluxe Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/deluxe-premium/index.html"
     ]
@@ -23524,8 +23524,8 @@
   {
     "id": "11a2fd928f9653ca",
     "source": "Hornigold Apartment — stay in central Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold — pobyt v centru Katovic | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23533,8 +23533,8 @@
   {
     "id": "8c4c6ca705fbec01",
     "source": "/ Hornigold Apartment",
-    "translation": null,
-    "reviewed": false,
+    "translation": "/ Apartmán Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23542,8 +23542,8 @@
   {
     "id": "90efe387677d190a",
     "source": "Hornigold Apartment — stay in central Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold — pobyt v centru Katovic",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23551,8 +23551,8 @@
   {
     "id": "f045be9e859717ac",
     "source": "Hornigold Apartment · 105 m² · Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold · 105 m² · Katovice",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23560,8 +23560,8 @@
   {
     "id": "73dc22252235abc8",
     "source": "Two kitchenettes",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dva kuchyňské kouty",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23569,8 +23569,8 @@
   {
     "id": "6e527a337543f1c6",
     "source": "Two bathrooms",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Dvě koupelny",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html",
       "site/en/rooms/prestige/index.html"
@@ -23579,8 +23579,8 @@
   {
     "id": "a7196d2ca6109849",
     "source": "Hornigold Apartment is a category at Hornigold in the Green Townhouse, at Kopernika 6 in Katowice. Its floor area is 105 m². Bed arrangement: Two bedrooms, each with a queen bed. Amenities include Wi-Fi; Two kitchenettes; Two bathrooms; Manually controlled air conditioning. Use these details to choose a space that fits the way you plan to spend your time, whether you are visiting the city for a short break or combining work and leisure.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 105 m². Uspořádání lůžek: dvě ložnice, každá s manželskou postelí queen. Vybavení zahrnuje Wi-Fi, dva kuchyňské kouty, dvě koupelny a ručně ovládanou klimatizaci. Tyto informace vám pomohou vybrat prostor pro krátký pobyt ve městě i spojení práce a odpočinku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23588,8 +23588,8 @@
   {
     "id": "a80241dfb3409941",
     "source": "Explore the gallery before choosing. The photographs include Living room with wooden beams, red sofa and chest of drawers. They show individual interiors in this category. Look at the layout, the space around the bed and the bathroom fittings. If a particular feature matters to your stay, mention it in your enquiry so reception can help match the room to your needs.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před výběrem si prohlédněte galerii. Fotografie zahrnují obývací pokoj s dřevěnými trámy, červenou pohovkou a komodou. Ukazují jednotlivé interiéry této kategorie. Všímejte si dispozice, prostoru kolem postele a vybavení koupelny. Pokud je pro vás konkrétní prvek důležitý, uveďte jej v poptávce, aby vám recepce mohla pomoci vybrat vhodný pokoj.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23597,8 +23597,8 @@
   {
     "id": "a3eeef959c75d613",
     "source": "Hornigold Apartment — stay in central Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Apartmán Hornigold — pobyt v centru Katovic. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23606,8 +23606,8 @@
   {
     "id": "2afb880b450b824b",
     "source": "Kitchenette and table with chairs — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kuchyňský kout a stůl se židlemi — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23615,8 +23615,8 @@
   {
     "id": "98692ec65ab610c5",
     "source": "Living room with a red sofa, glazing and a table at the far end — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Obývací pokoj s červenou pohovkou, prosklením a stolem na vzdáleném konci — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23624,8 +23624,8 @@
   {
     "id": "7f97ed100d290c52",
     "source": "Front view of the bed with pictures above the headboard — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Čelní pohled na postel s obrazy nad čelem — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23633,8 +23633,8 @@
   {
     "id": "993002b81eabb3e5",
     "source": "Close-up of cushions and the wooden headboard — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Detail polštářů a dřevěného čela postele — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23642,8 +23642,8 @@
   {
     "id": "cdbed7482face1ed",
     "source": "Blue chair by the glazing, with the living room behind — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Modrá židle u prosklení s obývacím pokojem v pozadí — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23651,8 +23651,8 @@
   {
     "id": "d32261aee265d254",
     "source": "Red sofa and wooden coffee table in the living room — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Červená pohovka a dřevěný konferenční stolek v obývacím pokoji — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23660,8 +23660,8 @@
   {
     "id": "b1ad25172f28cea0",
     "source": "Bathroom with a bathtub and washbasin — Hornigold Apartment, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Koupelna s vanou a umyvadlem — Apartmán Hornigold, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/hornigold/index.html"
     ]
@@ -23669,8 +23669,8 @@
   {
     "id": "403ec84d74ba6e5d",
     "source": "Rooms and apartments · Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje a apartmány · Katovice | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/index.html"
     ]
@@ -23678,8 +23678,8 @@
   {
     "id": "d3b87b751454394f",
     "source": "Rooms and apartments · Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje a apartmány · Katovice",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/index.html"
     ]
@@ -23687,8 +23687,8 @@
   {
     "id": "f7220e0cabee990c",
     "source": "Explore the rooms and apartments of the Green Townhouse.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédněte si pokoje a apartmány v Hornigold w Zielonej Kamienicy.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/index.html"
     ]
@@ -23696,8 +23696,8 @@
   {
     "id": "8b56781659ea81c9",
     "source": "Rooms and apartments · Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokoje a apartmány v Katovicích. Objevte Hornigold na adrese Kopernika 6. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/index.html"
     ]
@@ -23705,8 +23705,8 @@
   {
     "id": "055901ebe3c7407a",
     "source": "Premium — stay in central Katowice | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium — pobyt v centru Katovic | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23714,8 +23714,8 @@
   {
     "id": "06e37d09b2e96f2d",
     "source": "/ Premium",
-    "translation": null,
-    "reviewed": false,
+    "translation": "/ Premium",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23723,8 +23723,8 @@
   {
     "id": "017fcdc36337f5fb",
     "source": "Premium — stay in central Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium — pobyt v centru Katovic",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23732,8 +23732,8 @@
   {
     "id": "2d8f0b470997455d",
     "source": "Premium · 35 m² · Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium · 35 m² · Katovice",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23741,8 +23741,8 @@
   {
     "id": "093cbfb44c852b22",
     "source": "Whirlpool bath and shower",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Hydromasážní vana a sprcha",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23750,8 +23750,8 @@
   {
     "id": "f9b7ab588cac3867",
     "source": "Premium is a category at Hornigold in the Green Townhouse, at Kopernika 6 in Katowice. Its floor area is 35 m². Bed arrangement: One double bed. Amenities include Wi-Fi; Kitchenette; Whirlpool bath and shower. Use these details to choose a space that fits the way you plan to spend your time, whether you are visiting the city for a short break or combining work and leisure.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 35 m². Uspořádání lůžek: jedna manželská postel. Vybavení zahrnuje Wi-Fi, kuchyňský kout, hydromasážní vanu a sprchu. Tyto informace vám pomohou vybrat prostor pro krátký pobyt ve městě i spojení práce a odpočinku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23759,8 +23759,8 @@
   {
     "id": "d6bca5ba08fce0dc",
     "source": "Explore the gallery before choosing. The photographs include Bedroom with a large window and greenery outside. They show individual interiors in this category. Look at the layout, the space around the bed and the bathroom fittings. If a particular feature matters to your stay, mention it in your enquiry so reception can help match the room to your needs.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před výběrem si prohlédněte galerii. Fotografie zahrnují ložnici s velkým oknem a zelení venku. Ukazují jednotlivé interiéry této kategorie. Všímejte si dispozice, prostoru kolem postele a vybavení koupelny. Pokud je pro vás konkrétní prvek důležitý, uveďte jej v poptávce, aby vám recepce mohla pomoci vybrat vhodný pokoj.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23768,8 +23768,8 @@
   {
     "id": "6c3d92172635cd55",
     "source": "Premium — stay in central Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Premium — pobyt v centru Katovic. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie a pokoje, naplánujte pobyt a kontaktujte náš tým.",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23777,8 +23777,8 @@
   {
     "id": "c6d43940fbfca0ca",
     "source": "Table with chairs and a view through the doorway to the bedroom — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stůl se židlemi a průhled dveřmi do ložnice — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23786,8 +23786,8 @@
   {
     "id": "7212a70740feda89",
     "source": "Blue armchair, table and bedroom doorway — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Modré křeslo, stůl a dveře do ložnice — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23795,8 +23795,8 @@
   {
     "id": "e22e339105247aea",
     "source": "Table with chairs, decorations and television in the background — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Stůl se židlemi, dekoracemi a televizorem v pozadí — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23804,8 +23804,8 @@
   {
     "id": "f6995f8b695765ed",
     "source": "Bed beside a wooden wardrobe — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Postel vedle dřevěné šatní skříně — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23813,8 +23813,8 @@
   {
     "id": "c64557ef5a791311",
     "source": "Kitchenette beside the table and seating area — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Kuchyňský kout vedle stolu a posezení — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
@@ -23822,8 +23822,8 @@
   {
     "id": "82df4aa4097cf252",
     "source": "Bathroom with a bathtub and washbasin — Premium, Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Koupelna s vanou a umyvadlem — Premium, Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/rooms/premium/index.html"
     ]
