@@ -33,9 +33,11 @@ test('root uses saved-language document and standard pages have protective heade
  assert.equal(r.status,200);assert.equal(await r.text(),'remember-language');assert.match(r.headers.get('Content-Security-Policy'),/frame-ancestors 'none'/);assert.equal(r.headers.get('X-Frame-Options'),'DENY');assert.equal(r.headers.get('Referrer-Policy'),'no-referrer');assert.match(r.headers.get('X-Robots-Tag'),/noindex/);
 });
 test('all language errors preserve HTTP404, correct language and no stale conditional request',async()=>{
- for(const lang of ['pl','en','de','zh-hans','uk','es','it']){
- let calls=0;const r=await worker.fetch(new Request('https://example.com/'+lang+'/missing/',{headers:{'If-None-Match':'old'}}),{ASSETS:{fetch:async req=>{if(++calls===1)return new Response('missing',{status:404});assert.equal(new URL(req.url).pathname,'/'+lang+'/404');assert.equal(req.headers.get('If-None-Match'),null);return new Response('<html lang="'+lang+'">Error</html>')}}});
- assert.equal(r.status,404);assert.match(await r.text(),new RegExp('lang="'+lang+'"'));
+ const languages=JSON.parse(readFileSync(new URL('../release.json',import.meta.url),'utf8')).languages.map(x=>x.toLowerCase());
+ for(const lang of languages)for(const method of ['GET','HEAD']){
+ let calls=0;const r=await worker.fetch(new Request('https://example.com/'+lang+'/missing/',{method,headers:{'If-None-Match':'old','If-Modified-Since':'yesterday'}}),{ASSETS:{fetch:async req=>{assert.equal(req.method,method);if(++calls===1)return new Response(method==='HEAD'?null:'missing',{status:404});assert.equal(new URL(req.url).pathname,'/'+lang+'/404');assert.equal(req.headers.get('If-None-Match'),null);assert.equal(req.headers.get('If-Modified-Since'),null);return new Response(method==='HEAD'?null:'<html lang="'+lang+'">Error</html>')}}});
+ assert.equal(r.status,404);assert.equal(r.headers.get('Cache-Control'),'no-store');assert.match(r.headers.get('X-Robots-Tag'),/noindex/);
+ if(method==='GET')assert.match(await r.text(),new RegExp('lang="'+lang+'"'));else assert.equal(await r.text(),'');
  }
 });
 

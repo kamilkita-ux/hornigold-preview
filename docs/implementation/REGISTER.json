@@ -845,12 +845,22 @@
     "providerAcceptance": "not verified"
   },
   "czechLocale": {
-    "state": "local-tested-ci-pending",
+    "state": "github-preview-published-production-pending",
     "revision": "23.28",
     "routes": 99,
     "position": 3,
     "externalBookingLanguage": "English fallback, Czech support unverified",
     "protectedIntegrations": "Byte-identical to origin/main; dated hashes recorded",
-    "evidence": "docs/implementation/evidence/czech-local-acceptance-23.28.json"
+    "evidence": "docs/implementation/evidence/czech-local-acceptance-23.28.json",
+    "previewCommit": "e9c01e073f00857ec87ddbf19b324b66b352deef",
+    "previewPublicChecks": {
+      "pages": 99,
+      "pdfs": 24
+    }
+  },
+  "czechErrorLocaleFix": {
+    "revision": "23.29",
+    "state": "local-tested-unpublished",
+    "evidence": "docs/implementation/evidence/czech-404-23.29.json"
   }
 }
