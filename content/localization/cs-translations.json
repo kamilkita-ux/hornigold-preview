@@ -21066,8 +21066,8 @@
   {
     "id": "d6a120abc81e6f09",
     "source": "Replace part of the walk with an exhibition at the Silesian Museum; check access and hours first.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Část procházky nahraďte výstavou ve Slezském muzeu; nejprve ověřte přístup a otevírací dobu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21075,8 +21075,8 @@
   {
     "id": "6fd28f929a956d26",
     "source": "Directions & sources",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Trasy a zdroje",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -21089,8 +21089,8 @@
   {
     "id": "559da9801de113a3",
     "source": "Open walking directions",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Otevřít pěší trasu",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -21103,8 +21103,8 @@
   {
     "id": "d35b53f0bf5a78ab",
     "source": "City of Katowice — modernist architecture",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Město Katovice — modernistická architektura",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21112,8 +21112,8 @@
   {
     "id": "f113cec31fa6ac0f",
     "source": "Silesian Museum — exhibitions and visiting information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Slezské muzeum — výstavy a informace pro návštěvníky",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/choose-an-event-plan-your-stay/index.html",
@@ -21124,8 +21124,8 @@
   {
     "id": "fad20857a161ca75",
     "source": "Updated: 3 October 2026 · review due by 3 November 2026. Check prices, hours and availability with the organiser before travelling. Editorial recommendation with no commercial partnerships. Map links are not measured walking times.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Aktualizováno: 3. října 2026 · další kontrola nejpozději 3. listopadu 2026. Ceny, otevírací dobu a dostupnost ověřte před cestou u pořadatele. Redakční doporučení bez obchodních partnerství. Mapové odkazy nejsou dokladem změřené doby chůze.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -21138,8 +21138,8 @@
   {
     "id": "62bbbbd82bec152c",
     "source": "Explore room categories",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Prohlédnout kategorie pokojů",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html",
@@ -21153,8 +21153,8 @@
   {
     "id": "11e015ce61d42d89",
     "source": "Architecture and a city-centre walk. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Architektura a procházka centrem. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/architecture-and-a-city-centre-walk/index.html"
     ]
@@ -21162,8 +21162,8 @@
   {
     "id": "aba88bce8c104b3a",
     "source": "Business travel: before you arrive | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta: před příjezdem | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21171,8 +21171,8 @@
   {
     "id": "39a123df7bf14d64",
     "source": "Business travel: before you arrive",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta: před příjezdem",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html"
@@ -21181,8 +21181,8 @@
   {
     "id": "bc7548dfb6354043",
     "source": "For business travellers and team travel organisers.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro hosty na služebních cestách a organizátory týmových pobytů.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/business-travel-before-you-arrive/index.html"
@@ -21191,8 +21191,8 @@
   {
     "id": "0ba6614de7a2fa58",
     "source": "Provide dates and the number of guests and rooms. State whether you need an invoice; send billing details later through an agreed channel.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Uveďte termín a počet hostů i pokojů. Sdělte, zda potřebujete fakturu; fakturační údaje zašlete později dohodnutým kanálem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21200,8 +21200,8 @@
   {
     "id": "48b8d0210c6a7358",
     "source": "Confirm your work requirements",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Potvrďte požadavky na práci",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21209,8 +21209,8 @@
   {
     "id": "8f823f402f568afa",
     "source": "Check your room’s facilities, internet requirements and arrival time. Do not assume all categories have identical equipment.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte vybavení pokoje, požadavky na internet a čas příjezdu. Nepředpokládejte, že všechny kategorie mají stejné vybavení.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21218,8 +21218,8 @@
   {
     "id": "76fbff7eadd18b97",
     "source": "Check the meeting venue",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte místo setkání",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21227,8 +21227,8 @@
   {
     "id": "ff3ccbc372f5377a",
     "source": "Verify the address and entrance with your organiser. For MCK events, check venue updates and allow extra travel time.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Adresu a vstup si potvrďte u organizátora. U akcí v MCK sledujte aktuality místa konání a ponechte si časovou rezervu na dopravu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21236,8 +21236,8 @@
   {
     "id": "f57c4cab08b474ff",
     "source": "For a time-critical meeting, plan an alternative transport option for bad weather.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "U schůzky, na kterou musíte přijet přesně, naplánujte náhradní dopravu pro případ nepříznivého počasí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21245,8 +21245,8 @@
   {
     "id": "8bb01063c03f0473",
     "source": "MCK — official events",
-    "translation": null,
-    "reviewed": false,
+    "translation": "MCK — oficiální akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html",
       "site/en/katowice/choose-an-event-plan-your-stay/index.html",
@@ -21256,8 +21256,8 @@
   {
     "id": "2cd1a5a2d91b11c7",
     "source": "Business travel: before you arrive. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Služební cesta: před příjezdem. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/business-travel-before-you-arrive/index.html"
     ]
@@ -21265,8 +21265,8 @@
   {
     "id": "919c6df58350fcfd",
     "source": "Choose an event. Plan your stay. | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si akci. Naplánujte si pobyt. | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21274,8 +21274,8 @@
   {
     "id": "6746cfa6bdc11f96",
     "source": "EVENTS",
-    "translation": null,
-    "reviewed": false,
+    "translation": "AKCE",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21283,8 +21283,8 @@
   {
     "id": "f29c698d7403580a",
     "source": "Choose an event. Plan your stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si akci. Naplánujte si pobyt.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21292,8 +21292,8 @@
   {
     "id": "7dca4062592375c4",
     "source": "Accommodation and tickets are separate purchases. We do not offer event tickets or packages.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ubytování a vstupenky se kupují samostatně. Nenabízíme vstupenky na akce ani balíčky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21301,8 +21301,8 @@
   {
     "id": "c1851d1ab0217ce5",
     "source": "Adaptive Breathing",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Adaptivní dýchání",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21310,8 +21310,8 @@
   {
     "id": "813c2791aedc6a3c",
     "source": "Organiser information",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Informace pořadatele",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21319,8 +21319,8 @@
   {
     "id": "bef7401be877f8ad",
     "source": "Source checked",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zdroj ověřen",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21328,8 +21328,8 @@
   {
     "id": "b526f93418804cbc",
     "source": "Review by",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřit do",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21337,8 +21337,8 @@
   {
     "id": "278b3131d14c6d27",
     "source": "NOSPR chamber concert: Melody of Rhythm",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Komorní koncert NOSPR: Melodie rytmu",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21346,8 +21346,8 @@
   {
     "id": "10e636e3b0291e88",
     "source": "NOSPR",
-    "translation": null,
-    "reviewed": false,
+    "translation": "NOSPR",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21355,8 +21355,8 @@
   {
     "id": "356a98ac1ee21ac2",
     "source": "Silesian Quartet and guests: Aleksander Tansman in France",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Slezské kvarteto a hosté: Aleksander Tansman ve Francii",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21364,8 +21364,8 @@
   {
     "id": "29655a6866c47343",
     "source": "NOSPR, Florêncio and Kowalski: Silesian Guitar Autumn",
-    "translation": null,
-    "reviewed": false,
+    "translation": "NOSPR, Florêncio a Kowalski: Slezský kytarový podzim",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21373,8 +21373,8 @@
   {
     "id": "72e438350df93a2f",
     "source": "JazzKLUB: Samora Pinderhughes Quintet with Elena Pinderhughes",
-    "translation": null,
-    "reviewed": false,
+    "translation": "JazzKLUB: Samora Pinderhughes Quintet s Elenou Pinderhughes",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21382,8 +21382,8 @@
   {
     "id": "b488eb141d55ba2b",
     "source": "Podger and Świątkiewicz: Paths to Bach",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podger a Świątkiewicz: Cesty k Bachovi",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21391,8 +21391,8 @@
   {
     "id": "23b6381373c7feb2",
     "source": "No events with a current verification. See organiser calendars below.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Žádné akce s aktuálním ověřením. Prohlédněte si níže uvedené kalendáře pořadatelů.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21400,8 +21400,8 @@
   {
     "id": "78f0ccb54dc4f71f",
     "source": "Official calendars",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Oficiální kalendáře",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21409,8 +21409,8 @@
   {
     "id": "f30f855db4c8371f",
     "source": "Spodek — official events",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Spodek — oficiální akce",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html",
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
@@ -21419,8 +21419,8 @@
   {
     "id": "5700aa9535fd9bb0",
     "source": "NOSPR — official programme",
-    "translation": null,
-    "reviewed": false,
+    "translation": "NOSPR — oficiální program",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html",
       "site/en/katowice/visiting-mck-spodek-or-nospr/index.html"
@@ -21429,8 +21429,8 @@
   {
     "id": "2801118ad6310111",
     "source": "Plan transport and your return",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Naplánujte si dopravu a návrat",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21438,8 +21438,8 @@
   {
     "id": "6fe279a916c7acf8",
     "source": "Choose an event. Plan your stay.. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si akci. Naplánujte si pobyt. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/choose-an-event-plan-your-stay/index.html"
     ]
@@ -21447,8 +21447,8 @@
   {
     "id": "04d7c5f920f2c650",
     "source": "Katowice in 24 or 48 hours | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice za 24 nebo 48 hodin | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21456,8 +21456,8 @@
   {
     "id": "86d384e712665f71",
     "source": "Day one: city centre and culture",
-    "translation": null,
-    "reviewed": false,
+    "translation": "První den: centrum a kultura",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21465,8 +21465,8 @@
   {
     "id": "cd8370e2734b337b",
     "source": "Start with a walk in the centre. Continue to the Culture Zone and choose one exhibition at the Silesian Museum. Leave the evening for a meal or a concert from the current programme.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte procházkou v centru. Pokračujte do Zóny kultury a vyberte si jednu výstavu ve Slezském muzeu. Večer ponechte na jídlo nebo koncert z aktuálního programu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21474,8 +21474,8 @@
   {
     "id": "90ea8f6cdf451239",
     "source": "Day two: take your time",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Druhý den: nespěchejte",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21483,8 +21483,8 @@
   {
     "id": "0b421993d4127b1e",
     "source": "With 48 hours, dedicate the next day to Nikiszowiec. Avoid fitting in too many stops; allow time for transport and rest.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Máte-li 48 hodin, věnujte další den Nikiszowci. Nesnažte se zařadit příliš mnoho zastávek; ponechte si čas na dopravu a odpočinek.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21492,8 +21492,8 @@
   {
     "id": "a9d3438996dd2e62",
     "source": "Before choosing dates",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Před výběrem termínu",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21501,8 +21501,8 @@
   {
     "id": "1cba7ae4de054bb6",
     "source": "Check opening days, tickets and transport. This is an editorial itinerary, not a package sold by Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Ověřte otevírací dny, vstupenky a dopravu. Jde o redakční plán návštěvy, nikoli balíček prodávaný Hornigoldem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21510,8 +21510,8 @@
   {
     "id": "1e8f5507e4cc37d3",
     "source": "Spend more time at the Silesian Museum after checking current exhibitions and opening hours.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Po ověření aktuálních výstav a otevírací doby věnujte více času Slezskému muzeu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21519,8 +21519,8 @@
   {
     "id": "4631e520055332c8",
     "source": "City of Katowice — visitor guide",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Město Katovice — průvodce pro návštěvníky",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21528,8 +21528,8 @@
   {
     "id": "67cde79316d9bff4",
     "source": "Katowice in 24 or 48 hours. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice za 24 nebo 48 hodin. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-in-24-or-48-hours/index.html"
     ]
@@ -21537,8 +21537,8 @@
   {
     "id": "33d15645eb33c340",
     "source": "Katowice with children: keep it simple | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s dětmi: jednoduše a v klidu | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21546,8 +21546,8 @@
   {
     "id": "ba8b4cf57b46e173",
     "source": "Katowice with children: keep it simple",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s dětmi: jednoduše a v klidu",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
@@ -21556,8 +21556,8 @@
   {
     "id": "7a93b413a27dcc3d",
     "source": "For adults planning a relaxed day with children.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pro dospělé plánující klidný den s dětmi.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice-with-hornigold/index.html",
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
@@ -21566,8 +21566,8 @@
   {
     "id": "eba691b49bfd6ef6",
     "source": "One activity is enough",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Jedna aktivita stačí",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21575,8 +21575,8 @@
   {
     "id": "123589058d5d2929",
     "source": "Choose an event or workshop from the current Silesian Museum programme. Check age limits and whether your group must book ahead.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si akci nebo dílnu z aktuálního programu Slezského muzea. Ověřte věková omezení a to, zda je pro vaši skupinu nutná rezervace předem.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21584,8 +21584,8 @@
   {
     "id": "7638b8b55e274f90",
     "source": "Allow breaks",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Počítejte s přestávkami",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21593,8 +21593,8 @@
   {
     "id": "ecab347c5b2f7c74",
     "source": "Plan food and rest between journeys. Adapt outdoor activities to the weather and children’s needs.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Mezi přesuny plánujte jídlo a odpočinek. Venkovní aktivity přizpůsobte počasí a potřebám dětí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21602,8 +21602,8 @@
   {
     "id": "e54ca5079d520d7c",
     "source": "Confirm room suitability",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Potvrďte vhodnost pokoje",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21611,8 +21611,8 @@
   {
     "id": "3a68e112adaa6087",
     "source": "Tell reception how many adults and children are travelling and the children’s ages. Confirm beds, extra-bed options and all supplements before booking.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Sdělte recepci počet dospělých a dětí i věk dětí. Před rezervací potvrďte lůžka, možnosti přistýlek a všechny příplatky.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21620,8 +21620,8 @@
   {
     "id": "01ee165c250aab6b",
     "source": "Choose an indoor activity suitable for the children’s ages; check the programme and places with the organiser.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte vnitřní aktivitu vhodnou pro věk dětí; program a volná místa ověřte u pořadatele.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
@@ -21629,8 +21629,8 @@
   {
     "id": "27fa0e541338f5d2",
     "source": "Katowice with children: keep it simple. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Katovice s dětmi: jednoduše a v klidu. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/katowice/katowice-with-children-keep-it-simple/index.html"
     ]
