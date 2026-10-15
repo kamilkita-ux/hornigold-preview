@@ -2,7 +2,7 @@
   'use strict';
   const tag = document.documentElement.lang;
   const language = tag === 'zh-Hans' ? 'zh-hans' : tag;
-  const locales = {pl:'pl-PL',en:'en-GB',de:'de-DE','zh-hans':'zh-CN',uk:'uk-UA',es:'es-ES',it:'it-IT'};
+  const locales = {pl:'pl-PL',en:'en-GB',cs:'cs-CZ',de:'de-DE','zh-hans':'zh-CN',uk:'uk-UA',es:'es-ES',it:'it-IT'};
   const t = (pl, en) => {
     if (language === 'pl') return pl;
     if (language === 'en') return en;
