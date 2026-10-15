@@ -1,5 +1,5 @@
 {
-  "state": "local-unpublished",
+  "state": "local-tested-unpublished",
   "date": "2026-10-15",
   "roomPages": [
     "site/en/rooms/deluxe/index.html",
@@ -65,6 +65,23 @@
   "bookingPageTests": 43,
   "previewBuild": {
     "routes": 694,
+    "errors": 0
+  },
+  "staticAudit": {
+    "routes": 694,
+    "links": 77291,
+    "errors": 0
+  },
+  "previewSeoAudit": {
+    "reachableRoutes": 694,
+    "images": 3299,
+    "errors": 0
+  },
+  "pythonTests": 68,
+  "nodeTests": 168,
+  "productionReadyAudit": {
+    "routes": 694,
+    "links": 77525,
     "errors": 0
   }
 }
