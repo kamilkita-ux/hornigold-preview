@@ -73,7 +73,7 @@ def prepare(destination):
                 continue
             node.replace_with(translate(str(node)))
         for tag in soup.find_all(True):
-            for attr in ('alt', 'title', 'aria-label', 'placeholder'):
+            for attr in ('alt', 'title', 'aria-label', 'placeholder', 'data-cleared'):
                 if attr in tag.attrs:
                     tag[attr] = translate(tag[attr])
             if tag.name == 'meta' and tag.get('name') in ('description','twitter:title','twitter:description'):

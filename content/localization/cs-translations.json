@@ -24333,5 +24333,15 @@
     "usedIn": [
       "site/en/wellness-and-spa/index.html"
     ]
+  },
+  {
+    "id": "1fba2cbd81a68a31",
+    "source": "This website's stored data have been cleared. Reload to clear the forms as well.",
+    "translation": "Uložené údaje tohoto webu byly vymazány. Obnovte stránku, aby se vymazaly také formuláře.",
+    "reviewed": true,
+    "usedIn": [
+      "site/en/index.html"
+    ],
+    "reviewNote": "Dynamic data-cleared attribute inventoried during consent testing; shared across canonical pages."
   }
 ]
