@@ -2,6 +2,7 @@
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from bs4 import BeautifulSoup
+from seo import hreflang_languages
 import json, re, argparse, hashlib, datetime
 p=argparse.ArgumentParser();p.add_argument('--base',default='/');p.add_argument('--output',default='/tmp/hornigold-static-audit.json');args=p.parse_args()
 root=Path(__file__).resolve().parent.parent;out=root/'_site';base=args.base
@@ -12,14 +13,16 @@ for route in routes:
  f=out/unquote(route.strip('/'))/'index.html';s=docs[f]
  def check(ok,kind):
   if not ok:errors.append({'route':route,'error':kind})
- check(s.html.get('lang') in langs,'lang')
+ expected_languages=hreflang_languages(root,route)
+ check(s.html.get('lang') in expected_languages-{'x-default'},'lang')
  check(s.title and s.title.get_text(strip=True),'title')
  check(s.select_one('meta[name=description][content]'),'description')
  check('noindex' in s.select_one('meta[name=robots]')['content'],'noindex')
  check(not s.select('.preview-bar'),'removed banner')
  check(s.select_one('[data-site-version]').get_text()==str(release.get('revision',release['version'])),'version')
- alts={a['hreflang']:a['href'] for a in s.select('link[rel=alternate][hreflang]')}
- check(set(alts)==langs|{'x-default'},'hreflang matrix')
+ alternate_tags=s.select('link[rel=alternate][hreflang]')
+ alts={a['hreflang']:a['href'] for a in alternate_tags}
+ check(len(alternate_tags)==len(expected_languages) and set(alts)==expected_languages,'hreflang matrix')
  check(len(s.select('a[data-language]'))==7,'language switcher')
  canonical=s.select_one('link[rel=canonical]')
  check(canonical and canonical['href']=='https://hornigold.pl'+route,'canonical')

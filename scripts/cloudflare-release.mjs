@@ -28,7 +28,9 @@ const DEPLOY_BRANCH = "deploy/cloudflare";
 const TAG_PREFIX = "hornigold-v";
 const OWNER_SWITCHES = ["indexing", "bookingEnabled", "paymentsEnabled", "counterEnabled"];
 const SAFE_REF = /^[A-Za-z0-9._/-]+$/;
-const EXPECTED_PAGES = 693;
+function expectedPageCount() {
+  return JSON.parse(readFileSync(new URL("../routes.json", import.meta.url), "utf8")).length;
+}
 
 // ---------- funkcje czyste (testy: tests/cloudflare-release.test.mjs) ----------
 
@@ -185,7 +187,7 @@ function buildAndTest(changedTests) {
     ["audit_discovery", [join("scripts", "audit_discovery.py"), "--mode", "production-ready"]],
     ["paczka _cloudflare_production", [join("scripts", "prepare_cloudflare_production.py")]],
   ];
-  let pages = EXPECTED_PAGES;
+  let pages = expectedPageCount();
   for (const [label, args] of steps) {
     const started = Date.now();
     const result = python(args, { env: { GITHUB_SHA: sha } });
@@ -276,7 +278,7 @@ async function request(path, init = {}) {
   return response;
 }
 
-export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {}) {
+export async function smoke({ pages = expectedPageCount(), expectedCsp = null } = {}) {
   const failures = [];
   const check = (ok, message) => { if (ok) say(`  ✓ ${message}`); else { say(`  ✗ ${message}`); failures.push(message); } };
   const release = readRelease();

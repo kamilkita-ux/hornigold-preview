@@ -841,5 +841,9 @@
   "/pl/kontakt/": {
     "title": "Kontakt z Hornigold w Katowicach | Hornigold",
     "description": "Skontaktuj się z Hornigold w Katowicach w sprawie planowanego pobytu. Znajdź dane kontaktowe i przygotuj pytania o termin, kategorię pokoju oraz warunki."
+  },
+  "/pl/artykuly/od-opinii-goscia-do-poprawy-jakosci/": {
+    "title": "Od opinii gościa do poprawy jakości | Hornigold",
+    "description": "Jak przekładać opinie gości na sprawdzone poprawy jakości: rozpoznanie przyczyny, zadanie, odpowiedzialność i kontrola wykonania. Artykuł Hornigold."
   }
 }

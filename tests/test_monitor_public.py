@@ -24,6 +24,38 @@ class MonitorPublicTests(unittest.TestCase):
             rows = monitor.run_checks()
         return next(row for row in rows if row['name'] == name), request
 
+    def test_policy_uses_exact_served_commit_and_keeps_new_route(self):
+        commit = 'a' * 40
+        release = {'commit': commit, 'audit3ImprovementsDate': '2026-10-13'}
+        def response(url):
+            body = ['/pl/', '/pl/new-article/', '/pl/rezerwacja/'] if url.endswith('routes.json') else {'excludedRoutes': {'/pl/rezerwacja/': 'transaction'}}
+            return {'status': '200', 'tlsVerified': True, 'body': json.dumps(body)}
+        with patch.object(monitor, 'request', side_effect=response) as fetch:
+            routes, excluded, source = monitor.release_policy(release)
+        self.assertEqual(routes, {'/pl/', '/pl/new-article/'})
+        self.assertEqual(excluded, {'/pl/rezerwacja/'})
+        self.assertEqual(source, commit)
+        self.assertTrue(all('/' + commit + '/' in call.args[0] for call in fetch.call_args_list))
+
+    def test_policy_does_not_fall_back_to_old_inventory_on_download_failure(self):
+        with patch.object(monitor, 'request', return_value={'status': '404', 'tlsVerified': True}):
+            with self.assertRaises(ValueError):
+                monitor.release_policy({'commit': 'b' * 40})
+
+    def test_policy_rejects_untrusted_commit_without_request(self):
+        for value in ['main', '../main', 'https://example.invalid', 123]:
+            with self.subTest(value=value), patch.object(monitor, 'request') as fetch:
+                with self.assertRaises(ValueError):
+                    monitor.release_policy({'commit': value})
+                fetch.assert_not_called()
+
+    def test_policy_rejects_exclusions_missing_from_route_inventory(self):
+        responses = [{'status': '200', 'tlsVerified': True, 'body': '["/pl/"]'},
+                     {'status': '200', 'tlsVerified': True, 'body': '{"excludedRoutes":{"/missing/":"excluded"}}'}]
+        with patch.object(monitor, 'request', side_effect=responses):
+            with self.assertRaises(ValueError):
+                monitor.release_policy({'commit': 'c' * 40, 'audit3ImprovementsDate': '2026-10-13'})
+
     def test_certificate_failure_is_not_verified_tls(self):
         result = self.fetch('\n000', 60)
         self.assertFalse(result['tlsVerified'])

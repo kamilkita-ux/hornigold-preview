@@ -1,5 +1,5 @@
 {
-  "status": "prepared_not_operational",
+  "status": "existing_basic_measurement_live_language_update_prepared",
   "goal": "Maximize profitable occupied apartment nights using verified demand, availability and paid reservations; no occupancy guarantee.",
   "channels": [
     "google_organic",
@@ -10,10 +10,14 @@
     "linkedin"
   ],
   "websiteEvents": {
-    "page_view": "consented page visit",
-    "contact_click": "click on phone or email, not a completed conversation or lead",
-    "social_link_click": "outbound social profile click",
-    "stay_planner_click": "opens stay planner, not a reservation"
+    "page_view": "Consented page visit with allowlisted page_language; not a unique person",
+    "click_phone": "Phone link click, not a completed call",
+    "click_email": "Email link click, not sent or delivered mail",
+    "social_link_click": "Outbound social link click",
+    "stay_planner_click": "Opens stay planner, not language selection or reservation",
+    "booking_click": "Opens booking route or external engine, not a confirmed booking",
+    "select_apartment": "Selection for comparison, not booking",
+    "language_switch": "Deliberate language switch; source_language and target_language; not a sales conversion"
   },
   "futureVerifiedEvents": {
     "availability_search": "requires actual PMS search result; no guest data",
@@ -50,5 +54,42 @@
     "Advertising account access and data-sharing approval for each connection",
     "Owner budget approval",
     "Verified PMS/payment events before revenue optimization"
-  ]
+  ],
+  "languageCodes": [
+    "pl",
+    "en",
+    "cs",
+    "de",
+    "zh-hans",
+    "uk",
+    "es",
+    "it"
+  ],
+  "czechPublicationStatus": "Not published; prepared measurement does not prove Czech page completion",
+  "reportingDimensions": {
+    "page_language": "Event-scoped custom dimension saved in GA4 property 558323228 and verified by reload on 2026-10-14; new event receipt pending deployment",
+    "source_language": "Event-scoped custom dimension saved in GA4 property 558323228 and verified by reload on 2026-10-14; new event receipt pending deployment",
+    "target_language": "Event-scoped custom dimension saved in GA4 property 558323228 and verified by reload on 2026-10-14; new event receipt pending deployment"
+  },
+  "czechCampaignLabels": {
+    "utm_source": [
+      "seznam",
+      "sklik"
+    ],
+    "utm_medium": [
+      "cpc",
+      "paid_search",
+      "organic"
+    ],
+    "utm_campaign": [
+      "cs_search",
+      "cz_search"
+    ]
+  },
+  "monitoring": {
+    "schedule": "Existing daily heartbeat at07:30 Europe/Warsaw; weekly GA4/GSC read on Monday when session available",
+    "privateHistory": "/Users/kamilkita/Documents/Hornigold-monitoring/traffic",
+    "metric": "pageviews, not unique users",
+    "notifications": "Meaningful changes and new faults only"
+  }
 }

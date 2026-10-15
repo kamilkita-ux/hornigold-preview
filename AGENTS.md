@@ -57,3 +57,6 @@ The owner explicitly declared the existing booking module and Fiserv payment gat
 
 ## Independent preview publication — owner instruction 2026-10-11
 Do not wait for Marek or Cloudflare before publishing tested subsequent updates to the existing GitHub repository and previews. Marek applies the latest available version through his production pipeline. This does not authorize changing the protected booking module or Fiserv, guessing production deployment, removing preview indexing blocks, or overwriting Marek’s integration. Keep publication and production evidence separate.
+
+## Owner authorization — PR-002 publication 2026-10-14
+The owner explicitly approved publication of PR-002 on hornigold.pl and requested active links to the website. Add only the approved Polish article and a discoverable internal link. Do not attribute the proposed method or hypothetical example to actual Hornigold procedures or Kamil Kita. Do not introduce press photographs without rights clearance. A Polish-only article must advertise only existing language equivalents; preserve the full language clusters on the rest of the site. Preserve all booking/Fiserv, server bindings, DNS/mail, consent and preview restrictions.

@@ -10,6 +10,26 @@ ORIGIN = 'https://hornigold.pl'
 LANGS = {'pl', 'en', 'de', 'zh-Hans', 'uk', 'es', 'it'}
 PREVIEW_ROBOTS = 'noindex,nofollow,noarchive'
 
+def single_locale_routes(root):
+    """Only explicitly registered Polish articles may have a one-language cluster."""
+    registry = root / 'content/editorial-articles.json'
+    if not registry.is_file():
+        return set()
+    data = json.loads(registry.read_text())
+    routes = data.get('singleLocaleRoutes', [])
+    if not isinstance(routes, list) or any(not isinstance(route, str) for route in routes):
+        raise ValueError('singleLocaleRoutes must be an explicit list of routes')
+    articles = {row['route']: row for row in data.get('articles', [])}
+    if len(routes) != len(set(routes)) or any(
+        not route.startswith('/pl/artykuly/') or not route.endswith('/')
+        or articles.get(route, {}).get('language') != 'pl' for route in routes
+    ):
+        raise ValueError('Single-locale routes must identify registered Polish articles')
+    return set(routes)
+
+def hreflang_languages(root, route):
+    return ({'pl'} if route in single_locale_routes(root) else LANGS) | {'x-default'}
+
 def source_date_utc(timestamp):
     """Use the actual Git instant, consistently across author and CI timezones."""
     value = datetime.datetime.fromisoformat(timestamp)
@@ -71,6 +91,14 @@ def apply_seo(soup, route, root, mode, routes, overrides):
     if not canonical_route:
         return
     url = ORIGIN + canonical_route
+    if canonical_route in single_locale_routes(root):
+        if soup.html.get('lang') != 'pl':
+            raise ValueError('Registered Polish article has a different document language')
+        for alternate in soup.select('link[rel=alternate][hreflang]'): alternate.decompose()
+        for alternate in soup.select('meta[property="og:locale:alternate"]'): alternate.decompose()
+        if mode == 'preview' or eligible:
+            for language in ('pl', 'x-default'):
+                soup.head.append(soup.new_tag('link', rel='alternate', hreflang=language, href=url))
     override = overrides.get(canonical_route, {})
     if 'title' in override: soup.title.string = override['title']
     if 'description' in override: set_meta(soup, 'description', override['description'])
