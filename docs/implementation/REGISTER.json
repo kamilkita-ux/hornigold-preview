@@ -2,10 +2,10 @@
   "date": "2026-10-14",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": {
-    "revision": "23.24",
-    "commit": "178442e576a910efe6229c7e7c13245ec2ae1de2",
-    "verifiedAt": "2026-10-15",
-    "verification": "Live production readback, current-commit route policy, TLS/redirects/robots/sitemap/counter; no payment or reservation acceptance"
+    "revision": "23.29",
+    "commit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+    "verifiedAt": "2026-10-15T18:23:30.341275+00:00",
+    "verification": "529 sitemap URLs; HTTP/canonical/indexability/H1/lang; 12 critical monitoring checks; Czech 404. No transaction acceptance."
   },
   "items": [
     {
@@ -24,7 +24,8 @@
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
         "evidence/production-release-2026-10-12.json",
-        "evidence/environment-readback-20261014.json"
+        "evidence/environment-readback-20261014.json",
+        "evidence/production-23.29-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -204,10 +205,11 @@
       "id": "C3",
       "status": "partial",
       "environment": "production + local improvement",
-      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły.",
+      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. 15.10.2026: actual receipt of page_language and language_switch source/target values verified in the correct GA4 UI; private aggregates remain outside the repository.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../tests/ga4-staged.test.mjs"
+        "../../tests/ga4-staged.test.mjs",
+        "evidence/private-measurement-dashboard-readback-2026-10-15.json"
       ],
       "barrier": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
       "next": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
@@ -269,10 +271,11 @@
         "evidence/tagged-pdf-adoption-23.18.json",
         "evidence/public-pdfs-23.18.json",
         "evidence/tagged-pdf-structure-current.json",
-        "MANUAL_ACCEPTANCE.md"
+        "MANUAL_ACCEPTANCE.md",
+        "evidence/legal-eight-languages-23.28.json"
       ],
       "barrier": "Rzeczywisty ręczny odbiór czytnikiem ekranu i PDF, ustalenie zakresu PAD oraz pełna ścieżka dostawcy. Produkcyjne wdrożenie nie jest już barierą.",
-      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; produkcję publikuje Marek.",
+      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; aktualne wdrożenie produkcyjne potwierdzać publicznym odczytem, bez zakładania zależności od Marka.",
       "title": "Dostępność"
     },
     {
@@ -284,7 +287,8 @@
       "evidence": [
         "../seo/audit-production-ready.json",
         "evidence/audit-production-readback.json",
-        "evidence/audit-SUMMARY.json"
+        "evidence/audit-SUMMARY.json",
+        "evidence/production-23.29-readback.json"
       ],
       "barrier": null,
       "next": "Kontrola po każdej publikacji.",
@@ -339,14 +343,14 @@
       "id": "F1",
       "status": "partial",
       "environment": "local / pending production",
-      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe.",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/verified-facts-2026-10-11.json"
       ],
       "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
       "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
-      "title": "Fakty i siedem języków"
+      "title": "Fakty i osiem języków"
     },
     {
       "id": "F2",
@@ -411,31 +415,34 @@
     },
     {
       "id": "G4",
-      "status": "local_ready",
-      "environment": "local materials",
-      "change": "Prepared a concrete neutral reception process, responsibility split, reception card and invitation templates in all seven existing languages. No incentives, review gating, fabricated reviews or public disclosure of stay data.",
+      "status": "verified",
+      "environment": "prepared reception materials; operational use not claimed",
+      "change": "Prepared neutral authentic-review process, responsibility split and invitation templates in eight languages. Original scope requires preparing these materials, not obtaining new reviews.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "RECEPTION_REVIEWS_PROCESS.json",
         "MAINTENANCE.md"
       ],
-      "barrier": "Recepcja/Beata: odbiór materiałów i dopasowanie do rzeczywistych procedur; faktyczne użycie nie jest potwierdzone.",
-      "next": "Przekazać materiały w autoryzowanym trybie, potwierdzić właściwy istniejący profil i odbiór przez recepcję. Nie uruchamiać masowej wysyłki.",
-      "title": "Autentyczne opinie"
+      "barrier": null,
+      "next": "Optional operational rollout remains a separate reception decision; never offer incentives or gate reviews.",
+      "title": "Autentyczne opinie",
+      "scopeClarification": "Original brief asks to prepare process, materials and roles; no actual new reviews or staff adoption is claimed."
     },
     {
       "id": "G5",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Inwentaryzacja obrazów i wymóg weryfikacji praw. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
+      "status": "verified",
+      "environment": "rights statement and researched local opportunities",
+      "change": "Owner-confirmed rights for the exact existing image inventory; assessed current official city-directory and regional tourism partner opportunities, with sources and next steps. No external outreach or publication performed.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/image-inventory.json",
-        "evidence/image-rights-owner-confirmation-2026-10-12.json"
+        "evidence/image-rights-owner-confirmation-2026-10-12.json",
+        "evidence/local-mentions-opportunities-2026-10-15.json"
       ],
-      "barrier": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
-      "next": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
-      "title": "Zdjęcia i lokalne wzmianki"
+      "barrier": null,
+      "next": "If pursued, first clarify the two Hornigold-labelled city-directory entries and verify account/terms for the regional partner panel.",
+      "title": "Zdjęcia i lokalne wzmianki",
+      "scopeClarification": "Original brief requires checking rights and opportunities; obtaining partner publication is not substituted as a new acceptance condition."
     },
     {
       "id": "H1",
@@ -495,15 +502,16 @@
     },
     {
       "id": "I3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Wewnętrzny panel pokazuje źródła, aktualność i brak danych zamiast zmyślonych liczb.",
+      "status": "verified",
+      "environment": "private manual dashboard with actual available aggregates",
+      "change": "Built and visually reviewed private dashboard from current GA4 and GSC UI readback. Periods, consent coverage, test contamination and missing sales/Ads data are explicit; no private aggregate values committed to GitHub.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "dashboard.html"
+        "dashboard.html",
+        "evidence/private-measurement-dashboard-readback-2026-10-15.json"
       ],
-      "barrier": "Brak aktualnych zagregowanych wyników klientów GA4 i potwierdzonego źródła sprzedaży; testy kontrolne nie stanowią danych sprzedażowych.",
-      "next": "Odczytać aktualne GA4/GSC i dostępne wyniki Ads; sprzedaż dopiero po potwierdzeniu integracji dostawców. Automatyzacja eksportu nie jest warunkiem pierwotnego zlecenia.",
+      "barrier": null,
+      "next": "Refresh private snapshots on the existing schedule; add actual sales only after verified supplier data becomes available.",
       "title": "Dashboard"
     },
     {
@@ -535,13 +543,13 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 22,
+    "verified": 25,
     "blocked": 2,
-    "local_ready": 2,
-    "partial": 8
+    "local_ready": 1,
+    "partial": 6
   },
-  "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-15T16:28:07.630811+00:00",
+  "publicationSnapshot": "Produkcja i GitHub Pages 23.29 potwierdzone publicznym odczytem. Sites pozostaje starszym podglądem; rezerwacje i płatności wymagają oddzielnego odbioru.",
+  "updatedAtUTC": "2026-10-15T18:24:08.788331+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
@@ -845,7 +853,7 @@
     "providerAcceptance": "not verified"
   },
   "czechLocale": {
-    "state": "github-preview-published-production-pending",
+    "state": "production-published-public-metadata-verified",
     "revision": "23.28",
     "routes": 99,
     "position": 3,
@@ -856,11 +864,17 @@
     "previewPublicChecks": {
       "pages": 99,
       "pdfs": 24
-    }
+    },
+    "productionRevision": "23.29",
+    "productionCommit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+    "productionEvidence": "evidence/production-23.29-readback.json"
   },
   "czechErrorLocaleFix": {
     "revision": "23.29",
-    "state": "local-tested-unpublished",
-    "evidence": "docs/implementation/evidence/czech-404-23.29.json"
-  }
+    "state": "production-verified",
+    "evidence": "docs/implementation/evidence/czech-404-23.29.json",
+    "productionEvidence": "evidence/production-23.29-readback.json"
+  },
+  "scopeReconciliationDate": "2026-10-15",
+  "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance."
 }

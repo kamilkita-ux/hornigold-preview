@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "sources": {
     "GA4": {
       "property": "558323228",
       "stream": "16101873868",
-      "status": "Potwierdzony odbiór kontrolowanego testu w raporcie czasu rzeczywistego. Dane zbiorcze wymagają przetworzenia przez Google.",
+      "status": "Odczyt rzeczywistych danych zbiorczych i trzech wymiarów językowych potwierdzony 15.10.2026. Prywatny panel zawiera dane z okresem 8–14.10; mała próbka może obejmować testy.",
       "visits": null,
       "leads": null,
       "revenue": null,
@@ -18,7 +18,10 @@
           "stay_planner_click": 1
         },
         "evidence": "evidence/ga4-live-receipt-2026-10-11.json"
-      }
+      },
+      "valuesStoredOutsideRepository": true,
+      "nullReason": "Private aggregate values intentionally excluded from public repository",
+      "aggregateReadbackEvidence": "evidence/private-measurement-dashboard-readback-2026-10-15.json"
     },
     "GSC": {
       "property": "https://hornigold.pl/",
@@ -31,7 +34,7 @@
         "/es/",
         "/it/"
       ],
-      "sitemap": "Odczyt 13.10: Sukces; 693 wykryte URL, ostatni odczyt Google 12.10. Aktualna mapa zawiera 462 indeksowalne URL. Ponowne przetworzenie wymaga potwierdzenia; wykryte URL nie oznaczają indeksacji.",
+      "sitemap": "Publiczna mapa produkcji 23.29: 529 URL, odczyt 15.10.2026. Przyjęcie i indeksacja przez Google wymagają osobnej obserwacji.",
       "clicks": null,
       "impressions": null,
       "indexingRequestsAccepted": [
@@ -39,7 +42,10 @@
         "/uk/"
       ],
       "indexedObservationDate": "2026-10-11",
-      "sitemapEvidence": "evidence/gsc-sitemap-success-20261013.json"
+      "sitemapEvidence": "evidence/gsc-sitemap-success-20261013.json",
+      "status": "Odczyt skuteczności potwierdzony 15.10; wybrano 7 dni, dostępny wykres 8–13.10. Wyniki zbiorcze przechowywane prywatnie.",
+      "valuesStoredOutsideRepository": true,
+      "fieldCoreWebVitals": "Raport z 14.10: zbyt mało danych użytkowników na telefonie i komputerze."
     },
     "Sales": {
       "status": "14.10 właściciel potwierdził oczekiwanie na dokumentację i środowiska testowe KWHotel/GuestSage oraz Fiserv. Brak odbioru transakcyjnego.",
@@ -51,14 +57,16 @@
       "cost": null
     },
     "Publication": {
-      "productionRevisionLastObserved": "23.21",
-      "productionCommitLastObserved": "fc86140d2cae0907ea6d7a92f2c745290459f382",
-      "productionReadbackDate": "2026-10-14",
+      "productionRevisionLastObserved": "23.29",
+      "productionCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
+      "productionReadbackDate": "2026-10-15",
       "sitesRevisionLastObserved": "23.20",
-      "routes": 693,
-      "indexableSitemapURLs": 462,
-      "status": "Publikacja Pages zakończona sukcesem; publiczny release potwierdza commit. Kontrola po publikacji trwa.",
-      "githubPagesCommitLastObserved": "e050a2859f219ffc8550b2b8b693789a6d2ffef7"
+      "routes": 793,
+      "indexableSitemapURLs": 529,
+      "status": "Produkcja i GitHub Pages 23.29 potwierdzone odczytem. Sites pozostaje starszym podglądem. Bez odbioru transakcyjnego.",
+      "githubPagesCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
+      "githubPagesRevisionLastObserved": "23.29",
+      "githubPagesRoutes": 793
     }
   }
 }
