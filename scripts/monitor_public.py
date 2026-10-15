@@ -52,6 +52,35 @@ def request(url):
     return {'status': status, 'headers': head, 'body': body, 'tlsVerified': tls, 'curlExit': p.returncode}
 
 
+
+def release_policy(release):
+    """Use immutable public source for the served commit, never the latest branch."""
+    root = Path(__file__).resolve().parent.parent
+    commit = release.get('commit')
+    if commit:
+        if not isinstance(commit, str) or not re.fullmatch(r'[0-9a-f]{40}', commit):
+            raise ValueError('Invalid production commit; source policy is unverified')
+        prefix = 'https://raw.githubusercontent.com/kamilkita-ux/hornigold-preview/' + commit + '/'
+        documents = []
+        for name in ['routes.json', 'seo/indexing-policy.json']:
+            response = request(prefix + name)
+            if response['status'] != '200' or not response['tlsVerified']:
+                raise ValueError('Cannot verify source policy for production commit: ' + name)
+            documents.append(json.loads(response['body']))
+        routes, policy = documents
+        source = commit
+    else:
+        routes = json.loads((root / 'routes.json').read_text())
+        policy = json.loads((root / 'seo/indexing-policy.json').read_text())
+        source = 'local-legacy-unversioned'
+    if not isinstance(routes, list) or not routes or len(routes) != len(set(routes)) or not all(isinstance(route, str) and route.startswith('/') for route in routes):
+        raise ValueError('Invalid route inventory')
+    excluded = policy['excludedRoutes'] if release.get('audit3ImprovementsDate') else {}
+    if not isinstance(excluded, dict) or not set(excluded).issubset(routes):
+        raise ValueError('Invalid indexing exclusions')
+    return set(routes) - set(excluded), set(excluded), source
+
+
 def run_checks(self_test=False):
     checks = []
 
@@ -64,11 +93,12 @@ def run_checks(self_test=False):
     release_response=request('https://hornigold.pl/release.json')
     try: served_release=json.loads(release_response['body'])
     except (ValueError,TypeError): served_release={}
-    expected_routes=set(json.loads((Path(__file__).resolve().parent.parent/'routes.json').read_text()))
-    if served_release.get('audit3ImprovementsDate'):
-        excluded=json.loads((Path(__file__).resolve().parent.parent/'seo/indexing-policy.json').read_text())['excludedRoutes']
-        expected_routes-=set(excluded)
-    excluded_routes = set(excluded) if served_release.get('audit3ImprovementsDate') else set()
+    policy_error = None
+    try:
+        expected_routes, excluded_routes, policy_source = release_policy(served_release)
+    except (ValueError, TypeError, KeyError, OSError) as error:
+        expected_routes, excluded_routes, policy_source = set(), set(), None
+        policy_error = str(error)
     for route in ['/pl/', '/en/', '/pl/pokoje/', '/pl/lokalizacja/', '/pl/rezerwacja/']:
         r = request('https://hornigold.pl' + route)
         blocked = indexing_blocked(r)
@@ -79,10 +109,10 @@ def run_checks(self_test=False):
     r = request('https://hornigold.pl/sitemap.xml')
     try:
         urls = [e.text for e in ET.fromstring(r['body']).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-        valid = len(urls)==len(set(urls)) and set(urls)=={'https://hornigold.pl'+path for path in expected_routes}
+        valid = policy_error is None and len(urls)==len(set(urls)) and set(urls)=={'https://hornigold.pl'+path for path in expected_routes}
     except (ET.ParseError, ValueError):
         urls, valid = [], False
-    check('sitemap', r['status'] == '200' and r['tlsVerified'] and valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'count': len(urls)})
+    check('sitemap', r['status'] == '200' and r['tlsVerified'] and valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'count': len(urls), 'expectedCount': len(expected_routes), 'policySource': policy_source, 'policyError': policy_error})
     r = request('https://www.hornigold.pl/pl/')
     locations = header_values(r, 'location')
     check('www301', r['status'] == '301' and r['tlsVerified'] and locations == ['https://hornigold.pl/pl/'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'locations': locations})

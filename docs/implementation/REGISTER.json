@@ -1,7 +1,12 @@
 {
   "date": "2026-10-14",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
-  "productionBaseline": "23.11",
+  "productionBaseline": {
+    "revision": "23.24",
+    "commit": "178442e576a910efe6229c7e7c13245ec2ae1de2",
+    "verifiedAt": "2026-10-15",
+    "verification": "Live production readback, current-commit route policy, TLS/redirects/robots/sitemap/counter; no payment or reservation acceptance"
+  },
   "items": [
     {
       "id": "A1",
@@ -535,7 +540,7 @@
     "partial": 8
   },
   "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-13T22:31:21.482506+00:00",
+  "updatedAtUTC": "2026-10-15T16:15:43.205224+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
@@ -662,5 +667,152 @@
       "evidence/consent-lifecycle-browser.json"
     ],
     "state": "23.20 przygotowanie publikacji; nie deklaruje LIVE"
+  },
+  "audit4Backlog": {
+    "source": "HORNIGOLD_AUDYT_NIEZALEZNY_4.md",
+    "sourceSha256": "e74adcd34803376fc2c44194ae5a66583d7230ec53f66958aed4e1c84d40921d",
+    "auditedRevision": "23.21",
+    "currentProductionRevision": "23.24",
+    "note": "Auditor observations are not automatically current verified facts. Original 34 requirements remain unchanged. HTML hreflang is a supported alternative to sitemap annotations; no ranking or all-URL indexing guarantee.",
+    "items": [
+      {
+        "id": "4.1",
+        "title": "Norton reputation",
+        "status": "external_verification",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.2",
+        "title": "Google PL indexing and external links",
+        "status": "external_verification",
+        "mapsTo": "E3"
+      },
+      {
+        "id": "4.3",
+        "title": "GuestSage total price and fees",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.4",
+        "title": "Public discount policy",
+        "status": "owner_decision",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.5",
+        "title": "Source-backed schema enrichment",
+        "status": "facts_required",
+        "mapsTo": "F2"
+      },
+      {
+        "id": "4.6",
+        "title": "Polish consent banner",
+        "status": "verified_live_fixed",
+        "mapsTo": "C2"
+      },
+      {
+        "id": "4.7",
+        "title": "Room names and unavailable categories",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.8",
+        "title": "Meaning of advertised starting prices",
+        "status": "facts_required",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.9",
+        "title": "Apartment count and property classification",
+        "status": "count_owner_confirmed_classification_pending",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.10",
+        "title": "External profile identities",
+        "status": "external_verification",
+        "mapsTo": "G2"
+      },
+      {
+        "id": "4.11",
+        "title": "Useful service-page content",
+        "status": "facts_required",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.12",
+        "title": "Google Ads account conversion receipt",
+        "status": "external_verification",
+        "mapsTo": "C4"
+      },
+      {
+        "id": "4.13",
+        "title": "Security header compatibility",
+        "status": "decision_and_compatibility_review",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.14",
+        "title": "Readable search titles and descriptions",
+        "status": "review_not_hard_character_limit",
+        "mapsTo": "E1"
+      },
+      {
+        "id": "4.15",
+        "title": "Counter abuse resistance",
+        "status": "code_review",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.16",
+        "title": "Privacy-safe GA4 page titles",
+        "status": "code_review",
+        "mapsTo": "C3"
+      },
+      {
+        "id": "4.17",
+        "title": "Touch targets and manual accessibility",
+        "status": "manual_and_code_review",
+        "mapsTo": "D3"
+      },
+      {
+        "id": "4.18",
+        "title": "Contact hours and operator identity",
+        "status": "facts_required",
+        "mapsTo": "B2"
+      },
+      {
+        "id": "4.19",
+        "title": "Sitemap hreflang duplication",
+        "status": "optional_existing_html_supported",
+        "mapsTo": "E1"
+      },
+      {
+        "id": "4.20",
+        "title": "Legacy language cookie",
+        "status": "optional_no_old_data_migration",
+        "mapsTo": "C2"
+      },
+      {
+        "id": "4.21",
+        "title": "GuestSage title and consent",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.22",
+        "title": "Version-pinned audit evidence",
+        "status": "process_improvement",
+        "mapsTo": "J1"
+      }
+    ]
+  },
+  "monitorPolicyFix": {
+    "status": "tested_local",
+    "branch": "codex/audit4-monitor-20261015",
+    "scope": "Use served immutable commit routes and exclusions instead of stale checkout; 20 synthetic tests and live readback",
+    "publication": "not_pushed_or_deployed"
   }
 }
