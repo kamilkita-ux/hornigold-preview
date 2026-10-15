@@ -64,5 +64,10 @@
   },
   "previewRoutes": 694,
   "staticAuditErrors": 0,
-  "acceptanceLimit": "No provider payment, availability or PMS end-to-end acceptance inferred."
+  "acceptanceLimit": "No provider payment, availability or PMS end-to-end acceptance inferred.",
+  "node": {
+    "passed": 168,
+    "failed": 0
+  },
+  "ciFailureResolved": "Fourteen exact-copy assertions referenced the previous payment/hotel sentence; expected copy updated, all other booking guards retained."
 }
