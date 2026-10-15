@@ -2,10 +2,10 @@
   "date": "2026-10-14",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": {
-    "revision": "23.24",
-    "commit": "178442e576a910efe6229c7e7c13245ec2ae1de2",
-    "verifiedAt": "2026-10-15",
-    "verification": "Live production readback, current-commit route policy, TLS/redirects/robots/sitemap/counter; no payment or reservation acceptance"
+    "revision": "23.29",
+    "commit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+    "verifiedAt": "2026-10-15T18:23:30.341275+00:00",
+    "verification": "529 sitemap URLs; HTTP/canonical/indexability/H1/lang; 12 critical monitoring checks; Czech 404. No transaction acceptance."
   },
   "items": [
     {
@@ -24,7 +24,8 @@
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
         "evidence/production-release-2026-10-12.json",
-        "evidence/environment-readback-20261014.json"
+        "evidence/environment-readback-20261014.json",
+        "evidence/production-23.29-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -286,7 +287,8 @@
       "evidence": [
         "../seo/audit-production-ready.json",
         "evidence/audit-production-readback.json",
-        "evidence/audit-SUMMARY.json"
+        "evidence/audit-SUMMARY.json",
+        "evidence/production-23.29-readback.json"
       ],
       "barrier": null,
       "next": "Kontrola po każdej publikacji.",
@@ -546,8 +548,8 @@
     "local_ready": 1,
     "partial": 6
   },
-  "publicationSnapshot": "Produkcja 23.21/fc86140 potwierdzona. Rzeczywisty SDK Ads wysyła po zgodzie; dashboard Ads i konwersje zakupowe pozostają niepotwierdzone. Podglądy osobne.",
-  "updatedAtUTC": "2026-10-15T16:28:07.630811+00:00",
+  "publicationSnapshot": "Produkcja i GitHub Pages 23.29 potwierdzone publicznym odczytem. Sites pozostaje starszym podglądem; rezerwacje i płatności wymagają oddzielnego odbioru.",
+  "updatedAtUTC": "2026-10-15T18:24:08.788331+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
@@ -851,7 +853,7 @@
     "providerAcceptance": "not verified"
   },
   "czechLocale": {
-    "state": "github-preview-published-production-pending",
+    "state": "production-published-public-metadata-verified",
     "revision": "23.28",
     "routes": 99,
     "position": 3,
@@ -862,12 +864,16 @@
     "previewPublicChecks": {
       "pages": 99,
       "pdfs": 24
-    }
+    },
+    "productionRevision": "23.29",
+    "productionCommit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+    "productionEvidence": "evidence/production-23.29-readback.json"
   },
   "czechErrorLocaleFix": {
     "revision": "23.29",
-    "state": "local-tested-unpublished",
-    "evidence": "docs/implementation/evidence/czech-404-23.29.json"
+    "state": "production-verified",
+    "evidence": "docs/implementation/evidence/czech-404-23.29.json",
+    "productionEvidence": "evidence/production-23.29-readback.json"
   },
   "scopeReconciliationDate": "2026-10-15",
   "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance."

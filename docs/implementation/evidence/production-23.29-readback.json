@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-15T18:23:30.341275+00:00",
+  "revision": "23.29",
+  "commit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+  "canonicalSitemapURLsVerified": 529,
+  "failures": 0,
+  "deploymentStable": true,
+  "criticalMonitorChecksPassed": 12,
+  "czech404": {
+    "status": 404,
+    "lang": "cs",
+    "robots": "noindex,nofollow,noarchive"
+  },
+  "reportSHA256": "97bd4fbd8b886e81784fb0e5b90948d3e10ae06603890be97659b952fb3d452c",
+  "limits": [
+    "Metadata and public GET checks only; no reservation/payment acceptance or live analytics receipt inferred."
+  ]
+}

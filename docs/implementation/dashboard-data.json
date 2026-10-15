@@ -34,7 +34,7 @@
         "/es/",
         "/it/"
       ],
-      "sitemap": "Publiczna mapa produkcji 23.27: 463 URL, odczyt 15.10.2026. Stan przetworzenia mapy przez Google z wcześniejszego odczytu pozostaje archiwalnym dowodem.",
+      "sitemap": "Publiczna mapa produkcji 23.29: 529 URL, odczyt 15.10.2026. Przyjęcie i indeksacja przez Google wymagają osobnej obserwacji.",
       "clicks": null,
       "impressions": null,
       "indexingRequestsAccepted": [
@@ -57,15 +57,15 @@
       "cost": null
     },
     "Publication": {
-      "productionRevisionLastObserved": "23.27",
-      "productionCommitLastObserved": "b82f63b4361e5a5c464d53050289a47c00ceab09",
+      "productionRevisionLastObserved": "23.29",
+      "productionCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
       "productionReadbackDate": "2026-10-15",
       "sitesRevisionLastObserved": "23.20",
-      "routes": 694,
-      "indexableSitemapURLs": 463,
-      "status": "GitHub Pages 23.28 potwierdzone; wdrożenie Cloudflare wymaga osobnego odczytu. Poprawka ogólnego czeskiego 404 23.29 jest w kontroli PR32.",
-      "githubPagesCommitLastObserved": "e9c01e073f00857ec87ddbf19b324b66b352deef",
-      "githubPagesRevisionLastObserved": "23.28",
+      "routes": 793,
+      "indexableSitemapURLs": 529,
+      "status": "Produkcja i GitHub Pages 23.29 potwierdzone odczytem. Sites pozostaje starszym podglądem. Bez odbioru transakcyjnego.",
+      "githubPagesCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
+      "githubPagesRevisionLastObserved": "23.29",
       "githubPagesRoutes": 793
     }
   }
