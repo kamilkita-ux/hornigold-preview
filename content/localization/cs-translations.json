@@ -12540,8 +12540,8 @@
   {
     "id": "f7397e5215e74012",
     "source": "Departure from Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Odjezd z Katovic",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12549,8 +12549,8 @@
   {
     "id": "4de31cc40f733ceb",
     "source": "Silesia Trip",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Silesia Trip",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12558,8 +12558,8 @@
   {
     "id": "92604e7edbed5dbb",
     "source": "This operator at Mariacka 11 in Katowice offers a guided visit to both parts of the Memorial, with return to the collection point. Ask about Hornigold pickup, language and a confirmed entry pass.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tento pořadatel na adrese Mariacka 11 v Katovicích nabízí komentovanou prohlídku obou částí památníku s návratem na místo vyzvednutí. Zeptejte se na vyzvednutí u Hornigoldu, jazyk prohlídky a potvrzenou vstupenku.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12567,8 +12567,8 @@
   {
     "id": "f3fb4ba9f7cd20e6",
     "source": "View the operator’s offer",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zobrazit nabídku pořadatele",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12576,8 +12576,8 @@
   {
     "id": "faf0f24a68c34ba0",
     "source": "trip@silesiatrip.pl",
-    "translation": null,
-    "reviewed": false,
+    "translation": "trip@silesiatrip.pl",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12585,8 +12585,8 @@
   {
     "id": "612a4273bcb3986a",
     "source": "Rosotravel",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Rosotravel",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12594,8 +12594,8 @@
   {
     "id": "42609a52c94c4162",
     "source": "The offer combines private transport from accommodation in Katowice with a group guided Museum visit. A private car does not mean a private Museum guide. Select the Auschwitz-Birkenau option and confirm its precise inclusions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Nabídka spojuje soukromou dopravu z ubytování v Katovicích se skupinovou komentovanou prohlídkou muzea. Soukromé auto neznamená soukromého průvodce v muzeu. Vyberte možnost Auschwitz-Birkenau a přesně si ověřte, co zahrnuje.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12603,8 +12603,8 @@
   {
     "id": "10775b638730ba2b",
     "source": "Departure from Kraków",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Odjezd z Krakova",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12612,8 +12612,8 @@
   {
     "id": "8d813f992268be3b",
     "source": "SeeKrakow",
-    "translation": null,
-    "reviewed": false,
+    "translation": "SeeKrakow",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12621,8 +12621,8 @@
   {
     "id": "04f946c1a4f1b3a4",
     "source": "An alternative when staying in or travelling via Kraków: transport from a selected pickup point, entry, a Museum guide and return. This offer departs from Kraków. Arrange travel from Hornigold to the meeting point separately.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Alternativa při pobytu v Krakově nebo cestě přes něj: doprava z vybraného místa vyzvednutí, vstup, průvodce muzeem a návrat. Tato nabídka má odjezd z Krakova. Dopravu od Hornigoldu na místo setkání si zajistěte samostatně.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12630,8 +12630,8 @@
   {
     "id": "026533ac6003c05a",
     "source": "bookings@seekrakow.com",
-    "translation": null,
-    "reviewed": false,
+    "translation": "bookings@seekrakow.com",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12639,8 +12639,8 @@
   {
     "id": "720940e7ac998d39",
     "source": "What to confirm before paying",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Co si ověřit před zaplacením",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12648,8 +12648,8 @@
   {
     "id": "c26740d1d5bdb824",
     "source": "Ask for a confirmed Museum entry time, details of the entry pass and educator service, the exact collection point, return transport and the total price. Check time-change and cancellation terms. Transport to Oświęcim alone does not secure Museum admission.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požádejte o potvrzený čas vstupu do muzea, podrobnosti vstupenky a průvodcovských služeb, přesné místo vyzvednutí, zpáteční dopravu a celkovou cenu. Ověřte podmínky změny času a storna. Samotná doprava do Osvětimi nezajišťuje vstup do muzea.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12657,8 +12657,8 @@
   {
     "id": "26acecfc86100525",
     "source": "Sources and information date",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zdroje a datum informací",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12666,8 +12666,8 @@
   {
     "id": "5deffcff259b95ad",
     "source": "Information checked on 4 October 2026. Before travelling, verify current arrangements and availability with the Museum and your chosen operator.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Informace ověřeny 4. října 2026. Před cestou si aktuální podmínky a dostupnost ověřte u muzea a zvoleného pořadatele.",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12675,8 +12675,8 @@
   {
     "id": "59cd6d948a516ec7",
     "source": "www.auschwitz.org/zwiedzanie/",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.auschwitz.org/zwiedzanie/",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12684,8 +12684,8 @@
   {
     "id": "c92e1910565258b5",
     "source": "www.auschwitz.org/zwiedzanie/dojazd/",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.auschwitz.org/zwiedzanie/dojazd/",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12693,8 +12693,8 @@
   {
     "id": "3b759153cafb83b8",
     "source": "www.auschwitz.org/zwiedzanie/podstawowe-informacje/",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.auschwitz.org/zwiedzanie/podstawowe-informacje/",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12702,8 +12702,8 @@
   {
     "id": "fa59d5462c02f9bc",
     "source": "visit.auschwitz.org/",
-    "translation": null,
-    "reviewed": false,
+    "translation": "visit.auschwitz.org/",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
@@ -12711,8 +12711,8 @@
   {
     "id": "c20f4d880e5c3666",
     "source": "www.auschwitz.org/muzeum/aktualnosci/visit-auschwitz-org-karty-wstepu-do-miejsca-pamieci-od-1-marca-dostepne-jedynie-przez-internet,2688.html",
-    "translation": null,
-    "reviewed": false,
+    "translation": "www.auschwitz.org/muzeum/aktualnosci/visit-auschwitz-org-karty-wstepu-do-miejsca-pamieci-od-1-marca-dostepne-jedynie-przez-internet,2688.html",
+    "reviewed": true,
     "usedIn": [
       "site/en/city-and-surroundings/auschwitz-birkenau/index.html"
     ]
