@@ -1,0 +1,237 @@
+{
+  "state": "local-installed-unpublished",
+  "documents": 24,
+  "languages": [
+    "pl",
+    "en",
+    "cs",
+    "de",
+    "zh-Hans",
+    "uk",
+    "es",
+    "it"
+  ],
+  "unchangedRenderedPages": 137,
+  "changedRenderedPagesInspected": 7,
+  "pdfUAValidated": false,
+  "source": "legal/*.json; content/property-identity.json",
+  "reportPrivate": "/Users/kamilkita/Documents/Hornigold-audits/2026-10-15/legal-eight-languages/report.json",
+  "documentsEvidence": [
+    {
+      "file": "hornigold-policies-pl.pdf",
+      "sha256": "11feb88d0833f380f766b873f5d6dd8ff03171f2f985803304d9090ede753a8b",
+      "pages": 16,
+      "language": "pl",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-pl.pdf",
+      "sha256": "11cbc0fdb10c7ff41e100c8bcd131b6643df22c507fbe85c8f2f3c56c53573c1",
+      "pages": 3,
+      "language": "pl",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-pl.pdf",
+      "sha256": "d3684d62d00da1296cc9ab293823d817a0da6dd84c8d8f1881c7cd9ee109bfd7",
+      "pages": 1,
+      "language": "pl",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-en.pdf",
+      "sha256": "857b1c34f54ece572352f6c73b6043a7e02119bec33ea7b7112f4b51fb4ad51f",
+      "pages": 15,
+      "language": "en",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-en.pdf",
+      "sha256": "aef3d2c1e51b031663a3914c1d197dcdc5403188aceeb7dbcbefaa876eadea86",
+      "pages": 3,
+      "language": "en",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-en.pdf",
+      "sha256": "bd032319a3e67fbd419b73ebbafc2204fe86f5ea06e05e7d12cdc4042e5c6378",
+      "pages": 1,
+      "language": "en",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-cs.pdf",
+      "sha256": "7e771c0a028779457a724737d90c9a55d2ef025a5ea1d67d6b035ca1f8c7e5d2",
+      "pages": 15,
+      "language": "cs",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-cs.pdf",
+      "sha256": "167b51626ede327f76a46cf0976c09820331dc57165bf5aeff87a08e32818eda",
+      "pages": 2,
+      "language": "cs",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-cs.pdf",
+      "sha256": "ef433c9c46bfcda470f6d6f4960b4fda08107bb9ba6eae64cba34851dace374e",
+      "pages": 1,
+      "language": "cs",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-de.pdf",
+      "sha256": "4954c15ed122c53948f7468cfd5a6b1aae2913e220eeecd0130dd38298b55bc2",
+      "pages": 15,
+      "language": "de",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-de.pdf",
+      "sha256": "5a79b4884c984f2a7a7bd7682cb7c5517a11288035a158121a289e38b04706eb",
+      "pages": 2,
+      "language": "de",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-de.pdf",
+      "sha256": "a79c54dc070871020cbd4f226377620612a7306598492004dfb32ad477551e46",
+      "pages": 1,
+      "language": "de",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-zh-hans.pdf",
+      "sha256": "dd5b5e63e2fe8a5ddd0c1bc8f62ab07e830ebbce1b1e54eb970a0b837011240b",
+      "pages": 10,
+      "language": "zh-Hans",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-zh-hans.pdf",
+      "sha256": "fb3d47e28a712c6dc1b38e146f0b5a52b5592aa660152de5cc69b9f06ce458c4",
+      "pages": 2,
+      "language": "zh-Hans",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-zh-hans.pdf",
+      "sha256": "cd5bce8c9c5bbaf4e3bc4bbe9252c442d1c4d4b674be0cb23c1efbb1720568a8",
+      "pages": 1,
+      "language": "zh-Hans",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-uk.pdf",
+      "sha256": "96d2cd695343f4ef98758a1a0e79232c11139c24b20d2f0a41e481d94cfb6676",
+      "pages": 15,
+      "language": "uk",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-uk.pdf",
+      "sha256": "7b16c313f5bc97ade50664e20fbb69d38d447cbce5fdb7a3316d666905b944a9",
+      "pages": 3,
+      "language": "uk",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-uk.pdf",
+      "sha256": "fc17da557485bc6d7763e8a6ed0d1fed30000b5c7426919c2f0ad281600d1180",
+      "pages": 1,
+      "language": "uk",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-es.pdf",
+      "sha256": "2780889c3856a95823040f98a02ec93c6c2d93b5fa32c4e2280b74c1fe110e18",
+      "pages": 15,
+      "language": "es",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-es.pdf",
+      "sha256": "c3b4f1a584ed5ed2a824aad10b72c64cc041e135877f36966b0b64c09450fbe6",
+      "pages": 3,
+      "language": "es",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-es.pdf",
+      "sha256": "fcd970a115e4c998a6dbf2ce64da2b1c4d0cad4bd30cc226e5d03a784571cbb0",
+      "pages": 1,
+      "language": "es",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-policies-it.pdf",
+      "sha256": "d11996e3aeb0bf40bbf98d2ed0a233224ce924d9d6ba9408a16e4a87e2df27bf",
+      "pages": 15,
+      "language": "it",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-it.pdf",
+      "sha256": "3067cf8f3f2dd7a0d0ef204045f06b2dacdbcde33dc381c1d57025803deeda17",
+      "pages": 2,
+      "language": "it",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    },
+    {
+      "file": "hornigold-safeguarding-children-it.pdf",
+      "sha256": "e9f1f031ac31e4e16e6eeaa6242c594a800f3d8c04f532b74a08da3ca1a5b5b8",
+      "pages": 1,
+      "language": "it",
+      "tagged": true,
+      "missingTextItems": [],
+      "visualReviewCompleted": true
+    }
+  ]
+}
