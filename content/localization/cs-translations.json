@@ -17969,8 +17969,8 @@
   {
     "id": "121d6525ddfe7307",
     "source": "UOKiK - Prawo do informacji",
-    "translation": null,
-    "reviewed": false,
+    "translation": "UOKiK — právo na informace",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -17978,8 +17978,8 @@
   {
     "id": "95fc160030417c84",
     "source": "UOKiK - Wyłączenia prawa do odstąpienia",
-    "translation": null,
-    "reviewed": false,
+    "translation": "UOKiK — výjimky z práva na odstoupení",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -17987,8 +17987,8 @@
   {
     "id": "476f4c70e71693b6",
     "source": "KWHotel Cloud Booking Engine - configuration",
-    "translation": null,
-    "reviewed": false,
+    "translation": "KWHotel Cloud Booking Engine — konfigurace",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -17996,8 +17996,8 @@
   {
     "id": "a4592c906ea9630b",
     "source": "Fiserv Checkout - Introduction",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fiserv Checkout — úvod",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18005,8 +18005,8 @@
   {
     "id": "4b4ee50c620ea115",
     "source": "Fiserv Checkout - Webhooks and status updates",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Fiserv Checkout — webhooky a aktualizace stavu",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18267,8 +18267,8 @@
   {
     "id": "79c17d77a966ed56",
     "source": "PAD - information obligations",
-    "translation": null,
-    "reviewed": false,
+    "translation": "PAD — informační povinnosti",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18276,8 +18276,8 @@
   {
     "id": "509c11d1e029446a",
     "source": "PAD - e-commerce scope",
-    "translation": null,
-    "reviewed": false,
+    "translation": "PAD — působnost v elektronickém obchodování",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18285,8 +18285,8 @@
   {
     "id": "427f931324392f80",
     "source": "Polski Akt o Dostępności - Dz.U. 2024 poz. 731",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Polský zákon o přístupnosti — Dz.U. 2024, poz. 731",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18402,8 +18402,8 @@
   {
     "id": "822a465783960037",
     "source": "Child safeguarding standards — PDF",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Standardy ochrany dětí — PDF",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18483,8 +18483,8 @@
   {
     "id": "3e58b3bc74018f5d",
     "source": "Your safety — information for children — PDF",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Tvoje bezpečí — informace pro děti — PDF",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18492,8 +18492,8 @@
   {
     "id": "1bc5afed36ef4abd",
     "source": "Terms and documents | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podmínky a dokumenty | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18501,8 +18501,8 @@
   {
     "id": "27db0358add59108",
     "source": "Terms and documents. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podmínky a dokumenty. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/clarity-before-your-arrival/index.html"
     ]
@@ -18520,8 +18520,8 @@
   {
     "id": "ab13b1a29f01664a",
     "source": "Club Hornigold | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Club Hornigold | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18529,8 +18529,8 @@
   {
     "id": "fb2599963bb285b4",
     "source": "Return for more good moments.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vraťte se pro další příjemné chvíle.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18538,8 +18538,8 @@
   {
     "id": "15692707e39773a1",
     "source": "Explore Club Hornigold possibilities and ask reception for terms tailored to your stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Poznejte možnosti Club Hornigold a zeptejte se recepce na podmínky přizpůsobené vašemu pobytu.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18547,8 +18547,8 @@
   {
     "id": "25b34c06f373dde8",
     "source": "Member rate",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Cena pro členy",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18556,8 +18556,8 @@
   {
     "id": "c18109c4ef645ead",
     "source": "Ask for an individual Club Hornigold offer. Reception confirms the price, any discount and exclusions before booking.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Požádejte o individuální nabídku Club Hornigold. Cenu, případnou slevu a výjimky potvrdí recepce před rezervací.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18565,8 +18565,8 @@
   {
     "id": "3e508095a0fd7d9e",
     "source": "Your next stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Váš příští pobyt",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18574,8 +18574,8 @@
   {
     "id": "70363aef5b355b1f",
     "source": "Planning to return? Tell us when you are coming back and ask about a benefit available for your next stay.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Plánujete se vrátit? Sdělte nám termín příští návštěvy a zeptejte se na výhodu dostupnou pro další pobyt.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18583,8 +18583,8 @@
   {
     "id": "a96f3600de8766df",
     "source": "Late check-out",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pozdní odjezd",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18592,8 +18592,8 @@
   {
     "id": "65f9b3d2770dd8de",
     "source": "Stay longer on departure day if availability allows. Agree the time and any charge with reception in advance.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pokud to dostupnost dovolí, zůstaňte v den odjezdu déle. Čas a případný poplatek si předem domluvte s recepcí.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18601,8 +18601,8 @@
   {
     "id": "5ebb7fe76c0a6dab",
     "source": "Longer stays",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Delší pobyty",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18610,8 +18610,8 @@
   {
     "id": "65fdae97636920a0",
     "source": "For a longer visit, ask for an individual price, housekeeping arrangements and change and cancellation terms.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Při delší návštěvě se zeptejte na individuální cenu, podmínky úklidu, změn a storna.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18619,8 +18619,8 @@
   {
     "id": "46fac83f2bf9c088",
     "source": "Agree the details before your stay",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Podrobnosti si domluvte před pobytem",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18637,8 +18637,8 @@
   {
     "id": "311bd47986a1f1e1",
     "source": "Ask about Club Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Zeptejte se na Club Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18646,8 +18646,8 @@
   {
     "id": "7e77e24213e0b67a",
     "source": "Start with your dates and guest count. Then compare room categories and agree the bed arrangement and any additional needs. Before travelling, confirm arrival, parking, breakfast, payment and cancellation terms. A saved preview plan is not a reservation.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Začněte termínem a počtem hostů. Potom porovnejte kategorie pokojů a domluvte si uspořádání lůžek i další potřeby. Před cestou potvrďte příjezd, parkování, snídani, platbu a storno podmínky. Uložený plán není rezervací.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18655,8 +18655,8 @@
   {
     "id": "1f3fcbb3296e78df",
     "source": "Stay policies",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Pravidla pobytu",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18664,8 +18664,8 @@
   {
     "id": "d74e41b6e5449e0b",
     "source": "Club Hornigold. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions.",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Club Hornigold. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým. Seznamte se s pokoji a cestou k nám.",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18673,8 +18673,8 @@
   {
     "id": "44a51cb3418ceed0",
     "source": "Interior of the Classic category at Hornigold in Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Interiér kategorie Classic v Hornigoldu v Katovicích",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18682,8 +18682,8 @@
   {
     "id": "597f368867166d62",
     "source": "Interior of the Deluxe category at Hornigold in Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Interiér kategorie Deluxe v Hornigoldu v Katovicích",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18691,8 +18691,8 @@
   {
     "id": "562bf9a4b8075be5",
     "source": "Interior of the Deluxe Premium category at Hornigold in Katowice",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Interiér kategorie Deluxe Premium v Hornigoldu v Katovicích",
+    "reviewed": true,
     "usedIn": [
       "site/en/club-hornigold/index.html"
     ]
@@ -18700,8 +18700,8 @@
   {
     "id": "e43f21c056e36fd8",
     "source": "Choose what matters to you. | Hornigold",
-    "translation": null,
-    "reviewed": false,
+    "translation": "Vyberte si, na čem vám záleží. | Hornigold",
+    "reviewed": true,
     "usedIn": [
       "site/en/compare/index.html"
     ]
