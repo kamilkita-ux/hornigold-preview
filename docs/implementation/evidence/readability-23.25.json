@@ -1,0 +1,712 @@
+{
+  "cases": 21,
+  "rows": [
+    {
+      "lang": "pl",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "de",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "zh-hans",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "uk",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "es",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "it",
+      "width": 320,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "pl",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "de",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "zh-hans",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "uk",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "es",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "it",
+      "width": 375,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "pl",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "en",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "de",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "zh-hans",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "uk",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "es",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    },
+    {
+      "lang": "it",
+      "width": 1366,
+      "overflow": false,
+      "text": [
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".stay-form label",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".form-help",
+          "fontSize": 12.48
+        },
+        {
+          "selector": ".city-booking-teaser .eyebrow",
+          "fontSize": 12
+        },
+        {
+          "selector": ".city-thumb-caption",
+          "fontSize": 12
+        }
+      ],
+      "certificateHeight": 44
+    }
+  ],
+  "illustrationFonts": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+  ],
+  "failures": []
+}

@@ -815,5 +815,17 @@
     "branch": "codex/audit4-monitor-20261015",
     "scope": "Use served immutable commit routes and exclusions instead of stale checkout; 20 synthetic tests and live readback",
     "publication": "not_pushed_or_deployed"
+  },
+  "readabilityFix": {
+    "revision": "23.25",
+    "status": "tested_local",
+    "branch": "codex/audit4-readability-20261015",
+    "scope": [
+      "Selected form labels, helper text and city captions at least .75rem",
+      "Certificate link at least 44px tall"
+    ],
+    "limits": "Not full screen-reader or PDF/UA acceptance; booking/Fiserv/server unchanged",
+    "evidence": "evidence/readability-23.25.json",
+    "test": "21 rendered language/viewport cases; 32 gallery captions; no horizontal overflow; target text >=12px at default font scale; certificate link >=44px; final preview build 694 routes and static audit no errors"
   }
 }
