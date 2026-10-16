@@ -144,8 +144,8 @@
         "evidence/guestsage-language-review.json",
         "evidence/guestsage-language-review-expanded.json"
       ],
-      "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
-      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
+      "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, osiem języków i środowisko testowe.",
+      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, osiem języków i środowisko testowe. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
       "title": "GuestSage, PMS i operator"
     },
     {
@@ -346,10 +346,11 @@
       "id": "F1",
       "status": "partial",
       "environment": "production eight-language content / current operational facts confirmation pending",
-      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu.",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu. 16.10 przygotowano wspólną stopkę z listą ośmiu języków, czeski trzeci; lokalna kontrola 793 stopek poprawna. Publikacja tej poprawki wymaga odrębnego odczytu publicznego.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../content/verified-facts-2026-10-11.json"
+        "../../content/verified-facts-2026-10-11.json",
+        "evidence/footer-language-inventory-20261016.json"
       ],
       "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
       "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
@@ -883,5 +884,6 @@
   "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance.",
   "environmentReconciliationDate": "2026-10-15",
   "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged.",
-  "googleReadbackDate": "2026-10-16"
+  "googleReadbackDate": "2026-10-16",
+  "lastLocalReview": "2026-10-16"
 }

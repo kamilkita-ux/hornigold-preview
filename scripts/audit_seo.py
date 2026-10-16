@@ -6,6 +6,7 @@ from collections import defaultdict, deque
 import argparse, json, hashlib, re, datetime, unicodedata
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+from footer_languages import LABELS
 from seo import ORIGIN, LANGS, PREVIEW_ROBOTS, load_routes, route_for_file, visible_image_objects, indexable_route, hreflang_languages
 
 ROOT=Path(__file__).resolve().parent.parent
@@ -53,6 +54,11 @@ def audit(mode, directory):
             check(p.read_text().strip() == 'google-site-verification: '+p.name, 'exact Google verification response', p.name)
             continue
         path=route_for_file(p,out);route=routes.get(unquote(path));real=bool(route)
+        if s.select_one('footer .footer-bottom'):
+            expected=' / '.join(LABELS[language] for language in release['languages'])
+            markers=s.select('footer [data-language-inventory]')
+            check(len(markers)==1 and markers[0].get_text(strip=True)==expected,
+                  'footer language inventory matches release order',path)
         rob=s.select('meta[name=robots]');check(len(rob)==1,'one robots meta',path)
         value=rob[0].get('content','') if rob else ''
         check(value==(('index,follow' if indexable_route(ROOT,route) else 'noindex,follow') if mode=='production-ready' and real else PREVIEW_ROBOTS),'robots meta state',path)
