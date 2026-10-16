@@ -65,15 +65,15 @@
       "technicalReadbackEvidence": "evidence/google-readback-2026-10-16.json"
     },
     "Publication": {
-      "productionRevisionLastObserved": "23.29",
-      "productionCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
-      "productionReadbackDate": "2026-10-15",
+      "productionRevisionLastObserved": "23.30",
+      "productionCommitLastObserved": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+      "productionReadbackDate": "2026-10-16",
       "sitesRevisionLastObserved": "23.20",
       "routes": 793,
       "indexableSitemapURLs": 529,
-      "status": "Produkcja i GitHub Pages 23.29 potwierdzone odczytem. Sites pozostaje starszym podglądem. Bez odbioru transakcyjnego.",
-      "githubPagesCommitLastObserved": "b633abc621f2047ea21f415f0f2bd454854b280b",
-      "githubPagesRevisionLastObserved": "23.29",
+      "status": "Produkcja i GitHub Pages 23.30 odczytane publicznie. Osiem stopek językowych, 28 plików JS/CSS i 12 kontroli produkcji poprawne; 793 trasy podglądu sprawdzone. Sites pozostaje starszą wersją 23.20. Bez odbioru transakcyjnego.",
+      "githubPagesCommitLastObserved": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+      "githubPagesRevisionLastObserved": "23.30",
       "githubPagesRoutes": 793
     }
   }
