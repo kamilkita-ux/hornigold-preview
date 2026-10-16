@@ -1,6 +1,7 @@
 // Canonical-host indexing gate. Deploy only with the audited production assets.
 import worker from './worker.mjs';
 import {canonicalRoutes} from './canonical-routes.mjs';
+import {legacyWordpressRedirect} from './legacy-wordpress-redirects.mjs';
 const canonical=new Set(canonicalRoutes);
 const ORIGIN='https://hornigold.pl';
 // A room chosen with valid dates (/{language}/rezerwacja/?room=…&arrival=…&departure=…) goes straight to the GuestSage
@@ -22,11 +23,13 @@ export default {async fetch(request,env,ctx){
  const url=new URL(request.url);
  const production=url.protocol==='https:' && url.hostname==='hornigold.pl';
  if(production && url.pathname==='/' && ['GET','HEAD'].includes(request.method)){
-  // Retire legacy WordPress language/page parameters while preserving campaign attribution.
-  // Canonical landing pages must not remain reachable under ?lang=…&page_id=… duplicates.
-  const query=new URLSearchParams(url.search);
-  query.delete('lang');query.delete('page_id');
-  const target=new URL('/pl/',ORIGIN);target.search=query;
+  // Retire legacy WordPress URLs. Verified pages retain their closest content
+  // equivalent; unknown retired IDs receive 410 rather than a misleading home
+  // page redirect. Campaign parameters are kept on verified destinations.
+  const legacy=legacyWordpressRedirect(url);
+  if(legacy.kind==='redirect') return Response.redirect(legacy.target.href,301);
+  if(legacy.kind==='gone') return new Response('Gone',{status:410,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow, noarchive','X-Content-Type-Options':'nosniff'}});
+  const target=new URL('/pl/',ORIGIN);target.search=url.search;
   return Response.redirect(target.href,301);
  }
  if(url.hostname==='www.hornigold.pl'){
