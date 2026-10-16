@@ -1,6 +1,6 @@
 # PAD - zakres, odpowiedzialność i odbiór dostępności
 
-Stan: 2026-10-09, wydanie 23.8. **Przygotowane dokumenty; brak końcowej kwalifikacji spółki i brak odbioru integracji rezerwacji/płatności.** Nie jest to niezależna opinia prawna ani certyfikat.
+Stan odbioru: 2026-10-16, produkcja 23.32. **Przygotowane dokumenty; brak końcowej kwalifikacji spółki i brak odbioru integracji rezerwacji/płatności.** Nie jest to niezależna opinia prawna ani certyfikat.
 
 ## Wstępna kwalifikacja usługi
 
@@ -12,26 +12,28 @@ Treść dostawcy nie jest automatycznie wyłączona jako treść osoby trzeciej:
 
 ## Obowiązki do oceny i wdrożenia
 
-| Zakres | Podstawa | Stan 23.8 | Właściciel / wymagany dowód |
+| Zakres | Podstawa | Aktualny stan odbioru | Właściciel / wymagany dowód |
 |---|---|---|---|
 | Kwalifikacja spółki i usługi, ewentualne wyłączenia | art. 3–5 | WYMAGA POTWIERDZENIA | Zarząd + księgowość/prawnik; datowana ocena |
-| Informacja o usłudze, użyciu i dostępności w równoważnym dokumencie | art. 12 i 32 | WDROŻONA dla obecnego zakresu, nie certyfikat | 7 legal JSON, HTML i PDF; datowane wyniki kontroli |
+| Informacja o usłudze, użyciu i dostępności w równoważnym dokumencie | art. 12 i 32 | WDROŻONA dla obecnego zakresu, nie certyfikat | 8 wersji legal JSON i HTML oraz 24 PDF; datowane wyniki kontroli |
 | Pełna ocena zgodności usługi | art. 32 ust. 1 | CZĘŚCIOWE testy lokalnego frontendu; integracja nieodebrana | Integrator + audytor, manualne technologie wspomagające |
 | Informacja o warunkach pomieszczeń i otoczenia w zakresie korzystania z usługi / rzeczywisty certyfikat | art. 33 | WYMAGA POTWIERDZENIA | Zarząd/recepcja: wejście, ciągi komunikacyjne, recepcja, łazienki, sposób pomocy; bez wymyślania cech |
 | Zgłoszenia i skargi, odpowiedzi dostępne dla odbiorcy | art. 35–37 | Procedura opisana; organizacyjny odbiór wymagany | Zarząd: osoba i zastępstwo, protokół ustny, terminy, bezpieczna ewidencja |
 | Utrzymanie informacji i wyników podczas oferowania usługi, aktualizacje i monitorowanie | art. 32 ust. 2 | WERSJONOWANIE dokumentów i plan odbioru przygotowane | Operator + integrator: ponowne testy po zmianach |
 | Usuwanie niezgodności i niezwłoczne powiadomienie właściwego organu | art. 32 ust. 2 pkt 5–6 | PROCEDURA do wykonania po kwalifikacji/stwierdzeniu niezgodności | Zarząd; podpisane zawiadomienie; nic nie wysłano |
 | Ewentualna zasadnicza zmiana / nieproporcjonalne obciążenie | art. 21 | NIE POWOŁANO SIĘ na wyjątek | Udokumentowana ocena + wymagane zawiadomienie, nie dowolny zapis stopki |
-| Dokumenty i potwierdzenia dostępne, nie tylko widoczne wizualnie | art. 12, 18 | HTML dostępny; PDF-y NIEZNAKOWANE | Naprawa tagowania i walidacja PDF/UA, logiczna kolejność i ręczny odczyt; sam HTML nie stanowi odbioru całej usługi |
+| Dokumenty i potwierdzenia dostępne, nie tylko widoczne wizualnie | art. 12, 18 | HTML i 24 PDF ze znacznikami; ręczny odbiór i PDF/UA niepotwierdzone | Naprawa tagowania i walidacja PDF/UA, logiczna kolejność i ręczny odczyt; sam HTML nie stanowi odbioru całej usługi |
 
 Ministerstwo publikuje wykaz norm/specyfikacji. WCAG 2.2 AA jest celem technicznym tego projektu, a nie automatycznym dowodem zgodności PAD. Wersję EN 301 549, zakres stosowania i podstawę ewentualnego domniemania zgodności należy ponownie sprawdzić przy odbiorze; nie zakładać, że zapowiadana aktualizacja normy już nastąpiła.
 
-## Odbiór po podłączeniu usług (obecnie NIE WYKONANO)
+## Odbiór pełnej ścieżki dostawcy (obecnie NIE WYKONANO)
 
-Macierz `PAD_BOOKING_ACCEPTANCE.json` zawiera 15 etapów, 7 języków i wymagane metody. Każdy etap wymaga udokumentowanego wyniku, wersji silnika, adresu sandbox, daty i dowodu. Pole `accessibilityJourneyVerified` w release.json pozostaje false. Nie wolno oznaczyć go true na podstawie samego axe, instrukcji dostawcy, działającego iframe lub makiety.
+Przejście ze strony Hornigold do GuestSage jest publicznie potwierdzone w wydaniu 23.32. Nie jest to odbiór rezerwacji w PMS, płatności, potwierdzeń ani dostępności zewnętrznej ścieżki. Do testów tych etapów nadal potrzebne są uzgodnione środowisko dostawcy i dokumentacja. Chronione integracje pozostają bez zmian.
+
+Macierz `PAD_BOOKING_ACCEPTANCE.json` zawiera 15 etapów, 8 języków i wymagane metody. Każdy etap wymaga udokumentowanego wyniku, wersji silnika, adresu sandbox, daty i dowodu. Pole `accessibilityJourneyVerified` w release.json pozostaje false. Nie wolno oznaczyć go true na podstawie samego axe, instrukcji dostawcy, działającego iframe lub makiety.
 
 1. Ustalić rzeczywisty produkt/wersję KWHotel i Fiserv, adres sandbox, zewnętrzne przekierowania, listę języków, osoby odpowiedzialne i kanał zgłoszeń do dostawców. Wystąpić o dostępność i udokumentowane ograniczenia konkretnych wersji, nie ogólną deklarację marki.
-2. Przejść realny proces sandbox w PL/EN/DE/zh-Hans/UK/ES/IT. Brak języka lub dostępnej alternatywy zapisać jako ograniczenie integracji; nie uznać za zaliczone.
+2. Przejść realny proces sandbox w PL/EN/CS/DE/zh-Hans/UK/ES/IT. Brak języka lub dostępnej alternatywy zapisać jako ograniczenie integracji; nie uznać za zaliczone.
 3. Testować automatycznie oraz manualnie: sama klawiatura, NVDA/Firefox lub Chrome, VoiceOver/Safari na macOS/iOS, TalkBack/Chrome na Androidzie; realne urządzenia i wersje zapisać w dowodzie. Nie deklarować testów czytnika na podstawie AX snapshot lub axe.
 4. Sprawdzić reflow przy 320 CSS px i powiększeniu 400%, tekst 200%, spacing, kontrast, focus i brak zasłaniania, orientację oraz dotyk. W weryfikacji kognitywnej uwzględnić zrozumiałość instrukcji, cen, zobowiązania i odzyskiwanie błędów.
 5. Formularze: kalendarz i ręczne daty, nazwy pól, required, autouzupełnianie, komunikaty powiązane z błędami, fokus po błędzie, walidacja bez koloru jako jedynego sygnału, brak utraty danych przy cofnięciu. Bez prawdziwych danych gości.
