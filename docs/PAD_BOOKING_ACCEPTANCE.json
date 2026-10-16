@@ -1,10 +1,11 @@
 {
-  "date": "2026-10-09",
-  "status": "BLOCKED_ENGINE_AND_PAYMENT_NOT_CONNECTED",
+  "date": "2026-10-16",
+  "status": "BLOCKED_PROVIDER_SANDBOX_AND_MANUAL_ACCEPTANCE",
   "verified": false,
   "languages": [
     "pl",
     "en",
+    "cs",
     "de",
     "zh-Hans",
     "uk",
@@ -39,6 +40,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -51,6 +53,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -63,6 +66,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -75,6 +79,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -87,6 +92,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -99,6 +105,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -111,6 +118,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -123,6 +131,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -135,6 +144,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -147,6 +157,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -159,6 +170,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -171,6 +183,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -183,6 +196,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -195,6 +209,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -207,6 +222,7 @@
       "resultsByLanguage": {
         "pl": "NOT_RUN",
         "en": "NOT_RUN",
+        "cs": "NOT_RUN",
         "de": "NOT_RUN",
         "zh-Hans": "NOT_RUN",
         "uk": "NOT_RUN",
@@ -214,5 +230,14 @@
         "it": "NOT_RUN"
       }
     }
-  ]
+  ],
+  "handoffState": {
+    "verified": "Public Hornigold redirect to GuestSage preserved in production23.32",
+    "unverified": [
+      "Supplier product/version and sandbox",
+      "PMS reservation and payment outcomes",
+      "Accessibility of complete external booking/payment journey"
+    ],
+    "evidence": "implementation/evidence/production-23.32-readback.json"
+  }
 }

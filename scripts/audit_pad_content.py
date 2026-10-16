@@ -1,23 +1,28 @@
 """Validate factual accessibility disclosures and preserve unverified journey gates."""
 from pathlib import Path
-import json
+import argparse,datetime,json
 from bs4 import BeautifulSoup
 r=Path(__file__).resolve().parent.parent
 rel=json.loads((r/'release.json').read_text());plan=json.loads((r/'docs/PAD_BOOKING_ACCEPTANCE.json').read_text());contract=json.loads((r/'legal/checkout-contract.json').read_text())
+languages=rel['languages']
+assert languages and len(languages)==len(set(languages))
+assert plan['languages']==languages
 assert rel['accessibilityJourneyVerified'] is False and rel['PADScopeConfirmed'] is False
 if rel.get('taggedPDFs'):
- import hashlib
- proof=json.loads((r/'docs/implementation/evidence/tagged-pdf-adoption-23.18.json').read_text())
- assert len(proof['documents'])==21 and proof['structure']['errors']==0 and not proof['pdfUAValidated']
- for doc in proof['documents']:
-  assert doc['tagged'] and doc['visualReviewCompleted'] and not doc['missingTextItems']
-  assert hashlib.sha256((r/'site/documents'/doc['file']).read_bytes()).hexdigest()==doc['sha256']
+ from audit_tagged_legal_candidates import audit
+ expected={f'hornigold-{edition}-{lang.lower()}.pdf' for edition in ('policies','safeguarding','safeguarding-children') for lang in languages}
+ documents=list((r/'site/documents').glob('*.pdf'))
+ assert {p.name for p in documents}==expected
+ for path in documents:
+  assert not audit(path)['errors'],path
 assert not rel['bookingEnabled'] and not rel['paymentsEnabled'] and not rel['indexing']
 assert not plan['verified'] and len(plan['stages'])==15
+assert all(set(s['resultsByLanguage'])==set(languages) for s in plan['stages'])
 assert all(v=='NOT_RUN' for s in plan['stages'] for v in s['resultsByLanguage'].values())
 assert {'PADScopeAssessment','endToEndAccessibilityAcceptance','accessibleDurableConfirmations'}<=set(contract['mustConfirmBeforeActivation'])
 pages=0
-for lang in ['pl','en','de','zh-hans','uk','es','it']:
+for language in languages:
+ lang=language.lower()
  d=json.loads((r/'legal'/f'{lang}.json').read_text());sec=next(s for s in d['sections'] if s['id']=='accessibility');assert len(sec['paragraphs'])==8
  for p in (r/'site'/lang).rglob('index.html'):
   s=BeautifulSoup(p.read_text(),'html.parser')
@@ -29,6 +34,7 @@ for lang in ['pl','en','de','zh-hans','uk','es','it']:
    assert 'PDF/UA' in el.get_text() and 'KWHotel' in el.get_text() and 'Fiserv' in el.get_text(),p
    assert len(el.select('li a'))==3,p
    pages+=1
-assert pages==7
-report={'date':'2026-10-09','revision':rel['revision'],'languages':7,'documentPages':pages,'accessibilityParagraphs':8,'futureStages':15,'futureStageLanguageCells':105,'futureTestsExecuted':0,'scopeConfirmed':False,'errors':[]}
-(r/'docs/pad-source-audit-23-8.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report))
+assert pages==len(languages)
+report={'date':datetime.date.today().isoformat(),'revision':rel['revision'],'languages':len(languages),'documentPages':pages,'accessibilityParagraphs':8,'futureStages':len(plan['stages']),'futureStageLanguageCells':sum(len(s['resultsByLanguage']) for s in plan['stages']),'futureTestsExecuted':0,'scopeConfirmed':False,'manualReaderAcceptance':False,'pdfUAValidated':False,'errors':[]}
+parser=argparse.ArgumentParser();parser.add_argument('--report',type=Path,default=r/'docs/implementation/evidence/pad-source-current.json');args=parser.parse_args();args.report.parent.mkdir(parents=True,exist_ok=True)
+args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report))

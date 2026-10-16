@@ -28,6 +28,7 @@ jobs:
         run: |
           PAGES_BASE="${PAGES_BASE%/}/"
           python scripts/build.py --mode preview --base "${PAGES_BASE:-/}"
+          python scripts/audit_pad_content.py
           python scripts/audit_static.py --base "${PAGES_BASE:-/}"
           python scripts/audit_seo.py --mode preview
           python scripts/audit_discovery.py --mode preview

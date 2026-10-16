@@ -271,7 +271,7 @@
       "id": "D3",
       "status": "partial",
       "environment": "production HTML/PDF + automated checks; manual and supplier journey acceptance pending",
-      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona.",
+      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona. 16.10 uzupełniono aktualny plan odbioru o CS: 15 etapów × 8 języków, 120 nieprzeprowadzonych scenariuszy. Audyt treści źródłowych obejmuje wszystkie 8 stron dokumentów i 24 PDF; nie zastępuje ręcznego odbioru ani PDF/UA.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/axe-after.json",
@@ -282,7 +282,10 @@
         "evidence/public-pdfs-23.18.json",
         "evidence/tagged-pdf-structure-current.json",
         "MANUAL_ACCEPTANCE.md",
-        "evidence/legal-eight-languages-23.28.json"
+        "evidence/legal-eight-languages-23.28.json",
+        "evidence/pad-source-current.json",
+        "../PAD_BOOKING_ACCEPTANCE.json",
+        "../PAD_SCOPE_AND_ACCEPTANCE.md"
       ],
       "barrier": "Rzeczywisty ręczny odbiór czytnikiem ekranu i PDF, ustalenie zakresu PAD oraz pełna ścieżka dostawcy. Produkcyjne wdrożenie nie jest już barierą.",
       "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; aktualne wdrożenie produkcyjne potwierdzać publicznym odczytem, bez zakładania zależności od Marka.",
