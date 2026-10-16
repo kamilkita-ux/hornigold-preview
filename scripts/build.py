@@ -6,8 +6,10 @@ from bs4 import BeautifulSoup
 from seo import load_routes, route_for_file, apply_seo, write_indexing_files, indexable_route
 from discovery import write_guides
 from footer_languages import apply_footer_languages
+from counter_labels import apply_counter_labels
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
+COUNTER_LABELS=json.loads((ROOT/'content/counter-labels.json').read_text())
 VERSION=str(RELEASE.get('revision',RELEASE['version']))
 args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--production-counter',action='store_true',help='Explicitly retain the existing aggregate counter in a production artifact; requires --counter and --base /');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
@@ -30,6 +32,7 @@ for p in OUT.rglob('*.html'):
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_footer_languages(s, RELEASE['languages'])
+ apply_counter_labels(s, COUNTER_LABELS)
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
  version_marker=s.select_one('[data-site-version]')
  if version_marker:

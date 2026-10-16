@@ -1,0 +1,10 @@
+{
+  "pl": {"neutral": "Odsłony: ", "since": "Odsłony od {date}: "},
+  "en": {"neutral": "Page views: ", "since": "Page views since {date}: "},
+  "cs": {"neutral": "Zobrazení stránek: ", "since": "Zobrazení stránek od {date}: "},
+  "de": {"neutral": "Seitenaufrufe: ", "since": "Seitenaufrufe seit {date}: "},
+  "zh-hans": {"neutral": "浏览次数：", "since": "自{date}起的浏览次数："},
+  "uk": {"neutral": "Перегляди: ", "since": "Перегляди з {date}: "},
+  "es": {"neutral": "Páginas vistas: ", "since": "Páginas vistas desde el {date}: "},
+  "it": {"neutral": "Visualizzazioni: ", "since": "Visualizzazioni dal {date}: "}
+}
