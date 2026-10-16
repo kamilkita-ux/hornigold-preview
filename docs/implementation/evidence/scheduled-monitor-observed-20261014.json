@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-13T22:31:21.481073+00:00",
+  "source": "Read-only Codex read_thread; existing actual automation invocation",
+  "threadId": "01a0dc9f-a1c8-7731-a720-9f2e0a224484",
+  "automationId": "hornigold-monitoring-strony-i-rezerwacji",
+  "turnId": "01a1373b-c0a1-78f1-adb6-4213bf324320",
+  "triggerUTC": "2026-10-13T21:47:05.245Z",
+  "status": "completed",
+  "checksPassed": 12,
+  "publicOffersLoaded": 5,
+  "transactionAcceptance": false,
+  "limits": [
+    "Observed scheduled invocation, not proof of future availability.",
+    "GitHub issue alert delivery separately verified in I2; email/chat alarm delivery not certified."
+  ]
+}

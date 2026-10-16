@@ -28,7 +28,9 @@ const DEPLOY_BRANCH = "deploy/cloudflare";
 const TAG_PREFIX = "hornigold-v";
 const OWNER_SWITCHES = ["indexing", "bookingEnabled", "paymentsEnabled", "counterEnabled"];
 const SAFE_REF = /^[A-Za-z0-9._/-]+$/;
-const EXPECTED_PAGES = 693;
+function expectedPageCount() {
+  return JSON.parse(readFileSync(new URL("../routes.json", import.meta.url), "utf8")).length;
+}
 
 // ---------- funkcje czyste (testy: tests/cloudflare-release.test.mjs) ----------
 
@@ -185,7 +187,7 @@ function buildAndTest(changedTests) {
     ["audit_discovery", [join("scripts", "audit_discovery.py"), "--mode", "production-ready"]],
     ["paczka _cloudflare_production", [join("scripts", "prepare_cloudflare_production.py")]],
   ];
-  let pages = EXPECTED_PAGES;
+  let pages = expectedPageCount();
   for (const [label, args] of steps) {
     const started = Date.now();
     const result = python(args, { env: { GITHUB_SHA: sha } });
@@ -276,7 +278,7 @@ async function request(path, init = {}) {
   return response;
 }
 
-export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {}) {
+export async function smoke({ pages = expectedPageCount(), expectedCsp = null } = {}) {
   const failures = [];
   const check = (ok, message) => { if (ok) say(`  ✓ ${message}`); else { say(`  ✗ ${message}`); failures.push(message); } };
   const release = readRelease();
@@ -311,7 +313,8 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
   check(/^Allow:\s*\/\s*$/m.test(robots), "robots.txt: Allow: /");
   const sitemap = await (await request("/sitemap.xml")).text();
   const locs = (sitemap.match(/<loc>/g) ?? []).length;
-  check(locs === pages, `sitemap.xml: ${locs} adresów (oczekiwane ${pages})`);
+  const excluded=Object.keys(JSON.parse(readFileSync(join(ROOT,'seo/indexing-policy.json'),'utf8')).excludedRoutes).length;
+  check(locs === pages-excluded, `sitemap.xml: ${locs} indeksowalnych adresów (oczekiwane ${pages-excluded})`);
 
   const live = await (await request("/release.json")).json().catch(() => ({}));
   check(live.indexing === true && live.bookingEnabled === false, `/release.json: indexing ${live.indexing}, bookingEnabled ${live.bookingEnabled}`);
@@ -334,8 +337,7 @@ export async function smoke({ pages = EXPECTED_PAGES, expectedCsp = null } = {})
   // Gość nie może zobaczyć strony pośredniej: "/" nic nie maluje przed przejściem do języka, a wybór pokoju
   // z terminem dostaje 302 prosto do silnika (server/production-entry.mjs), nie stronę Rezerwacja.
   const root = await request("/");
-  const rootText = root.status === 200 ? visibleBodyText(await root.text()) : null;
-  check(rootText === "", `/ → ${root.status}, widoczny tekst: ${rootText === "" ? "brak" : JSON.stringify(rootText)}`);
+  check(root.status===301 && root.headers.get("location")==="https://hornigold.pl/pl/", `/ → ${root.status} ${root.headers.get("location")}`);
   const day = (offset) => new Date(Date.now() + offset * 86_400_000).toISOString().slice(0, 10);
   const stay = `arrival=${day(30)}&departure=${day(32)}&guests=2`;
   const handover = await request(`/pl/rezerwacja/?${stay}&room=classic`);

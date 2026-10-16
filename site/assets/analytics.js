@@ -4,27 +4,32 @@
   const config=window.HornigoldGA4;
   if(location.origin!=='https://hornigold.pl'||config?.enabled!==true||!/^G-[A-Z0-9]+$/.test(config.measurementId||''))return;
   const id=config.measurementId;
+  const languages=new Set(['pl','en','cs','de','zh-hans','uk','es','it']);
+  const pageLanguage=()=>{const value=(document.documentElement?.lang||'').toLowerCase();return languages.has(value)?value:'und';};
   let loaded=false, granted=false;
   window.dataLayer=window.dataLayer||[];
   function tag(){window.dataLayer.push(arguments);}
   window['ga-disable-'+id]=true;
-  tag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+  if(!window.HornigoldGoogleConsentInitialized){tag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});window.HornigoldGoogleConsentInitialized=true;}
+  function clearAnalyticsCookies(){
+    for(const item of document.cookie.split(';')){
+      const name=item.split('=')[0].trim();
+      if(!/^_ga/.test(name))continue;
+      for(const domain of ['', '; domain=hornigold.pl', '; domain=.hornigold.pl'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; Secure; SameSite=Lax';
+    }
+  }
   function apply(){
     const allow=window.HornigoldPrivacy?.allowsAnalytics?.()===true;
+    if(!allow)clearAnalyticsCookies();
     if(allow===granted)return;
     granted=allow;
     window['ga-disable-'+id]=!allow;
     if(!allow){
       // Block collection before clearing first-party GA cookies and unloading the tag.
-      for(const item of document.cookie.split(';')){
-        const name=item.split('=')[0].trim();
-        if(!/^_ga(?:_|$)/.test(name))continue;
-        for(const domain of ['', '; domain=hornigold.pl', '; domain=.hornigold.pl'])document.cookie=name+'=; Max-Age=0; path=/'+domain+'; Secure; SameSite=Lax';
-      }
       location.reload();
       return;
     }
-    tag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+    tag('consent','update',{analytics_storage:'granted',ad_storage:window.HornigoldPrivacy?.allowsMarketing?.()===true?'granted':'denied',ad_user_data:window.HornigoldPrivacy?.allowsMarketing?.()===true?'granted':'denied',ad_personalization:'denied'});
     if(loaded)return;
     loaded=true;
     tag('js',new Date());
@@ -32,15 +37,17 @@
     tag('config',id,{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:15552000,cookie_update:false,page_location:location.origin+location.pathname,page_referrer:'',page_title:'Hornigold'});
     const page=new URL(location.origin+location.pathname);
     const incoming=new URLSearchParams(location.search||'');
-    const allowed={utm_source:['instagram','facebook','linkedin','google_business','google'],utm_medium:['organic_social','paid_social','organic'],utm_campaign:['profile','room_guide','city_guide','stay_enquiry','gbp']};
+    const allowed={utm_source:['instagram','facebook','linkedin','google_business','google','seznam','sklik'],utm_medium:['organic_social','paid_social','organic','cpc','paid_search'],utm_campaign:['profile','room_guide','city_guide','stay_enquiry','gbp','cs_search','cz_search']};
     for(const [key,values] of Object.entries(allowed))if(values.includes(incoming.get(key)))page.searchParams.set(key,incoming.get(key));
     let referrer='';try{
       const ref=new URL(document.referrer);
-      const knownHosts=new Set(['hornigold.pl','www.google.com','www.google.pl','google.com','google.pl','instagram.com','www.instagram.com','l.instagram.com','facebook.com','www.facebook.com','m.facebook.com','l.facebook.com','linkedin.com','www.linkedin.com']);
+      const knownHosts=new Set(['hornigold.pl','www.google.com','www.google.pl','google.com','google.pl','www.google.cz','google.cz','www.seznam.cz','seznam.cz','search.seznam.cz','www.sklik.cz','sklik.cz','instagram.com','www.instagram.com','l.instagram.com','facebook.com','www.facebook.com','m.facebook.com','l.facebook.com','linkedin.com','www.linkedin.com']);
       if(['http:','https:'].includes(ref.protocol)&&knownHosts.has(ref.hostname))referrer='https://'+ref.hostname+'/';
     }catch{}
-    tag('event','page_view',{page_location:page.href,page_referrer:referrer});
+    tag('event','page_view',{page_location:page.href,page_referrer:referrer,page_language:pageLanguage()});
+    if(document.querySelector?.('script[data-hornigold-google-tag]'))return;
     const script=document.createElement('script');
+    script.setAttribute?.('data-hornigold-google-tag','');
     script.async=true;
     script.src='https://www.googletagmanager.com/gtag/js?id='+id;
     document.head.appendChild(script);
@@ -49,6 +56,12 @@
     if(!granted||window.HornigoldPrivacy?.allowsAnalytics?.()!==true)return;
     const link=event.target?.closest?.('a[href]');if(!link)return;
     const raw=link.getAttribute('href')||'';
+    // Language links also carry data-stay to preserve dates; they are not planner clicks.
+    if(link.hasAttribute('data-language')){
+      const target=(link.getAttribute('data-language')||'').toLowerCase();
+      if(languages.has(target)&&target!==pageLanguage())tag('event','language_switch',{source_language:pageLanguage(),target_language:target,page_location:location.origin+location.pathname,page_referrer:''});
+      return;
+    }
     let action;
     if(raw.startsWith('tel:'))action='phone';
     else if(raw.startsWith('mailto:'))action='email';

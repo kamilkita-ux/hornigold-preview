@@ -9,6 +9,16 @@ import subprocess
 import xml.etree.ElementTree as ET
 
 
+def header_values(response, name):
+    """Header names are case-insensitive; their values (notably Location) are not."""
+    values = []
+    for line in response['headers'].splitlines():
+        key, separator, value = line.partition(':')
+        if separator and key.strip().lower() == name.lower():
+            values.append(value.strip())
+    return values
+
+
 def indexing_blocked(response):
     """Detect explicit indexing exclusions in HTTP and crawler HTML directives."""
     directives = []
@@ -39,7 +49,36 @@ def request(url):
             break
         head, body = candidate, remainder
     tls = url.startswith('https://') and p.returncode == 0 and status.isdigit() and 100 <= int(status) <= 599
-    return {'status': status, 'headers': head.lower(), 'body': body, 'tlsVerified': tls, 'curlExit': p.returncode}
+    return {'status': status, 'headers': head, 'body': body, 'tlsVerified': tls, 'curlExit': p.returncode}
+
+
+
+def release_policy(release):
+    """Use immutable public source for the served commit, never the latest branch."""
+    root = Path(__file__).resolve().parent.parent
+    commit = release.get('commit')
+    if commit:
+        if not isinstance(commit, str) or not re.fullmatch(r'[0-9a-f]{40}', commit):
+            raise ValueError('Invalid production commit; source policy is unverified')
+        prefix = 'https://raw.githubusercontent.com/kamilkita-ux/hornigold-preview/' + commit + '/'
+        documents = []
+        for name in ['routes.json', 'seo/indexing-policy.json']:
+            response = request(prefix + name)
+            if response['status'] != '200' or not response['tlsVerified']:
+                raise ValueError('Cannot verify source policy for production commit: ' + name)
+            documents.append(json.loads(response['body']))
+        routes, policy = documents
+        source = commit
+    else:
+        routes = json.loads((root / 'routes.json').read_text())
+        policy = json.loads((root / 'seo/indexing-policy.json').read_text())
+        source = 'local-legacy-unversioned'
+    if not isinstance(routes, list) or not routes or len(routes) != len(set(routes)) or not all(isinstance(route, str) and route.startswith('/') for route in routes):
+        raise ValueError('Invalid route inventory')
+    excluded = policy['excludedRoutes'] if release.get('audit3ImprovementsDate') else {}
+    if not isinstance(excluded, dict) or not set(excluded).issubset(routes):
+        raise ValueError('Invalid indexing exclusions')
+    return set(routes) - set(excluded), set(excluded), source
 
 
 def run_checks(self_test=False):
@@ -51,25 +90,51 @@ def run_checks(self_test=False):
     if self_test:
         check('controlled_failure', False, 'TEST ONLY: simulated unavailable endpoint; no production configuration changed')
         return checks
+    release_response=request('https://hornigold.pl/release.json')
+    try: served_release=json.loads(release_response['body'])
+    except (ValueError,TypeError): served_release={}
+    policy_error = None
+    try:
+        expected_routes, excluded_routes, policy_source = release_policy(served_release)
+    except (ValueError, TypeError, KeyError, OSError) as error:
+        expected_routes, excluded_routes, policy_source = set(), set(), None
+        policy_error = str(error)
     for route in ['/pl/', '/en/', '/pl/pokoje/', '/pl/lokalizacja/', '/pl/rezerwacja/']:
         r = request('https://hornigold.pl' + route)
         blocked = indexing_blocked(r)
-        check(route, r['status'] == '200' and r['tlsVerified'] and not blocked, {
-            'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'indexingBlocked': blocked, 'hsts': 'strict-transport-security:' in r['headers']})
+        check(route, r['status'] == '200' and r['tlsVerified'] and blocked == (route in excluded_routes), {
+            'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'indexingBlocked': blocked, 'expectedNoindex': route in excluded_routes, 'hsts': bool(header_values(r, 'strict-transport-security'))})
     r = request('https://hornigold.pl/robots.txt')
     check('robots', r['status'] == '200' and r['tlsVerified'] and 'Allow: /' in r['body'] and '\nDisallow: /\n' not in r['body'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
     r = request('https://hornigold.pl/sitemap.xml')
     try:
         urls = [e.text for e in ET.fromstring(r['body']).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
-        valid = len(urls) == 693 and len(set(urls)) == 693 and all(u and u.startswith('https://hornigold.pl/') for u in urls)
+        valid = policy_error is None and len(urls)==len(set(urls)) and set(urls)=={'https://hornigold.pl'+path for path in expected_routes}
     except (ET.ParseError, ValueError):
         urls, valid = [], False
-    check('sitemap', r['status'] == '200' and r['tlsVerified'] and valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'count': len(urls)})
+    check('sitemap', r['status'] == '200' and r['tlsVerified'] and valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'count': len(urls), 'expectedCount': len(expected_routes), 'policySource': policy_source, 'policyError': policy_error})
     r = request('https://www.hornigold.pl/pl/')
-    check('www301', r['status'] == '301' and r['tlsVerified'] and 'location: https://hornigold.pl/pl/' in r['headers'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
+    locations = header_values(r, 'location')
+    check('www301', r['status'] == '301' and r['tlsVerified'] and locations == ['https://hornigold.pl/pl/'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'locations': locations})
+    root_query = 'utm_source=monitor&utm_medium=health&utm_campaign=RootCase'
+    r = request('https://hornigold.pl/?' + root_query)
+    locations = header_values(r, 'location')
+    check('root301_utm', r['status'] == '301' and r['tlsVerified'] and locations == ['https://hornigold.pl/pl/?' + root_query], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'locations': locations})
+    # GET reads the aggregate counter; only POST would increment it.
+    r = request('https://hornigold.pl/api/site-stats')
+    try:
+        counter = json.loads(r['body'])
+    except (ValueError, TypeError):
+        counter = None
+    counter_valid = isinstance(counter, dict) and type(counter.get('total')) is int and 0 <= counter['total'] <= 2 ** 53 - 1 and counter.get('metric') == 'pageviews'
+    try:
+        counter_valid = counter_valid and datetime.date.fromisoformat(counter.get('startedAt', '')).isoformat() == counter['startedAt']
+    except (ValueError, TypeError):
+        counter_valid = False
+    check('counter', r['status'] == '200' and r['tlsVerified'] and counter_valid, {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit'], 'validJSON': counter_valid})
     r = request('https://hornigold.pl/__monitor_missing_20261011__/')
-    check('404', r['status'] == '404' and r['tlsVerified'] and 'noindex' in r['headers'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
-    r = request('https://hornigold.pl/release.json')
+    check('404', r['status'] == '404' and r['tlsVerified'] and indexing_blocked(r), {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
+    r = release_response
     try:
         release = json.loads(r['body'])
     except (ValueError, TypeError):

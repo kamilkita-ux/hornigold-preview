@@ -12,9 +12,11 @@ def source_html(data, identity, lang, edition):
  if not sections:raise ValueError('Missing approved section: '+edition)
  title=data['title'] if edition=='policies' else sections[0]['title']
  html_lang='zh-Hans' if lang=='zh-hans' else lang
- extra_css=('body{font-size:10.5pt}' if lang=='zh-hans' else '')+('body{font-size:10pt}' if edition=='safeguarding' and lang in ('de','zh-hans') else '')+('body{font-size:12pt}' if edition=='safeguarding-children' else '')
+ extra_css=('body{font-size:10.5pt}' if lang=='zh-hans' else '')+('body{font-size:10pt}' if edition=='safeguarding' and lang in ('cs','de','zh-hans') else '')+('body{font-size:12pt}' if edition=='safeguarding-children' else '')
  parts=['<!doctype html><html lang="'+html_lang+'"><head><meta charset="utf-8"><title>'+escape(title)+'</title><style>@page{size:A4;margin:18mm}body{font-family:DejaVu Sans,Noto Sans SC,sans-serif;font-size:11pt;color:#173b33;line-height:1.35}h1{font-size:21pt;line-height:1.4;margin:0 0 14pt}h2{font-size:17pt;line-height:1.4;margin:0 0 12pt;page-break-before:always}h2.first{page-break-before:auto}li{margin-bottom:8pt}h1,h2{page-break-after:avoid}p.identity{font-size:9pt;margin-top:18pt}p.source{font-size:8.5pt;line-height:1.15;margin:2pt 0}'+extra_css+'</style></head><body><h1>'+escape(title)+'</h1>']
- expected=[title]
+ version=data['ui']['documentVersion']+': '+data['updated']
+ parts+=['<p>'+escape(version)+'</p>']
+ expected=[title,version]
  if edition=='policies':parts+=['<p>'+escape(data['intro'])+'</p>'];expected.append(data['intro'])
  for n,sec in enumerate(sections):
   if edition=='policies':parts+=['<h2 class="'+('first' if n==0 else '')+'">'+escape(sec['title'])+'</h2>'];expected.append(sec['title'])
@@ -62,11 +64,11 @@ def finish_and_check(path, expected, lang, pdftotext):
  return {'file':path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'pages':len(reader.pages),'language':language,'tags':dict(tags),'expectedTextItems':len(expected),'missingTextItems':missing,'textExtractor':'Poppler layout','pypdfExtractionMissingItems':secondary_missing,'tagged':True,'pdfUAValidated':False,'visualReviewCompleted':False}
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--soffice',required=True);ap.add_argument('--pdftotext',required=True);ap.add_argument('--output',type=Path,required=True);args=ap.parse_args()
+ ap=argparse.ArgumentParser();ap.add_argument('--soffice',required=True);ap.add_argument('--pdftotext',required=True);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--languages',nargs='+',choices=[p.stem for p in (ROOT/'legal').glob('*.json')],default=LANGS);args=ap.parse_args()
  out=args.output.resolve()
  if out==ROOT/'site' or ROOT/'site' in out.parents:raise SystemExit('Candidate output must remain outside site/')
  out.mkdir(parents=True,exist_ok=False);identity=json.loads((ROOT/'content/property-identity.json').read_text());jobs=[]
- for lang in LANGS:
+ for lang in args.languages:
   data=json.loads((ROOT/'legal'/f'{lang}.json').read_text())
   for edition in ('policies','safeguarding','safeguarding-children'):
    html,expected=source_html(data,identity[lang],lang,edition);source=out/f'hornigold-{edition}-{lang}.html';source.write_text(html);jobs.append((source,expected,lang))

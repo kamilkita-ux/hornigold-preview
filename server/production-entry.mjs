@@ -1,6 +1,7 @@
 // Canonical-host indexing gate. Deploy only with the audited production assets.
 import worker from './worker.mjs';
 import {canonicalRoutes} from './canonical-routes.mjs';
+import {legacyWordpressRedirect} from './legacy-wordpress-redirects.mjs';
 const canonical=new Set(canonicalRoutes);
 const ORIGIN='https://hornigold.pl';
 // A room chosen with valid dates (/{language}/rezerwacja/?room=…&arrival=…&departure=…) goes straight to the GuestSage
@@ -21,6 +22,16 @@ function bookingRedirect(url){
 export default {async fetch(request,env,ctx){
  const url=new URL(request.url);
  const production=url.protocol==='https:' && url.hostname==='hornigold.pl';
+ if(production && url.pathname==='/' && ['GET','HEAD'].includes(request.method)){
+  // Retire legacy WordPress URLs. Verified pages retain their closest content
+  // equivalent; unknown retired IDs receive 410 rather than a misleading home
+  // page redirect. Campaign parameters are kept on verified destinations.
+  const legacy=legacyWordpressRedirect(url);
+  if(legacy.kind==='redirect') return Response.redirect(legacy.target.href,301);
+  if(legacy.kind==='gone') return new Response('Gone',{status:410,headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow, noarchive','X-Content-Type-Options':'nosniff'}});
+  const target=new URL('/pl/',ORIGIN);target.search=url.search;
+  return Response.redirect(target.href,301);
+ }
  if(url.hostname==='www.hornigold.pl'){
   const target=new URL(url.pathname+url.search,ORIGIN);
   return Response.redirect(target.href,301);
@@ -37,7 +48,8 @@ export default {async fetch(request,env,ctx){
  if(url.pathname==='/robots.txt')return new Response(production?'User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: '+ORIGIN+'/sitemap.xml\n':'User-agent: *\nDisallow: /\n',{headers:{'Content-Type':'text/plain; charset=utf-8','Cache-Control':'no-cache','X-Content-Type-Options':'nosniff'}});
  const response=await worker.fetch(request,env,ctx);
  const headers=new Headers(response.headers);
- if(production){const policy=headers.get('Content-Security-Policy');if(policy)headers.set('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'","connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com"));}
+ if(production){const policy=headers.get('Content-Security-Policy');if(policy)headers.set('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com").replace("connect-src 'self'","connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl https://ad.doubleclick.net").replace("img-src 'self' data:", "img-src 'self' data: https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl").replace("frame-src https://www.google.com", "frame-src https://www.google.com https://www.googletagmanager.com"));}
+ if(production)headers.set('Referrer-Policy','strict-origin-when-cross-origin');
  const indexable=production && [200,304].includes(response.status) && (canonical.has(url.pathname) || url.pathname==='/sitemap.xml');
  if(indexable)headers.delete('X-Robots-Tag');
  else headers.set('X-Robots-Tag','noindex, nofollow, noarchive');

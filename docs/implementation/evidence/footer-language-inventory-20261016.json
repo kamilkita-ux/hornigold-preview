@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-16",
+  "revision": "23.30",
+  "stage": "local preparation",
+  "change": "Footer language inventory derived from release.languages; Czech third",
+  "previewAudit": {
+    "routes": 793,
+    "reachableRoutes": 793,
+    "links": 89752,
+    "images": 3770,
+    "errors": 0,
+    "warnings": 0,
+    "revisionAtAudit": "23.29"
+  },
+  "footerReadback": {
+    "pages": 793,
+    "errors": 0
+  },
+  "limits": [
+    "New revision must pass CI and public readback before publication is claimed.",
+    "No booking/Fiserv code, configuration or connections changed.",
+    "No transaction or manual screen-reader acceptance."
+  ]
+}

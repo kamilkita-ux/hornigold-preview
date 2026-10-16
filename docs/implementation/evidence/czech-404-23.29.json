@@ -1,0 +1,49 @@
+{
+  "revision": "23.29",
+  "state": "local-tested-unpublished",
+  "change": "Only add cs to general static-asset HTTP404 language selection in server/worker.mjs",
+  "authorizationScope": "Owner requested Czech on all pages and automatic fixes; this handler contains no booking/PMS/Fiserv logic. Booking-specific implementation and configuration remain byte-identical.",
+  "serverTests": 7,
+  "localeMethodCases": 16,
+  "languages": 8,
+  "methods": [
+    "GET",
+    "HEAD"
+  ],
+  "preserved": [
+    "HTTP404",
+    "no-store",
+    "noindex",
+    "conditional header removal",
+    "HEAD empty body",
+    "counter behavior"
+  ],
+  "protectedUnchanged": [
+    {
+      "path": "site/assets/booking.js",
+      "sha256": "5cd19347884e322f3f6fd046a18474c704f302822cd3f442e744527617f51d95"
+    },
+    {
+      "path": "server/production-entry.mjs",
+      "sha256": "a25ac2886e3acbab29e2ec85d00f9fa1f12c067882a5dd4764d53f0de0c3043d"
+    },
+    {
+      "path": "server/counter.mjs",
+      "sha256": "6e27d619684329324f61acd2161f3a4edf85c8258d59ebb03b469d1a5adea17e"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "sha256": "e8811176ba50c1660a4657f341602c0276f65c0f46642cccd563fe4699929567"
+    }
+  ],
+  "deploymentRequired": true,
+  "nodeTests": 168,
+  "productionBuild": {
+    "routes": 793,
+    "errors": 0
+  },
+  "productionSeoAudit": {
+    "links": 89755,
+    "errors": 0
+  }
+}

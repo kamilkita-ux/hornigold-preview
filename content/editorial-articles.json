@@ -1,0 +1,12 @@
+{
+  "singleLocaleRoutes": [
+    "/pl/artykuly/od-opinii-goscia-do-poprawy-jakosci/"
+  ],
+  "articles": [
+    {
+      "id": "PR-002",
+      "route": "/pl/artykuly/od-opinii-goscia-do-poprawy-jakosci/",
+      "language": "pl"
+    }
+  ]
+}

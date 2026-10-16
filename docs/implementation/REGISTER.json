@@ -1,13 +1,19 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-16",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
-  "productionBaseline": "23.11",
+  "productionBaseline": {
+    "revision": "23.32",
+    "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+    "verifiedAt": "2026-10-16T03:50:21.645741+00:00",
+    "verification": "529 sitemap pages; 19 migration mappings checked with GET and HEAD; unknown/prototype keys return 410; API date in eight browser languages; consent defaults; 28 JS/CSS hashes and 12 monitor checks. Not supplier transaction acceptance.",
+    "evidence": "evidence/production-23.32-readback.json"
+  },
   "items": [
     {
       "id": "A1",
       "status": "verified",
-      "environment": "production / previews",
-      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
+      "environment": "production / Sites / GitHub Pages; public readback 2026-10-16",
+      "change": "16.10 potwierdzono produkcję i GitHub Pages 23.32, commit 24c9655e4a4125d65135959d886c1c3ca4cb5ac8. Sites nadal 23.20, commit c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres i ograniczenia zapisano w production-23.32-readback.json.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -18,7 +24,11 @@
         "evidence/public-sites-23.17.json",
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
-        "evidence/production-release-2026-10-12.json"
+        "evidence/production-release-2026-10-12.json",
+        "evidence/environment-readback-20261014.json",
+        "evidence/production-23.29-readback.json",
+        "evidence/production-23.30-readback.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -26,15 +36,17 @@
     },
     {
       "id": "A2",
-      "status": "blocked",
-      "environment": "local / pending production",
-      "change": "Sprawdzono oba dostępne konta; brak Workera Hornigold.",
+      "status": "verified",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "Potwierdzony właściwy projekt Cloudflare: Worker hornigold, istniejące konto i wrangler.jsonc, źródła origin/main. Wdrożenie 23.21 potwierdzone logiem oraz publicznym release.json. Nie wymaga już wskazania konta przez Marka.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/production-23.32-readback.json"
       ],
-      "barrier": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
-      "next": "Marek: wskazać konto, Worker, gałąź, build i katalog wynikowy; potwierdzić dostęp.",
+      "barrier": null,
+      "next": "Zachować aktualny pipeline i chronione integracje.",
       "title": "Identyfikacja pipeline Cloudflare"
     },
     {
@@ -45,7 +57,8 @@
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/booking-handoff.json",
-        "evidence/audit-production-readback.json"
+        "evidence/audit-production-readback.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Zachować rozszerzenia Marka przy publikacji.",
@@ -53,43 +66,48 @@
     },
     {
       "id": "A4",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Najnowsza kopia 23.18 z Mac mini: odtworzono i sprawdzono 2038 plików oraz archiwum historii Git. Build 693 tras; audyt 75106 linków i SEO bez błędów; struktura 21 PDF bez błędów. Kopia nie obejmuje konfiguracji ani bazy Cloudflare.",
+      "status": "verified",
+      "environment": "production / evidence verified 2026-10-14",
+      "change": "Zweryfikowane kopie na Mac mini, punkt powrotu Workera, instrukcja rollbacku i odtworzenie źródeł z buildem. Eksport licznika odtworzono w odizolowanym SQLite: 2 tabele, integrity_check=ok, SHA zgodne z manifestem. Kopie konfiguracji i bazy sprawdzono. Nie wykonano natywnego odtworzenia D1; to jawne ograniczenie i zadanie kwartalnego przeglądu, nie dodatkowy warunek A4 pierwotnego zlecenia.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
         "evidence/restore-23.13.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/restore-23.17.json",
-        "evidence/restore-23.18.json"
+        "evidence/restore-23.18.json",
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/schema-restore-20261014.json",
+        "evidence/production-23.32-readback.json"
       ],
-      "barrier": "Marek: kopia konfiguracji i bazy Cloudflare.",
-      "next": "Marek: kopia konfiguracji i bazy Cloudflare.",
+      "barrier": null,
+      "next": "Utrzymywać kopie przed publikacją; w kwartalnym przeglądzie zaplanować odizolowany natywny test D1, bez nadpisania produkcji.",
       "title": "Kopia i rollback"
     },
     {
       "id": "A5",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Oba podglądy 23.17: po 693 trasy, zero błędów, noindex i brak analityki; publikacja GitHub main b49213e. Produkcja przy ponownym odczycie nadal 23.11. Kontrola automatyczna po publikacji zakończona sukcesem.",
+      "status": "verified",
+      "environment": "production / public readback 2026-10-16",
+      "change": "Produkcja 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba. Potwierdzono osiem stopek językowych, canonicale, indeksowalność, H1 i kolejność przełącznika na stronach głównych; 28 plików JS/CSS zgodnych z lokalnym artefaktem; 12 kontroli monitoringu poprawnych. Nie jest to pełny odbiór transakcji ani czytnika ekranu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
         "evidence/audit-production-readback.json",
         "evidence/PUBLICATION_23.17.json",
         "evidence/public-github-23.17.json",
-        "evidence/public-sites-23.17.json"
+        "evidence/public-sites-23.17.json",
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/production-23.30-readback.json"
       ],
-      "barrier": "Marek: potwierdzić pipeline i wdrożyć minimalny patch serwera.",
-      "next": "Odczytać CSP i X-Frame-Options na produkcyjnej odpowiedzi 403 po wdrożeniu.",
+      "barrier": null,
+      "next": "Kontrolować kolejny wdrażany commit i wynik SDK.",
       "title": "Publikacja produkcyjna"
     },
     {
       "id": "A6",
       "status": "verified",
-      "environment": "Sites and GitHub Pages live",
-      "change": "Oba podglądy 23.18 potwierdzone: po 693 trasy bez błędów, noindex i brak analityki. GitHub main 7db11b2, Sites wersja 40. Produkcja odczytana ponownie nadal 23.11.",
+      "environment": "production / Sites / GitHub Pages; public readback 2026-10-16",
+      "change": "16.10 odczytano produkcję i GitHub Pages 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba; Sites nadal 23.20/c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres publicznych kontroli i ograniczenia zapisano w production-23.30-readback.json.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/public-sites-23.16.json",
@@ -100,7 +118,9 @@
         "evidence/public-sites-23.17.json",
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
-        "evidence/production-release-2026-10-12.json"
+        "evidence/production-release-2026-10-12.json",
+        "evidence/environment-readback-20261014.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -124,7 +144,7 @@
     {
       "id": "B1",
       "status": "blocked",
-      "environment": "local / pending production",
+      "environment": "production handoff / external supplier acceptance pending",
       "change": "Sprawdzono publiczne UI sześciu języków: EN/DE/ES/IT bez opisów obiektu obecnych w PL; UK częściowo po angielsku. Chiński kierowany produkcyjnie do EN. Mapowanie typów apartamentów ROOMS pozostaje puste.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -132,14 +152,14 @@
         "evidence/guestsage-language-review.json",
         "evidence/guestsage-language-review-expanded.json"
       ],
-      "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe.",
-      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, siedem języków i środowisko testowe. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
+      "barrier": "Recepcja/dostawca: aktualna usługa, PMS, płatności, osiem języków i środowisko testowe.",
+      "next": "Recepcja/dostawca: aktualna usługa, PMS, płatności, osiem języków i środowisko testowe. Istniejących integracji nie zmieniać; dalsza ingerencja wymaga nowego wyraźnego polecenia właściciela.",
       "title": "GuestSage, PMS i operator"
     },
     {
       "id": "B2",
       "status": "local_ready",
-      "environment": "local / pending production",
+      "environment": "production contact copy / reception delivery receipt pending",
       "change": "Siedem języków HTML/PDF rozróżnia zapytanie, przekierowanie i potwierdzenie. Formularz uczciwie przygotowuje e-mail.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -152,7 +172,7 @@
     {
       "id": "B3",
       "status": "blocked",
-      "environment": "local / pending production",
+      "environment": "external supplier sandbox and transactional acceptance pending",
       "change": "Nie wykonano fikcyjnego testu płatności ani rezerwacji produkcyjnej.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -193,10 +213,12 @@
       "id": "C3",
       "status": "partial",
       "environment": "production + local improvement",
-      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły.",
+      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. 15.10.2026: actual receipt of page_language and language_switch source/target values verified in the correct GA4 UI; private aggregates remain outside the repository. 16.10.2026: właściwy tag AW-18507796156 potwierdzony w panelu Google; jakość Świetny, odbiór danych potwierdzony. Nie jest to potwierdzenie rezerwacji, płatności ani przychodu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../tests/ga4-staged.test.mjs"
+        "../../tests/ga4-staged.test.mjs",
+        "evidence/private-measurement-dashboard-readback-2026-10-15.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
       "next": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
@@ -232,13 +254,14 @@
     {
       "id": "D2",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "production images + local/public laboratory evidence; field CWV pending",
       "change": "361 obrazów dekoduje się; 12 pomiarów laboratoryjnych po zmianach bez błędów. Rzeczywisty automatyczny pomiar laboratoryjny trzech publicznych stron: wydajność 95/98/95. To nie dane CWV użytkowników. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/image-inventory.json",
         "evidence/lighthouse-automatic-23.17.json",
-        "evidence/image-rights-owner-confirmation-2026-10-12.json"
+        "evidence/image-rights-owner-confirmation-2026-10-12.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
       "next": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
@@ -247,8 +270,8 @@
     {
       "id": "D3",
       "status": "partial",
-      "environment": "local / pending production",
-      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona.",
+      "environment": "production HTML/PDF + automated checks; manual and supplier journey acceptance pending",
+      "change": "1386 przypadków wszystkich tras (mobile/desktop) bez wykrytych naruszeń axe po ponowieniu testów przeciążonego serwera. 63 przypadki dokumentów/formularzy Chromium/Firefox/WebKit przeszły; HTML jest odpowiednikiem PDF. Opublikowano na obu podglądach 23.18: 21 PDF ze znacznikami, powiązaniami linków i osadzonymi czcionkami; tekst i układ sprawdzone w 7 językach. Zgodność 42 publicznych kopii PDF z zatwierdzonymi plikami potwierdzona. 16.10 uzupełniono aktualny plan odbioru o CS: 15 etapów × 8 języków, 120 nieprzeprowadzonych scenariuszy. Audyt treści źródłowych obejmuje wszystkie 8 stron dokumentów i 24 PDF; nie zastępuje ręcznego odbioru ani PDF/UA.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/axe-after.json",
@@ -257,22 +280,30 @@
         "evidence/pdf-content-qa.json",
         "evidence/tagged-pdf-adoption-23.18.json",
         "evidence/public-pdfs-23.18.json",
-        "evidence/tagged-pdf-structure-current.json"
+        "evidence/tagged-pdf-structure-current.json",
+        "MANUAL_ACCEPTANCE.md",
+        "evidence/legal-eight-languages-23.28.json",
+        "evidence/pad-source-current.json",
+        "../PAD_BOOKING_ACCEPTANCE.json",
+        "../PAD_SCOPE_AND_ACCEPTANCE.md"
       ],
-      "barrier": "Manualny odbiór czytnikiem ekranu, pełna przyszła ścieżka dostawcy i wdrożenie Cloudflare. Nie potwierdzono PDF/UA.",
-      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; produkcję publikuje Marek.",
+      "barrier": "Rzeczywisty ręczny odbiór czytnikiem ekranu i PDF, ustalenie zakresu PAD oraz pełna ścieżka dostawcy. Produkcyjne wdrożenie nie jest już barierą.",
+      "next": "Odbiór czytnikiem ekranu oraz ścieżka dostawcy w sandboxie; aktualne wdrożenie produkcyjne potwierdzać publicznym odczytem, bez zakładania zależności od Marka.",
       "title": "Dostępność"
     },
     {
       "id": "E1",
       "status": "verified",
-      "environment": "production / all 693 routes",
-      "change": "Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki.",
+      "environment": "production dated readbacks / local candidate 793 routes",
+      "change": "Ostatni pełny publiczny odczyt mapy: 23.29, 529 indeksowalnych URL bez błędów. Produkcja 23.30 została sprawdzona osobno w 12 wejściach, ośmiu stronach głównych oraz 28 zasobach JS/CSS. Lokalny audyt kandydata 23.32 obejmuje 793 trasy, zero błędów i ostrzeżeń. Nie jest to publiczny odbiór jeszcze niewdrożonej 23.32.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../seo/audit-production-ready.json",
         "evidence/audit-production-readback.json",
-        "evidence/audit-SUMMARY.json"
+        "evidence/audit-SUMMARY.json",
+        "evidence/production-23.29-readback.json",
+        "evidence/legacy-ownkeys-regression-20261016.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Kontrola po każdej publikacji.",
@@ -280,75 +311,83 @@
     },
     {
       "id": "E2",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "8582 fragmenty bez błędów; 172 linki zewnętrzne sprawdzono, wykryty adres 404 naprawiono we wszystkich 7 językach; 3 odpowiedzi wymagają ręcznej weryfikacji.",
+      "status": "verified",
+      "environment": "local audit / production routes",
+      "change": "16.10 sprawdzono lokalny artefakt production-ready 23.32: 1343 dokumenty HTML i 9820 odnośników do fragmentów, zero błędów. Pełny lokalny audyt SEO: 793 trasy i 89755 linków bez błędów. Dostępność wszystkich serwisów zewnętrznych oraz produkcyjny odbiór kandydata nie są z tego wnioskowane.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/fragments.json",
-        "evidence/external-links.json"
+        "evidence/external-links.json",
+        "evidence/legacy-ownkeys-regression-20261016.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
+      "next": "Ponawiać kontrolę po zmianie tras i treści.",
       "title": "Linki i fragmenty"
     },
     {
       "id": "E3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Rzeczywisty test URL sitemapy w GSC: Google ma dostęp do adresu URL (00:14). Raport map witryn nadal wskazuje wcześniejszy błąd i 0 wykrytych stron. Nie utożsamiono testu z przetworzeniem mapy.",
+      "status": "verified",
+      "environment": "external Google readback 2026-10-16",
+      "change": "16.10: czeska strona główna jest w indeksie Google z poprawnym canonicalem. Ponowne zgłoszenie mapy 529 URL przyjęte. Panel przed świeżym przetworzeniem nadal pokazywał odczyt 14.10 i 462 wykryte URL. Wykrycie ani przyjęcie zgłoszenia nie dowodzi indeksacji wszystkich stron.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
         "evidence/gsc-seven-languages-2026-10-11.json",
         "evidence/gsc-sitemap-live-test.json",
-        "evidence/sitemap-client-check.json"
+        "evidence/sitemap-client-check.json",
+        "evidence/gsc-sitemap-success-20261013.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
-      "barrier": "Google: przetworzenie mapy i odświeżenie raportu; rzeczywisty test dostępności zakończył się powodzeniem.",
-      "next": "Odczytać raport po następnym przetworzeniu; nie ponawiać w pętli zgłoszeń i nie zdejmować zabezpieczeń Cloudflare na podstawie samego User-Agent.",
+      "barrier": null,
+      "next": "Ponownie odczytać GSC po przetworzeniu nowej mapy.",
       "title": "Search Console"
     },
     {
       "id": "E4",
       "status": "verified",
       "environment": "external",
-      "change": "Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań.",
+      "change": "Właściwe GSC połączone z GA4. 16.10 panel właściwego tagu AW-18507796156 potwierdził odbiór danych i jakość Świetny. Brak potwierdzonej konwersji rezerwacji/płatności; pozostaje to w C3/B3. Nie przenoszono historycznych danych pomiarowych ani treści. Odrębna, zatwierdzona 16.10 paczka korekty 19 dawnych URL czeka na poprawiony commit i odbiór produkcyjny.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
-      "barrier": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
-      "next": "Ads wymaga jednoznacznego konta i późniejszej decyzji; nie aktywowano.",
+      "barrier": null,
+      "next": "Odbiór konwersji transakcyjnych pozostaje w C3/B3; nie zmieniać kampanii ani budżetu na podstawie tej kontroli.",
       "title": "GSC, GA4 i stare dane"
     },
     {
       "id": "F1",
       "status": "partial",
-      "environment": "local / pending production",
-      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe.",
+      "environment": "production eight-language content / current operational facts confirmation pending",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu. 16.10 przygotowano wspólną stopkę z listą ośmiu języków, czeski trzeci; lokalna kontrola 793 stopek poprawna. 16.10 opublikowano 23.30: lokalne 793 stopki poprawne; niezależny publiczny odczyt ośmiu stron głównych potwierdził listę z czeskim na trzecim miejscu. Pozostaje potwierdzenie bieżącej oferty.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "../../content/verified-facts-2026-10-11.json"
+        "../../content/verified-facts-2026-10-11.json",
+        "evidence/footer-language-inventory-20261016.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
       "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
-      "title": "Fakty i siedem języków"
+      "title": "Fakty i osiem języków"
     },
     {
       "id": "F2",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "ImageObject opublikowane w obu podglądach 23.14: 1911 encji na 546 stronach, publiczna kontrola 693 tras bez błędów. Pozostałe typy zachowane; bez niepotwierdzonych twierdzeń o prawach/licencjach.",
+      "status": "verified",
+      "environment": "production",
+      "change": "14.10 odczyt 693 tras: tożsamość/adres/sameAs zgodne z datowanym źródłem, opisy ImageObject zgodne z widocznymi alt, FAQ i Article zgodne z widoczną treścią, breadcrumbs zgodne z widoczną nawigacją/H1 i istniejącymi trasami; brak niezatwierdzonych cen/ocen/udogodnień. Osiem przewodników tekstowych dostępnych. Nie oznacza to obecności ani priorytetu w AI.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../scripts/seo.py",
         "evidence/schema-counts.json",
         "evidence/image-schema-preview.json",
         "evidence/public-image-schema-sites-23.14.json",
-        "evidence/public-image-schema-github-23.14.json"
+        "evidence/public-image-schema-github-23.14.json",
+        "evidence/schema-restore-20261014.json"
       ],
-      "barrier": "Marek: wdrożenie Cloudflare i publiczny odbiór produkcji; prawa do zdjęć pozostają odrębnym G5.",
-      "next": "Zweryfikować dane zdjęć na produkcji po wdrożeniu.",
+      "barrier": null,
+      "next": "Po zmianach treści ponawiać porównanie faktów i widocznych odpowiedników.",
       "title": "Schema i odpowiedzi AI"
     },
     {
@@ -367,7 +406,7 @@
     {
       "id": "G2",
       "status": "partial",
-      "environment": "local / pending production",
+      "environment": "external existing Google profile / classification and hours confirmation pending",
       "change": "Nazwa, Kopernika 6 i 608662707 zgodne; publiczne oznaczenie 4-gwiazdkowy wymaga wyjaśnienia.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
@@ -379,52 +418,57 @@
     },
     {
       "id": "G3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Zatwierdzony Instagram hornigold.zielona.kamienica opublikowano i sprawdzono na wszystkich 693 stronach obu podglądów 23.15. Produkcja nadal wskazuje poprzedni profil.",
+      "status": "verified",
+      "environment": "production",
+      "change": "Aktualny Instagram hornigold.zielona.kamienica potwierdzony na wszystkich 693 trasach produkcji. Pozostałe profile pozostają zgodne ze źródłem social-channels.json; nie potwierdzamy posiadania zewnętrznych kont tym testem.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
         "../../content/social-channels.json",
         "evidence/public-sites-23.15.json",
-        "evidence/public-github-23.15.json"
+        "evidence/public-github-23.15.json",
+        "evidence/goal-reconciliation-20261014.json"
       ],
-      "barrier": "Marek: aktualizacja produkcji przez właściwy pipeline z zachowaniem rezerwacji i Fiserv.",
-      "next": "Po potwierdzonym wdrożeniu sprawdzić profil na hornigold.pl.",
+      "barrier": null,
+      "next": "Monitorować zgodność opublikowanych linków z zatwierdzonym źródłem.",
       "title": "Linki i profile zewnętrzne"
     },
     {
       "id": "G4",
-      "status": "local_ready",
-      "environment": "local / pending production",
-      "change": "Przygotowano neutralny proces recepcji bez nagród/selekcji, z ochroną danych.",
+      "status": "verified",
+      "environment": "prepared reception materials; operational use not claimed",
+      "change": "Prepared neutral authentic-review process, responsibility split and invitation templates in eight languages. Original scope requires preparing these materials, not obtaining new reviews.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
+        "RECEPTION_REVIEWS_PROCESS.json",
         "MAINTENANCE.md"
       ],
       "barrier": null,
-      "next": "Publikacja dostępnego podglądu i ponowny odczyt; produkcja po potwierdzeniu pipeline.",
-      "title": "Autentyczne opinie"
+      "next": "Optional operational rollout remains a separate reception decision; never offer incentives or gate reviews.",
+      "title": "Autentyczne opinie",
+      "scopeClarification": "Original brief asks to prepare process, materials and roles; no actual new reviews or staff adoption is claimed."
     },
     {
       "id": "G5",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Inwentaryzacja obrazów i wymóg weryfikacji praw. 12.10.2026 właściciel potwierdził, że wszystkie zdjęcia są własne; zapisano datowane oświadczenie i sumy SHA-256 361 bieżących obrazów.",
+      "status": "verified",
+      "environment": "rights statement and researched local opportunities",
+      "change": "Owner-confirmed rights for the exact existing image inventory; assessed current official city-directory and regional tourism partner opportunities, with sources and next steps. No external outreach or publication performed.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/image-inventory.json",
-        "evidence/image-rights-owner-confirmation-2026-10-12.json"
+        "evidence/image-rights-owner-confirmation-2026-10-12.json",
+        "evidence/local-mentions-opportunities-2026-10-15.json"
       ],
-      "barrier": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
-      "next": "Partnerzy/właściciel: faktyczne lokalne partnerstwa i publikacje. Prawa do obecnych zdjęć potwierdzone oświadczeniem właściciela; nie przypisano autorstwa ani otwartej licencji.",
-      "title": "Zdjęcia i lokalne wzmianki"
+      "barrier": null,
+      "next": "If pursued, first clarify the two Hornigold-labelled city-directory entries and verify account/terms for the regional partner panel.",
+      "title": "Zdjęcia i lokalne wzmianki",
+      "scopeClarification": "Original brief requires checking rights and opportunities; obtaining partner publication is not substituted as a new acceptance condition."
     },
     {
       "id": "H1",
       "status": "partial",
-      "environment": "local / pending production",
-      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje.",
+      "environment": "production protections + local restore; isolated Cloudflare recovery and permissions review pending",
+      "change": "Skan sekretów bez trafień; 3572/3572 plików odtworzono i zbudowano. Aktualizacja zależności: 10 high → 0 high; w 23.13 usunięto również ostatnie moderate po celowanej aktualizacji i teście zgodności migracji. Wymaganie pypdf 6.20.0 usuwa 31 zgłoszonych podatności biblioteki dokumentów; izolowany build PDF zgodny tekstowo 7/7. Audyt kodu: 48 testów JS, 10 Python, 21 plików JS i 30 Python bez błędów składni; skan 1539 plików tekstowych bez wykrytych sekretów. Patch 403/503 opublikowany w podglądach; produkcja oczekuje. Aktualizacja 14.10: patch serwera jest na produkcji; kopie Workera i bazy zweryfikowane, eksport licznika odtworzony lokalnie bez błędów. Stare oczekiwanie na Marka nie obowiązuje.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/restore-test.json",
@@ -432,17 +476,18 @@
         "evidence/pdf-patched-compatibility.json",
         "evidence/dependencies-23.13.json",
         "evidence/dependency-compat-23.13.json",
-        "evidence/audit-SUMMARY.json"
+        "evidence/audit-SUMMARY.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
-      "barrier": "Marek: konfiguracja i kopia bazy Cloudflare oraz wdrożenie poprawki odpowiedzi 403/503.",
-      "next": "Marek: konfiguracja/baza Cloudflare i wdrożenie patcha serwera. Audyt zależności 23.13: zero zgłoszonych podatności.",
+      "barrier": "Pełny test powrotu w odizolowanym środowisku Cloudflare i końcowy przegląd operacyjnych uprawnień pozostają niepotwierdzone.",
+      "next": "Weryfikować operacyjne zabezpieczenia właściwego konta wyłącznie odczytowo; odtworzenie nie może nadpisać produkcji.",
       "title": "Bezpieczeństwo i odtworzenie"
     },
     {
       "id": "I1",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Rzeczywisty aktywny heartbeat Codex codziennie 07:30; checker 10/10. Poprawka 23.17: wynik TLS oparty na rzeczywistym powodzeniu curl z weryfikacją certyfikatu; 24 testy, produkcyjny checker 10/10; kontrolowany alarm zwraca kod 1. Automatyczny workflow_run po publikacji 23.17 wykonał kontrolę 693 tras GitHub, monitor produkcji i trzy pomiary Lighthouse; run 38180305635 success. Monitor rozszerzono o noindex/none w meta robots i Googlebot oraz wielokrotne nagłówki X-Robots-Tag. 39 testów Python przeszło; produkcja 10/10.",
+      "status": "verified",
+      "environment": "scheduled native automation / production",
+      "change": "Potwierdzony rzeczywisty godzinowy heartbeat 13.10 o 21:47 UTC: ukończony, monitoring 12/12, TLS, przekierowania, mapa 462 i API licznika prawidłowe; załadowano pięć publicznych ofert GuestSage. Nie jest to test transakcji. Działanie raportera GitHub Issues potwierdzone oddzielnie w I2.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/monitor-latest.json",
@@ -452,10 +497,11 @@
         "evidence/PUBLICATION_23.17.json",
         "evidence/monitor-automatic-23.17.json",
         "evidence/lighthouse-automatic-23.17.json",
-        "evidence/monitor-html-indexing-23.18.json"
+        "evidence/monitor-html-indexing-23.18.json",
+        "evidence/scheduled-monitor-observed-20261014.json"
       ],
-      "barrier": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
-      "next": "Pierwszy zaplanowany przebieg 12.10 o 07:30; odbiór alarmu poza GitHub Issues niepotwierdzony. Kanał GitHub potwierdzony w I2.",
+      "barrier": null,
+      "next": "Obserwować następne zaplanowane przebiegi i rozróżniać awarie od świadomej polityki noindex.",
       "title": "Monitoring dostępności"
     },
     {
@@ -477,15 +523,16 @@
     },
     {
       "id": "I3",
-      "status": "partial",
-      "environment": "local / pending production",
-      "change": "Wewnętrzny panel pokazuje źródła, aktualność i brak danych zamiast zmyślonych liczb.",
+      "status": "verified",
+      "environment": "private manual dashboard with actual available aggregates",
+      "change": "Built and visually reviewed private dashboard from current GA4 and GSC UI readback. Periods, consent coverage, test contamination and missing sales/Ads data are explicit; no private aggregate values committed to GitHub.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "dashboard.html"
+        "dashboard.html",
+        "evidence/private-measurement-dashboard-readback-2026-10-15.json"
       ],
-      "barrier": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
-      "next": "Dostęp do eksportów GA4/GSC i sprzedaży dla aktualizacji automatycznej.",
+      "barrier": null,
+      "next": "Refresh private snapshots on the existing schedule; add actual sales only after verified supplier data becomes available.",
       "title": "Dashboard"
     },
     {
@@ -517,11 +564,349 @@
   ],
   "mappingNote": "Operacyjny podział 34 identyfikatorów zgodny z zakresem zlecenia; sam załącznik nie zawierał szczegółowych opisów przypisanych do poszczególnych identyfikatorów.",
   "counts": {
-    "verified": 14,
-    "blocked": 3,
-    "local_ready": 5,
-    "partial": 12
+    "verified": 25,
+    "blocked": 2,
+    "local_ready": 1,
+    "partial": 6
   },
-  "publicationSnapshot": "Oba podglądy 23.16 potwierdzone; produkcja ostatnio 23.11; 23.17 przygotowanie poprawki monitorowania TLS. Publikacja niezależna od Cloudflare.",
-  "updatedAtUTC": "2026-10-11T23:54:28.706631+00:00"
+  "publicationSnapshot": "Produkcja i GitHub Pages 23.29 potwierdzone publicznym odczytem. Sites pozostaje starszym podglądem; rezerwacje i płatności wymagają oddzielnego odbioru.",
+  "updatedAtUTC": "2026-10-16T01:31:15.342668+00:00",
+  "audit3Backlog": {
+    "received": "2026-10-13",
+    "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
+    "items": [
+      {
+        "id": "P1-root",
+        "status": "tested_local",
+        "scope": "Serwerowe 301 / → /pl/, GET/HEAD, zachowanie query; commit 6d6fc37. Produkcja nadal 200/noindex.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P1-redirects",
+        "status": "partial",
+        "scope": "7 adresów PL z audytu i 539 istniejących aliasów; brak pełnego eksportu starych EN/DE/obrazów/PDF.",
+        "dependency": "Zweryfikowany spis starych URL i semantyczne odpowiedniki"
+      },
+      {
+        "id": "P1-pipeline",
+        "status": "blocked",
+        "scope": "Pipeline odnaleziony w aktualnym origin/main: deploy/cloudflare, wrangler.jsonc, Worker hornigold na koncie ee23b9132a9692ab6c0e9f22aa86dda8.",
+        "dependency": "Brak uwierzytelnienia lokalnego Wrangler do właściwego konta; whoami 13.10.2026: not authenticated"
+      },
+      {
+        "id": "P1-backup",
+        "status": "pending",
+        "scope": "Kopia Mac mini i SHA-256 przed publikacją; rollback obejmuje konfigurację i bazę.",
+        "dependency": "Konfiguracja/baza istniejącego Cloudflare"
+      },
+      {
+        "id": "P1-reputation",
+        "status": "pending",
+        "scope": "Norton i inne reputacje: aktualny raport, dowody i rzeczowy spór; przyczyna nieustalona.",
+        "dependency": "Ewentualne konto/MFA/finalne zgłoszenie właściciela"
+      },
+      {
+        "id": "P2-referrer",
+        "status": "tested_local",
+        "scope": "strict-origin-when-cross-origin wyłącznie produkcja; preview no-referrer.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-consent",
+        "status": "tested_local",
+        "scope": "Czyszczenie _ga* również na wejściu bez ważnej zgody; zero ładowania tagu bez zgody.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-schema",
+        "status": "tested_local",
+        "scope": "LodgingBusiness/Organization istnieją; rozszerzać wyłącznie z datowanych widocznych faktów i sameAs.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-index-policy",
+        "status": "tested_local",
+        "scope": "Wyłączyć 32×7 stron ilustracji i proces rezerwacji/parametry room; galerie pozostają indeksowalne.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-lastmod",
+        "status": "tested_local",
+        "scope": "lastmod tylko z rzeczywistych zmian treści, bez daty każdego buildu.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-icons",
+        "status": "tested_local",
+        "scope": "Zweryfikować favicon.ico i manifest 192/512.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "P2-hsts",
+        "status": "decision",
+        "scope": "Nie włączać includeSubDomains/preload automatycznie.",
+        "dependency": "Audyt wszystkich subdomen i osobna decyzja właściciela"
+      },
+      {
+        "id": "CONTENT",
+        "status": "pending",
+        "scope": "Catering, o-nas, opinie, śniadania, parking, wellness, pokoje, lokalizacja: rzeczywiste fakty, zdjęcia i naturalne FAQ.",
+        "dependency": "Potwierdzone źródła bez zmyślonych historii i usług"
+      },
+      {
+        "id": "PLACES",
+        "status": "decision",
+        "scope": "Nie scrapować opinii; API Places wyłącznie z legalnym dostępem i atrybucją.",
+        "dependency": "Usługa i warunki dostawcy"
+      },
+      {
+        "id": "LEGAL",
+        "status": "tested_local",
+        "scope": "Dokumenty 7 języków/PDF, wersje i sprzedawca; etap sprzedaży opisywać zgodnie z dowodami.",
+        "dependency": "Publikacja i publiczny odczyt; schema tylko potwierdzone fakty, bez cen i ocen"
+      },
+      {
+        "id": "UX",
+        "status": "pending",
+        "scope": "Mobile Zadzwoń/Zarezerwuj i czytelne przejście do silnika; formularz serwerowy tylko przy właściwym backendzie.",
+        "dependency": "Chronione integracje nie podlegają ogólnemu refaktorowi"
+      },
+      {
+        "id": "COMMERCIAL",
+        "status": "decision",
+        "scope": "Kod rabatowy, ceny brutto/VAT/opłaty, kategorie deluxe/prestige/hornigold, branding KWHotel.",
+        "dependency": "Decyzja Kamila i potwierdzenie operatora"
+      },
+      {
+        "id": "EXTERNAL-IDENTITY",
+        "status": "pending",
+        "scope": "Booking Euroresidence, Trip Nikiszowiec Szopienicka50, e-mail i atrybuty Google: weryfikować tożsamość.",
+        "dependency": "Nie usuwać profili obcego obiektu"
+      },
+      {
+        "id": "REPORTING",
+        "status": "pending",
+        "scope": "Raport LOCAL/TESTED/GITHUB/PREVIEW/PRODUCTION; changelog Markowi po potwierdzonej publikacji GitHub.",
+        "dependency": "Publiczny reread; 64/100 to ocena autora, nie wynik niezależny"
+      }
+    ],
+    "evidence": [
+      "evidence/audit3-node-tests.txt",
+      "evidence/audit3-production-seo.json",
+      "../seo/audit-preview.json",
+      "evidence/consent-lifecycle-browser.json"
+    ],
+    "state": "23.20 przygotowanie publikacji; nie deklaruje LIVE"
+  },
+  "audit4Backlog": {
+    "source": "HORNIGOLD_AUDYT_NIEZALEZNY_4.md",
+    "sourceSha256": "e74adcd34803376fc2c44194ae5a66583d7230ec53f66958aed4e1c84d40921d",
+    "auditedRevision": "23.21",
+    "currentProductionRevision": "23.24",
+    "note": "Auditor observations are not automatically current verified facts. Original 34 requirements remain unchanged. HTML hreflang is a supported alternative to sitemap annotations; no ranking or all-URL indexing guarantee.",
+    "items": [
+      {
+        "id": "4.1",
+        "title": "Norton reputation",
+        "status": "external_verification",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.2",
+        "title": "Google PL indexing and external links",
+        "status": "external_verification",
+        "mapsTo": "E3"
+      },
+      {
+        "id": "4.3",
+        "title": "GuestSage total price and fees",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.4",
+        "title": "Public discount policy",
+        "status": "owner_decision",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.5",
+        "title": "Source-backed schema enrichment",
+        "status": "facts_required",
+        "mapsTo": "F2"
+      },
+      {
+        "id": "4.6",
+        "title": "Polish consent banner",
+        "status": "verified_live_fixed",
+        "mapsTo": "C2"
+      },
+      {
+        "id": "4.7",
+        "title": "Room names and unavailable categories",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.8",
+        "title": "Meaning of advertised starting prices",
+        "status": "facts_required",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.9",
+        "title": "Apartment count and property classification",
+        "status": "count_owner_confirmed_classification_pending",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.10",
+        "title": "External profile identities",
+        "status": "external_verification",
+        "mapsTo": "G2"
+      },
+      {
+        "id": "4.11",
+        "title": "Useful service-page content",
+        "status": "facts_required",
+        "mapsTo": "F1"
+      },
+      {
+        "id": "4.12",
+        "title": "Google Ads account conversion receipt",
+        "status": "external_verification",
+        "mapsTo": "C4"
+      },
+      {
+        "id": "4.13",
+        "title": "Security header compatibility",
+        "status": "decision_and_compatibility_review",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.14",
+        "title": "Readable search titles and descriptions",
+        "status": "review_not_hard_character_limit",
+        "mapsTo": "E1"
+      },
+      {
+        "id": "4.15",
+        "title": "Counter abuse resistance",
+        "status": "code_review",
+        "mapsTo": "H1"
+      },
+      {
+        "id": "4.16",
+        "title": "Privacy-safe GA4 page titles",
+        "status": "code_review",
+        "mapsTo": "C3"
+      },
+      {
+        "id": "4.17",
+        "title": "Touch targets and manual accessibility",
+        "status": "manual_and_code_review",
+        "mapsTo": "D3"
+      },
+      {
+        "id": "4.18",
+        "title": "Contact hours and operator identity",
+        "status": "facts_required",
+        "mapsTo": "B2"
+      },
+      {
+        "id": "4.19",
+        "title": "Sitemap hreflang duplication",
+        "status": "optional_existing_html_supported",
+        "mapsTo": "E1"
+      },
+      {
+        "id": "4.20",
+        "title": "Legacy language cookie",
+        "status": "optional_no_old_data_migration",
+        "mapsTo": "C2"
+      },
+      {
+        "id": "4.21",
+        "title": "GuestSage title and consent",
+        "status": "provider_confirmation",
+        "mapsTo": "B1"
+      },
+      {
+        "id": "4.22",
+        "title": "Version-pinned audit evidence",
+        "status": "process_improvement",
+        "mapsTo": "J1"
+      }
+    ]
+  },
+  "monitorPolicyFix": {
+    "status": "tested_local",
+    "branch": "codex/audit4-monitor-20261015",
+    "scope": "Use served immutable commit routes and exclusions instead of stale checkout; 20 synthetic tests and live readback",
+    "publication": "not_pushed_or_deployed"
+  },
+  "readabilityFix": {
+    "revision": "23.25",
+    "status": "tested_local",
+    "branch": "codex/audit4-readability-20261015",
+    "scope": [
+      "Selected form labels, helper text and city captions at least .75rem",
+      "Certificate link at least 44px tall"
+    ],
+    "limits": "Not full screen-reader or PDF/UA acceptance; booking/Fiserv/server unchanged",
+    "evidence": "evidence/readability-23.25.json",
+    "test": "21 rendered language/viewport cases; 32 gallery captions; no horizontal overflow; target text >=12px at default font scale; certificate link >=44px; final preview build 694 routes and static audit no errors"
+  },
+  "bookingHandoffCopyFix": {
+    "revision": "23.26",
+    "status": "tested_local",
+    "scope": "Fourteen homepage/stay-planner date-help paragraphs across seven languages: accurate external handoff wording; no guarantee of completed payment or property classification as hotel",
+    "protectedComponents": "No booking.js, server, GuestSage/Fiserv configuration or payment logic changed",
+    "acceptanceLimit": "Does not close B1/B3 or certify provider payment/PMS workflows",
+    "evidence": "evidence/handoff-copy-23.26.json"
+  },
+  "reservationDisclosuresFix": {
+    "revision": "23.27",
+    "state": "local-tested-unpublished",
+    "date": "2026-10-15",
+    "evidence": "docs/implementation/evidence/reservation-disclosures-23.27.json",
+    "protectedBookingAndFiserv": "unchanged",
+    "providerAcceptance": "not verified"
+  },
+  "czechLocale": {
+    "state": "production-published-public-metadata-verified",
+    "revision": "23.28",
+    "routes": 99,
+    "position": 3,
+    "externalBookingLanguage": "English fallback, Czech support unverified",
+    "protectedIntegrations": "Byte-identical to origin/main; dated hashes recorded",
+    "evidence": "docs/implementation/evidence/czech-local-acceptance-23.28.json",
+    "previewCommit": "e9c01e073f00857ec87ddbf19b324b66b352deef",
+    "previewPublicChecks": {
+      "pages": 99,
+      "pdfs": 24
+    },
+    "productionRevision": "23.29",
+    "productionCommit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+    "productionEvidence": "evidence/production-23.29-readback.json"
+  },
+  "czechErrorLocaleFix": {
+    "revision": "23.29",
+    "state": "production-verified",
+    "evidence": "docs/implementation/evidence/czech-404-23.29.json",
+    "productionEvidence": "evidence/production-23.29-readback.json"
+  },
+  "scopeReconciliationDate": "2026-10-15",
+  "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance.",
+  "environmentReconciliationDate": "2026-10-15",
+  "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged.",
+  "googleReadbackDate": "2026-10-16",
+  "lastLocalReview": "2026-10-16",
+  "pendingProductionRelease": {
+    "revision": "23.32",
+    "status": "production verified",
+    "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+    "replacesBlockedCandidate": "23.31",
+    "evidence": "evidence/production-23.32-readback.json"
+  }
 }

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-16",
+  "scope": "Dated technical Google readback; no private traffic aggregates or payment details",
+  "productionRevision": "23.29",
+  "productionCommit": "b633abc621f2047ea21f415f0f2bd454854b280b",
+  "gsc": {
+    "property": "https://hornigold.pl/",
+    "sitemapResubmissionAccepted": true,
+    "submissionDateShown": "16 paź 2026",
+    "previousLastReadShown": "14 paź 2026",
+    "previousDiscoveredURLs": 462,
+    "publicSitemapURLs": 529,
+    "czechHomeIndexed": true,
+    "czechLastCrawlDisplayed": "16 paź 2026, 01:11:45",
+    "czechUserCanonical": "https://hornigold.pl/cs/",
+    "czechGoogleCanonical": "inspected URL",
+    "manualActions": "no problems detected",
+    "securityIssues": "no problems detected",
+    "fieldCWV": "insufficient data; no pass/fail asserted"
+  },
+  "ads": {
+    "googleTag": "AW-18507796156",
+    "correctAccountTagMatched": true,
+    "tagManagerQuality": "Świetny",
+    "tagManagerSendsData": true,
+    "tagManagerProblemsDetected": false,
+    "purchaseReceiptVerified": false,
+    "disapprovalReasons": [
+      "Zaatakowana witryna",
+      "Złośliwe oprogramowanie"
+    ],
+    "campaignOrBudgetChanges": false,
+    "appealSubmitted": false
+  },
+  "safeBrowsing": {
+    "status": "Nie znaleziono niebezpiecznych materiałów",
+    "reportLastUpdated": "15 paź 2026",
+    "source": "https://transparencyreport.google.com/safe-browsing/search?url=hornigold.pl&hl=pl"
+  },
+  "productionAssets": {
+    "scriptStyleFilesVerified": 28,
+    "byteMismatches": 0
+  },
+  "evidenceHashes": {
+    "gsc-sitemap-submitted-20261016.json": "b3b1d900aaeffa0860863507951e5a154a10d5d37c6ad530023f61aa22d98bcf",
+    "gsc-czech-indexed-20261016.json": "f261fd27921f4a72426f603c4718c98b9afd555fd42011275f24ad77525525c3",
+    "gsc-security-20261016.json": "3c77a4a4665d9334618802eec968778735d12bb69b1430f210f6eb399a1660f0",
+    "gsc-cwv-20261016.json": "38acffa9ff966e474efe816087bdab40b80db2010ddf0ffd34ca8f010fea9f39",
+    "ads-readback-20261016.json": "3cf8ce614d9b12fc410b8ca116c8d768ce8607fe36f3f9cece07d16d51a00a15",
+    "safe-browsing-20261016.json": "617ef912657b58c2649cc695e6d8ed82c81ca6b06cfa4b7abfd9ce8e6f3f88d5",
+    "production-23.29-script-styles.json": "69d2d785bda39556e28af7cb2b1ac8fa747cd0e5632a08e94e570b8b150bd8f7"
+  },
+  "limits": [
+    "Fresh sitemap processing and indexing of all 529 URLs remain unconfirmed.",
+    "Ads policy flags require separate diagnosis; GSC/SafeBrowsing reports and asset-byte checks are not complete forensic certification.",
+    "No false purchase event, campaign activation, appeal, change to consent, protected booking/Fiserv or security settings.",
+    "Actual private reports and screenshots remain outside public GitHub."
+  ]
+}

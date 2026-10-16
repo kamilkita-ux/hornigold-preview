@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "site/assets/booking.js",
+      "sha256": "5cd19347884e322f3f6fd046a18474c704f302822cd3f442e744527617f51d95",
+      "unchangedFrom": "3b50e52"
+    },
+    {
+      "path": "site/assets/style.css",
+      "sha256": "4d1631deb62844c210ffd89e87438d662bbf91a79451c1da9572cb997bec6a4c",
+      "unchangedFrom": "3b50e52"
+    },
+    {
+      "path": "scripts/kwhotel_booking_pages.py",
+      "sha256": "bf991dbf115462e70c4ed46297053a8618d391245679b1a51ce0b6686d5cfd82",
+      "unchangedFrom": "3b50e52"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "sha256": "e8811176ba50c1660a4657f341602c0276f65c0f46642cccd563fe4699929567",
+      "unchangedFrom": "3b50e52"
+    }
+  ],
+  "bookingPanelsVerified": 21,
+  "protectedBookingBehavior": "all existing booking tests required before publish"
+}

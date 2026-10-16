@@ -1,0 +1,53 @@
+{
+  "state": "local-tested-ci-pending",
+  "date": "2026-10-15",
+  "canonicalRoutes": 793,
+  "czechRoutes": 99,
+  "reviewedHtmlStrings": 1449,
+  "dynamicMessages": 57,
+  "browserChecks": 200,
+  "switcherCounterpartChecks": 6337,
+  "previewLinks": 89752,
+  "productionLinks": 89755,
+  "seoAndDiscoveryErrors": 0,
+  "nodeTests": 168,
+  "pythonTests": {
+    "passed": 68,
+    "skipped": 3
+  },
+  "legalPdfDocuments": 24,
+  "czechLegalParagraphsMatched": 74,
+  "protectedFiles": [
+    {
+      "path": "server/counter.mjs",
+      "sha256": "6e27d619684329324f61acd2161f3a4edf85c8258d59ebb03b469d1a5adea17e"
+    },
+    {
+      "path": "server/production-entry.mjs",
+      "sha256": "a25ac2886e3acbab29e2ec85d00f9fa1f12c067882a5dd4764d53f0de0c3043d"
+    },
+    {
+      "path": "server/routes.mjs",
+      "sha256": "9f1021893f8a9cc065c19f9ddd79935a56cea631b3cd19d2cee3523b84bfe1cd"
+    },
+    {
+      "path": "server/worker.mjs",
+      "sha256": "6989051fd91aa55b2352643836e4fda1b80b1e71caaf3f2f24d6f0ed2b8e297b"
+    },
+    {
+      "path": "site/assets/booking.js",
+      "sha256": "5cd19347884e322f3f6fd046a18474c704f302822cd3f442e744527617f51d95"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "sha256": "e8811176ba50c1660a4657f341602c0276f65c0f46642cccd563fe4699929567"
+    }
+  ],
+  "externalBooking": "English fallback disclosed; Czech supplier support and PMS/payment acceptance unverified",
+  "finalTextCorrections": "Five wording differences aligned to authoritative legal JSON; no logic/layout changes",
+  "limits": [
+    "No independent native-speaker review claimed",
+    "Local tests do not prove production deployment",
+    "No PDF/UA or full WCAG certification"
+  ]
+}

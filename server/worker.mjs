@@ -21,7 +21,7 @@ export default {
     }
     if(url.pathname!=='/api/site-stats') {
       const response=await env.ASSETS.fetch(request);
-      const language=url.pathname.match(/^\/(pl|en|de|zh-hans|uk|es|it)(?:\/|$)/)?.[1];
+      const language=url.pathname.match(/^\/(pl|en|cs|de|zh-hans|uk|es|it)(?:\/|$)/)?.[1];
       if(response.status!==404 || !language || !['GET','HEAD'].includes(request.method)) return headersFor(response,url.pathname);
       const errorUrl=new URL('/'+language+'/404',url.origin);
       const headers=new Headers(request.headers);

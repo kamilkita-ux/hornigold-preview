@@ -1,5 +1,5 @@
 (() => {
-  const supported = ['pl','en','de','zh-hans','uk','es','it'];
+  const supported = ['pl','en','cs','de','zh-hans','uk','es','it'];
   let language = 'pl';
   try { const saved = localStorage.getItem('hornigold-language'); if(supported.includes(saved)) language = saved; } catch {}
   // Only an explicit saved choice changes the default. Direct language URLs are never redirected.

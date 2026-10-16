@@ -3,10 +3,13 @@ from pathlib import Path
 from urllib.parse import urlsplit,unquote
 import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
-from seo import load_routes, route_for_file, apply_seo, write_indexing_files
+from seo import load_routes, route_for_file, apply_seo, write_indexing_files, indexable_route
 from discovery import write_guides
+from footer_languages import apply_footer_languages
+from counter_labels import apply_counter_labels
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
+COUNTER_LABELS=json.loads((ROOT/'content/counter-labels.json').read_text())
 VERSION=str(RELEASE.get('revision',RELEASE['version']))
 args=argparse.ArgumentParser();args.add_argument('--base',default='/hornigold-preview/');args.add_argument('--counter',action='store_true');args.add_argument('--production-counter',action='store_true',help='Explicitly retain the existing aggregate counter in a production artifact; requires --counter and --base /');args.add_argument('--mode',choices=['preview','production-ready'],default='preview');opts=args.parse_args()
 BASE='/'+opts.base.strip('/')+'/' if opts.base.strip('/') else '/'
@@ -28,6 +31,8 @@ for p in OUT.rglob('*.html'):
  if p.parent == OUT and re.fullmatch(r'google[0-9a-f]+\.html', p.name) and p.read_text().strip() == 'google-site-verification: '+p.name:
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
+ apply_footer_languages(s, RELEASE['languages'])
+ apply_counter_labels(s, COUNTER_LABELS)
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
  version_marker=s.select_one('[data-site-version]')
  if version_marker:
@@ -70,10 +75,10 @@ for p in OUT.rglob('*.html'):
    a=s.new_tag('a',href=handoff['url'],attrs={'class':'button','rel':'noopener noreferrer','data-booking-external':''});a.string=text['label'];notice.append(a)
    explanation=s.new_tag('p');explanation.string=text['limit'];notice.append(explanation)
  if s.select_one('[data-site-version]') and opts.mode=='production-ready':
-  for name in ['analytics-config.js','analytics.js']:
+  for name in ['analytics-config.js','analytics.js','google-ads.js']:
    script=s.new_tag('script',src='/assets/'+name,defer=True);s.head.append(script)
   for meta in s.select('meta[http-equiv=Content-Security-Policy]'):
-   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com")
+   meta['content']=meta['content'].replace("script-src 'self'", "script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com").replace("connect-src 'self'", "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl https://ad.doubleclick.net").replace("img-src 'self' data:", "img-src 'self' data: https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl").replace("frame-src https://www.google.com", "frame-src https://www.google.com https://www.googletagmanager.com")
  if not opts.counter:
   for element in s.select('.site-views'):
    element.decompose()
@@ -97,7 +102,9 @@ for p in OUT.rglob('*.html'):
  p.write_text(str(s))
 write_indexing_files(OUT,opts.mode,ROUTES)
 write_guides(ROOT,OUT,BASE,opts.mode)
-p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE;p.write_text(json.dumps(d,ensure_ascii=False))
+p=OUT/'site.webmanifest';d=json.loads(p.read_text());d['start_url']=prefixed(d['start_url']);d['scope']=BASE
+for icon in d.get('icons',[]):icon['src']=prefixed(icon['src'])
+p.write_text(json.dumps(d,ensure_ascii=False))
 # Validate every local document/asset link, and require the preview markers on real pages.
 errors=[];pages=0
 for p in OUT.rglob('*.html'):
@@ -108,7 +115,7 @@ for p in OUT.rglob('*.html'):
  if s.select_one('[data-site-version]'):
   pages+=1
   if s.select_one('[data-site-version]').get_text()!=VERSION:errors.append(str(p)+' wrong version')
-  expected='noindex' if opts.mode=='preview' else 'index'
+  expected='index' if opts.mode=='production-ready' and indexable_route(ROOT,ROUTES.get(route_for_file(p,OUT),route_for_file(p,OUT))) else 'noindex'
   if expected not in s.select_one('meta[name=robots]')['content'].split(','):errors.append(str(p)+' indexing')
   if s.select_one('.preview-bar'):errors.append(str(p)+' unexpected preview banner')
  for el in s.select('a[href],img[src],script[src],link[rel=stylesheet],form[action]'):
@@ -117,7 +124,7 @@ for p in OUT.rglob('*.html'):
   if not u.path.startswith(BASE):errors.append(str(p)+' outside base '+raw);continue
   target=OUT/unquote(u.path[len(BASE):]);target=target/'index.html' if target.is_dir() else target
   if not target.exists():errors.append(str(p)+' missing '+raw)
-if pages!=693:errors.append('Expected 693 pages, found '+str(pages))
+if pages!=len(ROUTES):errors.append('Expected '+str(len(ROUTES))+' registered pages, found '+str(pages))
 if errors:raise SystemExit('\n'.join(errors[:30]))
 import os
 (OUT/'release.json').write_text(json.dumps({**RELEASE,'base':BASE,'buildMode':opts.mode,'indexing':opts.mode=='production-ready','published':False,'counterEnabled':opts.counter,'commit':os.environ.get('GITHUB_SHA','local')},ensure_ascii=False,indent=2)+'\n')

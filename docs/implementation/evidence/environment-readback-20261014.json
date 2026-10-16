@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-13T22:49:13.414159+00:00",
+  "scope": "Public release.json and Polish homepage robots metadata only; not full route or transaction acceptance.",
+  "environments": {
+    "production": {
+      "url": "https://hornigold.pl/pl/",
+      "revision": "23.21",
+      "commit": "fc86140d2cae0907ea6d7a92f2c745290459f382",
+      "buildMode": "production-ready",
+      "indexing": true,
+      "robotsMeta": "index,follow"
+    },
+    "github": {
+      "url": "https://kamilkita-ux.github.io/hornigold-preview/pl/",
+      "revision": "23.21",
+      "commit": "e050a2859f219ffc8550b2b8b693789a6d2ffef7",
+      "buildMode": "preview",
+      "indexing": false,
+      "robotsMeta": "noindex,nofollow,noarchive"
+    },
+    "sites": {
+      "url": "https://hornigold-przeglad-beata.ai-bd6d706867.chatgpt.site/pl/",
+      "revision": "23.20",
+      "commit": "c186bceb7ca710aa2c3a643577827a6b5318ee0e",
+      "buildMode": "preview",
+      "indexing": false,
+      "robotsMeta": "noindex,nofollow,noarchive"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Hornigold — wdrożenie Cloudflare Workers
 
-Gałąź `deploy/cloudflare` (CloudMentor) w worktree `C:\dev\hornigold-cloudflare`. Źródło treści: `site/`, `server/`, `drizzle/`, `scripts/` z `main` Kamila (`kamilkita-ux/hornigold-preview`, rozwijane w Sites). Ta gałąź dodaje: `wrangler.jsonc`, `scripts/cloudflare/`, ten plik, poprawkę ścieżek Windows w `scripts/seo.py` oraz rezerwacje GuestSage (`site/assets/booking.js`, panel w `site/assets/style.css`, 21 stron HTML, `scripts/kwhotel_booking_pages.py`, `tests/booking*.test.mjs`, spec i plan w `docs/superpowers/`). Konto GitHub `CloudDev-M` nie ma jeszcze prawa zapisu do repo Kamila — commity są lokalne.
+Gałąź `deploy/cloudflare` (CloudMentor) w worktree `C:\dev\hornigold-cloudflare`. Źródło treści: `site/`, `server/`, `drizzle/`, `scripts/` z `main` Kamila (`kamilkita-ux/hornigold-preview`, rozwijane w Sites). Ta gałąź dodaje: `wrangler.jsonc`, `scripts/cloudflare/`, ten plik, poprawkę ścieżek Windows w `scripts/seo.py` oraz rezerwacje GuestSage (`site/assets/booking.js`, panel w `site/assets/style.css`, 21 stron HTML, `scripts/kwhotel_booking_pages.py`, `tests/booking*.test.mjs`, spec i plan w `docs/superpowers/`). Konto GitHub `CloudDev-M` ma prawo zapisu od 12.10.2026; istniejący proces CloudMentor pozostaje zachowany.
 
 ## Architektura (stan na 10 października 2026 r.)
 
@@ -18,7 +18,7 @@ Przepływ żądania:
 | Co | Wartość |
 |---|---|
 | Konto | `Hornigold` `ee23b9132a9692ab6c0e9f22aa86dda8` (osobne od FFP; od 7 października 2026 r.) |
-| Worker | `hornigold`, produkcja `6053200a-797c-41ba-8fb6-4238e370578e` (10.10.2026); rollback: `06015b8c` (rezerwacje bez poprawek po przeglądzie), `576f78bb` (bez rezerwacji), `2e24247c` (bez indeksowania) |
+| Worker | `hornigold`, produkcja 23.20: `03fa3ce4-c7ab-462d-8b5b-5f4ff3cc945f` (13.10.2026, 20:22 UTC); bezpośredni rollback: `28e4a217-5e1d-442f-9c8e-3007ed6a4696` (23.19-r5) |
 | D1 | `hornigold-counter-eu` `23c8ca98-7e50-4a5f-98a1-1a0bfbebde7e`, **jurysdykcja EU**, migracje `drizzle/`; poprzednia `hornigold-counter` `bb927207-…` (`eeur`) = kopia |
 | Strefa | `hornigold.pl` `398f3b032a51a14d095ea3d82d25c821`, Free, aktywna od 9.10.2026 |
 | Adresy | `https://hornigold.pl` (Custom Domain); `www` → 301; `old.hornigold.pl` = stara strona PHP i rezerwacje Profitroom |
@@ -26,6 +26,20 @@ Przepływ żądania:
 | Logi | wyłączone (`observability.enabled: false`) |
 
 Licznik odsłon liczy od zera od 7 października 2026 r. (`scripts/cloudflare/seed-counter.sql`) — decyzja Marka.
+
+## Potwierdzone wydanie 23.20 — 13 października 2026 r.
+
+Gotową paczkę `_cloudflare_production` z `main` `1d651a7fc08b8dcef5063ac097dec1bfbb3398ab` opublikowano bezpośrednio Wranglerem 4.149.0 do istniejącego Workera. Zachowano domenę, D1, licznik, GuestSage i Fiserv; bez migracji i seedowania. Zweryfikowano 1673 hashe paczki oraz zgodność 52 publicznych plików. Aktualna mapa ma **462 adresy indeksowalne**; 224 ilustracje i 7 wejść procesu rezerwacji pozostają celowo `noindex` przy zachowanej dostępności stron. `/` zwraca serwerowe 301 do `/pl/` z parametrami.
+
+Kopia sprzed wdrożenia: `/Users/kamilkita/Documents/Hornigold-backups/2026-10-13_222021-pre-cloudflare-23.20` (Mac mini, 22:20 Europe/Warsaw). Potwierdzono odczyt historii i manifestu. Zapis konfiguracji oraz eksport D1 pozostają prywatnymi elementami kopii; nie dodawać ich do repozytorium.
+
+Po bezpośrednim `wrangler deploy` kontrolę produkcji uruchamia się jawnie. Sam `--smoke` nie wykonuje rollbacku; automatyczny rollback dotyczy pełnego `cloudflare-release.mjs --deploy`. Punkt powrotu tego wydania:
+
+```sh
+npx wrangler rollback 28e4a217-5e1d-442f-9c8e-3007ed6a4696 --name hornigold --config wrangler.jsonc
+```
+
+Nie przywracać automatycznie starszych danych licznika ani nie zmieniać DNS. Po rollbacku ponownie odczytać produkcję. Aktualizacja samego monitora nie wymaga ponownego wdrożenia Workera. Monitor wykonuje wyłącznie GET, sprawdza dokładne przekierowania root/UTM i www, celowe `noindex` stron rezerwacji oraz JSON API licznika; nie zwiększa licznika ani nie wykonuje transakcji.
 
 ## DNS
 
@@ -54,7 +68,7 @@ npx wrangler deploy --config C:/dev/hornigold-cloudflare/wrangler.jsonc  # musi 
 
 Migracje D1 (tylko gdy przybyło coś w `drizzle/`): `CLOUDFLARE_ACCOUNT_ID=ee23b9132a9692ab6c0e9f22aa86dda8 npx wrangler d1 migrations apply hornigold-counter-eu --remote --config wrangler.jsonc` (wrangler widzi dwa konta).
 
-Smoke: `/pl/` 200 z `index,follow`; `/pl/nie-ma-takiej` 404 z `noindex`; `robots.txt` `Allow: /`; mapa strony 693 adresy; `/release.json` (`indexing: true`, `bookingEnabled: false`); `/api/site-stats`; stary adres z `server/routes.mjs` (301 z parametrami); `www` 301; 7× `/{język}/rezerwacja/` z `a[data-booking]`; nagłówek CSP bez zmian. Build na Windows trwa kilka minut i potrafi zostać przerwany przy braku pamięci — uruchamiać kroki osobno.
+Smoke: `/pl/` 200 z `index,follow`; `/pl/nie-ma-takiej` 404 z `noindex`; `robots.txt` `Allow: /`; mapa strony 462 adresy indeksowalne; `/release.json` (`indexing: true`, `bookingEnabled: false`); GET `/api/site-stats`; stary adres z `server/routes.mjs` (301 z parametrami); root i `www` 301 z dokładnym zachowaniem parametrów; 7× `/{język}/rezerwacja/` z `a[data-booking]` i celowym `noindex`; nagłówek CSP bez zmian. Build na Windows trwa kilka minut i potrafi zostać przerwany przy braku pamięci — uruchamiać kroki osobno.
 
 ### Automatycznie: `scripts/cloudflare-release.mjs` (od 10 października 2026 r.)
 

@@ -1,10 +1,10 @@
 {
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-16",
   "sources": {
     "GA4": {
       "property": "558323228",
       "stream": "16101873868",
-      "status": "Potwierdzony odbiór kontrolowanego testu w raporcie czasu rzeczywistego. Dane zbiorcze wymagają przetworzenia przez Google.",
+      "status": "Odczyt rzeczywistych danych zbiorczych i trzech wymiarów językowych potwierdzony 15.10.2026. Prywatny panel zawiera dane z okresem 8–14.10; mała próbka może obejmować testy.",
       "visits": null,
       "leads": null,
       "revenue": null,
@@ -18,7 +18,10 @@
           "stay_planner_click": 1
         },
         "evidence": "evidence/ga4-live-receipt-2026-10-11.json"
-      }
+      },
+      "valuesStoredOutsideRepository": true,
+      "nullReason": "Private aggregate values intentionally excluded from public repository",
+      "aggregateReadbackEvidence": "evidence/private-measurement-dashboard-readback-2026-10-15.json"
     },
     "GSC": {
       "property": "https://hornigold.pl/",
@@ -31,34 +34,47 @@
         "/es/",
         "/it/"
       ],
-      "sitemap": "Live test 12 October: Google has access. Sitemap processing report last observed cannot fetch / zero discovered pages; processing not yet confirmed.",
+      "sitemap": "16.10: ponowne zgłoszenie mapy przyjęte. Publiczna mapa 23.29 ma 529 URL; panel przed świeżym przetworzeniem nadal wskazuje odczyt 14.10 i 462 URL.",
       "clicks": null,
       "impressions": null,
       "indexingRequestsAccepted": [
         "/zh-hans/",
         "/uk/"
       ],
-      "indexedObservationDate": "2026-10-11"
+      "indexedObservationDate": "2026-10-11",
+      "sitemapEvidence": "evidence/gsc-sitemap-success-20261013.json",
+      "status": "Odczyt skuteczności potwierdzony 15.10; wybrano 7 dni, dostępny wykres 8–13.10. Wyniki zbiorcze przechowywane prywatnie.",
+      "valuesStoredOutsideRepository": true,
+      "fieldCoreWebVitals": "Raport z 14.10: zbyt mało danych użytkowników na telefonie i komputerze.",
+      "latestTechnicalReadbackEvidence": "evidence/google-readback-2026-10-16.json",
+      "czechHomeObservation": {
+        "date": "2026-10-16",
+        "url": "https://hornigold.pl/cs/",
+        "indexed": true,
+        "googleCanonical": "inspected URL"
+      }
     },
     "Sales": {
-      "status": "Brak zweryfikowanego źródła PMS / płatności",
+      "status": "14.10 właściciel potwierdził oczekiwanie na dokumentację i środowiska testowe KWHotel/GuestSage oraz Fiserv. Brak odbioru transakcyjnego.",
       "bookings": null,
       "revenue": null
     },
     "Ads": {
-      "status": "Nie wskazano zweryfikowanego konta do integracji; kampanii nie uruchomiono",
-      "cost": null
+      "status": "16.10: panel właściwego tagu AW-18507796156 potwierdza jakość Świetny i odbiór danych. Konwersja rezerwacji/płatności niepotwierdzona. Odrzucenie reklam z powodów zasad wymaga osobnego wyjaśnienia; brak zmian kampanii i budżetu.",
+      "cost": null,
+      "technicalReadbackEvidence": "evidence/google-readback-2026-10-16.json"
     },
     "Publication": {
-      "previewRevision": "23.18",
-      "productionRevisionLastObserved": "23.11",
-      "productionReadbackDate": "2026-10-12",
-      "githubRun": 38180159746,
-      "automaticCheckRun": 38180305635,
-      "automaticCheckStatus": "success",
-      "routes": 693,
-      "failures": 0,
-      "evidence": "evidence/PUBLICATION_23.17.json"
+      "productionRevisionLastObserved": "23.30",
+      "productionCommitLastObserved": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+      "productionReadbackDate": "2026-10-16",
+      "sitesRevisionLastObserved": "23.20",
+      "routes": 793,
+      "indexableSitemapURLs": 529,
+      "status": "Produkcja i GitHub Pages 23.30 odczytane publicznie. Osiem stopek językowych, 28 plików JS/CSS i 12 kontroli produkcji poprawne; 793 trasy podglądu sprawdzone. Sites pozostaje starszą wersją 23.20. Bez odbioru transakcyjnego.",
+      "githubPagesCommitLastObserved": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+      "githubPagesRevisionLastObserved": "23.30",
+      "githubPagesRoutes": 793
     }
   }
 }

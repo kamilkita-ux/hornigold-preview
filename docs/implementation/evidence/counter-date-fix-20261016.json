@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "revision": "23.31",
+  "stage": "local preparation, publication unverified",
+  "observedProduction": "23.30",
+  "bug": {
+    "renderedFooterStartDate": "2026-10-05",
+    "publicAPIStartedAt": "2026-10-07",
+    "allEightSourceLocalesHadFixedDate": true
+  },
+  "change": "Neutral localized label until a valid API start date is received; date formatted in the page language with UTC calendar date. Missing/invalid/future dates retain the neutral label.",
+  "tests": {
+    "nodeCases": 3,
+    "allEightLocalesCovered": true,
+    "pythonSourceLocaleCase": 1,
+    "result": "PASS"
+  },
+  "preserved": [
+    "Counter POST endpoint and headers, once-per-visible-page increment, credentials omission, database/history/server code",
+    "Booking.js, GuestSage, Fiserv, CSS and Cloudflare configuration",
+    "Consent model and visitor-versus-pageview distinction"
+  ],
+  "limits": [
+    "No live test increments or real conversions were generated for these unit tests.",
+    "Not transaction, field CWV or reader acceptance."
+  ]
+}
