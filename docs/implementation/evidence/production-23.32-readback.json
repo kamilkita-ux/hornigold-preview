@@ -1,0 +1,87 @@
+{
+  "checkedAtUTC": "2026-10-16T03:50:21.645741+00:00",
+  "revision": "23.32",
+  "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+  "workerVersion": "82b55d2e-b0c8-499e-8761-d2aba190093d",
+  "repository": "kamilkita-ux/hornigold-preview",
+  "branch": "main",
+  "productionURL": "https://hornigold.pl/pl/",
+  "publicAcceptance": {
+    "mappedWordPressURLs": 19,
+    "mapped301GETHEADChecks": 38,
+    "prototypeAndUnknown410GETHEADChecks": 24,
+    "recognizedLanguageAliasGETHEADChecks": 18,
+    "destinationCanonical200Distinct": 18,
+    "sitemap529HTTPcanonicalLanguageIndexingReciprocalHreflang": "PASS zero errors",
+    "excludedLocalArtifact": 264,
+    "excludedLiveSamples": 8,
+    "eightFooterLanguages": "PASS CS third",
+    "eightFrontendDatesFromRealAPI": "PASS2026-10-07",
+    "optionalConsents": "three unchecked in8languages plus openedPLdialog",
+    "monitor": "12/12 PASS",
+    "publicAssetSHA": 44,
+    "PDFHashes": 24,
+    "bookingBypassHEAD": "302 preserved no provider follow"
+  },
+  "protection": {
+    "bookingGuestSageFiservCSSPDFUnchanged": true,
+    "DNSMailBindingsD1AndSalesSwitchesPreserved": true,
+    "runtimeSettingsHandlersPlacementPreserved": true,
+    "serverChange": "Authorized PR37 rootGET/HEAD migration plus minimal own-property guard; counter.mjs unchanged."
+  },
+  "previews": {
+    "production": {
+      "revision": "23.32",
+      "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+      "indexing": true,
+      "buildMode": "production-ready",
+      "counterEnabled": true
+    },
+    "Pages": {
+      "revision": "23.32",
+      "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+      "indexing": false,
+      "buildMode": "preview",
+      "counterEnabled": false
+    },
+    "Sites": {
+      "revision": "23.20",
+      "commit": "c186bceb7ca710aa2c3a643577827a6b5318ee0e",
+      "indexing": false,
+      "buildMode": "preview",
+      "counterEnabled": true
+    }
+  },
+  "backupVerified": true,
+  "rootIndependentChecks": {
+    "monitor": 12,
+    "scriptStyleSHA": 28,
+    "failures": 0
+  },
+  "limits": [
+    "No booking/payment/form/provider navigation, fake conversion, directCLIcounterPOST or D1 reset/restore.",
+    "Eight ordinary browser page views were performed to verify all frontend date labels.",
+    "Eight exclusions checked live; all264checked in artifact; complete529indexable sitemap checked live.",
+    "QA measurement domains blocked temporarily; network buffer truncated, so no full network/event delivery certification.",
+    "This release does not certify supplier transactions, Ads delivery, analytics receipt or all34business requirements.",
+    "Migration package2 was not started."
+  ],
+  "evidenceFilesSHA256": {
+    "predeploy-summary.json": "888cafb55282ef70526baaa4bb472e3af1e6182be13fca7d2aa7dbeca91ffca1",
+    "root-deploy-gate.json": "4d76bb90e3dc2c4b322d7c579ede391b66a606deb6b1cc4de53b19c977bbe473",
+    "artifact-delta.json": "cc9cc0f2e08465c7eceee5eb9b0d3b9184dc3b77427260d79e5db75ee3d9891b",
+    "public-readback.json": "20f254beaa2f312c52f2a9f3def0705351322da2f8d548b8fea59b577aab1ce2",
+    "independent-public-sitemap.json": "4765367a6033cf4140958dbce27acdefe288bac48858d5dc13e60452adfd2bd5",
+    "monitor-after.json": "fdda3a17d3afe2ccf6f42a2c66ce4146cb1dc8886435467fb6d4c55fcd496405",
+    "root-browser-qa.json": "d931814c219a73d1ca5d4509860d1a56b63e94a4950a5c45c5bbf2aff74afe2c",
+    "runtime-binding-readback.json": "a2ded75045cbad5fe3fb499408116b3b098b7a46d793b3ceb0d92661480bae30",
+    "preview-readback.json": "ef1ddf9b0a5d6266328fb25d029f8d02ecbbc55009205c486ef66c5240da9106",
+    "marek-mail-readback.json": "8997cf13ab39f9b4e1d9840360ead6c6ec0d43eb3617e5d8ace05a6dcf6dd0bd",
+    "seo-owner-authorization.json": "78c695aa35b3dd619453f18e376e783ef422a4a0a6c49d2dd3112e727e3345af",
+    "worker-version-after.json": "11b888918d28a177969aa60fcdce6fc67183279d3da1e5f17d2c1ec86e4944d6",
+    "deployments-after.json": "908cad9941d29017488cc89f796c164c4ddd54487a15c2810776dcc3aa56710d",
+    "wrangler-deploy.log": "48582bcf4899b6d2e48b8bf18c92a3eb804058936a693588d9321194aa300475",
+    "targeted-tests.log": "26817ad77e4cabaae032c36ba1a4f6cd40d8f619afca20a98cffca4a20fe1ae8",
+    "live-counter-date-mobile.png": "dc44637704e2bf98d1e487e50abd8a3babbac7dbaa29cca03e1b9f9aadd296eb"
+  }
+}

@@ -2,17 +2,18 @@
   "date": "2026-10-16",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": {
-    "revision": "23.30",
-    "commit": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
-    "verifiedAt": "2026-10-16T02:17:21.019208+00:00",
-    "verification": "Eight language homepage footers/canonical/indexability/H1/switcher; 28 JS/CSS byte matches; 12 critical monitoring checks. Not transaction acceptance."
+    "revision": "23.32",
+    "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
+    "verifiedAt": "2026-10-16T03:50:21.645741+00:00",
+    "verification": "529 sitemap pages; 19 migration mappings checked with GET and HEAD; unknown/prototype keys return 410; API date in eight browser languages; consent defaults; 28 JS/CSS hashes and 12 monitor checks. Not supplier transaction acceptance.",
+    "evidence": "evidence/production-23.32-readback.json"
   },
   "items": [
     {
       "id": "A1",
       "status": "verified",
       "environment": "production / Sites / GitHub Pages; public readback 2026-10-16",
-      "change": "16.10 odczytano produkcję i GitHub Pages 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba; Sites nadal 23.20/c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres publicznych kontroli i ograniczenia zapisano w production-23.30-readback.json.",
+      "change": "16.10 potwierdzono produkcję i GitHub Pages 23.32, commit 24c9655e4a4125d65135959d886c1c3ca4cb5ac8. Sites nadal 23.20, commit c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres i ograniczenia zapisano w production-23.32-readback.json.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -26,7 +27,8 @@
         "evidence/production-release-2026-10-12.json",
         "evidence/environment-readback-20261014.json",
         "evidence/production-23.29-readback.json",
-        "evidence/production-23.30-readback.json"
+        "evidence/production-23.30-readback.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -40,7 +42,8 @@
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
-        "evidence/goal-reconciliation-20261014.json"
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Zachować aktualny pipeline i chronione integracje.",
@@ -54,7 +57,8 @@
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/booking-handoff.json",
-        "evidence/audit-production-readback.json"
+        "evidence/audit-production-readback.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Zachować rozszerzenia Marka przy publikacji.",
@@ -73,7 +77,8 @@
         "evidence/restore-23.17.json",
         "evidence/restore-23.18.json",
         "evidence/goal-reconciliation-20261014.json",
-        "evidence/schema-restore-20261014.json"
+        "evidence/schema-restore-20261014.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Utrzymywać kopie przed publikacją; w kwartalnym przeglądzie zaplanować odizolowany natywny test D1, bez nadpisania produkcji.",
@@ -294,7 +299,8 @@
         "evidence/audit-production-readback.json",
         "evidence/audit-SUMMARY.json",
         "evidence/production-23.29-readback.json",
-        "evidence/legacy-ownkeys-regression-20261016.json"
+        "evidence/legacy-ownkeys-regression-20261016.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Kontrola po każdej publikacji.",
@@ -309,7 +315,8 @@
       "evidence": [
         "evidence/fragments.json",
         "evidence/external-links.json",
-        "evidence/legacy-ownkeys-regression-20261016.json"
+        "evidence/legacy-ownkeys-regression-20261016.json",
+        "evidence/production-23.32-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po zmianie tras i treści.",
@@ -894,9 +901,9 @@
   "lastLocalReview": "2026-10-16",
   "pendingProductionRelease": {
     "revision": "23.32",
-    "status": "local preparation; CI and publication pending",
+    "status": "production verified",
+    "commit": "24c9655e4a4125d65135959d886c1c3ca4cb5ac8",
     "replacesBlockedCandidate": "23.31",
-    "productionStill": "23.30 / 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
-    "evidence": "evidence/legacy-ownkeys-regression-20261016.json"
+    "evidence": "evidence/production-23.32-readback.json"
   }
 }
