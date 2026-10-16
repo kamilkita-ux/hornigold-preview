@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "sources": {
     "GA4": {
       "property": "558323228",
@@ -34,7 +34,7 @@
         "/es/",
         "/it/"
       ],
-      "sitemap": "Publiczna mapa produkcji 23.29: 529 URL, odczyt 15.10.2026. Przyjęcie i indeksacja przez Google wymagają osobnej obserwacji.",
+      "sitemap": "16.10: ponowne zgłoszenie mapy przyjęte. Publiczna mapa 23.29 ma 529 URL; panel przed świeżym przetworzeniem nadal wskazuje odczyt 14.10 i 462 URL.",
       "clicks": null,
       "impressions": null,
       "indexingRequestsAccepted": [
@@ -45,7 +45,14 @@
       "sitemapEvidence": "evidence/gsc-sitemap-success-20261013.json",
       "status": "Odczyt skuteczności potwierdzony 15.10; wybrano 7 dni, dostępny wykres 8–13.10. Wyniki zbiorcze przechowywane prywatnie.",
       "valuesStoredOutsideRepository": true,
-      "fieldCoreWebVitals": "Raport z 14.10: zbyt mało danych użytkowników na telefonie i komputerze."
+      "fieldCoreWebVitals": "Raport z 14.10: zbyt mało danych użytkowników na telefonie i komputerze.",
+      "latestTechnicalReadbackEvidence": "evidence/google-readback-2026-10-16.json",
+      "czechHomeObservation": {
+        "date": "2026-10-16",
+        "url": "https://hornigold.pl/cs/",
+        "indexed": true,
+        "googleCanonical": "inspected URL"
+      }
     },
     "Sales": {
       "status": "14.10 właściciel potwierdził oczekiwanie na dokumentację i środowiska testowe KWHotel/GuestSage oraz Fiserv. Brak odbioru transakcyjnego.",
@@ -53,8 +60,9 @@
       "revenue": null
     },
     "Ads": {
-      "status": "Tag AW-18507796156 wdrożony po zgodzie marketingowej. Kontrolowany test SDK 14.10: odpowiedzi 200/204, zero żądań przed zgodą i po wycofaniu. Odbiór w panelu Ads i sprzedaż niepotwierdzone.",
-      "cost": null
+      "status": "16.10: panel właściwego tagu AW-18507796156 potwierdza jakość Świetny i odbiór danych. Konwersja rezerwacji/płatności niepotwierdzona. Odrzucenie reklam z powodów zasad wymaga osobnego wyjaśnienia; brak zmian kampanii i budżetu.",
+      "cost": null,
+      "technicalReadbackEvidence": "evidence/google-readback-2026-10-16.json"
     },
     "Publication": {
       "productionRevisionLastObserved": "23.29",

@@ -205,11 +205,12 @@
       "id": "C3",
       "status": "partial",
       "environment": "production + local improvement",
-      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. 15.10.2026: actual receipt of page_language and language_switch source/target values verified in the correct GA4 UI; private aggregates remain outside the repository.",
+      "change": "Produkcja ma zgody i sanitację parametrów. Potwierdzono page_view i stay_planner_click w GA4; opublikowano w podglądach poprawkę aliasów linków społecznościowych. Brak fałszywych lead/purchase. W 23.13 referrer ograniczony do jawnej listy znanych domen bez ścieżek i parametrów; nowe regresje przeszły. 15.10.2026: actual receipt of page_language and language_switch source/target values verified in the correct GA4 UI; private aggregates remain outside the repository. 16.10.2026: właściwy tag AW-18507796156 potwierdzony w panelu Google; jakość Świetny, odbiór danych potwierdzony. Nie jest to potwierdzenie rezerwacji, płatności ani przychodu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../tests/ga4-staged.test.mjs",
-        "evidence/private-measurement-dashboard-readback-2026-10-15.json"
+        "evidence/private-measurement-dashboard-readback-2026-10-15.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
       "next": "Pomiar między domenami i przychód wymagają potwierdzonej integracji dostawcy.",
@@ -251,7 +252,8 @@
       "evidence": [
         "evidence/image-inventory.json",
         "evidence/lighthouse-automatic-23.17.json",
-        "evidence/image-rights-owner-confirmation-2026-10-12.json"
+        "evidence/image-rights-owner-confirmation-2026-10-12.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
       "next": "INP i rzeczywiste CWV wymagają ruchu i obserwacji; pomiary laboratoryjne nie zastępują danych użytkowników.",
@@ -313,14 +315,15 @@
       "id": "E3",
       "status": "verified",
       "environment": "production / evidence verified 2026-10-14",
-      "change": "13.10 odczyt GSC: sitemap Sukces, 693 wykryte URL, ostatni odczyt 12.10. Nowa mapa produkcyjna zawiera 462 URL zgodnie z polityką indeksacji. Przetworzenie nowej liczby wymaga obserwacji; wykrycie nie oznacza indeksacji.",
+      "change": "13.10 odczyt GSC: sitemap Sukces, 693 wykryte URL, ostatni odczyt 12.10. Nowa mapa produkcyjna zawiera 462 URL zgodnie z polityką indeksacji. Przetworzenie nowej liczby wymaga obserwacji; wykrycie nie oznacza indeksacji. 16.10.2026: czeska strona główna w indeksie Google, canonical zgodny. Ponowne zgłoszenie aktualnej mapy 529 URL przyjęte; świeże przetworzenie wszystkich URL pozostaje obserwacją.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
         "evidence/gsc-seven-languages-2026-10-11.json",
         "evidence/gsc-sitemap-live-test.json",
         "evidence/sitemap-client-check.json",
-        "evidence/gsc-sitemap-success-20261013.json"
+        "evidence/gsc-sitemap-success-20261013.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": null,
       "next": "Ponownie odczytać GSC po przetworzeniu nowej mapy.",
@@ -456,7 +459,8 @@
         "evidence/pdf-patched-compatibility.json",
         "evidence/dependencies-23.13.json",
         "evidence/dependency-compat-23.13.json",
-        "evidence/audit-SUMMARY.json"
+        "evidence/audit-SUMMARY.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
       "barrier": "Pełny test powrotu w odizolowanym środowisku Cloudflare i końcowy przegląd operacyjnych uprawnień pozostają niepotwierdzone.",
       "next": "Weryfikować operacyjne zabezpieczenia właściwego konta wyłącznie odczytowo; odtworzenie nie może nadpisać produkcji.",
@@ -549,7 +553,7 @@
     "partial": 6
   },
   "publicationSnapshot": "Produkcja i GitHub Pages 23.29 potwierdzone publicznym odczytem. Sites pozostaje starszym podglądem; rezerwacje i płatności wymagają oddzielnego odbioru.",
-  "updatedAtUTC": "2026-10-15T18:24:08.788331+00:00",
+  "updatedAtUTC": "2026-10-16T01:31:15.342668+00:00",
   "audit3Backlog": {
     "received": "2026-10-13",
     "source": "Delegowane zlecenie audytu nr 3 z 12.10.2026; pełny oryginał nie został jeszcze odczytany w tym checkoutie",
@@ -878,5 +882,6 @@
   "scopeReconciliationDate": "2026-10-15",
   "scopeReconciliationNote": "Preserve all 34 original requirements; separate prepared deliverables, future operational adoption and unavailable supplier acceptance.",
   "environmentReconciliationDate": "2026-10-15",
-  "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged."
+  "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged.",
+  "googleReadbackDate": "2026-10-16"
 }
