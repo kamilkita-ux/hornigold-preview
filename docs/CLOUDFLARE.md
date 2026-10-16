@@ -363,3 +363,9 @@ Przyczyna w obu miejscach ta sama: o przejściu decydował skrypt z `defer`, uru
 - Po wdrożeniu (Playwright, bez rezerwacji): `/` nie jest malowany; klik w pokój dostaje `302` i przeglądarka nie maluje strony Rezerwacja; 6 kategorii → silnik z jedną ofertą właściwego typu, „Wstecz” wraca na listę pokoi. Czas od kliknięcia do pojawienia się silnika zależy już tylko od KWHotel (w pomiarach 2–5 s) — w tym czasie gość widzi listę pokoi.
 - Worker `28e4a217-5e1d-442f-9c8e-3007ed6a4696`; poprzedni `1a25e28a` przywraca `wrangler rollback`. Smoke 26/26. Build przeliczył wszystkie strony, więc `wrangler deploy` kończył wysyłkę jeszcze kilkanaście minut po aktywacji wersji.
 - Test lokalny całego Workera przed wdrożeniem: `npx wrangler dev --config C:/dev/hornigold-cloudflare/wrangler.jsonc --port 8791` (z katalogu z lokalnym `wrangler`), potem pomiary pod `http://127.0.0.1:8791`.
+
+## Wydanie 16 października 2026 r. (23.32): scalenie `origin/main` 0c7f161f
+
+- 129 commitów Kamila (23.20–23.32: czeski, Google Ads, przekierowania WordPress, licznik, stopka języków). Scalenie bez konfliktów (78c333e5). Poprawka Windows `.as_posix()`, blok Search Console, 302 do silnika rezerwacji i testy `booking-redirect` / `search-console-verification` zachowane.
+- CSP (`server/production-entry.mjs`): nowe źródła tylko Google (GTM, Ads: googleadservices, doubleclick, googlesyndication, google.com/.pl) — przyjęte `--accept CSP`. Bez migracji D1.
+- Worker `1cd2984e-f9d2-48b3-a16c-e3a045c3f945`; poprzedni `cd5a3f2a`→…→`4afa9184`/`28e4a217` (produkcja przed wydaniem = 23.19-r5 `28e4a217`) przywraca `wrangler rollback`. Smoke przeszedł, `/release.json` revision 23.32.
