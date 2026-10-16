@@ -5,6 +5,7 @@ import argparse,shutil,json,re,hashlib
 from bs4 import BeautifulSoup
 from seo import load_routes, route_for_file, apply_seo, write_indexing_files, indexable_route
 from discovery import write_guides
+from footer_languages import apply_footer_languages
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 VERSION=str(RELEASE.get('revision',RELEASE['version']))
@@ -28,6 +29,7 @@ for p in OUT.rglob('*.html'):
  if p.parent == OUT and re.fullmatch(r'google[0-9a-f]+\.html', p.name) and p.read_text().strip() == 'google-site-verification: '+p.name:
   continue
  s=BeautifulSoup(p.read_text(),'html.parser')
+ apply_footer_languages(s, RELEASE['languages'])
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
  version_marker=s.select_one('[data-site-version]')
  if version_marker:
