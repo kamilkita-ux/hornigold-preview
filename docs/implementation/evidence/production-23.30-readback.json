@@ -1,0 +1,44 @@
+{
+  "verifiedAtUTC": "2026-10-16T02:17:21.019208+00:00",
+  "revision": "23.30",
+  "commit": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+  "production": {
+    "homepages": 8,
+    "footerInventory": "PL / EN / CS / DE / 中文 / УКР / ES / IT",
+    "footerCanonicalIndexabilityH1SwitcherErrors": 0,
+    "scriptStyleAssets": 28,
+    "scriptStyleByteMismatches": 0,
+    "criticalMonitoringChecks": 12,
+    "criticalMonitoringPassed": 12,
+    "deploymentStable": true
+  },
+  "githubPages": {
+    "revision": "23.30",
+    "commit": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+    "canonicalRoutesChecked": 793,
+    "failures": 0,
+    "previewIndexingBlocked": true,
+    "analyticsDisabled": true,
+    "publicationWorkflow": 38838470487,
+    "postPublicationWorkflow": 38838661482
+  },
+  "quality": {
+    "workflow": 38837865093,
+    "pythonTests": 73,
+    "artifactTests": 3,
+    "nodeTests": 168,
+    "mobileCases": 33,
+    "failures": 0
+  },
+  "sites": {
+    "revisionLastObserved": "23.20",
+    "commitLastObserved": "c186bceb7ca710aa2c3a643577827a6b5318ee0e",
+    "indexing": false
+  },
+  "limits": [
+    "Production footer verification covers eight language homepages; full local artifacts cover 793 canonical routes.",
+    "Byte equivalence is not complete forensic security or transaction acceptance.",
+    "No new field CWV, legal, native translation or screen-reader certification.",
+    "No reservations, payments or test conversions."
+  ]
+}

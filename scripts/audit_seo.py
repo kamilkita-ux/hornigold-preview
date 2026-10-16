@@ -17,6 +17,7 @@ def audit(mode, directory):
     def check(ok,rule,route=''):
         if not ok:errors.append({'route':route,'rule':rule})
     docs={p:BeautifulSoup(p.read_text(),'html.parser') for p in out.rglob('*.html')}
+    counter_labels=json.loads((ROOT/'content/counter-labels.json').read_text())
     by_route={route_for_file(p,out):s for p,s in docs.items()}
     robots=(out/'robots.txt').read_text();rp=RobotFileParser();rp.parse(robots.splitlines())
     check(release.get('buildMode')==mode,'build mode')
@@ -54,6 +55,13 @@ def audit(mode, directory):
             check(p.read_text().strip() == 'google-site-verification: '+p.name, 'exact Google verification response', p.name)
             continue
         path=route_for_file(p,out);route=routes.get(unquote(path));real=bool(route)
+        if s.select_one('footer .site-views'):
+            text=counter_labels[s.html.get('lang','pl').lower()]
+            labels=s.select('footer [data-view-label]')
+            check(len(labels)==1 and labels[0].get_text()==text['neutral']
+                  and labels[0].get('data-since-label')==text['since']
+                  and labels[0].get('data-neutral-label')==text['neutral'],
+                  'counter uses neutral label until API supplies start date',path)
         if s.select_one('footer .footer-bottom'):
             expected=' / '.join(LABELS[language] for language in release['languages'])
             markers=s.select('footer [data-language-inventory]')

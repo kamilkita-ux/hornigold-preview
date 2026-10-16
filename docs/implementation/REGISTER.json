@@ -1,18 +1,18 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-16",
   "baselineCommit": "8dab79d4865a600912c885d8663b31f25877914d",
   "productionBaseline": {
-    "revision": "23.29",
-    "commit": "b633abc621f2047ea21f415f0f2bd454854b280b",
-    "verifiedAt": "2026-10-15T18:23:30.341275+00:00",
-    "verification": "529 sitemap URLs; HTTP/canonical/indexability/H1/lang; 12 critical monitoring checks; Czech 404. No transaction acceptance."
+    "revision": "23.30",
+    "commit": "8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+    "verifiedAt": "2026-10-16T02:17:21.019208+00:00",
+    "verification": "Eight language homepage footers/canonical/indexability/H1/switcher; 28 JS/CSS byte matches; 12 critical monitoring checks. Not transaction acceptance."
   },
   "items": [
     {
       "id": "A1",
       "status": "verified",
-      "environment": "production / Sites / GitHub Pages; dated public readback",
-      "change": "14.10 ponownie odczytano release.json oraz metadane robots polskiej strony głównej w produkcji i obu podglądach. Aktualne wersje i commity zapisano w environment-readback-20261014.json. Podglądy pozostają noindex. Zakres tej kontroli nie zastępuje pełnego audytu tras ani transakcji.",
+      "environment": "production / Sites / GitHub Pages; public readback 2026-10-16",
+      "change": "16.10 odczytano produkcję i GitHub Pages 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba; Sites nadal 23.20/c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres publicznych kontroli i ograniczenia zapisano w production-23.30-readback.json.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/hornigold-live-audit-20261011.json",
@@ -25,7 +25,8 @@
         "evidence/public-sites-23.18.json",
         "evidence/production-release-2026-10-12.json",
         "evidence/environment-readback-20261014.json",
-        "evidence/production-23.29-readback.json"
+        "evidence/production-23.29-readback.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -81,8 +82,8 @@
     {
       "id": "A5",
       "status": "verified",
-      "environment": "production / evidence verified 2026-10-14",
-      "change": "Produkcja 23.21, commit fc86140d2cae0907ea6d7a92f2c745290459f382, Worker 2594af7c-0c7e-4fe8-be91-ab1c28da88d3. Pełny odczyt 693 tras: bez błędów w zakresie statusów, canonicali, H1, polityki indeksacji, hreflang i aktualnego Instagrama. Nie jest to odbiór rezerwacji/płatności.",
+      "environment": "production / public readback 2026-10-16",
+      "change": "Produkcja 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba. Potwierdzono osiem stopek językowych, canonicale, indeksowalność, H1 i kolejność przełącznika na stronach głównych; 28 plików JS/CSS zgodnych z lokalnym artefaktem; 12 kontroli monitoringu poprawnych. Nie jest to pełny odbiór transakcji ani czytnika ekranu.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "MAINTENANCE.md",
@@ -90,7 +91,8 @@
         "evidence/PUBLICATION_23.17.json",
         "evidence/public-github-23.17.json",
         "evidence/public-sites-23.17.json",
-        "evidence/goal-reconciliation-20261014.json"
+        "evidence/goal-reconciliation-20261014.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": null,
       "next": "Kontrolować kolejny wdrażany commit i wynik SDK.",
@@ -99,8 +101,8 @@
     {
       "id": "A6",
       "status": "verified",
-      "environment": "production / Sites / GitHub Pages; dated public readback",
-      "change": "14.10 ponownie odczytano release.json oraz metadane robots polskiej strony głównej w produkcji i obu podglądach. Aktualne wersje i commity zapisano w environment-readback-20261014.json. Podglądy pozostają noindex. Zakres tej kontroli nie zastępuje pełnego audytu tras ani transakcji.",
+      "environment": "production / Sites / GitHub Pages; public readback 2026-10-16",
+      "change": "16.10 odczytano produkcję i GitHub Pages 23.30, commit 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba; Sites nadal 23.20/c186bceb7ca710aa2c3a643577827a6b5318ee0e. Podglądy pozostają noindex. Zakres publicznych kontroli i ograniczenia zapisano w production-23.30-readback.json.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/public-sites-23.16.json",
@@ -112,7 +114,8 @@
         "evidence/public-github-23.18.json",
         "evidence/public-sites-23.18.json",
         "evidence/production-release-2026-10-12.json",
-        "evidence/environment-readback-20261014.json"
+        "evidence/environment-readback-20261014.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po kolejnych publikacjach.",
@@ -346,11 +349,12 @@
       "id": "F1",
       "status": "partial",
       "environment": "production eight-language content / current operational facts confirmation pending",
-      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu. 16.10 przygotowano wspólną stopkę z listą ośmiu języków, czeski trzeci; lokalna kontrola 793 stopek poprawna. Publikacja tej poprawki wymaga odrębnego odczytu publicznego.",
+      "change": "Datowane źródła, zachowane intencje i odpowiedniki językowe; zewnętrzna rezerwacja ma jawne ograniczenie językowe. Wersja 23.28 obejmuje osiem języków, w tym czeski; odczyt GitHub Pages potwierdzony, wdrożenie produkcyjne wymaga osobnego dowodu. 16.10 przygotowano wspólną stopkę z listą ośmiu języków, czeski trzeci; lokalna kontrola 793 stopek poprawna. 16.10 opublikowano 23.30: lokalne 793 stopki poprawne; niezależny publiczny odczyt ośmiu stron głównych potwierdził listę z czeskim na trzecim miejscu. Pozostaje potwierdzenie bieżącej oferty.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../../content/verified-facts-2026-10-11.json",
-        "evidence/footer-language-inventory-20261016.json"
+        "evidence/footer-language-inventory-20261016.json",
+        "evidence/production-23.30-readback.json"
       ],
       "barrier": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
       "next": "Recepcja: potwierdzenie bieżącej oferty. Właściciel wcześniej zatwierdził własną kontrolę tłumaczeń; nie deklarujemy native review.",
