@@ -28,6 +28,7 @@ export const pageTargets = Object.freeze({
 });
 
 export const languageHomes = Object.freeze({pl: '/pl/', en: '/en/', de: '/de/', uk: '/uk/', es: '/es/', it: '/it/', zh: '/zh-hans/', 'zh-hans': '/zh-hans/', cs: '/cs/'});
+const ownTarget = (targets, key) => Object.hasOwn(targets, key) ? targets[key] : undefined;
 const legacyKeys = new Set(['page_id', 'portfolio-item', 'lang']);
 
 export function legacyWordpressRedirect(url) {
@@ -37,10 +38,10 @@ export function legacyWordpressRedirect(url) {
   const pageId = query.get('page_id');
   const language = (query.get('lang') || '').toLowerCase();
   const portfolio = query.get('portfolio-item');
-  const path = portfolioTargets[portfolio]
-    || pageTargets[pageId && language ? `${pageId}:${language}` : '']
-    || pageTargets[pageId]
-    || (!pageId && !portfolio ? languageHomes[language] : undefined);
+  const path = ownTarget(portfolioTargets, portfolio)
+    || ownTarget(pageTargets, pageId && language ? `${pageId}:${language}` : '')
+    || ownTarget(pageTargets, pageId)
+    || (!pageId && !portfolio ? ownTarget(languageHomes, language) : undefined);
 
   if (!path) return {kind: 'gone'};
   const target = new URL(path, url.origin);

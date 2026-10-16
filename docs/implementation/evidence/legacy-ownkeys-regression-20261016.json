@@ -1,0 +1,53 @@
+{
+  "checkedAtUTC": "2026-10-16T03:13:41.560575+00:00",
+  "candidateRevision": "23.32",
+  "baseCommit": "6deef1c8e7907916de49f561c68fd9ec16346be9",
+  "stage": "local candidate; not production",
+  "previousCandidate": {
+    "revision": "23.31",
+    "productionDeployment": "blocked before deploy",
+    "reason": "Inherited object properties accepted as redirect targets"
+  },
+  "change": "Object.hasOwn guards all three legacy target dictionaries; approved destinations and routing precedence preserved",
+  "regression": {
+    "before": {
+      "tests": 5,
+      "pass": 3,
+      "fail": 2
+    },
+    "afterPure": {
+      "tests": 5,
+      "pass": 5,
+      "fail": 0
+    },
+    "approvedMappings": 19,
+    "languageAliases": 9,
+    "prototypeKeysAcrossThreeFields": 36,
+    "HTTPGoneCasesGETHEAD": 18,
+    "targetedNodeTests": 42,
+    "targetedNodeFailures": 0,
+    "protectedCounterAndBooking": "synthetic HTTP regression passed"
+  },
+  "artifactSEO": {
+    "mode": "production-ready with existing counter explicitly retained",
+    "canonicalRoutes": 793,
+    "errors": 0,
+    "warnings": 0
+  },
+  "fragments": {
+    "htmlDocuments": 1343,
+    "checked": 9820,
+    "errors": 0
+  },
+  "preserved": [
+    "booking.js, GuestSage/Fiserv connections",
+    "existing counter database and history, counter API/server code",
+    "DNS, mail, Cloudflare bindings and configuration",
+    "preview indexing exclusions and transaction restrictions"
+  ],
+  "limits": [
+    "Local tests only; actual publication requires a new commit, full CI and public readback.",
+    "No real reservation/payment/form/analytics conversion was created.",
+    "Blocked 23.31 was never confirmed as deployed on hornigold.pl."
+  ]
+}
