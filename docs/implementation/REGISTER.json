@@ -286,14 +286,15 @@
     {
       "id": "E1",
       "status": "verified",
-      "environment": "production / 793 current canonical routes; dated indexing-policy readback",
-      "change": "Publiczny audyt wszystkich 693 tras produkcji: 0 błędów i 0 ostrzeżeń; canonical, hreflang, metadane, statusy i nagłówki.",
+      "environment": "production dated readbacks / local candidate 793 routes",
+      "change": "Ostatni pełny publiczny odczyt mapy: 23.29, 529 indeksowalnych URL bez błędów. Produkcja 23.30 została sprawdzona osobno w 12 wejściach, ośmiu stronach głównych oraz 28 zasobach JS/CSS. Lokalny audyt kandydata 23.32 obejmuje 793 trasy, zero błędów i ostrzeżeń. Nie jest to publiczny odbiór jeszcze niewdrożonej 23.32.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "../seo/audit-production-ready.json",
         "evidence/audit-production-readback.json",
         "evidence/audit-SUMMARY.json",
-        "evidence/production-23.29-readback.json"
+        "evidence/production-23.29-readback.json",
+        "evidence/legacy-ownkeys-regression-20261016.json"
       ],
       "barrier": null,
       "next": "Kontrola po każdej publikacji.",
@@ -303,12 +304,12 @@
       "id": "E2",
       "status": "verified",
       "environment": "local audit / production routes",
-      "change": "Audyt fragmentów production-ready: 8582 odnośniki do fragmentów, zero błędów. Pełny audyt statyczny i SEO: 693 trasy i ponad 77 tys. linków bez błędów; odczyt produkcji potwierdza wszystkie 693 trasy. Nie obejmuje dostępności wszystkich serwisów zewnętrznych.",
+      "change": "16.10 sprawdzono lokalny artefakt production-ready 23.32: 1343 dokumenty HTML i 9820 odnośników do fragmentów, zero błędów. Pełny lokalny audyt SEO: 793 trasy i 89755 linków bez błędów. Dostępność wszystkich serwisów zewnętrznych oraz produkcyjny odbiór kandydata nie są z tego wnioskowane.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/fragments.json",
         "evidence/external-links.json",
-        "evidence/fragments.json"
+        "evidence/legacy-ownkeys-regression-20261016.json"
       ],
       "barrier": null,
       "next": "Ponawiać kontrolę po zmianie tras i treści.",
@@ -317,8 +318,8 @@
     {
       "id": "E3",
       "status": "verified",
-      "environment": "production / evidence verified 2026-10-14",
-      "change": "13.10 odczyt GSC: sitemap Sukces, 693 wykryte URL, ostatni odczyt 12.10. Nowa mapa produkcyjna zawiera 462 URL zgodnie z polityką indeksacji. Przetworzenie nowej liczby wymaga obserwacji; wykrycie nie oznacza indeksacji. 16.10.2026: czeska strona główna w indeksie Google, canonical zgodny. Ponowne zgłoszenie aktualnej mapy 529 URL przyjęte; świeże przetworzenie wszystkich URL pozostaje obserwacją.",
+      "environment": "external Google readback 2026-10-16",
+      "change": "16.10: czeska strona główna jest w indeksie Google z poprawnym canonicalem. Ponowne zgłoszenie mapy 529 URL przyjęte. Panel przed świeżym przetworzeniem nadal pokazywał odczyt 14.10 i 462 wykryte URL. Wykrycie ani przyjęcie zgłoszenia nie dowodzi indeksacji wszystkich stron.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
         "evidence/google-account-readback-2026-10-11.json",
@@ -336,13 +337,14 @@
       "id": "E4",
       "status": "verified",
       "environment": "external",
-      "change": "Właściwe GSC połączone z nowym strumieniem GA4. Nie migrowano starych danych ani przekierowań. Google Ads AW-18507796156 wdrożony; na produkcji sprawdzono rzeczywiste odpowiedzi kolekcji 200/204 po zgodzie, bez ruchu przed zgodą i po wycofaniu; brak potwierdzenia panelu Ads.",
+      "change": "Właściwe GSC połączone z GA4. 16.10 panel właściwego tagu AW-18507796156 potwierdził odbiór danych i jakość Świetny. Brak potwierdzonej konwersji rezerwacji/płatności; pozostaje to w C3/B3. Nie przenoszono historycznych danych pomiarowych ani treści. Odrębna, zatwierdzona 16.10 paczka korekty 19 dawnych URL czeka na poprawiony commit i odbiór produkcyjny.",
       "test": "Dowód w podanym pliku; zakres i ograniczenia opisane jawnie.",
       "evidence": [
-        "evidence/google-account-readback-2026-10-11.json"
+        "evidence/google-account-readback-2026-10-11.json",
+        "evidence/google-readback-2026-10-16.json"
       ],
-      "barrier": "Odbiór danych Ads w interfejsie dostawcy oraz konwersje sprzedażowe nie są potwierdzone. Tag AW-18507796156 dodany na wyraźne polecenie właściciela.",
-      "next": "Zweryfikować właściwy Ads ID w diagnostyce i panelu; nie aktywować budżetów ani fikcyjnych Purchase.",
+      "barrier": null,
+      "next": "Odbiór konwersji transakcyjnych pozostaje w C3/B3; nie zmieniać kampanii ani budżetu na podstawie tej kontroli.",
       "title": "GSC, GA4 i stare dane"
     },
     {
@@ -889,5 +891,12 @@
   "environmentReconciliationDate": "2026-10-15",
   "environmentReconciliationNote": "Historical pending-production labels corrected after23.29 readback. Item statuses and open acceptance requirements unchanged.",
   "googleReadbackDate": "2026-10-16",
-  "lastLocalReview": "2026-10-16"
+  "lastLocalReview": "2026-10-16",
+  "pendingProductionRelease": {
+    "revision": "23.32",
+    "status": "local preparation; CI and publication pending",
+    "replacesBlockedCandidate": "23.31",
+    "productionStill": "23.30 / 8f5ca9c6b9c50052746bf7f047d5f5b26a2b6cba",
+    "evidence": "evidence/legacy-ownkeys-regression-20261016.json"
+  }
 }
