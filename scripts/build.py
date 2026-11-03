@@ -34,6 +34,16 @@ for p in OUT.rglob('*.html'):
  apply_footer_languages(s, RELEASE['languages'])
  apply_counter_labels(s, COUNTER_LABELS)
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
+ # Advertise the existing responsive first-screen image without changing its pixels.
+ hero=s.select_one('img.hero-image')
+ if hero and s.head:
+  hero['decoding']='async'
+  hero['loading']='eager'
+  hero['fetchpriority']='high'
+  preload=s.new_tag('link',rel='preload',href=hero['src'],attrs={'as':'image','fetchpriority':'high','data-lcp-preload':''})
+  if hero.get('srcset'):preload['imagesrcset']=hero['srcset']
+  if hero.get('sizes'):preload['imagesizes']=hero['sizes']
+  s.head.append(preload)
  version_marker=s.select_one('[data-site-version]')
  if version_marker:
   version_marker.string=VERSION
@@ -87,8 +97,9 @@ for p in OUT.rglob('*.html'):
  for el in s.select('[href],[src],[action],[poster]'):
   for attr in ['href','src','action','poster']:
    if attr in el.attrs:el[attr]=prefixed(el[attr])
- for el in s.select('[srcset]'):
-  el['srcset']=', '.join(' '.join([prefixed(part.strip().split()[0])]+part.strip().split()[1:]) for part in el['srcset'].split(','))
+ for attr in ['srcset','imagesrcset']:
+  for el in s.select('['+attr+']'):
+   el[attr]=', '.join(' '.join([prefixed(part.strip().split()[0])]+part.strip().split()[1:]) for part in el[attr].split(','))
  for meta in s.select('meta[http-equiv=refresh]'):
   meta['content']=re.sub(r'(url=)(/[^;]+)',lambda m:m[1]+prefixed(m[2]),meta['content'])
  for asset in s.select('script[src],link[rel=stylesheet]'):
