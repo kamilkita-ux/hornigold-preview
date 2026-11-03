@@ -1,0 +1,648 @@
+{
+  "date": "2026-11-03",
+  "sourceSHA256": "7643ed7b8c3123d26872681a5bf39c83d2e1e6c0f2fedf2dab4baf2ddda5f7cf",
+  "sourceVersion": "2.0",
+  "completion": "All original criteria retained; reports are not proof of rankings or field CWV. No completed task yet.",
+  "productionBaseline": {
+    "revision": "23.32",
+    "commit": "78c333e5cb08291bb6195c1afe605f11d7ab6581"
+  },
+  "branch": "codex/seo100-t01-20261103",
+  "tasks": [
+    {
+      "id": "T-01",
+      "title": "Lighthouse mobile ≥ 95 we wszystkich czterech kategoriach",
+      "status": "passed_local",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-01 · Lighthouse mobile ≥ 95 we wszystkich czterech kategoriach**\n- Strony testowe: `/pl/`, `/pl/pokoje/`, `/pl/pokoje/classic/`, `/pl/wellness-spa/`, `/en/`, `/de/`.\n- ✅ Performance ≥ 95, Accessibility ≥ 98, Best Practices 100, SEO 100 na każdej. Raport z wynikami.",
+      "evidence": [
+        "T01_LIGHTHOUSE_BASELINE.json",
+        "T01_RELEASE2333.json"
+      ],
+      "next": "GitHub CI and external publication readback pending."
+    },
+    {
+      "id": "T-02",
+      "title": "Core Web Vitals w normie z zapasem",
+      "status": "partial_external_evidence_pending",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-02 · Core Web Vitals w normie z zapasem**\n- LCP < 2,0 s (mobile, 4G), INP < 150 ms, CLS < 0,05.\n- Obraz główny: `fetchpriority=\"high\"`, `<link rel=\"preload\">`, AVIF + WebP, `width/height`.\n- ✅ Wynik PageSpeed Insights (dane laboratoryjne) i, po 28 dniach, dane terenowe CrUX w Search Console.",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "next": "Optimize and remeasure LCP below2s; AVIF variants, PSI quota and actual field INP/CrUX remain unverified. Do not advance T-03 before all T-02 criteria pass."
+    },
+    {
+      "id": "T-03",
+      "title": "Obrazy",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-03 · Obrazy**\n- Każde zdjęcie: AVIF/WebP, `srcset` (480/800/1200/1600), `sizes`, `loading=\"lazy\"` poza pierwszym ekranem, `decoding=\"async\"`.\n- Obraz Open Graph 1200×630 dla **każdej** strony (pokoje: zdjęcie danej kategorii).\n- ✅ Brak obrazu > 200 KB na mobile; brak ostrzeżeń „properly size images”.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-04",
+      "title": "Nagłówki HTTP i bezpieczeństwo",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-04 · Nagłówki HTTP i bezpieczeństwo**\n- HTTPS + HSTS (`max-age=31536000; includeSubDomains`), `X-Content-Type-Options`, `Referrer-Policy: strict-origin-when-cross-origin`, CSP zezwalająca tylko na potrzebne domeny (KWHotel, GA4/GTM po zgodzie, Google Maps po kliknięciu).\n- Cache: zasoby z hashem `max-age=31536000, immutable`; HTML `no-cache` z ETag.\n- Kompresja Brotli.\n- ✅ securityheaders.com ≥ A; zero błędów CSP w konsoli na 20 losowych podstronach.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-05",
+      "title": "Przekierowania i kanonikalizacja",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-05 · Przekierowania i kanonikalizacja**\n- Jedna wersja: `https://hornigold.pl/` → 301 → `/pl/` (lub wykrywanie języka tylko jako baner, bez automatycznego przekierowania robotów).\n- `http://`, `www.` → 301 w jednym kroku (bez łańcuchów).\n- Stare adresy poprzedniej strony (WordPress) — z logów serwera i z Search Console (Kamil przekaże eksport) — mapa 301 na najbliższy odpowiednik.\n- ✅ Crawl całej strony (np. Screaming Frog / własny skrypt): 0 łańcuchów przekierowań, 0 linków wewnętrznych do 3xx/4xx.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-06",
+      "title": "Strona 404 i 410",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-06 · Strona 404 i 410**\n- 404 w 8 językach z wyszukiwarką/menu i linkami do pokoi; status HTTP 404 (nie 200).\n- Strony celowo usunięte: 410.\n- ✅ Test statusów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-07",
+      "title": "Mapa strony z wersjami językowymi",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-07 · Mapa strony z wersjami językowymi**\n- `sitemap-index.xml` → `sitemap-pl.xml`, `sitemap-en.xml`… (po jednej na język).\n- Każdy `<url>`: `<loc>`, `<lastmod>` (prawdziwa data zmiany treści, nie data builda), komplet `xhtml:link rel=\"alternate\" hreflang` (8 języków + `x-default`), `image:image` dla zdjęć pokoi.\n- Wyklucz: strony `noindex`, przekierowania, parametry, stronę rezerwacji.\n- ✅ Walidacja XML; liczba URL w mapie = liczba stron indeksowalnych z crawla.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-08",
+      "title": "Czeska wersja z czeskimi adresami",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-08 · Czeska wersja z czeskimi adresami**\n- Dziś `/cs/` używa angielskich slugów (np. `/cs/a-relaxed-visit-starts-before-arrival/`). Wprowadź czeskie slugi, 301 ze starych, aktualizacja hreflang/canonical/sitemap.\n- Sprawdź to samo dla `uk`, `es`, `it`, `zh-hans`, `de`, `en`.\n- ✅ 0 adresów z obcojęzycznym slugiem w danej wersji językowej.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-09",
+      "title": "Zwrotne i kompletne hreflang",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-09 · Zwrotne i kompletne hreflang**\n- Każda strona wskazuje wszystkie 8 odpowiedników + `x-default` i każdy odpowiednik wskazuje z powrotem.\n- Brak odpowiednika → strona nie ma hreflang do nieistniejącej wersji.\n- ✅ Test hreflang (np. narzędzie Merkle/hreflang checker) bez błędów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-10",
+      "title": "Język treści = język strony",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-10 · Język treści = język strony**\n- Problem z audytu: na polskie zapytanie Google pokazał tytuł niemieckiej wersji. Upewnij się, że `<html lang>`, `<title>`, description, H1, treść i `og:locale` są w tym samym języku.\n- ✅ Skrypt: dla każdej strony wykryj język tekstu i porównaj z `lang` — 100% zgodności.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-11",
+      "title": "Kanoniczne adresy",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-11 · Kanoniczne adresy**\n- Każda strona: samoreferencyjny `rel=canonical` (absolutny, https, ze slashem końcowym zgodnie z konwencją).\n- Strony z parametrami (`?arrival=`, `?room=`, UTM) → canonical do wersji bez parametrów.\n- ✅ Crawl: 0 konfliktów canonical/hreflang/sitemap.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-12",
+      "title": "Robots i meta robots",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-12 · Robots i meta robots**\n- `robots.txt`: obecny jest poprawny; dodaj blokadę parametrów wyszukiwania terminu (`/*?arrival=`) jeśli generują duplikaty.\n- Strony techniczne (podgląd, test, „Club Hornigold” jeśli nieaktywny) → `noindex,follow`.\n- ✅ Brak indeksowalnych duplikatów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-13",
+      "title": "Odświeżenie indeksu `[KAMIL + Codex]`",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-13 · Odświeżenie indeksu `[KAMIL + Codex]`**\n- Codex: przygotuj listę 30 najważniejszych URL (PL + EN + DE).\n- Kamil: Google Search Console → zweryfikuj domenę (rekord DNS TXT), wyślij `sitemap-index.xml`, „Sprawdź URL → Poproś o zindeksowanie” dla listy 30. To samo w Bing Webmaster Tools (+ IndexNow — Codex wdraża klucz i ping przy publikacji).\n- ✅ Po 14 dniach: raport „Strony” w GSC — zaindeksowane ≥ 90% adresów z mapy.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-14",
+      "title": "Usuń szablon opisów",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-14 · Usuń szablon opisów**\n- Dziś każda podstrona ma opis „X. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt…”. Zastąp unikalnymi opisami.\n- ✅ 0 zduplikowanych `<title>` i 0 zduplikowanych description w całym serwisie (crawl).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-15",
+      "title": "Tytuły i opisy — kluczowe strony PL (wdroż dokładnie lub lepiej, zgodnie z polityką „hotel”)",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-15 · Tytuły i opisy — kluczowe strony PL (wdroż dokładnie lub lepiej, zgodnie z polityką „hotel”)**\n\n| URL | `<title>` (≤ 60 zn.) | description (140–160 zn.) |\n|---|---|---|\n| /pl/ | Pokoje i apartamenty w centrum Katowic · butikowy hotel Hornigold | Butikowy hotel w zielonej kamienicy, 5 min pieszo od dworca PKP Katowice. Pokoje od 380 zł, apartamenty do 105 m², sauna i jacuzzi. Zarezerwuj bezpośrednio. |\n| /pl/pokoje/ | Pokoje i apartamenty w Katowicach – ceny od 380 zł · Hornigold | 9 kategorii: od pokoju Classic 20 m² po apartament 105 m² z dwiema sypialniami. Centrum Katowic, Kopernika 6. Sprawdź ceny i dostępność. |\n| /pl/wellness-spa/ | Hotel z jacuzzi i sauną w centrum Katowic · Hornigold | Prywatna strefa wellness na wyłączność: jacuzzi od 150 zł, sauna 90 zł/h, masaże od 200 zł. W butikowym hotelu przy dworcu w Katowicach. |\n| /pl/lokalizacja/ | Nocleg 5 minut od dworca PKP Katowice · Hornigold | Hornigold przy ul. Kopernika 6 — 5 minut spacerem od dworca, blisko Mariackiej, Rynku i Spodka. Wirtualny spacer z dworca i parking na dziedzińcu. |\n| /pl/sniadania/ | Śniadania 7:00–10:00 w centrum Katowic · Hornigold | Domowe śniadanie w Zielonej Kamienicy codziennie 7:00–10:00, 60 zł/os. Na wczesny wyjazd — śniadanie na wynos po uzgodnieniu z recepcją. |\n| /pl/parking/ | Parking na dziedzińcu w centrum Katowic · Hornigold | Prywatny parking na dziedzińcu hotelu przy Kopernika 6. Sprawdź warunki wjazdu i zarezerwuj miejsce razem z pokojem. |\n| /pl/konferencje/ | Sale konferencyjne w centrum Katowic · Hornigold | Sale na spotkania i szkolenia w zabytkowej kamienicy przy dworcu PKP. Noclegi dla uczestników, catering, faktura VAT. Zapytaj o ofertę. |\n| /pl/pobyt/wydarzenie/ | Nocleg blisko Spodka, MCK i NOSPR · Hornigold Katowice | Jedziesz na koncert lub kongres? Hornigold to spokojny nocleg w centrum, pieszo do Strefy Kultury. Plan dojścia i późne zameldowanie. |\n| /pl/pokoje/hornigold/ | Apartament 105 m² z dwiema sypialniami w Katowicach · Hornigold | Największy apartament w Zielonej Kamienicy: dwie sypialnie, dwie łazienki, dwa aneksy kuchenne. Dla rodziny lub grupy znajomych w centrum Katowic. |\n\n- Pozostałe strony (pokoje, przewodniki, FAQ, kontakt, o nas, oferty, opinie, dla firm, lotniska): ten sam standard — **fraza główna na początku, korzyść, liczba, CTA**.\n- ✅ Tabela `URL | title | długość | description | długość` dla wszystkich stron PL; 100% w limitach.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-16",
+      "title": "Wersje językowe tytułów — frazy natywne",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-16 · Wersje językowe tytułów — frazy natywne**\n- EN: „boutique hotel in Katowice city centre”, „hotel near Katowice train station”, „hotel with jacuzzi Katowice”.\n- DE: „Boutique-Hotel Kattowitz Zentrum”, „Hotel am Bahnhof Kattowitz”, „Hotel mit Whirlpool Kattowitz”.\n- CS: „hotel Katovice centrum”, „ubytování Katovice u nádraží”.\n- UK: „готель Катовіце центр”. ES: „hotel boutique Katowice centro”. IT: „hotel boutique Katowice centro”. ZH: „卡托维兹 市中心 酒店”.\n- ✅ Tabela tytułów 8 języków; native check przez tłumacza lub LLM z prośbą o naturalność (raport).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-17",
+      "title": "Nagłówki H1–H3",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-17 · Nagłówki H1–H3**\n- Jedno H1 na stronę, zgodnie z polityką „hotel” (pkt 1).\n- H1 strony głównej: `h1-eyebrow` „Butikowy hotel · Katowice centrum” + `h1-main` „Pokoje i apartamenty w Zielonej Kamienicy”.\n- H1 SPA: „Hotel z jacuzzi i sauną w centrum Katowic” (tu słowo hotel jest naturalne i potrzebne — font jak pozostałe H1).\n- H1 lokalizacji: „5 minut od dworca — nocleg w centrum Katowic”.\n- H1 pokoi: „Pokój Classic 20–22 m² w centrum Katowic” (analogicznie).\n- H2 niosą frazy poboczne („Śniadanie w cenie lub na miejscu”, „Parking na dziedzińcu”, „Dojście z dworca PKP”).\n- Nagłówki stopki i ustawień prywatności → nie H2 (zwykły tekst lub `aria-label`).\n- ✅ Raport drzewa nagłówków dla 10 stron; brak przeskoków poziomów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-18",
+      "title": "Adresy URL",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-18 · Adresy URL**\n- Zostaw obecne PL slugi (są dobre, zmiana kosztowałaby pozycje). Nie zmieniaj `/pl/wellness-spa/` — wzmacniasz ją treścią (T-27).\n- Nowe strony z T-28 – T-33: krótkie slugi z frazą, np. `/pl/nocleg-przy-dworcu/`, `/pl/pobyt/dla-par/`, `/pl/pobyt/z-psem/`, `/pl/apartamenty-rodzinne/`.\n- ✅ Brak polskich znaków w slugach, brak wielkich liter, max 4 słowa.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-19",
+      "title": "Encja `Hotel` (jedna, wspólna dla całego serwisu)",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-19 · Encja `Hotel` (jedna, wspólna dla całego serwisu)**\n- Zamień `LodgingBusiness` na `Hotel`, `@id: https://hornigold.pl/#hotel`.\n- Pola: `name`, `alternateName` („Hornigold Katowice”, „Zielona Kamienica Hornigold”), `description`, `url`, `logo`, `image[]` (min. 6 zdjęć 1200 px), `telephone`, `email`, `address` (z `postalCode: 40-064`, `addressRegion: śląskie`), `geo` (50.254591, 19.0163037), `hasMap` (URL Google Maps), `checkinTime: 14:00`, `checkoutTime: 12:00`, `priceRange` („380–1100 PLN” lub zgodnie z faktami), `currenciesAccepted: PLN`, `paymentAccepted`, `petsAllowed: true` (jeśli confirmed), `amenityFeature[]` (`LocationFeatureSpecification`: Sauna, Jacuzzi, Masaż, Wi-Fi, Parking, Śniadanie płatne, Klimatyzacja tylko jeśli confirmed), `numberOfRooms`, `availableLanguage`, `starRating` (tylko jeśli kategoryzacja potwierdzona dokumentem), `sameAs[]` (Google Maps CID, Booking, Tripadvisor, Expedia, Facebook, Instagram, LinkedIn), `parentOrganization` → spółka.\n- ✅ Rich Results Test + Schema Markup Validator: 0 błędów, 0 ostrzeżeń krytycznych.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-20",
+      "title": "Organizacja (spółka)",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-20 · Organizacja (spółka)**\n- `Organization` z `legalName`, `taxID`/`vatID`, `address`, `logo`, `sameAs` (LinkedIn). Dane z faktów.\n- ✅ Walidacja.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-21",
+      "title": "Pokoje: `HotelRoom` + `Offer`",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-21 · Pokoje: `HotelRoom` + `Offer`**\n- Na każdej karcie pokoju: `HotelRoom` (`name`, `description`, `image[]`, `floorSize` {value, unitCode: MTK}, `occupancy` {maxValue}, `bed` (`BedDetails`: typ, liczba), `amenityFeature[]`), `containedInPlace` → `#hotel`.\n- `Offer` z ceną „od” (`price`, `priceCurrency: PLN`, `availability`, `url` do rezerwacji, `priceValidUntil` jeśli wymagane).\n- Na `/pl/pokoje/`: `ItemList` 9 pokoi.\n- ✅ Walidacja dla 9 kart.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-22",
+      "title": "`FAQPage`, `BreadcrumbList`, `Article`",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-22 · `FAQPage`, `BreadcrumbList`, `Article`**\n- FAQ: tylko pytania widoczne na stronie, odpowiedzi identyczne z treścią.\n- Breadcrumb: pełna ścieżka (Hotel Hornigold › Pokoje › Classic).\n- Przewodniki: `Article` (`headline`, `author: Organization Hornigold`, `datePublished`, `dateModified`, `image`).\n- ✅ Walidacja.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-23",
+      "title": "Usługi i wydarzenia",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-23 · Usługi i wydarzenia**\n- SPA: `Service` / `offers` z cenami (sauna 90 zł/h, jacuzzi 150 zł 1. h + 100 zł kolejna, masaż od 200 zł).\n- Sale: `MeetingRoom` (pojemności tylko confirmed).\n- Śniadania: `Offer` 60 zł / os., `hoursAvailable` 07:00–10:00.\n- ✅ Walidacja.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-24",
+      "title": "Spójność schema ↔ treść ↔ Google",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-24 · Spójność schema ↔ treść ↔ Google**\n- Każda wartość w JSON-LD musi być widoczna na stronie lub w pliku faktów. Telefon, adres, nazwa identyczne jak w wizytówce Google.\n- ✅ Skrypt porównujący pola schema z `hotel-facts.json` — 100% zgodności.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-25",
+      "title": "Strona główna 900–1200 słów (bez zaśmiecania pierwszego ekranu)",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-25 · Strona główna 900–1200 słów (bez zaśmiecania pierwszego ekranu)**\n- Pierwszy ekran: H1 wg pkt 1, formularz, telefon — bez zmian.\n- Zaraz pod formularzem: **prawdziwe zdjęcie hotelu** (fasada z bluszczem / dziedziniec). Moduł „32 ilustracje” przenieś niżej (po sekcji pokoi).\n- Nowa sekcja „Dlaczego Zielona Kamienica” — 5 kafli: 5 min od dworca · stuletnia kamienica z bluszczem (rok tylko confirmed) · prywatne SPA z jacuzzi i sauną · apartamenty do 105 m² · 4,6/5 w Google (z datą odczytu, link do opinii).\n- Sekcja pokoi: wszystkie 9 kategorii (karuzela/siatka z filtrem Pokoje / Apartamenty).\n- Sekcja „Najczęstsze pytania” (6) + `FAQPage`.\n- ✅ Liczba słów, zrzut ekranu mobile/desktop, Lighthouse bez spadku.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-26",
+      "title": "Karty 9 pokoi: 300–450 słów unikalnej treści każda",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-26 · Karty 9 pokoi: 300–450 słów unikalnej treści każda**\n- Usuń zdania-szablony („Układ łóżek: Jedno łóżko podwójne…”, „Te parametry pomagają wybrać…”).\n- Struktura: „W skrócie” (m², osoby, łóżka, łazienka, cena od) → opis wnętrza (co widać na zdjęciach) → dla kogo → wyposażenie (ikony) → zasady (dostawka, łóżeczko, zwierzęta) → 3 pytania FAQ → porównaj z 2 innymi kategoriami → CTA.\n- Alt zdjęć opisowy (co widać + kategoria + „Katowice”).\n- ✅ Podobieństwo tekstu między kartami < 30%.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-27",
+      "title": "Wellness i SPA: 700–900 słów",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-27 · Wellness i SPA: 700–900 słów**\n- Dziś ~130 słów. Dodaj: opis strefy (na wyłączność dla gości jednego pokoju), cennik w tabeli, jak zarezerwować, godziny (confirmed), co zabrać, pakiet dla par (tylko confirmed), 6 zdjęć, FAQ (5), link do pokoi z wanną/apartamentów.\n- ✅ Strona wchodzi do TOP 10 na „hotel z jacuzzi katowice” w ciągu 8–12 tygodni (pomiar GSC).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-28",
+      "title": "Nowa strona: „Nocleg przy dworcu PKP Katowice”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-28 · Nowa strona: „Nocleg przy dworcu PKP Katowice”** (`/pl/nocleg-przy-dworcu/` + 7 języków)\n- Trasa krok po kroku (już jest wirtualny spacer — wykorzystaj), czas dojścia, bagaż, winda (confirmed), parking dla przyjeżdżających autem, przewozy z lotnisk. 600–800 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-29",
+      "title": "Nowa strona: „Nocleg blisko Spodka, MCK i NOSPR”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-29 · Nowa strona: „Nocleg blisko Spodka, MCK i NOSPR”** (rozbuduj `/pl/pobyt/wydarzenie/`)\n- Odległości i czasy dojścia, plan powrotu po koncercie, późne zameldowanie (confirmed), sekcja „Nadchodzące wydarzenia” (lista ręcznie aktualizowana z linkami do organizatorów, bez kopiowania ich treści). 700–900 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-30",
+      "title": "Nowa strona: „Pobyt dla par / romantyczny weekend”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-30 · Nowa strona: „Pobyt dla par / romantyczny weekend”**\n- Jacuzzi na wyłączność, apartamenty z charakterem, kolacja w okolicy (Śląska Prohibicja tylko po zgodzie Kamila), plan wieczoru. 600–800 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-31",
+      "title": "Nowa strona: „Apartamenty rodzinne i dla grup”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-31 · Nowa strona: „Apartamenty rodzinne i dla grup”**\n- Apartament Hornigold 105 m², Prestige, Apartament Deluxe — porównanie w tabeli (osoby, sypialnie, łazienki, aneksy), dostawki, łóżeczka (confirmed), parking. 600–800 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-32",
+      "title": "Nowa strona: „Pobyt z psem w centrum Katowic”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-32 · Nowa strona: „Pobyt z psem w centrum Katowic”**\n- Zasady i opłata (confirmed), parki w pobliżu (Park Kościuszki, Dolina Trzech Stawów — dystanse), co zabrać. 500–700 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-33",
+      "title": "„Dla firm” i „Konferencje” — jedna mocna strona B2B lub dwie powiązane",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-33 · „Dla firm” i „Konferencje” — jedna mocna strona B2B lub dwie powiązane**\n- Faktura VAT, dłuższe pobyty, sale (nazwy i metraże; pojemność tylko confirmed), catering, formularz zapytania B2B. 700–900 słów.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-34",
+      "title": "Przewodniki po mieście (ok. 30 stron) — audyt jakości",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-34 · Przewodniki po mieście (ok. 30 stron) — audyt jakości**\n- Każdy przewodnik: data aktualizacji, autor (Zespół Hornigold), źródła oficjalne, unikalne zdjęcia lub zdjęcia z licencją (oznaczone), blok „Nocuj w centrum — Hornigold” z linkiem do pokoi.\n- Strony < 300 słów i bez unikalnej wartości → połącz z pokrewnymi (301) lub rozbuduj.\n- ✅ Lista przewodników z liczbą słów i decyzją (zostaje / rozbudowa / scalenie).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-35",
+      "title": "Menu główne (wszystkie języki)",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-35 · Menu główne (wszystkie języki)**\n- Pokoje · Wellness & SPA · Lokalizacja · Katowice · Dla firm · Kontakt + przycisk „Sprawdź dostępność”.\n- ✅ Każda strona sprzedażowa osiągalna w ≤ 2 kliknięciach od strony głównej.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-36",
+      "title": "Linki kontekstowe",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-36 · Linki kontekstowe**\n- Z każdego przewodnika min. 2 linki do stron sprzedażowych (anchor opisowy, nie „kliknij tutaj”).\n- Z każdej strony pokoju: link do SPA, lokalizacji, śniadań.\n- ✅ 0 stron osieroconych (bez linków przychodzących); raport liczby linków wewnętrznych do top 15 stron.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-37",
+      "title": "Okruszki widoczne na wszystkich podstronach",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-37 · Okruszki widoczne na wszystkich podstronach** (zgodne z `BreadcrumbList`).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-38",
+      "title": "Stopka NAP + linki",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-38 · Stopka NAP + linki**\n- „Hornigold w Zielonej Kamienicy — butikowy hotel · ul. Mikołaja Kopernika 6, 40-064 Katowice · tel. … · office@hornigold.pl” + dane spółki + linki do social media + link „Zobacz opinie w Google”.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-39",
+      "title": "`llms.txt` i `/llms/{lang}.txt` jako karta faktów",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-39 · `llms.txt` i `/llms/{lang}.txt` jako karta faktów**\n- Dziś to tylko lista języków. Każdy plik językowy: krótki opis, adres, telefon, e-mail, dojazd (5 min od dworca), 9 kategorii (m², osoby, cena od), śniadanie (60 zł, 7:00–10:00), SPA (ceny), parking, zwierzęta, zameldowanie/wymeldowanie, linki do najważniejszych stron, data aktualizacji. Wyłącznie `confirmed`.\n- Nagłówek `Content-Type: text/plain; charset=utf-8`.\n- ✅ Plik czytelny, ≤ 2 000 słów na język.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-40",
+      "title": "Roboty AI",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-40 · Roboty AI**\n- `robots.txt`: pozwól GPTBot, OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot, Google-Extended, Applebot-Extended (decyzja Kamila: widoczność w AI = tak).\n- ✅ Wpis w robots i test dostępności stron dla tych user-agentów (status 200).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-41",
+      "title": "Treści odpowiadające wprost na pytania",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-41 · Treści odpowiadające wprost na pytania**\n- W każdym FAQ i na stronach intencyjnych pierwsze zdanie odpowiedzi = pełna odpowiedź (np. „Tak, Hornigold ma prywatne jacuzzi na wyłączność — 150 zł za pierwszą godzinę.”). AI cytuje takie zdania.\n- ✅ Lista 30 pytań gości z odpowiedziami jednozdaniowymi.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-42",
+      "title": "Spójność faktów w sieci",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-42 · Spójność faktów w sieci**\n- Lista rozbieżności do poprawy przez Kamila (Booking „Hornigold Euroresidence”, agregator „ohotel.com.pl”, Facebook „Hornigold Apartamenty Katowice”, Tripadvisor) — Codex przygotowuje tabelę: serwis | co jest | co powinno być | link do edycji.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-43",
+      "title": "Przekaz „rezerwuj bezpośrednio”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-43 · Przekaz „rezerwuj bezpośrednio”** — sekcja z korzyściami **tylko confirmed** (np. najlepsza cena, elastyczne warunki, bezpośredni kontakt z recepcją). Bez obietnic, których nie ma w faktach.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-44",
+      "title": "Przycisk „Sprawdź dostępność”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-44 · Przycisk „Sprawdź dostępność”** przyklejony na dole ekranu na mobile (nie zasłania treści; zamykany).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-45",
+      "title": "Formularz zapytania",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-45 · Formularz zapytania** (kontakt, B2B, grupy) — realna wysyłka (endpoint/serverless), honeypot/Turnstile, zgoda RODO, potwierdzenie na e-mail, kopia do office@hornigold.pl.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-46",
+      "title": "Telefon i WhatsApp",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-46 · Telefon i WhatsApp** klikalne (`tel:`, `https://wa.me/` jeśli Kamil poda numer).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-47",
+      "title": "Zaufanie",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-47 · Zaufanie** — moduł opinii: ocena Google z datą i linkiem, 3–6 cytatów **wyłącznie za zgodą autorów lub z oznaczeniem źródła i datą** (bez `aggregateRating` z Google).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-48",
+      "title": "Szybkość ścieżki rezerwacji",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-48 · Szybkość ścieżki rezerwacji** — z karty pokoju do KWHotel w 1 kliknięciu, przekazanie dat/gości w parametrach (jeśli KWHotel to obsługuje).\n- ✅ Dla H: zdarzenia mierzone w J; test ścieżki na iPhone i Android.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-49",
+      "title": "WCAG 2.2 AA",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-49 · WCAG 2.2 AA** — kontrast ≥ 4,5:1, focus widoczny, nawigacja klawiaturą (menu, galerie, FAQ `<details>`), cele dotykowe ≥ 44×44 px, `alt` opisowe, etykiety pól.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-50",
+      "title": "Deklaracja dostępności",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-50 · Deklaracja dostępności** (strona) — opis udogodnień obiektu (winda, wejście od dziedzińca — confirmed) i strony.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-51",
+      "title": "Polityka prywatności i cookies",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-51 · Polityka prywatności i cookies** — administrator: spółka z faktów, Consent Mode v2, rejestr zgód; analityka i mapy dopiero po zgodzie.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-52",
+      "title": "Regulaminy",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-52 · Regulaminy** — pobyt, rezerwacja i anulacja, zwierzęta, sprzedaż usług — aktualne PDF/HTML od Kamila; dane sprzedawcy w stopce.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-53",
+      "title": "AI Act / przejrzystość",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-53 · AI Act / przejrzystość** — oznaczenie ilustracji generowanych przez AI (już jest) i — jeśli zostanie wdrożony asystent AI — informacja, że rozmowa jest z AI.\n- ✅ axe DevTools / WAVE: 0 błędów krytycznych na 10 stronach.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-54",
+      "title": "GA4 przez Google Tag Manager",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-54 · GA4 przez Google Tag Manager** z Consent Mode v2.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-55",
+      "title": "Zdarzenia:",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-55 · Zdarzenia:** `begin_booking` (klik „Sprawdź dostępność”/przejście do KWHotel), `click_phone`, `click_email`, `click_whatsapp`, `form_submit`, `view_room` (z nazwą kategorii), `spa_interest` (klik w cennik SPA), `language_switch`.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-56",
+      "title": "Śledzenie przejścia do KWHotel",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-56 · Śledzenie przejścia do KWHotel** — cross-domain lub parametr źródła; jeśli KWHotel pozwala, konwersja `purchase` z wartością.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-57",
+      "title": "UTM",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-57 · UTM** dla: Google Business Profile (strona i przycisk rezerwacji), Instagram (bio), Facebook, newsletter, kampanie.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-58",
+      "title": "Raport miesięczny",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-58 · Raport miesięczny** (Looker Studio lub plik): ruch organiczny per język, top frazy z GSC, kliknięcia do rezerwacji, CTR, pozycje 20 fraz (lista w pkt 3).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-59",
+      "title": "Google Hotel Center + darmowe linki do rezerwacji",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-59 · Google Hotel Center + darmowe linki do rezerwacji** — połączenie przez KWHotel (partner integracyjny Google). Efekt: w module hoteli pojawia się „Oficjalna strona” z Twoją ceną obok Bookingu (dziś Google pokazuje tylko Booking 867 zł).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-60",
+      "title": "Parytet cen",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-60 · Parytet cen** — cena bezpośrednia ≤ cena w OTA dla tych samych warunków; sprawdzenie, skąd w Bookingu 867 zł.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-61",
+      "title": "Wizytówka Google:",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-61 · Wizytówka Google:** kategoria główna „Hotel”, dodatkowe trafne; opis 750 znaków z frazami; udogodnienia zgodne z prawdą (usuń „Basen”, śniadanie płatne); logo, okładka, ≥ 30 nowych zdjęć; link strony z UTM; posty co tydzień; Pytania i odpowiedzi.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-62",
+      "title": "Odpowiedzi na wszystkie opinie",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-62 · Odpowiedzi na wszystkie opinie** (paczka `paczka-codex-opinie-hornigold.zip`) — tempo ≤ 20/dzień.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-63",
+      "title": "Pozyskiwanie nowych opinii",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-63 · Pozyskiwanie nowych opinii** — e-mail/SMS po wymeldowaniu z linkiem do opinii Google (bez zachęt finansowych, bez filtrowania tylko zadowolonych).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-64",
+      "title": "Spójność NAP",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-64 · Spójność NAP** w: Booking, Expedia/Hotels.com, Tripadvisor, Kayak, Trivago, Agoda, Facebook, Apple Maps (Business Connect), Bing Places, Panorama Firm, Zumi, Targeo — identyczna nazwa, adres, telefon, link.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-65",
+      "title": "Usunięcie/zgłoszenie błędnych wpisów",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-65 · Usunięcie/zgłoszenie błędnych wpisów** (agregatory z nazwą „Euroresidence”, „Aparthotel”).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-66",
+      "title": "Apple Maps i Bing Places",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-66 · Apple Maps i Bing Places** — założenie/zweryfikowanie profili.\n\n## L. AUTORYTET I LINKI ZEWNĘTRZNE `[KAMIL]`",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-67",
+      "title": "15–20 wartościowych linków lokalnych w 90 dni:",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-67 · 15–20 wartościowych linków lokalnych w 90 dni:** portale turystyczne Katowic i Śląska, katalogi hoteli z redakcją, partnerzy (organizatorzy wydarzeń, restauracje, uczelnie — oferty dla gości), blogi podróżnicze (współprace oznaczone).",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-68",
+      "title": "Historia kamienicy jako materiał PR",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-68 · Historia kamienicy jako materiał PR** — artykuł z archiwalnymi zdjęciami (confirmed) dla mediów lokalnych.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-69",
+      "title": "Profile marki",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-69 · Profile marki** — spójne nazwy kont: Instagram, Facebook (zmiana nazwy „Hornigold Apartamenty Katowice” → „Hornigold w Zielonej Kamienicy”), LinkedIn, TikTok.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    },
+    {
+      "id": "T-70",
+      "title": "Wzmocnienie marki „Hornigold Katowice”",
+      "status": "not_started_ordered_gate",
+      "acceptanceSource": "PROMPT_CODEX_HORNIGOLD_SEO_100.md",
+      "originalRequirement": "**T-70 · Wzmocnienie marki „Hornigold Katowice”** — zawsze w parze z „Katowice” lub „w Zielonej Kamienicy”, by odróżnić od „Benjamin Hornigold” w wynikach wyszukiwania marki.",
+      "evidence": [],
+      "next": "Wait for predecessor acceptance; external KAMIL dependencies may be documented and skipped per source rule."
+    }
+  ]
+}
