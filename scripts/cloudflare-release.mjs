@@ -312,7 +312,10 @@ export async function smoke({ pages = expectedPageCount(), expectedCsp = null } 
   const robots = await (await request("/robots.txt")).text();
   check(/^Allow:\s*\/\s*$/m.test(robots), "robots.txt: Allow: /");
   const sitemap = await (await request("/sitemap.xml")).text();
-  const locs = (sitemap.match(/<loc>/g) ?? []).length;
+  const maps = [...sitemap.matchAll(/<loc>https:\/\/hornigold\.pl(\/sitemap-[a-z-]+\.xml)<\/loc>/g)].map(match => match[1]);
+  check(maps.length === 8 && new Set(maps).size === 8, "sitemap.xml: osiem map językowych");
+  const children = await Promise.all(maps.map(async path => (await request(path)).text()));
+  const locs = children.reduce((total, xml) => total + (xml.match(/<loc>/g) ?? []).length, 0);
   const excluded=Object.keys(JSON.parse(readFileSync(join(ROOT,'seo/indexing-policy.json'),'utf8')).excludedRoutes).length;
   check(locs === pages-excluded, `sitemap.xml: ${locs} indeksowalnych adresów (oczekiwane ${pages-excluded})`);
 
@@ -418,7 +421,9 @@ async function main() {
   say("6. Publikacja");
   const previous = activeWorkerVersion();
   const csp = options.accept.has("CSP") ? null : (await request("/pl/")).headers.get("content-security-policy");
-  const deployed = wrangler(["deploy", "--config", "wrangler.jsonc"]);
+  const indexNow = Boolean(process.env.HORNIGOLD_INDEXNOW_KEY_FILE);
+  if (indexNow) python([join("scripts", "indexnow.py"), "stage"]);
+  const deployed = wrangler(["deploy", "--config", "wrangler.jsonc", "--keep-vars"]);
   const workerVersion = /Current Version ID:\s*(\S+)/.exec(deployed.output)?.[1];
   if (!workerVersion) fail("Brak „Current Version ID” w wyniku wrangler deploy.");
   say(`   Worker ${workerVersion} (poprzedni ${previous})`);
@@ -432,6 +437,11 @@ async function main() {
       fail(`Smoke nie przeszedł — przywrócono Worker ${previous}.`);
     }
     fail("Smoke nie przeszedł (rollback wyłączony).");
+  }
+
+  if (indexNow) {
+    const result = python([join("scripts", "indexnow.py"), "notify"], { allowFail: true });
+    say(result.status === 0 ? `IndexNow: ${result.output.trim()}` : "IndexNow: zgłoszenie wymaga ponowienia po publikacji.");
   }
 
   say("8. Tag i dziennik");

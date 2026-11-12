@@ -192,6 +192,38 @@ def write_indexing_files(out, mode, routes):
             ET.SubElement(node, namespace+'loc').text = ORIGIN+route
             stamp=changed.get('site'+unquote(route)+'index.html')
             if stamp: ET.SubElement(node, namespace+'lastmod').text=stamp
-        ET.ElementTree(sitemap).write(out/'sitemap.xml', encoding='utf-8', xml_declaration=True)
+        ET.register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
+        ET.register_namespace('image', 'http://www.google.com/schemas/sitemap-image/1.1')
+        from bs4 import BeautifulSoup
+        maps = {language.lower(): ET.Element(namespace+'urlset') for language in LANGS}
+        canonical = set(routes.values())
+        excluded = json.loads((Path(__file__).resolve().parent.parent/'seo/indexing-policy.json').read_text())['excludedRoutes']
+        for node in sitemap:
+            route = node.find(namespace+'loc').text[len(ORIGIN):]
+            page = out / unquote(route).lstrip('/') / 'index.html'
+            soup = BeautifulSoup(page.read_text(), 'html.parser')
+            for link in soup.select('link[rel=alternate][hreflang][href]'):
+                alternate = link['href']
+                path = urlsplit(alternate).path
+                if alternate.startswith(ORIGIN+'/') and path in canonical and path not in excluded:
+                    ET.SubElement(node, '{http://www.w3.org/1999/xhtml}link', {'rel':'alternate', 'hreflang':link['hreflang'], 'href':alternate})
+            if soup.body and soup.body.get('data-page-key', '').startswith('pokoje/'):
+                seen = set()
+                for img in soup.select('main img[src]'):
+                    path = urlsplit(img['src']).path
+                    if not path.startswith('/assets/') or path in seen: continue
+                    local = out / unquote(path).lstrip('/')
+                    if not local.is_file(): continue
+                    seen.add(path)
+                    image = ET.SubElement(node, '{http://www.google.com/schemas/sitemap-image/1.1}image')
+                    ET.SubElement(image, '{http://www.google.com/schemas/sitemap-image/1.1}loc').text = ORIGIN+path
+            maps[route.split('/')[1]].append(node)
+        index = ET.Element(namespace+'sitemapindex')
+        for language, language_map in sorted(maps.items()):
+            filename = 'sitemap-'+language+'.xml'
+            ET.ElementTree(language_map).write(out/filename, encoding='utf-8', xml_declaration=True)
+            entry = ET.SubElement(index, namespace+'sitemap')
+            ET.SubElement(entry, namespace+'loc').text = ORIGIN+'/'+filename
+        ET.ElementTree(index).write(out/'sitemap.xml', encoding='utf-8', xml_declaration=True)
         # Headers only belong to this isolated artifact; source/preview protections stay intact.
         (out/'_headers').write_text("/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/llms.txt\n  Content-Type: text/plain; charset=utf-8\n/404.html\n  X-Robots-Tag: noindex\n/*/404.html\n  X-Robots-Tag: noindex\n/documents/*\n  X-Robots-Tag: noindex\n")
