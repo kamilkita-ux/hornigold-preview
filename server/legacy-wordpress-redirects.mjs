@@ -14,6 +14,18 @@ export const portfolioTargets = Object.freeze({
   'hornigold-apartament': '/pl/pokoje/hornigold/'
 });
 
+const englishPortfolioTargets = Object.freeze({
+  'classic-room-dbl-twn': '/en/rooms/classic/',
+  'deluxe-room': '/en/rooms/deluxe/',
+  'deluxe-premium-room-dbl-twn': '/en/rooms/deluxe-premium/',
+  'premium-room': '/en/rooms/premium/',
+  'suite-apartment': '/en/rooms/suite/',
+  'deluxe-apartment': '/en/rooms/apartament-deluxe/',
+  'prestige-apartment': '/en/rooms/prestige/',
+  'prestige-deluxe-apartment': '/en/rooms/prestige-deluxe/',
+  'hornigold-apartment': '/en/rooms/hornigold/'
+});
+
 export const pageTargets = Object.freeze({
   '7024': '/pl/rezerwacja/',
   '6903': '/pl/lokalizacja/',
@@ -38,7 +50,8 @@ export function legacyWordpressRedirect(url) {
   const pageId = query.get('page_id');
   const language = (query.get('lang') || '').toLowerCase();
   const portfolio = query.get('portfolio-item');
-  const path = ownTarget(portfolioTargets, portfolio)
+  const path = (language === 'en' ? ownTarget(englishPortfolioTargets, portfolio) : undefined)
+    || ownTarget(portfolioTargets, portfolio)
     || ownTarget(pageTargets, pageId && language ? `${pageId}:${language}` : '')
     || ownTarget(pageTargets, pageId)
     || (!pageId && !portfolio ? ownTarget(languageHomes, language) : undefined);

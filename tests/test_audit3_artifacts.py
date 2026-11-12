@@ -8,12 +8,12 @@ LANGUAGES=[language.lower() for language in json.loads((R/'release.json').read_t
 class Audit3Artifacts(unittest.TestCase):
  def test_excluded_pages_are_available_but_never_advertised_to_indexers(self):
   routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes'];self.assertEqual(len(excluded),33*len(LANGUAGES))
-  locs={e.text for e in ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')};self.assertEqual(locs,{'https://hornigold.pl'+r for r in routes if r not in excluded})
+  locs={e.text for e in [e for p in (R/'_production_ready').glob('sitemap-*.xml') for e in ET.parse(p).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]};self.assertEqual(locs,{'https://hornigold.pl'+r for r in routes if r not in excluded})
   for route in excluded:
    soup=BeautifulSoup((R/'_production_ready'/unquote(route).strip('/')/'index.html').read_text(),'html.parser');self.assertEqual(soup.select_one('meta[name=robots]')['content'],'noindex,follow');self.assertFalse(soup.select('link[hreflang]'));self.assertEqual([a['data-language'] for a in soup.select('[data-language-switcher] a[data-language]')],LANGUAGES)
  def test_sitemap_dates_are_not_future_dates_and_manifest_icons_exist(self):
   routes=json.loads((R/'routes.json').read_text());excluded=json.loads((R/'seo/indexing-policy.json').read_text())['excludedRoutes']
-  dates=ET.parse(R/'_production_ready/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod');self.assertEqual(len(dates),sum(route not in excluded for route in routes))
+  dates=[e for p in (R/'_production_ready').glob('sitemap-*.xml') for e in ET.parse(p).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}lastmod')];self.assertEqual(len(dates),sum(route not in excluded for route in routes))
   for d in dates:self.assertLessEqual(datetime.date.fromisoformat(d.text),datetime.datetime.now(datetime.timezone.utc).date())
   manifest=json.loads((R/'_production_ready/site.webmanifest').read_text());self.assertEqual({i['sizes'] for i in manifest['icons']},{'192x192','512x512'})
   for i in manifest['icons']:self.assertTrue((R/'_production_ready'/i['src'].lstrip('/')).is_file())

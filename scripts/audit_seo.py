@@ -30,7 +30,11 @@ def audit(mode, directory):
     else:
         check(base=='/','production root')
         check('Sitemap: '+ORIGIN+'/sitemap.xml' in robots,'production sitemap declaration')
-        locs=[e.text for e in ET.parse(out/'sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+        ns='{http://www.sitemaps.org/schemas/sitemap/0.9}'
+        index=ET.parse(out/'sitemap.xml').getroot()
+        maps=[e.text for e in index.findall(ns+'sitemap/'+ns+'loc')]
+        check(index.tag==ns+'sitemapindex' and set(maps)=={ORIGIN+'/sitemap-'+l.lower()+'.xml' for l in LANGS} and len(maps)==8,'language sitemap index')
+        locs=[e.text for url in maps for e in ET.parse(out/url.rsplit('/',1)[-1]).findall(ns+'url/'+ns+'loc')]
         check(len(locs)==len(set(locs))==sum(indexable_route(ROOT,r) for r in routes.values()),'sitemap uniqueness and count')
         check(set(locs)=={ORIGIN+r for r in routes.values() if indexable_route(ROOT,r)},'sitemap canonical coverage')
         header=(out/'_headers').read_text().split('/404.html')[0]

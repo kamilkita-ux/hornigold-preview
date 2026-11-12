@@ -108,7 +108,31 @@ def run_checks(self_test=False):
     check('robots', r['status'] == '200' and r['tlsVerified'] and 'Allow: /' in r['body'] and '\nDisallow: /\n' not in r['body'], {'http': r['status'], 'tls': r['tlsVerified'], 'curlExit': r['curlExit']})
     r = request('https://hornigold.pl/sitemap.xml')
     try:
-        urls = [e.text for e in ET.fromstring(r['body']).findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+        ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
+        sitemap = ET.fromstring(r['body'])
+        if sitemap.tag == ns + 'sitemapindex':
+            children = [e.text for e in sitemap.findall(ns + 'sitemap/' + ns + 'loc')]
+            expected_maps = {'https://hornigold.pl/sitemap-' + lang + '.xml'
+                             for lang in ('pl', 'en', 'cs', 'de', 'zh-hans', 'uk', 'es', 'it')}
+            if len(children) != len(expected_maps) or set(children) != expected_maps:
+                raise ValueError('Invalid language sitemap index')
+            urls = []
+            for child in children:
+                result = request(child)
+                if result['status'] != '200' or not result['tlsVerified']:
+                    raise ValueError('Language sitemap unavailable')
+                language = child.split('/sitemap-')[-1][:-4]
+                entries = ET.fromstring(result['body'])
+                if entries.tag != ns + 'urlset':
+                    raise ValueError('Language sitemap must be a urlset')
+                entries = [e.text for e in entries.findall(ns + 'url/' + ns + 'loc')]
+                if any(not url or not url.startswith('https://hornigold.pl/' + language + '/') for url in entries):
+                    raise ValueError('Wrong language in sitemap')
+                urls.extend(entries)
+        elif sitemap.tag == ns + 'urlset':
+            urls = [e.text for e in sitemap.findall(ns + 'url/' + ns + 'loc')]
+        else:
+            raise ValueError('Unsupported sitemap format')
         valid = policy_error is None and len(urls)==len(set(urls)) and set(urls)=={'https://hornigold.pl'+path for path in expected_routes}
     except (ET.ParseError, ValueError):
         urls, valid = [], False

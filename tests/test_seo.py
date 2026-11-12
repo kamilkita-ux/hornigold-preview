@@ -72,8 +72,9 @@ class SeoSafety(unittest.TestCase):
         with tempfile.TemporaryDirectory() as t:
             root=Path(t);preview=root/'preview';prod=root/'prod';preview.mkdir();prod.mkdir()
             write_indexing_files(preview,'preview',{'/pl/':'/pl/'});before=(preview/'robots.txt').read_bytes()
+            (prod/'pl').mkdir();(prod/'pl/index.html').write_text('<html lang=pl></html>')
             write_indexing_files(prod,'production-ready',{'/pl/':'/pl/'})
-            self.assertEqual(before,(preview/'robots.txt').read_bytes());self.assertIn('https://hornigold.pl/pl/',(prod/'sitemap.xml').read_text())
+            self.assertEqual(before,(preview/'robots.txt').read_bytes());self.assertIn('https://hornigold.pl/pl/',(prod/'sitemap-pl.xml').read_text())
     def test_production_rejects_preview_prefix_before_writing(self):
         before=(R/'_site/release.json').read_bytes();p=subprocess.run([sys.executable,str(R/'scripts/build.py'),'--mode','production-ready','--base','/hornigold-preview/'],capture_output=True)
         self.assertNotEqual(p.returncode,0);self.assertEqual(before,(R/'_site/release.json').read_bytes())

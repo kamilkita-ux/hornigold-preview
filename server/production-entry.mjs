@@ -2,6 +2,7 @@
 import worker from './worker.mjs';
 import {canonicalRoutes} from './canonical-routes.mjs';
 import {legacyWordpressRedirect} from './legacy-wordpress-redirects.mjs';
+import {seoRedirects} from './seo-redirects.mjs';
 const canonical=new Set(canonicalRoutes);
 const ORIGIN='https://hornigold.pl';
 // A room chosen with valid dates (/{language}/rezerwacja/?room=…&arrival=…&departure=…) goes straight to the GuestSage
@@ -36,6 +37,14 @@ export default {async fetch(request,env,ctx){
   const target=new URL(url.pathname+url.search,ORIGIN);
   return Response.redirect(target.href,301);
  }
+ if(production && ['GET','HEAD'].includes(request.method)){
+  const path=url.pathname.endsWith('/')?url.pathname:url.pathname+'/';
+  if(Object.hasOwn(seoRedirects,path)){
+   const target=new URL(seoRedirects[path],ORIGIN);
+   target.search=url.search;
+   return Response.redirect(target.href,301);
+  }
+ }
  const booking=['GET','HEAD'].includes(request.method) && bookingRedirect(url);
  if(booking)return new Response(null,{status:302,headers:{'Location':booking,'Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow, noarchive','Referrer-Policy':'no-referrer','X-Content-Type-Options':'nosniff'}});
  // Google Search Console requires 200 at the exact /google<hex>.html URL; Cloudflare assets (html_handling
@@ -50,7 +59,7 @@ export default {async fetch(request,env,ctx){
  const headers=new Headers(response.headers);
  if(production){const policy=headers.get('Content-Security-Policy');if(policy)headers.set('Content-Security-Policy',policy.replace("script-src 'self'","script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://www.google.com").replace("connect-src 'self'","connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl https://ad.doubleclick.net").replace("img-src 'self' data:", "img-src 'self' data: https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.pl").replace("frame-src https://www.google.com", "frame-src https://www.google.com https://www.googletagmanager.com"));}
  if(production)headers.set('Referrer-Policy','strict-origin-when-cross-origin');
- const indexable=production && [200,304].includes(response.status) && (canonical.has(url.pathname) || url.pathname==='/sitemap.xml');
+ const indexable=production && [200,304].includes(response.status) && (canonical.has(url.pathname) || /^\/sitemap(?:-pl|-en|-cs|-de|-zh-hans|-uk|-es|-it)?\.xml$/.test(url.pathname));
  if(indexable)headers.delete('X-Robots-Tag');
  else headers.set('X-Robots-Tag','noindex, nofollow, noarchive');
  if(url.pathname==='/release.json' && request.method==='GET' && response.status===200){
