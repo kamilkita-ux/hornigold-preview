@@ -34,6 +34,13 @@ export const pageTargets = Object.freeze({
   '5884': '/pl/dokumenty/',
   '4231': '/en/contact/',
   '6624': '/en/',
+  // Published pages identified in the 2026-10-02 WordPress export.
+  '5906': '/pl/wellness-spa/',
+  '5977': '/pl/konferencje/',
+  '6574': '/pl/catering/',
+  '6637:en': '/en/catering-and-events/',
+  '6642': '/en/conferences-and-meetings/',
+  '6647': '/en/wellness-and-spa/',
   '24949:en': '/en/breakfast/',
   '24951:de': '/de/fruehstueck/',
   '24953:zh': '/zh-hans/%E6%97%A9%E9%A4%90/'
