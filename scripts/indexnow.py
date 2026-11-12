@@ -4,11 +4,18 @@ import json
 import os
 from pathlib import Path
 import re
+import subprocess
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
 ORIGIN = 'https://hornigold.pl'
 NS = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
+
+
+def fetch_public(path):
+    # The production edge accepts curl for anonymous verification requests.
+    return subprocess.run(['curl', '--fail', '--silent', '--max-time', '15', ORIGIN + path],
+                          check=True, capture_output=True).stdout
 
 
 def main():
@@ -27,13 +34,11 @@ def main():
     if args.mode == 'stage':
         (args.assets / name).write_text(key + '\n')
         return
-    with urlopen(ORIGIN + '/release.json', timeout=15) as response:
-        public = json.load(response)
+    public = json.loads(fetch_public('/release.json'))
     if public.get('commit') != local['commit'] or not public.get('published'):
         raise SystemExit('Production commit does not match the package')
-    with urlopen(ORIGIN + '/' + name, timeout=15) as response:
-        if response.read().decode().strip() != key:
-            raise SystemExit('Public IndexNow verification file does not match')
+    if fetch_public('/' + name).decode().strip() != key:
+        raise SystemExit('Public IndexNow verification file does not match')
     index = ET.parse(args.assets / 'sitemap.xml')
     paths = [e.text for e in index.findall(NS + 'sitemap/' + NS + 'loc')]
     urls = [
