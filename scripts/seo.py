@@ -134,11 +134,19 @@ def apply_seo(soup, route, root, mode, routes, overrides):
     if images:
         graph['@graph'][0]['image'] = [{'@id': item['@id']} for item in images]
         graph['@graph'].extend(images)
+    footer_brand = soup.select_one('footer .footer-brand')
+    if footer_brand:
+        descriptors = {
+            'pl': 'butikowy hotel', 'en': 'boutique hotel', 'de': 'Boutique-Hotel',
+            'cs': 'butikový hotel', 'zh-hans': '精品酒店', 'uk': 'бутик-готель',
+            'es': 'hotel boutique', 'it': 'boutique hotel',
+        }
+        footer_brand.string = 'Hornigold · ' + descriptors[soup.html['lang'].lower()]
     # Visible home/current trail, translated using the existing page heading.
     home='/' + canonical_route.split('/')[1] + '/'
     if canonical_route!=home and soup.main and not soup.select_one('.breadcrumb'):
         trail=soup.new_tag('nav',attrs={'class':'breadcrumb','aria-label':'Breadcrumb'})
-        link=soup.new_tag('a',href=home);link.string='Hornigold';trail.append(link)
+        link=soup.new_tag('a',href=home);link.string={'pl': 'Hotel Hornigold', 'en': 'Hornigold Hotel', 'de': 'Hotel Hornigold', 'cs': 'Hotel Hornigold', 'zh-hans': 'Hornigold 酒店', 'uk': 'Готель Hornigold', 'es': 'Hotel Hornigold', 'it': 'Hotel Hornigold'}[home.strip('/')];trail.append(link)
         trail.append(' / ')
         current=soup.new_tag('span',attrs={'aria-current':'page'});current.string=soup.h1.get_text(' ',strip=True);trail.append(current)
         soup.main.insert(0,trail)
