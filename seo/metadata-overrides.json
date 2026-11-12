@@ -3,13 +3,13 @@
     "description": "Prywatność w Hornigold: przetwarzanie danych, prawa użytkownika, kontakt i zasady korzystania z serwisu. Dokument dostępny także w PDF."
   },
   "/en/privacy-and-data/": {
-    "description": "Privacy at Hornigold: data processing, user rights, contact details and use of the website. The document is also available as a PDF."
+    "description": "Privacy at Hornigold: data processing, user rights, contact details and use of the website. The document is also available as a PDF. Plan your stay in Katowice."
   },
   "/de/datenschutz-und-daten/": {
     "description": "Datenschutz bei Hornigold: Datenverarbeitung, Nutzerrechte, Kontakt und Nutzung der Website. Das Dokument steht auch als PDF bereit."
   },
   "/zh-hans/%E9%9A%90%E7%A7%81%E4%B8%8E%E6%95%B0%E6%8D%AE/": {
-    "description": "Hornigold 隐私政策：数据处理、用户权利、联系方式及网站使用规则。文件也可下载为 PDF。"
+    "description": "Hornigold 隐私政策：数据处理、用户权利、联系方式及网站使用规则。文件也可下载为 PDF。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   },
   "/uk/%D0%BF%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%96%D1%81%D1%82%D1%8C-%D1%96-%D0%B4%D0%B0%D0%BD%D1%96/": {
     "description": "Конфіденційність у Hornigold: обробка даних, права користувачів, контакти та користування сайтом. Документ також доступний у PDF."
@@ -24,13 +24,13 @@
     "description": "Regulaminy i dokumenty Hornigold: zasady serwisu, zapytania o pobyt, płatności, prywatność, cookies i dostępność. Pobierz dokumenty w PDF."
   },
   "/en/clarity-before-your-arrival/": {
-    "description": "Hornigold documents: website terms, stay enquiries, payments, privacy, cookies and accessibility. Download the documents as a PDF."
+    "description": "Hornigold documents: website terms, stay enquiries, payments, privacy, cookies and accessibility. Download the documents as a PDF. Plan your stay in Katowice."
   },
   "/de/klare-informationen-vor-der-anreise/": {
     "description": "Dokumente von Hornigold: Website-Bedingungen, Aufenthaltsanfragen, Zahlungen, Datenschutz, Cookies und Barrierefreiheit. Als PDF herunterladen."
   },
   "/zh-hans/%E5%85%A5%E4%BD%8F%E5%89%8D%E4%BA%86%E8%A7%A3%E6%B8%85%E6%A5%9A/": {
-    "description": "Hornigold 文件：网站条款、住宿咨询、付款规则、隐私、Cookie 和无障碍信息。可下载 PDF 文件。"
+    "description": "Hornigold 文件：网站条款、住宿咨询、付款规则、隐私、Cookie 和无障碍信息。可下载 PDF 文件。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   },
   "/uk/%D1%83%D1%81%D0%B5-%D0%B7%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BB%D0%BE-%D1%89%D0%B5-%D0%B4%D0%BE-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4%D1%83/": {
     "description": "Документи Hornigold: правила сайту, запити щодо проживання, платежі, конфіденційність, cookies і доступність. Завантажте документи у PDF."
@@ -48,32 +48,36 @@
     "title": "Club Hornigold — stay options and terms | Hornigold"
   },
   "/de/club-hornigold/": {
-    "title": "Club Hornigold — Möglichkeiten und Bedingungen | Hornigold"
+    "title": "Club Hornigold — Möglichkeiten und Bedingungen | Hornigold",
+    "description": "Entdecken Sie die Möglichkeiten von Club Hornigold und fragen Sie an der Rezeption nach passenden Bedingungen. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/es/club-hornigold/": {
-    "title": "Club Hornigold — opciones y condiciones de estancia | Hornigold"
+    "title": "Club Hornigold — opciones y condiciones de estancia | Hornigold",
+    "description": "Descubre las posibilidades de Club Hornigold y consulta con recepción las condiciones para tu estancia. Consulta los detalles antes de tu llegada."
   },
   "/it/club-hornigold/": {
-    "title": "Club Hornigold — soggiorni e condizioni | Hornigold"
+    "title": "Club Hornigold — soggiorni e condizioni | Hornigold",
+    "description": "Scopri le possibilità di Club Hornigold e chiedi alla reception le condizioni per il tuo soggiorno. Leggi le informazioni prima del tuo arrivo."
   },
   "/uk/club-hornigold/": {
     "title": "Club Hornigold — можливості та умови проживання | Hornigold"
   },
   "/zh-hans/club-hornigold/": {
-    "title": "Club Hornigold — 入住选择与条件 | Hornigold"
+    "title": "Club Hornigold — 入住选择与条件 | Hornigold",
+    "description": "了解 Club Hornigold 的服务选择，并向前台咨询适合您行程的条件。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   },
   "/it/katowice-con-hornigold/": {
     "title": "Scoprire Katowice con Hornigold | Hornigold",
-    "description": "Esplora Katowice e i dintorni con Hornigold. Consulta i percorsi e organizza le visite durante il tuo soggiorno."
+    "description": "Esplora Katowice e i dintorni con Hornigold. Consulta i percorsi e organizza le visite durante il tuo soggiorno. Consulta i dettagli prima di partire."
   },
   "/es/katowice-con-hornigold/": {
-    "description": "Explora Katowice y sus alrededores con Hornigold. Consulta cómo llegar y organiza tus visitas durante la estancia."
+    "description": "Explora Katowice y sus alrededores con Hornigold. Consulta cómo llegar y organiza tus visitas durante la estancia. Consulta los detalles antes de tu llegada."
   },
   "/it/katowice/visita-a-mck-spodek-o-nospr/": {
     "title": "Eventi a MCK, Spodek e NOSPR — pianifica la visita | Hornigold"
   },
   "/pl/lokalizacja/": {
-    "title": "Lokalizacja Hornigold – dojazd w Katowicach | Hornigold",
+    "title": "Jak dojść z dworca PKP do Hornigold | Hornigold",
     "description": "Hornigold przy Kopernika 6 w Katowicach: zobacz wejście, opis spaceru z dworca oraz odnośniki do tras z lotnisk. Aktualne połączenia sprawdź w mapach."
   },
   "/pl/porownaj/": {
@@ -86,26 +90,30 @@
   },
   "/pl/dla-firm/": {
     "title": "Noclegi dla firm w Katowicach | Hornigold",
-    "description": "Zapytaj o nocleg służbowy lub dłuższy pobyt w Hornigold przy Kopernika 6 w Katowicach. Podaj termin, liczbę osób i potrzeby fakturowe — warunki potwierdzi recepcja."
+    "description": "Zapytaj o nocleg służbowy lub dłuższy pobyt w Hornigold przy Kopernika 6 w Katowicach."
   },
   "/pl/pokoje/": {
     "title": "Pokoje i apartamenty w Katowicach | Hornigold",
     "description": "Poznaj kategorie pokoi i apartamentów Hornigold w Katowicach. Obejrzyj wnętrza, porównaj opisy i zapytaj recepcję o warunki dla wybranego terminu."
   },
   "/pl/pokoje/deluxe/": {
-    "description": "Deluxe — nocleg w centrum Katowic. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd."
+    "description": "Deluxe to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 30 m². Układ łóżek: Jedno łóżko podwójne.",
+    "title": "Pokój Deluxe 30 m² w centrum Katowic · od 410 zł | Hornigold"
   },
   "/pl/pokoje/classic/": {
-    "description": "Classic — nocleg w centrum Katowic. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd."
+    "description": "Classic to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 20–22 m². Zobacz szczegóły pobytu w Katowicach.",
+    "title": "Pokój Classic 20–22 m² w centrum Katowic · od 380 zł | Hornigold"
   },
   "/pl/pokoje/suite/": {
-    "description": "Suite — nocleg w centrum Katowic. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd."
+    "description": "Suite to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 40 m². Układ łóżek: Jedno łóżko podwójne.",
+    "title": "Apartament Suite 40 m² w centrum Katowic · od 590 zł | Hornigold"
   },
   "/pl/pokoje/premium/": {
-    "description": "Premium — nocleg w centrum Katowic. Poznaj Hornigold przy Kopernika 6 w Katowicach. Zobacz zdjęcia, zaplanuj pobyt i skontaktuj się z nami. Poznaj wnętrza i dojazd."
+    "description": "Premium to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 35 m². Układ łóżek: Jedno łóżko podwójne.",
+    "title": "Pokój Premium 35 m² w centrum Katowic · od 450 zł | Hornigold"
   },
   "/pl/katowice/": {
-    "description": "Katowice z Hornigold. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Katowice z Hornigold. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/katowice/wydarzenia/": {
     "description": "Wybierz wydarzenie. Zaplanuj pobyt. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
@@ -118,196 +126,199 @@
     "description": "Katowice. Śląsk. Opowieści warte drogi. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/strefa-kultury/": {
-    "description": "Strefa Kultury: nowe życie przemysłowego miejsca. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Strefa Kultury: nowe życie przemysłowego miejsca. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/tarnowskie-gory/": {
-    "description": "Tarnowskie Góry: srebro i sztuka panowania nad wodą. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Tarnowskie Góry: srebro i sztuka panowania nad wodą. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/miejsca-pamieci-slaska/": {
-    "description": "Miejsca pamięci Śląska: różne historie, uważne słowa. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Miejsca pamięci Śląska: różne historie, uważne słowa. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/auschwitz-birkenau/": {
-    "description": "Auschwitz-Birkenau: miejsce pamięci i świadectwo. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Auschwitz-Birkenau: miejsce pamięci i świadectwo. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/szlak-zabytkow-techniki/": {
-    "description": "Szlak Zabytków Techniki: region opowiedziany pracą. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Szlak Zabytków Techniki: region opowiedziany pracą. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/dziedzictwo-zydowskie/": {
-    "description": "Żydowskie dziedzictwo: ludzie, miejsca, nieobecność. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Żydowskie dziedzictwo: ludzie, miejsca, nieobecność. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/historia-katowic/": {
-    "description": "Historia Katowic: miasto, które wciąż się zmienia. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
+    "description": "Historia Katowic: miasto, które wciąż się zmienia. Poznaj miejsca w Katowicach i okolicy."
   },
   "/pl/miasto-i-okolice/ilustracje/ulica-moderny/": {
-    "description": "Ulica modernistyczna. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Ulica modernistyczna. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/ilustracje/nospr/": {
-    "description": "NOSPR — miasto muzyki. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "NOSPR — miasto muzyki. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/ilustracje/zielony-korytarz/": {
-    "description": "Zielony korytarz miasta. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Zielony korytarz miasta. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/ilustracje/arkady/": {
-    "description": "Pod miejskimi arkadami. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Pod miejskimi arkadami. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/ilustracje/przed-koncertem/": {
-    "description": "Chwila przed koncertem. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Chwila przed koncertem. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/pl/miasto-i-okolice/ilustracje/kino-art-deco/": {
-    "description": "Kino w świetle miasta. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold. Poznaj wnętrza i dojazd."
+    "description": "Kino w świetle miasta. Poznaj miejsca w Katowicach i okolicy. Sprawdź wskazówki dojazdu i zaplanuj zwiedzanie podczas pobytu w Hornigold."
   },
   "/it/organizza-un-arrivo-senza-pensieri/": {
-    "description": "Organizza un arrivo senza pensieri. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Hornigold dispone di un parcheggio privato nel centro di Katowice, in via Kopernika 6. Contattate la reception per un posto auto e le indicazioni di accesso."
   },
   "/it/confronta/": {
-    "description": "Scegli ciò che conta per te. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Scegli ciò che conta per te. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
   },
   "/it/pobyt/": {
-    "description": "Un bel soggiorno inizia qui. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Un bel soggiorno inizia qui. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
   },
   "/it/pobyt/weekend/": {
-    "description": "Un weekend a Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Un weekend a Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
   },
   "/it/pobyt/dluzszy-pobyt/": {
-    "description": "Un soggiorno più lungo. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Un soggiorno più lungo. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
   },
   "/it/pobyt/wydarzenie/": {
-    "description": "Un concerto o un evento. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Un concerto o un evento. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
   },
   "/it/catering-ed-eventi/": {
-    "description": "Catering ed eventi. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Catering ed eventi. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Consulta i dettagli prima di partire."
   },
   "/it/condizioni-adatte-ai-tuoi-programmi/": {
-    "description": "Condizioni adatte ai tuoi programmi. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Prepara e controlla il messaggio prima di inviarlo dalla tua app di posta. La struttura comunicherà le condizioni; la richiesta non riserva le camere."
   },
   "/it/un-soggiorno-su-misura-per-te/": {
-    "description": "Un soggiorno su misura per te. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Stai pensando a un soggiorno più lungo, a un viaggio in coppia o a una trasferta di lavoro? Verifica con la struttura le condizioni disponibili per le tue date."
   },
   "/it/una-visita-rilassante-comincia-prima-dellarrivo/": {
-    "description": "Una visita rilassante comincia prima dell'arrivo. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
+    "description": "Scegli prima una categoria di camera e le date. Poi consulta le indicazioni per arrivare, i documenti e le condizioni da concordare con la reception."
   },
   "/it/le-esperienze-dei-nostri-ospiti/": {
-    "description": "Le esperienze dei nostri ospiti. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Il punteggio proviene da Google. Non verifichiamo autonomamente che ogni autore abbia soggiornato da noi. Consulta i dettagli prima di partire."
   },
   "/it/conferenze-e-incontri/": {
-    "description": "Conferenze e incontri. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Abbinate un incontro nel centro di Katowice a un soggiorno nella Casa Verde. Hornigold offre gli spazi Madlen, Camila e Ana, di 40, 60 e 100 m²."
   },
   "/it/katowice/katowice-in-24-o-48-ore/": {
-    "description": "Katowice in 24 o 48 ore. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Katowice in 24 o 48 ore. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/katowice/scegli-un-evento-organizza-il-soggiorno/": {
     "description": "Scegli un evento. Organizza il soggiorno. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/informazioni-su-hornigold/": {
-    "description": "Informazioni su Hornigold. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Via Kopernika 6, Katowice. Scopri gli interni e organizza il tuo tempo in città."
   },
   "/it/contatti/": {
-    "description": "Parliamo del tuo soggiorno. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Hai domande su una camera, sull'arrivo o sulle modalità del soggiorno? Contatta direttamente Hornigold. Consulta i dettagli prima di partire."
   },
   "/it/colazione/": {
-    "description": "Inizia bene la giornata. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Iniziate la giornata all’Hornigold con la colazione, prima di una riunione o di una passeggiata a Katowice. Consulta i dettagli prima di partire.",
+    "title": "Colazione nella Casa Verde · 7:00–10:00 | Hornigold"
   },
   "/it/camere/": {
-    "description": "Camere e appartamenti · Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Colori naturali e dettagli classici. Scopri da vicino la camera Classic."
   },
   "/it/camere/prestige-deluxe/": {
-    "description": "Appartamento Prestige Deluxe — soggiorno nel centro di Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci."
+    "description": "Appartamento Prestige Deluxe — soggiorno nel centro di Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Consulta i dettagli prima di partire.",
+    "title": "Appartamento Prestige Deluxe 49 m² nel centro di Katowice · da 795 PLN | Hornigold"
   },
   "/it/posizione/": {
-    "description": "Katowice. La tua prossima storia. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Hornigold si trova nel Palazzo Verde, in via Kopernika 6 a Katowice. Dedica tempo alla scoperta della città e scegli una camera in cui tornare a fine giornata.",
+    "title": "A piedi dalla stazione di Katowice a Hornigold | Hornigold"
   },
   "/it/aeroporti/": {
-    "description": "Aeroporti e trasferimenti. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Aeroporti e trasferimenti. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/rezerwacja/": {
-    "description": "Il soggiorno in sintesi. Scopri Hornigold in via Kopernika 6 a Katowice. Guarda le foto, organizza il soggiorno e contattaci. Scoprite camere e indicazioni di arrivo."
+    "description": "Verifica disponibilità, prezzo totale e condizioni dell’offerta scelta nel sistema esterno KWHotel / GuestSage. Consulta i dettagli prima di partire."
   },
   "/it/citta-e-dintorni/": {
     "description": "Katowice. Slesia. Storie che meritano il viaggio. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/la-piazza-del-mercato-katowice-in-un-solo-sguardo/": {
-    "description": "La piazza del mercato: Katowice in un solo sguardo. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "La piazza del mercato: Katowice in un solo sguardo. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/zabrze-la-miniera-guido-e-la-galleria-della-regina-luisa/": {
-    "description": "Zabrze: la miniera Guido e la galleria della Regina Luisa. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Zabrze: la miniera Guido e la galleria della Regina Luisa. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/il-percorso-dei-monumenti-della-tecnica-una-regione-plasmata-dal-lavoro/": {
-    "description": "Il Percorso dei Monumenti della Tecnica: una regione plasmata dal lavoro. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Il Percorso dei Monumenti della Tecnica: una regione plasmata dal lavoro. Esplora Katowice e i dintorni. Consulta i dettagli prima di partire."
   },
   "/it/citta-e-dintorni/mangiare-a-katowice/": {
-    "description": "Mangiare a Katowice. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Mangiare a Katowice. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/museo-della-slesia-la-nuova-vita-di-una-miniera/": {
-    "description": "Museo della Slesia — la nuova vita di una miniera. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Museo della Slesia — la nuova vita di una miniera. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/illustrazioni/una-strada-modernista/": {
-    "description": "Una strada modernista. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Una strada modernista. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/nospr-una-citta-di-musica/": {
     "description": "NOSPR — una città di musica. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/il-percorso-del-modernismo-una-citta-di-forme-nuove/": {
-    "description": "Il percorso del Modernismo — una città di forme nuove. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Il percorso del Modernismo — una città di forme nuove. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/illustrazioni/cultura-dopo-il-tramonto/": {
-    "description": "Cultura dopo il tramonto. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Cultura dopo il tramonto. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/sotto-i-portici-della-citta/": {
     "description": "Sotto i portici della città. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/la-torre-dellacqua-una-traccia-delle-infrastrutture/": {
-    "description": "La torre dell'acqua — una traccia delle infrastrutture. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "La torre dell'acqua — una traccia delle infrastrutture. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/illustrazioni/musica-sullacqua/": {
-    "description": "Musica sull'acqua. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Musica sull'acqua. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/torri-e-silenzio/": {
-    "description": "Torri e silenzio. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Torri e silenzio. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/un-tram-nellora-blu/": {
-    "description": "Un tram nell'ora blu. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Un tram nell'ora blu. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/i-gradini-verso-il-teatro/": {
-    "description": "I gradini verso il teatro. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "I gradini verso il teatro. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/un-cortile-per-larte/": {
-    "description": "Un cortile per l'arte. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Un cortile per l'arte. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/una-serata-allopera/": {
-    "description": "Una serata all'opera. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Una serata all'opera. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/la-fabbrica-della-porcellana-industria-e-artigianato/": {
-    "description": "La Fabbrica della Porcellana — industria e artigianato. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "La Fabbrica della Porcellana — industria e artigianato. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/illustrazioni/un-cortile-in-mattoni/": {
-    "description": "Un cortile in mattoni. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Un cortile in mattoni. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/un-parco-vicino-allo-stagno/": {
     "description": "Un parco vicino allo stagno. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/mattino-sui-binari/": {
-    "description": "Mattino sui binari. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold. Scoprite camere e indicazioni di arrivo."
+    "description": "Mattino sui binari. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/illustrazioni/spodek-uninterpretazione/": {
     "description": "Spodek — un'interpretazione. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
   },
   "/it/citta-e-dintorni/gliwice-la-stazione-radio-e-la-storia-della-propaganda/": {
-    "description": "Gliwice: la stazione radio e la storia della propaganda. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Gliwice: la stazione radio e la storia della propaganda. Esplora Katowice e i dintorni."
   },
   "/it/citta-e-dintorni/la-zona-della-cultura-un-nuovo-capitolo-per-un-sito-industriale/": {
-    "description": "La Zona della Cultura: un nuovo capitolo per un sito industriale. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "La Zona della Cultura: un nuovo capitolo per un sito industriale. Esplora Katowice e i dintorni. Leggi le informazioni prima del tuo arrivo."
   },
   "/it/citta-e-dintorni/cieszyn/": {
-    "description": "Cieszyn: una collina, la memoria e una terra di confine. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
+    "description": "Cieszyn: una collina, la memoria e una terra di confine. Esplora Katowice e i dintorni."
   },
   "/uk/pobyt/": {
     "description": "Гарний відпочинок починається тут. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/pobyt/weekend/": {
-    "description": "Вихідні в Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути."
+    "description": "Вихідні в Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/pobyt/dluzszy-pobyt/": {
-    "description": "Тривале проживання. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути."
+    "description": "Тривале проживання. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D0%BF%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D1%82%D0%B8/": {
     "description": "Оберіть те, що важливо саме вам. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
@@ -319,37 +330,41 @@
     "description": "Спокійна подорож починається ще до приїзду. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/prestige/": {
-    "description": "Апартаменти Prestige — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
+    "description": "Апартаменти Prestige — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце.",
+    "title": "Апартаменти Prestige 60–70 m² в центрі Катовіце · від 695 PLN | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/prestige-deluxe/": {
-    "description": "Апартаменти Prestige Deluxe — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
+    "description": "Апартаменти Prestige Deluxe — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте подробиці перед приїздом.",
+    "title": "Апартаменти Prestige Deluxe 49 m² в центрі Катовіце · від 795 PLN | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/hornigold/": {
-    "description": "Апартаменти Hornigold — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
+    "description": "Апартаменти Hornigold — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Сплануйте своє перебування в Катовіце.",
+    "title": "Апартаменти Hornigold 105 m² в центрі Катовіце · від 1100 PLN | Hornigold"
   },
   "/uk/%D0%B2%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%B0%D1%88%D0%B8%D1%85-%D0%B3%D0%BE%D1%81%D1%82%D0%B5%D0%B8/": {
-    "description": "Враження наших гостей. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути."
+    "description": "Враження наших гостей. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D1%83%D0%BC%D0%BE%D0%B2%D0%B8-%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%BE-%D0%B4%D0%BE-%D0%B2%D0%B0%D1%88%D0%B8%D1%85-%D0%BF%D0%BB%D0%B0%D0%BD%D1%96%D0%B2/": {
     "description": "Умови відповідно до ваших планів. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D1%80%D0%BE%D0%B7%D1%82%D0%B0%D1%88%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/": {
-    "description": "Катовіце. Ваша наступна історія. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
+    "description": "Катовіце. Ваша наступна історія. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами.",
+    "title": "Пішки від вокзалу Катовіце до Hornigold | Hornigold"
   },
   "/uk/katowice/%D0%BE%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C-%D0%BF%D0%BE%D0%B4%D1%96%D1%8E-%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D1%83%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/": {
     "description": "Оберіть подію. Заплануйте проживання. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BA%D0%BE%D0%BD%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D1%96-%D1%82%D0%B0-%D0%B7%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87%D1%96/": {
-    "description": "Конференції та зустрічі. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути."
+    "description": "Конференції та зустрічі. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/": {
-    "description": "Катовіце. Сілезія. Історії, заради яких варто вирушити. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Катовіце. Сілезія. Історії, заради яких варто вирушити. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D0%B7%D0%B0%D0%B1%D0%B6%D0%B5-%D1%88%D0%B0%D1%85%D1%82%D0%B0-guido-%D1%82%D0%B0-%D1%88%D1%82%D0%BE%D0%BB%D1%8C%D0%BD%D1%8F-krolowa-luiza/": {
-    "description": "Забже: шахта Guido та штольня Królowa Luiza. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Забже: шахта Guido та штольня Królowa Luiza. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/tarnowskie-gory/": {
-    "description": "Тарновські Гури: срібло та мистецтво керування водою. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Тарновські Гури: срібло та мистецтво керування водою. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D0%B3%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%BC%D1%96%D1%8F-%D0%BA%D0%B0%D1%82%D0%BE%D0%B2%D1%96%D1%86%D0%B5/": {
     "description": "Гастрономія Катовіце. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
@@ -361,25 +376,25 @@
     "description": "Мить перед концертом. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%BF%D0%B0%D1%80%D0%BA-%D0%B1%D1%96%D0%BB%D1%8F-%D1%81%D1%82%D0%B0%D0%B2%D1%83/": {
-    "description": "Парк біля ставу. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold. Перегляньте номери та маршрути."
+    "description": "Парк біля ставу. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D1%80%D0%B0%D0%BD%D0%BE%D0%BA-%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BB%D1%96%D1%8F%D1%85/": {
-    "description": "Ранок на коліях. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold. Перегляньте номери та маршрути."
+    "description": "Ранок на коліях. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0-%D0%B1%D1%96%D0%BB%D1%8F-%D0%B2%D0%BE%D0%B4%D0%B8/": {
     "description": "Музика біля води. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%B2%D0%B5%D0%B6%D1%96-%D0%B8-%D1%82%D0%B8%D1%88%D0%B0/": {
-    "description": "Вежі й тиша. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold. Перегляньте номери та маршрути."
+    "description": "Вежі й тиша. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D1%81%D1%85%D0%BE%D0%B4%D0%B8-%D0%B4%D0%BE-%D1%82%D0%B5%D0%B0%D1%82%D1%80%D1%83/": {
-    "description": "Сходи до театру. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold. Перегляньте номери та маршрути."
+    "description": "Сходи до театру. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%BE%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D0%B8-%D0%B2%D0%B5%D1%87%D1%96%D1%80/": {
-    "description": "Оперний вечір. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold. Перегляньте номери та маршрути."
+    "description": "Оперний вечір. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%BF%D0%BE%D1%80%D1%86%D0%B5%D0%BB%D1%8F%D0%BD%D0%BE%D0%B2%D0%B0-%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0-%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D1%96%D1%81%D1%82%D1%8C-%D1%96-%D1%80%D0%B5%D0%BC%D0%B5%D1%81%D0%BB%D0%BE/": {
-    "description": "Порцелянова фабрика — промисловість і ремесло. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Порцелянова фабрика — промисловість і ремесло. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%96%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97/%D0%BF%D0%BE%D0%B4%D0%B2%D1%96%D1%80%D1%8F-%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%86%D1%82%D0%B2%D0%B0/": {
     "description": "Подвір’я мистецтва. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
@@ -394,22 +409,22 @@
     "description": "Кіно у світлі міста. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D0%B3%D0%BB%D1%96%D0%B2%D1%96%D1%86%D0%B5-%D1%80%D0%B0%D0%B4%D1%96%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F-%D1%82%D0%B0-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D0%BF%D1%80%D0%BE%D0%BF%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8/": {
-    "description": "Глівіце: радіостанція та історія пропаганди. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Глівіце: радіостанція та історія пропаганди. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%94%D0%B2%D1%80%D0%B5%D0%B8%D1%81%D1%8C%D0%BA%D0%B0-%D1%81%D0%BF%D0%B0%D0%B4%D1%89%D0%B8%D0%BD%D0%B0-%D0%BB%D1%8E%D0%B4%D0%B8-%D0%BC%D1%96%D1%81%D1%86%D1%8F-%D0%B2%D1%96%D0%B4%D1%81%D1%83%D1%82%D0%BD%D1%96%D1%81%D1%82%D1%8C/": {
-    "description": "Єврейська спадщина: люди, місця, відсутність. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Єврейська спадщина: люди, місця, відсутність. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/nikiszowiec/": {
-    "description": "Нікішовець: цегла, подвір’я та щоденне життя. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Нікішовець: цегла, подвір’я та щоденне життя. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D0%BC%D1%96%D1%81%D1%86%D1%8F-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%96-%D1%81%D1%96%D0%BB%D0%B5%D0%B7%D1%96%D1%96-%D1%80%D1%96%D0%B7%D0%BD%D1%96-%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%96-%D1%82%D0%BE%D1%87%D0%BD%D1%96-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0/": {
-    "description": "Місця пам’яті Сілезії: різні історії, точні слова. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Місця пам’яті Сілезії: різні історії, точні слова. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D1%88%D0%BB%D1%8F%D1%85-%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BE%D0%BA-%D1%82%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B8-%D0%BA%D1%80%D0%B0%D0%B8-%D1%80%D0%BE%D0%B7%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B8-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%BF%D1%80%D0%B0%D1%86%D1%8E/": {
-    "description": "Шлях пам’яток техніки: край, розказаний через працю. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Шлях пам’яток техніки: край, розказаний через працю. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%BC%D1%96%D1%81%D1%82%D0%BE-%D1%82%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%B8%D1%86%D1%96/%D0%B7%D0%BE%D0%BD%D0%B0-%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B8-%D0%BD%D0%BE%D0%B2%D0%B5-%D0%B6%D0%B8%D1%82%D1%82%D1%8F-%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BC%D1%96%D1%81%D1%86%D1%8F/": {
-    "description": "Зона культури: нове життя промислового місця. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
+    "description": "Зона культури: нове життя промислового місця. Дослідіть Катовіце та околиці."
   },
   "/uk/%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D1%83%D0%B8%D1%82%D0%B5-%D1%81%D0%BF%D0%BE%D0%BA%D1%96%D0%B8%D0%BD%D0%B8%D0%B8-%D0%BF%D1%80%D0%B8%D1%96%D0%B7%D0%B4/": {
     "description": "Заплануйте спокійний приїзд. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
@@ -421,91 +436,103 @@
     "description": "Ваше перебування: підсумок. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D1%81%D0%BD%D1%96%D0%B4%D0%B0%D0%BD%D0%BA%D0%B8/": {
-    "description": "Гарний початок дня. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами. Перегляньте номери та маршрути."
+    "description": "Гарний початок дня. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами.",
+    "title": "Сніданки в Зеленій кам’яниці · 7:00–10:00 | Hornigold"
   },
   "/de/": {
-    "description": "Zimmer und Apartments im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Zimmer und Apartments im Grünen Stadthaus, Kopernika 6 in Kattowitz. Vergleichen Sie Zimmergrößen, sehen Sie Fotos und prüfen Sie Ihren Wunschtermin.",
+    "title": "Zimmer und Apartments im Grünen Stadthaus · im Zentrum von Kattowitz | Hornigold"
   },
   "/de/ein-aufenthalt-der-zu-ihnen-passt/": {
-    "description": "Ein Aufenthalt, der zu Ihnen passt. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Planen Sie einen längeren Aufenthalt, eine Reise zu zweit oder eine Geschäftsreise? Erfragen Sie die Bedingungen für Ihre Reisedaten direkt bei der Unterkunft."
   },
   "/de/pobyt/": {
-    "description": "Ein guter Aufenthalt beginnt hier. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Ein guter Aufenthalt beginnt hier. Entdecken Sie Hornigold an der Kopernika 6 in Katowice."
   },
   "/de/anfahrt/": {
-    "description": "Katowice. Ihre nächste Geschichte. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Ein Klick öffnet die gewählte Route in Google Maps. Prüfen Sie dort aktuelle Fahrzeiten, Entfernungen und Verbindungen. Die Auswahl „Taxi“ bestellt keine Fahrt.",
+    "title": "Vom Bahnhof Kattowitz zu Hornigold | Hornigold"
   },
   "/de/kontakt/": {
-    "description": "Sprechen wir über Ihren Aufenthalt. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Haben Sie Fragen zum Zimmer, zur Anreise oder zu den Aufenthaltsbedingungen? Kontaktieren Sie Hornigold direkt. Eine Anfrage ist keine Buchungsbestätigung."
   },
   "/de/bedingungen-die-zu-ihren-planen-passen/": {
-    "description": "Bedingungen, die zu Ihren Plänen passen. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Bedingungen, die zu Ihren Plänen passen. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/entspannt-reisen-beginnt-vor-der-ankunft/": {
-    "description": "Entspannt reisen beginnt vor der Ankunft. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Reisen Sie mit dem Auto an? Bestätigen Sie Verfügbarkeit, Kosten und Zufahrt vorab mit der Unterkunft. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/vergleichen/": {
-    "description": "Wählen Sie, was Ihnen wichtig ist. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Wählen Sie, was Ihnen wichtig ist. Entdecken Sie Hornigold an der Kopernika 6 in Katowice."
   },
   "/de/katowice/veranstaltung-wahlen-aufenthalt-planen/": {
-    "description": "Veranstaltung wählen. Aufenthalt planen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Veranstaltung wählen. Aufenthalt planen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/katowice/ihr-besuch-im-mck-spodek-oder-nospr/": {
-    "description": "Ihr Besuch im MCK, Spodek oder NOSPR. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Ihr Besuch im MCK, Spodek oder NOSPR. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/katowice/architektur-und-ein-spaziergang-durch-die-innenstadt/": {
-    "description": "Architektur und ein Spaziergang durch die Innenstadt. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Architektur und ein Spaziergang durch die Innenstadt. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/katowice/katowice-mit-kindern-ein-entspannter-plan/": {
-    "description": "Katowice mit Kindern: ein entspannter Plan. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Katowice mit Kindern: ein entspannter Plan. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/zimmer/deluxe/": {
-    "description": "Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Deluxe Zimmer 30 m² · im Zentrum von Kattowitz · ab 410 PLN | Hornigold"
   },
   "/de/zimmer/prestige/": {
-    "description": "Apartment Prestige — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Apartment Prestige — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Prestige Apartment 60–70 m² · im Zentrum von Kattowitz · ab 695 PLN | Hornigold"
   },
   "/de/zimmer/classic/": {
-    "description": "Classic — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Classic — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Classic Zimmer 20–22 m² · im Zentrum von Kattowitz · ab 380 PLN | Hornigold"
   },
   "/de/zimmer/deluxe-premium/": {
-    "description": "Deluxe Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Deluxe Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Deluxe Premium Zimmer 26–47 m² · im Zentrum von Kattowitz · ab 485 PLN | Hornigold"
   },
   "/de/zimmer/prestige-deluxe/": {
-    "description": "Apartment Prestige Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Apartment Prestige Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Lesen Sie die Hinweise vor der Anreise.",
+    "title": "Prestige Deluxe Apartment 49 m² · im Zentrum von Kattowitz · ab 795 PLN | Hornigold"
   },
   "/de/zimmer/hornigold/": {
-    "description": "Apartment Hornigold — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Apartment Hornigold — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Hornigold Apartment 105 m² · im Zentrum von Kattowitz · ab 1100 PLN | Hornigold"
   },
   "/de/zimmer/suite/": {
-    "description": "Suite — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Suite — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Suite Apartment 40 m² · im Zentrum von Kattowitz · ab 590 PLN | Hornigold"
   },
   "/de/zimmer/apartament-deluxe/": {
-    "description": "Apartment Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Apartment Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Deluxe Apartment 43–61 m² · im Zentrum von Kattowitz · ab 600 PLN | Hornigold"
   },
   "/de/zimmer/premium/": {
-    "description": "Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Sehen Sie Fotos, planen Sie Ihren Aufenthalt und kontaktieren Sie uns."
+    "description": "Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "title": "Premium Zimmer 35 m² · im Zentrum von Kattowitz · ab 450 PLN | Hornigold"
   },
   "/de/stadt-und-umgebung/": {
-    "description": "Katowice. Schlesien. Geschichten, die eine Reise wert sind. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Katowice. Schlesien. Geschichten, die eine Reise wert sind. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/giszowiec/": {
-    "description": "Giszowiec: die Idee der Gartensiedlung. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Giszowiec: die Idee der Gartensiedlung. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/schlesisches-theater-ein-abend-am-rynek/": {
-    "description": "Schlesisches Theater — ein Abend am Rynek. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Schlesisches Theater — ein Abend am Rynek. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/nikiszowiec-geschichten-aus-backstein/": {
-    "description": "Nikiszowiec — Geschichten aus Backstein. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Nikiszowiec — Geschichten aus Backstein. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/kosciuszko-park-raum-zum-durchatmen/": {
-    "description": "Kościuszko-Park — Raum zum Durchatmen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Kościuszko-Park — Raum zum Durchatmen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/porzellanfabrik-industrie-und-handwerk/": {
-    "description": "Porzellanfabrik — Industrie und Handwerk. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Porzellanfabrik — Industrie und Handwerk. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/modernismusweg-eine-stadt-neuer-formen/": {
-    "description": "Modernismusweg — eine Stadt neuer Formen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Modernismusweg — eine Stadt neuer Formen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/illustrationen/park-am-teich/": {
     "description": "Park am Teich. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
@@ -514,67 +541,69 @@
     "description": "Ein Opernabend. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
   },
   "/de/stadt-und-umgebung/illustrationen/schlesisches-museum-neues-leben-einer-zeche/": {
-    "description": "Schlesisches Museum — neues Leben einer Zeche. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Schlesisches Museum — neues Leben einer Zeche. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/katowices-geschichte-eine-stadt-im-wandel/": {
-    "description": "Katowices Geschichte: eine Stadt im Wandel. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Katowices Geschichte: eine Stadt im Wandel. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/die-route-der-technischen-denkmaler-eine-arbeitswelt-erzahlt/": {
-    "description": "Die Route der Technischen Denkmäler: eine Arbeitswelt erzählt. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Die Route der Technischen Denkmäler: eine Arbeitswelt erzählt. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/schlesische-erinnerungsorte-unterschiedliche-geschichten/": {
-    "description": "Schlesische Erinnerungsorte: unterschiedliche Geschichten. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Schlesische Erinnerungsorte: unterschiedliche Geschichten. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/katowice-und-schlesien-in-illustrationen/": {
-    "description": "Katowice und Schlesien in Illustrationen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Katowice und Schlesien in Illustrationen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/pszczyna/": {
-    "description": "Pszczyna: Residenz und ruhiger Rhythmus. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Pszczyna: Residenz und ruhiger Rhythmus. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/tarnowskie-gory/": {
-    "description": "Tarnowskie Góry: Silber und die Kunst der Wasserwirtschaft. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Tarnowskie Góry: Silber und die Kunst der Wasserwirtschaft. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/zabrze-zeche-guido-und-konigin-luise-stollen/": {
-    "description": "Zabrze: Zeche Guido und Königin-Luise-Stollen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Zabrze: Zeche Guido und Königin-Luise-Stollen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/schlesien-eine-region-viele-stimmen/": {
-    "description": "Schlesien: eine Region, viele Stimmen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Schlesien: eine Region, viele Stimmen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/auschwitz-birkenau/": {
-    "description": "Auschwitz-Birkenau: Gedenken und Zeugnis. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Auschwitz-Birkenau: Gedenken und Zeugnis. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/die-kulturzone-ein-neues-kapitel-fur-einen-industriestandort/": {
-    "description": "Die Kulturzone: ein neues Kapitel für einen Industriestandort. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Die Kulturzone: ein neues Kapitel für einen Industriestandort. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/moderne-stadthauser-und-eine-holzkirche/": {
-    "description": "Moderne, Stadthäuser und eine Holzkirche. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Moderne, Stadthäuser und eine Holzkirche. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/gliwice-der-sender-und-die-geschichte-der-propaganda/": {
-    "description": "Gliwice: der Sender und die Geschichte der Propaganda. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Gliwice: der Sender und die Geschichte der Propaganda. Entdecken Sie Katowice und die Umgebung. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/de/stadt-und-umgebung/denkmaler-und-routen-weiterentdecken/": {
-    "description": "Denkmäler und Routen: weiterentdecken. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Denkmäler und Routen: weiterentdecken. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/nikiszowiec/": {
-    "description": "Nikiszowiec: Backstein, Höfe und Alltag. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Nikiszowiec: Backstein, Höfe und Alltag. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/cieszyn/": {
-    "description": "Cieszyn: Burgberg, Erinnerung und Grenzland. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Cieszyn: Burgberg, Erinnerung und Grenzland. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/judisches-erbe-menschen-orte-und-ihre-leerstellen/": {
-    "description": "Jüdisches Erbe: Menschen, Orte und ihre Leerstellen. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Jüdisches Erbe: Menschen, Orte und ihre Leerstellen. Entdecken Sie Katowice und die Umgebung."
   },
   "/de/stadt-und-umgebung/bedzin-und-der-jura-burgen-grenzen-und-landschaft/": {
-    "description": "Będzin und der Jura: Burgen, Grenzen und Landschaft. Entdecken Sie Katowice und die Umgebung. Informieren Sie sich zur Anreise und planen Sie Ihre Besichtigungen mit Hornigold."
+    "description": "Będzin und der Jura: Burgen, Grenzen und Landschaft. Entdecken Sie Katowice und die Umgebung."
   },
   "/es/": {
-    "description": "Habitaciones y apartamentos en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Habitaciones y apartamentos en Kopernika 6, en el centro de Katowice. Compara tamaños, mira las fotos de los interiores y consulta la disponibilidad.",
+    "title": "Habitaciones y apartamentos en la Casa Verde · en el centro de Katowice | Hornigold"
   },
   "/es/conviene-saberlo/": {
-    "description": "Conviene saberlo. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Descubra las habitaciones y cómo llegar."
+    "description": "El aire acondicionado figura en Deluxe Premium, Apartament Deluxe, Prestige Deluxe y Hornigold. Consulte las comodidades de la categoría elegida."
   },
   "/es/bienestar-y-spa/": {
-    "description": "Bienestar y spa. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Descubra las habitaciones y cómo llegar."
+    "description": "Bienestar y spa. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo.",
+    "title": "Sauna y jacuzzi en el centro de Katowice | Hornigold"
   },
   "/es/pobyt/": {
     "description": "Una buena estancia empieza aquí. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
@@ -589,76 +618,82 @@
     "description": "Un concierto o evento. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
   },
   "/es/pobyt/rodzina/": {
-    "description": "En familia. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Descubra las habitaciones y cómo llegar."
+    "description": "En familia. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Organiza tu estancia en Katowice."
   },
   "/es/habitaciones/prestige/": {
-    "description": "Apartamento Prestige — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Apartamento Prestige — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "title": "Apartamento Prestige 60–70 m² en el centro de Katowice · desde 695 PLN | Hornigold"
   },
   "/es/habitaciones/deluxe-premium/": {
-    "description": "Deluxe Premium — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Deluxe Premium — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "title": "Habitación Deluxe Premium 26–47 m² en el centro de Katowice · desde 485 PLN | Hornigold"
   },
   "/es/habitaciones/prestige-deluxe/": {
-    "description": "Apartamento Prestige Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Apartamento Prestige Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "title": "Apartamento Prestige Deluxe 49 m² en el centro de Katowice · desde 795 PLN | Hornigold"
   },
   "/es/habitaciones/hornigold/": {
-    "description": "Apartamento Hornigold — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Apartamento Hornigold — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "title": "Apartamento Hornigold 105 m² en el centro de Katowice · desde 1100 PLN | Hornigold"
   },
   "/es/habitaciones/apartament-deluxe/": {
-    "description": "Apartamento Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Apartamento Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "title": "Apartamento Deluxe 43–61 m² en el centro de Katowice · desde 600 PLN | Hornigold"
   },
   "/es/desayuno/": {
-    "description": "Empieza bien el día. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Empiece el día en Hornigold con un desayuno antes de una reunión o un paseo por Katowice. Servimos el desayuno a diario de 7:00 a 10:00.",
+    "title": "Desayunos en la Casa Verde · 7:00–10:00 | Hornigold"
   },
   "/es/contacto/": {
     "description": "Hablemos de tu estancia. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
   },
   "/es/sobre-hornigold/": {
-    "description": "Sobre Hornigold. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Descubra las habitaciones y cómo llegar."
+    "description": "Kopernika 6, Katowice. Descubre los interiores del edificio y organiza tu tiempo en la ciudad."
   },
   "/es/catering-y-celebraciones/": {
     "description": "Catering y celebraciones. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
   },
   "/es/conferencias-y-reuniones/": {
-    "description": "Conferencias y reuniones. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Combine una reunión en el centro de Katowice con una estancia en la Casa Verde. Hornigold ofrece las salas Madlen, Camila y Ana, de 40, 60 y 100 m²."
   },
   "/es/una-visita-tranquila-empieza-antes-de-llegar/": {
-    "description": "Una visita tranquila empieza antes de llegar. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Empieza por elegir una categoría de habitación y las fechas. Después consulta cómo llegar, los documentos y las condiciones que quieras acordar con recepción."
   },
   "/es/ciudad-y-alrededores/": {
-    "description": "Katowice. Silesia. Historias que merecen un viaje. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Katowice. Silesia. Historias que merecen un viaje. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/la-zona-de-la-cultura-una-nueva-etapa-para-un-recinto-industrial/": {
-    "description": "La Zona de la Cultura: una nueva etapa para un recinto industrial. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "La Zona de la Cultura: una nueva etapa para un recinto industrial. Explora Katowice y sus alrededores. Consulta los detalles antes de tu llegada."
   },
   "/es/ciudad-y-alrededores/la-plaza-del-mercado-katowice-en-una-sola-imagen/": {
-    "description": "La plaza del mercado: Katowice en una sola imagen. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "La plaza del mercado: Katowice en una sola imagen. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/patrimonio-judio-personas-lugares-y-ausencias/": {
-    "description": "Patrimonio judío: personas, lugares y ausencias. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Patrimonio judío: personas, lugares y ausencias. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/la-historia-de-katowice-una-ciudad-en-movimiento/": {
-    "description": "La historia de Katowice: una ciudad en movimiento. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "La historia de Katowice: una ciudad en movimiento. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/lugares-de-memoria-de-silesia-historias-diferentes/": {
-    "description": "Lugares de memoria de Silesia: historias diferentes. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Lugares de memoria de Silesia: historias diferentes. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/pszczyna/": {
-    "description": "Pszczyna: una residencia y un ritmo más tranquilo. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Pszczyna: una residencia y un ritmo más tranquilo. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/donde-comer-en-katowice/": {
     "description": "Dónde comer en Katowice. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
   },
   "/es/ciudad-y-alrededores/bedzin-y-el-jura-castillos-fronteras-y-paisaje/": {
-    "description": "Będzin y el Jura: castillos, fronteras y paisaje. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Będzin y el Jura: castillos, fronteras y paisaje. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/tarnowskie-gory/": {
-    "description": "Tarnowskie Góry: la plata y la ingeniería del agua. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Tarnowskie Góry: la plata y la ingeniería del agua. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/zabrze-la-mina-guido-y-la-galeria-reina-luisa/": {
-    "description": "Zabrze: la mina Guido y la galería Reina Luisa. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Zabrze: la mina Guido y la galería Reina Luisa. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/modernismo-casas-urbanas-y-una-iglesia-de-madera/": {
-    "description": "Modernismo, casas urbanas y una iglesia de madera. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Modernismo, casas urbanas y una iglesia de madera. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/ilustraciones/manana-sobre-railes/": {
     "description": "Mañana sobre raíles. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
@@ -682,46 +717,47 @@
     "description": "Música junto al agua. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
   },
   "/es/ciudad-y-alrededores/ilustraciones/ruta-del-modernismo-una-ciudad-de-nuevas-formas/": {
-    "description": "Ruta del Modernismo: una ciudad de nuevas formas. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Ruta del Modernismo: una ciudad de nuevas formas. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/ilustraciones/un-patio-de-ladrillo/": {
     "description": "Un patio de ladrillo. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
   },
   "/es/ciudad-y-alrededores/ilustraciones/teatro-de-silesia-una-velada-junto-a-la-plaza/": {
-    "description": "Teatro de Silesia: una velada junto a la plaza. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Teatro de Silesia: una velada junto a la plaza. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/la-ruta-de-los-monumentos-industriales-una-region-forjada-por-el-trabajo/": {
-    "description": "La Ruta de los Monumentos Industriales: una región forjada por el trabajo. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "La Ruta de los Monumentos Industriales: una región forjada por el trabajo. Explora Katowice y sus alrededores. Consulta los detalles antes de tu llegada."
   },
   "/es/ciudad-y-alrededores/nikiszowiec/": {
-    "description": "Nikiszowiec: ladrillo, patios y vida cotidiana. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Nikiszowiec: ladrillo, patios y vida cotidiana. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/gliwice-la-emisora-de-radio-y-la-historia-de-la-propaganda/": {
-    "description": "Gliwice: la emisora de radio y la historia de la propaganda. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Gliwice: la emisora de radio y la historia de la propaganda. Explora Katowice y sus alrededores."
   },
   "/es/ciudad-y-alrededores/cieszyn/": {
-    "description": "Cieszyn: una colina, la memoria y la frontera. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
+    "description": "Cieszyn: una colina, la memoria y la frontera. Explora Katowice y sus alrededores."
   },
   "/es/katowice/elige-un-evento-planifica-tu-estancia/": {
     "description": "Elige un evento. Planifica tu estancia. Explora Katowice y sus alrededores. Consulta cómo llegar y organiza tus visitas durante una estancia en Hornigold."
   },
   "/es/una-estancia-a-tu-medida/": {
-    "description": "Una estancia a tu medida. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "¿Planeas una estancia larga, un viaje en pareja o por trabajo? Consulta las condiciones para tus fechas con el alojamiento. Organiza tu estancia en Katowice."
   },
   "/es/comparar/": {
     "description": "Elige lo que te importa. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
   },
   "/es/condiciones-adaptadas-a-tus-planes/": {
-    "description": "Condiciones adaptadas a tus planes. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Prepara y revisa el mensaje antes de enviarlo desde tu correo. El alojamiento indicará las condiciones; una consulta no reserva habitaciones."
   },
   "/es/ubicacion/": {
-    "description": "Katowice. Tu próxima historia. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
+    "description": "Haz clic para abrir la ruta elegida en Google Maps. Consulta allí los tiempos, las distancias y las conexiones actuales. Elegir taxi no reserva un viaje.",
+    "title": "A pie desde la estación de Katowice hasta Hornigold | Hornigold"
   },
   "/es/rezerwacja/": {
     "description": "Tu estancia de un vistazo. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
   },
   "/en/contact/": {
-    "description": "Let’s talk about your stay. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Let’s talk about your stay. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team."
   },
   "/en/pobyt/": {
     "description": "A good stay starts here. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
@@ -730,89 +766,91 @@
     "description": "A relaxed visit starts before arrival. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team."
   },
   "/en/terms-that-fit-your-plans/": {
-    "description": "Terms that fit your plans. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Terms that fit your plans. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Plan your stay in Katowice."
   },
   "/en/location/": {
-    "description": "Katowice. Your next story. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Katowice. Your next story. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Plan your stay in Katowice.",
+    "title": "Walk from Katowice railway station to Hornigold | Hornigold"
   },
   "/en/conferences-and-meetings/": {
-    "description": "Conferences and meetings. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Conferences and meetings. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Plan your stay in Katowice."
   },
   "/en/city-and-surroundings/": {
-    "description": "Katowice. Silesia. Stories worth the journey. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Katowice. Silesia. Stories worth the journey. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/illustrations/towers-and-quiet/": {
-    "description": "Towers and quiet. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold. Explore rooms and directions."
+    "description": "Towers and quiet. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
   },
   "/en/city-and-surroundings/illustrations/water-tower-a-trace-of-infrastructure/": {
-    "description": "Water tower — a trace of infrastructure. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Water tower — a trace of infrastructure. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/illustrations/silesian-theatre-an-evening-by-the-square/": {
-    "description": "Silesian Theatre — an evening by the square. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Silesian Theatre — an evening by the square. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/illustrations/a-brick-courtyard/": {
     "description": "A brick courtyard. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
   },
   "/en/city-and-surroundings/modernism-townhouses-and-a-wooden-church/": {
-    "description": "Modernism, townhouses and a wooden church. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Modernism, townhouses and a wooden church. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/pszczyna/": {
-    "description": "Pszczyna: a residence and a gentler pace. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Pszczyna: a residence and a gentler pace. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/gliwice-the-radio-station-and-the-history-of-propaganda/": {
-    "description": "Gliwice: the radio station and the history of propaganda. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Gliwice: the radio station and the history of propaganda. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/tarnowskie-gory/": {
-    "description": "Tarnowskie Góry: silver and the engineering of water. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Tarnowskie Góry: silver and the engineering of water. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/the-history-of-katowice-a-city-in-motion/": {
-    "description": "The history of Katowice: a city in motion. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "The history of Katowice: a city in motion. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/silesian-places-of-remembrance-distinct-histories/": {
-    "description": "Silesian places of remembrance: distinct histories. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Silesian places of remembrance: distinct histories. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/auschwitz-birkenau/": {
-    "description": "Auschwitz-Birkenau: remembrance and testimony. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Auschwitz-Birkenau: remembrance and testimony. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/jewish-heritage-people-places-and-absence/": {
-    "description": "Jewish heritage: people, places and absence. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Jewish heritage: people, places and absence. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/bedzin-and-the-jura-castles-borders-and-landscape/": {
-    "description": "Będzin and the Jura: castles, borders and landscape. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Będzin and the Jura: castles, borders and landscape. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/the-industrial-monuments-route-a-region-shaped-by-work/": {
-    "description": "The Industrial Monuments Route: a region shaped by work. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "The Industrial Monuments Route: a region shaped by work. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/zabrze-guido-mine-and-the-queen-louise-adit/": {
-    "description": "Zabrze: Guido Mine and the Queen Louise Adit. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Zabrze: Guido Mine and the Queen Louise Adit. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/nikiszowiec/": {
-    "description": "Nikiszowiec: brick, courtyards and everyday life. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Nikiszowiec: brick, courtyards and everyday life. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/the-market-square-katowice-in-one-frame/": {
-    "description": "The market square: Katowice in one frame. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "The market square: Katowice in one frame. Explore Katowice and the surrounding area."
   },
   "/en/city-and-surroundings/the-culture-zone-a-new-chapter-for-an-industrial-site/": {
-    "description": "The Culture Zone: a new chapter for an industrial site. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "The Culture Zone: a new chapter for an industrial site. Explore Katowice and the surrounding area. Find practical details for your stay in Katowice."
   },
   "/en/city-and-surroundings/cieszyn/": {
-    "description": "Cieszyn: a hill, memory and a borderland. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
+    "description": "Cieszyn: a hill, memory and a borderland. Explore Katowice and the surrounding area."
   },
   "/en/katowice/choose-an-event-plan-your-stay/": {
     "description": "Choose an event. Plan your stay. Explore Katowice and the surrounding area. Find travel information and plan your sightseeing during a stay at Hornigold."
   },
   "/en/compare/": {
-    "description": "Choose what matters to you. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Choose what matters to you. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team."
   },
   "/en/rooms/": {
-    "description": "Rooms and apartments · Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Explore rooms and directions."
+    "description": "Rooms and apartments · Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team."
   },
   "/en/rooms/suite/": {
-    "description": "Suite — stay in central Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team."
+    "description": "Suite — stay in central Katowice. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team.",
+    "title": "Suite Apartment 40 m² · in central Katowice · from PLN 590 | Hornigold"
   },
   "/pl/": {
-    "title": "Noclegi w centrum Katowic – pokoje i apartamenty | Hornigold",
-    "description": "Zaplanuj nocleg w centrum Katowic. Poznaj pokoje i apartamenty Hornigold, sprawdź dojazd i wybierz plan pobytu. Termin i warunki uzgodnij z recepcją."
+    "title": "Pokoje i apartamenty w Zielonej Kamienicy · w centrum Katowic | Hornigold",
+    "description": "Pokoje i apartamenty w Zielonej Kamienicy przy Kopernika 6 w Katowicach. Porównaj metraże, zobacz wnętrza i sprawdź dostępność na wybrany termin."
   },
   "/pl/pobyt/sluzbowo/": {
     "title": "Nocleg służbowy w Katowicach | Hornigold",
@@ -848,5 +886,684 @@
   },
   "/cs/soukromi-a-osobni-udaje/": {
     "description": "Soukromí v Hornigold: zpracování osobních údajů, vaše práva, kontakty a pravidla používání webu. Dokument je také ke stažení v PDF."
+  },
+  "/cs/": {
+    "title": "Pokoje a apartmány v Zeleném domě · v centru Katovic | Hornigold",
+    "description": "Pokoje a apartmány v centru Katovic na adrese Kopernika 6. Porovnejte jejich velikost, prohlédněte si fotografie interiérů a ověřte dostupnost na svůj termín."
+  },
+  "/cs/pred-prijezdem/": {
+    "description": "Začněte výběrem kategorie pokoje a termínu. Poté si ověřte příjezd, dokumenty a podmínky, které chcete domluvit s recepcí. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/pobyt-podle-vas/": {
+    "description": "Naplánujte si dopravu, návrat a případný pozdní příjezd. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/o-hornigoldu/": {
+    "description": "Kopernika 6, Katovice. Prohlédněte si interiéry historického domu a naplánujte si pobyt ve městě."
+  },
+  "/cs/snidane/": {
+    "title": "Snídaně v Zeleném domě · 7:00–10:00 | Hornigold",
+    "description": "Začněte den v Hornigoldu snídaní před schůzkou nebo procházkou Katovicemi. Snídaně se podává denně od 7:00 do 10:00. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/catering-a-akce/": {
+    "description": "Máte zvláštní požadavky? Napište nám, pomůžeme vám vybrat pokoj. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/konference-a-setkani/": {
+    "description": "Spojte setkání v centru Katovic s pobytem v Hornigold w Zielonej Kamienicy. Hornigold nabízí prostory Madlen, Camila a Ana o rozloze 40, 60 a 100 m²."
+  },
+  "/cs/kontakt/": {
+    "description": "Máte otázku ohledně pokoje, příjezdu nebo podmínek pobytu? Kontaktujte Hornigold přímo. Poptávka není potvrzením rezervace. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/caste-dotazy/": {
+    "description": "Co je dobré vědět. Vyjděte směrem na plac Oddziałów Młodzieży Powstańczej."
+  },
+  "/cs/poloha/": {
+    "title": "Pěšky z nádraží v Katovicích do Hornigoldu | Hornigold",
+    "description": "Kliknutím otevřete vybranou trasu v Mapách Google. Ověřte tam aktuální doby cest, vzdálenosti a spoje veřejné dopravy. Volba taxi neobjednává jízdu."
+  },
+  "/cs/zkusenosti-hostu/": {
+    "description": "Hodnocení pochází z Googlu. Neověřujeme nezávisle, zda u nás každý recenzent pobýval. Aktuální recenze a pravidla jejich zveřejňování najdete na Googlu."
+  },
+  "/cs/jak-se-k-nam-dostat/": {
+    "description": "Hornigold má soukromé parkování pro pobyt v centru Katovic. Nachází se na adrese Kopernika 6."
+  },
+  "/cs/pobyt/": {
+    "description": "Vyberte termín a počet hostů. Váš výběr zachováme, zatímco si budete prohlížet pokoje."
+  },
+  "/cs/pobyt/delsi-pobyt/": {
+    "description": "Zeptejte se na celkovou cenu, úklid a možnosti změny termínu. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pobyt/rodzina/": {
+    "description": "Prohlédněte si kategorie a podrobnosti, které je třeba ověřit. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pobyt/sluzebne/": {
+    "description": "Služební cesta. Do poptávky uveďte termín, počet dospělých a dětí, uspořádání lůžek a počet pokojů. Pokud jsou pro vás důležité schody, uspořádání koupelny."
+  },
+  "/cs/pobyt/weekend/": {
+    "description": "Cihlový oblouk přitahuje pohled do klidného dvora. Inspirací je Nikiszowiec, hornické sídliště budované od roku 1908. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pobyt/akce/": {
+    "description": "Koncert nebo jiná akce. Do poptávky uveďte termín, počet dospělých a dětí, uspořádání lůžek a počet pokojů. Pokud jsou pro vás důležité schody, uspořádání."
+  },
+  "/cs/rezerwacja/": {
+    "description": "Ověřte dostupnost, celkovou cenu a podmínky vybrané nabídky v externím systému KWHotel / GuestSage."
+  },
+  "/cs/pokoje/": {
+    "description": "Prohlédněte si pokoje a apartmány v Hornigold w Zielonej Kamienicy. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pokoje/apartman-deluxe/": {
+    "title": "Apartmán Deluxe 43–61 m² v centru Katovic · od 600 PLN | Hornigold",
+    "description": "Apartmán Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 43–61 m². Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pokoje/classic/": {
+    "title": "Pokoj Classic 20–22 m² v centru Katovic · od 380 PLN | Hornigold",
+    "description": "Classic je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 20–22 m². Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pokoje/deluxe-premium/": {
+    "title": "Pokoj Deluxe Premium 26–47 m² v centru Katovic · od 485 PLN | Hornigold",
+    "description": "Deluxe Premium je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 26–47 m². Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/pokoje/deluxe/": {
+    "title": "Pokoj Deluxe 30 m² v centru Katovic · od 410 PLN | Hornigold",
+    "description": "Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 30 m². Uspořádání lůžek: jedna manželská postel."
+  },
+  "/cs/pokoje/hornigold/": {
+    "title": "Apartmán Hornigold 105 m² v centru Katovic · od 1100 PLN | Hornigold",
+    "description": "Apartmán Hornigold je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 105 m². Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/pokoje/premium/": {
+    "title": "Pokoj Premium 35 m² v centru Katovic · od 450 PLN | Hornigold",
+    "description": "Premium je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 35 m². Uspořádání lůžek: jedna manželská postel."
+  },
+  "/cs/pokoje/prestige-deluxe/": {
+    "title": "Apartmán Prestige Deluxe 49 m² v centru Katovic · od 795 PLN | Hornigold",
+    "description": "Apartmán Prestige Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 49 m². Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/pokoje/prestige/": {
+    "title": "Apartmán Prestige 60–70 m² v centru Katovic · od 695 PLN | Hornigold",
+    "description": "Apartmán Prestige je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 60–70 m². Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/pokoje/apartma/": {
+    "title": "Apartmán Suite 40 m² v centru Katovic · od 590 PLN | Hornigold",
+    "description": "Suite je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 40 m². Uspořádání lůžek: jedna manželská postel."
+  },
+  "/cs/pro-firmy/": {
+    "description": "Připravte zprávu a před odesláním ze své e-mailové aplikace ji zkontrolujte. Podmínky vám sdělí ubytovací zařízení; poptávka není rezervací pokojů."
+  },
+  "/cs/wellness-a-spa/": {
+    "title": "Sauna a vířivka v centru Katovic | Hornigold",
+    "description": "Po dni v Katovicích si dopřejte čas na odpočinek v Hornigoldu. Naše wellness služby zahrnují saunu, vířivku a masáže. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/de/catering-und-veranstaltungen/": {
+    "description": "Catering und Veranstaltungen. Besondere Wünsche? Schreiben Sie uns — wir helfen bei der Zimmerwahl. Hier finden Sie Details für Ihren Aufenthalt."
+  },
+  "/de/entspannt-anreisen/": {
+    "description": "Für Ihren Aufenthalt im Zentrum von Katowice verfügt das Hornigold über einen privaten Parkplatz. Sie finden Hornigold in der Kopernika 6."
+  },
+  "/de/erfahrungen-unserer-gaste/": {
+    "description": "Die Bewertung stammt von Google. Wir prüfen nicht selbst, ob alle Bewertenden bei uns übernachtet haben. Hier finden Sie Details für Ihren Aufenthalt."
+  },
+  "/de/fruehstueck/": {
+    "title": "Frühstück im Grünen Stadthaus · 7:00–10:00 | Hornigold",
+    "description": "Beginnen Sie Ihren Tag im Hornigold mit einem Frühstück, bevor Sie zu einem Termin oder einem Spaziergang durch Katowice aufbrechen."
+  },
+  "/de/gut-zu-wissen/": {
+    "description": "Klimaanlage ist für Deluxe Premium, Apartament Deluxe, Prestige Deluxe und Hornigold angegeben. Prüfen Sie die Ausstattung der gewählten Kategorie."
+  },
+  "/de/konferenzen-und-tagungen/": {
+    "description": "Konferenzen und Tagungen. Verbinden Sie Ihr Treffen im Zentrum von Katowice mit einem Aufenthalt in der Grünen Stadtvilla. Hornigold bietet die Tagungsräume."
+  },
+  "/de/pobyt/dluzszy-pobyt/": {
+    "description": "Ein längerer Aufenthalt. Fragen Sie nach dem Gesamtpreis, der Reinigung und den Bedingungen für Terminänderungen. Hier finden Sie Details für Ihren Aufenthalt."
+  },
+  "/de/pobyt/rodzina/": {
+    "description": "Mit der Familie. Bestätigen Sie die Gästezahl, das Alter der Kinder und die Bettenaufteilung."
+  },
+  "/de/pobyt/sluzbowo/": {
+    "description": "Geschäftsreise. Nennen Sie Termin, Anzahl der Erwachsenen und Kinder, Bettenaufteilung und Zimmerzahl. Wenn Treppen, Badgestaltung, Arbeitsplatz oder Parken."
+  },
+  "/de/pobyt/weekend/": {
+    "description": "Ein Wochenende in Katowice. Nennen Sie Termin, Anzahl der Erwachsenen und Kinder, Bettenaufteilung und Zimmerzahl. Wenn Treppen, Badgestaltung, Arbeitsplatz."
+  },
+  "/de/pobyt/wydarzenie/": {
+    "description": "Konzert oder Veranstaltung. Nennen Sie Termin, Anzahl der Erwachsenen und Kinder, Bettenaufteilung und Zimmerzahl. Wenn Treppen, Badgestaltung, Arbeitsplatz."
+  },
+  "/de/rezerwacja/": {
+    "description": "Ihr Aufenthalt im Überblick. Prüfen Sie Verfügbarkeit, Gesamtpreis und Angebotsbedingungen im externen System KWHotel / GuestSage. Lesen Sie vor der."
+  },
+  "/de/uber-hornigold/": {
+    "description": "Kopernika 6, Katowice. Entdecken Sie die Innenräume und planen Sie Ihre Zeit in der Stadt."
+  },
+  "/de/wellness-und-spa/": {
+    "title": "Sauna und Whirlpool im Zentrum von Kattowitz | Hornigold"
+  },
+  "/de/zimmer/": {
+    "description": "Entdecken Sie die Zimmer und Apartments im Grünen Stadthaus. Hier finden Sie Details für Ihren Aufenthalt."
+  },
+  "/en/": {
+    "title": "Rooms and apartments in the Green Townhouse · in central Katowice | Hornigold",
+    "description": "Explore rooms and apartments at Hornigold, 6 Kopernika Street in central Katowice. Compare room sizes, browse photographs and check your travel dates."
+  },
+  "/en/breakfast/": {
+    "title": "Breakfast in the Green Townhouse · 7:00–10:00 | Hornigold"
+  },
+  "/en/rooms/apartament-deluxe/": {
+    "title": "Deluxe Apartment 43–61 m² · in central Katowice · from PLN 600 | Hornigold"
+  },
+  "/en/rooms/classic/": {
+    "title": "Classic Room 20–22 m² · in central Katowice · from PLN 380 | Hornigold"
+  },
+  "/en/rooms/deluxe-premium/": {
+    "title": "Deluxe Premium Room 26–47 m² · in central Katowice · from PLN 485 | Hornigold"
+  },
+  "/en/rooms/deluxe/": {
+    "title": "Deluxe Room 30 m² · in central Katowice · from PLN 410 | Hornigold"
+  },
+  "/en/rooms/hornigold/": {
+    "title": "Hornigold Apartment 105 m² · in central Katowice · from PLN 1100 | Hornigold"
+  },
+  "/en/rooms/premium/": {
+    "title": "Premium Room 35 m² · in central Katowice · from PLN 450 | Hornigold"
+  },
+  "/en/rooms/prestige-deluxe/": {
+    "title": "Prestige Deluxe Apartment 49 m² · in central Katowice · from PLN 795 | Hornigold"
+  },
+  "/en/rooms/prestige/": {
+    "title": "Prestige Apartment 60–70 m² · in central Katowice · from PLN 695 | Hornigold"
+  },
+  "/en/wellness-and-spa/": {
+    "title": "Sauna and hot tub in central Katowice | Hornigold"
+  },
+  "/es/experiencias-de-nuestros-huespedes/": {
+    "description": "La puntuación procede de Google. No verificamos de forma independiente que cada autor se haya alojado con nosotros. Consulta los detalles antes de tu llegada."
+  },
+  "/es/habitaciones/": {
+    "description": "Descubre las habitaciones y apartamentos de la Casa Verde. Consulta los detalles antes de tu llegada."
+  },
+  "/es/habitaciones/classic/": {
+    "title": "Habitación Classic 20–22 m² en el centro de Katowice · desde 380 PLN | Hornigold",
+    "description": "Habitación Classic 20–22 m² en el centro de Katowice. Classic es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice. Su superficie es de."
+  },
+  "/es/habitaciones/deluxe/": {
+    "title": "Habitación Deluxe 30 m² en el centro de Katowice · desde 410 PLN | Hornigold",
+    "description": "Habitación Deluxe 30 m² en el centro de Katowice. Deluxe es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice."
+  },
+  "/es/habitaciones/premium/": {
+    "title": "Habitación Premium 35 m² en el centro de Katowice · desde 450 PLN | Hornigold",
+    "description": "Habitación Premium 35 m² en el centro de Katowice. Premium es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice. Su superficie es de 35."
+  },
+  "/es/habitaciones/suite/": {
+    "title": "Apartamento Suite 40 m² en el centro de Katowice · desde 590 PLN | Hornigold",
+    "description": "Apartamento Suite 40 m² en el centro de Katowice. Suite es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice."
+  },
+  "/es/planifica-una-llegada-tranquila/": {
+    "description": "Hornigold dispone de aparcamiento privado en el centro de Katowice. Hornigold está en Kopernika 6. Consulta los detalles antes de tu llegada."
+  },
+  "/es/pobyt/weekend/": {
+    "description": "Un fin de semana en Katowice. Incluye las fechas, el número de adultos y niños, las camas y la cantidad de habitaciones. Si te importan las escaleras, el."
+  },
+  "/it/": {
+    "title": "Camere e appartamenti nella Casa Verde · nel centro di Katowice | Hornigold",
+    "description": "Camere e appartamenti in via Kopernika 6, nel centro di Katowice. Confronta le metrature, guarda le fotografie e verifica le date del tuo soggiorno."
+  },
+  "/it/benessere-e-spa/": {
+    "title": "Sauna e jacuzzi nel centro di Katowice | Hornigold"
+  },
+  "/it/camere/apartament-deluxe/": {
+    "title": "Appartamento Deluxe 43–61 m² nel centro di Katowice · da 600 PLN | Hornigold",
+    "description": "Appartamento Deluxe 43–61 m² nel centro di Katowice. Appartamento Deluxe è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/camere/classic/": {
+    "title": "Camera Classic 20–22 m² nel centro di Katowice · da 380 PLN | Hornigold",
+    "description": "Camera Classic 20–22 m² nel centro di Katowice. Classic è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/camere/deluxe-premium/": {
+    "title": "Camera Deluxe Premium 26–47 m² nel centro di Katowice · da 485 PLN | Hornigold",
+    "description": "Camera Deluxe Premium 26–47 m² nel centro di Katowice. Deluxe Premium è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/camere/deluxe/": {
+    "title": "Camera Deluxe 30 m² nel centro di Katowice · da 410 PLN | Hornigold",
+    "description": "Camera Deluxe 30 m² nel centro di Katowice. Deluxe è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/camere/hornigold/": {
+    "title": "Appartamento Hornigold 105 m² nel centro di Katowice · da 1100 PLN | Hornigold",
+    "description": "Appartamento Hornigold 105 m² nel centro di Katowice. Consulta i dettagli prima di partire."
+  },
+  "/it/camere/premium/": {
+    "title": "Camera Premium 35 m² nel centro di Katowice · da 450 PLN | Hornigold",
+    "description": "Camera Premium 35 m² nel centro di Katowice. Premium è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/camere/prestige/": {
+    "title": "Appartamento Prestige 60–70 m² nel centro di Katowice · da 695 PLN | Hornigold",
+    "description": "Appartamento Prestige 60–70 m² nel centro di Katowice. Consulta i dettagli prima di partire."
+  },
+  "/it/camere/suite/": {
+    "title": "Appartamento Suite 40 m² nel centro di Katowice · da 590 PLN | Hornigold",
+    "description": "Appartamento Suite 40 m² nel centro di Katowice. Suite è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+  },
+  "/it/da-sapere/": {
+    "description": "L’aria condizionata è indicata per Deluxe Premium, Apartament Deluxe, Prestige Deluxe e Hornigold. Consultate le dotazioni della categoria scelta."
+  },
+  "/it/pobyt/rodzina/": {
+    "description": "In famiglia. Conferma il numero di ospiti, l'età dei bambini e la disposizione dei letti."
+  },
+  "/it/pobyt/sluzbowo/": {
+    "description": "Viaggi di lavoro. Conferma dotazioni per il lavoro, fatturazione e modalità di arrivo."
+  },
+  "/pl/o-nas/": {
+    "description": "Kopernika 6, Katowice. Poznaj wnętrza kamienicy i zaplanuj swój czas w mieście."
+  },
+  "/pl/oferty/": {
+    "description": "Ustal liczbę osób, wiek dzieci i potrzebny układ łóżek. Zobacz szczegóły pobytu w Katowicach."
+  },
+  "/pl/opinie/": {
+    "description": "Ocena pochodzi z Google. Nie weryfikujemy samodzielnie, czy każdą opinię dodała osoba, która skorzystała z pobytu. Zobacz szczegóły pobytu w Katowicach."
+  },
+  "/pl/pobyt/dluzszy-pobyt/": {
+    "description": "Dłuższy pobyt. W zapytaniu podaj termin, liczbę dorosłych i dzieci, potrzebny układ łóżek oraz liczbę pokojów. Zobacz szczegóły pobytu w Katowicach."
+  },
+  "/pl/pobyt/rodzina/": {
+    "description": "Z rodziną. W zapytaniu podaj termin, liczbę dorosłych i dzieci, potrzebny układ łóżek oraz liczbę pokojów. Jeśli istotne są schody, łazienka, miejsce do pracy."
+  },
+  "/pl/pokoje/apartament-deluxe/": {
+    "title": "Apartament Deluxe 43–61 m² w centrum Katowic · od 600 zł | Hornigold",
+    "description": "Apartament Deluxe to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 43–61 m². Układ łóżek: Jedno łóżko queen."
+  },
+  "/pl/pokoje/deluxe-premium/": {
+    "title": "Pokój Deluxe Premium 26–47 m² w centrum Katowic · od 485 zł | Hornigold",
+    "description": "Deluxe Premium to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 26–47 m². Sprawdź szczegóły przed przyjazdem."
+  },
+  "/pl/pokoje/hornigold/": {
+    "title": "Apartament Hornigold 105 m² w centrum Katowic · od 1100 zł | Hornigold",
+    "description": "Apartament Hornigold to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 105 m². Zaplanuj pobyt w Katowicach."
+  },
+  "/pl/pokoje/prestige-deluxe/": {
+    "title": "Apartament Prestige Deluxe 49 m² w centrum Katowic · od 795 zł | Hornigold",
+    "description": "Apartament Prestige Deluxe to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 49 m²."
+  },
+  "/pl/pokoje/prestige/": {
+    "title": "Apartament Prestige 60–70 m² w centrum Katowic · od 695 zł | Hornigold",
+    "description": "Apartament Prestige to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 60–70 m². Zaplanuj pobyt w Katowicach."
+  },
+  "/pl/rezerwacja/": {
+    "description": "W zewnętrznym systemie KWHotel / GuestSage sprawdź dostępność, cenę końcową i warunki wybranej oferty. Zobacz szczegóły pobytu w Katowicach."
+  },
+  "/pl/sniadania/": {
+    "title": "Śniadania w Zielonej Kamienicy · 7:00–10:00 | Hornigold",
+    "description": "Zacznij dzień w Hornigold przy śniadaniu, zanim ruszysz na spotkanie lub spacer po Katowicach. Śniadania podajemy codziennie w godzinach 7:00–10:00."
+  },
+  "/pl/wellness-spa/": {
+    "title": "Sauna i jacuzzi w centrum Katowic | Hornigold",
+    "description": "Po dniu w Katowicach zaplanuj chwilę odpoczynku w Hornigold. W ofercie wellness znajdują się sauna, jacuzzi i masaże. Zobacz szczegóły pobytu w Katowicach."
+  },
+  "/uk/": {
+    "title": "Номери й апартаменти в Зеленій кам’яниці · в центрі Катовіце | Hornigold",
+    "description": "Номери й апартаменти в центрі Катовіце за адресою Коперника, 6. Перегляньте фотографії, порівняйте площу та перевірте доступність на обрані дати."
+  },
+  "/uk/%D0%B2%D0%B5%D0%BB%D0%BD%D0%B5%D1%81-%D1%96-%D1%81%D0%BF%D0%B0/": {
+    "title": "Сауна та джакузі в центрі Катовіце | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/apartament-deluxe/": {
+    "title": "Апартаменти Deluxe 43–61 m² в центрі Катовіце · від 600 PLN | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/classic/": {
+    "title": "Номер Classic 20–22 m² в центрі Катовіце · від 380 PLN | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/deluxe-premium/": {
+    "title": "Номер Deluxe Premium 26–47 m² в центрі Катовіце · від 485 PLN | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/deluxe/": {
+    "title": "Номер Deluxe 30 m² в центрі Катовіце · від 410 PLN | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/premium/": {
+    "title": "Номер Premium 35 m² в центрі Катовіце · від 450 PLN | Hornigold"
+  },
+  "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/suite/": {
+    "title": "Апартаменти Suite 40 m² в центрі Катовіце · від 590 PLN | Hornigold"
+  },
+  "/zh-hans/": {
+    "title": "绿藤公寓的客房与套房 · 卡托维兹市中心 | Hornigold",
+    "description": "Hornigold 位于卡托维兹市中心的 Kopernika 街 6 号，提供客房和公寓。您可以查看室内照片，比较各房型的面积、床铺安排和设施，再根据同行人数选择合适的住宿。出发前可查阅从火车站和机场前往公寓的路线，以及入口照片。选定日期后，请通过预订系统查看空房、总价和适用条件。"
+  },
+  "/zh-hans/%E4%BB%8E%E5%87%BA%E5%8F%91%E5%89%8D%E5%BC%80%E5%A7%8B%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%97%85%E7%A8%8B/": {
+    "description": "请先选择房型和入住日期，再查看交通路线、相关文件以及需要与前台确认的条件。周边指南可帮助您规划行程，但不代表预订已确认，也不保证相关服务有空位。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E4%BC%9A%E8%AE%AE%E4%B8%8E%E5%95%86%E5%8A%A1%E6%B4%BB%E5%8A%A8/": {
+    "description": "在卡托维兹市中心举办会议，同时入住绿荫公馆。Hornigold 提供 Madlen、Camila 和 Ana 会议空间，面积分别为40、60和100平方米。询问时请告知日期、人数、座位布局以及住宿和餐饮需求，以便我们协助安排。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
+  },
+  "/zh-hans/%E4%BD%8D%E7%BD%AE/": {
+    "title": "从卡托维兹火车站步行至 Hornigold | Hornigold",
+    "description": "Hornigold 位于卡托维兹 Kopernika 街6号的绿色老宅。留些时间探索城市，再选择一间让您在一天结束后安心返回的客房。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%8A%B5%E8%BE%BE/": {
+    "description": "Hornigold 提供私人停车场，地址位于卡托维兹市中心 Kopernika 街6号。有关车位和抵达安排，请联系前台。位置页面提供前往Hornigold的路线。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%AE%9E%E7%94%A8%E9%A1%BB%E7%9F%A5/": {
+    "description": "Hornigold w Zielonej Kamienicy, Kopernika 6, 40-064 Katowice。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/apartament-deluxe/": {
+    "title": "Deluxe 公寓 43–61 m² · 卡托维兹市中心 · 600 波兰兹罗提起 | Hornigold",
+    "description": "Deluxe 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为43–61 m²。床型安排：一张Queen床。设施包括：无线网络; 小厨房; 手动调节空调。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/classic/": {
+    "title": "Classic 客房 20–22 m² · 卡托维兹市中心 · 380 波兰兹罗提起 | Hornigold",
+    "description": "Classic 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为20–22 m²。床型安排：一张双人床或两张单人床。设施包括：无线网络; 书桌; 浴室配浴缸或淋浴，依客房而异。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/deluxe-premium/": {
+    "title": "Deluxe Premium 客房 26–47 m² · 卡托维兹市中心 · 485 波兰兹罗提起 | Hornigold",
+    "description": "Deluxe Premium 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为26–47 m²。床型安排：一张双人床或两张单人床。设施包括：无线网络; 小厨房; 手动调节空调。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/deluxe/": {
+    "title": "Deluxe 客房 30 m² · 卡托维兹市中心 · 410 波兰兹罗提起 | Hornigold",
+    "description": "Deluxe 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为30 m²。床型安排：一张双人床。设施包括：无线网络; 书桌; 小厨房。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/hornigold/": {
+    "title": "Hornigold 公寓 105 m² · 卡托维兹市中心 · 1100 波兰兹罗提起 | Hornigold",
+    "description": "Hornigold 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为105 m²。床型安排：两间卧室，各有一张Queen床。设施包括：无线网络; 两间小厨房; 两间浴室; 手动调节空调。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/premium/": {
+    "title": "Premium 客房 35 m² · 卡托维兹市中心 · 450 波兰兹罗提起 | Hornigold",
+    "description": "Premium 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为35 m²。床型安排：一张双人床。设施包括：无线网络; 小厨房; 按摩浴缸与淋浴。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/prestige-deluxe/": {
+    "title": "Prestige Deluxe 公寓 49 m² · 卡托维兹市中心 · 795 波兰兹罗提起 | Hornigold",
+    "description": "Prestige Deluxe 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为49 m²。床型安排：两间卧室，各有一张Queen床。设施包括：无线网络; 小厨房; 独立客厅; 手动调节空调; 淋浴。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/prestige/": {
+    "title": "Prestige 公寓 60–70 m² · 卡托维兹市中心 · 695 波兰兹罗提起 | Hornigold",
+    "description": "Prestige 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为60–70 m²。床型安排：两间卧室；一张双人床加两张单人床，或两张双人床；沙发。设施包括：无线网络; 小厨房; 独立客厅; 两间浴室。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/suite/": {
+    "title": "Suite 公寓 40 m² · 卡托维兹市中心 · 590 波兰兹罗提起 | Hornigold",
+    "description": "Suite 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为40 m²。床型安排：一张双人床。设施包括：无线网络; 小厨房; 独立客厅; 浴室配浴缸或淋浴，依客房而异。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+  },
+  "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/": {
+    "title": "卡托维兹市中心的桑拿与按摩浴缸 | Hornigold",
+    "description": "在卡托维兹度过一天后，不妨在 Hornigold 安排一段放松时光。康体服务包括桑拿、按摩浴缸和按摩，适合会议结束后或城市周末期间休息。请联系前台安排时间并选择服务。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E6%97%A9%E9%A4%90/": {
+    "title": "绿藤公寓的早餐 · 7:00–10:00 | Hornigold",
+    "description": "绿藤公寓的早餐. 在 Hornigold 享用早餐，再去开会或漫步卡托维兹。早餐每天供应时间为7:00至10:00。如果您计划一早离店，请联系前台安排早餐和住宿事宜。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E8%81%94%E7%B3%BB/": {
+    "description": "聊聊您的住宿计划. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E9%80%82%E5%90%88%E6%82%A8%E7%9A%84%E4%BD%8F%E5%AE%BF/": {
+    "description": "请索取所选日期及人数的总价、房型和床型、付款与取消条款，以及早餐、停车和额外服务的单独费用。请比较同一日期的完整报价。询价不会保留客房。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E9%80%82%E5%90%88%E6%82%A8%E8%A1%8C%E7%A8%8B%E7%9A%84%E4%BD%8F%E5%AE%BF%E6%9D%A1%E4%BB%B6/": {
+    "description": "适合您行程的住宿条件。. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/dluzszy-pobyt/": {
+    "description": "长期住宿. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/rodzina/": {
+    "description": "家庭出行. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/sluzbowo/": {
+    "description": "商务出行. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/weekend/": {
+    "description": "卡托维兹周末之旅. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/wydarzenie/": {
+    "description": "音乐会或活动. 询价时请提供日期、成人及儿童人数、床型和房间数量。如对楼梯、浴室布局、工作空间或停车有要求，请在选择房型前说明，并等待住宿方确认条款。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/rezerwacja/": {
+    "description": "请在外部 KWHotel / GuestSage 系统中核实可订情况、总价及所选方案的条款。确认预订前，请阅读取消和付款条件。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/cs/letiste/": {
+    "description": "Letiště a transfery. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/": {
+    "description": "Katovice. Slezsko. Příběhy, za kterými stojí za to vyrazit. Poznejte Katovice a okolí."
+  },
+  "/cs/mesto-a-okoli/ilustrace/dvur-pro-umeni/": {
+    "description": "Dvůr pro umění. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/mesto-a-okoli/ilustrace/cesta-zacina-v-hale/": {
+    "description": "Cesta začíná v hale. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/modernisticka-ulice/": {
+    "description": "Modernistická ulice. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/park-u-rybnika/": {
+    "description": "Park u rybníka. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/mesto-a-okoli/ilustrace/vecer-v-opere/": {
+    "description": "Večer v opeře. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/mesto-a-okoli/ilustrace/kultura-po-setmeni/": {
+    "description": "Kultura po setmění. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/rano-na-kolejich/": {
+    "description": "Ráno na kolejích. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/hudba-u-vody/": {
+    "description": "Hudba u vody. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/mesto-a-okoli/ilustrace/nospr-mesto-hudby/": {
+    "description": "NOSPR — město hudby. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/schody-k-divadlu/": {
+    "description": "Schody k divadlu. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/mesto-a-okoli/ilustrace/zeleny-koridor-mesta/": {
+    "description": "Zelený koridor města. Poznejte Katovice a okolí. Najděte informace o dopravě a naplánujte si výlety během pobytu v Hornigoldu. Naplánujte si pobyt v Katovicích."
+  },
+  "/cs/dokumenty-k-pobytu/": {
+    "description": "Tento web popisuje pobyt a připravuje poptávky pro recepci; nepřijímá platby ani sám nepotvrzuje rezervace. Přečtěte si podrobnosti před příjezdem."
+  },
+  "/cs/porovnani/": {
+    "description": "Vyberte si, na čem vám záleží. Objevte Hornigold na adrese Kopernika 6 v Katovicích. Prohlédněte si fotografie, naplánujte si pobyt a kontaktujte náš tým."
+  },
+  "/zh-hans/%E5%85%B3%E4%BA%8E-hornigold/": {
+    "description": "关于 Hornigold. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/": {
+    "description": "卡托维兹，西里西亚。值得走近的故事。. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E4%B8%AD%E5%A4%AE%E5%B9%BF%E5%9C%BA%E4%B8%80%E7%9C%BC%E8%AF%BB%E6%87%82%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9/": {
+    "description": "中央广场：一眼读懂卡托维兹. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9%E5%8E%86%E5%8F%B2%E4%B8%8D%E6%96%AD%E7%94%9F%E9%95%BF%E7%9A%84%E5%9F%8E%E5%B8%82/": {
+    "description": "卡托维兹历史：不断生长的城市. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9%E7%BE%8E%E9%A3%9F%E6%8C%87%E5%8D%97/": {
+    "description": "卡托维兹美食指南. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E5%8F%A4%E8%BF%B9%E4%B8%8E%E8%B7%AF%E7%BA%BF%E7%BB%A7%E7%BB%AD%E6%8E%A2%E7%B4%A2/": {
+    "description": "古迹与路线：继续探索. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E5%B7%A5%E4%B8%9A%E9%81%97%E4%BA%A7%E4%B9%8B%E8%B7%AF%E5%8A%B3%E5%8A%A8%E5%A1%91%E9%80%A0%E7%9A%84%E5%9C%B0%E5%8C%BA/": {
+    "description": "工业遗产之路：劳动塑造的地区. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%89%8E%E5%B8%83%E7%83%ADguido%E7%9F%BF%E5%B1%B1%E4%B8%8E%E8%B7%AF%E6%98%93%E4%B8%9D%E7%8E%8B%E5%90%8E%E5%B9%B3%E7%A1%90/": {
+    "description": "扎布热：Guido矿山与路易丝王后平硐. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB%E4%B8%AD%E7%9A%84%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9%E4%B8%8E%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A/": {
+    "description": "插画中的卡托维兹与西里西亚. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%90%89%E7%BB%8D%E7%BB%B4%E8%8C%A8%E8%8A%B1%E5%9B%AD%E5%9F%8E%E5%B8%82%E7%9A%84%E7%90%86%E6%83%B3/": {
+    "description": "吉绍维茨：花园城市的理想. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%9C%A3%E6%AF%8D%E6%95%99%E5%A0%82%E5%93%A5%E7%89%B9%E5%BC%8F%E7%9A%84%E8%8A%82%E5%A5%8F/": {
+    "description": "圣母教堂：哥特式的节奏. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%9F%8E%E5%B8%82%E6%8B%B1%E5%BB%8A%E4%B9%8B%E4%B8%8B/": {
+    "description": "城市拱廊之下. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%9F%8E%E5%B8%82%E7%81%AF%E5%85%89%E4%B8%AD%E7%9A%84%E5%BD%B1%E9%99%A2/": {
+    "description": "城市灯光中的影院. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%9F%8E%E5%B8%82%E7%9A%84%E7%BB%BF%E8%89%B2%E5%BB%8A%E9%81%93/": {
+    "description": "城市的绿色廊道. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%A1%94%E6%A5%BC%E4%B8%8E%E9%9D%99%E8%B0%A7/": {
+    "description": "塔楼与静谧. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%A4%9C%E8%89%B2%E4%B8%AD%E7%9A%84%E6%96%87%E5%8C%96/": {
+    "description": "夜色中的文化. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%B0%BC%E5%9F%BA%E7%BB%8D%E7%BB%B4%E8%8C%A8%E7%BA%A2%E7%A0%96%E7%9A%84%E6%95%85%E4%BA%8B/": {
+    "description": "尼基绍维茨：红砖的故事. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%B7%A5%E4%B8%9A%E4%B8%8E%E9%87%8D%E8%BF%94%E7%9A%84%E7%BB%BF%E6%84%8F/": {
+    "description": "工业与重返的绿意. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E5%BC%80%E6%BC%94%E5%89%8D%E7%9A%84%E4%B8%80%E5%88%BB/": {
+    "description": "开演前的一刻. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%80%BB%E4%B8%BB%E6%95%99%E5%BA%A7%E5%A0%82%E5%85%89%E4%B8%8E%E7%9F%B3/": {
+    "description": "总主教座堂：光与石. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%97%85%E7%A8%8B%E5%A7%8B%E4%BA%8E%E5%A4%A7%E5%8E%85/": {
+    "description": "旅程始于大厅. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%97%A5%E8%90%BD%E6%97%B6%E7%9A%84%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA/": {
+    "description": "日落时的文化街区. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%AD%8C%E5%89%A7%E4%B9%8B%E5%A4%9C/": {
+    "description": "歌剧之夜. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%B0%B4%E5%A1%94%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E7%9A%84%E5%8D%B0%E8%AE%B0/": {
+    "description": "水塔：基础设施的印记. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%B0%B4%E7%95%94%E7%9A%84%E9%9F%B3%E4%B9%90/": {
+    "description": "水畔的音乐. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E6%B1%A0%E7%95%94%E5%85%AC%E5%9B%AD/": {
+    "description": "池畔公园. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E7%8E%B0%E4%BB%A3%E4%B8%BB%E4%B9%89%E8%A1%97%E9%81%93/": {
+    "description": "现代主义街道. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E7%8E%B0%E4%BB%A3%E4%B8%BB%E4%B9%89%E8%B7%AF%E7%BA%BF%E5%9F%8E%E5%B8%82%E7%9A%84%E6%96%B0%E5%BD%A2%E5%BC%8F/": {
+    "description": "现代主义路线：城市的新形式. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E7%93%B7%E5%99%A8%E5%B7%A5%E5%8E%82%E5%B7%A5%E4%B8%9A%E4%B8%8E%E6%89%8B%E8%89%BA/": {
+    "description": "瓷器工厂：工业与手艺. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E7%A7%91%E5%B8%8C%E4%B8%98%E4%BB%80%E7%A7%91%E5%85%AC%E5%9B%AD%E5%9F%8E%E5%B8%82%E7%9A%84%E5%91%BC%E5%90%B8/": {
+    "description": "科希丘什科公园：城市的呼吸. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E7%BA%A2%E7%A0%96%E5%BA%AD%E9%99%A2/": {
+    "description": "红砖庭院. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%89%BA%E6%9C%AF%E5%BA%AD%E9%99%A2/": {
+    "description": "艺术庭院. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%93%9D%E8%B0%83%E6%97%B6%E5%88%BB%E7%9A%84%E7%94%B5%E8%BD%A6/": {
+    "description": "蓝调时刻的电车. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A%E5%89%A7%E9%99%A2%E5%B9%BF%E5%9C%BA%E6%97%81%E7%9A%84%E5%A4%9C%E6%99%9A/": {
+    "description": "西里西亚剧院：广场旁的夜晚. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A%E5%8D%9A%E7%89%A9%E9%A6%86%E7%9F%BF%E5%8C%BA%E7%9A%84%E6%96%B0%E7%94%9F/": {
+    "description": "西里西亚博物馆：矿区的新生. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A%E6%83%B3%E8%B1%A1%E4%B8%AD%E7%9A%84%E5%85%A8%E6%99%AF/": {
+    "description": "西里西亚：想象中的全景. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%B5%B0%E5%90%91%E5%89%A7%E9%99%A2%E7%9A%84%E5%8F%B0%E9%98%B6/": {
+    "description": "走向剧院的台阶. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/%E8%BD%A8%E9%81%93%E4%B8%8A%E7%9A%84%E6%B8%85%E6%99%A8/": {
+    "description": "轨道上的清晨. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/mck%E4%B8%BA%E7%9B%B8%E8%81%9A%E8%80%8C%E5%BB%BA/": {
+    "description": "MCK：为相聚而建. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/nospr%E9%9F%B3%E4%B9%90%E4%B9%8B%E5%9F%8E/": {
+    "description": "NOSPR：音乐之城. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%8F%92%E7%94%BB/spodek%E4%BD%93%E8%82%B2%E9%A6%86%E8%89%BA%E6%9C%AF%E6%83%B3%E8%B1%A1/": {
+    "description": "Spodek体育馆：艺术想象. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%96%87%E5%8C%96%E5%8C%BA%E5%B7%A5%E4%B8%9A%E7%A9%BA%E9%97%B4%E7%9A%84%E6%96%B0%E7%AF%87%E7%AB%A0/": {
+    "description": "文化区：工业空间的新篇章. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%9C%AC%E6%B4%A5%E4%B8%8E%E4%BE%8F%E7%BD%97%E9%AB%98%E5%9C%B0%E5%9F%8E%E5%A0%A1%E8%BE%B9%E7%95%8C%E4%B8%8E%E9%A3%8E%E6%99%AF/": {
+    "description": "本津与侏罗高地：城堡、边界与风景. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E6%A0%BC%E5%88%A9%E7%BB%B4%E9%87%87%E5%B9%BF%E6%92%AD%E7%94%B5%E5%8F%B0%E4%B8%8E%E5%AE%A3%E4%BC%A0%E7%9A%84%E5%8E%86%E5%8F%B2/": {
+    "description": "格利维采：广播电台与宣传的历史. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E7%8A%B9%E5%A4%AA%E6%96%87%E5%8C%96%E9%81%97%E4%BA%A7%E4%BA%BA%E7%89%A9%E5%9C%B0%E7%82%B9%E4%B8%8E%E7%BC%BA%E5%B8%AD/": {
+    "description": "犹太文化遗产：人物、地点与缺席. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E7%8E%B0%E4%BB%A3%E4%B8%BB%E4%B9%89%E8%80%81%E4%BD%8F%E5%AE%85%E4%B8%8E%E6%9C%A8%E6%95%99%E5%A0%82/": {
+    "description": "现代主义、老住宅与木教堂. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A%E4%B8%80%E7%89%87%E5%9C%9F%E5%9C%B0%E5%A4%9A%E7%A7%8D%E5%A3%B0%E9%9F%B3/": {
+    "description": "西里西亚：一片土地，多种声音. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/%E8%A5%BF%E9%87%8C%E8%A5%BF%E4%BA%9A%E7%BA%AA%E5%BF%B5%E5%9C%B0%E4%B8%8D%E5%90%8C%E5%8E%86%E5%8F%B2%E5%AE%A1%E6%85%8E%E8%A1%A8%E8%BE%BE/": {
+    "description": "西里西亚纪念地：不同历史，审慎表达. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/auschwitz-birkenau/": {
+    "description": "奥斯维辛—比克瑙：纪念与见证. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/cieszyn/": {
+    "description": "切申：山丘、记忆与边境. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/giszowiec/": {
+    "description": "吉绍维茨：花园住区的理想. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/nikiszowiec/": {
+    "description": "尼基绍维茨：红砖、庭院与日常生活. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/pszczyna/": {
+    "description": "普什奇纳：宫邸与从容节奏. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%9F%8E%E5%B8%82%E4%B8%8E%E5%91%A8%E8%BE%B9/tarnowskie-gory/": {
+    "description": "塔尔诺夫斯凯古雷：银矿与治水工程. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%AE%A2%E6%88%BF/": {
+    "description": "客房与公寓 · Katowice. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E5%AE%BE%E5%AE%A2%E4%BD%93%E9%AA%8C/": {
+    "description": "宾客体验. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E6%9C%BA%E5%9C%BA/": {
+    "description": "机场与交通. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E6%9C%BA%E5%9C%BA/balice/": {
+    "description": "克拉科夫—巴利采机场（KRK）. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E6%9C%BA%E5%9C%BA/pyrzowice/": {
+    "description": "卡托维兹—皮若维采机场（KTW）. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E6%AF%94%E8%BE%83/": {
+    "description": "选择您重视的住宿条件。. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E8%B7%9F%E9%9A%8F-hornigold-%E6%8E%A2%E7%B4%A2%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9/": {
+    "description": "跟随 Hornigold 探索卡托维兹. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/%E9%A4%90%E9%A5%AE%E6%9C%8D%E5%8A%A1%E4%B8%8E%E5%AE%B4%E4%BC%9A/": {
+    "description": "餐饮服务与宴会. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E5%8F%82%E5%8A%A0-mckspodek-%E6%88%96-nospr-%E6%B4%BB%E5%8A%A8/": {
+    "description": "参加 MCK、Spodek 或 NOSPR 活动. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E5%95%86%E5%8A%A1%E5%87%BA%E8%A1%8C%E6%8A%B5%E8%BE%BE%E5%89%8D%E9%A1%BB%E7%9F%A5/": {
+    "description": "商务出行：抵达前须知. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E5%B8%A6%E5%AD%A9%E5%AD%90%E6%B8%B8%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9%E7%AE%80%E5%8D%95%E8%A7%84%E5%88%92/": {
+    "description": "带孩子游卡托维兹：简单规划. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E5%BB%BA%E7%AD%91%E4%B8%8E%E5%B8%82%E4%B8%AD%E5%BF%83%E6%BC%AB%E6%AD%A5/": {
+    "description": "建筑与市中心漫步. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E9%80%89%E5%A5%BD%E6%B4%BB%E5%8A%A8%E8%A7%84%E5%88%92%E4%BD%8F%E5%AE%BF/": {
+    "description": "选好活动，规划住宿。. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/%E9%A6%96%E6%AC%A1%E6%8A%B5%E8%BE%BE%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9/": {
+    "description": "首次抵达卡托维兹. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/katowice/24%E6%88%9648%E5%B0%8F%E6%97%B6%E6%B8%B8%E5%8D%A1%E6%89%98%E7%BB%B4%E5%85%B9/": {
+    "description": "24或48小时游卡托维兹. 探索卡托维兹及周边地区。查看交通信息，规划入住 Hornigold 期间的观光行程。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
+  },
+  "/zh-hans/pobyt/": {
+    "description": "美好住宿，从这里开始。. 探索位于卡托维兹 Kopernika 街6号的 Hornigold。查看照片，规划住宿并联系我们。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   }
 }
