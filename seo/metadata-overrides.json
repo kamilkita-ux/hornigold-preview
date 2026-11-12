@@ -77,7 +77,7 @@
     "title": "Eventi a MCK, Spodek e NOSPR — pianifica la visita | Hornigold"
   },
   "/pl/lokalizacja/": {
-    "title": "Jak dojść z dworca PKP do Hornigold | Hornigold",
+    "title": "5 minut od dworca — nocleg w centrum Katowic | Hornigold",
     "description": "Hornigold przy Kopernika 6 w Katowicach: zobacz wejście, opis spaceru z dworca oraz odnośniki do tras z lotnisk. Aktualne połączenia sprawdź w mapach."
   },
   "/pl/porownaj/": {
@@ -225,7 +225,7 @@
   },
   "/it/posizione/": {
     "description": "Hornigold si trova nel Palazzo Verde, in via Kopernika 6 a Katowice. Dedica tempo alla scoperta della città e scegli una camera in cui tornare a fine giornata.",
-    "title": "A piedi dalla stazione di Katowice a Hornigold | Hornigold"
+    "title": "Soggiorno a cinque minuti a piedi dalla stazione di Katowice | Hornigold"
   },
   "/it/aeroporti/": {
     "description": "Aeroporti e trasferimenti. Esplora Katowice e i dintorni. Consulta le indicazioni e organizza le visite durante un soggiorno a Hornigold."
@@ -349,7 +349,7 @@
   },
   "/uk/%D1%80%D0%BE%D0%B7%D1%82%D0%B0%D1%88%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/": {
     "description": "Катовіце. Ваша наступна історія. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами.",
-    "title": "Пішки від вокзалу Катовіце до Hornigold | Hornigold"
+    "title": "Проживання за п’ять хвилин пішки від вокзалу Катовіце | Hornigold"
   },
   "/uk/katowice/%D0%BE%D0%B1%D0%B5%D1%80%D1%96%D1%82%D1%8C-%D0%BF%D0%BE%D0%B4%D1%96%D1%8E-%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D0%BD%D1%83%D0%B8%D1%82%D0%B5-%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F/": {
     "description": "Оберіть подію. Заплануйте проживання. Дослідіть Катовіце та околиці. Перегляньте поради щодо доїзду й сплануйте прогулянки під час перебування в Hornigold."
@@ -440,8 +440,8 @@
     "title": "Сніданки в Зеленій кам’яниці · 7:00–10:00 | Hornigold"
   },
   "/de/": {
-    "description": "Zimmer und Apartments im Grünen Stadthaus, Kopernika 6 in Kattowitz. Vergleichen Sie Zimmergrößen, sehen Sie Fotos und prüfen Sie Ihren Wunschtermin.",
-    "title": "Zimmer und Apartments im Grünen Stadthaus · im Zentrum von Kattowitz | Hornigold"
+    "description": "Boutique-Hotel im Zentrum von Kattowitz, 5 Gehminuten vom Bahnhof. Zimmer ab 380 PLN, Apartments bis 105 m², Sauna und Whirlpool. Direkt buchen.",
+    "title": "Zimmer und Apartments im Grünen Stadthaus · Boutique-Hotel Hornigold"
   },
   "/de/ein-aufenthalt-der-zu-ihnen-passt/": {
     "description": "Planen Sie einen längeren Aufenthalt, eine Reise zu zweit oder eine Geschäftsreise? Erfragen Sie die Bedingungen für Ihre Reisedaten direkt bei der Unterkunft."
@@ -451,7 +451,7 @@
   },
   "/de/anfahrt/": {
     "description": "Ein Klick öffnet die gewählte Route in Google Maps. Prüfen Sie dort aktuelle Fahrzeiten, Entfernungen und Verbindungen. Die Auswahl „Taxi“ bestellt keine Fahrt.",
-    "title": "Vom Bahnhof Kattowitz zu Hornigold | Hornigold"
+    "title": "Übernachten, fünf Gehminuten vom Bahnhof Kattowitz | Hornigold"
   },
   "/de/kontakt/": {
     "description": "Haben Sie Fragen zum Zimmer, zur Anreise oder zu den Aufenthaltsbedingungen? Kontaktieren Sie Hornigold direkt. Eine Anfrage ist keine Buchungsbestätigung."
@@ -595,15 +595,15 @@
     "description": "Będzin und der Jura: Burgen, Grenzen und Landschaft. Entdecken Sie Katowice und die Umgebung."
   },
   "/es/": {
-    "description": "Habitaciones y apartamentos en Kopernika 6, en el centro de Katowice. Compara tamaños, mira las fotos de los interiores y consulta la disponibilidad.",
-    "title": "Habitaciones y apartamentos en la Casa Verde · en el centro de Katowice | Hornigold"
+    "description": "Hotel boutique en el centro de Katowice, a 5 minutos a pie de la estación. Habitaciones desde 380 PLN, apartamentos de hasta 105 m², sauna y jacuzzi.",
+    "title": "Habitaciones y apartamentos en la Casa Verde · hotel boutique Hornigold"
   },
   "/es/conviene-saberlo/": {
     "description": "El aire acondicionado figura en Deluxe Premium, Apartament Deluxe, Prestige Deluxe y Hornigold. Consulte las comodidades de la categoría elegida."
   },
   "/es/bienestar-y-spa/": {
     "description": "Bienestar y spa. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo.",
-    "title": "Sauna y jacuzzi en el centro de Katowice | Hornigold"
+    "title": "Hotel con jacuzzi y sauna en el centro de Katowice | Hornigold"
   },
   "/es/pobyt/": {
     "description": "Una buena estancia empieza aquí. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
@@ -751,7 +751,7 @@
   },
   "/es/ubicacion/": {
     "description": "Haz clic para abrir la ruta elegida en Google Maps. Consulta allí los tiempos, las distancias y las conexiones actuales. Elegir taxi no reserva un viaje.",
-    "title": "A pie desde la estación de Katowice hasta Hornigold | Hornigold"
+    "title": "Alojamiento a cinco minutos a pie de la estación de Katowice | Hornigold"
   },
   "/es/rezerwacja/": {
     "description": "Tu estancia de un vistazo. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo."
@@ -770,7 +770,7 @@
   },
   "/en/location/": {
     "description": "Katowice. Your next story. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Plan your stay in Katowice.",
-    "title": "Walk from Katowice railway station to Hornigold | Hornigold"
+    "title": "Stay five minutes from Katowice railway station | Hornigold"
   },
   "/en/conferences-and-meetings/": {
     "description": "Conferences and meetings. Discover Hornigold at 6 Kopernika Street in Katowice. Browse photos, plan your stay and contact our team. Plan your stay in Katowice."
@@ -849,8 +849,8 @@
     "title": "Suite Apartment 40 m² · in central Katowice · from PLN 590 | Hornigold"
   },
   "/pl/": {
-    "title": "Pokoje i apartamenty w Zielonej Kamienicy · w centrum Katowic | Hornigold",
-    "description": "Pokoje i apartamenty w Zielonej Kamienicy przy Kopernika 6 w Katowicach. Porównaj metraże, zobacz wnętrza i sprawdź dostępność na wybrany termin."
+    "title": "Pokoje i apartamenty w centrum Katowic · butikowy hotel Hornigold",
+    "description": "Butikowy hotel w Zielonej Kamienicy, 5 min pieszo od dworca PKP Katowice. Pokoje od 380 zł, apartamenty do 105 m², sauna i jacuzzi. Rezerwuj bezpośrednio."
   },
   "/pl/pobyt/sluzbowo/": {
     "title": "Nocleg służbowy w Katowicach | Hornigold",
@@ -888,8 +888,8 @@
     "description": "Soukromí v Hornigold: zpracování osobních údajů, vaše práva, kontakty a pravidla používání webu. Dokument je také ke stažení v PDF."
   },
   "/cs/": {
-    "title": "Pokoje a apartmány v Zeleném domě · v centru Katovic | Hornigold",
-    "description": "Pokoje a apartmány v centru Katovic na adrese Kopernika 6. Porovnejte jejich velikost, prohlédněte si fotografie interiérů a ověřte dostupnost na svůj termín."
+    "title": "Pokoje a apartmány v Zeleném domě · butikový hotel Hornigold",
+    "description": "Butikový hotel v centru Katovic, 5 minut pěšky od nádraží. Pokoje od 380 PLN, apartmány až 105 m², sauna a vířivka. Ověřte dostupnost a rezervujte přímo."
   },
   "/cs/pred-prijezdem/": {
     "description": "Začněte výběrem kategorie pokoje a termínu. Poté si ověřte příjezd, dokumenty a podmínky, které chcete domluvit s recepcí. Naplánujte si pobyt v Katovicích."
@@ -917,7 +917,7 @@
     "description": "Co je dobré vědět. Vyjděte směrem na plac Oddziałów Młodzieży Powstańczej."
   },
   "/cs/poloha/": {
-    "title": "Pěšky z nádraží v Katovicích do Hornigoldu | Hornigold",
+    "title": "Ubytování pět minut pěšky od nádraží v Katovicích | Hornigold",
     "description": "Kliknutím otevřete vybranou trasu v Mapách Google. Ověřte tam aktuální doby cest, vzdálenosti a spoje veřejné dopravy. Volba taxi neobjednává jízdu."
   },
   "/cs/zkusenosti-hostu/": {
@@ -990,7 +990,7 @@
     "description": "Připravte zprávu a před odesláním ze své e-mailové aplikace ji zkontrolujte. Podmínky vám sdělí ubytovací zařízení; poptávka není rezervací pokojů."
   },
   "/cs/wellness-a-spa/": {
-    "title": "Sauna a vířivka v centru Katovic | Hornigold",
+    "title": "Hotel s vířivkou a saunou v centru Katovic | Hornigold",
     "description": "Po dni v Katovicích si dopřejte čas na odpočinek v Hornigoldu. Naše wellness služby zahrnují saunu, vířivku a masáže. Přečtěte si podrobnosti před příjezdem."
   },
   "/de/catering-und-veranstaltungen/": {
@@ -1034,14 +1034,14 @@
     "description": "Kopernika 6, Katowice. Entdecken Sie die Innenräume und planen Sie Ihre Zeit in der Stadt."
   },
   "/de/wellness-und-spa/": {
-    "title": "Sauna und Whirlpool im Zentrum von Kattowitz | Hornigold"
+    "title": "Hotel mit Whirlpool und Sauna im Zentrum von Kattowitz | Hornigold"
   },
   "/de/zimmer/": {
     "description": "Entdecken Sie die Zimmer und Apartments im Grünen Stadthaus. Hier finden Sie Details für Ihren Aufenthalt."
   },
   "/en/": {
-    "title": "Rooms and apartments in the Green Townhouse · in central Katowice | Hornigold",
-    "description": "Explore rooms and apartments at Hornigold, 6 Kopernika Street in central Katowice. Compare room sizes, browse photographs and check your travel dates."
+    "title": "Rooms and apartments in the Green Townhouse · boutique hotel Hornigold",
+    "description": "Boutique hotel in central Katowice, 5 minutes on foot from the station. Rooms from PLN 380, apartments up to 105 m², sauna and hot tub. Book direct."
   },
   "/en/breakfast/": {
     "title": "Breakfast in the Green Townhouse · 7:00–10:00 | Hornigold"
@@ -1071,7 +1071,7 @@
     "title": "Prestige Apartment 60–70 m² · in central Katowice · from PLN 695 | Hornigold"
   },
   "/en/wellness-and-spa/": {
-    "title": "Sauna and hot tub in central Katowice | Hornigold"
+    "title": "Hotel with a hot tub and sauna in central Katowice | Hornigold"
   },
   "/es/experiencias-de-nuestros-huespedes/": {
     "description": "La puntuación procede de Google. No verificamos de forma independiente que cada autor se haya alojado con nosotros. Consulta los detalles antes de tu llegada."
@@ -1102,11 +1102,11 @@
     "description": "Un fin de semana en Katowice. Incluye las fechas, el número de adultos y niños, las camas y la cantidad de habitaciones. Si te importan las escaleras, el."
   },
   "/it/": {
-    "title": "Camere e appartamenti nella Casa Verde · nel centro di Katowice | Hornigold",
-    "description": "Camere e appartamenti in via Kopernika 6, nel centro di Katowice. Confronta le metrature, guarda le fotografie e verifica le date del tuo soggiorno."
+    "title": "Camere e appartamenti nella Casa Verde · boutique hotel Hornigold",
+    "description": "Boutique hotel in centro a Katowice, a 5 minuti a piedi dalla stazione. Camere da 380 PLN, appartamenti fino a 105 m², sauna e jacuzzi. Prenota sul sito."
   },
   "/it/benessere-e-spa/": {
-    "title": "Sauna e jacuzzi nel centro di Katowice | Hornigold"
+    "title": "Hotel con jacuzzi e sauna nel centro di Katowice | Hornigold"
   },
   "/it/camere/apartament-deluxe/": {
     "title": "Appartamento Deluxe 43–61 m² nel centro di Katowice · da 600 PLN | Hornigold",
@@ -1192,15 +1192,15 @@
     "description": "Zacznij dzień w Hornigold przy śniadaniu, zanim ruszysz na spotkanie lub spacer po Katowicach. Śniadania podajemy codziennie w godzinach 7:00–10:00."
   },
   "/pl/wellness-spa/": {
-    "title": "Sauna i jacuzzi w centrum Katowic | Hornigold",
+    "title": "Hotel z jacuzzi i sauną w centrum Katowic | Hornigold",
     "description": "Po dniu w Katowicach zaplanuj chwilę odpoczynku w Hornigold. W ofercie wellness znajdują się sauna, jacuzzi i masaże. Zobacz szczegóły pobytu w Katowicach."
   },
   "/uk/": {
-    "title": "Номери й апартаменти в Зеленій кам’яниці · в центрі Катовіце | Hornigold",
-    "description": "Номери й апартаменти в центрі Катовіце за адресою Коперника, 6. Перегляньте фотографії, порівняйте площу та перевірте доступність на обрані дати."
+    "title": "Номери й апартаменти в Зеленій кам’яниці · бутик-готель Hornigold",
+    "description": "Бутик-готель у центрі Катовіце, за 5 хвилин пішки від вокзалу. Номери від 380 PLN, апартаменти до 105 м², сауна й джакузі. Бронюйте напряму на сайті."
   },
   "/uk/%D0%B2%D0%B5%D0%BB%D0%BD%D0%B5%D1%81-%D1%96-%D1%81%D0%BF%D0%B0/": {
-    "title": "Сауна та джакузі в центрі Катовіце | Hornigold"
+    "title": "Готель із джакузі та сауною в центрі Катовіце | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/apartament-deluxe/": {
     "title": "Апартаменти Deluxe 43–61 m² в центрі Катовіце · від 600 PLN | Hornigold"
@@ -1221,8 +1221,8 @@
     "title": "Апартаменти Suite 40 m² в центрі Катовіце · від 590 PLN | Hornigold"
   },
   "/zh-hans/": {
-    "title": "绿藤公寓的客房与套房 · 卡托维兹市中心 | Hornigold",
-    "description": "Hornigold 位于卡托维兹市中心的 Kopernika 街 6 号，提供客房和公寓。您可以查看室内照片，比较各房型的面积、床铺安排和设施，再根据同行人数选择合适的住宿。出发前可查阅从火车站和机场前往公寓的路线，以及入口照片。选定日期后，请通过预订系统查看空房、总价和适用条件。"
+    "title": "绿藤公寓的客房与套房 · 精品酒店 Hornigold",
+    "description": "Hornigold 精品酒店位于卡托维兹市中心，步行约5分钟即可到达火车站。客房价格从380波兰兹罗提起，公寓面积最大为105平方米，并提供桑拿和按摩浴缸。您可以查看各房型的室内照片，比较面积与床铺安排，选择适合同行人数的住宿。选定日期后，请通过官网预订系统查看可订房型、最终价格和适用条件。"
   },
   "/zh-hans/%E4%BB%8E%E5%87%BA%E5%8F%91%E5%89%8D%E5%BC%80%E5%A7%8B%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%97%85%E7%A8%8B/": {
     "description": "请先选择房型和入住日期，再查看交通路线、相关文件以及需要与前台确认的条件。周边指南可帮助您规划行程，但不代表预订已确认，也不保证相关服务有空位。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
@@ -1231,7 +1231,7 @@
     "description": "在卡托维兹市中心举办会议，同时入住绿荫公馆。Hornigold 提供 Madlen、Camila 和 Ana 会议空间，面积分别为40、60和100平方米。询问时请告知日期、人数、座位布局以及住宿和餐饮需求，以便我们协助安排。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
   },
   "/zh-hans/%E4%BD%8D%E7%BD%AE/": {
-    "title": "从卡托维兹火车站步行至 Hornigold | Hornigold",
+    "title": "距卡托维兹火车站步行约5分钟的住宿 | Hornigold",
     "description": "Hornigold 位于卡托维兹 Kopernika 街6号的绿色老宅。留些时间探索城市，再选择一间让您在一天结束后安心返回的客房。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   },
   "/zh-hans/%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%8A%B5%E8%BE%BE/": {
@@ -1277,7 +1277,7 @@
     "description": "Suite 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为40 m²。床型安排：一张双人床。设施包括：无线网络; 小厨房; 独立客厅; 浴室配浴缸或淋浴，依客房而异。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
   },
   "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/": {
-    "title": "卡托维兹市中心的桑拿与按摩浴缸 | Hornigold",
+    "title": "卡托维兹市中心配有按摩浴缸与桑拿的酒店 | Hornigold",
     "description": "在卡托维兹度过一天后，不妨在 Hornigold 安排一段放松时光。康体服务包括桑拿、按摩浴缸和按摩，适合会议结束后或城市周末期间休息。请联系前台安排时间并选择服务。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
   },
   "/zh-hans/%E6%97%A9%E9%A4%90/": {
