@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import re
 import subprocess
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
@@ -48,11 +49,16 @@ def main():
     ]
     # The first migration changes the hreflang links on each translated page.
     urls.extend(ORIGIN + path for path in json.loads(Path('seo/czech-redirects.json').read_text()))
-    data = json.dumps({'host': 'hornigold.pl', 'key': key, 'urlList': sorted(set(urls))}).encode()
+    data = json.dumps({'host': 'hornigold.pl', 'key': key, 'keyLocation': ORIGIN + '/' + name, 'urlList': sorted(set(urls))}).encode()
     request = Request('https://api.indexnow.org/indexnow', data=data,
                       headers={'Content-Type': 'application/json; charset=utf-8'})
-    with urlopen(request, timeout=25) as response:
-        print(json.dumps({'status': response.status, 'urls': len(set(urls)), 'commit': local['commit']}))
+    try:
+        with urlopen(request, timeout=25) as response:
+            status = response.status
+    except HTTPError as error:
+        detail = error.read(1000).decode(errors='replace').replace(key, '[redacted]')
+        raise SystemExit(f'IndexNow HTTP {error.code}: {detail}') from None
+    print(json.dumps({'status': status, 'urls': len(set(urls)), 'commit': local['commit']}))
 
 
 if __name__ == '__main__':
