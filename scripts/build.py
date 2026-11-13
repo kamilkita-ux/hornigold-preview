@@ -7,6 +7,7 @@ from seo import load_routes, route_for_file, apply_seo, write_indexing_files, in
 from discovery import write_guides
 from footer_languages import apply_footer_languages
 from counter_labels import apply_counter_labels
+from katowice_events import apply_calendar, guide_routes
 ROOT=Path(__file__).resolve().parent.parent
 RELEASE=json.loads((ROOT/'release.json').read_text())
 COUNTER_LABELS=json.loads((ROOT/'content/counter-labels.json').read_text())
@@ -18,6 +19,8 @@ if opts.production_counter and (opts.mode!='production-ready' or not opts.counte
 if opts.mode=='production-ready' and (BASE!='/' or (opts.counter and not opts.production_counter)):raise SystemExit('production-ready requires --base / and does not enable server integrations')
 OUT=ROOT/('_site' if opts.mode=='preview' else '_production_ready')
 ROUTES=load_routes(ROOT)
+EVENTS=json.loads((ROOT/'content/katowice-events.json').read_text())
+EVENT_GUIDES=guide_routes(ROOT, ROUTES)
 OVERRIDES=json.loads((ROOT/'seo/metadata-overrides.json').read_text())
 if OUT.exists():shutil.rmtree(OUT)
 shutil.copytree(ROOT/'site',OUT)
@@ -33,6 +36,7 @@ for p in OUT.rglob('*.html'):
  s=BeautifulSoup(p.read_text(),'html.parser')
  apply_footer_languages(s, RELEASE['languages'])
  apply_counter_labels(s, COUNTER_LABELS)
+ apply_calendar(s, s.html.get('lang', '').lower(), EVENTS, EVENT_GUIDES)
  apply_seo(s,route_for_file(p,OUT),ROOT,opts.mode,ROUTES,OVERRIDES)
  # Advertise the existing responsive first-screen image without changing its pixels.
  hero=s.select_one('img.hero-image')

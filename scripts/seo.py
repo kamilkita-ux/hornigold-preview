@@ -189,16 +189,20 @@ def write_indexing_files(out, mode, routes):
         namespace = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
         sitemap = ET.Element(namespace+'urlset')
         # Date comes from actual source-file history, never the build clock.
-        history=subprocess.run(['git','-c','core.quotePath=false','log','--format=@%cI','--name-only','--','site'],cwd=Path(__file__).resolve().parent.parent,text=True,capture_output=True,check=True).stdout
+        history=subprocess.run(['git','-c','core.quotePath=false','log','--format=@%cI','--name-only','--','site','content/katowice-events.json'],cwd=Path(__file__).resolve().parent.parent,text=True,capture_output=True,check=True).stdout
         changed={};stamp=None
         for line in history.splitlines():
             if line.startswith('@'): stamp=source_date_utc(line[1:])
-            elif line.startswith('site/') and stamp: changed.setdefault(line,stamp)
+            elif (line.startswith('site/') or line == 'content/katowice-events.json') and stamp: changed.setdefault(line,stamp)
         for route in sorted(routes.values()):
             if not indexable_route(Path(__file__).resolve().parent.parent,route): continue
             node = ET.SubElement(sitemap, namespace+'url')
             ET.SubElement(node, namespace+'loc').text = ORIGIN+route
             stamp=changed.get('site'+unquote(route)+'index.html')
+            page_source = out / unquote(route).lstrip('/') / 'index.html'
+            if 'id="katowice-events"' in page_source.read_text():
+                calendar_date = changed.get('content/katowice-events.json')
+                stamp = max(filter(None, (stamp, calendar_date)), default=None)
             if stamp: ET.SubElement(node, namespace+'lastmod').text=stamp
         ET.register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
         ET.register_namespace('image', 'http://www.google.com/schemas/sitemap-image/1.1')
