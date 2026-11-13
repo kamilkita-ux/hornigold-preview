@@ -1,0 +1,645 @@
+{
+  "checked": "2026-11-13",
+  "events": [
+    {
+      "start": "2026-04-07",
+      "end": "2026-04-19",
+      "name": "European Individual Chess Championship",
+      "venue": "Arena Katowice",
+      "category": "sport",
+      "url": "https://www.europechess.org/european-individual-chess-championship-2026-starts-in-poland/"
+    },
+    {
+      "start": "2026-04-16",
+      "end": "2026-04-18",
+      "name": "European Blues Challenge",
+      "venue": "NOSPR",
+      "category": "contest",
+      "url": "https://europeanbluesunion.com/ebc-2026-is-sold-out/"
+    },
+    {
+      "start": "2026-04-22",
+      "end": "2026-04-24",
+      "name": "European Economic Congress",
+      "venue": "MCK / Spodek",
+      "category": "conference",
+      "url": "https://www.eecpoland.eu/2026/pl/about-the-event/442/"
+    },
+    {
+      "start": "2026-06-04",
+      "end": "2026-06-07",
+      "name": "Tauron Nowa Muzyka Katowice",
+      "venue": "Strefa Kultury",
+      "category": "music",
+      "url": "https://www.katowice.eu/SiteAssets/czas-wolny/gazeta-miejska/214_czerwiec_2026.pdf"
+    },
+    {
+      "start": "2026-08-07",
+      "end": "2026-08-09",
+      "name": "OFF Festival Katowice",
+      "venue": "Dolina Trzech Stawów",
+      "category": "music",
+      "url": "https://off-festival.pl/pierwszy-headliner-2026/"
+    },
+    {
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "name": "Rawa Blues Festival",
+      "venue": "NOSPR",
+      "category": "music",
+      "url": "https://rawablues.com/pl/artysci/"
+    },
+    {
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "name": "ESL Pro League Season 24 – Finals",
+      "venue": "Spodek",
+      "category": "esport",
+      "url": "https://pro.eslgaming.com/csgo/proleague/2026/09/epl-katowice-article-en/"
+    },
+    {
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "name": "SZTUKA W CENTRUM",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/sztuka-w-centrum-jedzenie-w-sztuce,4053.html"
+    },
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "name": "Candlelight: Best of Hans Zimmer",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/candlelight-best-of-hans-zimmer,4048.html"
+    },
+    {
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "name": "Candlelight: Niech Żyją Legendy Rocka",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/candlelight-niech-zyja-legendy-rocka,4046.html"
+    },
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "name": "\"Szalone nożyczki\"",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/szalone-nozyczki-komedia-teatralna,4038.html"
+    },
+    {
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "name": "Targi Rzeczy Wyjątkowych",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/targi-rzeczy-wyjatkowych,4089.html"
+    },
+    {
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "name": "27. MAYDAY Poland",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/27-mayday-poland,3971.html"
+    },
+    {
+      "start": "2026-11-13",
+      "end": "2026-11-13",
+      "name": "„Zakonnice w przebraniu”",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/zakonnice-w-przebraniu-komedia-teatralna,4039.html"
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "name": "8. Katowicki Klub Kolacyjny",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/8-katowicki-klub-kolacyjny,4042.html"
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "name": "Festiwal Azjatycki",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/festiwal-azjatycki,4147.html"
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "name": "KULT pomarańczowa trasa 2026",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/kult-pomaranczowa-trasa-2026,3803.html"
+    },
+    {
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "name": "Targi Foto Video & SELFIE Show",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/targi-foto-video-selfie-show,3939.html"
+    },
+    {
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "name": "Ballet of Lights: Śpiąca Królewna",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/ballet-of-lights-spiaca-krolewna-15-11-2026,4161.html"
+    },
+    {
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "name": "Myslovitz ",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/myslovitz-korova-milky-bar,3773.html"
+    },
+    {
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "name": "Papa Roach + Landmvrks i Sleep Theory",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/papa-roach-landmvrks-i-sleep-theory,4026.html"
+    },
+    {
+      "start": "2026-11-17",
+      "end": "2026-11-18",
+      "name": "Infoshare Katowice 2026",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/infoshare-katowice-2026,4145.html"
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-21",
+      "name": "51. Ogólnopolskie Dni Endoskopowe",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/51-ogolnopolskie-dni-endoskopowe,4111.html"
+    },
+    {
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "name": "Zadzwońcie po Milicję!",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/zadzwoncie-po-milicje,3886.html"
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "name": "CHRONICLES: Celebration of League of Legends Music",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/chronicles-celebration-of-league-of-legends-music,4057.html"
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "name": "PEKAO BIKE EXPO",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/pekao-bike-expo-nowa-zimowa-edycja-w-katowicach,4144.html"
+    },
+    {
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "name": "SNOW EXPO",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/narciarskie-i-snowbordowe-porady-najnowsze-sprzety-rabaty-i-inspiracje-przed-nami-snow-expo-w-mck-u,4141.html"
+    },
+    {
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "name": "Wyjście awaryjne",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/wyjscie-awaryjne-oddam-kochanka-w-dobre-rece-komedia-teatralna,4100.html"
+    },
+    {
+      "start": "2026-11-24",
+      "end": "2026-11-25",
+      "name": "Lifesavers 2026",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/lifesavers-2026-kongres-i-targi-ratownictwa,3796.html"
+    },
+    {
+      "start": "2026-12-03",
+      "end": "2026-12-20",
+      "name": "Women’s EHF EURO 2026",
+      "venue": "Spodek",
+      "category": "sport",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/mistrzostwa-europy-w-pilce-recznej-kobiet-women-s-ehf-euro-2026,3968.html"
+    },
+    {
+      "start": "2026-12-05",
+      "end": "2026-12-07",
+      "name": "Śląski Festiwal Nauki KATOWICE",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://admin.slaskifestiwalnauki.pl/zapisz-sie-na-wybrane-aktywnosci-10-slaskiego-festiwalu-nauki-katowice"
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "name": "Forum Zdrowia Dzieci",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/forum-zdrowia-dzieci,4166.html"
+    },
+    {
+      "start": "2026-12-09",
+      "end": "2026-12-09",
+      "name": "SZTUKA W CENTRUM",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/sztuka-w-centrum-milosc-nad-dachami-marc-chagall,4054.html"
+    },
+    {
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "name": "Lord of the Dance",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/lord-of-the-dance-30th-anniversary-tour,3982.html"
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "name": "Damski Biznes",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/damski-biznes-spektakl-komediowy,4127.html"
+    },
+    {
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "name": "The Impossibles",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://niemozliwi.pl"
+    },
+    {
+      "start": "2026-12-15",
+      "end": "2026-12-20",
+      "name": "FIVB Volleyball Men’s Club World Championship – pool phase",
+      "venue": "Arena Katowice / Arena Sosnowiec",
+      "category": "sport",
+      "url": "https://www.fivb.com/poland-to-host-the-fivb-volleyball-mens-club-world-championship-in-2026-and-2027/"
+    },
+    {
+      "start": "2026-12-16",
+      "end": "2026-12-16",
+      "name": "K-POP Koncert: Taneczna Mikołajkowa Misja \"Łowcy Gwiazd\"",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/k-pop-koncert-taneczna-mikolajkowa-misja-lowcy-gwiazd,4163.html"
+    },
+    {
+      "start": "2026-12-25",
+      "end": "2026-12-25",
+      "name": "Hard Christmas Rave - Holy Priest",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/hard-christmas-rave-holy-priest,4164.html"
+    },
+    {
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "name": "Magic Christmas Concert",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/magic-christmas-concert,3848.html"
+    },
+    {
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "name": "\"Nerwica natręctw\" w Międzynarodowym Centrum Kongresowym",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://adria-art.pl/repertuar/6/teatr-nerwica-natrectw?date%5BstartDate%5D=&date%5BendDate%5D=&selectedCities%5B0%5D=580&selectedCitiesNames%5B0%5D=Katowice&selectedOrder=&utm_campaign=2026-11-03_sala-repertuar_katowice&utm_content=sala_audytoryjna_mck&utm_medium=referral&utm_source=sala-repertuar&utm_term=katowice"
+    },
+    {
+      "start": "2027-01-10",
+      "end": "2027-01-10",
+      "name": "\"Introwertyk\" - solowy występ Igora Kwiatkowskiego",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://adria-art.pl/repertuar/354/stand-up-igor-kwiatkowski-introwertyk?date%5BstartDate%5D=&date%5BendDate%5D=&selectedCities%5B0%5D=580&selectedCitiesNames%5B0%5D=Katowice&selectedOrder=&utm_campaign=2026-11-03_sala-repertuar_katowice&utm_content=sala_audytoryjna_mck&utm_medium=referral&utm_source=sala-repertuar&utm_term=katowice"
+    },
+    {
+      "start": "2027-01-15",
+      "end": "2027-01-17",
+      "name": "EXPOGołębie",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/18-edycja-miedzynarodowych-targow-golebi-pocztowych-expogolebie,4167.html"
+    },
+    {
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "name": "Koncert Wiedeński z Gwiazdami 2027",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/koncert-wiedenski-z-gwiazdami-2027,4096.html"
+    },
+    {
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "name": "Hot Men Dance",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/hot-men-dance,4134.html"
+    },
+    {
+      "start": "2027-01-27",
+      "end": "2027-01-27",
+      "name": "K-POP FEVER",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/k-pop-fever,4059.html"
+    },
+    {
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "name": "Ballet of Lights: Śpiąca Królewna",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/ballet-of-lights-spiaca-krolewna-30-01-2027,4162.html"
+    },
+    {
+      "start": "2027-01-30",
+      "end": "2027-01-30",
+      "name": "THE LEGEND OF ROCK SYMPHONIC – BRUCE DICKINSON",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/the-legend-of-rock-symphonic-bruce-dickinson,3781.html"
+    },
+    {
+      "start": "2027-02-04",
+      "end": "2027-02-04",
+      "name": "Bullet for My Valentine",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/bullet-for-my-valentine,4137.html"
+    },
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-07",
+      "name": "Rybomania",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/rybomania-targi-wedkarskie,4013.html"
+    },
+    {
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "name": "Taneczny Spodek 2027",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/taneczny-spodek-2027,4056.html"
+    },
+    {
+      "start": "2027-02-14",
+      "end": "2027-02-14",
+      "name": "Gala Muzyki Filmowej na Walentynki",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/gala-muzyki-filmowej-na-walentynki-silesia-in-love,4142.html"
+    },
+    {
+      "start": "2027-02-15",
+      "end": "2027-02-16",
+      "name": "4 Design Days 2027",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/4-design-days-2027,4165.html"
+    },
+    {
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "name": "musical Metro",
+      "venue": "Spodek",
+      "category": "culture",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/musical-metro-35-lat,3935.html"
+    },
+    {
+      "start": "2027-02-27",
+      "end": "2027-02-28",
+      "name": "ENO.KATO - festiwal dobrego wina i jedzenia",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/eno-kato-festiwal-dobrego-wina-i-jedzenia,4173.html"
+    },
+    {
+      "start": "2027-02-27",
+      "end": "2027-02-27",
+      "name": "The Magic of Disco Festiwal",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/the-magic-of-disco-festiwal,3858.html"
+    },
+    {
+      "start": "2027-03-02",
+      "end": "2027-03-03",
+      "name": "Targi BHP",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/bezpieczenstwo-pracy-w-centrum-uwagi-targi-bhp-2027-ponownie-w-katowicach,4139.html"
+    },
+    {
+      "start": "2027-03-06",
+      "end": "2027-03-06",
+      "name": "VISUAL CONCERT",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/visual-concert-koncert-muzyki-filmowej-i-epickiej,4146.html"
+    },
+    {
+      "start": "2027-03-09",
+      "end": "2027-03-09",
+      "name": "Gruziński Państwowy Balet APHKHAZETI z chórem i orkiestrą na żywo",
+      "venue": "MCK",
+      "category": "culture",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/gruzinski-panstwowy-balet-aphkhazeti-z-chorem-i-orkiestra-na-zywo,4110.html"
+    },
+    {
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "name": "SYMPHOETHNIC Golec uOrkiestra",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/symphoethnic-golec-uorkiestra,4090.html"
+    },
+    {
+      "start": "2027-03-18",
+      "end": "2027-03-19",
+      "name": "XII Kongres Wyzwań Zdrowotnych",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/xii-kongres-wyzwan-zdrowotnych,4168.html"
+    },
+    {
+      "start": "2027-04-09",
+      "end": "2027-04-11",
+      "name": "ART COLLECT",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/2-art-collect-targi-sztuki-wspolczesnej,4040.html"
+    },
+    {
+      "start": "2027-04-19",
+      "end": "2027-04-21",
+      "name": "XIX Europejski Kongres Gospodarczy",
+      "venue": "MCK / Spodek",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/xix-europejski-kongres-gospodarczy,4169.html"
+    },
+    {
+      "start": "2027-04-28",
+      "end": "2027-04-29",
+      "name": "THE DEFENCE MANUFACTURING & MATERIALS EXPO",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/the-defence-manufacturing-materials-expo,4083.html"
+    },
+    {
+      "start": "2027-04-30",
+      "end": "2027-04-30",
+      "name": "ROZPALENI",
+      "venue": "Spodek",
+      "category": "culture",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/rozpaleni-uroczystosc-religijna,4155.html"
+    },
+    {
+      "start": "2027-05-09",
+      "end": "2027-05-09",
+      "name": "Polska Noc Kabaretowa 2027",
+      "venue": "Spodek",
+      "category": "culture",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/polska-noc-kabaretowa-2027,4154.html"
+    },
+    {
+      "start": "2027-05-20",
+      "end": "2027-05-20",
+      "name": "THE HARLEM GLOBETROTTERS",
+      "venue": "Spodek",
+      "category": "sport",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/the-harlem-globetrotters,3776.html"
+    },
+    {
+      "start": "2027-05-22",
+      "end": "2027-05-22",
+      "name": "HOLISTICA",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/holistica-body-mind-soul-expo,4065.html"
+    },
+    {
+      "start": "2027-05-27",
+      "end": "2027-05-30",
+      "name": "Tauron Nowa Muzyka Katowice",
+      "venue": "Strefa Kultury",
+      "category": "music",
+      "url": "https://festiwalnowamuzyka.pl/"
+    },
+    {
+      "start": "2027-06-14",
+      "end": "2027-06-15",
+      "name": "Cybersec Forum 2027",
+      "venue": "MCK",
+      "category": "conference",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/cybersec-forum-2027,4171.html"
+    },
+    {
+      "start": "2027-06-19",
+      "end": "2027-06-19",
+      "name": "Aktywny Senior",
+      "venue": "MCK",
+      "category": "fair",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/aktywny-senior-nowe-targi-stylu-zycia-60,3911.html"
+    },
+    {
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "name": "Ogólnopolski Konkurs Dyrygentów im. Grzegorza Fitelberga",
+      "venue": "Filharmonia Śląska",
+      "category": "contest",
+      "url": "https://fitelbergcompetition.com/pl/"
+    },
+    {
+      "start": "2027-07-17",
+      "end": "2027-07-17",
+      "name": "Beth Gibbons",
+      "venue": "MCK",
+      "category": "music",
+      "url": "https://www.mckkatowice.pl/pl/wydarzenia/beth-gibbons-koncert,4153.html"
+    },
+    {
+      "start": "2027-08-06",
+      "end": "2027-08-09",
+      "name": "OFF Festival Katowice",
+      "venue": "Dolina Trzech Stawów",
+      "category": "music",
+      "url": "https://off-festival.pl/o-festiwalu/"
+    },
+    {
+      "start": "2027-09-21",
+      "end": "2027-09-21",
+      "name": "Jean-Michel Jarre",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/jean-michel-jarre-oxygene-beyond-tour,4151.html"
+    },
+    {
+      "start": "2027-11-13",
+      "end": "2027-11-13",
+      "name": "KULT pomarańczowa trasa 2027",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/kult-pomaranczowa-trasa-2027,4172.html"
+    },
+    {
+      "start": "2027-11-20",
+      "end": "2027-11-20",
+      "name": "The Magic of Disco Festiwal 90’s",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/the-magic-of-disco-festiwal-90-s,4084.html"
+    },
+    {
+      "start": "2027-12-11",
+      "end": "2027-12-11",
+      "name": "GREGORIAN ORIGINAL",
+      "venue": "Spodek",
+      "category": "music",
+      "url": "https://www.spodekkatowice.pl/pl/wydarzenia/gregorian-original-the-magical-christmas-tour,4043.html"
+    }
+  ],
+  "announced": [
+    {
+      "period": "2027-09",
+      "name": "Karol Szymanowski International Music Competition",
+      "venue": "NOSPR / Akademia Muzyczna",
+      "category": "contest",
+      "url": "https://nospr.org.pl/pl/aktualnosci/oglaszamy-iii-edycje-miedzynarodowego-konkursu-muzycznego-im"
+    },
+    {
+      "period": "2027",
+      "name": "FIVB Volleyball Men’s World Championship",
+      "venue": "Spodek",
+      "category": "sport",
+      "url": "https://katowice.eu/dla-mieszkanca/aktualnosci?ItemID=8097&ListID=75169dcb-89ef-46cd-a876-165c1e838909"
+    }
+  ]
+}
