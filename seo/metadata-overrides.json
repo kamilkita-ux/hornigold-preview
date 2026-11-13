@@ -100,19 +100,19 @@
     "description": "Poznaj kategorie pokoi i apartamentów Hornigold w Katowicach. Obejrzyj wnętrza, porównaj opisy i zapytaj recepcję o warunki dla wybranego terminu."
   },
   "/pl/pokoje/deluxe/": {
-    "description": "Deluxe to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 30 m². Układ łóżek: Jedno łóżko podwójne.",
+    "description": "W pokoju Deluxe (30 m²) masz aneks kuchenny i biurko. To wygodna opcja, gdy w Katowicach łączysz pracę z odpoczynkiem. Łóżko podwójne, cena od 410 zł.",
     "title": "Pokój Deluxe 30 m² w centrum Katowic · od 410 zł | Hornigold"
   },
   "/pl/pokoje/classic/": {
-    "description": "Classic to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 20–22 m². Zobacz szczegóły pobytu w Katowicach.",
+    "description": "Na krótki wyjazd lub delegację wybierz Classic (20–22 m²) z biurkiem w centrum Katowic. Są pokoje z łóżkiem podwójnym lub dwoma pojedynczymi. Od 380 zł.",
     "title": "Pokój Classic 20–22 m² w centrum Katowic · od 380 zł | Hornigold"
   },
   "/pl/pokoje/suite/": {
-    "description": "Suite to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 40 m². Układ łóżek: Jedno łóżko podwójne.",
+    "description": "Suite (40 m²) z osobnym salonem to opcja na dłuższy pobyt lub weekend we dwoje. W apartamencie w centrum Katowic jest też aneks kuchenny. Cena od 590 zł.",
     "title": "Apartament Suite 40 m² w centrum Katowic · od 590 zł | Hornigold"
   },
   "/pl/pokoje/premium/": {
-    "description": "Premium to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 35 m². Układ łóżek: Jedno łóżko podwójne.",
+    "description": "Na weekend we dwoje w Katowicach wybierz Premium (35 m²). Po powrocie z miasta czeka wanna z hydromasażem, a w pokoju jest też aneks kuchenny. Od 450 zł.",
     "title": "Pokój Premium 35 m² w centrum Katowic · od 450 zł | Hornigold"
   },
   "/pl/katowice/": {
@@ -223,7 +223,7 @@
     "description": "Camere e appartamenti · Katowice. 43–61 m² · A partire da 600 PLN. Scopri l'Appartamento Prestige nel Palazzo Verde. 60–70 m² · A partire da 695 PLN."
   },
   "/it/camere/prestige-deluxe/": {
-    "description": "Appartamento Prestige Deluxe — soggiorno nel centro di Katowice. Scopri Hornigold in via Kopernika 6 a Katowice. Consulta i dettagli prima di partire.",
+    "description": "49 m², da 795 PLN. Prestige Deluxe è pensato per viaggiare insieme, con due camere con letti queen e un soggiorno separato.",
     "title": "Appartamento Prestige Deluxe 49 m² nel centro di Katowice · da 795 PLN | Hornigold"
   },
   "/it/posizione/": {
@@ -333,15 +333,15 @@
     "description": "Спокійна подорож починається ще до приїзду. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте фото, сплануйте перебування та зв’яжіться з нами."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/prestige/": {
-    "description": "Апартаменти Prestige 60–70 m² в центрі Катовіце. Коперника, 6, Катовиці. Зверніть увагу на планування, місце біля ліжка й облаштування ванної кімнати.",
+    "description": "60–70 м², від 695 PLN. Для родин і друзів у Prestige є дві спальні, дві ванні кімнати й окрема вітальня.",
     "title": "Апартаменти Prestige 60–70 m² в центрі Катовіце · від 695 PLN | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/prestige-deluxe/": {
-    "description": "Апартаменти Prestige Deluxe — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Перегляньте подробиці перед приїздом.",
+    "description": "49 м², від 795 PLN. У Prestige Deluxe зручно зупинитися з близькими: дві спальні з ліжками queen та окрема вітальня.",
     "title": "Апартаменти Prestige Deluxe 49 m² в центрі Катовіце · від 795 PLN | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/hornigold/": {
-    "description": "Апартаменти Hornigold — проживання в центрі Катовіце. Відкрийте Hornigold на Kopernika, 6 у Катовіце. Сплануйте своє перебування в Катовіце.",
+    "description": "105 м², від 1100 PLN. В апартаментах Hornigold для родин і друзів є дві спальні, дві ванні кімнати та два кухонні куточки.",
     "title": "Апартаменти Hornigold 105 m² в центрі Катовіце · від 1100 PLN | Hornigold"
   },
   "/uk/%D0%B2%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BD%D0%B0%D1%88%D0%B8%D1%85-%D0%B3%D0%BE%D1%81%D1%82%D0%B5%D0%B8/": {
@@ -444,7 +444,8 @@
   },
   "/de/": {
     "description": "Boutique-Hotel im Zentrum von Kattowitz, 5 Gehminuten vom Bahnhof. Zimmer ab 380 PLN, Apartments bis 105 m², Sauna und Whirlpool. Direkt buchen.",
-    "title": "Zimmer und Apartments im Grünen Stadthaus · Boutique-Hotel Hornigold"
+    "title": "Boutique-Hotel im Zentrum von Katowice (Kattowitz) | Hornigold",
+    "h1": "Zimmer und Apartments im Zentrum von Katowice"
   },
   "/de/ein-aufenthalt-der-zu-ihnen-passt/": {
     "description": "Planen Sie einen längeren Aufenthalt, eine Reise zu zweit oder eine Geschäftsreise? Erfragen Sie die Bedingungen für Ihre Reisedaten direkt bei der Unterkunft."
@@ -481,39 +482,39 @@
     "description": "Katowice mit Kindern: ein entspannter Plan. Kartenlinks sind keine vor Ort gemessenen Gehzeiten. Illustration, inspiriert von Katowice und Schlesien."
   },
   "/de/zimmer/deluxe/": {
-    "description": "Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "30 m², ab 410 PLN. Deluxe bietet für Arbeitstage in Katowice einen Schreibtisch und eine Küchenzeile für Mahlzeiten in der eigenen Unterkunft.",
     "title": "Deluxe Zimmer 30 m² · im Zentrum von Kattowitz · ab 410 PLN | Hornigold"
   },
   "/de/zimmer/prestige/": {
-    "description": "Apartment Prestige — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "60–70 m², ab 695 PLN. Für Familien und Freunde bietet Prestige zwei Schlafzimmer, zwei Bäder und einen separaten Wohnraum.",
     "title": "Prestige Apartment 60–70 m² · im Zentrum von Kattowitz · ab 695 PLN | Hornigold"
   },
   "/de/zimmer/classic/": {
-    "description": "Classic — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "20–22 m², ab 380 PLN. Classic passt zum Kurztrip oder zur Dienstreise: mit Schreibtisch und wahlweise einem Doppelbett oder zwei Einzelbetten.",
     "title": "Classic Zimmer 20–22 m² · im Zentrum von Kattowitz · ab 380 PLN | Hornigold"
   },
   "/de/zimmer/deluxe-premium/": {
-    "description": "Deluxe Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "26–47 m², ab 485 PLN. Wer zu zweit oder mit einem Kollegen reist, kann im Deluxe Premium zwischen Doppelbett und zwei Einzelbetten wählen.",
     "title": "Deluxe Premium Zimmer 26–47 m² · im Zentrum von Kattowitz · ab 485 PLN | Hornigold"
   },
   "/de/zimmer/prestige-deluxe/": {
-    "description": "Apartment Prestige Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Lesen Sie die Hinweise vor der Anreise.",
+    "description": "49 m², ab 795 PLN. Das Prestige Deluxe bietet für gemeinsame Reisen zwei Schlafzimmer mit Queensize-Betten und ein separates Wohnzimmer.",
     "title": "Prestige Deluxe Apartment 49 m² · im Zentrum von Kattowitz · ab 795 PLN | Hornigold"
   },
   "/de/zimmer/hornigold/": {
-    "description": "Apartment Hornigold — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "105 m², ab 1100 PLN. Für Familien und Freunde bietet das Hornigold-Apartment zwei Schlafzimmer, zwei Bäder und zwei Küchenzeilen.",
     "title": "Hornigold Apartment 105 m² · im Zentrum von Kattowitz · ab 1100 PLN | Hornigold"
   },
   "/de/zimmer/suite/": {
-    "description": "Suite — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "40 m², ab 590 PLN. Die Suite bietet Paaren oder Gästen auf längeren Reisen einen separaten Wohnraum und eine Küchenzeile.",
     "title": "Suite Apartment 40 m² · im Zentrum von Kattowitz · ab 590 PLN | Hornigold"
   },
   "/de/zimmer/apartament-deluxe/": {
-    "description": "Apartment Deluxe — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "43–61 m², ab 600 PLN. Im Deluxe-Apartment machen Küchenzeile, Queensize-Bett und individuell regulierbare Klimaanlage auch längere Aufenthalte bequem.",
     "title": "Deluxe Apartment 43–61 m² · im Zentrum von Kattowitz · ab 600 PLN | Hornigold"
   },
   "/de/zimmer/premium/": {
-    "description": "Premium — Aufenthalt im Zentrum von Katowice. Entdecken Sie Hornigold an der Kopernika 6 in Katowice. Hier finden Sie Details für Ihren Aufenthalt.",
+    "description": "35 m², ab 450 PLN. Premium passt zu einem Wochenende zu zweit und bietet nach dem Stadtbummel eine Badewanne mit Whirlpoolfunktion.",
     "title": "Premium Zimmer 35 m² · im Zentrum von Kattowitz · ab 450 PLN | Hornigold"
   },
   "/de/stadt-und-umgebung/": {
@@ -599,7 +600,8 @@
   },
   "/es/": {
     "description": "Hotel boutique en el centro de Katowice, a 5 minutos a pie de la estación. Habitaciones desde 380 PLN, apartamentos de hasta 105 m², sauna y jacuzzi.",
-    "title": "Habitaciones y apartamentos en la Casa Verde · hotel boutique Hornigold"
+    "title": "Hotel boutique en el centro de Katowice | Hornigold",
+    "h1": "Habitaciones y apartamentos en el centro de Katowice"
   },
   "/es/conviene-saberlo/": {
     "description": "El aire acondicionado figura en Deluxe Premium, Apartament Deluxe, Prestige Deluxe y Hornigold. Consulte las comodidades de la categoría elegida."
@@ -624,23 +626,23 @@
     "description": "En familia. Descubre Hornigold en Kopernika 6, Katowice. Mira las fotos, organiza tu estancia y contacta con nuestro equipo. Organiza tu estancia en Katowice."
   },
   "/es/habitaciones/prestige/": {
-    "description": "Apartamento Prestige — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "description": "60–70 m², desde 695 PLN. Para familias y amigos, Prestige dispone de dos dormitorios, un salón independiente y dos baños.",
     "title": "Apartamento Prestige 60–70 m² en el centro de Katowice · desde 695 PLN | Hornigold"
   },
   "/es/habitaciones/deluxe-premium/": {
-    "description": "Deluxe Premium — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "description": "26–47 m², desde 485 PLN. Deluxe Premium se adapta a viajes en pareja o con un compañero gracias a la opción de cama doble o dos camas.",
     "title": "Habitación Deluxe Premium 26–47 m² en el centro de Katowice · desde 485 PLN | Hornigold"
   },
   "/es/habitaciones/prestige-deluxe/": {
-    "description": "Apartamento Prestige Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "description": "49 m², desde 795 PLN. Prestige Deluxe permite viajar con amigos y contar con dos dormitorios con camas queen y un salón separado.",
     "title": "Apartamento Prestige Deluxe 49 m² en el centro de Katowice · desde 795 PLN | Hornigold"
   },
   "/es/habitaciones/hornigold/": {
-    "description": "Apartamento Hornigold — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "description": "105 m², desde 1100 PLN. El Apartamento Hornigold ofrece a familias y amigos dos dormitorios, dos baños y dos zonas de cocina.",
     "title": "Apartamento Hornigold 105 m² en el centro de Katowice · desde 1100 PLN | Hornigold"
   },
   "/es/habitaciones/apartament-deluxe/": {
-    "description": "Apartamento Deluxe — alojamiento en el centro de Katowice. Descubre Hornigold en Kopernika 6, Katowice. Consulta los detalles antes de tu llegada.",
+    "description": "43–61 m², desde 600 PLN. El Apartamento Deluxe facilita las estancias largas con zona de cocina y aire acondicionado regulable.",
     "title": "Apartamento Deluxe 43–61 m² en el centro de Katowice · desde 600 PLN | Hornigold"
   },
   "/es/desayuno/": {
@@ -848,7 +850,7 @@
     "description": "Rooms and apartments · Katowice. Explore the Prestige Deluxe Apartment at the Green Townhouse. Explore the Hornigold Apartment at the Green Townhouse."
   },
   "/en/rooms/suite/": {
-    "description": "Suite Apartment 40 m² · in central Katowice. Step inside the Deluxe room. 30 m² · From 410 PLN. Light, wood and the character of a historic townhouse.",
+    "description": "Suite (40 m²) gives couples or longer-stay guests a separate living room to relax in. It also has a kitchenette and double bed. From PLN 590.",
     "title": "Suite Apartment 40 m² · in central Katowice · from PLN 590 | Hornigold"
   },
   "/pl/": {
@@ -891,8 +893,9 @@
     "description": "Zásady ochrany osobních údajů a informace podle GDPR. Globální poskytovatelé hostingu a map mohou zpracovávat údaje mimo Evropský hospodářský prostor."
   },
   "/cs/": {
-    "title": "Pokoje a apartmány v Zeleném domě · butikový hotel Hornigold",
-    "description": "Butikový hotel v centru Katovic, 5 minut pěšky od nádraží. Pokoje od 380 PLN, apartmány až 105 m², sauna a vířivka. Ověřte dostupnost a rezervujte přímo."
+    "title": "Butikový hotel v centru Katovic — pokoje a apartmány | Hornigold",
+    "description": "Butikový hotel v centru Katovic, 5 minut pěšky od nádraží. Pokoje od 380 PLN, apartmány až 105 m², sauna a vířivka. Ověřte dostupnost a rezervujte přímo.",
+    "h1": "Pokoje a apartmány v centru Katovic"
   },
   "/cs/pred-prijezdem/": {
     "description": "Začněte výběrem kategorie pokoje a termínu. Poté si ověřte příjezd, dokumenty a podmínky, které chcete domluvit s recepcí. Naplánujte si pobyt v Katovicích."
@@ -955,39 +958,39 @@
   },
   "/cs/pokoje/apartman-deluxe/": {
     "title": "Apartmán Deluxe 43–61 m² v centru Katovic · od 600 PLN | Hornigold",
-    "description": "Apartmán Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 43–61 m². Přečtěte si podrobnosti před příjezdem."
+    "description": "43–61 m², od 600 PLN. Apartmán Deluxe je praktický na delší pobyt díky kuchyňskému koutu a individuálně ovládané klimatizaci."
   },
   "/cs/pokoje/classic/": {
     "title": "Pokoj Classic 20–22 m² v centru Katovic · od 380 PLN | Hornigold",
-    "description": "Classic je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 20–22 m². Přečtěte si podrobnosti před příjezdem."
+    "description": "20–22 m², od 380 PLN. Na služební cestu nebo krátký pobyt se hodí Classic s pracovním stolem a možností vybrat manželskou postel nebo dvě samostatná lůžka."
   },
   "/cs/pokoje/deluxe-premium/": {
     "title": "Pokoj Deluxe Premium 26–47 m² v centru Katovic · od 485 PLN | Hornigold",
-    "description": "Deluxe Premium je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 26–47 m². Přečtěte si podrobnosti před příjezdem."
+    "description": "26–47 m², od 485 PLN. Deluxe Premium se hodí při cestě s partnerem i kolegou. Vybrat si můžete manželskou postel nebo dvě samostatná lůžka."
   },
   "/cs/pokoje/deluxe/": {
     "title": "Pokoj Deluxe 30 m² v centru Katovic · od 410 PLN | Hornigold",
-    "description": "Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 30 m². Uspořádání lůžek: jedna manželská postel."
+    "description": "30 m², od 410 PLN. Deluxe je praktický při práci i odpočinku v Katovicích, protože má psací stůl a vlastní kuchyňský kout."
   },
   "/cs/pokoje/hornigold/": {
     "title": "Apartmán Hornigold 105 m² v centru Katovic · od 1100 PLN | Hornigold",
-    "description": "Apartmán Hornigold je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 105 m². Naplánujte si pobyt v Katovicích."
+    "description": "105 m², od 1100 PLN. Apartmán Hornigold poskytne rodinám a přátelům dvě ložnice, dvě koupelny a dva kuchyňské kouty."
   },
   "/cs/pokoje/premium/": {
     "title": "Pokoj Premium 35 m² v centru Katovic · od 450 PLN | Hornigold",
-    "description": "Premium je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 35 m². Uspořádání lůžek: jedna manželská postel."
+    "description": "35 m², od 450 PLN. Na víkend ve dvou se hodí Premium s hydromasážní vanou a kuchyňským koutem pro pohodlné ráno."
   },
   "/cs/pokoje/prestige-deluxe/": {
     "title": "Apartmán Prestige Deluxe 49 m² v centru Katovic · od 795 PLN | Hornigold",
-    "description": "Apartmán Prestige Deluxe je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 49 m². Naplánujte si pobyt v Katovicích."
+    "description": "49 m², od 795 PLN. Na společný víkend s blízkými nabízí Prestige Deluxe dvě ložnice s postelemi queen a samostatný obývací pokoj."
   },
   "/cs/pokoje/prestige/": {
     "title": "Apartmán Prestige 60–70 m² v centru Katovic · od 695 PLN | Hornigold",
-    "description": "Apartmán Prestige je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 60–70 m². Naplánujte si pobyt v Katovicích."
+    "description": "60–70 m², od 695 PLN. Rodiny a přátelé najdou v Prestige dvě ložnice, samostatný obývací pokoj a dvě koupelny."
   },
   "/cs/pokoje/apartma/": {
     "title": "Apartmán Suite 40 m² v centru Katovic · od 590 PLN | Hornigold",
-    "description": "Suite je kategorie v Hornigold w Zielonej Kamienicy na adrese Kopernika 6 v Katovicích. Rozloha činí 40 m². Uspořádání lůžek: jedna manželská postel."
+    "description": "40 m², od 590 PLN. Suite má samostatný obývací pokoj, který ocení páry i hosté při delším pobytu v Katovicích."
   },
   "/cs/pro-firmy/": {
     "description": "Připravte zprávu a před odesláním ze své e-mailové aplikace ji zkontrolujte. Podmínky vám sdělí ubytovací zařízení; poptávka není rezervací pokojů."
@@ -1043,35 +1046,44 @@
     "description": "Zimmer und Apartments · Katowice. Entdecken Sie die Zimmer und Apartments im Grünen Stadthaus. Entdecken Sie das Deluxe-Apartment im Grünen Stadthaus."
   },
   "/en/": {
-    "title": "Rooms and apartments in the Green Townhouse · boutique hotel Hornigold",
-    "description": "Boutique hotel in central Katowice, 5 minutes on foot from the station. Rooms from PLN 380, apartments up to 105 m², sauna and hot tub. Book direct."
+    "title": "Boutique hotel in Katowice city centre — rooms & apartments | Hornigold",
+    "description": "Boutique hotel in central Katowice, 5 minutes on foot from the station. Rooms from PLN 380, apartments up to 105 m², sauna and hot tub. Book direct.",
+    "h1": "Rooms and apartments in Katowice city centre"
   },
   "/en/breakfast/": {
     "title": "Breakfast in the Green Townhouse · 7:00–10:00 | Hornigold"
   },
   "/en/rooms/apartament-deluxe/": {
-    "title": "Deluxe Apartment 43–61 m² · in central Katowice · from PLN 600 | Hornigold"
+    "title": "Deluxe Apartment 43–61 m² · in central Katowice · from PLN 600 | Hornigold",
+    "description": "Staying in Katowice a little longer? The Deluxe Apartment (43–61 m²) has a queen bed, kitchenette and individually controlled air conditioning. From PLN 600."
   },
   "/en/rooms/classic/": {
-    "title": "Classic Room 20–22 m² · in central Katowice · from PLN 380 | Hornigold"
+    "title": "Classic Room 20–22 m² · in central Katowice · from PLN 380 | Hornigold",
+    "description": "In Katowice for work or a short break? Classic (20–22 m²) has a desk and comes with either a double bed or twin beds. Rates start at PLN 380."
   },
   "/en/rooms/deluxe-premium/": {
-    "title": "Deluxe Premium Room 26–47 m² · in central Katowice · from PLN 485 | Hornigold"
+    "title": "Deluxe Premium Room 26–47 m² · in central Katowice · from PLN 485 | Hornigold",
+    "description": "Choose Deluxe Premium (26–47 m²) for a trip with a partner or colleague. You can pick a double or twin layout, with a kitchenette. From PLN 485."
   },
   "/en/rooms/deluxe/": {
-    "title": "Deluxe Room 30 m² · in central Katowice · from PLN 410 | Hornigold"
+    "title": "Deluxe Room 30 m² · in central Katowice · from PLN 410 | Hornigold",
+    "description": "Deluxe (30 m²) has a kitchenette and a desk for a stay that mixes work with time in town. There is a double bed, and rates start at PLN 410."
   },
   "/en/rooms/hornigold/": {
-    "title": "Hornigold Apartment 105 m² · in central Katowice · from PLN 1100 | Hornigold"
+    "title": "Hornigold Apartment 105 m² · in central Katowice · from PLN 1100 | Hornigold",
+    "description": "The Hornigold Apartment (105 m²) gives families or friends room to spread out, with two bedrooms, two kitchenettes and two bathrooms. From PLN 1100."
   },
   "/en/rooms/premium/": {
-    "title": "Premium Room 35 m² · in central Katowice · from PLN 450 | Hornigold"
+    "title": "Premium Room 35 m² · in central Katowice · from PLN 450 | Hornigold",
+    "description": "For a weekend together, Premium (35 m²) pairs a double bed with a whirlpool bath. There is a kitchenette for meals at your own pace. From PLN 450."
   },
   "/en/rooms/prestige-deluxe/": {
-    "title": "Prestige Deluxe Apartment 49 m² · in central Katowice · from PLN 795 | Hornigold"
+    "title": "Prestige Deluxe Apartment 49 m² · in central Katowice · from PLN 795 | Hornigold",
+    "description": "Share a weekend in Katowice in Prestige Deluxe (49 m²). Two bedrooms with queen beds give you privacy, and the living room is separate. From PLN 795."
   },
   "/en/rooms/prestige/": {
-    "title": "Prestige Apartment 60–70 m² · in central Katowice · from PLN 695 | Hornigold"
+    "title": "Prestige Apartment 60–70 m² · in central Katowice · from PLN 695 | Hornigold",
+    "description": "Prestige (60–70 m²) suits families and friends visiting Katowice together. There are two bedrooms, two bathrooms and a separate lounge. From PLN 695."
   },
   "/en/wellness-and-spa/": {
     "title": "Hotel with a hot tub and sauna in central Katowice | Hornigold"
@@ -1084,19 +1096,19 @@
   },
   "/es/habitaciones/classic/": {
     "title": "Habitación Classic 20–22 m² en el centro de Katowice · desde 380 PLN | Hornigold",
-    "description": "Habitación Classic 20–22 m² en el centro de Katowice. Classic es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice. Su superficie es de."
+    "description": "20–22 m², desde 380 PLN. Classic va bien para una escapada o un viaje de trabajo, con escritorio y opción de cama doble o dos camas individuales."
   },
   "/es/habitaciones/deluxe/": {
     "title": "Habitación Deluxe 30 m² en el centro de Katowice · desde 410 PLN | Hornigold",
-    "description": "Habitación Deluxe 30 m² en el centro de Katowice. Distribución de camas: Una cama doble. Sus comodidades incluyen: Wifi; Escritorio; Cocina americana."
+    "description": "30 m², desde 410 PLN. En Deluxe puedes combinar trabajo y descanso en Katowice con un escritorio y una zona de cocina."
   },
   "/es/habitaciones/premium/": {
     "title": "Habitación Premium 35 m² en el centro de Katowice · desde 450 PLN | Hornigold",
-    "description": "Habitación Premium 35 m² en el centro de Katowice. Premium es una categoría de Hornigold en la Casa Verde, en Kopernika 6, Katowice. Su superficie es de 35."
+    "description": "35 m², desde 450 PLN. Premium es una opción para una escapada en pareja, con bañera de hidromasaje y zona de cocina."
   },
   "/es/habitaciones/suite/": {
     "title": "Apartamento Suite 40 m² en el centro de Katowice · desde 590 PLN | Hornigold",
-    "description": "Apartamento Suite 40 m² en el centro de Katowice. Las fechas y el número de huéspedes seleccionados se conservan mientras navega. Comparar categorías."
+    "description": "40 m², desde 590 PLN. La Suite tiene un salón independiente para parejas y para quienes planean quedarse varios días."
   },
   "/es/planifica-una-llegada-tranquila/": {
     "description": "Hornigold dispone de aparcamiento privado en el centro de Katowice. Hornigold está en Kopernika 6. Consulta los detalles antes de tu llegada."
@@ -1105,43 +1117,44 @@
     "description": "Un fin de semana en Katowice. Incluye las fechas, el número de adultos y niños, las camas y la cantidad de habitaciones. Si te importan las escaleras, el."
   },
   "/it/": {
-    "title": "Camere e appartamenti nella Casa Verde · boutique hotel Hornigold",
-    "description": "Boutique hotel in centro a Katowice, a 5 minuti a piedi dalla stazione. Camere da 380 PLN, appartamenti fino a 105 m², sauna e jacuzzi. Prenota sul sito."
+    "title": "Boutique hotel nel centro di Katowice | Hornigold",
+    "description": "Boutique hotel in centro a Katowice, a 5 minuti a piedi dalla stazione. Camere da 380 PLN, appartamenti fino a 105 m², sauna e jacuzzi. Prenota sul sito.",
+    "h1": "Camere e appartamenti nel centro di Katowice"
   },
   "/it/benessere-e-spa/": {
     "title": "Hotel con jacuzzi e sauna nel centro di Katowice | Hornigold"
   },
   "/it/camere/apartament-deluxe/": {
     "title": "Appartamento Deluxe 43–61 m² nel centro di Katowice · da 600 PLN | Hornigold",
-    "description": "Appartamento Deluxe 43–61 m² nel centro di Katowice. Appartamento Deluxe è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+    "description": "43–61 m², da 600 PLN. L’appartamento Deluxe è comodo per soggiorni prolungati grazie all’angolo cottura e alla climatizzazione regolabile."
   },
   "/it/camere/classic/": {
     "title": "Camera Classic 20–22 m² nel centro di Katowice · da 380 PLN | Hornigold",
-    "description": "Camera Classic 20–22 m² nel centro di Katowice. Scopri Deluxe Premium. 26–47 m² · A partire da 485 PLN. Scopri la categoria Premium nel Palazzo Verde."
+    "description": "20–22 m², da 380 PLN. Classic è adatta a una trasferta o a un breve soggiorno, con scrivania e scelta tra letto matrimoniale e letti singoli."
   },
   "/it/camere/deluxe-premium/": {
     "title": "Camera Deluxe Premium 26–47 m² nel centro di Katowice · da 485 PLN | Hornigold",
-    "description": "Camera Deluxe Premium 26–47 m² nel centro di Katowice. Deluxe Premium è una categoria dell’Hornigold nella Casa Verde, in via Kopernika 6 a Katowice."
+    "description": "26–47 m², da 485 PLN. La Deluxe Premium è adatta a un viaggio in coppia o con un collega, con letto matrimoniale o due singoli."
   },
   "/it/camere/deluxe/": {
     "title": "Camera Deluxe 30 m² nel centro di Katowice · da 410 PLN | Hornigold",
-    "description": "Camera Deluxe 30 m² nel centro di Katowice. Disposizione dei letti: Un letto matrimoniale. Le dotazioni comprendono: Wi-Fi; Scrivania; Angolo cottura."
+    "description": "30 m², da 410 PLN. La Deluxe è comoda per chi alterna lavoro e visite in città, con scrivania e angolo cottura."
   },
   "/it/camere/hornigold/": {
     "title": "Appartamento Hornigold 105 m² nel centro di Katowice · da 1100 PLN | Hornigold",
-    "description": "Appartamento Hornigold 105 m² nel centro di Katowice. Confronta le categorie. Organizza il tuo tempo a Katowice. Colori naturali e dettagli classici."
+    "description": "105 m², da 1100 PLN. L’appartamento Hornigold offre a famiglie e amici due camere da letto, due bagni e due angoli cottura."
   },
   "/it/camere/premium/": {
     "title": "Camera Premium 35 m² nel centro di Katowice · da 450 PLN | Hornigold",
-    "description": "Camera Premium 35 m² nel centro di Katowice. Colori naturali e dettagli classici. Scopri da vicino la camera Classic. 20–22 m² · A partire da 380 PLN."
+    "description": "35 m², da 450 PLN. Per un fine settimana in coppia, la Premium ha una vasca idromassaggio e un angolo cottura."
   },
   "/it/camere/prestige/": {
     "title": "Appartamento Prestige 60–70 m² nel centro di Katowice · da 695 PLN | Hornigold",
-    "description": "Appartamento Prestige 60–70 m² nel centro di Katowice. Confronta le categorie. Organizza il tuo tempo a Katowice. Colori naturali e dettagli classici."
+    "description": "60–70 m², da 695 PLN. Per famiglie e amici, Prestige mette a disposizione due camere da letto, due bagni e un soggiorno separato."
   },
   "/it/camere/suite/": {
     "title": "Appartamento Suite 40 m² nel centro di Katowice · da 590 PLN | Hornigold",
-    "description": "Appartamento Suite 40 m² nel centro di Katowice. Si tratta di interni specifici di questa categoria. La colazione viene servita dalle 7:00 alle 10:00."
+    "description": "40 m², da 590 PLN. La Suite offre alle coppie e a chi si ferma più a lungo un soggiorno separato con spazio per rilassarsi."
   },
   "/it/da-sapere/": {
     "description": "L’aria condizionata è indicata per Deluxe Premium, Apartament Deluxe, Prestige Deluxe e Hornigold. Consultate le dotazioni della categoria scelta."
@@ -1169,23 +1182,23 @@
   },
   "/pl/pokoje/apartament-deluxe/": {
     "title": "Apartament Deluxe 43–61 m² w centrum Katowic · od 600 zł | Hornigold",
-    "description": "Apartament Deluxe to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 43–61 m². Układ łóżek: Jedno łóżko queen."
+    "description": "Apartament Deluxe (43–61 m²) w centrum Katowic sprawdzi się przy dłuższym pobycie. Ma łóżko queen, aneks kuchenny i ręcznie regulowaną klimatyzację. Od 600 zł."
   },
   "/pl/pokoje/deluxe-premium/": {
     "title": "Pokój Deluxe Premium 26–47 m² w centrum Katowic · od 485 zł | Hornigold",
-    "description": "Deluxe Premium to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 26–47 m². Sprawdź szczegóły przed przyjazdem."
+    "description": "Podróżujesz we dwoje lub z kolegą? Deluxe Premium (26–47 m²) oferuje wybór układu łóżek, aneks kuchenny i regulowaną klimatyzację. W Katowicach od 485 zł."
   },
   "/pl/pokoje/hornigold/": {
     "title": "Apartament Hornigold 105 m² w centrum Katowic · od 1100 zł | Hornigold",
-    "description": "Apartament Hornigold to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 105 m². Zaplanuj pobyt w Katowicach."
+    "description": "Apartament Hornigold (105 m²) w Katowicach daje rodzinom i znajomym przestrzeń do wspólnego pobytu: dwie sypialnie, dwa aneksy i dwie łazienki. Od 1100 zł."
   },
   "/pl/pokoje/prestige-deluxe/": {
     "title": "Apartament Prestige Deluxe 49 m² w centrum Katowic · od 795 zł | Hornigold",
-    "description": "Apartament Prestige Deluxe 49 m² w centrum Katowic. Ciepłe odcienie i miejsce na chwilę odpoczynku. Zajrzyj do pokoju Deluxe. 30 m² · Cena od 410 PLN."
+    "description": "W Prestige Deluxe (49 m²) dwie sypialnie z łóżkami queen łączą się z osobnym salonem. Dobry wybór na wspólny weekend w Katowicach z bliskimi. Od 795 zł."
   },
   "/pl/pokoje/prestige/": {
     "title": "Apartament Prestige 60–70 m² w centrum Katowic · od 695 zł | Hornigold",
-    "description": "Apartament Prestige to kategoria Hornigold w Zielonej Kamienicy przy ul. Kopernika 6 w Katowicach. Powierzchnia wynosi 60–70 m². Zaplanuj pobyt w Katowicach."
+    "description": "Prestige (60–70 m²) to propozycja dla rodzin i znajomych. W centrum Katowic masz do dyspozycji dwie sypialnie, osobny salon i dwie łazienki. Cena od 695 zł."
   },
   "/pl/rezerwacja/": {
     "description": "W zewnętrznym systemie KWHotel / GuestSage sprawdź dostępność, cenę końcową i warunki wybranej oferty. Zobacz szczegóły pobytu w Katowicach."
@@ -1199,33 +1212,41 @@
     "description": "Po dniu w Katowicach zaplanuj chwilę odpoczynku w Hornigold. W ofercie wellness znajdują się sauna, jacuzzi i masaże. Zobacz szczegóły pobytu w Katowicach."
   },
   "/uk/": {
-    "title": "Номери й апартаменти в Зеленій кам’яниці · бутик-готель Hornigold",
-    "description": "Бутик-готель у центрі Катовіце, за 5 хвилин пішки від вокзалу. Номери від 380 PLN, апартаменти до 105 м², сауна й джакузі. Бронюйте напряму на сайті."
+    "title": "Бутик-готель у центрі Катовіце | Hornigold",
+    "description": "Бутик-готель у центрі Катовіце, за 5 хвилин пішки від вокзалу. Номери від 380 PLN, апартаменти до 105 м², сауна й джакузі. Бронюйте напряму на сайті.",
+    "h1": "Номери й апартаменти в центрі Катовіце"
   },
   "/uk/%D0%B2%D0%B5%D0%BB%D0%BD%D0%B5%D1%81-%D1%96-%D1%81%D0%BF%D0%B0/": {
     "title": "Готель із джакузі та сауною в центрі Катовіце | Hornigold"
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/apartament-deluxe/": {
-    "title": "Апартаменти Deluxe 43–61 m² в центрі Катовіце · від 600 PLN | Hornigold"
+    "title": "Апартаменти Deluxe 43–61 m² в центрі Катовіце · від 600 PLN | Hornigold",
+    "description": "43–61 м², від 600 PLN. Для тривалішого перебування в апартаментах Deluxe є кухонний куточок та регульований кондиціонер."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/classic/": {
-    "title": "Номер Classic 20–22 m² в центрі Катовіце · від 380 PLN | Hornigold"
+    "title": "Номер Classic 20–22 m² в центрі Катовіце · від 380 PLN | Hornigold",
+    "description": "20–22 м², від 380 PLN. Для відрядження чи короткої поїздки підійде Classic із письмовим столом і вибором двоспального або двох односпальних ліжок."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/deluxe-premium/": {
-    "title": "Номер Deluxe Premium 26–47 m² в центрі Катовіце · від 485 PLN | Hornigold"
+    "title": "Номер Deluxe Premium 26–47 m² в центрі Катовіце · від 485 PLN | Hornigold",
+    "description": "26–47 м², від 485 PLN. Deluxe Premium зручний для пари чи поїздки з колегою: можна обрати двоспальне або два односпальні ліжка."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/deluxe/": {
-    "title": "Номер Deluxe 30 m² в центрі Катовіце · від 410 PLN | Hornigold"
+    "title": "Номер Deluxe 30 m² в центрі Катовіце · від 410 PLN | Hornigold",
+    "description": "30 м², від 410 PLN. У Deluxe зручно поєднувати роботу й відпочинок у Катовіце завдяки письмовому столу та кухонному куточку."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/premium/": {
-    "title": "Номер Premium 35 m² в центрі Катовіце · від 450 PLN | Hornigold"
+    "title": "Номер Premium 35 m² в центрі Катовіце · від 450 PLN | Hornigold",
+    "description": "35 м², від 450 PLN. Для вихідних удвох у Premium є гідромасажна ванна й кухонний куточок."
   },
   "/uk/%D0%BD%D0%BE%D0%BC%D0%B5%D1%80%D0%B8/suite/": {
-    "title": "Апартаменти Suite 40 m² в центрі Катовіце · від 590 PLN | Hornigold"
+    "title": "Апартаменти Suite 40 m² в центрі Катовіце · від 590 PLN | Hornigold",
+    "description": "40 м², від 590 PLN. Окрема вітальня в Suite стане у пригоді парам і гостям, які залишаються на кілька днів."
   },
   "/zh-hans/": {
-    "title": "绿藤公寓的客房与套房 · 精品酒店 Hornigold",
-    "description": "Hornigold 精品酒店位于卡托维兹市中心，步行约5分钟即可到达火车站。客房价格从380波兰兹罗提起，公寓面积最大为105平方米，并提供桑拿和按摩浴缸。您可以查看各房型的室内照片，比较面积与床铺安排，选择适合同行人数的住宿。选定日期后，请通过官网预订系统查看可订房型、最终价格和适用条件。"
+    "title": "卡托维兹市中心精品酒店｜Hornigold 客房与公寓",
+    "description": "Hornigold 精品酒店位于卡托维兹市中心，步行约5分钟即可到达火车站。客房价格从380波兰兹罗提起，公寓面积最大为105平方米，并提供桑拿和按摩浴缸。您可以查看各房型的室内照片，比较面积与床铺安排，选择适合同行人数的住宿。选定日期后，请通过官网预订系统查看可订房型、最终价格和适用条件。",
+    "h1": "卡托维兹市中心的客房与公寓"
   },
   "/zh-hans/%E4%BB%8E%E5%87%BA%E5%8F%91%E5%89%8D%E5%BC%80%E5%A7%8B%E5%AE%89%E5%BF%83%E8%A7%84%E5%88%92%E6%97%85%E7%A8%8B/": {
     "description": "请先选择房型和入住日期，再查看交通路线、相关文件以及需要与前台确认的条件。周边指南可帮助您规划行程，但不代表预订已确认，也不保证相关服务有空位。出发前，您还可以查看卡托维兹的交通信息，了解如何从火车站或机场抵达 Kopernika 街 6 号，并通过住宿网站的相关页面提前规划行程。"
@@ -1245,39 +1266,39 @@
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/apartament-deluxe/": {
     "title": "Deluxe 公寓 43–61 m² · 卡托维兹市中心 · 600 波兰兹罗提起 | Hornigold",
-    "description": "Deluxe 公寓 43–61 m² · 卡托维兹市中心。浏览网站期间，您选择的日期与入住人数会予以保留。住宿总价、空房情况和房价条款须按具体日期提供的报价确定。出发前请查看位置页面，了解从火车站及机场前往Hornigold的路线，并通过带旗帜的入口照片辨认建筑。早餐供应时间为7:00至10:00。"
+    "description": "43–61 平方米，600 波兰兹罗提起。计划多住几晚，可选 Deluxe 公寓。房内配大号双人床、小厨房和可手动调节的空调，适合按自己的节奏安排住宿。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/classic/": {
     "title": "Classic 客房 20–22 m² · 卡托维兹市中心 · 380 波兰兹罗提起 | Hornigold",
-    "description": "Classic 客房 20–22 m² · 卡托维兹市中心。浏览网站期间，您选择的日期与入住人数会予以保留。住宿总价、空房情况和房价条款须按具体日期提供的报价确定。出发前请查看位置页面，了解从火车站及机场前往Hornigold的路线，并通过带旗帜的入口照片辨认建筑。早餐供应时间为7:00至10:00。"
+    "description": "20–22 平方米，380 波兰兹罗提起。短途旅行或出差，可选设有书桌的 Classic 客房。房间提供一张双人床或两张单人床的布局，方便按同行方式选择。部分房间设浴缸，其他房间设淋浴。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/deluxe-premium/": {
     "title": "Deluxe Premium 客房 26–47 m² · 卡托维兹市中心 · 485 波兰兹罗提起 | Hornigold",
-    "description": "Deluxe Premium 客房 26–47 m² · 卡托维兹市中心。设施包括：无线网络; 小厨房; 手动调节空调。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。照片中可见：带裸露横梁、床和红色沙发的室内空间。照片展示的是这一类别中的具体客房，请留意空间布局、床边空间和浴室设施。"
+    "description": "26–47 平方米，485 波兰兹罗提起。Deluxe Premium 适合与伴侣或同事同行。可选一张双人床或两张单人床，房内设小厨房和可手动调节的空调。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/deluxe/": {
     "title": "Deluxe 客房 30 m² · 卡托维兹市中心 · 410 波兰兹罗提起 | Hornigold",
-    "description": "Deluxe 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为30 m²。床型安排：一张双人床。设施包括：无线网络; 书桌; 小厨房。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
+    "description": "30 平方米，410 波兰兹罗提起。在卡托维兹兼顾工作和观光，可选 Deluxe 客房。书桌便于处理工作，小厨房方便安排简餐，房内配有双人床。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/hornigold/": {
     "title": "Hornigold 公寓 105 m² · 卡托维兹市中心 · 1100 波兰兹罗提起 | Hornigold",
-    "description": "Hornigold 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为105 m²。床型安排：两间卧室，各有一张Queen床。设施包括：无线网络; 两间小厨房; 两间浴室; 手动调节空调。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+    "description": "105 平方米，1100 波兰兹罗提起。Hornigold 公寓适合家人或朋友一起入住。两间卧室、两间浴室和两个小厨房，便于同行者分别安排作息。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/premium/": {
     "title": "Premium 客房 35 m² · 卡托维兹市中心 · 450 波兰兹罗提起 | Hornigold",
-    "description": "Premium 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为35 m²。床型安排：一张双人床。设施包括：无线网络; 小厨房; 按摩浴缸与淋浴。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。您可以根据自己的行程查看页面中的详细说明，了解住宿期间可参考的信息。"
+    "description": "35 平方米，450 波兰兹罗提起。双人周末可考虑 Premium 客房。逛完卡托维兹后可在按摩浴缸放松，房内还设小厨房，并配一张双人床。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/prestige-deluxe/": {
     "title": "Prestige Deluxe 公寓 49 m² · 卡托维兹市中心 · 795 波兰兹罗提起 | Hornigold",
-    "description": "Prestige Deluxe 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为49 m²。床型安排：两间卧室，各有一张Queen床。设施包括：无线网络; 小厨房; 独立客厅; 手动调节空调; 淋浴。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+    "description": "49 平方米，795 波兰兹罗提起。Prestige Deluxe 适合与亲友一起出游。两间卧室各配一张大号双人床，另有独立起居室和小厨房。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/prestige/": {
     "title": "Prestige 公寓 60–70 m² · 卡托维兹市中心 · 695 波兰兹罗提起 | Hornigold",
-    "description": "Prestige 公寓 位于卡托维兹 Kopernika 街6号的 Hornigold 绿荫公馆，面积为60–70 m²。床型安排：两间卧室；一张双人床加两张单人床，或两张双人床；沙发。设施包括：无线网络; 小厨房; 独立客厅; 两间浴室。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。"
+    "description": "60–70 平方米，695 波兰兹罗提起。Prestige 适合家人或朋友同游卡托维兹。两间卧室、两间浴室和独立起居室，方便同行者各自休息或一起用餐。"
   },
   "/zh-hans/%E5%AE%A2%E6%88%BF/suite/": {
     "title": "Suite 公寓 40 m² · 卡托维兹市中心 · 590 波兰兹罗提起 | Hornigold",
-    "description": "Suite 公寓 40 m² · 卡托维兹市中心。您可以根据这些信息选择适合城市短途旅行、休闲住宿或商务出行的空间。照片中可见：木质床头的床与床头灯。照片展示的是这一类别中的具体客房，请留意空间布局、床边空间和浴室设施。如有对您特别重要的设施或布局，请在咨询时说明，以便前台提供适合您需求的建议。"
+    "description": "40 平方米，590 波兰兹罗提起。Suite 设独立起居室，适合两人度假或多住几晚。房内配双人床和小厨房，浴室按房间配置设浴缸或淋浴。"
   },
   "/zh-hans/%E5%BA%B7%E4%BD%93%E4%B8%8E%E6%B0%B4%E7%96%97/": {
     "title": "卡托维兹市中心配有按摩浴缸与桑拿的酒店 | Hornigold",

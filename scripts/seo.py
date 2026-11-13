@@ -100,6 +100,7 @@ def apply_seo(soup, route, root, mode, routes, overrides):
             for language in ('pl', 'x-default'):
                 soup.head.append(soup.new_tag('link', rel='alternate', hreflang=language, href=url))
     override = overrides.get(canonical_route, {})
+    if 'h1' in override: soup.h1.string = override['h1']
     if 'title' in override: soup.title.string = override['title']
     if 'description' in override: set_meta(soup, 'description', override['description'])
     title = soup.title.get_text(strip=True)
