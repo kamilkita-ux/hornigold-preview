@@ -127,3 +127,16 @@ body[data-page-key="konferencje"] .comparison-table-scroll table{min-width:0;wid
 main p a,header nav a,.header-email,summary{min-height:44px;display:inline-flex;align-items:center}main p a{max-width:100%;overflow-wrap:anywhere}summary{display:list-item;padding-block:8px}html,body{overflow-wrap:break-word}img{max-width:100%}
 /* CloudMentor 2026-10-09: panel rezerwacji GuestSage — wygląd jak .notice, bez roli komunikatu (app.js:65 pisze do .notice). */
 .booking-panel{padding:28px;background:var(--warm);border-left:3px solid var(--gold);margin-bottom:30px}.booking-panel h2{font-size:1.9rem}.booking-panel p:last-child{margin-bottom:0}@media(max-width:760px){.booking-panel{padding:22px}}
+
+.holiday-guide{padding-block:clamp(2rem,5vw,4rem);scroll-margin-top:13rem}
+.holiday-intro{background:var(--deep);color:var(--paper);padding:clamp(1.5rem,5vw,4rem);border-top:4px solid var(--gold)}
+.holiday-intro h2{color:inherit;margin-block:.5rem 1rem}
+.holiday-intro p{color:inherit;max-width:62ch}
+.holiday-guide>h3{margin-top:2rem}
+.holiday-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr));gap:1rem;list-style:none;padding:0}
+.holiday-list li{background:var(--warm);padding:1.25rem;border-top:2px solid var(--gold);overflow-wrap:anywhere}
+.holiday-list h4{font:normal 1.35rem/1.2 var(--serif);margin-block:.5rem}
+.holiday-list p{margin-block:.55rem}
+.holiday-date{font-size:.88rem;font-variant-numeric:tabular-nums;font-weight:700}
+.holiday-list a{display:inline-flex;align-items:center;min-height:44px;text-decoration:underline}
+.holiday-note{border-inline-start:3px solid var(--gold);padding-inline-start:1rem;max-width:72ch}

@@ -2,6 +2,7 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from urllib.parse import unquote
+from silesia_holidays import ANCHOR, COPY as HOLIDAY_COPY, render_holidays
 
 COPY = {
     'pl': ('Kalendarz wydarzeń w Katowicach', 'Nadchodzące w 2026', 'Zapowiedziane na 2027', 'Wybrane wydarzenia z 2026 roku', 'Sprawdź program', 'Terminy według organizatorów. Przed podróżą sprawdź program i dostępność biletów. Kalendarz obejmuje opublikowane terminy.', ['Koncert / festiwal', 'Sport', 'Esport', 'Targi', 'Kongres', 'Kultura', 'Konkurs']),
@@ -39,6 +40,10 @@ def apply_calendar(soup, language, data, routes):
         link.string = title
         paragraph = soup.new_tag('p')
         paragraph.append(link)
+        paragraph.append(' · ')
+        seasonal = soup.new_tag('a', href=routes[language] + '#' + ANCHOR)
+        seasonal.string = HOLIDAY_COPY[language][0]
+        paragraph.append(seasonal)
         intro = soup.select_one('main .page-intro') or soup.select_one('main .hero-content')
         if intro:
             intro.append(paragraph)
@@ -100,3 +105,4 @@ def apply_calendar(soup, language, data, routes):
             listing.append(item)
         section.append(listing)
     soup.main.insert(1, section)
+    section.insert_before(render_holidays(soup, language))
